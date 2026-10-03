@@ -52,57 +52,19 @@ bank, scoring algorithm, or result-history feature has been implemented.
 | Hosting | GitHub Pages |
 | Saved results | Browser localStorage |
 
-There will be no database, account system, or backend API. The browser
-will calculate results locally. CSS Modules are supported by Vite;
-shared CSS variables and localStorage need no additional dependencies.
+There will be no database, account system, or backend API. 
 
-The agreed axis definitions currently remain in docs/AXES.md. JSON
-definitions will be added during implementation without changing their
-meaning. Question counts, scoring rules, and weights are not yet agreed.
+The browser will calculate results locally.
 
 ## Saved Result History
 
 Users will be able to opt in to saving completed quiz results and see
 their history when they return using the same browser and site address.
-Each saved result should include its completion date, quiz length,
-all 15 axis scores, and question-bank and scoring versions.
 
-History will be stored locally, not uploaded to a server. It will not
-automatically sync between browsers or devices. Clearing site data
+History will be stored locally, not uploaded to a server. Clearing site data
 removes it; private browsing generally removes it when the private
 session ends. Changing the site's origin also changes which storage
 is accessible.
-
-Provide deletion controls and JSON export/import for backup and transfer.
-Validate imported and stored data before use. Storage failures or invalid
-history must not prevent users from completing the quiz or viewing a new
-result. Raw-answer retention and the detailed storage schema remain open
-decisions; saving results does not imply saving every answer.
-
-## Development Dependencies
-
-Use Node.js 22.12+ within the Node 22 release line, Node 24, or Node 26+,
-as declared in package.json, with npm. The initial installation was
-verified using Node.js 22.23.3 and npm 12.1.0.
-
-Install the locked dependencies with `npm ci`. Commit package-lock.json
-alongside package.json to keep installations reproducible.
-
-React and React DOM are runtime dependencies. Development dependencies
-include TypeScript, Vite, the Vite React plugin, React/React DOM/Node type
-definitions, Vitest, and Playwright Test.
-
-Application entry points, tool configuration, scripts, and test suites
-will be added when implementation is requested. No development server
-or deployment is configured yet. Playwright browser binaries can be
-installed with `npx playwright install` when browser tests are introduced.
-
-## Hosting Plan
-
-Build a static site for GitHub Pages. Configure Vite's base path for
-the eventual repository URL or custom domain. Quiz navigation should
-use internal state or hash-based routes so refreshing a screen does
-not require server-side routing. Deployment setup is still pending.
 
 ## Decisions Still Needed
 
@@ -116,8 +78,6 @@ not require server-side routing. Deployment setup is still pending.
 - Results layout and eventual compass presentation.
 - Whether raw answers are retained alongside saved results.
 - Detailed result-history schema, retention limits, and migration behaviour.
-
-These are open decisions, not permission to implement them.
 
 ## Documentation
 
