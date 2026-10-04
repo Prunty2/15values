@@ -1,0 +1,1417 @@
+{
+  "schemaVersion": 1,
+  "task": "25 requested ideology profiles",
+  "completedAt": "2026-10-04",
+  "status": "complete-local-with-unrelated-browser-test-failures",
+  "baselineCommit": "b7229ff98c64a05f8045a201b1b4aff180ad194a",
+  "scope": {
+    "catalogue": "ideology",
+    "profiles": 25,
+    "answersPerProfile": 240,
+    "answers": 6000,
+    "axesPerProfile": 15,
+    "archivedRevisions": 25,
+    "questionBankVersion": "1.0.0",
+    "axesVersion": "1.0.0",
+    "scoringVersion": "2.0.0",
+    "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+    "scores": "Generated using the existing comprehensive-quiz scoring function; no bank, scoring, validator or UI code changes.",
+    "publication": "Integrated into the local generated catalogue. No remote deployment, commit or PR performed.",
+    "images": "Optional ideology images omitted; no image credits added."
+  },
+  "method": {
+    "procedure": "docs/personality assessments/NEW_PROFILE.md; 12Axes-style sourced question-by-question assessment adapted to this project’s own questions and scoring.",
+    "specificVariants": "Every subject has an explicit doctrine, regional or historical scope and period. This is not a survey of all adherents.",
+    "separateReviews": "Each 240-answer assessment received a separate agent evidence review. Reviews corrected literal wording, direction, inference, source dates and government implementation claims before archiving.",
+    "contemporaryEvidence": "Recent government acts and reporting corroborate relevant contemporary variants; foundational doctrines are not redefined as the positions of an incumbent government. Manifestos, announcements, allocations, implemented acts and reported allegations are distinguished in the source records.",
+    "neutralInterpretation": "The user authorised complete representative assessments and neutral answers. Neutral responses explicitly model mixed or conditional judgements, principled non-ranking, or rejection of both premises where explained. They are not measurements of empirical causal equality. Historical modern-technology responses are disclosed analogies.",
+    "questionnaireFit": "Stateless communism and social anarchism do not fit every question’s state, taxation and wage premises. Their explained neutral midpoints must not be read as ideological moderation. Some narrow human-trait comparisons are non-ranking representative models, not documented scientific positions.",
+    "similarity": "All pairwise scores examined; only civic-nationalism and liberal-feminism exceed 95%. Both revision-one records contain reciprocal scope-retention decisions. No answers tuned to reduce similarity.",
+    "limitations": "Separate review and structural validation do not certify the accuracy of every interpretation. The underlying question bank remains in development."
+  },
+  "verification": {
+    "dependencyInstall": "npm ci passed; zero reported vulnerabilities. No new dependency added.",
+    "questionBank": "npm run questions:check passed: 240 questions, 15 axes.",
+    "unitTests": {
+      "command": "npm test",
+      "passed": 77,
+      "files": 4,
+      "timing": "Passed during assessment work, before the archive step."
+    },
+    "perProfileValidation": {
+      "command": "npm run profiles -- validate ideology <id>",
+      "profiles": 25,
+      "errors": 0,
+      "warnings": "All neutral-count warnings read and considered in separate evidence reviews; retained in per-profile records below."
+    },
+    "archiveAndGeneration": "25 revision-one archives created through profiles archive; profiles build passed. Draft, archive and downloadable assessment contents agree byte-for-byte.",
+    "generatedData": "npm run profiles:check passed: 25 published profiles.",
+    "history": "npm run profiles -- history b7229ff98c64a05f8045a201b1b4aff180ad194a passed. No previous archive exists at that base; current additions were also checked directly.",
+    "productionBuild": "npm run build passed, including profile check and TypeScript.",
+    "browserSuite": {
+      "command": "npm run test:e2e",
+      "passed": 130,
+      "failed": 2,
+      "failures": [
+        {
+          "test": "tests/platform.spec.ts:77 navigation supports back, reload, current page, and keyboard focus",
+          "project": "desktop",
+          "detail": "Navigation centering asserted against the 1440-pixel window; rendered content width is 1425 pixels because of the existing stable scrollbar gutter. Measured offset 7.5078125 pixels."
+        },
+        {
+          "test": "tests/results.spec.ts:19 profile layout, all endpoints, help controls and complementary percentages",
+          "project": "desktop",
+          "detail": "Results-heading centering asserted against window width; observed 7.5-pixel offset from the existing 15-pixel scrollbar gutter."
+        }
+      ],
+      "scope": "These shared layout assertions are outside the profile data changes. Production layout and tests were not modified."
+    },
+    "actualCatalogueBrowsers": [
+      {
+        "viewport": "desktop",
+        "profiles": 25,
+        "checks": [
+          "index",
+          "search and no results",
+          "keyboard detail navigation",
+          "15 axes",
+          "ideology phrase",
+          "source link",
+          "240-answer download",
+          "reload",
+          "no horizontal overflow",
+          "footer credits"
+        ],
+        "pageErrors": []
+      },
+      {
+        "viewport": "mobile",
+        "profiles": 25,
+        "checks": [
+          "index",
+          "search and no results",
+          "keyboard detail navigation",
+          "15 axes",
+          "ideology phrase",
+          "source link",
+          "240-answer download",
+          "reload",
+          "no horizontal overflow",
+          "footer credits"
+        ],
+        "pageErrors": []
+      },
+      {
+        "viewport": "safari",
+        "profiles": 25,
+        "checks": [
+          "index",
+          "search and no results",
+          "keyboard detail navigation",
+          "15 axes",
+          "ideology phrase",
+          "source link",
+          "240-answer download",
+          "reload",
+          "no horizontal overflow",
+          "footer credits"
+        ],
+        "pageErrors": []
+      }
+    ],
+    "visualInspection": "Inspected rendered mobile liberal-feminism and desktop nazism screenshots, including scoped headings, axis rows, sources and footer.",
+    "diffWhitespace": "git diff --check passed."
+  },
+  "similarityPairsAtOrAbove95": [
+    {
+      "first": "civic-nationalism",
+      "second": "liberal-feminism",
+      "similarity": 95.32666666666667
+    }
+  ],
+  "profiles": [
+    {
+      "id": "american-conservatism",
+      "name": "American Conservatism (Trump-era Republican programme)",
+      "period": "United States: 2024 Republican programme, with 2025 executive-order implementation checks",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 55,
+      "sources": 5,
+      "independentPublisherLabels": 4,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/american-conservatism/1.json",
+      "archiveSha256": "67c500aa5b2d5195b311e8727d331f8064baf34042762192262927ba6bc42a6f",
+      "warningsReviewed": [
+        "secular-religious: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 10/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "nationalist-conservatism",
+          "revision": 1,
+          "similarity": 87.82
+        },
+        {
+          "id": "thatcherism",
+          "revision": 1,
+          "similarity": 85.12666666666667
+        },
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 84.28
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 79.28666666666666
+        },
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 76.66666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "anarcho-capitalism",
+      "name": "Anarcho-capitalism (Rothbardian)",
+      "period": "Rothbardian market anarchism, 1973–1982",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 51,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/anarcho-capitalism/1.json",
+      "archiveSha256": "38a89261d73aec6e1967f80aed7b4836f1372961c1afb6613f4dc13acff9d8f5",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 11/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 15/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "libertarianism",
+          "revision": 1,
+          "similarity": 94.98
+        },
+        {
+          "id": "minarchism",
+          "revision": 1,
+          "similarity": 94.78
+        },
+        {
+          "id": "objectivism",
+          "revision": 1,
+          "similarity": 88.43333333333334
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 81.46000000000001
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 80.61333333333334
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "christian-democracy",
+      "name": "Christian Democracy (European social-market tradition)",
+      "period": "Post-war European tradition; 2012 EPP principles with 2025–2026 context",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 74,
+      "sources": 5,
+      "independentPublisherLabels": 4,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/christian-democracy/1.json",
+      "archiveSha256": "c515e7d0e005f9a88565b5c3eb167a547227f9fbf7e761772789f3b6080888ae",
+      "warningsReviewed": [
+        "militarist-pacifist: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 14/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "conservative-centrism",
+          "revision": 1,
+          "similarity": 94.05333333333333
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 88.00666666666666
+        },
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 86.74666666666667
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 85.51333333333334
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 84.89333333333333
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "civic-nationalism",
+      "name": "Civic nationalism (Scottish SNP tradition)",
+      "period": "Scottish SNP civic-national programme, 2024–2026",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 51,
+      "sources": 5,
+      "independentPublisherLabels": 5,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/civic-nationalism/1.json",
+      "archiveSha256": "59d855424b947e78aab0ddfadb215f91028c7b14c4a6eb55d113e7f9f2d2bc13",
+      "warningsReviewed": [
+        "public-private: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 6/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 95.32666666666667
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 93.64
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 92.07333333333334
+        },
+        {
+          "id": "marxism",
+          "revision": 1,
+          "similarity": 89.27333333333334
+        },
+        {
+          "id": "green-politics",
+          "revision": 1,
+          "similarity": 88.76666666666667
+        }
+      ],
+      "similarityDecisions": [
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "reason": "Reviewed revision 1 of both profiles after independent literal-question and evidence checks. Retain both scoped subjects despite the diagnostic overlap: Scottish SNP civic nationalism centres national self-determination and residence-based membership, whereas US egalitarian liberal feminism centres gendered autonomy, equal political agency and reform of care institutions. The current questions capture much shared liberal and social-democratic policy, so similar coordinates do not establish doctrinal identity. Ownership, military, fiscal and secession responses retain evidence-based distinctions; source-supported values were not tuned to create distance. This decision is a named scope-retention judgement, not a claim that all civic nationalists or feminists share either profile."
+        }
+      ]
+    },
+    {
+      "id": "communism",
+      "name": "Communism (Marx–Engels higher-phase ideal)",
+      "period": "Nineteenth-century Marx–Engels higher-phase ideal",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 102,
+      "sources": 6,
+      "independentPublisherLabels": 3,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/communism/1.json",
+      "archiveSha256": "553a62def22e15772343397b79148eedfe6fd1fcb767ac569115fa49738bce40",
+      "warningsReviewed": [
+        "democracy-autocracy: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "assimilation-multiculturalism: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "nationalism-internationalism: 12/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 11/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "social-anarchism",
+          "revision": 1,
+          "similarity": 93.76666666666667
+        },
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 90.51333333333334
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 89.68666666666667
+        },
+        {
+          "id": "marxism",
+          "revision": 1,
+          "similarity": 89.59333333333333
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 89.17333333333333
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "conservative-centrism",
+      "name": "Conservative Centrism (One Nation tradition)",
+      "period": "British One Nation and Middle Way tradition, post-1945",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 91,
+      "sources": 5,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/conservative-centrism/1.json",
+      "archiveSha256": "e2557d138249a4977f1fcfdf6e77ab870bf15cee814912fcc0cd4698eb30f6f2",
+      "warningsReviewed": [
+        "authority-liberty: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "assimilation-multiculturalism: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "nationalism-internationalism: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "secular-religious: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 9/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 94.05333333333333
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 87.94
+        },
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 87.4
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 87.28666666666666
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 86.16666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "democratic-socialism",
+      "name": "Democratic Socialism (DSA programme tradition)",
+      "period": "Contemporary United States; live DSA programme at 4 October 2026",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 38,
+      "sources": 4,
+      "independentPublisherLabels": 3,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/democratic-socialism/1.json",
+      "archiveSha256": "a81c597ead140ed5a017d14788cd0aa6cf230ab3633b3dbb4515d45ed16a37dc",
+      "warningsReviewed": [
+        "nationalism-internationalism: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 94.05333333333333
+        },
+        {
+          "id": "green-politics",
+          "revision": 1,
+          "similarity": 90.09333333333333
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 89.46666666666667
+        },
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 87.9
+        },
+        {
+          "id": "marxism",
+          "revision": 1,
+          "similarity": 86.86666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "fascism",
+      "name": "Fascism (Italian doctrine, 1927–1932)",
+      "period": "Italian Fascist doctrinal settlement, 1927–1932",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 62,
+      "sources": 4,
+      "independentPublisherLabels": 4,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/fascism/1.json",
+      "archiveSha256": "c982a63353275d4479c7a2495ae96005725ef05a52e62a787bbc348dc17a3258",
+      "warningsReviewed": [
+        "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 11/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 12/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "nazism",
+          "revision": 1,
+          "similarity": 88.13333333333333
+        },
+        {
+          "id": "nationalist-conservatism",
+          "revision": 1,
+          "similarity": 80.52666666666667
+        },
+        {
+          "id": "islamism",
+          "revision": 1,
+          "similarity": 80.40666666666667
+        },
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 76.24000000000001
+        },
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 72.81333333333333
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "green-politics",
+      "name": "Green Politics (Global Greens Charter tradition)",
+      "period": "Global Greens Charter, 2017 edition; implementation context checked October 2026",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 42,
+      "sources": 5,
+      "independentPublisherLabels": 4,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/green-politics/1.json",
+      "archiveSha256": "1f437a6aaa729525d19441e4ff17c568c719744b82b84faebed2859fed01ed0e",
+      "warningsReviewed": [
+        "restricted-immigration-open-immigration: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 92.70666666666666
+        },
+        {
+          "id": "democratic-socialism",
+          "revision": 1,
+          "similarity": 90.09333333333333
+        },
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 89.57333333333332
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 88.76666666666667
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 88.66
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "islamism",
+      "name": "Islamism (Iranian Khomeinist tradition)",
+      "period": "Iranian Khomeinist constitutional tradition, 1979–2026",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 82,
+      "sources": 5,
+      "independentPublisherLabels": 5,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/islamism/1.json",
+      "archiveSha256": "cce47a0025e5f2d773cae9259f711f67fd482150fd900f304ef23aeb43b87be8",
+      "warningsReviewed": [
+        "democracy-autocracy: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "authority-liberty: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "assimilation-multiculturalism: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "restricted-immigration-open-immigration: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "militarist-pacifist: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 12/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "nationalist-conservatism",
+          "revision": 1,
+          "similarity": 85.13333333333333
+        },
+        {
+          "id": "fascism",
+          "revision": 1,
+          "similarity": 80.40666666666667
+        },
+        {
+          "id": "conservative-centrism",
+          "revision": 1,
+          "similarity": 76.98
+        },
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 76.46000000000001
+        },
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 76.24666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "liberal-conservatism",
+      "name": "Liberal Conservatism (Australian tradition)",
+      "period": "Australia: Liberal Party federal platform adopted April 2002",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 69,
+      "sources": 4,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/liberal-conservatism/1.json",
+      "archiveSha256": "9dbdd25e7007f02d043f32cdbd4ca4b1cb3417050e7c2d908611000c7387bd86",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 9/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 90.42
+        },
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 88.00666666666666
+        },
+        {
+          "id": "conservative-centrism",
+          "revision": 1,
+          "similarity": 87.28666666666666
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 86.86
+        },
+        {
+          "id": "thatcherism",
+          "revision": 1,
+          "similarity": 85.44
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "liberal-feminism",
+      "name": "Liberal feminism (US egalitarian tradition)",
+      "period": "United States, 1966–2026; research cut-off 2026-10-04",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 57,
+      "sources": 6,
+      "independentPublisherLabels": 3,
+      "author": "Codex /root; independent question-by-question assessment",
+      "reviewer": "Codex /root/libertarian_historical, separate evidence review of /root assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/liberal-feminism/1.json",
+      "archiveSha256": "a42fd153104d5dcd16084706e3dc8972155188154e3fd895ab47fcd7a1deee3e",
+      "warningsReviewed": [
+        "public-private: 13/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 95.32666666666667
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 93.75333333333333
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 93
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 90.33333333333333
+        },
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 88.96666666666667
+        }
+      ],
+      "similarityDecisions": [
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "reason": "Reviewed revision 1 of both profiles after independent literal-question and evidence checks. Retain both scoped subjects despite the diagnostic overlap: Scottish SNP civic nationalism centres national self-determination and residence-based membership, whereas US egalitarian liberal feminism centres gendered autonomy, equal political agency and reform of care institutions. The current questions capture much shared liberal and social-democratic policy, so similar coordinates do not establish doctrinal identity. Ownership, military, fiscal and secession responses retain evidence-based distinctions; source-supported values were not tuned to create distance. This decision is a named scope-retention judgement, not a claim that all civic nationalists or feminists share either profile."
+        }
+      ]
+    },
+    {
+      "id": "liberalism",
+      "name": "Liberalism (Oxford constitutional tradition)",
+      "period": "Post-war constitutional liberalism; Oxford Manifesto (1947)",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 54,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/liberalism/1.json",
+      "archiveSha256": "4cf6fa0bc17d39860447714d49b12a889a55bfcb0ecdd2899329c2f81c1883df",
+      "warningsReviewed": [
+        "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 11/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 90.33333333333333
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 88.76666666666667
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 88.46000000000001
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 86.86
+        },
+        {
+          "id": "social-anarchism",
+          "revision": 1,
+          "similarity": 86.14666666666668
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "libertarianism",
+      "name": "Libertarianism (US Libertarian Party tradition)",
+      "period": "United States; modern rights-based Libertarian Party formulation",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 60,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/libertarianism/1.json",
+      "archiveSha256": "1f09ca2c474d1847742ff15f6b4e64b7997abedb38651a4eac4b99a5a157b139",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 12/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 16/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "anarcho-capitalism",
+          "revision": 1,
+          "similarity": 94.98
+        },
+        {
+          "id": "minarchism",
+          "revision": 1,
+          "similarity": 94.78666666666666
+        },
+        {
+          "id": "objectivism",
+          "revision": 1,
+          "similarity": 90.93333333333334
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 81.66666666666667
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 81.04666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "luxemburgism",
+      "name": "Luxemburgism (democratic revolutionary Marxism)",
+      "period": "Rosa Luxemburg’s political doctrine, c. 1899–1919",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 58,
+      "sources": 5,
+      "independentPublisherLabels": 3,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/luxemburgism/1.json",
+      "archiveSha256": "2dcff7d3c9b205517d79e31d5997fc667a2eb4d0b141749e298f9317d7983825",
+      "warningsReviewed": [
+        "nationalism-internationalism: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "democratic-socialism",
+          "revision": 1,
+          "similarity": 94.05333333333333
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 93.33333333333333
+        },
+        {
+          "id": "marxism",
+          "revision": 1,
+          "similarity": 92.18666666666667
+        },
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 90.51333333333334
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 89.67333333333335
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "marxism",
+      "name": "Marxism (classical Marx–Engels)",
+      "period": "Classical Marx–Engels, 1845–1895; transitional politics",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 64,
+      "sources": 8,
+      "independentPublisherLabels": 3,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/marxism/1.json",
+      "archiveSha256": "f4a325d0182a3dcba248de52c956e8453a5be2b52350bae66ef4ecb8778b7ff9",
+      "warningsReviewed": [
+        "authority-liberty: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "nationalism-internationalism: 11/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 92.18666666666667
+        },
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 89.59333333333333
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 89.27333333333334
+        },
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 88.85333333333332
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 88.54
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "minarchism",
+      "name": "Minarchism (Nozick, 1974)",
+      "period": "Nozickian minimal-state theory, 1974",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 77,
+      "sources": 4,
+      "independentPublisherLabels": 4,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/minarchism/1.json",
+      "archiveSha256": "f6c023a73a408ec0718aa735c78f1eabbd106207830643866076ab8b7d832cb1",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "nationalism-internationalism: 13/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 11/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 16/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "libertarianism",
+          "revision": 1,
+          "similarity": 94.78666666666666
+        },
+        {
+          "id": "anarcho-capitalism",
+          "revision": 1,
+          "similarity": 94.78
+        },
+        {
+          "id": "objectivism",
+          "revision": 1,
+          "similarity": 92.6
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 85.82666666666667
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 84.99333333333334
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "nationalist-conservatism",
+      "name": "Nationalist Conservatism (2022 NatCon principles)",
+      "period": "Western national-conservative statement, 2022",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 70,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/nationalist-conservatism/1.json",
+      "archiveSha256": "2f4f05543b96ff8d091863a35d9ba08f723d123543a3548d8cf3751c95b5f65c",
+      "warningsReviewed": [
+        "public-private: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "secular-religious: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 9/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 87.82
+        },
+        {
+          "id": "islamism",
+          "revision": 1,
+          "similarity": 85.13333333333333
+        },
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 82.48666666666666
+        },
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 81.14
+        },
+        {
+          "id": "fascism",
+          "revision": 1,
+          "similarity": 80.52666666666667
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "nazism",
+      "name": "Nazism (German National Socialism, 1920–1945)",
+      "period": "German National Socialism, 1920–1945",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 42,
+      "sources": 6,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/nazism/1.json",
+      "archiveSha256": "ac16dc53578270047a0326d8436c327a39ec6c8ad0a343a457b16a0ca2eca6e2",
+      "warningsReviewed": [
+        "public-private: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "secular-religious: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 6/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "fascism",
+          "revision": 1,
+          "similarity": 88.13333333333333
+        },
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 73.73333333333333
+        },
+        {
+          "id": "islamism",
+          "revision": 1,
+          "similarity": 72.9
+        },
+        {
+          "id": "nationalist-conservatism",
+          "revision": 1,
+          "similarity": 71.76666666666667
+        },
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 66.56
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "neoconservatism",
+      "name": "Neoconservatism (post-Cold War American school)",
+      "period": "United States, c. 1997–2008",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 84,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/neoconservatism/1.json",
+      "archiveSha256": "2d696fb332f9f4cebf22b2a809303ff6a5c6537a1027dc76e5bb3d867d18007b",
+      "warningsReviewed": [
+        "authority-liberty: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "assimilation-multiculturalism: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "restricted-immigration-open-immigration: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 12/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 90.42
+        },
+        {
+          "id": "thatcherism",
+          "revision": 1,
+          "similarity": 88.99333333333334
+        },
+        {
+          "id": "christian-democracy",
+          "revision": 1,
+          "similarity": 86.74666666666667
+        },
+        {
+          "id": "conservative-centrism",
+          "revision": 1,
+          "similarity": 84.97333333333333
+        },
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 84.28
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "objectivism",
+      "name": "Objectivism (Ayn Rand)",
+      "period": "Ayn Rand’s mature philosophy, 1957–1982",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 48,
+      "sources": 5,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/libertarian_historical (AI-assisted)",
+      "reviewer": "Codex /root, separate evidence review of /root/libertarian_historical assessment",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/objectivism/1.json",
+      "archiveSha256": "382c12ecb7b2e58528bea9d5c27b39b3927a1162708f48b51bbb77266114f6e8",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "militarist-pacifist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "progressive-traditionalist: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 8/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "minarchism",
+          "revision": 1,
+          "similarity": 92.6
+        },
+        {
+          "id": "libertarianism",
+          "revision": 1,
+          "similarity": 90.93333333333334
+        },
+        {
+          "id": "anarcho-capitalism",
+          "revision": 1,
+          "similarity": 88.43333333333334
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 83.86
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 81.96
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "social-anarchism",
+      "name": "Social Anarchism (Kropotkinian anarchist communism)",
+      "period": "Kropotkinian anarchist communism, 1892–1910",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 91,
+      "sources": 4,
+      "independentPublisherLabels": 4,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/social-anarchism/1.json",
+      "archiveSha256": "3919a551fe631e91abea5d03ac892da252c7e6d118e652710c1e909ddf6d2772",
+      "warningsReviewed": [
+        "democracy-autocracy: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "assimilation-multiculturalism: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "nationalism-internationalism: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "public-private: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "planning-free-market: 9/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "high-redistribution-low-redistribution: 10/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 8/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 12/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 93.76666666666667
+        },
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 87.72
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 87.60666666666667
+        },
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 86.68666666666667
+        },
+        {
+          "id": "liberalism",
+          "revision": 1,
+          "similarity": 86.14666666666668
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "social-democracy",
+      "name": "Social Democracy (reformist mixed-economy tradition)",
+      "period": "Post-war European reformism; 1989 principles with 2026 policy context",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 50,
+      "sources": 4,
+      "independentPublisherLabels": 4,
+      "author": "Codex socialist_green assessment agent (AI-assisted independent assessment)",
+      "reviewer": "Codex /root/liberal_conservative (independent reviewer of /root/socialist_green; AI-assisted)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/social-democracy/1.json",
+      "archiveSha256": "c6db0ec1a31ca41b81391a4402fbc3ea6f6e6307b5514e20eb7e92a4ef7e270d",
+      "warningsReviewed": [
+        "restricted-immigration-open-immigration: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "protectionism-free-trade: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "social-liberalism",
+          "revision": 1,
+          "similarity": 94.88666666666667
+        },
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 93.33333333333333
+        },
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 93
+        },
+        {
+          "id": "green-politics",
+          "revision": 1,
+          "similarity": 92.70666666666666
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 92.07333333333334
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "social-liberalism",
+      "name": "Social Liberalism (British New Liberalism)",
+      "period": "British New Liberalism, c. 1880–1914",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 45,
+      "sources": 3,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/social-liberalism/1.json",
+      "archiveSha256": "94565485f179be4fed0d5bb38931c0fd710db769e36c0b7fe0c74a3188ab9abf",
+      "warningsReviewed": [
+        "planning-free-market: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "social-democracy",
+          "revision": 1,
+          "similarity": 94.88666666666667
+        },
+        {
+          "id": "liberal-feminism",
+          "revision": 1,
+          "similarity": 93.75333333333333
+        },
+        {
+          "id": "civic-nationalism",
+          "revision": 1,
+          "similarity": 93.64
+        },
+        {
+          "id": "luxemburgism",
+          "revision": 1,
+          "similarity": 89.67333333333335
+        },
+        {
+          "id": "communism",
+          "revision": 1,
+          "similarity": 89.17333333333333
+        }
+      ],
+      "similarityDecisions": []
+    },
+    {
+      "id": "thatcherism",
+      "name": "Thatcherism",
+      "period": "United Kingdom, 1975–1990; retrospective principles in 1992",
+      "revision": 1,
+      "answers": 240,
+      "neutralAnswers": 59,
+      "sources": 5,
+      "independentPublisherLabels": 3,
+      "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+      "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+      "reviewedAt": "2026-10-04",
+      "archive": "profile-audit/answers/ideology/thatcherism/1.json",
+      "archiveSha256": "410703e48da853b28ff9e8878b1e4b55b2ab852eda9db0dd305a9ee126124081",
+      "warningsReviewed": [
+        "assimilation-multiculturalism: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "secular-religious: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "central-local: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+        "culture-nature: 11/16 neutral answers; check that these express a supported position, not missing evidence."
+      ],
+      "nearestProfiles": [
+        {
+          "id": "neoconservatism",
+          "revision": 1,
+          "similarity": 88.99333333333334
+        },
+        {
+          "id": "liberal-conservatism",
+          "revision": 1,
+          "similarity": 85.44
+        },
+        {
+          "id": "american-conservatism",
+          "revision": 1,
+          "similarity": 85.12666666666667
+        },
+        {
+          "id": "nationalist-conservatism",
+          "revision": 1,
+          "similarity": 80.41333333333334
+        },
+        {
+          "id": "objectivism",
+          "revision": 1,
+          "similarity": 79.68666666666667
+        }
+      ],
+      "similarityDecisions": []
+    }
+  ],
+  "workingTree": "The checkout already contained substantial uncommitted frontend and contribution-infrastructure work plus unrelated country/personality drafts. Those were preserved; nothing was staged or committed."
+}

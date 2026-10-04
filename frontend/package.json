@@ -4,6 +4,18 @@
   "private": true,
   "type": "module",
   "description": "A browser-based political quiz across 15 independent axes.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run profiles:check && tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test:e2e": "playwright test",
+    "test": "vitest run",
+    "questions:sync": "node scripts/sync-questions.mjs",
+    "questions:check": "node scripts/sync-questions.mjs --check",
+    "serve:lan": "npm run build && vite preview --host 0.0.0.0 --port 5173 --strictPort",
+    "profiles": "node --experimental-strip-types scripts/profiles.ts",
+    "profiles:check": "npm run profiles -- check"
+  },
   "engines": {
     "node": ">=22.12.0 <23 || >=24.0.0 <25 || >=26.0.0"
   },

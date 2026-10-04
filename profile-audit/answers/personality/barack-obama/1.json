@@ -1,0 +1,2485 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "barack-obama",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (thinker_assessments, contemporary follow-up)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Barack Obama",
+    "description": "US president whose 2009–2017 administration expanded health coverage through regulated insurance, pursued the TPP and nuclear diplomacy, and combined intelligence powers with later surveillance reforms.",
+    "category": "Political leader",
+    "period": "2009–2017",
+    "scope": "Personal positions and governing conduct during 2009–2017. Coalition measures are attributed cautiously. Modern hypothetical policies are labelled inferred, not claimed as direct statements. Research cutoff 4 October 2026; later views do not overwrite a former governing period.",
+    "role": "President of the United States",
+    "lifespan": "Born 1961",
+    "image": {
+      "path": "profiles/images/barack-obama-r1.jpg",
+      "alt": "Barack Obama portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:President_Barack_Obama.jpg",
+      "creator": "Official White House Photo by Pete Souza",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+    }
+  },
+  "sources": [
+    {
+      "id": "obama-domestic",
+      "title": "Barack Obama: Domestic Affairs",
+      "url": "https://millercenter.org/president/obama/domestic-affairs",
+      "publisher": "University of Virginia Miller Center",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-world",
+      "title": "American Leadership in the World",
+      "url": "https://obamawhitehouse.archives.gov/the-record/foreign-policy",
+      "publisher": "Obama White House archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-surveillance",
+      "title": "President Obama Will Soon Turn Over the Keys to the Surveillance State",
+      "url": "https://www.aclu.org/news/national-security/president-obama-will-soon-turn-over-keys",
+      "publisher": "American Civil Liberties Union",
+      "date": "2016-11-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-social",
+      "title": "Progress on Social Issues",
+      "url": "https://obamawhitehouse.archives.gov/the-record/social-progress",
+      "publisher": "Obama White House archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-guns",
+      "title": "Remarks by the President on Recommendations for Gun Safety",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2016/01/05/remarks-president-recommendations-gun-safety",
+      "publisher": "Obama White House archive",
+      "date": "2016-01-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-freedom",
+      "title": "Statement by the President on the USA FREEDOM Act",
+      "url": "https://obamawhitehouse.archives.gov/the-press-office/2015/06/02/statement-president-usa-freedom-act/",
+      "publisher": "Obama White House archive",
+      "date": "2015-06-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-graduates",
+      "title": "Streamlining Legal Immigration",
+      "url": "https://obamawhitehouse.archives.gov/issues/immigration/streamlining-immigration",
+      "publisher": "Obama White House archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "obama-currency",
+      "title": "Application of FinCEN Regulations to Virtual Currencies",
+      "url": "https://www.fincen.gov/resources/statutes-regulations/guidance/application-fincens-regulations-persons-administering",
+      "publisher": "US Financial Crimes Enforcement Network",
+      "date": "2013-03-18",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Electoral constitutional government with opposition competition and judicial checks anchors the presidency.",
+      "counterEvidence": "Executive orders and contentious assertions of war powers complicate the strength of checks; they do not establish rejection of elections.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His two elections and acceptance of the 2016 result support regular competitive mandates.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert advisers served an elected president; expertise did not replace voters as the source of authority.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His voting-rights position opposes educational tests or unequal citizenship in the franchise.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislative defeats limited his programme; executive discretion was not a claimed power to enact rejected statutes.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He accepted Republican victories and their constitutional right to organise and contest power.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Congressional opposition continued investigating his administration; taxpayer-supported scrutiny fits that accepted institutional role.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He complied with adverse Supreme Court decisions, including limits on mandatory Medicaid expansion.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Trade unions were electoral supporters, not an alternative appointing authority for government.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His pluralist constitutional position protects opposition participation despite sharp disagreement.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His representative constitutional practice supports popular input but also legislative deliberation and minority-rights safeguards against plebiscites.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Congressional negotiation over health care contradicts a general right of sole presidential policymaking.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His constitutional commitments support lawful removal for abuse with evidence and due process.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The regular 2016 election proceeded despite security risks and opposition hostility.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Fixed representative terms and voter accountability both matter; his institutional practice gives neither automatic recall nor immunity priority.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His acceptance of checks and electoral succession contradicts government beyond public accountability.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Civilian command and the peaceful presidential transition exclude military replacement of elected officials.",
+          "sources": [
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional liberties coexist with extensive intelligence powers, counterterrorism detention and public-safety regulation.",
+      "counterEvidence": "ACLU criticism documents surveillance continuity; efforts to close Guantanamo did not eliminate indefinite detention.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Criminal-justice reform and reduced marijuana enforcement favour autonomy, but he retained federal drug prohibitions.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His intelligence policy accepts targeted surveillance and judicial authorization for serious investigations.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Civil-rights protest deserves protection, while transport access and proportionate public-order restrictions remain legitimate.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His constitutional speech commitments protect criticism even when government or religious institutions are offended.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The health-insurance mandate demonstrates collective-risk regulation, but does not imply unlimited coercion over solely personal health choices.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His administration continued broad intelligence collection, then backed the 2015 USA FREEDOM Act limits on bulk telephone records. This is a mixed governing record on suspicionless communications collection, not uniform opposition.",
+          "sources": [
+            "obama-surveillance",
+            "obama-freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Routine road-safety enforcement fits his acceptance of proportionate prevention of harm to others.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Court findings and review distinguish narrowly preventative restrictions from unconstrained executive detention.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His liberal speech framework protects disturbing expression when offence is the sole alleged harm.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Anonymous political participation merits protection, tempered by his support for enforceable criminal investigations.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His civil-rights enforcement constrains discriminatory searches, while credible imminent violence can justify narrowly bounded emergency measures.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protest protection weighs against advance bans, but evidence of serious disorder can justify proportionate restrictions.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His constitutional position recognises warrants, although national-security practice complicates an absolute privacy reading.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public accountability favours disclosure, but prosecutions of classified leaks demonstrate substantial competing secrecy claims.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He explicitly accepted lawful firearm possession for self-protection while advocating background checks. The screening condition fits that stated position; support for screening alone would not establish permission for defensive ownership.",
+          "sources": [
+            "obama-guns"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He sought Guantanamo closure and legal safeguards, yet detention without ordinary criminal trial persisted.",
+          "sources": [
+            "obama-surveillance",
+            "obama-social"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Plural American identity combines civic integration with protection for minority traditions.",
+      "counterEvidence": "Shared civic identity and integration prevent interpreting pluralism as preference for permanent social separation.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His inclusive account of American identity resists automatically subordinating minority cultures whenever customs conflict.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal access and immigrant integration support reasonable public accommodation, subject to workable administration.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Civic participation and English learning matter, but do not require abandoning harmless inherited customs.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His pluralist identity permits immigrants to remain attached to ancestral communities.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "English facilitates common civic participation, while multilingual public access prevents language becoming an exclusionary condition.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His recognition of tribal nations supports giving Indigenous traditions visible civic acknowledgment.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Shared national commemorations can be supported without treating the dominant community's heritage as uniquely entitled to funds.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His common American citizenship requires shared institutions; distinct community identity does not automatically take precedence.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A common civic calendar aids participation, while reasonable alternative observance protects minority citizens.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His pluralist public rhetoric treats several cultural traditions as parts of American national life.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His integration approach favours participation in common institutions rather than permanent social isolation.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Language access and recognition of diverse communities support additional languages on public signs alongside English. This is an inference about accessible public information, not merely freedom for private businesses to advertise.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family cultural transmission need not be replaced by a government-favoured identity under his pluralist conception.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious accommodation supports a narrow exception when identification and concrete security needs remain manageable.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His conception of American identity explicitly accommodates multiple backgrounds within common citizenship.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration into civic life does not, in his approach, require cultural replacement as the general objective.",
+          "sources": [
+            "obama-social"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Immigration reform, family unity and refugee protection coexist with enforcement and regulated admission.",
+      "counterEvidence": "Deportations and ACA exclusions for undocumented immigrants constrain an unrestricted-migration reading.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His administration combined admission limits with reform and humanitarian discretion; a rigid capacity ceiling overstates either strand.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Immigration reform and opportunity-based rhetoric favour wider admission pathways, though not an unconditional right of entry.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family and humanitarian channels in his reform programme contradict restricting ordinary immigration to skills alone.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family unity is an important part of the immigration system he defended.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refugee protection should not depend on cultural similarity or labour-market usefulness, subject to individual security screening.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Deferred action favoured long-resident eligible groups, while substantial deportations prevent inferring universal permission to remain.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Labour demand supported admissions reform, but border enforcement and administrative capacity also constrained numbers.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His emphasis on immigrants' economic contribution resists broad restriction justified only by public-service burdens.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family reunification merits weight but his regulated system still accepts numerical and processing constraints.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A job offer supports an application but his reform approach retains other eligibility and security requirements.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Humanitarian admissions and asylum provide legitimate migration routes without either employer or family sponsorship. His support for economic and family routes does not make one of those two sponsors a universal requirement.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He supported an enhanced green-card route for advanced STEM graduates, but the proposal also required qualifying US employment. This combines a strong graduation-based preference with additional conditions: neither every diploma alone nor dismissal of graduation as a route matches his proposal.",
+          "sources": [
+            "obama-graduates"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Humanitarian urgency supports exceptions to ordinary admission targets, consistent with refugee resettlement commitments.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal citizenship and pluralism reject cultural resemblance as a preferred test for refugee protection.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Basic protection and lawful status matter, but ACA exclusions show he did not erase citizen–noncitizen welfare distinctions.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cultural diversity has civic value, but his admission policy also considered family, work and administrative capacity.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Diplomacy and nuclear restraint coexist with expeditionary force, alliances and counterterrorism operations.",
+      "counterEvidence": "Libya, drone operations and sustained military primacy qualify the diplomatic record.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Libya and operations against ISIS show willingness to use force beyond responding to a direct attack on America.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Iran agreement and Cuba opening demonstrate willingness to pursue diplomacy despite delay and political opposition.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His administration maintained extensive global military superiority despite efforts to restrain some costs.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Counterterrorism policy accepts preventive action against credible imminent threats, with contested boundaries around imminence.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Libya intervention and anti-ISIS operations contradict restricting force solely to retaliation for attacks on self or allies.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His force posture relied on professional armed forces rather than compulsory service for all men.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Nuclear negotiations show willingness to exchange concessions for reduced conflict risk, without abandoning core security commitments.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His administration's emphasis on human judgment and accountable military command supports caution toward autonomous lethal decisions.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Overseas deployments and alliance commitments require capacity beyond territorial defence alone.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Defence of allies and counterterrorism operations reject peace at any price.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His global strategy retained expeditionary and sustained foreign operational capacity despite ending some large deployments.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His diplomatic approach generally favours tolerating unresolved disputes over unnecessary war, subject to alliance obligations.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sanctions backed by military options demonstrate acceptance of credible force as diplomatic leverage.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Avoiding escalation matters, but his deterrence commitments prevent treating peace as automatically superior to every display of resolve.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His intelligence programme accepts espionage despite serious diplomatic costs exposed by surveillance revelations.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "New START and nuclear diplomacy support negotiated reductions when verification and reciprocal security are credible.",
+          "sources": [
+            "obama-world"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Cooperative internationalism accepts agreements and alliances within continuing US constitutional sovereignty.",
+      "counterEvidence": "The United States did not submit comprehensively to international criminal jurisdiction or supranational government.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His constitutional office retained final domestic governing authority while accepting selected international obligations.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He supported binding agreements, but US constitutional approval and reservations constrain unrestricted external decision-making authority.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His constitutional practice treats US courts as final on domestic constitutional meaning.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "NATO and other alliances impose continuing obligations he regarded as worthwhile constraints.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Treaty withdrawal remains a sovereign constitutional decision, although abrupt withdrawal would conflict with his cooperative strategy.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Support for international accountability coexisted with US resistance to full ICC jurisdiction over its own personnel.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His foreign policy combines American interests with shared goals rather than categorically subordinating either in every conflict.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His multilateral engagement accepted negotiated constraints while protecting US constitutional and strategic discretion. The Paris agreement used nationally determined commitments, so participation alone does not establish a general transfer of decision-making authority.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He valued alliances and coordinated diplomacy but retained independent US decisions. Those partnerships are not equivalent to an international bloc requiring a common foreign policy; cooperation and retained discretion support a conditional assessment.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International human-rights scrutiny is legitimate, but his constitutional practice does not grant external bodies unlimited legislative command.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Maintaining the dollar and independent US monetary institutions supports a national currency rather than a supranational replacement.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multilateral development and climate contributions support jointly administered funds with shared oversight.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National border authority remains central, while refugee cooperation and treaty duties constrain purely unilateral policy.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His support for the TPP demonstrates willingness to accept common trade rules.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His internationalism operated through cooperation among states rather than merging America into a world federation.",
+          "sources": [
+            "obama-world"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His support for agreements entails accepting some immediate costs for durable cooperation and credible common rules.",
+          "sources": [
+            "obama-world"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "A mixed capitalist economy retains private enterprise alongside public programmes and temporary crisis ownership.",
+      "counterEvidence": "Auto rescue included state ownership, but its temporary character and later exit limit the nationalisation inference.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His recovery programme preserved a predominantly privately owned economy rather than permanent state control.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Regulated private utilities and municipal providers both fit his mixed delivery model; ownership depends on practical access and performance.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private ownership remains his economic default where public operation offers no clear advantage.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Temporary auto rescue does not imply routinely founding state competitors in otherwise functioning markets.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The ACA retained private insurers and providers alongside public programmes, supporting predominantly private delivery with public financing safeguards.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public passenger-rail investment and Amtrak ownership coexist with passenger services operating over privately owned shared tracks. This supports a mixed infrastructure-ownership arrangement; investment in passenger service alone does not establish public ownership of every track it uses.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Contracting can fit his pragmatic delivery model when genuine quality and accountability equivalence is established.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public lending tools can fill financing gaps, but bank rescue aimed to restore private lending rather than establish a general public banking sector.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reprivatising rescued automakers indicates willingness to sell ordinary commercial holdings after the public purpose is fulfilled.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Affordable housing support combined public assistance with private provision; a large public landlord sector is not his clear default.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Continued private defence contracting within government procurement and security controls supports qualified private ownership where security can be protected. Dodd-Frank financial regulation alone would not establish the national-security claim.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Private firms continued to extract oil and gas, including under leases of publicly controlled resources. Ownership of the underlying resource is distinct from ownership of the extracting business.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal contracting is consistent with his mixed economy when effective quality and public accountability are preserved.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic holdings may serve public purposes, but his auto policy also demonstrates willingness to relinquish control.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Persistent losses require reform, yet infrastructure and social value can justify continued public support rather than automatic sale.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public-service broadcasting warrants support, but US nonprofit broadcasting does not establish a preference for direct state ownership.",
+          "sources": [
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Trade liberalisation and the TPP coexist with procurement preferences and targeted enforcement.",
+      "counterEvidence": "Domestic procurement and trade remedies qualify a simple free-trade label.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "TPP advocacy favours lowering tariffs, though his administration used targeted trade remedies.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His trade agenda accepts adjustment costs for some firms in return for wider market access.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Recovery-era domestic procurement preferences coexist with his broader commitment to open international markets.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competitive access to imported inputs accords with his trade-expansion agenda, subject to security and standards exceptions.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Essential-supply resilience matters, but his policy does not generally presume import restrictions superior to diversified trade.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His approach favoured negotiated reciprocal agreements more clearly than unconditional unilateral tariff removal.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Targeted industrial assistance can nurture emerging sectors, while open-market commitments constrain broad infant-industry protection.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Openness to foreign investment fits his market economy, subject to national-security review rather than nationality alone.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agricultural trade liberalisation competes with established support programmes and politically protected sectors.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Worker assistance and retraining accompany his case for expanding trade despite domestic displacement.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His use of trade enforcement supports responding to discriminatory restrictions through established rules.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Nondiscriminatory taxation fits the common trading rules he advocated, while targeted lawful remedies remain distinct.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Trade-remedy enforcement supports restrictions where foreign subsidies demonstrably distort fair competition.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "TPP advocacy accepts greater interdependence in exchange for reduced barriers and common standards.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National-security review justifies preventing particular strategic takeovers without rejecting foreign investment generally.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His digital-economy approach favours cross-border commerce, subject to privacy, security and enforceable domestic law.",
+          "sources": [
+            "obama-world",
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market allocation is supplemented by fiscal stimulus, financial regulation, wage floors and sectoral investment.",
+      "counterEvidence": "Clean-energy support does not amount to economy-wide compulsory output planning.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private firms retained ordinary production decisions throughout his presidency.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Crisis assistance imposed conditions on recipients, not compulsory production targets across the economy.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His regulated market approach ordinarily leaves prices to competition, while recognising exceptional consumer-protection interventions.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Recovery investment and clean-energy support demonstrate deliberate sectoral investment priorities.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Business entry and consumer demand generally determine expansion or contraction within his market framework.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Affordable essential services warrant intervention, but ACA subsidies and competition differ from universal price controls.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary business formation fits his enterprise-based recovery approach without proof of a government-assessed production need.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Development finance can steer lending at the margin, but private banks retained broad allocation autonomy.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Open capital markets remain the norm, constrained by financial stability and sanctions rather than routine allocation permission.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Recovery funding for renewable energy demonstrates acceptance of selective subsidies to pursue public objectives.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2013 FinCEN guidance accommodated convertible virtual currencies while regulating administrators and exchangers. This supports qualified permission for competing private payment media, without implying replacement of the dollar or exemption from financial rules.",
+          "sources": [
+            "obama-currency"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His minimum-wage advocacy supports a legally enforceable wage floor.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective bargaining and wage floors coexist with employer–worker negotiation rather than comprehensive government wage schedules.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His practice respects Federal Reserve monetary autonomy rather than subordinating interest rates to a binding production plan.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing affordability warrants public intervention, but assistance and supply measures do not establish blanket rent-setting as his default.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Stimulus and regulation guide markets without normally coordinating all production and distribution through a national plan.",
+          "sources": [
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive taxes and social insurance seek broader opportunity and security within a market economy.",
+      "counterEvidence": "Deficit negotiations and willingness to compromise on spending constrain the scale of egalitarian redistribution.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Progressive taxes, coverage expansion and refundable credits support narrowing income disparities without equalising all outcomes.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His fairness arguments treat unequal opportunity and concentrated gains as relevant reasons for progressive taxation.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Expanded refundable tax credits and unemployment support favour a cash-income floor for low earners and people losing work. They support the principle with eligibility conditions; healthcare coverage alone would not establish a general minimum cash income.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His redistribution agenda extends beyond bare subsistence to reducing disadvantage and unequal access.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Higher tax contributions from affluent households were a recurring component of his fiscal proposals.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He defends rewards for enterprise while also supporting progressive contributions when market outcomes produce large disparities.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Maintaining estate taxation fits his concern about inherited advantage, tempered by exemptions and compromise.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Work incentives matter, but recession conditions and hardship justify support beyond a rigid universal time limit.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His principal instruments were income, capital-gains and estate taxes rather than a general annual net-wealth levy.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Coverage expansion and income support take priority over minimising benefits merely to hold down taxation.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refundable earnings and child tax credits address family participation and opportunity beyond immediate subsistence. These cash supports justify qualified agreement; publicly supplied healthcare is separate evidence of social protection, not itself cash income.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His fiscal programme does not generally rank tax reduction ahead of unmet social protection needs.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Refundable credits and support for low-paid workers fit his programme directly.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Progressive income-tax rates are inconsistent with taxing every additional dollar at the same marginal rate.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His opportunity agenda supports correcting disadvantage, but broad compulsory land redistribution is not a natural extension of his instruments.",
+          "sources": [
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Insurance, education and income support pursue inclusion and security beyond emergency basic needs.",
+          "sources": [
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil constitutional authority and equal religious citizenship coexist with civic religious expression.",
+      "counterEvidence": "Faith-based partnerships, prayer and customary holidays qualify strict institutional secularism without making government theocratic.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His constitutional pluralism requires publicly defensible reasons for law, even when faith informs personal motivation.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal Christianity does not imply making scripture a general source of binding civil legislation.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His constitutional framework gives religious leaders no veto over legislation.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His presidency operated within and defended a constitution prohibiting an established national religion.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious literacy can fit public education when instruction is neutral and does not promote belief.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State schools promoting a selected faith conflict with his church–state and equal-citizenship framework.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil institutions govern legal rights regardless of religious authority.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Clerical review of parliamentary decisions is incompatible with his constitutional system.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inaugural prayer and religious language coexist with pluralist safeguards, preventing a strict exclusion of worship from every state occasion.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Faith-based service partnerships can be legitimate, but direct funding to persuade citizens into religion is a different and less defensible purpose.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Civic references to religion persisted under Obama, while official endorsement of one faith would contradict plural citizenship.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Retaining Christmas as a public holiday supports continuity, while his equal-citizenship approach resists making the predominant religion officially superior. Customary civic observance and explicit religious recognition are distinct considerations.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His equal-citizenship framework excludes reserved legislative power for religious officeholders.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Broad charitable exemptions include religious bodies, but that practice does not justify benefits solely because belief is religious.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage and equal legal recognition require access independent of a faith organisation.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Binding religious family law would conflict with civil equality and ordinary judicial protections.",
+          "sources": [
+            "obama-social",
+            "obama-domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Social equality advanced during the presidency, including an explicit evolution on same-sex marriage.",
+      "counterEvidence": "His initial marriage position was less permissive; the assessment gives substantial weight to the later presidential position.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His support for evolving civil rights accepts revising customs when social values and equal treatment change.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Tradition can inform public life but does not override equal rights simply through age.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His later presidential support for marriage equality recognises families outside traditional heterosexual marriage.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal employment and education rights oppose prescribing adult roles by sex.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He publicly supported same-sex marriage by 2012 and welcomed its nationwide legal recognition.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He praised stable families, but equality policy resists withholding recognition from other caring household forms.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His defence of reproductive choice and women making personal healthcare decisions supports social acceptance of abortion by inference. Legal protection is clearer evidence than a claim that every abortion should receive unqualified social approval.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Parents deserve involvement, but comprehensive education and students' rights also limit a unilateral veto over public curricula.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His family-equality approach supports equal adoption eligibility subject to ordinary child-welfare assessment.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His pluralism leaves modest dress principally to personal choice rather than a single official social expectation.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inclusive public language fits his civil-rights approach, while coercive speech rules require separate justification.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Equal treatment can justify revising inherited moral standards rather than making tradition the controlling test.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His equal-pay and antidiscrimination record rejects restricting aspirations through traditional sex roles.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His marriage position changed gradually, but equal rights also supplied reasons not to postpone reform indefinitely.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inclusive schooling follows his equality commitments, with age-appropriate content and reasonable parental involvement.",
+          "sources": [
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cultural continuity has personal and communal value, but ancestry alone does not require every practice to survive unchanged.",
+          "sources": [
+            "obama-social"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Research and innovation are encouraged within health, environmental and civil-rights safeguards.",
+      "counterEvidence": "Biomedical research funding does not directly answer speculative brain implants or embryo enhancement; those answers are labelled inference.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His research and clean-technology investment accepts some uncertainty to secure substantial social benefits, within regulatory safeguards.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His approach combined scientific safety assessment with accelerated deployment of useful technologies. Substantial long-term evidence is appropriate for serious persistent risks, while proportionate evidence can permit lower-risk innovation sooner; the question does not demand certainty.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Infrastructure investment matters, while his conservation and climate commitments require weighing habitat harm rather than automatic development priority.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Medicines require strong evidence of safety and efficacy; accelerated access can be justified for serious unmet needs.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His innovation-led growth approach favours technological adoption accompanied by education and adjustment assistance.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conservation deserves substantial weight, but his infrastructure programme permits carefully justified development with mitigation.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Climate and clean-energy policy favoured reducing environmental harms while allowing regulated innovation. Applied to the hypothetical, environmental uncertainty calls for safeguards whose strength depends on likely harm, rather than automatic permission or prohibition.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Biomedical research support does not imply consumer implantation before credible long-term safety evidence is established.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Clean-energy investment is central, but emissions regulation shows technology is not his exclusive substitute for changing consumption incentives.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Environmental assessment should resolve potentially serious impacts before irreversible construction proceeds.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Bodily autonomy supports voluntary choice, but invasive devices reasonably require evidence beyond minimal initial safety tests.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Clinical AI requires demonstrated reliability and protection against unequal treatment before widespread diagnostic deployment.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Research optimism does not by itself justify heritable enhancement trials imposing irreversible risks on future children.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agricultural innovation and ecological safeguards both matter; proportional evidence requirements are more plausible than either blanket delay or automatic approval.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing and transport needs justify development, but protected ecological value can outweigh particular projects.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Potentially irreversible serious harm warrants demanding evidence and precaution despite his general support for innovation.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Federal standards and coordination coexist with constitutionally protected states and tribal institutions.",
+      "counterEvidence": "ACA Medicaid conditions and education incentives pushed national standards; adverse judicial limits were accepted.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His federal system recognises constitutionally protected state powers even amid policy disputes.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal supremacy applies within constitutional powers, while other matters remain constitutionally reserved to states.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His constitutional union supplies no unilateral majority-vote right for a state to secede.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National civil-rights and health protections can justify overriding obstructive local rules within lawful federal powers.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State constitutions and institutions fit the federal framework, constrained by national constitutional rights.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Federal law enforcement addresses national offences, but ordinary policing remains mainly state and local.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State fiscal autonomy and national redistribution both matter; no general entitlement to retain most locally collected revenue follows.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal education incentives and civil-rights standards coexist with substantial state curriculum authority.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State and local taxation fits his federal arrangements subject to constitutional restrictions.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federal minimum wages and employment protections establish common national floors.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal institutional design generally belongs to state and local government rather than routine federal permission.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National insurance rules and federal health programmes support common minimum access, with substantial state implementation discretion.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His engagement with tribal nations supports meaningful Indigenous self-government within the constitutional order.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Avoiding harmful tax competition supports national coordination, but states retain legitimate fiscal policy choices.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Predominantly local environmental decisions can remain local when rights and substantial spillovers do not require federal action.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Major disasters crossing state borders justify coordinated federal response and common resources.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Opportunity policy gives substantial weight to social development; biological research does not warrant hereditary racial explanations.",
+      "counterEvidence": "Normative equality is not itself evidence about heritability. Mixed answers distinguish stress, temperament and attraction from claims about racial hierarchy.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and opportunity initiatives imply substantial formative effects of upbringing, without denying biological variation.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His education and opportunity agenda explains national achievement through institutions and access rather than inherited national intelligence rankings. This is a modest inference about his causal emphasis, not scientific proof supplied by equal-rights commitments.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal-opportunity policy recognises powerful social influences on sex-role behaviour without requiring all differences to be socially produced.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Biomedical research recognises stress biology, while his social policy recognises environmental exposure; neither consistently dominates across people.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Investment in learning and access plausibly assumes experiences shape interests and achievement more than fixed destiny.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Temperament can affect risk-taking, while education and social conditions also shape it; a universal inherited predominance is unwarranted.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His civic and educational approach assumes institutions and social experience can cultivate cooperation.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Empathy plausibly involves both disposition and learned perspective; pluralist civic education supplies a substantial environmental component.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His education agenda assumes learning conditions meaningfully shape attention and performance rather than treating capacity as fixed.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral reactions can involve predispositions, but civic reasoning and social learning prevent a general biology-first conclusion.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His emphasis on cross-community understanding assumes learned experience meaningfully changes perceptions of threat.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neuroscience supports biological temperament, while opportunity policy recognises developmental change; neither establishes universal causal predominance.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His opportunity-based account gives social experience a role in preferences, while his healthcare approach also recognises embodied human responses. A mixed inference allows both social learning and biological attraction; sexual orientation policy does not establish the causes of physical-attractiveness preferences.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His criminal-justice reforms emphasised unequal conditions, policing and opportunity as explanations for racial disparities. This supports a qualified social explanation without pretending that a normative equality commitment establishes a complete quantitative causal account.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educational opportunity and youth development treat self-regulation as something that can improve through learning and circumstances. This supports a modest environmental inference rather than a claim that policy proves all individual biological influences negligible.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Equal-pay legislation addresses discrimination and expectations; preferences can contribute but do not explain the gap independently of social context.",
+          "sources": [
+            "obama-domestic",
+            "obama-social"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/current_assessments",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent question-by-question review of all 240 responses against the exact bank and the 2009–2017 record. Corrected suspicionless-surveillance balance, graduate immigration conditions, private extraction versus public resource ownership, rail ownership versus investment, and private-currency permission. Separated cash support from in-kind healthcare, public signs from private speech, alliances from compulsory common foreign policy, and social acceptance from legal abortion access. Repaired physical-attractiveness versus sexual-orientation conflation, moderated unsupported causal certainty, and removed innovation evidence-versus-certainty conflation. Added primary evidence on firearms, surveillance reform, graduate routes and virtual currencies. Historical period retained; hypothetical technology and human-trait answers remain explicitly interpretive and do not claim direct statements or scientific proof. Neutral answers express identified competing considerations, not blank evidence. Similarity is for subsequent batch review; no answer was tuned to a target score. Follow-up specificity check distinguished customary holidays from official religious recognition, and monetary or financial regulation from the exact private-currency and national-security ownership propositions where relevant. Independent close-neighbour review on 2026-10-04 compared exact answers, periods and policy mechanisms with kamala-harris revision 1. Specific corrections and retention reasons are recorded in review.similarity; no score tuning was used. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": [
+      {
+        "id": "kamala-harris",
+        "revision": 1,
+        "reason": "Retain both revision 1 profiles after independent exact-question comparison. Obama is assessed on enacted presidential conduct in 2009–2017; Harris is assessed on her later vice-presidential record, detailed 2024 programme and corroborating 2026 statements, without treating proposals as enactments. Their shared constitutional democracy, mixed economy and social-rights commitments explain close aggregate scores. Distinct evidence includes Obama’s TPP tariff-removal agenda, Iran nuclear bargaining and bulk-surveillance reform, versus Harris’s targeted affordability controls, expanded refundable family credits, more central reproductive-rights guarantees and explicit modern AI safety emphasis. In the bank these produce differences on trade14, military07, planning06, redistribution03, progressive07 and innovation02/12. Some one-step differences remain cautious inferences, not claims of radically different ideologies. The review corrected the tariff-versus-subsidy rationale and clarified passenger-track ownership; no answer was changed to reduce resemblance. Axis aggregation discards these item and period distinctions, so a close score is not duplication."
+      }
+    ]
+  }
+}

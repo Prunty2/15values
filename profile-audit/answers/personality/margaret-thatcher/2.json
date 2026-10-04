@@ -1,0 +1,2927 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "margaret-thatcher",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "Image-only revision: use the main infobox portrait from the Wikipedia page selected by the owner. All 240 answers, research sources, evidence reviews and calculated scores are unchanged.",
+  "metadata": {
+    "name": "Margaret Thatcher",
+    "description": "British prime minister assessed through her governing record, parliamentary conservatism, market reforms and defence policy.",
+    "category": "Political leader",
+    "period": "1979–1990",
+    "scope": "Personal positions and governing conduct during 1979–1990; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1925–2013",
+    "image": {
+      "path": "profiles/images/margaret-thatcher-r2.jpg",
+      "alt": "Portrait of Margaret Thatcher",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_stock_portrait_(cropped).jpg",
+      "creator": "Probably Terence Donovan; derivative work by Begoon; permission from the Thatcher Estate",
+      "license": "Copyrighted free use",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Copyrighted_free_use"
+    }
+  },
+  "sources": [
+    {
+      "id": "government",
+      "title": "History of Margaret Thatcher",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "democracy",
+      "title": "Second Carlton Lecture: Why democracy will last",
+      "url": "https://www.margaretthatcher.org/document/105799",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1984-11-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "economics",
+      "title": "Press Association Annual Lunch: individual initiative and human nature",
+      "url": "https://www.margaretthatcher.org/document/104377",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1980-06-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "manifesto",
+      "title": "Conservative General Election Manifesto 1979, with Thatcher foreword",
+      "url": "https://www.margaretthatcher.org/document/110858",
+      "publisher": "Conservative Party via Margaret Thatcher Foundation",
+      "date": "1979-04-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "manifesto83",
+      "title": "Conservative General Election Manifesto 1983",
+      "url": "https://www.margaretthatcher.org/document/110859",
+      "publisher": "Conservative Party via Margaret Thatcher Foundation",
+      "date": "1983-05-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bruges",
+      "title": "Speech to the College of Europe",
+      "url": "https://www.margaretthatcher.org/document/107332",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-09-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "science",
+      "title": "Speech to the Royal Society",
+      "url": "https://www.margaretthatcher.org/document/107346",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-09-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "education",
+      "title": "Education Reform Act 1988, original text",
+      "url": "https://www.legislation.gov.uk/ukpga/1988/40/pdfs/ukpga_19880040_en.pdf",
+      "publisher": "The National Archives",
+      "date": "1988-07-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "section28",
+      "title": "History of section 28 of the Local Government Act 1988",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0213/",
+      "publisher": "House of Commons Library",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "Church of Scotland address, 21 May 1988: archive speaking text",
+      "url": "https://www.margaretthatcher.org/document/209627",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-05-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "firearms",
+      "title": "Self-Defence: government parliamentary answer",
+      "url": "https://api.parliament.uk/historic-hansard/written-answers/1987/nov/04/self-defence",
+      "publisher": "UK Parliament Hansard",
+      "date": "1987-11-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "budget88",
+      "title": "Economy: 1988 Budget (Lawson 5)",
+      "url": "https://www.margaretthatcher.org/document/111449",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-03-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "firearms-white-paper",
+      "title": "Firearms White Paper: Douglas Hurd statement and questions",
+      "url": "https://hansard.parliament.uk/commons/1987-12-02/debates/5483956c-604b-4086-adcf-9f550794d934/FirearmsWhitePaper",
+      "publisher": "UK Parliament Hansard",
+      "date": "1987-12-02",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Thatcher defended competitive parliamentary government and common-law safeguards. Strong prime-ministerial leadership operated within parliamentary confidence and party leadership rules.",
+      "counterEvidence": "Her constitutional model privileged Parliament over direct popular recall and entrenched constitutional review; democratic commitment should not be confused with enthusiasm for every participatory mechanism.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Three contested general-election victories supplied her mandate.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expertise informed government without replacing electoral choice.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her account of democratic development expressly praised universal suffrage.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Parliamentary supremacy rules out legislating after Parliament rejects the measure.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The opposition could campaign and contest elections throughout her premiership.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Parliamentary scrutiny of spending follows her representative-government commitment.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She praised courts restraining unlawful executive conduct; this is narrower than striking down sovereign Acts of Parliament.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her opposition to union political dominance rejects selecting government through union leaders.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Opposition ideology alone did not justify excluding electoral competitors.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Representative parliamentary supremacy weighs against an unrestricted voter power to repeal statutes.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Cabinet leadership was strong, but Parliament retained lawmaking and confidence powers.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her departure under party and parliamentary constraints supports constitutional removal.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Electoral timing operated within constitutional law, not unlimited personal postponement.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She favoured representative mandates rather than routine voter recall.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her defence of representative democracy contradicts unaccountable executive rule.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Civilian constitutional government rules out discretionary military replacement.",
+          "sources": [
+            "democracy",
+            "government",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Law and order, restrictions on coercive picketing and strong counterterrorism powers sat alongside parliamentary liberties and ordinary judicial safeguards. Economic freedom is not treated as proof of libertarian personal policy.",
+      "counterEvidence": "She praised common-law restraint of state power, but secrecy and security policies qualify broad claims about liberty. Modern communications proposals are cautious analogies.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal responsibility did not entail accepting drug risks without criminal restrictions.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Judicially authorised surveillance fits serious-crime enforcement under law.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her opposition to obstructive picketing suggests limiting demonstrations that impede ordinary access.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A competitive parliamentary public sphere supports offensive criticism, subject to criminal law.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Personal responsibility counters paternalism while public health permits some requirements; neither is absolute.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security policing and privacy traditions offer competing principles for long-term tracking of innocent people.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Firm road-safety enforcement is compatible with protecting others from impaired driving.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Serious, judicially established danger fits preventive security measures.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral conservatism supports some restrictions, while common-law liberty opposes unrestricted censorship.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual communication freedom and security enforcement balance in this modern analogy.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible serious violence justifies wider preventive police powers in her law-and-order approach.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protecting order and lawful activity supports prohibiting gatherings with concrete evidence of serious disorder.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common-law protections favour warrants with defined emergency exceptions.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her security and official-secrecy orientation weighs against unrestricted publication even for a claimed public interest.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her Home Secretary specifically sought controls on shotgun ownership justified solely by self-defence, while retaining sporting and professional uses. This weighs against a general personal-defence permission based merely on violence checks; it is an inference from her government’s policy, not a claim that she opposed every licensed firearm.",
+          "sources": [
+            "firearms-white-paper",
+            "firearms"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strong terrorism powers were time-bound by law; indefinite detention solely at executive discretion conflicts with her rule-of-law claims.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "democracy",
+            "economics"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Thatcher emphasised common British institutions, language and inherited customs while affirming equal citizenship regardless of race or creed. Cultural assimilation is distinguished from restrictions on entry.",
+      "counterEvidence": "Her acknowledgement of minorities and European contributions tempers an exclusive single-origin national identity. Shared civic participation need not erase private cultural identity.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her concern to maintain common British characteristics supports national cultural priority.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal access favours reasonable accommodation, balanced by spending restraint and common institutions.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Language integration and common civic habits imply some adoption of national customs.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal citizenship and religious tolerance permit continuing cultural identity.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Language training aimed at participation through the common national language.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Acknowledging established historical communities fits respect for national inheritance, without establishing autonomous status.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Preserving inherited British institutions supports predominant cultural funding.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Common law and shared national duties take priority over conflicting community expectations.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common national institutions favour a shared calendar, with limited voluntary accommodation.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She recognised diverse contributions while stressing a common British civilisation, giving a balanced judgement.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her language-training and equal-opportunity approach emphasised wider participation.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Common-language integration weighs against systematic parallel public signage.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Patriotic civic formation supports giving common identity substantial family emphasis.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious tolerance supports exceptions, but uniform public safety rules weigh against an unconditional clothing exemption.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Multiple traditions contributed to Britain, while one common civic identity remained the organising principle.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration policy concentrated on shared language and national participation.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The governing programme sought lower settlement, stricter work permits, controls on family categories and action against overstayers. Existing lawful residents retained equal rights and compassionate exceptions remained.",
+      "counterEvidence": "European Community mobility and recognised family or humanitarian commitments make complete closure inaccurate. The 1979 programme and 1983 account of implementation are stronger period evidence than later rhetoric.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The programme proposed a quota for settlement from outside the European Community.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Improving personal circumstances did not create a general right to settle.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Restricted permits favour economically needed skills, though family and humanitarian exceptions remain.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Commitments to existing dependants were honoured while new spouse concessions were restricted, supporting a mixed answer.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Compassionate protection mattered but no unconditional permanent-refugee entitlement was established.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Firm action against unlawful immigrants and overstayers directly opposes general permission to remain.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strict entry controls were not overridden merely by employer demand.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reducing pressure and reassuring established communities justified lower numbers despite potential gains.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The proposed general settlement quota encompassed family categories, with existing obligations qualifying it.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A work offer mattered but was insufficient under severe permit restrictions.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Controlled work and family routes support a sponsorship requirement with exceptions.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The programme opposed converting temporary stays automatically into permanent settlement.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Compassionate cases and sanctuary tradition support exceptions to ordinary limits.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her cultural-continuity arguments imply some preference for easier cultural integration, tempered by formal racial equality.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal lawful residence supports access, while public spending and entry conditions limit automatic entitlement.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural difference itself was not a reason she offered to increase entry.",
+          "sources": [
+            "manifesto",
+            "manifesto83",
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Thatcher supported strong defence, nuclear deterrence, NATO and overseas capability, demonstrated by the Falklands campaign. Diplomacy and negotiated arms reductions were compatible with that posture.",
+      "counterEvidence": "A professional volunteer military and negotiations with Soviet leaders distinguish her from a preference for compulsory mass mobilisation or war at every opportunity.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "An active alliance posture permits force for important interests beyond direct territorial attack.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diplomacy was useful but not categorically superior to timely force.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strengthened defence and deterrence justify substantial financial commitments.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible imminent attack can warrant anticipatory defensive action.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her defence rhetoric and Falklands action support protection of Britain and allies, while a wider deterrent and intervention posture leaves room beyond a rigid response-only rule. Alliance membership itself does not refute this statement, which explicitly includes allies.",
+          "sources": [
+            "government",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The professional force she maintained gives no basis for compulsory male service as the preferred model.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her Falklands stance rejects major concessions merely to avoid the costs of war.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defence modernisation suggests cautious support for useful automation under national command; the absence of human approval lowers confidence. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Overseas commitments required more than homeland repulsion.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She accepted costly combat rather than abandon an attacked territory or ally.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Falklands demonstrated the need for prolonged operations far from Britain.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Falklands campaign responded to an invasion; it does not establish willingness to start a war merely to settle a dispute. Her stated defence and deterrence framework supports negotiation without initiating war, qualified by readiness to respond to aggression.",
+          "sources": [
+            "government",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Credible force was central to her deterrence strategy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Preventing war and maintaining deterrent credibility were mutually necessary, leaving a conditional balance.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Security intelligence fits her robust defence posture despite diplomatic risks.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Verified reciprocal reductions were compatible with maintaining deterrence.",
+          "sources": [
+            "government",
+            "manifesto",
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Thatcher backed alliances and common European trade rules while opposing supranational political centralisation. Her European policy combined consent-based cooperation with parliamentary sovereignty.",
+      "counterEvidence": "She accepted Community commitments and binding rules in some fields; later Euroscepticism must not erase her premiership support for the single market.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her constitutional account retains final national political authority.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She resisted institutions acquiring open-ended powers over unwilling member states.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Parliamentary sovereignty favours domestic final authority, qualified by voluntarily accepted treaty duties.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "NATO commitments deliberately constrained unilateral freedom.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sovereign states retain a right to leave commitments through lawful procedures.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Accepted treaty adjudication and resistance to supranational control pull in different directions.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National interests and democratic consent limited external institutional goals.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her international environmental cooperation supports joint rules for transboundary problems.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her Europe of sovereign states resisted an imposed common foreign policy.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Human rights commitments mattered, but external direction of Parliament remained contentious.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She opposed surrendering national monetary control to a central European authority.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared problems warranted practical joint financing and action.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Border checks and security remained national responsibilities in her European vision.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The single market required negotiated common trade rules.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She explicitly opposed turning cooperation into a European superstate.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Alliance solidarity supports collective enforcement beyond short-term advantage.",
+          "sources": [
+            "bruges",
+            "manifesto",
+            "science"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Privatisation and wider private ownership were defining governing policies. NHS facilities, rail and a public broadcaster remained important exceptions within the period.",
+      "counterEvidence": "Retained public institutions mean a private-ownership preference should not be converted into a claim that she privatised all public services.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her programme explicitly expanded private enterprise and ownership.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Utility privatisation shows opposition to public ownership as a general rule.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Comparable provision favours private ownership in her market philosophy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She rejected extending commercial nationalisation.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "NHS commitment and private-sector opportunity balance rather than establish generally private facility ownership.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Rail remained public during her premiership despite a wider private preference.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Competitive contracting fits the programme's value-for-money approach.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her financial liberalisation and privatisation preference weigh against new parallel public banks.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Selling state commercial firms was a central policy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Council-house sales reduced public rental ownership while some provision remained.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Security can be regulated while firms retain private ownership.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The privatisation trajectory favoured private resource businesses.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Contracting routine local services follows competitive efficiency policy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic exceptions exist, but sale revenue and private efficiency often outweighed retention.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Commercial failure was a reason for restructuring and sale rather than repeated subsidy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The BBC's retention balances her wider desire for commercial competition.",
+          "sources": [
+            "government",
+            "manifesto",
+            "manifesto83"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Thatcher promoted open international commerce and European market integration. Fair-trade enforcement, agricultural arrangements and defence procurement qualified blanket free-trade conclusions.",
+      "counterEvidence": "The European Community retained external protections; her government was more liberalising than the trade regime it inherited.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her competitiveness agenda weighs against routine protection for domestic producers.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Removing commercial barriers was a central single-market objective.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Value for money favours foreign suppliers, while defence and strategic production justify exceptions.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Competitive enterprise should buy on commercially favourable terms.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security supply can justify exceptions without general protection of all essentials.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her liberalisation preference supports some opening without waiting for perfect reciprocity.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Temporary adjustment and fair competition can support limited exceptions, but permanent shelter conflicts with her outlook.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign investment and competition fit her open-enterprise approach.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inherited agricultural obligations and a desire for reform create mixed evidence.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Competitive adjustment was preferred to routine state shelter.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her commitment to fair trading permits proportionate retaliation.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A common market favours equal product treatment regardless of origin.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Action against subsidised unfair competition fits fair-trade exceptions.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Removing negotiated tariffs and widening trade were affirmative objectives.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic security and welcoming investment compete rather than imply a universal foreign-control ban.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Commercial freedom supports cross-border digital services by analogy.",
+          "sources": [
+            "bruges",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Her programme replaced production direction and price controls with enterprise, competition and private investment. A strong state maintained money, law and competition rules.",
+      "counterEvidence": "Selective industrial assistance and national monetary control remained; a market preference does not establish support for private currencies.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Individual enterprise should determine ordinary production.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She rejected government direction as the source of prosperity.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Criticism of price controls supports market price formation.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She opposed allocating the economy through a comprehensive state plan.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Consumer choice should decide which firms expand or fail.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her programme identified controls as damaging investment and supply.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Supporting small enterprise implies entry without proving a production shortage.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Directed credit conflicts with enterprise choosing commercial investments.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Financial liberalisation supports freedom to move capital.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her criticism of repeated subsidies weighs against selected-sector steering, though exceptions occurred.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Monetary discipline and competitive choice point in different directions; no specific private-currency programme is attributed.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Opposition to central pay-setting suggests resistance to a general legal wage floor, tempered by retained wages councils.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Responsible employer-worker bargaining was an explicit alternative to incomes policy.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her monetary priorities opposed subordinating rates to an industrial plan, despite government control of the Bank.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reviving private renting favours market rents.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her speeches rejected ordinary state production and distribution direction.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Tax cuts, incentives and ownership were priorities over narrowing income differences. She nevertheless retained a welfare floor and support aimed at making work pay.",
+      "counterEvidence": "Existing progressive taxes, pensions and means-tested support prevent describing her position as abolition of redistribution.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She rejected increasing equality as the central purpose of economic policy.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Differences in reward were not themselves grounds for confiscating more earnings.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A safety net remained, but higher taxes to expand benefits conflicted with incentives.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Targeted basic support fits her account of individual responsibility.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Progressive taxation remained but top rates were reduced, giving a qualified balance.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Lower marginal rates aimed to let successful earners retain more.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her programme sought to reduce capital-transfer taxation.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Work incentives suggest limits and conditions, tempered by continuing protection for need.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The manifesto explicitly rejected a wealth tax.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Tax restraint favours targeted and relatively modest assistance.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Ordinary participation matters, balanced by a restrained safety-net conception.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Income-tax reductions were an explicit priority.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reducing the poverty trap supports income help tied to low-paid work.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her government reduced the top marginal rate but retained a separate higher rate. That governing choice weighs against the statement’s removal of higher marginal rates altogether.",
+          "sources": [
+            "budget88"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Property rights and private ownership weigh against redistributing large estates as a routine policy.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concentrating help on demonstrable need fits targeted welfare.",
+          "sources": [
+            "economics",
+            "manifesto",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Thatcher’s public moral arguments drew on Christianity and she supported Christian school observance, while parliamentary law and policy retained civil authority. Personal belief is not scored as a clerical veto.",
+      "counterEvidence": "Her clashes with church leaders and insistence on individual choice limit claims of theocratic government. Establishment and voluntary civil options coexist.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She used Christian moral justification but also civil democratic and economic reasons.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian inheritance influenced law without making doctrine a comprehensive legislative code.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She governed without requiring bishops' approval and disputed their policy prescriptions.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her defence of the inherited British constitution accepts religious establishment.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Learning about faith and cultivating Christian heritage coexisted in the school settlement.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 1988 education settlement supported broadly Christian collective worship.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil courts and Parliament retained final legal responsibility.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Bishops in the House of Lords participated officially in reviewing legislation within the constitutional order she retained. Their role was limited, but the question asks for review rather than a clerical veto.",
+          "sources": [
+            "religion",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State religious ceremonies were part of the inherited order she supported.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "School religious provision supports some public expenditure cultivating belief.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She did not seek to remove Christian symbols from public institutions.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Christian festivals formed part of the recognised national tradition.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She retained bishops’ ex officio participation in the upper legislative chamber. That weighs against excluding public seats solely attached to religious office, although bishops did not hold executive government posts by virtue of office.",
+          "sources": [
+            "religion",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious institutions were treated as socially valuable recipients of fiscal accommodation.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage remained available without religious approval.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Voluntary religious practices deserved respect, but binding state adjudication remained civil; conditional recognition is a mixed inference.",
+          "sources": [
+            "education",
+            "religion",
+            "bruges",
+            "democracy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Thatcher combined social traditionalism, family responsibility and section 28 with an individual-achievement ethic that enabled women to enter formerly male roles.",
+      "counterEvidence": "Her earlier support for abortion reform and homosexual decriminalisation qualifies social conservatism; criminal tolerance is different from equal social recognition.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Economic and institutional change could be substantial while moral customs deserved continuity.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She explicitly valued inherited moral expectations.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her governing family rhetoric privileged marriage rather than equal recognition of every form.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Traditional family responsibilities remained part of her moral outlook.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Section 28's treatment of same-sex families supports opposition to equal marriage by inference.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The married two-parent family was a preferred model.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tolerance of legal early abortion and conservative moral reservations warrant a mixed social-acceptance inference.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her programme emphasised parents' rights over moral and sexual education.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her treatment of same-sex family recognition weighs against equal adoption acceptance.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Traditional public respectability fits her inherited-morals emphasis.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Established usage and scepticism of cultural revision suggest resistance to obligatory novel conventions.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Transmitting traditional moral values was an explicit educational priority.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her individual opportunity ethic and own leadership support acceptance of women entering male roles.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She accepted rapid institutional reform where necessary, balancing her respect for continuity.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Section 28 strongly weighs against expansive sexual-diversity instruction contrary to traditional parental expectations.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Historical connection was itself an important reason to preserve customs.",
+          "sources": [
+            "section28",
+            "education",
+            "manifesto",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Her scientific background and commercial research policy favoured innovation, but her 1988 environmental intervention recognised potentially irreversible risks and duties to future generations.",
+      "counterEvidence": "She supported action before all environmental uncertainties were resolved. Therefore neither blanket technological optimism nor a universal demand for complete long-term proof is justified.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Commercial science and prosperity favour adoption with basic safeguards despite remaining uncertainty. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her support for scientific application competes with environmental caution; trial-only rules should depend on the risk. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public benefit and development can justify limited habitat loss under environmental assessment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Medical harm makes long-term evidence more important than in ordinary commercial adoption. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Productivity and individual adaptation support labour-saving innovation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conservation mattered, but did not always outrank major economic benefits. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her applied-science outlook favours carefully regulated novel food production. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Elective invasive enhancement offers a stronger case for precaution than urgent treatment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Scientific development was an important means of reconciling prosperity with environmental protection. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her concern about poorly understood environmental disruption supports assessment before major irreversible works. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Basic safety alone seems inadequate for permanent invasive enhancement given her expressed risk concerns. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Scientific reliability requires tested evidence rather than premature medical deployment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Research freedom favours controlled investigation, while embryo ethics and irreversible consequences counterbalance enhancement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Potential ecosystem harm gives reason to require meaningful long-term evidence. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing and transport expansion fit her prosperity objectives where planning safeguards are met. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her environmental speech explicitly challenged complacency about irreversible consequences. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Despite decentralising economic decisions, Thatcher defended Westminster authority and imposed national constraints on local government and schooling. Market decentralisation is not territorial devolution.",
+      "counterEvidence": "Local administration, variable local taxation and separate police forces remained. Centralisation is scored by jurisdiction, not private ownership.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She resisted regional autonomy that could frustrate national programmes.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary sovereignty puts final territorial authority at Westminster.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unionism opposes a general unilateral regional exit right.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her local-government interventions show willingness to override locally supported obstruction.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her unitary constitutional model did not favour independent regional constitutions.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Separate forces coexisted with national law-and-order direction, giving mixed evidence.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National fiscal control and local-rate restraint limit keeping most revenue autonomously.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her government established a National Curriculum.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Locally set rates remained possible within national constraints.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National labour reforms were not optional for individual regions.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Council powers and boundaries remained creatures of parliamentary statute.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The NHS and national ministerial responsibility support national coverage standards.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local customary institutions would remain subordinate to the common state framework.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Limits on local fiscal powers fit her governing central control.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary local planning and conservation functions can remain local where wider interests are absent.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A cross-regional emergency warrants national executive coordination.",
+          "sources": [
+            "government",
+            "education",
+            "manifesto",
+            "manifesto83"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Thatcher described durable human motives and unequal talents alongside the effects of incentives, upbringing and moral education. This is a mixed causal view, not a genetic theory inferred from being conservative.",
+      "counterEvidence": "Statements about human nature do not establish her answer to comparative genetic claims about IQ, empathy or temperament. Moderate and neutral responses explicitly balance her fixed-disposition and learned-character accounts.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She invoked enduring human motives but also held that institutions reshape confidence and conduct.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her educational opportunity programme supplies a better-supported explanation than inherited national IQ rankings.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family expectations matter in her social account, while traditional sex differences also receive weight.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Durable personal variation and environmental pressures both fit her view; no biological priority is established.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual talents and cultivated opportunities both explain divergent interests.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Entrepreneurial incentives encourage risk-taking while personal aptitude varies, supporting a balanced answer.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Responsibility and cooperation were habits strengthened through families and institutions.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She valued personal character and moral education, giving both disposition and experience explanatory roles.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Discipline and schooling matter, as do differing individual capacities; neither is clearly primary.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian moral inheritance and a durable good-and-bad human nature compete in her account.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her discussion of public fears connects perceived threats to social change and experience.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her acceptance of different talents does not settle biological versus learned temperament; both are retained.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National traditions and cultural inheritance provide a modest social explanation of aesthetic preference.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her programme affirmed equal citizenship and addressed social training, not inherited racial propensity to violence.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Firm rules and moral education are intended to cultivate self-control regardless of race.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Market rewards and individual choices mattered to her, alongside barriers and expectations; a single causal account of the pay gap is not supported.",
+          "sources": [
+            "economics",
+            "democracy",
+            "manifesto",
+            "education"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently reviewed every one of the 240 questions and rationales plus all briefs and counter-evidence. Rechecked the 1979 manifesto, Bruges and Royal Society speeches, 1988 Budget and contemporaneous government firearms answer. Corrected lower progressive rates versus flat marginal taxation, official bishops’ legislative review versus an assumed clerical veto, and firearm possession for self-defence versus other licensed uses. Corrected the military inference that treated responding to the Falklands invasion as starting a war to settle a dispute; allies are already included in the defence-only question. Retained public-service exceptions, centralisation despite market liberalism, environmental caution and mixed human-nature/education reasoning. High neutral counts in Culture vs Nature reflect competing fixed-disposition and learned-character principles rather than assigning a genetic position from conservatism. Modern technology positions remain labelled analogies. Portrait and full-catalogue similarity checks occur at integration. Corrected two speech dates against primary page headers (26 November 1984 and 11 June 1980). Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers. Portrait integration review by OpenAI Codex on 2026-10-04: checked the selected Wikipedia infobox file, Commons creator and reuse status, image size and identity. This is an image-only revision; the preceding independent political evidence audit is retained unchanged.",
+    "similarity": []
+  }
+}

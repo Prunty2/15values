@@ -1,0 +1,2464 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "ideology",
+  "id": "american-conservatism",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+  "changeNote": "Completed 240 independently considered answers to the current bank from the scoped doctrine. No imported 12Axes vectors or score targets. User authorised neutral answers and completion on 2026-10-04. Conditional modern applications and mixed-causation modelling are explicitly inferred, not claims of direct statements or scientific findings. Independent review completed on 2026-10-04; question-meaning and evidence corrections are recorded in review notes.",
+  "metadata": {
+    "name": "American Conservatism (Trump-era Republican programme)",
+    "description": "The Trump-era Republican programme, with implemented 2025 border and tariff measures used to check its restrictionist and protectionist direction.",
+    "category": "Conservative",
+    "period": "United States: 2024 Republican programme, with 2025 executive-order implementation checks",
+    "scope": "The 2024 Republican platform as a representative contemporary American conservative variant; January and September 2025 executive acts and independent reporting check implementation in immigration and trade. It is not all American conservatism, a complete incumbent-government assessment or an endorsement of programme factual claims. Modern and biological-trait items are transparent conditional inferences, with mixed causation represented by neutral where warranted.",
+    "phrase": "A society emphasising national sovereignty, border enforcement, private enterprise and traditional institutions under the American constitutional order."
+  },
+  "sources": [
+    {
+      "id": "gop",
+      "title": "2024 Republican Party Platform",
+      "url": "https://www.presidency.ucsb.edu/documents/2024-republican-party-platform",
+      "publisher": "The American Presidency Project",
+      "date": "2024-07-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "borders",
+      "title": "Securing Our Borders (executive order)",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/securing-our-borders/",
+      "publisher": "The White House",
+      "date": "2025-01-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aptrade",
+      "title": "Trump signs order imposing new tariffs on trading partners",
+      "url": "https://apnews.com/article/trump-tariffs-mexico-3b03b98296424e59c7dc19a865d21969",
+      "publisher": "Associated Press",
+      "date": "2025-07-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/",
+      "publisher": "The White House",
+      "date": "2025-09-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "con",
+      "title": "Conservatism",
+      "url": "https://plato.stanford.edu/entries/conservatism/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "date": "2025-07-18",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "The 2024 Republican programme claims constitutional elections and separated powers; implementation favours assertive executive action.",
+      "counterEvidence": "This is a programme-centred assessment, not endorsement of claims about election fraud or a comprehensive democracy audit of the incumbent administration.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The programme explicitly centres electoral government and election procedures.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert appointment contradicts its popular constitutional mandate.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adult citizen suffrage is accepted with citizenship-verification restrictions.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strong execution is favoured, but enacted law still needs constitutional authority.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The platform formally accepts multiparty constitutional competition.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Investigations are endorsed as tools against governmental misuse.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitution-respecting judges are explicitly defended.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union selection conflicts with electoral representation and anti-bureaucratic politics.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Political disagreement alone lacks a constitutional exclusion power.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State popular votes are praised, but blanket national referendum repeal is not implied.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Presidential leadership remains formally subject to constitutional institutions.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The constitutional order includes defined removal for serious abuse.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Continuity alone cannot constitutionally justify postponing elections.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State accountability mechanisms differ; representative stability also matters.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The programme explicitly promises accountability to the American people.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Civilian constitutional rule is incompatible with autonomous military replacement.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Free-speech and gun-rights commitments coexist with aggressive policing and immigration enforcement.",
+      "counterEvidence": "Programme privacy pledges are selective; border orders increase detention while specifying applicable-law limits.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The drug-control and public-order agenda resists broad self-risk liberty.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Court-authorised serious-crime investigation fits law-enforcement priorities.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Obstruction conflicts with restoring public order and access.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free-speech commitments protect criticism, despite tensions in implementation.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal choice and opposition to coercive health bureaucracy weigh against paternalism.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Anti-surveillance rhetoric conflicts with expansive enforcement tools.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Impaired-driving prevention fits strong public-safety enforcement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Judicially identified danger supports preventive protective powers.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Speech freedom competes with opposition to harmful sexual content.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Digital privacy commitments oppose general governmental surveillance of lawful activity.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible local violence supports broader preventive policing.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Likely serious disorder fits the explicit restoration-of-order programme.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Due process formally protects the home from arbitrary searches.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Exposing abuse competes with classified national-security interests.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Defending firearm ownership is an explicit constitutional commitment.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Security detention is favoured, but indefinite absence of court review exceeds stated legality.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Patriotic education, national heritage and integration dominate the cultural programme.",
+      "counterEvidence": "Equal treatment and religious liberty coexist with cultural-majority priorities; immigration restriction is assessed separately.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "American civic traditions take precedence in the stated programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Accommodation is subordinate to shared institutions and public cost concerns.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Newcomers are expected to identify with national civic norms.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private heritage is tolerated while public identification is strongly national.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common patriotic civic education supports a primary national language.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Historic recognition can fit patriotism, but separate identity emphasis is contested.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public monuments and national heritage receive explicit priority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Group identity must not supersede the shared national community.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common national practices are preferred over extensive institutional adaptation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Multiple private traditions are accepted within a singular national narrative.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration into American civic life is a clear priority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Foreign-language provision is secondary to common integration.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Patriotic identity is central to family and school socialisation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious liberty does not automatically exempt otherwise prohibited coverings.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diverse citizens are welcomed within dominant civic and cultural commitments.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Shared national customs take precedence in integration programmes.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Merit selection, deterrence, deportation and lower irregular entry define the programme and January 2025 border order.",
+      "counterEvidence": "The order directs action within existing law; it does not prove every proposed measure was implemented or judicially upheld.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Admission is subordinated to domestic capacity and worker priorities.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Improving living conditions alone is not an admission entitlement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Merit-based selection is the programme's preferred ordinary route.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Immediate family unity competes with ending broad family-chain migration.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strict security and compatibility vetting qualify general refugee settlement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The border order expressly prioritises removal after unlawful entry or stay.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic-worker priority can override employer recruitment demand.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and service pressures are explicit arguments for tighter migration.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family migration remains within overall managed admission priorities.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A job helps merit selection but does not establish presumptive admission.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Accountable employment or family ties fit selective lawful settlement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The programme gives priority to demonstrated economic contribution and worker protection, supporting residence routes based on relevant skills or employment rather than graduation alone. A degree may assist a separate merit route; no claim is made that all graduates are excluded.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Protection claims remain subordinate to strong border and admissibility controls.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Compatibility screening supports preference for assimilable applicants.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Benefits prioritise citizens, with qualifications for established lawful residents.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural difference itself is not a reason to expand intake.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Peace through strength combines military superiority with selective use in national interests.",
+      "counterEvidence": "The programme criticises prolonged foreign wars but retains intervention, deterrence and overseas capability.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Force is permitted when clear national interests face threats.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Negotiated settlement is preferable when backed by credible strength.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The world's strongest armed forces are an explicit goal.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventing imminent attack fits robust national defence.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A direct attack is not the only permitted trigger.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A capable professional force is preferred to a general new draft.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Major concessions conflict with bargaining from national strength.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Technological military advantage supports conditional autonomous-system development.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Border defence is prioritised without abandoning global force projection.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Total abstention conflicts with protecting allies and national security.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A leading military retains sustained operations abroad.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Territorial disputes require bargaining, though force is not categorically excluded.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Threatening force is compatible with peace-through-strength bargaining.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Resolve is treated as a way to reduce long-term conflict risk.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Intelligence advantage serves the programme's national-security priorities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Arms agreements are acceptable only without sacrificing credible superiority.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "America First reserves authority to national institutions and uses international bargains instrumentally.",
+      "counterEvidence": "Alliances and agreements remain useful where they support national objectives; this is not isolationism.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic constitutional institutions retain ultimate sovereign authority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External bodies should not dictate against national decisions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National constitutional law takes priority over external judgments.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Alliances are valued but commitments remain conditional on burden sharing.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National consent must include the ability to withdraw.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External prosecution of national officials conflicts with sovereignty priorities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National interests explicitly govern international participation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Environmental cooperation should not displace domestic decision-making.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common foreign-policy blocs are resisted when they constrain autonomy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Domestic law should not be dictated by external rights institutions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preserving the dollar's position entails national monetary control.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Joint projects are useful when benefits justify constraints.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sole national border authority is fundamental to the platform.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Reciprocal bargains are accepted without accepting all common rules unconditionally.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political federation conflicts with American national sovereignty.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Collective enforcement is secondary to immediate national interest.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private enterprise and competitive services dominate, with public infrastructure and protected social programmes.",
+      "counterEvidence": "Medicare funding is not the same as public hospital ownership; the two must not be conflated.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private enterprise is the principal engine of prosperity.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Regulated private utilities fit the market-oriented programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equivalent provision favours private initiative over public bureaucracy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government competition with ordinary business conflicts with deregulation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Choice among providers fits the healthcare programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Infrastructure provision permits mixed ownership rather than a single rule.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cost-saving competition fits the drive against government waste.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary public banking competes with private financial enterprise.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Commercial divestment fits reducing government economic activity.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Homeownership and private supply take priority over public rental expansion.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Effective security regulation allows continued private ownership.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Energy expansion favours private producers, not general nationalisation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competitive routine contracting fits private-sector delivery.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security may justify exceptions without a universal ownership requirement.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Repeated subsidies conflict with commercial discipline and waste reduction.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A government broadcaster conflicts with reducing politically directed institutions.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Protective and reciprocal tariffs are explicit doctrine and were implemented through 2025 orders.",
+      "counterEvidence": "Rates and exemptions changed; the profile records protectionist direction, not a claim that any particular rate persists today.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Baseline tariffs are expressly supported to protect domestic production.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Removing most barriers conflicts with the protective manufacturing agenda.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Buy American procurement is explicitly preferred.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Sourcing freedom is qualified by strategic and tariff policy.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential supply chains should return to domestic production.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unreciprocated liberalisation conflicts with bargaining for reciprocity.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary protection fits rebuilding manufacturing capacity.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Investment is welcome, but strategic national preference qualifies equal treatment.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic farming protection follows the workers-and-farmers programme.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Protection is preferred over requiring exposed firms simply to adjust.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reciprocal retaliation is central to stated trade policy.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Origin-neutral treatment conflicts with tariffs and domestic preferences.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign subsidies are treated as unfair competition needing action.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Dependence reduction can outweigh tariff removal.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic foreign control is explicitly resisted, particularly concerning China.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Digital openness competes with national-security restrictions on foreign providers.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Deregulated private production coexists with national industrial priorities and protected strategic sectors.",
+      "counterEvidence": "Protectionism and industrial steering prevent treating this as pure laissez-faire.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private businesses should normally decide their output.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Compulsory targets are less favoured than tariffs and incentives.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Market competition is preferred for ordinary prices.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Manufacturing and strategic supply chains receive government direction.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer demand matters except where strategic capacity is prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Market pricing competes with promises to curb essential consumer costs.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Removing unnecessary entry restrictions is a central commitment.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic finance may be supported without general state credit allocation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Capital mobility is normally permitted, with security exceptions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selected domestic industries receive support against foreign dependence.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private digital assets are explicitly defended against government restriction.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Worker protection and employer flexibility produce no uniform wage-floor priority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private wage negotiation fits the general market programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Growth priorities coexist with preserving monetary credibility.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing supply and deregulation are preferred to broad rent caps.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Comprehensive production control conflicts with private enterprise.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Tax reduction and private earnings coexist with promises to preserve Social Security and Medicare.",
+      "counterEvidence": "Protecting contributory retirement programmes does not amount to equalising incomes generally.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Income equalisation is not the programme's main fiscal objective.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Unequal outcomes alone do not justify higher taxes.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Social protection is defended selectively while tax increases are opposed.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Benefits generally protect need rather than equalise living standards.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The platform cuts taxes without establishing one comprehensive rate philosophy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Retaining earnings is central to promised tax cuts.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family wealth retention weighs against redistributive inheritance taxation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Work incentives favour conditional rather than open-ended working-age support.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Wealth-transfer taxation conflicts with the tax-cutting programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Spending restraint and lower taxes constrain benefit expansion.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Retiree dignity is supported, but general participation benefits are less central.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Tax reductions are explicitly prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Worker and caregiver tax support fits targeted assistance.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lower marginal burdens are preferred over steep progression.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Redistributing privately owned land conflicts with property security.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Need-targeted support fits fiscal restraint better than broad entitlements.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Religious liberty and public Christian recognition coexist with constitutional civil authority.",
+      "counterEvidence": "Prayer rights do not necessarily mean compulsory worship or a clerical legislature.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public reasons coexist with substantial religious moral influence.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious teaching informs policy but is not generally binding scripture law.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil officials govern without needing approval from clergy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian heritage is emphasised within a formally non-established federal constitution.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neutral teaching and parental religious formation are both valued.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "School prayer is supported, but compulsory state faith formation is different.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional civil courts retain legal authority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious consultation is accepted without an official general review power.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Prayer in public ceremonies fits the programme's religious recognition.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public prayer and faith institutions are valued, but protecting religious liberty or opposing discrimination does not itself entail funding activities intended to increase belief. Public religious recognition and non-establishment pull in different directions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Traditional religious symbols are generally accepted in public life.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Predominant religious festivals are maintained as national traditions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clerical office alone does not confer federal governmental seats.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious institutional freedom supports favourable exemption treatment.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil marriage remains possible without religious approval.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Independent religious family-law jurisdiction conflicts with common constitutional law.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Family traditionalism, parental control and opposition to gender-policy change define the social programme.",
+      "counterEvidence": "Birth control and IVF are supported; the 2024 text leaves abortion principally to states rather than one comprehensive national rule.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Change is resisted where it unsettles established family and civic norms.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inherited social values generally take precedence over progressive revision.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The traditional married household retains preferred status.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sex-differentiated social expectations inform the programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Traditional marriage is valued, but the scoped platform does not demand reversing existing same-sex marriage.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strengthening marriage and family institutions is explicit.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Sanctity-of-life commitments qualify early-abortion acceptance.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parental control over conflicting sexual teaching is a major pledge.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family traditionalism and individual legal treatment leave adoption condition-dependent.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Conventional public norms are favoured over unrestricted cultural revision.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The programme expressly resists new gender-identity conventions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Passing established American moral traditions is prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal opportunity coexists with traditional gender expectations.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Continuity and stability weigh against rapid institutional change.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The platform prioritises parental control and rejects school content it labels gender ideology. This supports resisting identity lessons against family expectations, but opposition to advocacy is not evidence of rejecting every neutral lesson about orientations or identities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Heritage continuity is valued in schools and public institutions.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Energy development, AI expansion and reduced regulation favour technological deployment.",
+      "counterEvidence": "Medical and irreversible human-enhancement risks still differ from business deregulation; the platform is not permission for every technology.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Removing barriers to beneficial innovation is an explicit commitment.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Long trial-only delays conflict with rapid development priorities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Streamlined permitting and development outweigh some habitat preservation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Medical safety remains relevant despite general deregulation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "AI-led productivity is expressly prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Energy and construction expansion take precedence over broad preservation vetoes.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Novel food production competes with agricultural and consumer interests.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Invasive enhancement requires stronger safeguards than ordinary software adoption.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Innovation and abundant energy are preferred to consumption restraint.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Lengthy environmental delay conflicts with permitting acceleration.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual choice and unresolved irreversible risks both matter.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Diagnostic reliability is necessary even under an innovation agenda.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Embryo enhancement conflicts with life-protection and cautious bioethical commitments.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agricultural innovation and ecological stewardship require risk-specific judgment.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and infrastructure expansion are clear programme priorities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Irreversibility strengthens caution, while the programme rejects precautionary paralysis.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "State education and abortion powers coexist with forceful federal enforcement on immigration and national priorities.",
+      "counterEvidence": "This is selective federalism, not a consistent presumption for either level in every domain.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "States have substantial constitutional authority in the platform.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Federal supremacy is asserted within national competences.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional union is not treated as freely secedable by local vote.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sanctuary policy is opposed where it obstructs federal enforcement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State constitutions fit the American federal framework.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local police remain important despite federal enforcement partnerships.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Returning responsibilities to states favours meaningful fiscal autonomy.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Closing the federal education department rejects uniform national curricular control.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State tax competition fits federalism and low-tax incentives.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National worker protections coexist with state regulatory discretion.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local choice remains bounded by state and federal constitutional allocations.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal Medicare commitments coexist with state healthcare discretion.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tribal institutions and common national legal obligations require reconciliation.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Tax competition generally fits the programme's incentive philosophy.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local management is appropriate absent overriding federal interests.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National coordination is legitimate for threats spanning regions.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "The programme emphasises learned patriotism, education, individual merit and biological sex.",
+      "counterEvidence": "Biological sex claims do not establish genetic explanations for stress, IQ or crime. Neutral answers model mixed causation, not scientific endorsement.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and family formation are central explanations for behaviour.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International IQ comparisons involve education, health, measurement and inheritance; the scoped doctrine does not assign a stable causal priority. This representative response adopts a mixed model rather than inferring biology from citizenship or tradition.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The programme gives biological sex a meaningful role in explaining differences.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Stress involves experience and disposition without a programme-level ranking.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Career preparation and opportunity shape expressed interests.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Risk-taking combines personal disposition with incentives and experience.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Patriotic civics and family institutions cultivate cooperative habits.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral capacities and social formation both contribute to empathy.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educational circumstances and individual differences jointly affect attention.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral convictions draw on both inherited dispositions and social teaching.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civic education and lived insecurity influence perceived threats.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Temperament reflects personal constitution and upbringing in this model.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Traditional sex distinctions do not settle cultural versus biological attraction.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Violence rates can reflect social conditions, institutions and individual dispositions; the doctrine supplies no defensible racial causal ranking. The representative model therefore withholds primacy rather than deriving empirical claims from equal rights.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Discipline and parental teaching are preferred to racial destiny explanations.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Market value, individual choices and social expectations can all affect pay.",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 answers against the current bank and checked the scoped primary doctrine plus scholarship/context. No scores or desired locations were consulted. Reviewed literal government authority, ownership versus funding, official religious review versus veto, graduate routes versus guaranteed residence, military initiation versus response, and causal claims versus moral equality. Corrections: restricted-immigration-open-immigration-12: 1 -> 1; secular-religious-10: 1 -> 0; progressive-traditionalist-15: -2 -> -1. The inferred modern-policy answers and mixed causal models remain representative applications, not documented answers by every adherent or scientific causal estimates. Similarity review is a subsequent mechanical check. Re-read the 2024 platform and the January/September 2025 White House actions; these establish programme and ordered action, not universal implementation or the complete 2026 administration record. AP corroboration records the July 2025 tariff order; rates are not asserted to remain current. Validation returned zero errors. Explicitly examined neutral-count warnings: secular-religious 6/16, culture-nature 10/16. Retained condition-dependent policy tradeoffs and representative interaction models; in particular the Culture vs Nature neutrals withhold causal primacy rather than converting equal rights into empirical proof. High neutrality records weaker doctrinal determination and must not be presented as a precisely measured consensus among adherents. No answers were changed after inspecting validation scores.",
+    "similarity": []
+  }
+}

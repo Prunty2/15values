@@ -1,0 +1,2313 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "margaret-thatcher",
+  "revision": 3,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex /root/other_audit",
+  "changeNote": "Independent evidence audit using original 240 questions. Unsupported precise attributions remain unresolved; this draft is not approved for publication.",
+  "metadata": {
+    "name": "Margaret Thatcher",
+    "description": "British prime minister assessed through her governing record, parliamentary conservatism, market reforms and defence policy.",
+    "category": "Political leader",
+    "period": "1979–1990",
+    "scope": "Personal positions and governing conduct during 1979–1990; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1925–2013",
+    "image": {
+      "path": "profiles/images/margaret-thatcher-r2.jpg",
+      "alt": "Portrait of Margaret Thatcher",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Margaret_Thatcher_stock_portrait_(cropped).jpg",
+      "creator": "Probably Terence Donovan; derivative work by Begoon; permission from the Thatcher Estate",
+      "license": "Copyrighted free use",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Copyrighted_free_use"
+    }
+  },
+  "sources": [
+    {
+      "id": "government",
+      "title": "History of Margaret Thatcher",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/margaret-thatcher",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bruges",
+      "title": "Speech to the College of Europe",
+      "url": "https://www.margaretthatcher.org/document/107332",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-09-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "science",
+      "title": "Speech to the Royal Society",
+      "url": "https://www.margaretthatcher.org/document/107346",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1988-09-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "section28",
+      "title": "History of section 28 of the Local Government Act 1988",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cdp-2023-0213/",
+      "publisher": "House of Commons Library",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "referendum",
+      "title": "Channel 4 Face the People interview",
+      "url": "https://www.margaretthatcher.org/document/106870",
+      "publisher": "Margaret Thatcher Foundation",
+      "date": "1987-06-06",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Electorate and parliamentary party can oust her; restricts referendums to advisory constitutional matters rather than ordinary laws.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: competitive election requirement.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: expert appointment replacing voters.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: universal adult franchise.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: legislation against parliamentary rejection.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: equal opposition campaigning.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: opposition financial scrutiny.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: constitutional judicial review.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: union appointment replacing voters.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving political exclusion of parties.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: binding law-repeal referendum.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: sole leader control of policy.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: constitutional removal for abuse.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: unapproved election postponement.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving recall before term expiry.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: absence of electoral/representative accountability.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference includes explicit rejection of binding issue referendums and avoids treating parliamentary sovereignty as unlimited executive power. Specific application: military replacement of civilians.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Accepts vigorous democratic criticism while advocates stronger criminal penalties through courts and Parliament.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving drug use without harm to others.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving court-authorised serious-crime surveillance.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving peaceful temporary traffic obstruction.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Limited liberty/safeguard inference; harsh penalties do not establish every police stop or surveillance rule. Specific application: offensive criticism of public institutions.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving compulsory measures primarily protecting the adult themselves.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving multi-year tracking of nonsuspects.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving random intoxication checks.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving court-ordered preoffence movement restriction.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving access to morally objectionable media.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving online service use without governmental identity verification.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving area-wide stop/search without individual suspicion.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving credible-disorder gathering prohibition.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving home-warrant rule with emergency exception.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving publication of confidential evidence of official wrongdoing.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving checked personal-defence firearm ownership.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Limited liberty/safeguard inference; harsh penalties do not establish every police stop or surveillance rule. Specific application: terrorism detention without independent courts.",
+          "sources": [
+            "referendum",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving national-culture priority on conflict.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving costly cultural accommodations in services.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving adoption of cultural customs.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving retention of foreign identity.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving national-language service priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving Indigenous ceremonial acknowledgment.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving predominant-tradition funding priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving distinct-identity priority in conflict.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving single cultural calendar.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving several traditions in national identity.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving wider-community participation.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving foreign-language public signage.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving family national-identity priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving burqa exception to other covering bans.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving several cultural ways of life.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving custom adoption priority in programmes.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving strict housing/workforce annual cap.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving general settlement to improve conditions.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving skills-exclusive permanent residence.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving dependant family reunion.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving permanent refuge independent of skills/culture.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving remaining after illegal entry.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving limits despite employer demand.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving reduction despite economic gains to relieve services.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving family quota inclusion.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving job offer generally sufficient for entry.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving required employer/family sponsorship.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving graduation alone and permanent-residence route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving persecution protection after quotas.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving cultural-similarity preference.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving noncitizen welfare/social housing.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving difference in culture as reason for more arrivals.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Falklands defence, NATO deterrence and negotiated arms control support capability with diplomacy.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving force for national interests without prior attack.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving diplomacy priority despite delay.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified military inference preserves the defensive trigger and negotiated capability reductions. Specific application: costly military superiority.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving strong-evidence imminent-attack prevention.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving force only after actual attack on nation/ally.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving compulsory male military training.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving substantial concessions avoiding war.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving autonomous attacks without human approval of each target.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving defence rather than foreign campaigns.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Qualified military inference preserves the defensive trigger and negotiated capability reductions. Specific application: avoiding war even if an ally is attacked.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified military inference preserves the defensive trigger and negotiated capability reductions. Specific application: prolonged foreign combat capability.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving leaving territory disputed rather than starting war.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified military inference preserves the defensive trigger and negotiated capability reductions. Specific application: military threats for concessions.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving war-risk reduction over resolve.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving risky military espionage.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified military inference preserves the defensive trigger and negotiated capability reductions. Specific application: negotiated capability reductions.",
+          "sources": [
+            "bruges",
+            "referendum"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "European cooperation is welcome, a centralized superstate is rejected; NATO and negotiated trade rules remain commitments.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: final domestic institutional authority.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: binding international decision despite government opposition.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: domestic court priority over international ruling.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: constraining long-term alliances.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: withdrawal without international permission.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving binding international court over own officials.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: national interest priority over international goals.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving delegated cross-border environmental authority.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving outside common-foreign-policy blocs.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving required domestic human-rights law changes.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: national rather than shared currency authority.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: pooled international funds/decisions.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving sole border authority.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: common negotiated trade rules.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment retains cooperation while rejecting political/monetary centralization. Specific application: outside political federation.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving collective rule enforcement despite immediate national interest.",
+          "sources": [
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Commercial privatizations and council house sales coexist with explicitly defended public NHS treatment capacity.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: private ownership of most businesses.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: public utility networks.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: private ownership on comparable provision.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: public competitive enterprises.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: private facilities with public healthcare funding.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public passenger rail infrastructure.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: lower-cost private service contracts.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public alongside private banks.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: sale of public commercial enterprises.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: substantial public rental housing.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: regulated private security-important businesses.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public resource extraction.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: routine-service private contracting.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: retained strategic ownership despite sale revenue.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified ownership inference records public-healthcare exception rather than assuming all services must be private. Specific application: sale of repeatedly subsidized public enterprises.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public national broadcaster.",
+          "sources": [
+            "government",
+            "referendum"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Bruges demands outward-looking free trade and reforms agricultural protection; abolished exchange barriers.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: protective import tariffs.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: most trade barriers removed despite domestic losses.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: domestic procurement despite higher prices.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: best-terms international sourcing.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving essential imports restricted to maintain domestic output.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: unilateral trade liberalisation.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: temporary infant-industry protection.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: equal foreign-investor establishment terms.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: protected farming capacity.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: domestic adjustment over protection.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: retaliatory tariffs.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: equal product taxes.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving restrictions on foreign-subsidized imports.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: tariff-removing trade deals despite dependence.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving foreign control prevented in strategic firms.",
+          "sources": [
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade doctrine does not settle the precise exception for subsidized imports or strategic foreign control. Specific application: foreign online services without special trade barriers.",
+          "sources": [
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Deregulation, competition, privatization and exchange-control abolition underpin her ordinary economic policy.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: business production choice.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: compulsory important-industry targets.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: supply-demand prices.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: national-plan directed investment.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: consumer-demand expansion/closure.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: essential-price controls.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: entry without proving need.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: priority-sector bank lending directions.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: unapproved outward capital movement.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: selected-industry development subsidies.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving competing private currencies.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: statutory minimum wage.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: negotiated wages over state schedules.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: central-bank support for national plan.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: market rents.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Qualified market inference leaves public infrastructure and statutory exceptions explicit. Specific application: ordinary national production/distribution coordination.",
+          "sources": [
+            "government",
+            "bruges"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Tax cuts lowered top rates but did not eliminate graduated income taxation or social safety-net provision.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: substantial disposable-income equalisation.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: inequality alone insufficient for tax.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving higher-tax stronger minimum income.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: basic safety net rather than narrowing living standards.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: substantially higher average tax share for high earners.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: greater income retention despite unequal households.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving inheritance tax funding income support.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving expiry for able-to-work low-income recipients.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving wealth tax funding income transfers.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: modest benefits for lower tax burden.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving support for ordinary social participation.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: tax cuts ahead of cash benefits.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public supplements for low-paid work.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Average share and marginal-rate questions are separated; reduced top rates do not mean a flat income tax. Specific application: no higher marginal rates on high earners.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving compensated redistribution of large landholdings.",
+          "sources": [
+            "government"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving benefits limited to basic-needs inability.",
+          "sources": [
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving nonreligious justification of laws.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving religious teaching as official law source.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving policy without clerical approval.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving particular religion constitutional foundation.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving nonproselytising public-school religion teaching.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving faith-forming instruction in recognised state religion.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving civil rather than clerical court law.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving official clerical review of legislation.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving no official ceremonial worship.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving public funding to strengthen belief.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving no endorsing governmental religious symbols.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving official predominant-religion festival holidays.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving no ex-officio religious governmental seats.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving special religious tax exemption.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving no religious marriage approval requirements.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving binding religious family courts.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Defends traditional family/morals; Section 28 prohibited local authorities promoting homosexuality as a pretend family relationship.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: substantial custom change with new values.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: tradition priority over new values.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving equal recognition of nontraditional households.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving distinct traditional sex roles.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving marriage irrespective of sex.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: preferred married two-parent model.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving social acceptance of early abortion.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving parental final say on sexual-value lessons.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving equal social acceptance of same-sex adoption.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving traditional modest dress.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving identity-responsive language change.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: transmitting old morals before new ones.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving equal acceptance across traditional sex roles.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: gradual social-institution change despite popularity.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: school sexual-orientation/gender-identity lessons.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified traditional-custom inference is grounded in actual school/local-authority policy, not every sex-role or adoption question. Specific application: custom preservation despite unclear purpose.",
+          "sources": [
+            "section28",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Supports commercial science while reducing CFC use before full implications are known and treating environmental protection as necessary expenditure.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified risk inference; evidenced technology and reduced-consumption measures preclude a simple exclusive climate preference. Specific application: wide technology use with uncertain long-term risks.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving small trials until substantial long-term risk evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving infrastructure despite permanent habitat loss. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving long-term medical safety before wide access. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving productive AI despite displacement/retraining. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving habitat preservation over beneficial development. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving cultivated meat before environmental effects understood. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving research-only healthy enhancement implants until strong long-term safety. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving unproven technological climate priority over lower consumption. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving construction delay with poorly understood environment effects. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving enhancement implants after basic safety despite long-term uncertainty. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving clinical AI trials until reliable across patient groups. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving embryo enhancement trials beyond disease prevention. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving long-term ecosystem evidence before widespread GM crops. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving infrastructure over undeveloped land. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified risk inference; evidenced technology and reduced-consumption measures preclude a simple exclusive climate preference. Specific application: delay possible irreversible harm until strong contrary evidence.",
+          "sources": [
+            "science"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Royal Society address expressly defends compulsory science for all schoolchildren.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving protected regional affairs despite central disagreement.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving central final jurisdictional say.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving referendum secession.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving central overriding popular regional obstruction.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving regional constitutions within national rights.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving single national police authority.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving most local tax retained.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Limited central-curriculum inference; this does not settle all regional constitutional or tax powers. Specific application: national compulsory school curriculum.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving regional tax-rate variation.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving national employment rules.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving local boundary/power changes without central approval.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving national treatment coverage.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving Indigenous territorial institutions.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving central tax-competition limits.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving local-only land/wildlife management.",
+          "sources": [
+            "science"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving central multi-region disaster direction.",
+          "sources": [
+            "science"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving upbringing greater than inherited general behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving inherited national IQ differences greater than education. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving social causes greater than biological sex behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving biological stress susceptibility greater than experience. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving experienced interests greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving inherited risk-taking greater than learning. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving social cooperation greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving inherited empathy greater than upbringing. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving experienced attention greater than inherited characteristics. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving biological immediate moral response greater than culture. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving learned threat perceptions greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving biological temperament greater than environment. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving cultural attraction preferences greater than inheritance. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving biological racial violence greater than surroundings. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving learned self-control greater than inherited racial tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 1979–1990 resolving economic-value pay gap rather than social expectations. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "/root/current_audit independent peer; /root targeted coordinator review",
+    "reviewedAt": "2026-10-04",
+    "notes": "Separate-context peer review completed across all 240 exact question conditions; see profile-audit/reports/personalities-2026-10-04/current-reviews-other.json. Selected actual primary-source passages were read independently and 22 concrete concerns resolved. This is not exhaustive independent full-source certification. Unresolved answers still prohibit publication, and similarity clearance remains pending.",
+    "similarity": []
+  }
+}

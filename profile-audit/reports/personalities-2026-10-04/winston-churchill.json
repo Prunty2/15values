@@ -1,0 +1,4250 @@
+{
+  "schemaVersion": 1,
+  "id": "winston-churchill",
+  "date": "2026-10-04",
+  "oldRevision": 2,
+  "draftRevision": 3,
+  "period": "1940–1955",
+  "status": "reviewed-with-unresolved-replacement",
+  "questionBankVersion": "1.0.0",
+  "questionCount": 240,
+  "independentNumericAnswers": 81,
+  "unresolvedAnswers": 159,
+  "sourceReads": [
+    {
+      "id": "parliament",
+      "url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-136/part-of-the-constitution-winston-s-churchill-and-parliamentary-democracy/",
+      "publisher": "International Churchill Society",
+      "accessOutcome": "relevant body read; scope bounded by evidence findings",
+      "primary": false
+    },
+    {
+      "id": "manifesto",
+      "url": "https://www.ukpol.co.uk/general-election-manifestos-1951-conservative-party/",
+      "publisher": "Conservative Party via UKPOL",
+      "accessOutcome": "relevant body read; scope bounded by evidence findings",
+      "primary": true
+    },
+    {
+      "id": "science",
+      "url": "https://www.nationalchurchillmuseum.org/fifty-years-hence.html",
+      "publisher": "America’s National Churchill Museum",
+      "accessOutcome": "relevant body read; scope bounded by evidence findings",
+      "primary": true
+    },
+    {
+      "id": "eugenics-context",
+      "url": "https://winstonchurchill.org/publications/finest-hour-extras/churchill-and-eugenics-1/",
+      "publisher": "International Churchill Society",
+      "accessOutcome": "relevant body read; scope bounded by evidence findings",
+      "primary": false,
+      "sourceKind": "Contextual synthesis or archival overview; original statements distinguished in evidence findings."
+    }
+  ],
+  "evidenceFindings": [
+    {
+      "axis": "democracy-autocracy",
+      "positions": {
+        "1": "2",
+        "2": "-1",
+        "3": "1",
+        "4": "-2",
+        "5": "2",
+        "6": "1",
+        "7": "1",
+        "8": "-1",
+        "9": "-1",
+        "10": "-1",
+        "11": "-1",
+        "12": "2",
+        "13": "-2",
+        "15": "-2",
+        "16": "-2"
+      },
+      "sources": [
+        "parliament",
+        "manifesto"
+      ],
+      "finding": "Parliamentary accountability, opposition criticism and acceptance of 1945 election defeat coexist with wartime postponements approved by Parliament.",
+      "rationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act.",
+      "evidenceId": "e01"
+    },
+    {
+      "axis": "authority-liberty",
+      "positions": {
+        "4": "2",
+        "13": "1",
+        "16": "-1"
+      },
+      "sources": [
+        "parliament"
+      ],
+      "finding": "Defends opposition criticism and judicial/legal safeguards against executive power.",
+      "rationale": "Qualified constitutional inference preserves wartime counterevidence rather than projecting complete modern civil-liberty doctrine.",
+      "evidenceId": "e02"
+    },
+    {
+      "axis": "militarist-pacifist",
+      "positions": {
+        "1": "1",
+        "2": "1",
+        "3": "2",
+        "4": "1",
+        "5": "-1",
+        "9": "-1",
+        "10": "-2",
+        "11": "2",
+        "13": "1",
+        "14": "1",
+        "16": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "1951 platform endorses NATO rearmament, Allied defence, strong collective security and negotiated prevention of war.",
+      "rationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war.",
+      "evidenceId": "e03"
+    },
+    {
+      "axis": "nationalism-internationalism",
+      "positions": {
+        "1": "1",
+        "4": "2",
+        "11": "1",
+        "12": "1",
+        "14": "1",
+        "15": "1",
+        "16": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "Backs UN, NATO, Commonwealth and European cooperation while defending Britain’s constitutional independence.",
+      "rationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation.",
+      "evidenceId": "e04"
+    },
+    {
+      "axis": "public-private",
+      "positions": {
+        "1": "1",
+        "2": "1",
+        "3": "1",
+        "4": "-1",
+        "5": "-1",
+        "6": "2",
+        "9": "1",
+        "10": "1",
+        "12": "1",
+        "14": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "1951 manifesto explicitly retains nationalised coal and rail, reverses steel nationalisation and supports mixed housing/NHS services.",
+      "rationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation.",
+      "evidenceId": "e05"
+    },
+    {
+      "axis": "protectionism-free-trade",
+      "positions": {
+        "1": "1",
+        "2": "1",
+        "4": "1",
+        "5": "1",
+        "8": "1",
+        "9": "2",
+        "10": "1",
+        "14": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "Trade expansion coexists with farming/fishing protection from dumping and guaranteed domestic agricultural markets.",
+      "rationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward.",
+      "evidenceId": "e06"
+    },
+    {
+      "axis": "planning-free-market",
+      "positions": {
+        "1": "1",
+        "2": "-1",
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "7": "1",
+        "10": "1",
+        "13": "1",
+        "15": "1",
+        "16": "-1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "Competition is the normal rule but rearmament distorts markets; agriculture guarantees, food subsidies and state industry supervision remain.",
+      "rationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans.",
+      "evidenceId": "e07"
+    },
+    {
+      "axis": "high-redistribution-low-redistribution",
+      "positions": {
+        "3": "1",
+        "4": "1",
+        "5": "1",
+        "6": "1",
+        "10": "1",
+        "11": "1",
+        "12": "1",
+        "13": "1",
+        "14": "-1",
+        "16": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "Pensioners’ hardest needs, family allowances and targeted rather than universal subsidies coexist with tax relief and excess-profits tax.",
+      "rationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities.",
+      "evidenceId": "e08"
+    },
+    {
+      "axis": "progressive-traditionalist",
+      "positions": {
+        "1": "-1",
+        "2": "1",
+        "6": "1",
+        "12": "1",
+        "14": "1",
+        "16": "1"
+      },
+      "sources": [
+        "manifesto"
+      ],
+      "finding": "Constitutional monarchy, British way of life and inherited traditions are expressly defended alongside practical reform.",
+      "rationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions.",
+      "evidenceId": "e09"
+    }
+  ],
+  "questionFindings": [
+    {
+      "questionId": "democracy-autocracy-01",
+      "oldValue": 2,
+      "oldRationale": "He accepted electoral defeat and later returned through competitive elections.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: competitive election requirement.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-02",
+      "oldValue": -2,
+      "oldRationale": "Expert advice did not replace elected Parliament as the source of government.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: expert appointment replacing voters.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-03",
+      "oldValue": 1,
+      "oldRationale": "He accepted broad British adult suffrage, qualified by unequal imperial political rights.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: universal adult franchise.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-04",
+      "oldValue": -2,
+      "oldRationale": "Even wartime leadership remained dependent on parliamentary authority.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: legislation against parliamentary rejection.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-05",
+      "oldValue": 2,
+      "oldRationale": "Opposition and contested elections resumed with the end of wartime coalition.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: equal opposition campaigning.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-06",
+      "oldValue": 2,
+      "oldRationale": "Commons scrutiny and public parliamentary debate were integral to his constitutional view.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: opposition financial scrutiny.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-07",
+      "oldValue": 1,
+      "oldRationale": "Independent judicial restraint of unlawful executive conduct fits his liberties, while parliamentary sovereignty limits review of legislation.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: constitutional judicial review.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-08",
+      "oldValue": -2,
+      "oldRationale": "Trade unions were legitimate negotiating bodies, not substitutes for the electorate.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: union appointment replacing voters.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-09",
+      "oldValue": -1,
+      "oldRationale": "Political opponents could compete, with wartime security restrictions qualifying the general rule.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: political exclusion of parties.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-10",
+      "oldValue": 0,
+      "oldRationale": "He sometimes entertained referendums while ordinarily preferring parliamentary judgement, giving a mixed inference.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: binding law-repeal referendum.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-11",
+      "oldValue": -2,
+      "oldRationale": "His conception placed national authority in Parliament, not the leader alone.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: sole leader control of policy.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-12",
+      "oldValue": 2,
+      "oldRationale": "A government must retain parliamentary confidence and answer serious abuse.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: constitutional removal for abuse.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-13",
+      "oldValue": -2,
+      "oldRationale": "Wartime extensions required legislation rather than unilateral personal postponement.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: unapproved election postponement.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-14",
+      "oldValue": -1,
+      "oldRationale": "Stable representative mandates weigh against routine recall votes.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving recall before term expiry.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving recall before term expiry."
+    },
+    {
+      "questionId": "democracy-autocracy-15",
+      "oldValue": -2,
+      "oldRationale": "He explicitly defended executive accountability through elected institutions.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: absence of electoral/representative accountability.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "democracy-autocracy-16",
+      "oldValue": -2,
+      "oldRationale": "Civilian parliamentary government contradicts discretionary military replacement.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -2,
+      "newRationale": "Period-bounded parliamentary inference; constitutional decisions and statutory judicial review are distinguished from striking down any Act. Specific application: military replacement of civilians.",
+      "evidenceIds": [
+        "e01"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "authority-liberty-01",
+      "oldValue": -1,
+      "oldRationale": "His defence of personal freedom did not imply acceptance of harmful drugs without regulation.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving drug use without harm to others.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving drug use without harm to others."
+    },
+    {
+      "questionId": "authority-liberty-02",
+      "oldValue": 1,
+      "oldRationale": "Serious-crime surveillance subject to legal authority fits both security and constitutional principles.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving court-authorised serious-crime surveillance.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving court-authorised serious-crime surveillance."
+    },
+    {
+      "questionId": "authority-liberty-03",
+      "oldValue": 0,
+      "oldRationale": "Political assembly is protected, while obstruction and wartime order qualify an unconditional right.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving peaceful temporary traffic obstruction.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving peaceful temporary traffic obstruction."
+    },
+    {
+      "questionId": "authority-liberty-04",
+      "oldValue": 2,
+      "oldRationale": "Sharp criticism of ministers remained legitimate in his parliamentary practice.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Qualified constitutional inference preserves wartime counterevidence rather than projecting complete modern civil-liberty doctrine. Specific application: offensive criticism of public institutions.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "authority-liberty-05",
+      "oldValue": 1,
+      "oldRationale": "Paternal social protection and public health support limited protective requirements.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving compulsory measures primarily protecting the adult themselves.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving compulsory measures primarily protecting the adult themselves."
+    },
+    {
+      "questionId": "authority-liberty-06",
+      "oldValue": 1,
+      "oldRationale": "Wartime security administration supports retaining movement information, qualified by peacetime liberty.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving multi-year tracking of nonsuspects.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving multi-year tracking of nonsuspects."
+    },
+    {
+      "questionId": "authority-liberty-07",
+      "oldValue": 1,
+      "oldRationale": "Public safety gives a plausible basis for proportionate intoxication checks.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving random intoxication checks.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving random intoxication checks."
+    },
+    {
+      "questionId": "authority-liberty-08",
+      "oldValue": 1,
+      "oldRationale": "Preventive security restrictions fit his wartime practice where a court establishes grave danger.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving court-ordered preoffence movement restriction.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving court-ordered preoffence movement restriction."
+    },
+    {
+      "questionId": "authority-liberty-09",
+      "oldValue": 0,
+      "oldRationale": "He valued free expression but accepted moral and security limits in the institutions he retained.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving access to morally objectionable media.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving access to morally objectionable media."
+    },
+    {
+      "questionId": "authority-liberty-10",
+      "oldValue": 0,
+      "oldRationale": "Free personal communication and security monitoring are competing principles for this modern analogy.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving online service use without governmental identity verification.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving online service use without governmental identity verification."
+    },
+    {
+      "questionId": "authority-liberty-11",
+      "oldValue": 1,
+      "oldRationale": "Credible grave violence fits exceptional preventive search powers.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving area-wide stop/search without individual suspicion.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving area-wide stop/search without individual suspicion."
+    },
+    {
+      "questionId": "authority-liberty-12",
+      "oldValue": 2,
+      "oldRationale": "Wartime and public-order priorities support preventing gatherings likely to produce serious disorder.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving credible-disorder gathering prohibition.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving credible-disorder gathering prohibition."
+    },
+    {
+      "questionId": "authority-liberty-13",
+      "oldValue": 1,
+      "oldRationale": "Common-law liberties favour legal warrants outside urgent danger.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified constitutional inference preserves wartime counterevidence rather than projecting complete modern civil-liberty doctrine. Specific application: home-warrant rule with emergency exception.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "authority-liberty-14",
+      "oldValue": -1,
+      "oldRationale": "His defence of official secrecy weighs against an unrestricted right to publish classified material.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving publication of confidential evidence of official wrongdoing.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving publication of confidential evidence of official wrongdoing."
+    },
+    {
+      "questionId": "authority-liberty-15",
+      "oldValue": 0,
+      "oldRationale": "Arming civilians against invasion supports defensive possession in national emergency, but does not establish a general personal self-defence entitlement in ordinary life. That emergency practice and retained peacetime firearms licensing support a mixed inference.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving checked personal-defence firearm ownership.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving checked personal-defence firearm ownership."
+    },
+    {
+      "questionId": "authority-liberty-16",
+      "oldValue": 0,
+      "oldRationale": "Wartime internment supports strong detention powers, but his defence of habeas corpus and ordinary liberty counters an indefinite review-free rule.",
+      "oldSources": [
+        "parliament",
+        "government",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Qualified constitutional inference preserves wartime counterevidence rather than projecting complete modern civil-liberty doctrine. Specific application: terrorism detention without independent courts.",
+      "evidenceIds": [
+        "e02"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "assimilation-multiculturalism-01",
+      "oldValue": 2,
+      "oldRationale": "British civic and cultural inheritance took priority in his national conception.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national-culture priority on conflict.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving national-culture priority on conflict."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-02",
+      "oldValue": 0,
+      "oldRationale": "Pragmatic accommodation existed across the empire, balanced by dominant British institutions.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving costly cultural accommodations in services.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving costly cultural accommodations in services."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-03",
+      "oldValue": 1,
+      "oldRationale": "Settlers were expected to join British civic and social life.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving adoption of cultural customs.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving adoption of cultural customs."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-04",
+      "oldValue": 1,
+      "oldRationale": "Loyalty to Britain could coexist with continuing private or religious traditions.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving retention of foreign identity.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving retention of foreign identity."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-05",
+      "oldValue": 2,
+      "oldRationale": "Common English public institutions fit his national integration outlook.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national-language service priority.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving national-language service priority."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-06",
+      "oldValue": 0,
+      "oldRationale": "Imperial recognition of local peoples coexisted with hierarchy; ceremonial acknowledgement is a balanced inference.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving Indigenous ceremonial acknowledgment.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving Indigenous ceremonial acknowledgment."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-07",
+      "oldValue": 2,
+      "oldRationale": "National cultural inheritance was a central public value.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving predominant-tradition funding priority.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving predominant-tradition funding priority."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-08",
+      "oldValue": -2,
+      "oldRationale": "Conflicting community expectations would not override common British institutions.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving distinct-identity priority in conflict.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving distinct-identity priority in conflict."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-09",
+      "oldValue": 1,
+      "oldRationale": "A common national calendar fits the state ceremonies he supported.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving single cultural calendar.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving single cultural calendar."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-10",
+      "oldValue": 0,
+      "oldRationale": "He recognised multiple imperial communities but not an equal-cultures model of metropolitan identity.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving several traditions in national identity.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving several traditions in national identity."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-11",
+      "oldValue": 2,
+      "oldRationale": "Shared national participation follows his emphasis on unity.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving wider-community participation.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving wider-community participation."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-12",
+      "oldValue": -1,
+      "oldRationale": "Common-language institutions weigh against extensive parallel foreign-language public signage.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving foreign-language public signage.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving foreign-language public signage."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-13",
+      "oldValue": 2,
+      "oldRationale": "His wartime appeal placed common national identity above sectional loyalties.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving family national-identity priority.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving family national-identity priority."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-14",
+      "oldValue": 0,
+      "oldRationale": "Religious accommodation and common public security pull in opposite directions for this specific exemption.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving burqa exception to other covering bans.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving burqa exception to other covering bans."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-15",
+      "oldValue": 0,
+      "oldRationale": "British identity included varied communities while retaining a dominant institutional culture.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving several cultural ways of life.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving several cultural ways of life."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-16",
+      "oldValue": 2,
+      "oldRationale": "National unity and shared customs take priority in the inferred integration approach.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "migration",
+        "quote-audit"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving custom adoption priority in programmes.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving custom adoption priority in programmes."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-01",
+      "oldValue": 1,
+      "oldRationale": "Concern about settlement pressure supports numerical control in principle, but no exact annual formula is attributed.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving strict housing/workforce annual cap.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving strict housing/workforce annual cap."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-02",
+      "oldValue": -1,
+      "oldRationale": "His late concerns weigh against a general right to move for improved circumstances.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving general settlement to improve conditions.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving general settlement to improve conditions."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-03",
+      "oldValue": 0,
+      "oldRationale": "Imperial citizenship and labour utility compete with selective admission, so skills were not the sole governing basis.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving skills-exclusive permanent residence.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving skills-exclusive permanent residence."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-04",
+      "oldValue": 1,
+      "oldRationale": "Family unity and existing subject status support joining lawful permanent residents.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving dependant family reunion.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving dependant family reunion."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-05",
+      "oldValue": 0,
+      "oldRationale": "Humanitarian sanctuary supported exceptions, but permanent protection regardless of other considerations was not unconditional.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving permanent refuge independent of skills/culture.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving permanent refuge independent of skills/culture."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-06",
+      "oldValue": -1,
+      "oldRationale": "Security and lawful status requirements weigh against a general right for unauthorised entrants to remain.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving remaining after illegal entry.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving remaining after illegal entry."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-07",
+      "oldValue": 1,
+      "oldRationale": "His concerns were not limited to employer workforce needs.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving limits despite employer demand.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving limits despite employer demand."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-08",
+      "oldValue": 1,
+      "oldRationale": "Pressure on national cohesion and services gives a basis for reducing entry despite some economic gains.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving reduction despite economic gains to relieve services.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving reduction despite economic gains to relieve services."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-09",
+      "oldValue": 0,
+      "oldRationale": "Family obligations and restrictions compete, with no established universal family quota.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving family quota inclusion.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving family quota inclusion."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-10",
+      "oldValue": 0,
+      "oldRationale": "Work opportunities and Commonwealth status favoured some movement, while concerns about settlement qualified it.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving job offer generally sufficient for entry.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving job offer generally sufficient for entry."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-11",
+      "oldValue": 0,
+      "oldRationale": "Sponsors could help controlled entry, but broad imperial citizenship supplied other claims.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving required employer/family sponsorship.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving required employer/family sponsorship."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-12",
+      "oldValue": 1,
+      "oldRationale": "Temporary educational residence need not itself confer permanent settlement.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving graduation alone and permanent-residence route.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving graduation alone and permanent-residence route."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-13",
+      "oldValue": 1,
+      "oldRationale": "Humanitarian protection could justify exceptional entry beyond ordinary restrictions.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving persecution protection after quotas.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving persecution protection after quotas."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-14",
+      "oldValue": 1,
+      "oldRationale": "His cultural hierarchy gives a moderate inference of favouring easier cultural assimilation.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving cultural-similarity preference.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving cultural-similarity preference."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-15",
+      "oldValue": 0,
+      "oldRationale": "Membership and welfare obligations support access for some residents, balanced against entry and fiscal restrictions.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving noncitizen welfare/social housing.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving noncitizen welfare/social housing."
+    },
+    {
+      "questionId": "restricted-immigration-open-immigration-16",
+      "oldValue": -1,
+      "oldRationale": "He did not seek additional migration specifically to increase cultural difference.",
+      "oldSources": [
+        "migration",
+        "quote-audit",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving difference in culture as reason for more arrivals.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving difference in culture as reason for more arrivals."
+    },
+    {
+      "questionId": "militarist-pacifist-01",
+      "oldValue": 2,
+      "oldRationale": "Imperial and alliance strategy accepted military action beyond direct defence of the homeland.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: force for national interests without prior attack.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-02",
+      "oldValue": 0,
+      "oldRationale": "He used diplomacy actively but rejected delaying necessary action as a universal rule.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: diplomacy priority despite delay.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-03",
+      "oldValue": 2,
+      "oldRationale": "Defence strength was central to national survival and deterrence.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: costly military superiority.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-04",
+      "oldValue": 2,
+      "oldRationale": "A well-evidenced imminent attack warrants pre-emptive defence in his strategic outlook.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: strong-evidence imminent-attack prevention.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-05",
+      "oldValue": -2,
+      "oldRationale": "Overseas strategic interventions exceeded a narrow attack-response doctrine.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: force only after actual attack on nation/ally.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-06",
+      "oldValue": 2,
+      "oldRationale": "His wartime and postwar governments retained compulsory national service.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving compulsory male military training.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving compulsory male military training."
+    },
+    {
+      "questionId": "militarist-pacifist-07",
+      "oldValue": -1,
+      "oldRationale": "He opposed buying peace through strategically dangerous concessions.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving substantial concessions avoiding war.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving substantial concessions avoiding war."
+    },
+    {
+      "questionId": "militarist-pacifist-08",
+      "oldValue": 1,
+      "oldRationale": "His pursuit of technical military advantage suggests conditional support for effective autonomous systems, with uncertainty over command safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving autonomous attacks without human approval of each target.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving autonomous attacks without human approval of each target."
+    },
+    {
+      "questionId": "militarist-pacifist-09",
+      "oldValue": -2,
+      "oldRationale": "British strategy required campaigns beyond territorial defence.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: defence rather than foreign campaigns.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-10",
+      "oldValue": -2,
+      "oldRationale": "His wartime leadership directly rejects avoiding war at every cost.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -2,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: avoiding war even if an ally is attacked.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-11",
+      "oldValue": 2,
+      "oldRationale": "Sustained overseas capability was essential to imperial and alliance commitments.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: prolonged foreign combat capability.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-12",
+      "oldValue": 0,
+      "oldRationale": "Negotiation and territorial resolve both mattered, so an automatic war-or-concession rule is inappropriate.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving leaving territory disputed rather than starting war.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving leaving territory disputed rather than starting war."
+    },
+    {
+      "questionId": "militarist-pacifist-13",
+      "oldValue": 2,
+      "oldRationale": "Deterrent threats were legitimate instruments of serious diplomacy.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: military threats for concessions.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-14",
+      "oldValue": 0,
+      "oldRationale": "His later nuclear caution balanced the need to demonstrate resolve.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: war-risk reduction over resolve.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "militarist-pacifist-15",
+      "oldValue": 2,
+      "oldRationale": "Military intelligence was an important instrument despite international risks.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving risky military espionage.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving risky military espionage."
+    },
+    {
+      "questionId": "militarist-pacifist-16",
+      "oldValue": 1,
+      "oldRationale": "Reciprocal negotiated reductions could support peace without unilateral disarmament.",
+      "oldSources": [
+        "government",
+        "manifesto",
+        "science"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified military posture distinguishes costly deterrence and Allied capability from absolute pacifism or unrestricted war. Specific application: negotiated capability reductions.",
+      "evidenceIds": [
+        "e03"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-01",
+      "oldValue": 2,
+      "oldRationale": "Parliamentary sovereignty remained foundational in his British constitutional view.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: final domestic institutional authority.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-02",
+      "oldValue": -1,
+      "oldRationale": "International machinery was valuable but not an unlimited authority over unwilling Britain.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving binding international decision despite government opposition.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving binding international decision despite government opposition."
+    },
+    {
+      "questionId": "nationalism-internationalism-03",
+      "oldValue": 1,
+      "oldRationale": "Domestic constitutional authority retained priority, qualified by accepted international obligations.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving domestic court priority over international ruling.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving domestic court priority over international ruling."
+    },
+    {
+      "questionId": "nationalism-internationalism-04",
+      "oldValue": 2,
+      "oldRationale": "Atlantic and wartime alliances involved sustained commitments and constrained unilateral freedom.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: constraining long-term alliances.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-05",
+      "oldValue": 2,
+      "oldRationale": "Sovereign Britain retained a right to withdraw through political and legal processes.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving withdrawal without international permission.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving withdrawal without international permission."
+    },
+    {
+      "questionId": "nationalism-internationalism-06",
+      "oldValue": 0,
+      "oldRationale": "International justice appealed alongside reluctance to submit all national decisions to outside judges.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving binding international court over own officials.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving binding international court over own officials."
+    },
+    {
+      "questionId": "nationalism-internationalism-07",
+      "oldValue": 2,
+      "oldRationale": "British and imperial interests strongly qualified external institutional demands.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national interest priority over international goals.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving national interest priority over international goals."
+    },
+    {
+      "questionId": "nationalism-internationalism-08",
+      "oldValue": 1,
+      "oldRationale": "Shared environmental problems plausibly warrant cooperative rules by analogy to collective security.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving delegated cross-border environmental authority.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving delegated cross-border environmental authority."
+    },
+    {
+      "questionId": "nationalism-internationalism-09",
+      "oldValue": 0,
+      "oldRationale": "Coordinated alliance policy was welcome while automatic bloc control remained questionable.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving outside common-foreign-policy blocs.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving outside common-foreign-policy blocs."
+    },
+    {
+      "questionId": "nationalism-internationalism-10",
+      "oldValue": 0,
+      "oldRationale": "Human-rights institutions and sovereign parliamentary authority provide competing considerations.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving required domestic human-rights law changes.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving required domestic human-rights law changes."
+    },
+    {
+      "questionId": "nationalism-internationalism-11",
+      "oldValue": 2,
+      "oldRationale": "National and sterling-area monetary control remained important.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: national rather than shared currency authority.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-12",
+      "oldValue": 2,
+      "oldRationale": "His alliance strategy endorsed pooled effort for common international problems.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: pooled international funds/decisions.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-13",
+      "oldValue": 2,
+      "oldRationale": "Border and imperial citizenship policy remained a national responsibility.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving sole border authority.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving sole border authority."
+    },
+    {
+      "questionId": "nationalism-internationalism-14",
+      "oldValue": 1,
+      "oldRationale": "International commerce required accepted reciprocal rules rather than complete isolation.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: common negotiated trade rules.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-15",
+      "oldValue": 1,
+      "oldRationale": "Britain and the Commonwealth retained distinct constitutional roles in his European plans.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: outside political federation.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "nationalism-internationalism-16",
+      "oldValue": 2,
+      "oldRationale": "Collective security required action beyond immediate narrow advantage.",
+      "oldSources": [
+        "manifesto",
+        "government",
+        "parliament"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific institutional inference does not equate European unity rhetoric with Britain joining a political federation. Specific application: collective rule enforcement despite immediate national interest.",
+      "evidenceIds": [
+        "e04"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-01",
+      "oldValue": 2,
+      "oldRationale": "He generally preferred free enterprise to state commercial ownership.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: private ownership of most businesses.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-02",
+      "oldValue": 1,
+      "oldRationale": "Retained public utilities support ownership exceptions for essential networks.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: public utility networks.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-03",
+      "oldValue": 1,
+      "oldRationale": "His declared preference for enterprise applies when service outcomes are comparable.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: private ownership on comparable provision.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-04",
+      "oldValue": -1,
+      "oldRationale": "He opposed expanding state trading into competitive industries as a routine policy.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: public competitive enterprises.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-05",
+      "oldValue": -1,
+      "oldRationale": "Retaining the NHS supports substantial publicly owned facilities.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: private facilities with public healthcare funding.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-06",
+      "oldValue": 1,
+      "oldRationale": "His government retained publicly owned rail while seeking administrative reform.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: public passenger rail infrastructure.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-07",
+      "oldValue": 1,
+      "oldRationale": "Value-for-money reform permits equivalent cheaper private delivery.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving lower-cost private service contracts.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving lower-cost private service contracts."
+    },
+    {
+      "questionId": "public-private-08",
+      "oldValue": 0,
+      "oldRationale": "National financial institutions and private banking coexisted, without a clear preference for expanding either ownership form.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving public alongside private banks.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving public alongside private banks."
+    },
+    {
+      "questionId": "public-private-09",
+      "oldValue": 1,
+      "oldRationale": "Steel and road-haulage denationalisation support selective sales.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: sale of public commercial enterprises.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-10",
+      "oldValue": 1,
+      "oldRationale": "Housing construction and social security goals accepted substantial public provision.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: substantial public rental housing.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-11",
+      "oldValue": 1,
+      "oldRationale": "Private enterprise could serve defence under effective government oversight.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving regulated private security-important businesses.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving regulated private security-important businesses."
+    },
+    {
+      "questionId": "public-private-12",
+      "oldValue": 0,
+      "oldRationale": "Public coal and private resource enterprise produce genuinely mixed evidence.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: public resource extraction.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-13",
+      "oldValue": 0,
+      "oldRationale": "Local public provision and competitive efficiency both fit his pragmatic programme.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving routine-service private contracting.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving routine-service private contracting."
+    },
+    {
+      "questionId": "public-private-14",
+      "oldValue": 1,
+      "oldRationale": "Retaining key nationalised assets shows strategic ownership could outweigh immediate sale proceeds.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Sector-specific ownership assessment avoids mistaking anti-socialist rhetoric for universal privatisation. Specific application: retained strategic ownership despite sale revenue.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "public-private-15",
+      "oldValue": 1,
+      "oldRationale": "Repeated commercial loss strengthened the case for denationalisation.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving sale of repeatedly subsidized public enterprises.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving sale of repeatedly subsidized public enterprises."
+    },
+    {
+      "questionId": "public-private-16",
+      "oldValue": 2,
+      "oldRationale": "The BBC formed part of the public institutional order he retained.",
+      "oldSources": [
+        "conservatism",
+        "policy1951",
+        "changes",
+        "manifesto"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving public national broadcaster.",
+      "evidenceIds": [
+        "e05"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving public national broadcaster."
+    },
+    {
+      "questionId": "protectionism-free-trade-01",
+      "oldValue": 0,
+      "oldRationale": "Commercial openness and imperial preference balance on routine protective tariffs.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: protective import tariffs.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-02",
+      "oldValue": 1,
+      "oldRationale": "An import-dependent trading economy benefits from lower barriers.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: most trade barriers removed despite domestic losses.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-03",
+      "oldValue": 1,
+      "oldRationale": "Strategic and Commonwealth purchasing considerations support some domestic preference.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving domestic procurement despite higher prices.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving domestic procurement despite higher prices."
+    },
+    {
+      "questionId": "protectionism-free-trade-04",
+      "oldValue": 1,
+      "oldRationale": "Enterprise and import dependence favour flexible international sourcing.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: best-terms international sourcing.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-05",
+      "oldValue": 1,
+      "oldRationale": "War experience makes maintaining essential domestic capacity valuable.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: essential imports restricted to maintain domestic output.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-06",
+      "oldValue": 0,
+      "oldRationale": "Open trade is desirable, but reciprocity and imperial arrangements qualify unilateral removal.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving unilateral trade liberalisation.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving unilateral trade liberalisation."
+    },
+    {
+      "questionId": "protectionism-free-trade-07",
+      "oldValue": 0,
+      "oldRationale": "Industrial development and competitive efficiency compete for temporary infant protection.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving temporary infant-industry protection.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving temporary infant-industry protection."
+    },
+    {
+      "questionId": "protectionism-free-trade-08",
+      "oldValue": 1,
+      "oldRationale": "Enterprise and allied investment support broadly open establishment.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: equal foreign-investor establishment terms.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-09",
+      "oldValue": 1,
+      "oldRationale": "Food security and support for British agriculture justify some import restrictions.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 2,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: protected farming capacity.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-10",
+      "oldValue": 1,
+      "oldRationale": "His private-enterprise outlook favours adjustment where strategic interests do not require shelter.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: domestic adjustment over protection.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-11",
+      "oldValue": 1,
+      "oldRationale": "Reciprocal commercial bargaining permits proportionate tariff responses.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving retaliatory tariffs.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving retaliatory tariffs."
+    },
+    {
+      "questionId": "protectionism-free-trade-12",
+      "oldValue": 1,
+      "oldRationale": "Ordinary product taxes should not systematically discriminate, subject to retained preferences.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving equal product taxes.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving equal product taxes."
+    },
+    {
+      "questionId": "protectionism-free-trade-13",
+      "oldValue": 1,
+      "oldRationale": "Countering artificially subsidised competition fits reciprocal trade policy.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving restrictions on foreign-subsidized imports.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving restrictions on foreign-subsidized imports."
+    },
+    {
+      "questionId": "protectionism-free-trade-14",
+      "oldValue": 1,
+      "oldRationale": "International recovery supports tariff-reducing agreements despite some supply dependence.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified mixed trade inference preserves named protections; his pre-1930 free-trade position is not silently carried forward. Specific application: tariff-removing trade deals despite dependence.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "protectionism-free-trade-15",
+      "oldValue": 1,
+      "oldRationale": "Defence and strategic independence justify limits on foreign control.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving foreign control prevented in strategic firms.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving foreign control prevented in strategic firms."
+    },
+    {
+      "questionId": "protectionism-free-trade-16",
+      "oldValue": 1,
+      "oldRationale": "His commerce-friendly orientation supports access to foreign online services by modern analogy.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving foreign online services without special trade barriers.",
+      "evidenceIds": [
+        "e06"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving foreign online services without special trade barriers."
+    },
+    {
+      "questionId": "planning-free-market-01",
+      "oldValue": 1,
+      "oldRationale": "His postwar programme restored initiative to ordinary businesses.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: business production choice.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-02",
+      "oldValue": -1,
+      "oldRationale": "Mandatory peacetime production targets conflict with his enterprise preference.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: compulsory important-industry targets.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-03",
+      "oldValue": 1,
+      "oldRationale": "He preferred prices guiding normal commerce while retaining essential exceptions.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: supply-demand prices.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-04",
+      "oldValue": 0,
+      "oldRationale": "Infrastructure priorities and resistance to comprehensive planning balance.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: national-plan directed investment.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-05",
+      "oldValue": 1,
+      "oldRationale": "Consumer choice and commercial initiative should usually guide expansion.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: consumer-demand expansion/closure.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-06",
+      "oldValue": 0,
+      "oldRationale": "Essential affordability and the removal of wartime restrictions create a mixed judgement.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: essential-price controls.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-07",
+      "oldValue": 1,
+      "oldRationale": "Free enterprise supports entry without a routine state production-need test.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: entry without proving need.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-08",
+      "oldValue": 0,
+      "oldRationale": "Strategic reconstruction finance can justify intervention, but general direction of commercial credit was not his stated ideal.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving priority-sector bank lending directions.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving priority-sector bank lending directions."
+    },
+    {
+      "questionId": "planning-free-market-09",
+      "oldValue": -1,
+      "oldRationale": "Retained postwar exchange constraints weigh against unrestricted capital movement.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving unapproved outward capital movement.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving unapproved outward capital movement."
+    },
+    {
+      "questionId": "planning-free-market-10",
+      "oldValue": 1,
+      "oldRationale": "Defence and reconstruction priorities justify some targeted assistance.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: selected-industry development subsidies.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-11",
+      "oldValue": -1,
+      "oldRationale": "Sterling stability and national monetary authority outweigh private-currency competition.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving competing private currencies.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving competing private currencies."
+    },
+    {
+      "questionId": "planning-free-market-12",
+      "oldValue": 1,
+      "oldRationale": "His social-reform background and minimum labour standards support a legal wage floor.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving statutory minimum wage.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving statutory minimum wage."
+    },
+    {
+      "questionId": "planning-free-market-13",
+      "oldValue": 2,
+      "oldRationale": "He explicitly favoured collective bargaining with private employers.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: negotiated wages over state schedules.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-14",
+      "oldValue": 0,
+      "oldRationale": "Public macroeconomic management and resistance to detailed planning balance on this compound proposal.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving central-bank support for national plan.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving central-bank support for national plan."
+    },
+    {
+      "questionId": "planning-free-market-15",
+      "oldValue": 0,
+      "oldRationale": "Housing protection and revival of private building both mattered.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: market rents.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "planning-free-market-16",
+      "oldValue": -1,
+      "oldRationale": "His peacetime objection to socialism weighs against ordinary central production and distribution coordination.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Period-specific market/planning assessment distinguishes emergency defence from ordinary nationwide production plans. Specific application: ordinary national production/distribution coordination.",
+      "evidenceIds": [
+        "e07"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-01",
+      "oldValue": 0,
+      "oldRationale": "He supported social protection but criticised class-based equalisation, producing a mixed income-gap judgement.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving substantial disposable-income equalisation.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving substantial disposable-income equalisation."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-02",
+      "oldValue": 1,
+      "oldRationale": "Income differences alone were not his principal justification for taxation.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving inequality alone insufficient for tax.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving inequality alone insufficient for tax."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-03",
+      "oldValue": 0,
+      "oldRationale": "Social insurance improvement and tax restraint competed.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: higher-tax stronger minimum income.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-04",
+      "oldValue": 1,
+      "oldRationale": "His own account stressed raising the social minimum rather than equalising all living standards.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: basic safety net rather than narrowing living standards.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-05",
+      "oldValue": 1,
+      "oldRationale": "A progressive contribution is compatible with the strong assisting the weak.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: substantially higher average tax share for high earners.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-06",
+      "oldValue": 1,
+      "oldRationale": "He sought lower burdens to restore enterprise even with unequal rewards.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: greater income retention despite unequal households.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-07",
+      "oldValue": 0,
+      "oldRationale": "Established estate taxation and property-owning aspirations pull in different directions.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving inheritance tax funding income support.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving inheritance tax funding income support."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-08",
+      "oldValue": 0,
+      "oldRationale": "Work and insurance principles matter, but a hard cut-off despite continuing need is not established.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving expiry for able-to-work low-income recipients.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving expiry for able-to-work low-income recipients."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-09",
+      "oldValue": 0,
+      "oldRationale": "Social obligation and private property balance on wealth-funded transfers.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving wealth tax funding income transfers.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving wealth tax funding income transfers."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-10",
+      "oldValue": 0,
+      "oldRationale": "Fiscal economy and adequate protection were simultaneous goals.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: modest benefits for lower tax burden.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-11",
+      "oldValue": 1,
+      "oldRationale": "Tolerable social conditions imply more than bare biological survival.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: support for ordinary social participation.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-12",
+      "oldValue": 1,
+      "oldRationale": "Reducing excessive taxation had priority over a general expansion of cash benefits.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: tax cuts ahead of cash benefits.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-13",
+      "oldValue": 1,
+      "oldRationale": "Making low-paid workers secure fits his social-insurance and minimum-standards programme.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: public supplements for low-paid work.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-14",
+      "oldValue": -1,
+      "oldRationale": "He retained progressive income-tax rates while seeking reductions in the overall burden. Accepting higher marginal rates for high earners weighs against the proposed removal of that distinction; lower taxation is a separate question.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: no higher marginal rates on high earners.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-15",
+      "oldValue": 0,
+      "oldRationale": "Property diffusion appealed, but large compulsory land redistribution was not a general programme.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving compensated redistribution of large landholdings.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving compensated redistribution of large landholdings."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-16",
+      "oldValue": 0,
+      "oldRationale": "Contributory insurance covered more than only destitute households, while scarce resources also justified targeting.",
+      "oldSources": [
+        "manifesto",
+        "conservatism",
+        "changes"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified safety-net assessment separates retained progressive/temporary taxes from general tax-relief priorities. Specific application: benefits limited to basic-needs inability.",
+      "evidenceIds": [
+        "e08"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "secular-religious-01",
+      "oldValue": 0,
+      "oldRationale": "His lawmaking relied on civil institutions while public justification often invoked Christian civilisation.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving nonreligious justification of laws.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving nonreligious justification of laws."
+    },
+    {
+      "questionId": "secular-religious-02",
+      "oldValue": 0,
+      "oldRationale": "Christian ethics informed institutions without becoming a complete authoritative legal code.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving religious teaching as official law source.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving religious teaching as official law source."
+    },
+    {
+      "questionId": "secular-religious-03",
+      "oldValue": 2,
+      "oldRationale": "Ministers did not require religious approval for policy.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving policy without clerical approval.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving policy without clerical approval."
+    },
+    {
+      "questionId": "secular-religious-04",
+      "oldValue": 1,
+      "oldRationale": "Established religion remained part of the constitution he defended.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving particular religion constitutional foundation.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving particular religion constitutional foundation."
+    },
+    {
+      "questionId": "secular-religious-05",
+      "oldValue": 0,
+      "oldRationale": "Teaching about beliefs and sustaining Christian cultural inheritance coexisted.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving nonproselytising public-school religion teaching.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving nonproselytising public-school religion teaching."
+    },
+    {
+      "questionId": "secular-religious-06",
+      "oldValue": 1,
+      "oldRationale": "Religious education and worship fit the state-church settlement he supported.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving faith-forming instruction in recognised state religion.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving faith-forming instruction in recognised state religion."
+    },
+    {
+      "questionId": "secular-religious-07",
+      "oldValue": 2,
+      "oldRationale": "Parliament and ordinary courts held civil authority.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving civil rather than clerical court law.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving civil rather than clerical court law."
+    },
+    {
+      "questionId": "secular-religious-08",
+      "oldValue": 1,
+      "oldRationale": "Established bishops participated officially in parliamentary scrutiny of laws. His acceptance of that arrangement supports a limited religious reviewing role without implying an independent church veto.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving official clerical review of legislation.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving official clerical review of legislation."
+    },
+    {
+      "questionId": "secular-religious-09",
+      "oldValue": -2,
+      "oldRationale": "His wartime government actively organised religious observances.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving no official ceremonial worship.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving no official ceremonial worship."
+    },
+    {
+      "questionId": "secular-religious-10",
+      "oldValue": 1,
+      "oldRationale": "Public support for worship served national moral cohesion.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving public funding to strengthen belief.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving public funding to strengthen belief."
+    },
+    {
+      "questionId": "secular-religious-11",
+      "oldValue": -1,
+      "oldRationale": "He accepted Christian symbols in inherited public institutions.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving no endorsing governmental religious symbols.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving no endorsing governmental religious symbols."
+    },
+    {
+      "questionId": "secular-religious-12",
+      "oldValue": 2,
+      "oldRationale": "Christian festivals were part of official national tradition.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving official predominant-religion festival holidays.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving official predominant-religion festival holidays."
+    },
+    {
+      "questionId": "secular-religious-13",
+      "oldValue": -1,
+      "oldRationale": "His constitutional continuity favoured retaining the established bishops' parliamentary role.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving no ex-officio religious governmental seats.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving no ex-officio religious governmental seats."
+    },
+    {
+      "questionId": "secular-religious-14",
+      "oldValue": 1,
+      "oldRationale": "Institutional support for churches makes religious fiscal privileges a plausible inference.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving special religious tax exemption.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving special religious tax exemption."
+    },
+    {
+      "questionId": "secular-religious-15",
+      "oldValue": 2,
+      "oldRationale": "Civil marriage remained available independently of religious approval.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving no religious marriage approval requirements.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving no religious marriage approval requirements."
+    },
+    {
+      "questionId": "secular-religious-16",
+      "oldValue": 0,
+      "oldRationale": "Respect for religious custom coexisted with civil adjudication, rather than a universal binding religious-court power.",
+      "oldSources": [
+        "churches",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving binding religious family courts.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving binding religious family courts."
+    },
+    {
+      "questionId": "progressive-traditionalist-01",
+      "oldValue": 0,
+      "oldRationale": "He accepted reform where needed but placed strong weight on inherited social continuity.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": -1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: substantial custom change with new values.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "progressive-traditionalist-02",
+      "oldValue": 2,
+      "oldRationale": "Established traditions were affirmative national goods in his public outlook.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: tradition priority over new values.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "progressive-traditionalist-03",
+      "oldValue": -1,
+      "oldRationale": "His conventional family framework gives a modest preference to the married household.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving equal recognition of nontraditional households.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving equal recognition of nontraditional households."
+    },
+    {
+      "questionId": "progressive-traditionalist-04",
+      "oldValue": 1,
+      "oldRationale": "Traditional family and social roles remained normal within the institutions he defended.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving distinct traditional sex roles.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving distinct traditional sex roles."
+    },
+    {
+      "questionId": "progressive-traditionalist-05",
+      "oldValue": -1,
+      "oldRationale": "His conventional marriage framework suggests opposition, but no modern same-sex-marriage statement is attributed.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving marriage irrespective of sex.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving marriage irrespective of sex."
+    },
+    {
+      "questionId": "progressive-traditionalist-06",
+      "oldValue": 2,
+      "oldRationale": "The stable married household fits his preferred social structure.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: preferred married two-parent model.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "progressive-traditionalist-07",
+      "oldValue": -1,
+      "oldRationale": "The governing-era restrictive moral framework supports moderate opposition to social acceptance of elective abortion.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving social acceptance of early abortion.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving social acceptance of early abortion."
+    },
+    {
+      "questionId": "progressive-traditionalist-08",
+      "oldValue": 1,
+      "oldRationale": "Family and church roles in education support parental influence over traditional sexual teaching.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving parental final say on sexual-value lessons.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving parental final say on sexual-value lessons."
+    },
+    {
+      "questionId": "progressive-traditionalist-09",
+      "oldValue": -1,
+      "oldRationale": "The conventional household preference supplies a moderate inference against equal same-sex adoption recognition.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving equal social acceptance of same-sex adoption.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving equal social acceptance of same-sex adoption."
+    },
+    {
+      "questionId": "progressive-traditionalist-10",
+      "oldValue": 1,
+      "oldRationale": "Public decorum and inherited convention fit his cultural conservatism.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving traditional modest dress.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving traditional modest dress."
+    },
+    {
+      "questionId": "progressive-traditionalist-11",
+      "oldValue": -1,
+      "oldRationale": "His attachment to inherited language supports a moderate preference for established conventions over changing usage to reflect personal identification. This is an inference about voluntary conventions as well as official usage, not an assumption that the question requires compulsion.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving identity-responsive language change.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving identity-responsive language change."
+    },
+    {
+      "questionId": "progressive-traditionalist-12",
+      "oldValue": 2,
+      "oldRationale": "Transmitting established moral inheritance was important to national continuity.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: transmitting old morals before new ones.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "progressive-traditionalist-13",
+      "oldValue": 0,
+      "oldRationale": "Women’s expanded wartime roles qualify traditional expectations, creating a mixed assessment of role crossing.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving equal acceptance across traditional sex roles.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving equal acceptance across traditional sex roles."
+    },
+    {
+      "questionId": "progressive-traditionalist-14",
+      "oldValue": 1,
+      "oldRationale": "Reform should normally preserve continuity rather than discard established institutions rapidly.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "retained-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: gradual social-institution change despite popularity.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "progressive-traditionalist-15",
+      "oldValue": -1,
+      "oldRationale": "His church-and-family educational conception suggests caution toward modern sexuality curricula.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving school sexual-orientation/gender-identity lessons.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": "Missing personal evidence within 1940–1955 resolving school sexual-orientation/gender-identity lessons."
+    },
+    {
+      "questionId": "progressive-traditionalist-16",
+      "oldValue": 2,
+      "oldRationale": "Historical connection itself was a reason he valued national customs.",
+      "oldSources": [
+        "manifesto",
+        "churches",
+        "conservatism",
+        "government"
+      ],
+      "disposition": "revised-after-independent-evidence-review",
+      "proposedValue": 1,
+      "newRationale": "Qualified custom-preservation inference does not manufacture modern sexual-identity opinions. Specific application: custom preservation despite unclear purpose.",
+      "evidenceIds": [
+        "e09"
+      ],
+      "gap": null
+    },
+    {
+      "questionId": "innovation-caution-01",
+      "oldValue": 1,
+      "oldRationale": "His development and science outlook supports beneficial adoption with safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving wide technology use with uncertain long-term risks. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving wide technology use with uncertain long-term risks. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-02",
+      "oldValue": 0,
+      "oldRationale": "Urgent material progress and fear of catastrophic misuse balance on a universal trial-only rule. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving small trials until substantial long-term risk evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving small trials until substantial long-term risk evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-03",
+      "oldValue": 2,
+      "oldRationale": "National reconstruction and major technical works justified some permanent habitat loss. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving infrastructure despite permanent habitat loss. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving infrastructure despite permanent habitat loss. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-04",
+      "oldValue": 1,
+      "oldRationale": "His warning that science may outrun judgement supports medical safety study. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving long-term medical safety before wide access. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving long-term medical safety before wide access. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-05",
+      "oldValue": 1,
+      "oldRationale": "Labour-saving machinery and productive scientific progress supply a moderate analogy for AI adoption. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving productive AI despite displacement/retraining. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving productive AI despite displacement/retraining. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-06",
+      "oldValue": -1,
+      "oldRationale": "Development benefits normally outweighed preserving every untouched habitat. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving habitat preservation over beneficial development. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving habitat preservation over beneficial development. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-07",
+      "oldValue": 1,
+      "oldRationale": "His positive account of separately grown meat supports regulated cultivated-food development, without proving a specific risk threshold. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving cultivated meat before environmental effects understood. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving cultivated meat before environmental effects understood. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-08",
+      "oldValue": 1,
+      "oldRationale": "His alarm about engineered mental capacities supports caution for invasive healthy-person enhancement. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving research-only healthy enhancement implants until strong long-term safety. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving research-only healthy enhancement implants until strong long-term safety. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-09",
+      "oldValue": 1,
+      "oldRationale": "He envisaged technological mastery of energy and climate, favouring technical solutions by analogy. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving unproven technological climate priority over lower consumption. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving unproven technological climate priority over lower consumption. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-10",
+      "oldValue": 0,
+      "oldRationale": "Major works and caution about uncontrolled power create a conditional environmental-assessment balance. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving construction delay with poorly understood environment effects. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving construction delay with poorly understood environment effects. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-11",
+      "oldValue": -1,
+      "oldRationale": "Concern for unanticipated alteration of human capacities weighs against basic safety alone. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving enhancement implants after basic safety despite long-term uncertainty. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving enhancement implants after basic safety despite long-term uncertainty. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-12",
+      "oldValue": 1,
+      "oldRationale": "His preference for effective science implies demonstrating medical reliability before large-scale use. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving clinical AI trials until reliable across patient groups. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving clinical AI trials until reliable across patient groups. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-13",
+      "oldValue": 0,
+      "oldRationale": "Potential scientific benefit and alarm about engineered humans oppose a categorical position on enhancement trials. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving embryo enhancement trials beyond disease prevention. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving embryo enhancement trials beyond disease prevention. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-14",
+      "oldValue": 0,
+      "oldRationale": "Productive biological innovation and fear of large-scale consequences both have weight. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving long-term ecosystem evidence before widespread GM crops. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving long-term ecosystem evidence before widespread GM crops. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-15",
+      "oldValue": 2,
+      "oldRationale": "His housing and reconstruction priorities favour substantial infrastructure expansion. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving infrastructure over undeveloped land. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving infrastructure over undeveloped land. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "innovation-caution-16",
+      "oldValue": 1,
+      "oldRationale": "His explicit warning of fatal scientific discoveries supports strong safeguards against irreversible harm. Historical analogy, not a recorded answer to this modern proposal.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "government"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving delay possible irreversible harm until strong contrary evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving delay possible irreversible harm until strong contrary evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold."
+    },
+    {
+      "questionId": "central-local-01",
+      "oldValue": 0,
+      "oldRationale": "Local autonomy and a sovereign national Parliament coexist, without constitutionally absolute regional protection.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving protected regional affairs despite central disagreement.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving protected regional affairs despite central disagreement."
+    },
+    {
+      "questionId": "central-local-02",
+      "oldValue": 2,
+      "oldRationale": "Westminster retained ultimate legal authority.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving central final jurisdictional say.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving central final jurisdictional say."
+    },
+    {
+      "questionId": "central-local-03",
+      "oldValue": -1,
+      "oldRationale": "His unionism weighs against a general unilateral referendum right to leave.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving referendum secession.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving referendum secession."
+    },
+    {
+      "questionId": "central-local-04",
+      "oldValue": 2,
+      "oldRationale": "National programmes could override local obstruction under parliamentary law.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving central overriding popular regional obstruction.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving central overriding popular regional obstruction."
+    },
+    {
+      "questionId": "central-local-05",
+      "oldValue": -1,
+      "oldRationale": "A unitary parliamentary framework does not favour separate regional constitutions.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving regional constitutions within national rights.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving regional constitutions within national rights."
+    },
+    {
+      "questionId": "central-local-06",
+      "oldValue": 0,
+      "oldRationale": "Local constabularies and national security coordination produce a mixed position.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving single national police authority.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving single national police authority."
+    },
+    {
+      "questionId": "central-local-07",
+      "oldValue": -1,
+      "oldRationale": "National defence and social obligations require substantial pooled fiscal resources.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving most local tax retained.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving most local tax retained."
+    },
+    {
+      "questionId": "central-local-08",
+      "oldValue": 1,
+      "oldRationale": "National educational standards fit the state framework while local delivery remained.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national compulsory school curriculum.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving national compulsory school curriculum."
+    },
+    {
+      "questionId": "central-local-09",
+      "oldValue": 1,
+      "oldRationale": "Local fiscal variation was compatible with national statutory oversight.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving regional tax-rate variation.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving regional tax-rate variation."
+    },
+    {
+      "questionId": "central-local-10",
+      "oldValue": 1,
+      "oldRationale": "Common minimum working conditions fit national labour standards.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national employment rules.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving national employment rules."
+    },
+    {
+      "questionId": "central-local-11",
+      "oldValue": -1,
+      "oldRationale": "Local authorities' powers and boundaries remained subject to national law.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving local boundary/power changes without central approval.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving local boundary/power changes without central approval."
+    },
+    {
+      "questionId": "central-local-12",
+      "oldValue": 1,
+      "oldRationale": "The retained NHS supports nationally determined minimum coverage.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving national treatment coverage.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving national treatment coverage."
+    },
+    {
+      "questionId": "central-local-13",
+      "oldValue": 0,
+      "oldRationale": "Customary governance was accommodated within the empire but subordinate to central imperial authority, yielding a mixed modern analogy.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving Indigenous territorial institutions.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving Indigenous territorial institutions."
+    },
+    {
+      "questionId": "central-local-14",
+      "oldValue": 1,
+      "oldRationale": "National fiscal requirements permit constraints on local competition.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving central tax-competition limits.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving central tax-competition limits."
+    },
+    {
+      "questionId": "central-local-15",
+      "oldValue": 1,
+      "oldRationale": "Ordinary local land management can remain local where national interests are absent.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving local-only land/wildlife management.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving local-only land/wildlife management."
+    },
+    {
+      "questionId": "central-local-16",
+      "oldValue": 2,
+      "oldRationale": "His wartime national leadership supports unified command in a multiregional emergency.",
+      "oldSources": [
+        "manifesto",
+        "policy1951",
+        "changes",
+        "parliament"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving central multi-region disaster direction.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving central multi-region disaster direction."
+    },
+    {
+      "questionId": "culture-nature-01",
+      "oldValue": 0,
+      "oldRationale": "He described both durable human nature and profound effects of circumstances, supporting a balanced primacy judgement.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving upbringing greater than inherited general behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving upbringing greater than inherited general behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-02",
+      "oldValue": 0,
+      "oldRationale": "His racial hierarchy and emphasis on civilisational development do not establish whether national test-score differences were chiefly genetic.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving inherited national IQ differences greater than education. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving inherited national IQ differences greater than education. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-03",
+      "oldValue": 0,
+      "oldRationale": "Conventional sex differences and changing social roles both fit his outlook.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving social causes greater than biological sex behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving social causes greater than biological sex behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-04",
+      "oldValue": 0,
+      "oldRationale": "His account of stress transforming conduct coexists with durable individual dispositions.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving biological stress susceptibility greater than experience. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving biological stress susceptibility greater than experience. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-05",
+      "oldValue": 0,
+      "oldRationale": "Individual gifts and opportunities supplied complementary explanations for interests.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving experienced interests greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving experienced interests greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-06",
+      "oldValue": 0,
+      "oldRationale": "Courage could reflect character and training, leaving neither heredity nor experience clearly primary.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving inherited risk-taking greater than learning. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving inherited risk-taking greater than learning. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-07",
+      "oldValue": 1,
+      "oldRationale": "His historical account links cooperation to changing modes of life and institutions.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving social cooperation greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving social cooperation greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-08",
+      "oldValue": 0,
+      "oldRationale": "His call to cultivate compassion recognises learning while invoking inherent virtues, giving a mixed answer.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving inherited empathy greater than upbringing. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving inherited empathy greater than upbringing. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-09",
+      "oldValue": 0,
+      "oldRationale": "Mental endowment and early treatment both appear in his discussion of development.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving experienced attention greater than inherited characteristics. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving experienced attention greater than inherited characteristics. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-10",
+      "oldValue": 0,
+      "oldRationale": "Enduring human nature and culturally taught moral philosophy are competing explanatory factors.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving biological immediate moral response greater than culture. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving biological immediate moral response greater than culture. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-11",
+      "oldValue": 1,
+      "oldRationale": "His discussion of terror, war and national experience supports learned perceptions of threat.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving learned threat perceptions greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving learned threat perceptions greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-12",
+      "oldValue": 1,
+      "oldRationale": "His account of resilient human nature gives a modest disposition-based inference for temperament.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving biological temperament greater than environment. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving biological temperament greater than environment. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-13",
+      "oldValue": 1,
+      "oldRationale": "He treated tastes and customs as varying across civilisations, supporting substantial cultural influence.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving cultural attraction preferences greater than inheritance. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving cultural attraction preferences greater than inheritance. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-14",
+      "oldValue": 0,
+      "oldRationale": "Racial hierarchy alone cannot establish biological primacy for violence; he also explicitly explained atrocities through stress and social conditions.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving biological racial violence greater than surroundings. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving biological racial violence greater than surroundings. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-15",
+      "oldValue": 1,
+      "oldRationale": "Moral education and civil institutions were meant to restrain conduct across communities.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving learned self-control greater than inherited racial tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving learned self-control greater than inherited racial tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    },
+    {
+      "questionId": "culture-nature-16",
+      "oldValue": 0,
+      "oldRationale": "His account of different capacities coexisted with institutional and social roles, supporting no single dominant explanation for pay differences.",
+      "oldSources": [
+        "science",
+        "manifesto",
+        "conservatism"
+      ],
+      "disposition": "unresolved-support-not-established",
+      "proposedValue": null,
+      "newRationale": "Missing personal evidence within 1940–1955 resolving economic-value pay gap rather than social expectations. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+      "evidenceIds": [],
+      "gap": "Missing personal evidence within 1940–1955 resolving economic-value pay gap rather than social expectations. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+    }
+  ],
+  "oldRevisionVerdict": {
+    "recommendWithdrawal": true,
+    "reason": "Existing complete placement contains numeric causal attributions unsupported by the cited policy/normative sources; unresolved evidence must not be scored as Neutral. This is not a finding that every old answer is substantively wrong.",
+    "concreteExamples": [
+      {
+        "questionId": "culture-nature-01",
+        "oldValue": 0,
+        "oldRationale": "He described both durable human nature and profound effects of circumstances, supporting a balanced primacy judgement.",
+        "finding": "Missing personal evidence within 1940–1955 resolving upbringing greater than inherited general behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+      },
+      {
+        "questionId": "culture-nature-02",
+        "oldValue": 0,
+        "oldRationale": "His racial hierarchy and emphasis on civilisational development do not establish whether national test-score differences were chiefly genetic.",
+        "finding": "Missing personal evidence within 1940–1955 resolving inherited national IQ differences greater than education. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+      },
+      {
+        "questionId": "culture-nature-03",
+        "oldValue": 0,
+        "oldRationale": "Conventional sex differences and changing social roles both fit his outlook.",
+        "finding": "Missing personal evidence within 1940–1955 resolving social causes greater than biological sex behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim."
+      }
+    ]
+  },
+  "portrait": {
+    "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+    "action": "preserve existing image; no replacement",
+    "descriptionOutcome": "Commons description and licensing read; exact source file and derivative attribution checked where available"
+  },
+  "review": {
+    "authorPass": "240 exact question predicates checked against explicit evidence groups and missing qualifiers; no numeric distribution target",
+    "independentReview": {
+      "status": "completed-with-bounded-source-read-scope",
+      "reviewer": "/root/current_audit",
+      "report": "profile-audit/reports/personalities-2026-10-04/current-reviews-other.json",
+      "coordinator": "/root targeted primary-source review",
+      "publicationApproved": false,
+      "similarityClearance": "pending unresolved full assessment"
+    },
+    "validation": {
+      "command": "npm run profiles -- validate personality winston-churchill",
+      "exitCode": 1,
+      "outputFile": "profile-audit/reports/personalities-2026-10-04/winston-churchill-validation.txt",
+      "publishable": false,
+      "nonEvidenceGapErrors": []
+    }
+  },
+  "notes": [
+    "1931 Fifty Years Hence offers a specific cultivated-meat analogy and alarm about engineered minds, but lies outside 1940–1955 and does not resolve the questions’ environmental/safety thresholds. 1910 eugenics letters are genuine historical counterevidence, not direct evidence for this defined later period.",
+    "Re-read 1951 manifesto sections: trade protections address existing farming/fishing, not temporary infant-industry protection. No explicit broadcaster or mandatory male-training clause established in this manifesto; these exact items remain unknown.",
+    "Independent current_audit source-bridge review removed unsupported specific predicates: protectionism-free-trade-13. Opposite positions are not asserted."
+  ],
+  "researchBoundary": "Fifteen dedicated axis searches are in the compact search-log file. Search candidates are not claimed as full reads. Numeric conclusions represent only the evidence mapped here. Many question-specific gaps persist; completion of a numeric replacement and publication is not claimed."
+}

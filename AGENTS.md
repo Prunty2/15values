@@ -4,7 +4,7 @@
 
 This repository is for a political quiz website.
 
-Users will choose a short, medium, or long quiz. Their answers
+Users will choose a short, medium, long, or comprehensive quiz. Their answers
 will inform an algorithm that places them on multiple political axes.
 
 Read README.md for the project overview and docs/AXES.md for
@@ -12,21 +12,53 @@ the agreed axis names and descriptions.
 
 ## Current Stage
 
-The stack has been selected. Dependency installation and documentation
-updates have been authorised. Quiz design remains in the definition
-stage; application and quiz implementation have not been authorised yet.
+The stack has been selected. The owner has authorised the frontend
+platform, which is implemented in `frontend/`. It includes the home,
+Ideologies, Personalities, and Countries pages,
+with Values linking to the home page’s 15 axes section,
+plus a functioning quiz and results flow. Ideologies, Personalities, and Countries
+must remain unpopulated unless the owner requests content for them.
+The owner has authorised Social democracy, Andy Burnham, and Switzerland
+as homepage comparison placeholders only; these do not populate the catalogue pages
+or constitute researched profiles or calculated matches.
 
-Do not scaffold an application, install dependencies, implement
-the quiz, or start services unless the owner requests that work.
+The owner has authorised the quiz flow, five-point agreement responses,
+scoring assessment and results interface. All four lengths are implemented
+using the existing 240-question bank, preserving its wording and recorded
+agreement directions. Some source question files remain drafts. The current
+direction-balanced scoring and known measurement concerns are in docs/SCORING.md.
+Results show the 15 axes, an ideology-sentence placeholder, and automatically saved local history. The sentence will be a broad statement supplied by the matched ideology profile, not generated from axis scores. The results comparison card uses placeholders; calculated comparisons remain deferred. Scoring version 2 gives each agreement-direction group half the axis weight and equal question weights within groups; version 1 saved results retain their original scores.
+
+Frontend development and services needed to verify it are authorised.
+Do not introduce dependencies outside the selected stack or populate
+comparison catalogues unless the owner requests that work.
 
 When asked to draft documentation for review, show the proposed
 contents before creating or modifying the files.
+
+The owner has authorised the profile contribution infrastructure: sourced audits,
+validation, immutable revisions, generated catalogue browsing and Codex/Claude Code
+skills. Use CONTRIBUTING.md and docs/personality assessments/NEW_PROFILE.md for additions or
+re-audits. The catalogue contents still require a request for the named subjects;
+user matching and compass presentation remain deferred.
 
 Later explicit requests can authorise implementation work.
 
 ## Agreed Requirements
 
-- Offer three quiz lengths: short, medium, and long.
+- Offer four quiz lengths: short (45 questions), medium (recommended,
+  75 questions), long (135 questions), and comprehensive (240 questions).
+- Use a bank of 240 original questions, with 16 per axis. Select fixed,
+  nested sets by inclusion priority: the first 3, 5, 9, or all 16 questions
+  per axis respectively. Do not randomly select questions. Inclusion
+  priority does not determine scoring weight.
+- Balance agreement directions within each axis: agreement with 8 of its
+  16 questions must support each pole. For the fixed shorter sets, use
+  the closest possible splits: 2–1, 3–2, and 5–4 for 3, 5, and 9 questions.
+  Record each question's agreement direction. Balance refers to the
+  position supported by agreement, not whether the sentence contains a
+  negative. Preserve varied coverage rather than filling the bank with
+  duplicate statements and their negations.
 - Ask a wide variety of political questions.
 - Measure the user on all 15 agreed axes.
 - Include Culture vs Nature as a core axis.
@@ -40,12 +72,12 @@ Later explicit requests can authorise implementation work.
 - Use Vitest for scoring and Playwright for quiz-flow verification.
 - Host the static application on GitHub Pages.
 - Do not add a database, account system, or backend API.
-- Offer opt-in result history using localStorage, with deletion and JSON
+- Automatically save completed result history using localStorage, with deletion and JSON
   export/import. Save the completion date, quiz length, 15 axis scores,
   and question-bank and scoring versions. Raw-answer retention is undecided.
 - Handle unavailable storage and invalid saved/imported data gracefully.
-- Focus current planning on the axes and quiz design.
-  The political compass presentation is deferred.
+- Keep results descriptive and preserve the documented axis definitions.
+  User-to-profile matching and the political compass presentation are deferred.
 
 Do not rename, remove, merge, or add axes without the owner's
 agreement.

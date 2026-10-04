@@ -1,0 +1,2616 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "angela-merkel",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (thinker_assessments, contemporary follow-up)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Angela Merkel",
+    "description": "German chancellor combining a social-market economy, European integration and constitutional federalism with pragmatic social adaptation, managed refugee protection and cautious risk regulation.",
+    "category": "Political leader",
+    "period": "2005–2021",
+    "scope": "Personal positions and governing conduct during 2005–2021. Coalition measures are attributed cautiously. Modern hypothetical policies are labelled inferred, not claimed as direct statements. Research cutoff 4 October 2026; later views do not overwrite a former governing period.",
+    "role": "Chancellor of Germany",
+    "lifespan": "Born 1954",
+    "image": {
+      "path": "profiles/images/angela-merkel-r1.jpg",
+      "alt": "Angela Merkel portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angela_Merkel_2019_(cropped).jpg",
+      "creator": "© Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+    }
+  },
+  "sources": [
+    {
+      "id": "merkel-refugees",
+      "title": "Government statement to the Bundestag",
+      "url": "https://www.bundesregierung.de/breg-de/aktuelles/regierungserklaerung-von-bundeskanzlerin-merkel-798026",
+      "publisher": "German Federal Government",
+      "date": "2015-09-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-cdu",
+      "title": "Der Wandel der CDU unter Angela Merkel",
+      "url": "https://www.deutschlandfunk.de/bundeskanzlerin-der-wandel-der-cdu-unter-angela-merkel-100.html",
+      "publisher": "Deutschlandfunk",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-method",
+      "title": "Merkel’s Last Dance: The Merkel Method, episode 8 transcript",
+      "url": "https://static.dw.com/downloads/58034301/dws-merkels-last-dance-the-merkel-method-e08-transcript.pdf",
+      "publisher": "Deutsche Welle",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-religion",
+      "title": "Speech on the 500th anniversary of the Reformation",
+      "url": "https://www.bundesregierung.de/breg-en/service/archive/archive/speech-given-by-federal-chancellor-dr-angela-merkel-in-lutherstadt-wittenberg-on-31-october-2017-on-the-occasion-of-the-500th-anniversary-of-the-reformation-798224",
+      "publisher": "German Federal Government",
+      "date": "2017-10-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-nato",
+      "title": "Joint press point with Chancellor Angela Merkel",
+      "url": "https://www.nato.int/en/news-and-events/events/transcripts/2019/11/07/joint-press-point",
+      "publisher": "NATO",
+      "date": "2019-11-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-budget",
+      "title": "Angela Merkel commits to grand coalition in general debate",
+      "url": "https://www.bundestag.de/webarchiv/textarchiv/2019/kw48-de-bundeskanzlerin-generalaussprache-668608",
+      "publisher": "German Bundestag",
+      "date": "2019-11-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "merkel-benefits",
+      "title": "Social Security Programs Throughout the World: Europe 2018, Germany",
+      "url": "https://www.ssa.gov/policy/docs/progdesc/ssptw/2018-2019/europe/germany.html",
+      "publisher": "US Social Security Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Constitutional parliamentary democracy, coalition negotiation and judicial constraints anchor authority.",
+      "counterEvidence": "Technocratic crisis management did not eliminate elections or coalition accountability.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Repeated competitive elections and an orderly 2021 succession anchor her governing legitimacy.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Coalition bargaining used elected representatives rather than expert selection of rulers.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her constitutional citizenship rejects education-based voting privileges.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Bundestag consent and coalition agreements constrain executive lawmaking.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She accepted opposition competition throughout her chancellorship.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary scrutiny remains legitimate even when opposition challenges coalition decisions.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional adjudication is an accepted constraint in her rule-of-law framework.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Social partnership informs policy without replacing universal elections with union selection.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional parties may compete; narrowly lawful protection against antidemocratic extremism qualifies an absolute formulation.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Representative deliberation and constitutional safeguards qualify support for ordinary binding national referendums.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Coalition government contradicts a general right of unilateral chancellor policymaking.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary confidence and constitutional removal procedures constrain the executive.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her constitutional practice gives no personal power to postpone elections without authorization.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Accountability matters alongside stable parliamentary terms and lawful removal procedures.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her defence of liberal institutions rejects public authority beyond accountability.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Bundeswehr service remains subordinate to civilian constitutional government.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Civil liberties and proportionality coexist with security powers, regulated expression and public-safety intervention.",
+      "counterEvidence": "Expanded intelligence powers and hate-speech restrictions qualify an unrestricted-liberty interpretation.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her government retained drug restrictions and public-health regulation rather than a broad right to harmful personal use.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Targeted judicially authorised surveillance fits her security and rule-of-law approach.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Peaceful protest deserves protection, while proportionate transport and public-order restrictions remain legitimate.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mere offence is insufficient to silence criticism, although incitement and hate speech can trigger legal restrictions.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Health protection warrants some intervention, but pandemic externalities do not establish unlimited paternalism over private choices.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her commitment to privacy and proportionality weighs against years of universal suspicionless tracking despite intelligence expansion.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Proportionate road-safety checks prevent harm to others and fit her regulatory approach.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Judicial findings and safeguards can justify limited preventative restrictions.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Offence alone does not establish unlawful harm, even within Germany's more restrictive speech framework.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Anonymous dissent deserves space, while accountability for unlawful online conduct also matters.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Concrete imminent danger can justify bounded searches, while constitutional proportionality prevents routine blanket powers.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible serious disorder can justify narrowly tailored restrictions on gatherings.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional home privacy requires legal authority and safeguards except genuine emergencies.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public-interest scrutiny matters, but protected secrets and national security prevent unconditional disclosure rights.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Regulated sporting and hunting access does not imply a general personal-defence justification for gun ownership.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her constitutional approach favours independent judicial oversight rather than indefinite executive-only detention.",
+          "sources": [
+            "merkel-budget",
+            "merkel-refugees"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Civic integration and German proficiency coexist with protection of plural religious and cultural identity.",
+      "counterEvidence": "Her rejection of parallel societies does not mean banning harmless ancestral culture or all religious accommodation.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration requires shared constitutional rules and language even when community customs differ.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refugee integration and public support for language learning justify adapting services to newcomers.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She expects German language acquisition and civic integration rather than parallel societies.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ancestral identity can coexist with constitutional loyalty and participation in German society.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "German proficiency is a prominent practical and civic integration requirement.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inclusive recognition is legitimate, while her national civic framework does not automatically privilege every minority ceremony.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Christian and national heritage receive public recognition within a plural constitutional framework.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Shared civic responsibilities take precedence over sustaining separate communities for their own sake.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common civic holidays preserve cohesion while minority observance can receive accommodation.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her religious-freedom account permits several traditions within German public life.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her refugee policy explicitly emphasises integration into common institutions.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Multilingual access helps inclusion, while German remains necessary for broadly accessible public communication.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Families can retain heritage, but shared language and constitutional civic identity receive substantial priority.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious liberty supports accommodation, while identification and gender-equality concerns can justify restrictions in particular settings.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multiple backgrounds can belong within a common constitutional German identity.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her integration emphasis places significant weight on acquiring shared norms, without requiring complete abandonment of heritage.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-religion"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Humanitarian protection and regulated migration coexist with removal of unsuccessful applicants and European border coordination.",
+      "counterEvidence": "2015 admission decisions do not represent an unconditional open-border policy for the entire 2005–2021 period.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Managed migration and administrative capacity matter, but refugee obligations limit a rigid numerical ceiling.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She distinguishes protection from persecution from migration motivated principally by better economic conditions.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Skilled labour is important, while family and refugee channels remain legitimate.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family unity has weight, though her coalitions also restricted some reunion routes.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refugee protection depends on danger rather than cultural similarity or economic usefulness, with eligibility assessment.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She calls for returning those without a right to protection rather than universal permission to remain.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Labour demand supports admission while administration, integration and public capacity remain relevant.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public-service pressure warrants management, but does not negate humanitarian duties or migrants' contributions.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family rights carry weight alongside managed admission and eligibility conditions.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Employment supports eligibility but does not alone settle all residence and security requirements.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Humanitarian admission can proceed without either employer or family sponsorship. Family reunion itself meets the second sponsor condition, so it is not evidence against the question; humanitarian protection supplies the exception.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Completing education can justify a pathway without automatically entitling every graduate to permanent residence.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her crisis response prioritised protection over a rigid national ceiling while seeking European burden sharing.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her rights-based refugee position rejects cultural resemblance as the general protection test.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lawful residents and refugees require meaningful social protection, although eligibility can vary by status.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diversity can contribute to national life, but admission also concerns protection, family, work and integration capacity.",
+          "sources": [
+            "merkel-refugees"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "NATO obligations and selected deployments coexist with strong diplomatic preference and restrained spending growth.",
+      "counterEvidence": "Slow progress toward spending targets and diplomatic engagement qualify military commitments; conscription was suspended during her chancellorship.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Collective-security missions can justify external force, while diplomacy and legal legitimacy constrain national-interest intervention.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political settlements and negotiated cooperation are consistent priorities despite delay.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "NATO capability needs justify investment, but her gradual spending trajectory does not prioritise unilateral superiority at any price.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Credible imminence matters, while legality and multilateral legitimacy make preventive war a high-threshold exception.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "NATO and overseas missions extend beyond a strictly retaliatory territorial doctrine.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Suspending conscription under her government favours a professional force over compulsory male service.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Negotiation and compromise can preserve peace, although core allied security limits concessions.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Accountable command and legal restraint favour caution about delegated autonomous lethal decisions.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Territorial and allied defence are central, while overseas missions require some expeditionary capacity.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "NATO obligations reject abandoning allies merely to avoid every risk of war.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Afghanistan, Kosovo and Sahel participation demonstrate acceptance of sustained foreign deployments.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her diplomatic approach generally tolerates unresolved disputes rather than escalating them militarily.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Deterrence supports diplomacy, but threats of force are not her preferred ordinary bargaining instrument.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "De-escalation and negotiated outcomes generally receive greater weight than symbolic displays of resolve.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Intelligence cooperation remains acceptable despite acknowledged diplomatic and privacy costs.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Arms-control cooperation fits her multilateral security approach when reciprocal and verifiable.",
+          "sources": [
+            "merkel-nato",
+            "merkel-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "European integration accepts binding shared rules while retaining national constitutional identity.",
+      "counterEvidence": "Constitutional limits and fiscal bargaining qualify supranationalism without negating binding European membership.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "German constitutional autonomy matters, but EU commitments legitimately constrain purely national discretion.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "EU membership accepts binding common decisions even when a member government disagrees.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Constitutional identity remains protected while European legal authority also has binding force.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "NATO and EU cooperation are enduring commitments worth accepting policy constraints.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Membership remains treaty-based and voluntary, although withdrawal would undermine her preferred cooperative order.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "International courts and rules fit her commitment to legal accountability beyond national discretion.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Shared European solutions can legitimately outweigh immediate narrow national preference.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her climate policy supports coordinated international commitments and European environmental rules.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her support for the EU includes its Common Foreign and Security Policy, so this goes beyond merely joining a defence alliance. National vetoes qualify the extent of integration, but she clearly rejects a general rule of staying outside such a foreign-policy bloc.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Agreed rights commitments may require domestic legal adjustment, subject to constitutional process.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her defence of the euro rejects independent national currency as the necessary default.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "European mechanisms legitimately pool resources and decisions to manage shared crises.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Schengen and coordinated asylum policy limit exclusive unilateral border decision-making.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "EU integration relies on binding common market and trade rules.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She supports deeper European cooperation, while national constitutional identity limits an unconditional move to full federation.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Durable European rules require accepting some immediate domestic costs rather than compliance only when convenient.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-nato",
+            "merkel-method"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Social-market ownership combines private enterprise with public infrastructure and development institutions.",
+      "counterEvidence": "Public utilities and banks are real exceptions to private ownership, while crisis stakes were not a general nationalisation project.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Social-market economics preserves predominantly private commercial ownership.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal utilities and public infrastructure have legitimate enduring roles alongside private provision.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private ownership is acceptable where public operation offers no clear service or accountability advantage.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State participation may resolve strategic failures, but founding public competitors is not her ordinary first instrument.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Germany's mixed providers combine public, nonprofit and private medicine rather than an exclusive ownership preference.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public rail ownership and infrastructure support a strong public role in national transport networks.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Efficient contracting is acceptable when public accountability and service quality are genuinely maintained.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public development banks and savings institutions are compatible with her social-market framework.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Commercial holdings without a continuing public rationale may be sold within her market-oriented approach.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing access warrants public involvement, but private and cooperative provision also remain central.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regulation and strategic screening can protect public interests without general public acquisition.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Private extraction under public regulation is more consistent with her programme than universal resource nationalisation.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local private contractors are acceptable where demonstrably efficient and accountable.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic infrastructure can justify retaining public control despite attractive sale proceeds.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Losses require discipline while infrastructure and public-service obligations may warrant continuing ownership.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Independent public-service broadcasting warrants durable public institutional support rather than purely commercial provision.",
+          "sources": [
+            "merkel-method",
+            "merkel-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Export-oriented integration favours open trade subject to strategic screening and agreed remedies.",
+      "counterEvidence": "Agricultural support and strategic screening qualify trade liberalism.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Export-oriented European integration weighs against protective tariffs as a general strategy.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her common-market approach accepts competition and adjustment in exchange for open markets.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Common procurement rules and competition constrain domestic preference simply because a supplier is national.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "German industrial competitiveness depends on access to foreign inputs and supply chains.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic resilience can justify exceptions, but routine import restriction conflicts with her trade orientation.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated European trade policy has priority over unilateral German tariff decisions.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Industrial support can aid emerging technologies, while common competition rules constrain blanket infant-industry protection.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign investment is welcome subject to security and strategic review.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agricultural support and standards coexist with interest in expanded market access.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Skills, adjustment and competitiveness are generally preferred to permanent shelter for every threatened firm.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Rules-based remedies may be justified, while retaliatory escalation can harm the export economy.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Nondiscrimination is integral to her European common-market approach.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Demonstrable subsidisation can justify proportionate trade remedies under agreed rules.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her trade orientation accepts economic interdependence for larger markets and lower barriers.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic takeover screening is compatible with openness when a concrete security interest is threatened.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Digital trade benefits the economy, subject to European privacy and consumer rules.",
+          "sources": [
+            "merkel-budget",
+            "merkel-method"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Competitive markets coexist with wage floors, energy-transition support and public development finance.",
+      "counterEvidence": "Coalition adoption of the minimum wage should not be described as her original personal initiative; acceptance in government still matters.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private firms generally choose ordinary production in her social-market economy.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regulatory standards and strategic programmes are not compulsory national output quotas.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Market prices are the normal coordinating mechanism with exceptions for public services and market failures.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Energy transition and industrial innovation use deliberate sectoral investment priorities.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Demand and commercial judgment normally determine business entry and exit.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Essential affordability can justify regulation, while general administrative price-setting is not her default.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary enterprises can enter markets after meeting legal standards rather than proving official production need.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public development finance guides some investment while private banks retain broad allocation discretion.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "European capital mobility is accepted, subject to financial stability and security safeguards.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Clean-energy and innovation support justify selective public subsidies.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her preference for monetary stability and financial oversight weighs against unrestricted currency schemes, while the social-market presumption permits regulated private financial activity. Competition with official money is distinct from replacing the euro; those considerations support conditional permission rather than a categorical prohibition.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She accepted the statutory minimum wage through coalition agreement, though it was not initially her preferred universal instrument.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective bargaining and social partnership generally set wages beyond statutory floors.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "European monetary independence is inconsistent with subordinating the central bank to a national production plan.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Market rents coexist with affordability regulation and tenant protections in her mixed framework.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Coordination of energy policy does not establish ordinary economy-wide planning of production and distribution.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Social insurance and progressive contributions coexist with fiscal discipline and work incentives.",
+      "counterEvidence": "Balanced-budget commitments and resistance to general wealth taxation limit the redistributive programme.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Social insurance and progressive taxation seek meaningful reduction of hardship and inequality.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inequality can justify correction, while incentive and competitiveness concerns prevent making every gap sufficient for higher tax.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strong social insurance merits financing, constrained by her fiscal-discipline commitments.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A secure floor is central, but inclusion and insurance extend beyond subsistence without aiming to equalise every outcome.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Progressive income taxation reflects greater contribution capacity while avoiding unlimited burdens.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Enterprise and earned rewards retain substantial weight within her social-market approach.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inherited advantage matters, while protecting family businesses limits broad estate-tax expansion.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Time-limited unemployment insurance coexisted with means-tested Arbeitslosengeld II, whose duration was unlimited while eligible. Work conditions and sanctions do not establish an automatic end to the entire income-support floor after a set period.",
+          "sources": [
+            "merkel-benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She did not make a recurring broad net-wealth tax a central instrument of social financing.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Fiscal restraint matters alongside maintaining substantial social protections.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Social participation and insurance against major life risks exceed bare survival support.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her fiscal approach balances tax competitiveness with stable public services rather than always placing one first.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "In-work support can reconcile a social minimum with employment incentives.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Existing progressive tax bands contradict identical marginal taxation for all workers.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Property rights and market housing policy weigh against a broad programme of compulsory land redistribution.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Targeting need matters, while social insurance and working-household support extend beyond emergency destitution.",
+          "sources": [
+            "merkel-budget",
+            "merkel-cdu"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "A secular constitutional order cooperates with churches and publicly supports religious community life.",
+      "counterEvidence": "Personal Protestant belief is not sufficient evidence; her speech explicitly affirms neutrality alongside institutional cooperation.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her Reformation speech explicitly locates religious freedom within a secular legal order.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious values can inspire citizens without making theology an official binding legislative source.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil government has authority independent of clerical permission.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian heritage is acknowledged, while constitutional religious neutrality weighs against privileging one faith as the state's foundation.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neutral knowledge is valuable, but she also supports denominational religious education with plural safeguards.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Faith instruction is legitimate in her cooperative model, but a single state's recognised religion would overstate Germany's plural arrangements.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She explicitly defends a secular legal order protecting different faiths.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Churches can be consulted but do not possess an official general legislative review power by virtue of clerical status.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public religious commemorations and worship are legitimate within her cooperative church–state approach.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public support for religious education and a lively religious community gives religion an institutional role beyond private charity.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious neutrality constrains exclusive endorsement, while historical symbols and public religious presence remain accepted.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious festivals and the Reformation commemoration have legitimate public recognition in her account.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "No reserved clerical parliamentary seats are part of her governing constitutional model.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Continued special religious fiscal arrangements fit cooperative church–state relations rather than charity-only treatment.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage is legally independent of religious approval despite her traditional personal marriage definition.",
+          "sources": [
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Civil family law and equal rights constrain treating clerical judgments as automatically binding.",
+          "sources": [
+            "merkel-religion"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Gradual social adaptation coexists with traditional family preferences and her personal opposition to same-sex marriage in 2017.",
+      "counterEvidence": "Parliament legalised same-sex marriage after she permitted a free vote, but her own vote remained opposed and must be distinguished from the outcome.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her party adapted social policy while retaining institutional continuity.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tradition has weight but does not automatically defeat every adjustment to changed social life.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family support broadened beyond one household model despite her personal traditional marriage view.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal careers and expanded childcare challenge fixed roles, while Christian-democratic family traditions remain influential.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She personally voted against same-sex marriage in 2017 while enabling a free parliamentary vote and accepting the result.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The married family retains particular social value in her Christian-democratic outlook.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Legal early access within a counselling framework coexists with moral reservation, rather than full social rejection or unqualified acceptance.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family responsibility matters alongside schools' duties to provide age-appropriate shared education.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her traditional marriage view and acceptance of plural families pull differently on equal social recognition for adoption.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Modesty can have cultural significance without justifying a uniform compulsory public dress expectation.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Respectful language and social inclusion compete with caution about rapid prescribed changes to established conventions.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Intergenerational moral continuity has value in her Christian-democratic approach, though not immunity from criticism.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal participation and her own leadership support acceptance beyond rigid sex-role expectations.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her consensus-seeking method favours gradual institutional change even when faster reform attracts support.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inclusive knowledge is legitimate, while family involvement and age-appropriate methods receive substantial weight.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Continuity with earlier generations supplies a legitimate reason to retain meaningful traditions.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-method",
+            "merkel-religion"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Digital progress and innovation are supported within a comparatively precautionary approach to health and irreversible environmental risk.",
+      "counterEvidence": "She initially extended nuclear operation before reversing after Fukushima; later precaution receives weight without erasing that change.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Digital innovation is welcomed, while her risk-sensitive nuclear reversal argues against broadly privileging early benefits over uncertain long-term harm.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her precautionary approach supports staged deployment while substantial long-term risk evidence is collected.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Infrastructure benefits matter, but irreversible habitat damage must be weighed rather than routinely discounted.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Medical regulation should examine long-term safety before widespread deployment, with urgent-benefit exceptions.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Digital transition and workforce skills favour productivity-enhancing adoption paired with adjustment.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Biodiversity and climate protection carry substantial weight, but do not categorically defeat all beneficial development.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Food innovation can be useful, while health and ecological uncertainty warrant proportionate assessment.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Healthy-person enhancement lacks the urgent therapeutic benefit that might justify less-established implant safety.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her energy transition combines technological innovation with efficiency and changed consumption, resisting a technology-only priority.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Poorly understood substantial environmental effects justify delaying decisions until risks can be assessed.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Basic safety and consent are insufficient where invasive enhancement may produce serious long-term consequences.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Medical AI requires strong reliability evidence across patient groups before unsupervised routine use.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her cautious biomedical and ethical framework favours disease prevention over speculative heritable enhancement.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Precautionary environmental regulation supports long-term ecological evidence before broad crop deployment.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing and mobility matter alongside conservation; neither receives an unconditional priority in every conflict.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her nuclear risk response supports waiting for strong evidence that plausible irreversible harm is unlikely.",
+          "sources": [
+            "merkel-cdu",
+            "merkel-religion",
+            "merkel-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Strong Länder constitutional powers coexist with national social guarantees and fiscal equalisation.",
+      "counterEvidence": "National crisis coordination did not abolish Länder police, education or constitutional authority.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federalism gives Länder protected authority even when their policies differ from the chancellor's preferences.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional adjudication and distributed powers limit a unilateral national right to settle every jurisdiction dispute.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Federal autonomy does not imply unilateral secession by local majority vote.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National programmes warrant coordination, but protected Länder powers constrain automatic federal override.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Länder constitutions are a normal component of her constitutional framework.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Most ordinary policing remains regionally governed, with federal agencies handling defined national functions.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Fiscal equalisation and shared taxes weigh against each region keeping most receipts regardless of national need.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Länder educational responsibility limits comprehensive compulsory national curricula.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regional fiscal discretion remains legitimate within shared tax arrangements.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common employment protections coexist with regional administration and collective bargaining.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local institutional choices generally need no routine national approval, though Länder law constrains them.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National insurance guarantees support common treatment standards while regional delivery remains significant.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Minority cultural autonomy can be legitimate, while a distinct Indigenous territorial-government model requires constitutional adaptation.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Fiscal solidarity supports limits on harmful competition undermining shared services.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Land and wildlife issues confined to a region ordinarily belong to regional institutions.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cross-regional emergencies require national coordination, while federalism constrains wholly displacing regional plans.",
+          "sources": [
+            "merkel-refugees",
+            "merkel-method"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Education and historically learned civic behaviour receive substantial weight while mixed biological and social causation is retained for individual traits.",
+      "counterEvidence": "Equal rights do not prove genetic claims. Mixed causal answers avoid inferring specific heritability positions from party labels or scientific training.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her education argument gives substantial weight to family surroundings and opportunities in developing behaviour and capacities.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Compensating educational disadvantage makes environment a plausible primary policy explanation of achievement differences. This is a modest inference, not evidence that her commitment to equality resolves the scientific sources of national intelligence differences.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Expanded childcare and equal opportunity recognise social constraints, while she does not treat every average behavioural difference as purely cultural.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her scientific and social-policy approach accommodates both physiological stress sensitivity and formative experience.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and vocational pathways are intended to reshape interests and capabilities through experience.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual disposition and economic circumstances jointly shape risk-taking; her policy does not require either always to dominate.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her religious-freedom speech describes tolerance and cooperation as historically learned civic achievements.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Empathy can involve inherited disposition and learned perspective; interfaith contact gives substantial weight to experience.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support for children lacking encouragement assumes surroundings can materially improve attention and learning.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral reactions involve learned traditions and individual predispositions; her values discourse is not a biological causal theory.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She explicitly links ignorance to prejudice and contact to understanding, supporting learned influences on threat perception.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Biomedical predispositions matter, while her educational account recognises developmental effects; neither implies fixed universal temperament.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Beauty preferences can vary with cultural experience while retaining biological components; her pluralism supports variation without settling comparative causal size.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration policy explains disparities through institutions and social conditions. It supports qualified disagreement with a primarily racial-biological account without turning equal treatment into proof of a complete causal theory.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her support for developmental learning implies that self-control can be cultivated. This supports a moderate learned explanation rather than an unqualified scientific claim about all group differences.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Childcare and opportunity reforms acknowledge social expectations and barriers, rather than treating pay differences as simply different economic worth.",
+          "sources": [
+            "merkel-religion",
+            "merkel-refugees"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/current_assessments",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent all-240 review against exact wording and the 2005–2021 chancellorship. Corrected the benefit-time-limit answer using the distinction between expiring unemployment insurance and unlimited means-tested assistance. Repaired employer-or-family sponsorship logic, private currency competition versus replacing the euro, and alliance membership versus the EU Common Foreign and Security Policy. Moderated unsupported causal certainty in national intelligence, racial criminality and self-control. Retained personal opposition to same-sex marriage separately from coalition legalisation, constitutional Länder autonomy, and cooperative church–state arrangements separately from personal faith. Reviewed precaution questions as strong evidence, not zero risk. Remaining biomedical, implant and causal-anthropology answers are explicitly reasoned analogies; neutral values identify competing considerations. No distribution or similarity tuning. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "date": "2026-10-04",
+  "scope": "All 35 personalities present in the local catalogue at audit start. No new subjects or other catalogue assessments.",
+  "outcome": "Review of all 8,400 archived answers completed. All 35 current placements withdrawn because material question-level justifications fail evidence review. This does not establish that every old answer is wrong.",
+  "replacementStatus": {
+    "nextRevisionDrafts": 35,
+    "supportedAnswers": 2105,
+    "unknownAnswers": 6295,
+    "completeValidatedReplacements": 0,
+    "newArchives": 0,
+    "newPublishedPlacements": 0,
+    "limits": "Research/source-read/publisher gates remain incomplete in some subjects. Unknowns block complete scoring; no fabricated neutral answers or validator changes."
+  },
+  "methodology": {
+    "upstream": "https://github.com/RomanCypherpunk/12axes",
+    "upstreamMainCommit": "0f38acd8c477e5858b3fea7b2d4d27081640679d",
+    "workflowUrls": [
+      "https://github.com/RomanCypherpunk/12axes/blob/main/profile-audit/README.md",
+      "https://github.com/RomanCypherpunk/12axes/blob/main/profile-audit/NEW_PROFILE.md"
+    ],
+    "localSkill": ".agents/skills/audit-personality/SKILL.md",
+    "bank": "frontend/src/data/questions.v1.json",
+    "questionCount": 240,
+    "axisCount": 15,
+    "scope": "All 35 personalities present at audit start, same IDs and periods. No other catalogue reassessment.",
+    "adaptations": [
+      "Local 15-axis bank and TypeScript scorer, no upstream vectors or archetypes.",
+      "Three separate assessment agents within available concurrency limit, plus coordinating evidence review.",
+      "Existing user request authorises all subjects and continuation; no batch permission repeated.",
+      "Unknown is null and blocks archival, never substituted with neutral."
+    ]
+  },
+  "researchBoundaries": [
+    "All 15 axes considered per subject using exact local questions; source availability and attempted research recorded.",
+    "Separate assessment agents plus a different agent reviewing every question condition and supported inference; root targeted source/rationale and integrity checks.",
+    "Source passages read in relevant sections; entire long volumes and every possible source were not exhaustively read.",
+    "Search results and inaccessible pages are distinguished from body reads; some cited news evidence is explicitly excerpt-only.",
+    "Supported bounded historical analogies retained; lack of a literal modern statement alone does not invalidate an inference.",
+    "Unknown means unresolved evidence, not proof a subject never had a view or that an old direction is false.",
+    "No publication certification or similarity approval while complete evidence is missing."
+  ],
+  "preservation": {
+    "protectedFiles": 169,
+    "archives": 88,
+    "images": 81,
+    "allSha256Unchanged": true,
+    "existingIdeologyWithdrawalsPreserved": 25,
+    "questionBankAndScoringUnchanged": true
+  },
+  "verification": {
+    "baselineQuestions": "240 matched source documents",
+    "baselineProfiles": "35 personalities with placements; 25 ideologies already withdrawn before this task",
+    "baselineUnitTests": "78 passed",
+    "firstBrowserRun": {
+      "total": 156,
+      "passed": 151,
+      "failed": 5,
+      "failures": [
+        "personality card accessible name caused catalogue navigation failures on 3 projects",
+        "desktop navigation centring offset 7.5078125 px",
+        "desktop results heading centring offset 7.5 px"
+      ]
+    },
+    "targetedBrowserRerun": {
+      "total": 15,
+      "passed": 13,
+      "failed": 2,
+      "catalogueChecks": "Withdrawal notices and full catalogue flow passed on desktop, mobile and Safari after explicit personality link names.",
+      "remainingFailures": [
+        "desktop navigation centring assertion",
+        "desktop results heading centring assertion"
+      ],
+      "scopeDecision": "Audit changes do not affect header or result layout. Keep unrelated centring work out of this contribution and report failures."
+    },
+    "catalogueBrowserSuite": {
+      "total": 18,
+      "passed": 18,
+      "projects": [
+        "desktop Chromium",
+        "mobile Chromium",
+        "Safari"
+      ],
+      "scope": "Generated fixture catalogue browse/search/detail/download/withdrawals/image fallback and error handling after final credit rendering change."
+    },
+    "finalQuestions": "240 source-matched questions across15 axes; unchanged",
+    "finalUnitTests": "78 passed across4 files",
+    "finalBuild": "TypeScript and Vite production build passed; profiles generation/check passed with35 personality and25 pre-existing ideology withdrawals.",
+    "actualCatalogueBrowserReview": {
+      "profiles": 35,
+      "detailChecks": 105,
+      "surfaces": [
+        "desktop Chromium",
+        "mobile Chromium",
+        "Safari"
+      ],
+      "result": "passed",
+      "coverage": [
+        "withdrawal visible and placements absent",
+        "portrait loaded",
+        "no horizontal overflow",
+        "served historical audit deeply equals original archive,240 answers each",
+        "index search and keyboard activation",
+        "native historical download",
+        "footer source credits and corrected named photographer"
+      ],
+      "initialHarnessCorrection": "Compare browser-normalized image source URLs rather than raw Unicode URL strings; no product change required."
+    },
+    "visualInspection": "Parent inspected generated desktop and mobile Andy Burnham screenshots: warning, portrait, source download, attribution and responsive layout visible.",
+    "finalIntegrity": "All 35 subject reports and next drafts match the exact240-question bank; all 8,400 separate peer dispositions match final values/rationales/source IDs and final snapshots. Original88 archives and81 image files unchanged;25 prior withdrawals preserved.",
+    "archiveHistory": "History check against HEAD passed; starting hashes additionally protect pre-existing untracked archives/images.",
+    "finalCatalogueBrowserSuite": "18/18 passed across desktop,mobile,Safari after final catalogue generation and copy.",
+    "peerReviewFinalStatus": "All recorded peer concerns resolved. Some review fields preserve first-pass publication concerns for chronology; final snapshot decisions/pending flags and parent final-integrity report establish the final state. No complete numerical replacement or publication approval."
+  },
+  "usageReset": {
+    "idempotencyKey": "015e8689-6572-469c-963c-cda9b8d62881",
+    "trigger": "Weekly window 90% used / 10% remaining",
+    "outcome": "reset",
+    "remainingBankedResets": 1,
+    "explicitAuthorisation": "User: When usage gets low, use a banked reset."
+  },
+  "delivery": "Local workspace only; no commit,PR,merge or deployment performed.",
+  "subjects": [
+    {
+      "id": "adolf-hitler",
+      "name": "Adolf Hitler",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 62,
+      "unknownAnswers": 178,
+      "sources": 7,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "andy-burnham",
+      "name": "Andy Burnham",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 31,
+      "unknownAnswers": 209,
+      "sources": 3,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "angela-merkel",
+      "name": "Angela Merkel",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 75,
+      "unknownAnswers": 165,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "anthony-albanese",
+      "name": "Anthony Albanese",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 33,
+      "unknownAnswers": 207,
+      "sources": 10,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "barack-obama",
+      "name": "Barack Obama",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 67,
+      "unknownAnswers": 173,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "benito-mussolini",
+      "name": "Benito Mussolini",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 54,
+      "unknownAnswers": 186,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "bernie-sanders",
+      "name": "Bernie Sanders",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 54,
+      "unknownAnswers": 186,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "boris-johnson",
+      "name": "Boris Johnson",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 50,
+      "unknownAnswers": 190,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "donald-trump",
+      "name": "Donald Trump",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 61,
+      "unknownAnswers": 179,
+      "sources": 10,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "edmund-burke",
+      "name": "Edmund Burke",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 54,
+      "unknownAnswers": 186,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "franklin-d-roosevelt",
+      "name": "Franklin D. Roosevelt",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 46,
+      "unknownAnswers": 194,
+      "sources": 9,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "friedrich-hayek",
+      "name": "Friedrich Hayek",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 80,
+      "unknownAnswers": 160,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "jd-vance",
+      "name": "JD Vance",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 25,
+      "unknownAnswers": 215,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "john-locke",
+      "name": "John Locke",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 62,
+      "unknownAnswers": 178,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "john-maynard-keynes",
+      "name": "John Maynard Keynes",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 40,
+      "unknownAnswers": 200,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "john-rawls",
+      "name": "John Rawls",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 73,
+      "unknownAnswers": 167,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "john-stuart-mill",
+      "name": "John Stuart Mill",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 55,
+      "unknownAnswers": 185,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "joseph-stalin",
+      "name": "Joseph Stalin",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 64,
+      "unknownAnswers": 176,
+      "sources": 7,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "julia-gillard",
+      "name": "Julia Gillard",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 67,
+      "unknownAnswers": 173,
+      "sources": 7,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "kamala-harris",
+      "name": "Kamala Harris",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 37,
+      "unknownAnswers": 203,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "karl-marx",
+      "name": "Karl Marx",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 74,
+      "unknownAnswers": 166,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "mao-zedong",
+      "name": "Mao Zedong",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 83,
+      "unknownAnswers": 157,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "marco-rubio",
+      "name": "Marco Rubio",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 42,
+      "unknownAnswers": 198,
+      "sources": 3,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "margaret-thatcher",
+      "name": "Margaret Thatcher",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 89,
+      "unknownAnswers": 151,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "milton-friedman",
+      "name": "Milton Friedman",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 97,
+      "unknownAnswers": 143,
+      "sources": 7,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "nelson-mandela",
+      "name": "Nelson Mandela",
+      "auditedRevision": 1,
+      "draftRevision": 2,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 84,
+      "unknownAnswers": 156,
+      "sources": 6,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "nigel-farage",
+      "name": "Nigel Farage",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 32,
+      "unknownAnswers": 208,
+      "sources": 2,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "pauline-hanson",
+      "name": "Pauline Hanson",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 32,
+      "unknownAnswers": 208,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "ronald-reagan",
+      "name": "Ronald Reagan",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 105,
+      "unknownAnswers": 135,
+      "sources": 8,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "rosa-luxemburg",
+      "name": "Rosa Luxemburg",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 73,
+      "unknownAnswers": 167,
+      "sources": 9,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "rupert-lowe",
+      "name": "Rupert Lowe",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 66,
+      "unknownAnswers": 174,
+      "sources": 12,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "thomas-hobbes",
+      "name": "Thomas Hobbes",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 44,
+      "unknownAnswers": 196,
+      "sources": 3,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "vladimir-putin",
+      "name": "Vladimir Putin",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 55,
+      "unknownAnswers": 185,
+      "sources": 5,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "winston-churchill",
+      "name": "Winston Churchill",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 81,
+      "unknownAnswers": 159,
+      "sources": 4,
+      "verdict": "needs-withdrawal"
+    },
+    {
+      "id": "xi-jinping",
+      "name": "Xi Jinping",
+      "auditedRevision": 2,
+      "draftRevision": 3,
+      "reviewedQuestions": 240,
+      "supportedAnswers": 58,
+      "unknownAnswers": 182,
+      "sources": 8,
+      "verdict": "needs-withdrawal"
+    }
+  ],
+  "records": {
+    "perSubject": "<id>.json plus <id>-validation.txt",
+    "independentPeerReviews": [
+      "other-reviews-historical.json",
+      "historical-reviews-current.json",
+      "current-reviews-other.json"
+    ],
+    "integrity": "final-integrity.json",
+    "actualBrowserChecks": "browser-review.json",
+    "coordinator": "coordinator-review.json"
+  }
+}

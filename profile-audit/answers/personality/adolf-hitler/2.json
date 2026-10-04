@@ -1,0 +1,2583 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "adolf-hitler",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "Image-only revision: replace the portrait with the main infobox image shown on the subject’s English Wikipedia page, as requested by the owner. All 240 answers, sources, evidence reviews and calculated scores are unchanged.",
+  "metadata": {
+    "name": "Adolf Hitler",
+    "description": "Nazi dictator of Germany whose regime pursued racial persecution, genocide and wars of conquest.",
+    "category": "Political leader",
+    "period": "1933–1945",
+    "scope": "Personal positions and governing conduct during 1933–1945; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "Dictator of Nazi Germany",
+    "lifespan": "1889–1945",
+    "image": {
+      "path": "profiles/images/adolf-hitler-r2.jpg",
+      "alt": "Portrait of Adolf Hitler",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hitler_portrait_crop_(cropped)(2).jpg",
+      "creator": "Heinrich Hoffmann / Bundesarchiv, Bild 183-H1216-0500-002 / CC-BY-SA",
+      "license": "CC BY-SA 3.0 de",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+    }
+  },
+  "sources": [
+    {
+      "id": "rule",
+      "title": "Nazi rise to power",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/the-nazi-rise-to-power",
+      "publisher": "United States Holocaust Memorial Museum",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "racial",
+      "title": "Victims of the Nazi Era: Nazi Racial Ideology",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/victims-of-the-nazi-era-nazi-racial-ideology",
+      "publisher": "United States Holocaust Memorial Museum",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "plan",
+      "title": "Hitler’s confidential memorandum on autarky, August1936",
+      "url": "https://germanhistorydocs.org/en/nazi-germany-1933-1945/hitler-s-confidential-memo-on-autarky-august-1936",
+      "publisher": "German Historical Institute",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "concordat",
+      "title": "Reich Concordat",
+      "url": "https://germanhistorydocs.org/en/nazi-germany-1933-1945/reich-concordat-between-the-holy-see-and-the-german-reich-july-20-1933",
+      "publisher": "German Historical Institute",
+      "date": "1933-07-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical",
+      "title": "Nazi Medical Experiments",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/nazi-medical-experiments",
+      "publisher": "United States Holocaust Memorial Museum",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "expansion",
+      "title": "Descriptions of Adolf Hitler: background and diplomatic records",
+      "url": "https://www.nationalarchives.gov.uk/education/teaching-resources/descriptions-of-adolf-hitler/",
+      "publisher": "UK National Archives",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police",
+      "title": "RG84 Germany: dictatorship and police custody",
+      "url": "https://www.archives.gov/research/holocaust/finding-aid/civilian/rg-84-germany.html",
+      "publisher": "US National Archives",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Leadership dictatorship abolished meaningful electoral competition and independent accountability.",
+      "counterEvidence": "Plebiscites and retained institutions ratified leadership decisions; they were not competitive checks.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Competitive tenure conflicts with permanent Führer authority.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Experts advised the leader rather than selecting government.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Racial citizenship excludes universal adult franchise.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Enabling powers displaced parliamentary consent.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Opposition parties were eliminated.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent scrutiny would challenge leader supremacy.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government-controlled justice could not veto the Führer.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent unions were destroyed, not made selectors.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Single-party monopoly excluded political competitors.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Referendums confirmed leadership, not citizen-initiated repeal.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Major decisions concentrated in Hitler’s leadership.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Parliament lacked an effective constitutional removal mechanism.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "No independent body could require competitive elections.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Plebiscitary mobilisation did not permit representative recall.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Leader principle rejected accountability to elected opposition.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Military loyalty oath precluded independent military removal.",
+          "sources": [
+            "rule",
+            "police"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Police detention, censorship and racial regulation overrode individual freedom.",
+      "counterEvidence": "Regime discretion could tolerate approved activities; that is distinct from a universal legal liberty.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Individual wellbeing choices subordinate to racial-health policy.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Even judicially approved surveillance falls within broader police powers.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent obstruction protests conflict with controlled mobilisation.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Criticism of governing institutions invited persecution.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Paternal and coercive health policy was accepted.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political classification supports prolonged movement surveillance.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective discipline supports suspicion-free sobriety tests.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive custody went beyond the question’s court safeguard.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Morally or ideologically disapproved material was censored.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unregistered communication would frustrate political identification.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive policing allows area searches without individual suspicion.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State could readily prohibit feared opposition gatherings.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent warrants would impede political police.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Whistleblowing against Nazi authorities conflicts with secrecy.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Universal firearm access contradicts exclusion of targeted populations.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protective custody lacked independent judicial safeguards.",
+          "sources": [
+            "police",
+            "racial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Racial-national homogenisation denied plural cultural membership.",
+      "counterEvidence": "Assimilation itself could not overcome racial exclusion; this bank captures only the cultural dimension of a more severe ideology.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Dominant national culture outranks migrant practices.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State-funded cultural pluralism contradicts exclusion.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Approved settlers expected to adopt German customs.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign identity cannot confer equal national belonging.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "German linguistic uniformity fits cultural coordination.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Recognition of subordinated peoples conflicts with racial hierarchy.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Approved German traditions monopolise cultural legitimacy.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Distinct community claims cannot outrank the racial nation.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Uniform national ceremonies supersede minority calendars.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Multiple equal traditions oppose exclusive national identity.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integrated conformity preferred to separate cultural autonomy.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign-language accommodation weakens official homogenisation.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family socialisation should transmit national-racial allegiance.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Minority-specific exemptions contradict imposed uniformity.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Plural national ways of life conflict with exclusive Volksgemeinschaft.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration would impose authorised national customs.",
+          "sources": [
+            "racial",
+            "rule"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Racial eligibility and state permission dominated admission, settlement and expulsion.",
+      "counterEvidence": "Importation of forced labour was coercion, not support for immigration rights.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strict controls compatible with racial demographic planning.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "General right to improve circumstances rejected for excluded groups.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skills not sufficient; racial and political selection predominates.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Kinship cannot override racially restricted settlement.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Universal refuge incompatible with regime persecution and exclusion.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unlawful status supplies no general claim to remain.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Employer demand subordinate to racial-national policy.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Demographic control overrides economic immigration gains.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family movement would also be controlled.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A job offer cannot establish a settlement entitlement.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Racial selection and state authorisation were fundamental, while employment or family links could be useful without defining a universal sponsorship requirement. Strong administrative control alone does not establish this particular admission mechanism.",
+          "sources": [
+            "racial",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Academic achievement cannot substitute for racial eligibility.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Persecution does not override racial admission barriers.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Selected culturally German populations received priority.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Universal non-citizen provision conflicts with exclusionary welfare.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Diversity itself was viewed as undesirable.",
+          "sources": [
+            "racial",
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Rearmament and aggressive expansion required armed superiority and expeditionary war.",
+      "counterEvidence": "Diplomatic agreements bought advantage and time; they did not establish a defence-only doctrine.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Wars of expansion plainly exceed defensive response.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Negotiation subordinate to military territorial objectives.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "1936 memorandum demands overriding military investment.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Initiative in conflict supports pre-emptive attack.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Aggression in Poland refutes defence-only restriction.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Reintroduced conscription for expanded armed forces.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expansion outweighed concessions to avert war.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His priority of technological military advantage supports a limited inference for autonomous weapons, although the specific removal of human attack approval was not a documented policy.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expeditionary conquest went far beyond homeland defence.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "All-cost avoidance contradicts preparations for conquest.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Army required sustained campaigns abroad.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Territorial goals were pursued through war.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Threats accompanied demands against neighbouring states.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Resolve and expansion overrode reducing war risk.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Intelligence advantage fits prioritised military preparation.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Arms restrictions were repudiated as obstacles to power.",
+          "sources": [
+            "plan",
+            "expansion"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "International commitments were subordinate to unilateral German power.",
+      "counterEvidence": "Axis alliance and tactical pacts show cooperation without acceptance of superior international authority.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "German leadership claims ultimate domestic jurisdiction.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External binding constraints rejected when inconvenient.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National authority supersedes international adjudication.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic alliance acceptable despite some reciprocal obligations.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Treaty repudiation illustrates unilateral withdrawal.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "International judicial accountability conflicts with leadership supremacy.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National expansion outranks institutional goals.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cross-border coordination would not justify external control.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Military alliances were useful, but Hitler repeatedly subordinated allied coordination to unilateral German decisions. An alliance requiring one binding common foreign policy conflicts with that retained freedom.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External rights requirements contradict racial sovereignty.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Autarky requires national monetary command.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Pooling permitted instrumentally, not equal shared sovereignty.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Borders and settlement exclusively subject to Reich control.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Bilateral deals useful but national discretion prioritised.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federation among equals conflicts with imperial domination.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Collective rules could not outweigh perceived German advantage.",
+          "sources": [
+            "expansion",
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private ownership survived under coercive state priorities; public enterprises filled strategic gaps.",
+      "counterEvidence": "Nazi expropriation and planning do not imply universal public ownership; racial confiscation was not egalitarian redistribution.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private industry retained if it fulfilled military tasks.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Networks fit strategic public control.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private production preferred where capable of meeting assigned needs.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State production threatened when private industry failed.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mixed facilities under coercive direction imply conditional ownership.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Rail logistics favour strategic public infrastructure.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private delivery acceptable when meeting state requirements.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public credit institutions compatible with controlled private banks.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selected privatisation compatible with private industrial operation.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing provision instrumental; no blanket public-share principle.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private armaments producers accepted under close direction.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic shortages justify state resource production.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Either provider acceptable if politically reliable and effective.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic capacity outranks sales proceeds.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Rescue or sale depends on strategic utility.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Central broadcasting ownership serves propaganda monopoly.",
+          "sources": [
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Autarky subordinated cost and market exchange to national war readiness.",
+      "counterEvidence": "Necessary imports continued; goal was reducing vulnerability rather than literally eliminating every import.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection supports domestic strategic production.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Free trade incompatible with autarkic priorities.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National sourcing preferred despite higher cost.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign sourcing subject to exchange and strategic controls.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential supply must not depend on imports.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unilateral barrier removal contradicts economic independence.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "New synthetic industries merit protected establishment.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign control cannot receive unconditional equal treatment.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Food security prioritises domestic agricultural capacity.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State production goals outrank competitive adjustment.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Retaliation fits protection of national exchange interests.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Preferential treatment follows self-sufficiency priority.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Subsidised foreign rivals threaten domestic capacity.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Tariff removal rejected where it increases strategic dependence.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic assets must remain under German command.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Modern services would face security and national-control restrictions.",
+          "sources": [
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Four-Year Plan directed output, investment, raw materials and foreign exchange before wartime mobilisation.",
+      "counterEvidence": "Private managerial decisions survived within binding national priorities.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Firms obliged to meet national production tasks.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Specific output increases demanded by the plan.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State allocation and price control outrank free pricing.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Investment targets followed rearmament and self-sufficiency.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strategic production continued regardless of consumer preferences.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cost explicitly subordinated to essential national supply.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Entry subject to resources and national planning.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Finance must support strategic industrial mobilisation.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign reserves withheld abroad denounced as sabotage.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Synthetic substitutes supported despite private cost objections.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Competing money would undermine exchange controls.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Compulsory labour standards compatible with state wage direction.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent wage bargaining incompatible with coordinated labour.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National credit policy serves plan targets.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Rental autonomy subordinate to administered economic conditions.",
+          "sources": [
+            "plan"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Peacetime economy was expressly mobilised through a national plan.",
+          "sources": [
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Welfare was racially selective and productivity-oriented; private economic hierarchy remained.",
+      "counterEvidence": "Provision for approved Germans and expropriation of victims must not be mistaken for universal redistribution.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Substantial universal income equalisation inconsistent with retained hierarchy.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equality alone cannot override productive or racial priorities.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Support for approved families balances fiscal-military demands.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Basic national maintenance preferred to broad income equalisation.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Revenue demands coexist with preserved industrial elites.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Rewarding productive insiders compatible with unequal incomes.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inheritance institutions balanced against selective confiscation, not universal transfers.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Compulsory productive participation argues against indefinite able-bodied support.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Accumulated private wealth generally retained unless targeted or strategically needed.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military allocation constrains civilian cash provision.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Racial community participation valued, but exclusion defeats universal entitlement.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "War priorities could demand taxation rather than simple cuts.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support for approved workers compatible with national economic incorporation.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neither uniform marginal rates nor general egalitarian taxation is foundational.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Colonial confiscation contradicts compensated egalitarian land redistribution.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selective need and racial qualification constrain benefit coverage.",
+          "sources": [
+            "plan",
+            "racial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Religious institutions were accommodated and controlled, while political law derived from racial-state authority.",
+      "counterEvidence": "Concordat protected confessional institutions on paper; breaches and party interference prevent labelling the regime either a theocracy or religious neutrality.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Political law rested on race and Führer authority rather than doctrine.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Church teaching did not bind Nazi legislation.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Churches were removed as independent political constraints.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "No single church became sovereign constitutional foundation.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Confessional concessions balanced by ideological school control.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Concordat recognised Catholic instruction as a regular school subject, with Church influence over its content. Subsequent Nazi ideological interference limits how strongly this accommodation establishes support for religious instruction.",
+          "sources": [
+            "concordat"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State law overrode independent religious rulings.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent clerical review incompatible with Führer supremacy.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious ceremony tolerated alongside political cult rituals.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Church support existed but subordinated to ideological goals.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Symbols tolerated selectively rather than consistently endorsed or removed.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Established Christian holidays largely retained institutionally.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clergy excluded from independent party-political authority.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concordat concessions included institutional fiscal privileges.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State-controlled civil status outweighed religious consent.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Church decisions could not supersede national racial family law.",
+          "sources": [
+            "concordat",
+            "rule"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Gender hierarchy and racial reproduction combined with radical reconstruction of political and cultural life.",
+      "counterEvidence": "Not simple conservatism: Nazi institutions displaced churches, family authority and inherited law where they conflicted with regime aims.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Social changes permitted for racial-state goals, not free value change.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Approved traditions favoured, but subject to revolutionary racial ideology.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal alternative-family status conflicts with prescribed reproduction.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Women’s maternal and men’s martial roles were differentiated.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Same-sex marriage contradicts persecution of sexual minorities.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reproductive family privileged for approved populations.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Elective abortion for approved women conflicts with pronatal goals.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Party education could override parental sexual or religious objections.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Same-sex parenting conflicts with persecutory sexual doctrine.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regulated gender presentation supports conventional public modesty.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Individual identity recognition conflicts with imposed classifications.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Transmission of approved racial morality prioritised.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cross-sex social roles contradict biologised hierarchy.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Radical institutional destruction outweighs gradualist conservatism.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Schooling promoted prescribed reproductive roles rather than plural identities.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selective ancestral traditions retained for racial-national legitimacy.",
+          "sources": [
+            "racial",
+            "concordat",
+            "rule"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Rearmament and synthetic production favoured rapid technological deployment; biomedical policy was coercive and racially differentiated.",
+      "counterEvidence": "Experiments on persecuted prisoners cannot alone prove willingness to risk healthy favoured citizens; enhancement items therefore balance utility with racial-health protection.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Memorandum rejects technological delay despite unresolved processes. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Long precautionary trials conflict with urgent deployment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic infrastructure outweighs habitat loss. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Medical utility could outweigh long follow-up requirements. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Labour mobilisation would accept productivity technology and retraining. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Preservation cannot veto national productive needs. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Synthetic substitution extends plausibly to food self-sufficiency. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Enhancement utility conflicts with protecting favoured hereditary stock. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Technical production advances preferred to reducing national output. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Environmental uncertainty would not veto strategic construction. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Potential enhancement welcomed, but personal choice insufficient for state approval. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Utility favours deployment while failed diagnosis threatens valued population; conditional balance. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selective breeding and coercive racial-health policy make state-directed hereditary enhancement a plausible analogy. They do not establish his acceptance of this particular embryo-editing technique or its safety; agreement is consequently limited, not categorical.",
+          "sources": [
+            "racial",
+            "medical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Yield and self-sufficiency likely override blanket ecosystem-proof demand. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National infrastructure expansion outranks undeveloped land. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The memorandum prioritises urgent strategic gains despite incomplete technical assurance. By analogy, he would be unlikely to require strong evidence that irreversible harm is unlikely before proceeding, although risk to favoured populations qualifies this inference.",
+          "sources": [
+            "plan",
+            "medical",
+            "racial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Coordination of institutions and leader supremacy eliminated protected regional autonomy.",
+      "counterEvidence": "Competing party offices created administrative rivalry; rivalry was not constitutional decentralisation.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regional disagreement could not bind national leadership.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reich leadership determines jurisdiction.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Secession incompatible with expansionist national unity.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Regional obstruction would be overridden.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regional constitutions could not constrain coordination.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Security apparatus ultimately subordinate to national leadership.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Revenue serves Reich mobilisation rather than territorial entitlement.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Uniform ideological schooling supports central curriculum.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent tax competition would obstruct national planning.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Labour rules subject to national direction.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Local popular consent cannot redefine Nazi authority.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National racial-health priorities govern treatment provision.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Distinct territorial self-government conflicts with occupation hierarchy.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Central allocation implies limits on territorial fiscal rivalry.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Land use subordinate to Reich productive and settlement plans.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National command supersedes regional emergency preferences.",
+          "sources": [
+            "rule",
+            "police",
+            "plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Nazi racial ideology attributed capacity, character and conduct to heredity; these are assessed beliefs, not valid biological claims.",
+      "counterEvidence": "Propaganda and training presumed environmental influence, but could not overcome ancestry-based racial membership.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Hereditary racial essence outweighs upbringing in Nazi explanation.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Racial hierarchy projects inherited national intellectual differences.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Biologised reproductive roles outweigh social expectations.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Hereditary constitution suggests biological stress differences, with moderate confidence.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Education could shape interests but inherited capacity constrained them.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inherited vitality and character suggest biological risk propensity.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Racial belonging limited what social training could achieve.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Essentialised racial character suggests inherited moral-emotional capacity.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Attention inferred from hereditary mental capacity doctrine, not explicit modern research.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Racial moral instincts privileged over common social formation.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Threat learning recognised but subordinated to racial struggle assumptions.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Temperament treated as part of inherited character.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Aesthetic ideals racialised despite propaganda’s cultural shaping.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Nazi persecution expressly naturalised supposed group criminality.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Hereditary deviance doctrine contradicts the statement’s anti-racial explanation.",
+          "sources": [
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Biological sex roles naturalised differentiated productive valuation.",
+          "sources": [
+            "racial"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Read all 240 item rationales against the exact bank and checked all 15 briefs, counter-evidence, direction and metadata. Rechecked the 1936 economic memorandum, racial-ideology history and 1933 Concordat. Retained the important distinction between private title and compulsory economic direction, and between racially restricted welfare and universal redistribution. Corrected the religious-school item to reflect actual Concordat instruction, qualified the sponsorship inference, and separated military alliances from accepting a binding common foreign policy. Reduced categorical extrapolation on autonomous weapons and embryo enhancement to limited agreement with explicit caveats. Assessed racial beliefs are described as Nazi doctrine, not factual explanations of human traits. Modern personal-liberty and technology items remain historical analogies. Neutral religious and ownership answers represent documented institutional mixtures. Portrait and full-catalogue similarity checks follow in integration. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers. Portrait integration review by OpenAI Codex on 2026-10-04: verified the Wikipedia infobox file, Commons creator and reuse status, and image size. The independent political evidence audit is retained; no political assessment changed.",
+    "similarity": []
+  }
+}

@@ -1,0 +1,2562 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "john-stuart-mill",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (thinker_assessments)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "John Stuart Mill",
+    "description": "British philosopher and parliamentarian who defended representative government, individual liberty and women’s equality.",
+    "category": "Political thinker",
+    "period": "1848–1873",
+    "scope": "Documented writings and public positions in 1848–1873. Modern scenarios are explicitly counterfactual inferences from those positions, not claims that the subject answered this quiz. Conditional answers retain competing principles. Assessment research accessed 4 October 2026.",
+    "role": "British philosopher and parliamentarian",
+    "lifespan": "1806–1873",
+    "image": {
+      "path": "profiles/images/john-stuart-mill-r1.jpg",
+      "alt": "Portrait of John Stuart Mill",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:John-stuart-mill-sized.jpg",
+      "creator": "Photogravure after John and Charles Watkins (or John Watkins), 1865",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "liberty",
+      "title": "On Liberty (1859)",
+      "url": "https://www.gutenberg.org/cache/epub/34901/pg34901-images.html",
+      "publisher": "Project Gutenberg",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "women",
+      "title": "The Subjection of Women (1869)",
+      "url": "https://www.gutenberg.org/cache/epub/27083/pg27083-images.html",
+      "publisher": "Project Gutenberg",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "political",
+      "title": "Mill’s Moral and Political Philosophy",
+      "url": "https://plato.stanford.edu/entries/mill-moral-political/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "date": "2022-08-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "context",
+      "title": "John Stuart Mill",
+      "url": "https://iep.utm.edu/milljs/",
+      "publisher": "Internet Encyclopedia of Philosophy",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "taxation",
+      "title": "Principles of Political Economy, Book V, Chapter II (1871 edition)",
+      "url": "https://en.wikisource.org/wiki/Principles_of_Political_Economy_(J.S._Mill,_1871),_vol._2/Book_V,_Chapter_II",
+      "publisher": "Wikisource primary-text transcription",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+      "counterEvidence": "Plural voting and literacy requirements directly limit his universal suffrage credentials. Colonial exclusions in his application of liberty cannot be erased by his general theory.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning repeated electoral consent rather than merely an original grant of authority. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning expert advice becoming the power to choose rulers. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Mill supported women’s suffrage and wider representation but required elementary education and proposed extra votes for educated citizens. The item’s unconditional regardless-of-education formulation is broader than his actual franchise principle.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning an executive overruling the legislature's explicit refusal. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning equal legal competition for organised opposition. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning public-money scrutiny as a constraint on officeholders. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning constitutional adjudication independent of the executive. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning organised labour replacing the whole electorate. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning government deciding which political competitors may stand. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning direct popular repeal rather than deliberation by representatives. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes. His framework permits more than one constitutional device: consent and accountability favour the mechanism, while stability, judgement or limited jurisdiction constrain it.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning one ruler monopolising major policy choices. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning a defined institutional remedy for abuse of power. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning self-authorised suspension of electoral accountability. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning removal by voters between ordinary elections. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes. His framework permits more than one constitutional device: consent and accountability favour the mechanism, while stability, judgement or limited jurisdiction constrain it.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning rule without any electorate or representative accountability. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning armed officers claiming a unilateral political mandate. Representative government, accountable officials and political participation serve improvement; Mill nevertheless proposed educational qualifications and plural voting, not wholly equal unconditional votes.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+      "counterEvidence": "He excludes children and historically described some peoples as unready for liberty. His prohibition on selling oneself into slavery complicates irreversible voluntary implants.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning self-regarding bodily risk rather than injury to others. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning targeted investigation authorised by an independent court. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning temporary disruption balanced against peaceful collective expression. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning allowing criticism of public institutions despite widespread offence. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning compulsion justified primarily by the adult's own wellbeing. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning years of tracking people without suspicion of wrongdoing. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning road-user safety checked without prior individual suspicion. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning court-tested prevention of a serious threat before an offence. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning adult access despite official moral disapproval. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning anonymous private communication rather than mandatory state identification. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning area-wide searches without individualised grounds. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning evidence of serious disorder rather than mere unpopularity. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning independent authorisation for intrusion into a private home. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning exposing official misconduct despite secrecy rules. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning individual self-defence with exclusion of violent applicants. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning executive detention without independent judicial supervision. The harm principle protects competent adults' self-regarding choices and expression. Coercion can prevent injury to others but cannot merely enforce their own welfare or majority offence.",
+          "sources": [
+            "liberty"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+      "counterEvidence": "His arguments about nationality sometimes favoured absorption of smaller cultures; plural personal life does not establish equal public funding for every language.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mill connected representative government with common sympathies and public communication, sometimes endorsing assimilation of smaller nationalities. This gives a qualified shared-culture preference, limited by On Liberty’s protection of harmless personal diversity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning public costs of accommodating different practices. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning an expectation to adopt customs beyond obeying common laws. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning retaining a foreign identity while belonging politically. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning a common administrative language versus multilingual provision. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning public acknowledgement of a small Indigenous community. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning selective funding for the predominant tradition. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning a categorical priority for separate identities over shared belonging. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning one public calendar rather than practical accommodation. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning recognising multiple traditions within the nation. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning participation in common civic life rather than social separation. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning translation of local public signage. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning family emphasis on national rather than community identity. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning a religious-cultural exception to an otherwise general clothing rule. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity. Common civic cooperation and space for inherited or voluntarily chosen identities both apply; a categorical hierarchy between them is not warranted.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning a national identity containing different ways of life. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning integration through adopting customs rather than retaining difference. Individual diversity is valuable, yet representative institutions need shared public sympathies and communication. His nationalism is more assimilative than his defence of personal eccentricity.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+      "counterEvidence": "He did not formulate a contemporary visa code. Economic freedom and national cohesion pull differently on strict caps, skills selection and cultural preferences.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning a strict annual cap tied to accommodation and labour needs. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning settlement to improve one's life without a narrow special qualification. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning skills as the normal exclusive gateway to permanent residence. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning reuniting settled migrants with dependants. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning permanent refuge independent of skills and cultural resemblance. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning regularisation rather than removal after unauthorised entry. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning limits despite employers' demand for workers. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning reducing arrivals despite economic benefits when services are strained. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning family reunion competing inside the same quota. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning a job offer as a generally sufficient basis for work migration. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning compulsory private sponsorship for permanent settlement. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning graduation alone being insufficient for a permanent-residence route. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning protection from persecution after ordinary quotas are exhausted. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning cultural resemblance as an admissions preference. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning benefits and social housing for noncitizens. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning cultural difference itself as a reason to increase immigration. Freedom of movement and improvement favour opportunity, while duties to dependants and the conditions for successful political association qualify unconditional admissions. Freedom, refuge or family interests weigh toward entry, while membership, provision and institutional responsibility weigh toward conditions.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+      "counterEvidence": "He rejected an unconditional ban on force and supported some liberation struggles. This warrants conditional, not automatic pacifist, responses.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning force for interests in the absence of an attack. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development. Peace and preservation favour restraint, while credible defence and enforcement can justify force; the statement leaves that necessary condition unresolved.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning slower diplomacy before military solutions. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning expensive superiority rather than merely adequate defence. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning pre-emption supported by strong evidence of an imminent attack. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning limiting force exclusively to responses after attack. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development. Peace and preservation favour restraint, while credible defence and enforcement can justify force; the statement leaves that necessary condition unresolved.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning compulsory male military training rather than voluntary service. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning costly diplomatic concessions to avoid war. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development. Peace and preservation favour restraint, while credible defence and enforcement can justify force; the statement leaves that necessary condition unresolved.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning delegating each lethal targeting decision to an automated system. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning territorial defence rather than routine expeditionary campaigns. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning abstention even when an ally is attacked. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning the capability for prolonged combat abroad. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning leaving a territorial claim unresolved rather than initiating war. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning military threats as bargaining instruments. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning avoiding escalation when resolve and peace conflict. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development. Peace and preservation favour restraint, while credible defence and enforcement can justify force; the statement leaves that necessary condition unresolved.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning espionage despite diplomatic risk. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning reciprocal capability reductions through negotiation. Mill defended national liberation and resisted aggression while generally opposing intervention that substitutes foreign force for a people's own political development.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+      "counterEvidence": "His colonial employment and paternalist exceptions differ from a universal equal federation; modern institutional questions are principled extrapolations.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning final domestic legislative jurisdiction. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning binding international decisions opposed by the government. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning national courts prevailing over international rulings. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning durable alliances that constrain unilateral discretion. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning withdrawal without an external institution's permission. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning international adjudication of officials' conduct. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning national advantage overriding agreed international goals. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning shared binding authority for cross-border environmental harm. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning avoiding every bloc with a common foreign policy. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning international rights standards requiring domestic legal reform. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning national monetary autonomy rather than a common currency authority. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning joint budgets and decisions for shared problems. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning exclusive national control of admission. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning negotiated common trade rules. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning national policy independence instead of political federation. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy. Cooperation is legitimate where it serves shared obligations, but the community retains claims to consent and limited jurisdiction.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning collective enforcement even at an immediate national cost. Free peoples may federate and cooperate under consent; national self-government remains important. International cooperation is distinguished from imperial tutelage and automatic supranational supremacy.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+      "counterEvidence": "Cooperatives and monopoly exceptions prevent coding every business as private or every subsidy as ownership. A national broadcaster is a particularly indirect analogy.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning private ownership as the normal arrangement. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning public title to essential utility networks. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning a private-ownership preference with performance held equal. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning state enterprise in otherwise competitive industries. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning private title to publicly financed healthcare facilities. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning public ownership of rail infrastructure. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning contracting when comparable provision costs less. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning public banks coexisting with private banking. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning selling public commercial enterprises. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning a substantial public rental-housing stock. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning private strategic firms where regulation suffices. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning public ownership of resource extraction. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning private provision of routine municipal services. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning retaining strategic ownership despite sale proceeds. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning selling persistently subsidised public businesses. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning a government-owned broadcaster. He favoured competition but accepted public provision, cooperative ownership and exceptions for monopolies and public needs. Private title is an instrument of welfare, not absolute doctrine. Public responsibility can justify ownership, while private or autonomous operation can also satisfy it; with these institutional conditions the theory allows both.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+      "counterEvidence": "Temporary infant-industry support conflicts with blanket free-trade slogans but not his overall trade preference; retaliatory tariffs are not inferred merely from reciprocity.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning tariffs shielding domestic firms. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning removing barriers despite losses for some producers. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning more expensive domestic procurement preferences. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning buying inputs wherever terms are best. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning restricting cheap essentials to preserve capacity. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive. Exchange has benefits, but strategic dependence or the institutional conditions of development can justify limits; neither blanket rule follows.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning unilateral liberalisation without reciprocity. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mill’s infant-industry exception permits temporary protection where learning can make a developing industry competitive. Its temporary developmental rationale supports this item without endorsing indefinite protection of established producers.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning equal establishment rights for foreign investors. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning agricultural protection for domestic capacity. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive. Exchange has benefits, but strategic dependence or the institutional conditions of development can justify limits; neither blanket rule follows.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning adjustment rather than protection for domestic firms. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning retaliatory tariffs after foreign restrictions. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning nondiscriminatory taxes on foreign products. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning countering subsidised imports with restrictions. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive. Exchange has benefits, but strategic dependence or the institutional conditions of development can justify limits; neither blanket rule follows.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning tariff removal despite greater supply dependence. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning blocking foreign control of strategic enterprises. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive. Exchange has benefits, but strategic dependence or the institutional conditions of development can justify limits; neither blanket rule follows.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning cross-border digital purchases without special barriers. Free exchange is normally beneficial, but his infant-industry exception permits limited temporary protection where learning can make a sector competitive.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+      "counterEvidence": "Opposition to paternalism does not prohibit regulation that prevents harm to others. Legal wage floors are assessed conditionally rather than assumed from modern liberal labels.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning firms choosing output independently. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning compulsory output targets in key industries. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning supply-and-demand pricing. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning investment steered by a national sectoral plan. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions. Public objectives can justify intervention, but decentralised information and ordinary decision-making also matter; the exact institutional balance is conditional.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning entry and exit responding to consumer demand. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning mandatory prices for essentials. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning entry without an official test of production need. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning directed bank credit for national priorities. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning unrestricted outward capital transfers. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning subsidies steering investment away from market selections. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions. Public objectives can justify intervention, but decentralised information and ordinary decision-making also matter; the exact institutional balance is conditional.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning competing privately issued currencies. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions. Public objectives can justify intervention, but decentralised information and ordinary decision-making also matter; the exact institutional balance is conditional.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning a statutory wage floor. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions. Public objectives can justify intervention, but decentralised information and ordinary decision-making also matter; the exact institutional balance is conditional.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning negotiated wages rather than official schedules. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning monetary policy subordinated to a national plan. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning market rents rather than rent ceilings. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning ordinary national production and distribution coordinated by government. Market coordination generally works better than detailed state command; education, public goods, monopolies and collective-action failures justify exceptions.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+      "counterEvidence": "He resisted graduated taxation of earned income while supporting inheritance limits; the resulting redistribution pattern is intentionally mixed. Average tax shares and marginal rates are distinct: a subsistence exemption makes a proportional tax progressive in average burden.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning substantial reduction of disposable-income gaps. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning inequality alone being insufficient grounds for extra taxation. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning a stronger cash floor financed by taxes. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning only a basic safety net rather than narrower living-standard gaps. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance. Adequate provision is justified, while independence, incentives or legitimate property constrain the extent and mechanism of redistribution.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The question concerns the share of total income paid, not marginal rates alone. Mill exempts subsistence income, which makes average burdens progressive, but opposes escalating rates on higher earned income. The exact strength of the higher average share is therefore conditional; inheritance taxes are a separate issue and do not justify the answer.",
+          "sources": [
+            "taxation"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning keeping more earnings despite wider household gaps. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance. Adequate provision is justified, while independence, incentives or legitimate property constrain the extent and mechanism of redistribution.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning inheritance taxation financing support. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning benefit expiry despite continuing low income for an able adult. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning wealth taxes funding transfers. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning modest benefits to reduce others' tax burdens. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning support sufficient for ordinary social participation. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning tax cuts preferred to additional cash support. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance. Adequate provision is justified, while independence, incentives or legitimate property constrain the extent and mechanism of redistribution.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning cash supplements for low-paid employment. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mill supports an untaxed subsistence allowance and a common proportional rate above it, while opposing graduated rates on larger earned incomes. Equal marginal rates therefore receive qualified agreement; this does not deny his separate argument for inheritance taxation.",
+          "sources": [
+            "taxation"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning compensated redistribution of large landholdings. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning benefits limited to inability to meet basic needs. Inherited advantage can be limited and minimum provision defended while incentives and individual independence matter. Mill distinguishes taxes on earned income from restrictions on inheritance.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+      "counterEvidence": "Social value of religion does not entail religious courts or establishment; ceremonial traditions remain less clear than legal jurisdiction.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning public justification without a particular creed. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning religious teaching as an official source of law. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning policy without clerical approval. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning constitutional establishment of a religion. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning teaching about faiths without conversion. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning schools cultivating the official faith. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning civilly enacted law rather than clerical rulings. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning clerical participation in formal legislative review. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning state ceremonies without organised worship. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning public funding to promote belief itself. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning removing state endorsement through religious symbols. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning holidays explicitly recognising the dominant faith. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy. Civil independence and private conscience oppose compulsion, while noncoercive historical or civic uses of religion can remain permissible.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning no automatic legislative seats for religious officeholders. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning special tax privileges beyond ordinary charity relief. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning civil marriage without religious permission. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning binding religious jurisdiction over family matters. Freedom of conscience and argument limit established religious authority. Religion may have personal and social utility without conferring coercive jurisdiction on clergy.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+      "counterEvidence": "He did not advocate the bank's exact contemporary LGBT policies. These answers extrapolate equal standing and freedom from custom, with pregnancy and child welfare receiving qualified answers. Chapter II of The Subjection of Women nevertheless commends a male-earner/female-household arrangement in an equal marriage; social encouragement is distinguished from legal compulsion.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning substantial revision of customs as values change. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning tradition taking priority over new values. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning equal recognition of nontraditional families. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Subjection of Women rejects compulsory sex roles and unequal rights, but chapter II still commends a male-earner/female-household division as generally suitable in an equal marriage. Since this item asks about social encouragement rather than legal compulsion, those two commitments make the assessment mixed.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning marriage regardless of partners' sex. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Chapter II of The Subjection of Women treats an equal marriage with parental responsibilities as a desirable household arrangement. That supports a qualified preference for this family form while his arguments for equality and freedom rule out making alternatives legally subordinate.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning social acceptance of early abortion. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant. Freedom to depart from convention does not settle social endorsement or responsibilities to dependants; those commitments pull in different directions.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning parental veto of conflicting sexual-value lessons. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning equal acceptance of same-sex adoptive parents. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning traditional modesty as a public dress norm. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning language adapting to personal identities. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning transmitting old moral customs before encouraging new ones. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning equal acceptance of crossing traditional sex roles. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning gradual reform even when faster change is popular. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant. Freedom to depart from convention does not settle social endorsement or responsibilities to dependants; those commitments pull in different directions.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning teaching diverse orientations and identities against family expectations. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning preserving ancestral customs without a clear surviving function. Experiments in living and women's equality challenge imposed customs. Social coercion can be as harmful as law, though harm to children and dependants remains relevant.",
+          "sources": [
+            "liberty",
+            "women"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections.",
+      "counterEvidence": "Mill also valued uncultivated nature and questioned endless material expansion. Infrastructure, climate priorities and risky enhancement cannot all be coded as unconstrained acceleration.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning wide adoption on early benefit evidence despite uncertain long-term risks. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning small trials until substantial long-term-risk evidence. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. Potential improvement supports a controlled route forward, while consent, future agency and irreversible external harm support a higher safety threshold. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning major public infrastructure with irreversible habitat loss. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. Potential improvement supports a controlled route forward, while consent, future agency and irreversible external harm support a higher safety threshold. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning long-term medical safety study before broad access. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. Potential improvement supports a controlled route forward, while consent, future agency and irreversible external harm support a higher safety threshold. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning productivity-enhancing AI despite displacement and retraining. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning habitat preservation overriding substantial development benefits. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning cultivated meat before environmental effects are fully known. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His presumption for competent adults’ experiments supports access after proportionate evidence, while his objection to surrendering future freedom supports precaution for irreversible changes to agency. A blanket research-only rule therefore receives a conditional response; this is a modern extrapolation.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His support for invention is qualified by valuing a stationary economy and uncultivated nature. It does not justify preferring unproven large-scale fixes over moderating consumption. This modern inference favours restraint in that comparison without rejecting useful climate technology.",
+          "sources": [
+            "political",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning construction delay while environmental effects are poorly understood. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "On Liberty favours a competent adult’s self-regarding experiment after basic safeguards. The qualification is that an implant must not destroy future agency or impose substantial harm on others; Mill’s rejection of voluntary self-enslavement prevents an unqualified endorsement.",
+          "sources": [
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning supervised diagnostic AI until reliability across groups is strong. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning controlled embryo enhancement trials beyond disease prevention. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. Potential improvement supports a controlled route forward, while consent, future agency and irreversible external harm support a higher safety threshold. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning long-term ecosystem evidence before wide GM cultivation. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning housing and transport taking priority over undeveloped land. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. Potential improvement supports a controlled route forward, while consent, future agency and irreversible external harm support a higher safety threshold. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning delaying potentially irreversible harm until safety evidence is strong. Experimentation and individual development favour voluntary innovation. Harm to others, dependent children, lost future autonomy and natural beauty can justify caution even without traditional objections. This is an explicitly counterfactual technology assessment, not a documented response to this device.",
+          "sources": [
+            "liberty",
+            "political"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+      "counterEvidence": "Central expertise and national rights can override purely local prejudice; local education is not immunity from all national standards.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning constitutionally protected regional disagreement. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning national government as final judge of its own jurisdiction. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning secession on a regional majority alone. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning overriding a locally popular obstacle to a national programme. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning regional constitutions within common rights. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning one national police command. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning local retention of most tax receipts. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning nationally compulsory school subjects. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning regional tax-rate variation. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning uniform national employment law. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning local voters changing council powers without national consent. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning uniform national public-treatment coverage. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning Indigenous self-government for local affairs. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning national restraints on tax competition. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence. Local participation and competence support discretion, but an integrated constitution and common obligations can justify central coordination.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning regional land and wildlife management with only local effects. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning national command of a multi-region disaster response. Local participation educates citizens and supplies knowledge, while central expertise can coordinate and enforce common standards; neither level has unlimited competence.",
+          "sources": [
+            "political",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity.",
+      "counterEvidence": "He did not deny all bodily or temperamental variation. Stronger cultural answers concern cultivated interests, sex roles and learned moral habits rather than a modern genetic estimate.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning upbringing outweighing inherited tendencies in general behaviour. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning inherited national differences outweighing education in IQ scores. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Subjection of Women argues that existing female character was produced under restrictive upbringing and dependence, so observed behaviour cannot establish a natural destiny. That argument strongly favours social expectations on this comparison.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning biology outweighing experience in stress sensitivity. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning experience shaping interests more than inheritance. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning inherited propensity outweighing learned risk-taking. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning social experience as the main basis of cooperation. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning inheritance outweighing experience in empathy. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning surroundings outweighing inherited attention differences. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified disagreement with the proposition concerning biological predisposition outweighing learnt moral reactions. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning learnt experience outweighing inheritance in perceived threats. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional assessment with the proposition concerning biological predisposition outweighing experience in temperament. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. The underlying account includes both natural capacities and acquired habits or institutional conditions; it does not justify treating either as uniformly predominant in this trait. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified agreement with the proposition concerning culture outweighing inheritance in attractiveness preferences. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning biological race differences as the principal explanation of violent crime. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strong agreement with the proposition concerning learnt self-control rather than inherited racial character. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong disagreement with the proposition concerning the pay gap explained by economic value instead of social expectations. Association, education and social arrangements strongly shape character and observed sex differences. Natural faculties vary, but existing inequality does not establish innate incapacity. This is a low-confidence causal analogy; the claim is about explanatory emphasis, not a scientific estimate or a consequence of equal moral worth.",
+          "sources": [
+            "women",
+            "liberty"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/current_assessments",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent evidence audit by a different agent from the assessment author. Checked every answer against all 240 exact bank questions, agreement directions, stated period and retained source context, with targeted rereads of primary texts. Repaired systematic rationale reversals in universal voting, offensive criticism and graduation-alone residence; removed repeated generic closing boilerplate. Corrected social encouragement versus legal compulsion in sex roles using Subjection of Women chapter II; added primary taxation chapter and distinguished average shares from marginal rates; qualified unproven climate technology. Numeric changes: high-redistribution-low-redistribution-14: 0 -> 1; progressive-traditionalist-04: -2 -> 0; progressive-traditionalist-06: 0 -> 1; innovation-caution-09: 0 -> -1. Limitations: contemporary visas, clinical AI, brain implants, embryo enhancement and trait-level causal comparisons remain explicitly counterfactual educated inferences, not reported opinions. Neutral answers were reviewed as competing principles or permissible institutional arrangements; sparse Culture/Nature evidence remains low-confidence and is not a scientific claim. No scores or similarity thresholds were targeted. Validation and batch-neighbour review are separate from source accuracy; parent retains archive and publication responsibility. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}

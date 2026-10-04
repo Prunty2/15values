@@ -1,0 +1,2696 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "bernie-sanders",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (thinker_assessments, contemporary follow-up)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Bernie Sanders",
+    "description": "US senator advocating democratic socialism, universal services and substantial redistribution, with current 2026 proposals for public AI ownership and strong limits on advanced AI development.",
+    "category": "Political leader",
+    "period": "2007–4 October 2026; current proposals weighted most heavily",
+    "scope": "Personal positions and governing conduct during 2007–4 October 2026; current proposals weighted most heavily. Coalition measures are attributed cautiously. Modern hypothetical policies are labelled inferred, not claimed as direct statements. Research cutoff 4 October 2026; later views do not overwrite a former governing period.",
+    "role": "United States senator from Vermont",
+    "lifespan": "Born 1941",
+    "image": {
+      "path": "profiles/images/bernie-sanders-r1.jpg",
+      "alt": "Bernie Sanders portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bernie_Sanders.jpg",
+      "creator": "United States Congress",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+    }
+  },
+  "sources": [
+    {
+      "id": "sanders-issues",
+      "title": "Issues: economy, education, environment and public services",
+      "url": "https://www.sanders.senate.gov/issues/",
+      "publisher": "Office of Senator Bernie Sanders",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-ai",
+      "title": "Sanders and Casar propose superintelligence ban and advanced-AI pause",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-casar-introduce-legislation-to-create-new-federal-agency-to-ban-artificial-superintelligence-pause-advanced-ai-development/",
+      "publisher": "Office of Senator Bernie Sanders",
+      "date": "2026-09-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-fund",
+      "title": "American AI Sovereign Wealth Fund proposal",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-introduces-legislation-to-create-7-trillion-ai-sovereign-wealth-fund/",
+      "publisher": "Office of Senator Bernie Sanders",
+      "date": "2026-06-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-ice",
+      "title": "Statement: ICE is out of control",
+      "url": "https://www.sanders.senate.gov/press-releases/news-sanders-statement-ice-is-out-of-control/",
+      "publisher": "Office of Senator Bernie Sanders",
+      "date": "2026-01-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-tax",
+      "title": "Sanders campaigns for California billionaire tax",
+      "url": "https://calmatters.org/politics/2026/02/sanders-billionaire-tax-rally/",
+      "publisher": "CalMatters",
+      "date": "2026-02-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-ai-report",
+      "title": "AI superintelligence ban proposed by Casar and Sanders",
+      "url": "https://rollcall.com/2026/09/23/ai-superintelligence-ban-proposed-by-casar-sanders/",
+      "publisher": "Roll Call",
+      "date": "2026-09-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sanders-migration",
+      "title": "Sanders immigration plan calls for agency reorganisation",
+      "url": "https://www.axios.com/2019/11/07/bernie-sanders-immigration-plan-ice-cbp",
+      "publisher": "Axios",
+      "date": "2019-11-07",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Mass electoral participation and constitutional oversight are central to his opposition to concentrated private and executive power.",
+      "counterEvidence": "Expert safety advice does not amount to replacing voters with scientists; his AI proposal uses legislated and confirmed institutions.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Electoral mobilisation and universal political participation are central to his anti-oligarchy programme.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Scientific advisers inform democratically authorised agencies, not expert-appointed government replacing voters.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equal voting citizenship is inconsistent with intelligence or education qualifications.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His criticism of executive abuses insists Congress and constitutional constraints remain effective.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His own independent electoral career depends on meaningful competition beyond a governing party.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Effective scrutiny is necessary to prevent concentrated executive and billionaire power.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Judicial enforcement of constitutional rights is an important constraint on executive coercion.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Worker representation matters, but his democratic socialism does not replace equal elections with union appointment.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Lawful political disagreement should not itself remove opposition participation rights.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His support for California's wealth-tax ballot initiative gives direct voting a legitimate policymaking role.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His proposed AI agency requires legislation and Senate-confirmed officials rather than personal presidential command.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His constitutional-accountability stance supports lawful removal for substantiated abuse.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government cannot evade electoral accountability by unilaterally postponing elections.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Grassroots accountability supports recall mechanisms with fair procedures and protection against manipulated votes.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His anti-oligarchy campaign explicitly rejects power beyond democratic control.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Criticism of militarised domestic enforcement reinforces civilian electoral authority over armed power.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-fund"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Civil liberties and due process coexist with proportionate public-health and safety regulation.",
+      "counterEvidence": "Background checks and gun restrictions qualify personal liberty; opposition to ICE abuses does not mean eliminating all lawful enforcement.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His criminal-justice and marijuana reform orientation supports personal autonomy, with safeguards where harm extends to others.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Targeted serious-crime investigation can be legitimate when independently authorised rather than based on identity.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Peaceful disruptive protest deserves protection when essential emergency access remains open.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His democratic opposition relies on protecting criticism even when authorities find it offensive.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public health can justify regulation, while reproductive and bodily autonomy limit coercion over exclusively private choices.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His privacy critique of concentrated technological power weighs strongly against universal long-term tracking.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Preventing impaired drivers harming others is consistent with proportionate safety regulation.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Judicial process helps, but preventative restrictions still require strong necessity and protection against punishment without an offence.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Offence alone is insufficient to suppress expression under his civil-liberties approach.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Anonymous dissent protects vulnerable organisers, while specific unlawful conduct can still be investigated.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His opposition to discriminatory warrantless stops supports a high threshold for suspicionless area searches.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Concrete danger can justify restrictions, but broad predictions of disorder must not neutralise political assembly.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His January 2026 demand to end warrantless arrests supports strong independent legal safeguards.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Democratic oversight favours protecting good-faith exposure of serious misconduct, subject to narrow genuine security exceptions.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Legitimate gun ownership can coexist with his background-check and weapons restrictions; personal defence does not override safety regulation.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional rights and his criticism of detention abuse require independent review rather than executive-only confinement.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues",
+            "sanders-fund"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Multicultural inclusion and equal public access coexist with common civic solidarity.",
+      "counterEvidence": "His universal social programme requires shared institutions rather than complete communal separation.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His inclusive citizenship rejects automatic priority for the dominant culture whenever traditions differ.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equal access supports reasonable adaptation of services to linguistic and cultural minorities.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Civic participation matters, but cultural conformity is not a general condition of equal citizenship.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Immigrants can retain community identity while participating fully in national life.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Shared-language access is useful, while multilingual provision protects people otherwise excluded from services.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Tribal rights and equal recognition support substantial Indigenous acknowledgment.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public cultural support should not systematically privilege the largest community over minorities.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Distinct identities merit protection alongside the shared solidarity necessary for his universal social programme.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A common calendar can be practical without excluding alternative observance.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Multicultural inclusion recognises multiple traditions as parts of national life.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common civic participation promotes solidarity without requiring cultural erasure.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His equal-access and multilingual-inclusion approach supports additional community languages on public signs. The inference concerns public accessibility, not just freedom for businesses to display private signs.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government should not require families to prefer a dominant identity over harmless inherited traditions.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious accommodation is appropriate when concrete safety and identification needs can still be met.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His equal-citizenship programme accepts plural cultural membership.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration means rights and participation rather than making cultural replacement the main objective.",
+          "sources": [
+            "sanders-ice",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Migrant rights, family unity and regularisation coexist with labour protections and administered admission.",
+      "counterEvidence": "Earlier criticism of guest-worker programmes concerns labour exploitation and should not automatically be coded as hostility to all immigrants.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Capacity planning matters, but migrant rights and humanitarian obligations constrain rigid admission ceilings.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His reform approach favours broader lawful opportunities while retaining an administered border.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family unity and humanitarian protection contradict restricting ordinary migration to skills alone.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family separation conflicts with his inclusive immigration programme.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection from persecution should not depend on cultural similarity or employer usefulness.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His regularisation orientation favours pathways for established undocumented residents, with individual lawful exceptions.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Employer demand is insufficient where guest-worker arrangements weaken labour rights, though this does not justify blanket exclusion.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public-service investment and inclusion are preferred to treating migrants principally as a burden.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family unity deserves protection rather than being automatically displaced by arbitrary numerical limits.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Work opportunities matter, but labour protections and legal eligibility prevent a job offer being universally sufficient.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Asylum and independent rights-based regularisation supply settlement routes without employer or family sponsorship. Family reunification is not an exception to the question because family sponsorship is already included.",
+          "sources": [
+            "sanders-migration",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Education merits accessible residence pathways without making every graduation an unconditional entitlement.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Humanitarian obligations can justify exceptions to ordinary programme targets.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural resemblance is inconsistent with equal protection for people escaping persecution.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His universal social-protection orientation includes lawful noncitizens and vulnerable migrants.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diversity enriches society, while admission should also consider rights, family and sustainable public provision.",
+          "sources": [
+            "sanders-ice",
+            "sanders-migration",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Diplomacy and reduced military dominance are preferred while limited defensive force remains legitimate.",
+      "counterEvidence": "Opposition to military excess is not absolute pacifism; defensive exceptions must be retained.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His anti-interventionism rejects routine military force simply to advance interests without an attack.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Negotiation and political solutions normally receive priority even when slower.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He opposes excessive military spending and global dominance at the expense of domestic needs.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Truly imminent attack may justify prevention, while speculative threat claims are insufficient.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defensive collective security is more consistent with his outlook than discretionary regime-change warfare.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His policy does not favour compulsory male military service as a normal civic requirement.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Substantial compromise can prevent destructive war, without automatically abandoning people facing aggression.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His AI safety and anti-militarisation positions strongly oppose delegating lethal judgment to autonomous systems for efficiency.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reducing expeditionary intervention fits his preference for defence over global military dominance.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He is not an absolute pacifist; defence of allies and civilians can justify force in exceptional cases.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Prolonged foreign military commitments require exceptional justification and face his strong presumption against intervention.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Negotiated settlement is preferable to war over unresolved territorial claims.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Routine coercive threats risk escalation and undermine his preference for diplomacy.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Preventing war generally outweighs symbolic displays of resolve, subject to actual defensive obligations.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Necessary intelligence can be legitimate, but intrusive operations and diplomatic destabilisation require strong limits.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Verified arms reductions fit his sustained preference for reducing militarism and nuclear danger.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Democratic international cooperation is accepted on rights, climate and AI safety without endorsing corporate-controlled trade constraints.",
+      "counterEvidence": "Trade opposition often concerns corporate rules, not rejection of every international agreement.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Democratic national control matters alongside international cooperation on shared problems.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Agreed international rules can legitimately constrain governments on climate, rights and catastrophic technology risks.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Constitutional rights remain protected, while international legal accountability also carries legitimate authority.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective defence can be valuable when bounded by democratic control rather than automatic intervention.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International cooperation rests on legitimate consent rather than permanent membership enforced externally.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Accountability for international crimes should extend to officials rather than depend solely on national discretion.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Climate and human-rights obligations can outweigh narrow immediate national advantage.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His climate and AI proposals support binding shared approaches to cross-border existential risks.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He favours cooperative diplomacy and agreements on shared risks but also democratic control over US foreign decisions. General engagement does not settle whether to join a bloc requiring a common foreign policy, so national discretion and negotiated commitments pull in different directions.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Rights agreements may legitimately require national changes through lawful democratic mechanisms.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His domestic economic programme retains US monetary institutions rather than proposing a common global currency.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Joint climate and social-development programmes can pool resources for shared needs.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Border administration is national, but refugee rights and negotiated cooperation constrain absolute unilateral discretion.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Common trade rules are useful only if they protect labour and environmental policy rather than corporate privileges.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Democratic international coordination is welcome, while wholesale federation requires institutions and consent beyond existing cooperation.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His support for shared climate and safety rules entails accepting some immediate costs for collective protection.",
+          "sources": [
+            "sanders-ai",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Public strategic ownership and universal services coexist with private small enterprise; the 2026 AI proposal seeks a major public stake.",
+      "counterEvidence": "Medicare for All is public insurance, not necessarily universal hospital nationalisation. The AI fund proposal is not enacted law.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Most small businesses can remain private, while his public-ownership agenda challenges concentrated strategic corporate power.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential energy and infrastructure services warrant strong public ownership and democratic control.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public accountability and equitable access can favour public ownership even when narrow measured performance appears equal.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public alternatives can correct concentrated private power; his programme goes beyond regulation alone in strategic markets.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Medicare for All socialises insurance but does not by itself require nationalising every hospital or clinician.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public rail infrastructure fits his investment and universal-access priorities.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Cheaper contracting does not automatically outweigh public accountability, workforce security and long-term service control.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public banking and development finance fit his alternative to concentrated private financial power.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Commercial profitability does not alone justify selling useful public assets.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public housing is a major instrument in his housing and climate programme.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His AI public-stake proposal seeks shared returns and democratic accountability beyond narrow security regulation. Conversely, ordinary regulated private firms remain legitimate in his programme. A national-security label alone does not settle ownership when security is already effectively protected.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public resources should generate shared public benefits, though extraction may also use regulated nonstate operators.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Routine privatisation risks weakened accountability and labour conditions even when headline costs appear lower.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic ownership should be retained where it secures democratic control rather than surrendered for a one-off receipt.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Losses can reflect social obligations and justify restructuring rather than automatic privatisation.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A publicly supported independent broadcaster fits his opposition to concentrated commercial media power.",
+          "sources": [
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Worker protection and strategic resilience qualify openness to trade and foreign investment.",
+      "counterEvidence": "Protection against exploitative trade is conditional; it does not establish support for indiscriminate tariffs on every consumer import.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His opposition to major trade deals supports protection where imports undermine labour or domestic productive capacity.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Liberalisation should not automatically proceed when it predictably destroys livelihoods without adequate safeguards.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public procurement can legitimately support domestic jobs despite some additional cost.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Affordable foreign inputs matter, while labour standards and domestic resilience can outweigh the cheapest source.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Essential domestic capacity can justify restrictions despite cheaper imports.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Unconditional unilateral liberalisation does not fit his worker-protection approach.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary support can develop strategic domestic industries and good employment.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Foreign investment can help, but equal treatment is conditional on labour standards and democratic control.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Agricultural livelihoods and food resilience can justify measured protection.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Adjustment assistance matters but need not replace protection where trade rules themselves are unfair.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Proportionate action may respond to unfair restrictions, while broad tariff escalation can harm workers.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal taxation is normally fair, with targeted remedies for demonstrable unfair practices.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Subsidy-driven competition can justify protective action when it harms domestic workers and productive capacity.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Trade agreements should not subordinate labour and resilience to tariff removal and dependence.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic foreign control can be blocked to protect democratic authority and public interests.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Digital services can cross borders, but privacy, labour and AI safety rules must remain enforceable.",
+          "sources": [
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Strong regulation, public investment and selective controls coexist with decentralised ordinary production.",
+      "counterEvidence": "AI development restrictions are sector-specific and do not establish compulsory production targets for all firms.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary private firms retain production choices within strong social and environmental rules.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic investment targets do not imply compulsory output quotas for most businesses.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Markets coordinate many prices, while essential affordability and concentrated power justify intervention.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Green investment and public infrastructure deliberately shift production toward social priorities.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Demand matters, but public-interest restrictions can prevent socially harmful expansion or abrupt destructive closure.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Prescription affordability and interest-rate caps support active price limits in essential or concentrated markets.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Ordinary small-business entry is welcome, while frontier AI and other dangerous sectors require prior public authorization.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public finance should direct investment toward social and environmental needs rather than only private returns.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Capital mobility can support investment, but tax avoidance, instability and strategic control justify constraints.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Climate transition and public-purpose production warrant selective investment and subsidies.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His criticism of speculative financial power supports restrictions on competing private currencies where they threaten stability or public oversight. This is qualified disagreement: the question permits competition, not necessarily unregulated issuance or replacement of official money.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Higher enforceable wage floors are central to his programme.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strong collective bargaining and wage floors coexist with negotiated wages rather than a universal official wage schedule.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Democratic economic goals should influence monetary priorities, without necessarily imposing a comprehensive binding output plan.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Housing affordability justifies stronger rent regulation than an unrestricted market default.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His programme substantially plans strategic sectors and investment while leaving much ordinary production decentralised.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ai",
+            "sanders-fund"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Substantial redistribution and universal social guarantees explicitly challenge extreme income and wealth concentration.",
+      "counterEvidence": "Universal programmes differ from equalising every person's income; ordinary earned rewards and private activity can remain.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reducing concentrated income and wealth disparities is an explicit central goal.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Extreme inequality itself has democratic and social costs that justify corrective taxation.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His anti-poverty programme favours stronger income security and progressive financing, including support for low-income workers and social-insurance beneficiaries. Universal healthcare and education reinforce the broader agenda but are not themselves minimum cash benefits.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His programme seeks to narrow material inequality rather than stopping at a bare survival floor.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Affluent households should contribute markedly larger income shares.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Economic rewards do not override the public claim to reduce extreme disparities.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Stronger estate taxation is consistent with limiting entrenched inherited economic power.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Structural barriers and insecure work make rigid benefit time limits an inadequate response to poverty.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His 2026 California campaign explicitly supports taxing billionaire wealth to fund public needs.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Low tax is not a sufficient reason to keep benefits inadequate.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Social guarantees should enable full participation and dignity rather than subsistence.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unmet public needs take priority over reducing taxes on those with substantial resources.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Income support for low-paid workers fits his effort to raise working-class living standards.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His progressive-tax proposals reject equal marginal rates across unequal income levels.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concentrated land ownership can warrant compensated redistribution where it expands access and democratic opportunity.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Broad low-income support and universal services should not be confined to households already unable to survive.",
+          "sources": [
+            "sanders-tax",
+            "sanders-fund",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Secular public authority and equal conscience protect both religious and nonreligious citizens.",
+      "counterEvidence": "Personal Jewish identity does not determine support for clerical institutions; answers concern public authority and equal treatment.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equal citizenship requires laws justified through public reasons rather than one religion's teachings.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious doctrine should not be a privileged official legislative source.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Elected civil institutions do not require clerical permission.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His pluralist rights programme rejects constitutional preference for one faith.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public religious literacy should inform rather than convert pupils.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A state-selected faith curriculum conflicts with religious equality and freedom of conscience.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil law and equal constitutional rights take precedence over religious rulings.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Faith leaders may advocate as citizens, but should not receive a privileged official legislative-review role.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public ceremonies should include nonbelievers equally rather than requiring organised worship.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public funding for useful services differs from funding persuasion into religious belief.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Government should not signal that one religious identity has superior civic standing.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Shared holidays can remain practical traditions, while official recognition privileging one religion raises equal-citizenship concerns.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Religious office alone should confer no government seat.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Special exemptions solely for religious activity are harder to justify than equal charitable treatment.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage should be available without religious approval.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal family-law protections should not be displaced by binding clerical decisions.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Broad social equality takes priority over maintaining exclusionary inherited conventions.",
+      "counterEvidence": "Civil-rights positions do not require rejecting every voluntarily retained cultural tradition.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Social customs may change substantially to secure equal dignity and inclusion.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Tradition alone does not outrank contemporary equal rights.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Diverse caring households deserve equal social recognition.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Fixed sex-role expectations conflict with equal participation.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His equality programme supports marriage regardless of sex.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Stable caring relationships matter more than privileging one legally married household structure.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reproductive autonomy supports acceptance of early abortion decisions.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Parents have a voice but not an unlimited veto over inclusive public education.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Same-sex couples should receive equal recognition as adoptive parents under child-welfare standards.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public dress should principally reflect personal choice rather than inherited modesty expectations.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Respect for identity supports changing language conventions when traditional usage excludes people.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inherited moral customs deserve consideration but not automatic priority over equal treatment.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Adults should receive equal acceptance when their roles depart from traditional sex expectations.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional delay should not indefinitely postpone rights simply because a tradition is longstanding.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inclusive education should acknowledge different orientations and identities despite conflicting family traditions.",
+          "sources": [
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Heritage can be meaningful voluntarily, while age alone does not require every custom's preservation.",
+          "sources": [
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "The September 2026 advanced-AI pause and superintelligence-ban proposal mark a strongly precautionary current technology position.",
+      "counterEvidence": "AI proposals do not prohibit every useful technology; climate and public-service innovation remain supported under safeguards.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His 2026 AI proposals reject allowing broad deployment merely because early benefits look promising.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Pausing advanced AI until robust rules and review exist supports staged use while substantial risk evidence is developed.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Green infrastructure is necessary, while lasting habitat loss demands alternatives and serious ecological evaluation.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Universal access must be paired with strong long-term medical safety evidence rather than premature commercial release.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His warnings about displacement and AI concentration reject treating productivity plus retraining alone as sufficient justification.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Habitat preservation deserves substantial priority, tempered by essential low-carbon infrastructure needs.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Climate benefits may justify research, but ecological uncertainty and concentrated corporate control warrant safeguards before major substitution.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His precautionary AI and health approach implies research-only access to healthy-person implants pending strong long-term evidence.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Energy efficiency and proven mitigation should not be subordinated to unproven large-scale technological promises.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Poorly understood environmental effects warrant delay before irreversible major construction.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal consent alone does not settle long-term invasive-device risks under his public-health approach.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Diagnostic AI should remain supervised until reliability is shown across patient groups.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Heritable enhancement risks and unequal access give strong reasons to restrict trials beyond disease prevention.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ecological protection supports demanding long-term ecosystem evidence before broad modified-crop deployment.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Affordable housing and transport are essential, while preservation can justify relocating or redesigning particular projects.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His superintelligence-ban proposal reflects a strong precautionary response to potentially irreversible catastrophic harm.",
+          "sources": [
+            "sanders-ai",
+            "sanders-ai-report",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "National social guarantees coexist with local democratic autonomy, tribal institutions and limits on central policing.",
+      "counterEvidence": "Supporting state resistance to unlawful federal action does not entail allowing regions to nullify national civil rights or universal benefits.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State and local institutions can protect rights against abusive federal action.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National social guarantees matter, while courts and protected state powers constrain unilateral jurisdictional claims.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local democratic choice matters, but unilateral secession also affects national rights and obligations beyond one region.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National rights and universal-service programmes can justify overriding obstructive regional rules.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regional constitutions and self-government are compatible with national rights guarantees.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His criticism of federal coercion and defence of state investigations weigh against a single centrally directed police system.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Equal nationwide services require redistribution across regions rather than most local receipts remaining locally.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Common educational rights and resources matter, while educators and communities should retain substantial curriculum judgment.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His support for California's wealth-tax initiative affirms room for distinct state tax policy.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National wage and workplace protections prevent regions competing through weaker worker rights.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Grassroots democratic control supports local institutional changes without routine national permission.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Medicare for All requires nationally guaranteed covered care regardless of location.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Tribal education and sovereignty deserve meaningful self-government rather than exclusive national administration.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National tax coordination can prevent harmful competition that undermines social financing.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Region-confined land issues warrant local decision-making within rights and environmental safeguards.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multi-region disasters require national resources and coordination, with meaningful local implementation knowledge.",
+          "sources": [
+            "sanders-ice",
+            "sanders-tax",
+            "sanders-issues"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Developmental opportunity and social structures receive substantial causal weight without asserting that all individual traits are wholly environmental.",
+      "counterEvidence": "Normative equality does not establish heritability. Stress, empathy, risk-taking and temperament retain mixed causal answers.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His early-childhood argument explicitly treats social provision and developmental surroundings as powerful formative influences.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His early-childhood and educational agenda emphasises resources and development in explaining achievement. That supports a modest inference against inherited national intelligence as the main account, rather than claiming equal-opportunity policy is scientific proof.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His equal-pay and opportunity approach gives substantial weight to learned expectations and social constraints.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Stress involves biological sensitivity as well as poverty and exposure; his health and social programmes address both.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Universal learning opportunities are intended to transform interests and life chances through experience.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inherited disposition may matter, while insecurity, education and incentives materially alter willingness to take risks.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His organising strategy assumes cooperation grows through shared institutions and collective experience.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Empathy can involve disposition and social learning; solidarity-building gives substantial weight to the latter without proving universal dominance.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Early-childhood and school investment assume surroundings meaningfully improve attention and learning capacity.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His emphasis on solidarity and social conditions makes learned moral frameworks more plausible than a predominantly biological account.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cross-community solidarity and opposition to racial profiling imply threat perceptions can be learned and revised.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Health policy recognises biological variation, while social support can alter development; temperament need not be determined chiefly by one source.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His criticism of concentrated media and social pressures makes culturally shaped attractiveness preferences a plausible moderate inference.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His racial-justice programme stresses poverty, unequal opportunity and institutions when explaining disparities. This supports a qualified social-causal inference without claiming policy establishes every statistical causal contribution.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His developmental programme treats self-regulation as cultivable through childhood conditions and learning. This supports a moderate causal inference, not an assertion that his programme proves biology irrelevant.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His equal-pay programme treats structural disadvantage and social expectations as consequential, rather than women's lower economic value.",
+          "sources": [
+            "sanders-issues",
+            "sanders-ice",
+            "sanders-fund"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/current_assessments",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent review of every exact question, including the September 2026 AI proposal and its explicit status as proposed legislation. Verified the primary AI release; its sector-specific ban is not economy-wide production planning. Corrected employer-or-family sponsorship, public signage, required common foreign policy versus ordinary cooperation, and competing private currency versus unregulated money. Repaired minimum-income evidence to distinguish cash security from healthcare and education. Moderated causal certainty where equality and social programmes do not establish scientific findings. Retained Medicare insurance versus hospital ownership and public stakes versus universal nationalisation. Hypothetical implants, genome editing and causal anthropology remain qualified extrapolations. No distribution tuning; batch similarity remains separate. Follow-up specificity check distinguished customary holidays from official religious recognition, and monetary or financial regulation from the exact private-currency and national-security ownership propositions where relevant. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}
