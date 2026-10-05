@@ -1,0 +1,2032 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "donald-trump",
+  "revision": 3,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex independent audit agent /root/current_audit",
+  "changeNote": "Independent source-bound reassessment of exact current questions. Unsupported inference and unsupported Neutral remain unresolved; partial draft cannot be published.",
+  "metadata": {
+    "name": "Donald Trump",
+    "description": "US president whose second administration combines immigration enforcement, tariffs, deregulation and an expanded use of executive authority.",
+    "category": "Political leader",
+    "period": "2025–2026-10-04",
+    "scope": "Current documented governing or campaigning position through 4 October 2026. Recent conduct is prioritised; earlier material is used only as a stated continuity-based inference. Party proposals are attributed as the leader’s endorsed programme, not implemented law. Every answer is an interpretive assessment, with lower confidence for biomedical hypotheticals and fine-grained psychological causation. No scores were targeted.",
+    "role": "President of the United States",
+    "lifespan": "Born 1946",
+    "image": {
+      "path": "profiles/images/donald-trump-r2.jpg",
+      "alt": "Donald Trump portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025).jpg",
+      "creator": "Daniel Torok / White House",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "agenda",
+      "title": "President Trump’s America First Priorities",
+      "url": "https://www.whitehouse.gov/briefings-statements/2025/01/president-trumps-america-first-priorities/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-01-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "courts",
+      "title": "With tariffs ruling, Supreme Court reasserts its power to check Trump",
+      "url": "https://www.investing.com/news/economy-news/with-tariffs-ruling-supreme-court-reasserts-its-power-to-check-trump-4517501",
+      "publisher": "Reuters",
+      "date": "2026-02-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "President Trump establishes the Religious Liberty Commission",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/05/fact-sheet-president-donald-j-trump-establishes-the-religious-liberty-commission/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-05-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-tariffs",
+      "title": "Reciprocal tariff executive order",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/04/regulating-imports-with-a-reciprocal-tariff-to-rectify-trade-practices-that-contribute-to-large-and-persistent-annual-united-states-goods-trade-deficits/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-04-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-investment",
+      "title": "America First Investment Policy",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/02/america-first-investment-policy/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-02-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-education",
+      "title": "Empowering parents states and communities in education",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/03/fact-sheet-president-donald-j-trump-empowers-parents-states-and-communities-to-improve-education-outcomes/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-03-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-guns",
+      "title": "Protecting Second Amendment rights",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-is-protecting-americans-second-amendment-rights/",
+      "publisher": "Executive Office of the President",
+      "date": "2025-02-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-intel",
+      "title": "Intel and Trump Administration reach equity agreement",
+      "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-and-trump-administration-reach-historic-agreement.html",
+      "publisher": "Intel Corporation",
+      "date": "2025-08-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-iran",
+      "title": "Operation Epic Fury statement",
+      "url": "https://www.whitehouse.gov/releases/2026/03/peace-through-strength-president-trump-launches-operation-epic-fury-to-crush-iranian-regime-end-nuclear-threat/",
+      "publisher": "Executive Office of the President",
+      "date": "2026-03-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "audit-iran-duration",
+      "title": "Hegseth announces new drone command in State of the Force speech",
+      "url": "https://apnews.com/article/67a20b026ee858895c7e5ff7fadbc029",
+      "publisher": "Associated Press",
+      "date": "2026-09-30",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Independent exact-proposition reassessment: 3 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: National leaders should need to win regular competitive elections to remain in office. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: National governments should be chosen by a panel of experts rather than by the general electorate. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Every adult citizen should have the right to vote, regardless of their education or intelligence. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The head of government should be able to enact national laws even when parliament votes against them. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Parties opposing the government should be allowed to campaign and stand in national elections under the same conditions as the incumbent government. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Opposition representatives should be able to investigate the government’s use of public money. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He attacks judicial restraints on presidential power, though the Supreme Court does exercise review; qualified disagreement reflects his resistance without claiming all review abolished.",
+          "sources": [
+            "courts"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: National governments should be chosen by trade union leaders rather than by the general electorate. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The governing leadership should have authority to exclude parties from national elections because of their political positions. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Voters should be able to repeal a law through a binding referendum. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His programme emphasises immediate unilateral executive measures and contests external checks; qualified agreement does not erase the legislature's formal lawmaking role.",
+          "sources": [
+            "agenda",
+            "courts"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Elected representatives should be able to remove the head of government for serious abuse of power through a defined constitutional process. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: A national leader should be able to postpone scheduled elections without independent approval when they consider political continuity necessary. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Voters should be able to remove an elected representative before their term ends through a defined recall vote. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He continues electoral and constitutional office yet challenges judicial constraints; that does not establish support for completely unaccountable government.",
+          "sources": [
+            "courts"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The armed forces should be able to replace a civilian government on their own judgement that it is unfit to govern. Need the subject's constitutional reform proposals, actual voting rules, and documented limits on executive authority; elections alone do not settle recall or binding repeal referendums.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Independent exact-proposition reassessment: 3 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Adults should be allowed to make personal choices such as drug use that risk personal wellbeing when they do not directly harm others. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Authorities should be allowed to monitor private communications when a court authorises the surveillance to investigate serious crime. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Peaceful public demonstrations should be allowed even when they temporarily obstruct roads or access to businesses, provided emergency access remains available. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His stated priorities reject federal censorship and interference with political rivals, supporting qualified criticism rights despite contested conduct.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The government should be able to require adults to follow health measures intended primarily to protect those adults themselves. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Police should be allowed to keep records of people’s movements for several years, even when those people are not suspected of an offence. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Police should be allowed to stop drivers at random and test them for intoxication, even without a reason to suspect impairment. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Authorities should be able to restrict a person’s movements before they commit an offence when a court finds a serious risk that they will harm others. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His anti-censorship commitment supports adult access in principle; the exact moral-content category is an inference, not a documented blanket abolition of restrictions.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People should be allowed to use online communication services without having to verify their identity with the government. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Police should be able to stop and search people without individual suspicion when there is a credible threat of serious violence in the area. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Authorities should be able to prohibit a public gathering when there is credible evidence that it is likely to lead to serious disorder. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Police should need a court warrant to search someone’s home without their consent, except when there is an immediate threat to someone’s safety. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People should be allowed to publish confidential government information that reveals official misconduct. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He orders protection of law-abiding citizens' constitutional right to possess firearms for self-defence.",
+          "sources": [
+            "audit-guns"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Authorities should be allowed to hold people suspected of terrorism without independent court review until they consider the threat resolved. Need precise surveillance, pre-emptive detention, protest, compulsory health, identity and firearm proposals; generic order or freedom rhetoric does not settle the safeguards in this item.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Independent exact-proposition reassessment: 0 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The government should prioritise the national culture over migrant cultures when they conflict. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public services should accommodate different cultural practices, even when doing so requires additional public spending. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People who settle permanently in a country should be expected to adopt its cultural customs. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Becoming part of the national community should not require giving up a foreign cultural identity. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public institutions should prioritise using the national language over providing services in several foreign languages. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: National ceremonies should acknowledge Indigenous peoples within the nation, even when they make up a very small share of the population. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Government cultural funding should primarily support my country’s predominant traditions. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Distinct cultural identities should take priority over a shared national culture when their expectations conflict. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public institutions should organise their schedules around one common cultural calendar rather than accommodate different communities’ celebrations. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The government should recognise several cultural traditions as part of my country’s national identity. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Integration programmes should encourage migrants to participate in the wider national community rather than live mainly within culturally separate communities. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public signage should be written in foreign languages to accommodate migrants within their communities. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Families should give greater emphasis to a shared national identity than to a distinct community identity. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Full body coverings, such as the burqa, should remain legal even when other full body coverings are prohibited. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country’s national identity should include several distinct cultural ways of life. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Government integration programmes should emphasise adopting shared national customs rather than maintaining distinct community customs. Need statements on the particular accommodation, language, recognition, calendar or face-covering rule; immigrant numbers and general tolerance cannot substitute for that cultural policy.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Independent exact-proposition reassessment: 7 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Permanent immigration should be subject to a strict annual numerical limit, based on housing availability and workforce deficits. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His border programme emphasises vetting and refugee suspension rather than a general entitlement to settle for improved living conditions.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Only applicants with skills considered important to my country should normally qualify for permanent residence. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Partners and dependent children of immigrants who are permanently settled in my country should generally be allowed to join them. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He suspends refugee resettlement and ends asylum access for illegal crossers, contradicting unconditional permanent settlement irrespective of compatibility.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His programme calls for deportation and rejects catch-and-release rather than allow unlawful entrants generally to remain.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His priority is tighter entry and removal irrespective of employer preferences; qualified agreement avoids claiming every skilled recruitment route is closed.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He explicitly justifies suspending refugee resettlement by strain on community resources, giving capacity limits priority.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Family immigration should count towards the same annual numerical limit as other permanent immigration. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People with a confirmed job offer should generally be allowed to move to my country for work. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Applicants for permanent settlement should need sponsorship from an employer or family member. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Graduating from one of my country’s universities should not, by itself, provide a route to permanent residence. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Ending asylum for illegal crossings and suspending resettlement oppose a broad humanitarian entry entitlement irrespective of ordinary limits.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The government should prioritise migrants from culturally similar countries. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should allow non-citizen migrants to receive welfare benefits or live in social housing. Need exact permanent-residence, sponsorship, family/reunification, welfare, humanitarian exemption and cap rules; a net-migration target does not automatically resolve every entry route.",
+          "sources": []
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His programme prioritises security screening and reduced entry rather than increased migration on grounds of cultural difference.",
+          "sources": [
+            "agenda"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Independent exact-proposition reassessment: 7 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He authorises an overseas military campaign to secure interests against a claimed future threat, beyond responding to a new direct attack.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Diplomatic measures should take priority over military action, even when they are slower to achieve my country’s aims. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should be willing to bear substantial financial costs to maintain military superiority over potential opponents. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His official justification asserts an imminent nuclear threat warranting preventive force; agreement is qualified because this records his position, not independent proof of the threat.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The preventive campaign opposes restricting all force to responses to an armed attack on the US or an ally.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should require male citizens to complete a period of military service to train a large, capable force and deter potential aggressors. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should accept substantial diplomatic concessions to prevent a war, even when doing so weakens its international position. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should develop AI-powered weapons that can select and attack targets without a human approving each attack if this would make military operations more efficient and improve national security. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He conducts an extensive foreign campaign against nuclear, missile, naval and proxy capabilities.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He authorises armed operations with partners instead of rejecting military action at all costs.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The March 2026 presidential statement authorises a substantial overseas military campaign against Iran. AP reports on September 30 that US forces are seven months into that war with no clear end in sight. Continued conduct of a campaign of that duration supports qualified willingness to sustain overseas combat, rather than inferring prolonged capacity merely from multiple initial objectives. AP duration evidence was read in its search-result excerpt; full-page retrieval failed.",
+          "sources": [
+            "audit-iran",
+            "audit-iran-duration"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should leave a territorial dispute unresolved rather than start a war to settle it. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should be willing to threaten military action to obtain concessions in serious international disputes. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He chooses overwhelming force after claiming diplomacy failed, prioritising demonstrable resolve in that conflict; qualified disagreement does not generalise every dispute.",
+          "sources": [
+            "audit-iran"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should use military espionage to gain an advantage over potential opponents, even when doing so risks worsening relations with them. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should accept reductions in its military capabilities as part of negotiated efforts to prevent war. Need the subject's doctrine or conduct addressing the stated trigger and constraint, especially male conscription, target selection without human approval and negotiated reductions.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Independent exact-proposition reassessment: 7 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He insists national tax policy should not be beholden to foreign organisations, endorsing national final authority.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His America First priorities reject foreign institutional control of domestic policy.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Courts in my country should have final authority when national law conflicts with an international court’s ruling. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should make long-term commitments to international alliances, even when those commitments limit its freedom to act independently. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His withdrawal from the Paris agreement asserts a unilateral national right to exit international commitments.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: International courts should have binding authority over disputes involving my government, including cases brought against its own officials. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "America First foreign and tax policy explicitly prioritise national goals over international institutional prescriptions.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Withdrawal from Paris weighs against transferring binding environmental decision-making authority internationally.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should remain outside international blocs that require members to adopt a common foreign policy. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: International human-rights institutions should be able to require changes to my country’s laws. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should keep control of its currency rather than transfer monetary policy to a shared international authority. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His programme resists international constraints in climate and tax policy; qualified disagreement allows cooperative projects without pooled overriding authority.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His border programme treats entry as national security controlled by US institutions.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should accept common trade rules negotiated with other countries rather than set all its trade rules independently. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should keep control of national policy rather than join an international political federation. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should join international efforts to enforce collectively agreed rules, even when staying neutral would better serve its immediate interests. Need specific sovereignty-transfer, court-jurisdiction, common-foreign-policy, monetary-union, border-authority and federation commitments; cooperation is not pooled binding authority.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Independent exact-proposition reassessment: 2 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He welcomes private investment and retains private control of Intel despite a passive government stake; qualified support avoids unrestricted private exclusivity.",
+          "sources": [
+            "audit-investment",
+            "audit-intel"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Essential utility networks in my country, such as water supply networks, should be publicly owned. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Private ownership should be preferred when public and private providers could offer comparable cost, quality, and access. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Independent peer review: A 9.9% passive stake does provide actual public equity, but does not demonstrate balance on ESTABLISHING a publicly owned competing business. Neutral cannot follow solely from minority equity.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Healthcare facilities in my country should generally be privately owned, even when treatment is publicly funded. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Passenger rail infrastructure in my country should be publicly owned. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Publicly funded services should be contracted to privately owned providers when they can offer comparable quality and access at lower cost. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should have publicly owned banks alongside private banks. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should sell publicly owned commercial businesses to private owners. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public bodies should own a substantial share of rental housing in my country. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic investment screening accompanies largely private enterprise and passive Intel equity; qualified support recognises an actual ownership exception.",
+          "sources": [
+            "audit-investment",
+            "audit-intel"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Businesses extracting natural resources in my country should generally be publicly owned. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public bodies should contract routine services, such as waste collection, to privately owned businesses rather than operate their own providers. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Independent peer review: Purchasing a strategic stake does not necessarily establish retaining it despite substantial sale receipts; warrants/security purpose make this qualified but inspect explicit disposal conditions.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: A publicly owned business that repeatedly needs financial support should be sold to private owners rather than kept in public ownership. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should own a national broadcaster rather than leave broadcasting entirely to private owners. Need explicit ownership or contracting preferences for the stated industry; public funding is distinct from owning facilities and regulation is distinct from nationalisation.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Independent exact-proposition reassessment: 11 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His reciprocal tariff order protects domestic manufacturing through import duties.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He imposes broad import barriers expressly to restore domestic manufacturing rather than accept its losses.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should favour domestic suppliers when purchasing goods, even when foreign suppliers offer lower prices. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules.",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Tariffs and adversarial-country strategic investment controls limit unrestricted foreign purchasing; qualified disagreement preserves ordinary permitted imports.",
+          "sources": [
+            "audit-tariffs",
+            "audit-investment"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He protects domestic manufacturing as necessary for defence and economic security; qualified agreement recognises tariff exemptions.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The order ties relief to reciprocal treatment, opposing unilateral barrier reductions regardless of partners' policies.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protection supports rebuilding domestic manufacturing; modest agreement infers infant-industry assistance without claiming a specific sunset for every duty.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Foreign investors should be allowed to establish businesses on the same terms as domestic investors, even when local firms face more competition. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules.",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should restrict agricultural imports to preserve domestic farming capacity. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules.",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He explicitly uses government import protection to rebuild domestic industries.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reciprocal tariffs are the order's express policy response to foreign trade barriers.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Foreign and domestic products should face the same product taxes in my country. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules.",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The order identifies foreign subsidies as unfair competition warranting protective trade measures.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Reciprocity and domestic security constrain tariff removal; moderate disagreement preserves negotiated exceptions.",
+          "sources": [
+            "audit-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He explicitly restricts adversarial foreign ownership of strategic US sectors and infrastructure.",
+          "sources": [
+            "audit-investment"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People in my country should be free to buy online services from foreign providers without special trade restrictions. Need policy addressing the particular tariff, domestic-purchase, product-tax, strategic-investment or services constraint; concern about globalisation does not settle all trade rules.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Independent exact-proposition reassessment: 8 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He rescinds regulations that burden production and empowers consumer choice, favouring firms' ordinary production decisions.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His programme deregulates energy and consumer goods rather than imposes general mandatory production targets.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer choice and deregulation support qualified market pricing, while the programme also directs agencies to reduce essential costs.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The targeted semiconductor investment steers capacity toward a selected national priority without assigning compulsory economy-wide output.",
+          "sources": [
+            "audit-intel"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His production deregulation favours business expansion on commercial demand rather than ordinary output schedules.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should control the prices of essential goods, even when suppliers would prefer to charge more. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Streamlined permits and removal of burdens support market entry without proving production need.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should direct banks to lend to industries it considers national priorities. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People and businesses should be able to move their money abroad without government approval. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The agreement deliberately directs public finance toward semiconductor manufacturing and national security.",
+          "sources": [
+            "audit-intel"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Privately issued currencies should be allowed to compete with government-issued money. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should set a legal minimum wage rather than leave the lowest wages entirely to negotiation between employers and workers. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Wages in my country should generally be set through negotiations between employers and workers rather than government wage schedules. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should direct central-bank lending and interest-rate policy to support its national economic plan. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Rental prices in my country should be set by market demand rather than government rent controls. Need the precise instrument: mandatory output quotas, private money, capital controls, bank-directed lending, central-bank policy, wage schedules or rent controls; targeted investment alone is not all-economy planning.",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His deregulation programme opposes routine government coordination of all production, while strategic emergencies remain exceptions.",
+          "sources": [
+            "agenda"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Independent exact-proposition reassessment: 0 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should use taxes and benefits to substantially reduce differences in disposable income. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Reducing income differences should not, by itself, justify taking more income through taxation. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should provide a stronger minimum income through benefits, even when this requires higher taxes. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Income benefits should provide a basic safety net rather than substantially narrow differences in living standards. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Higher earners in my country should pay a substantially larger share of their income in tax than lower earners. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People in my country should retain more of their earnings, even if this leaves larger income differences between households. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should tax large inheritances to fund income support for people with fewer resources. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Income support for working-age adults who can work should have a time limit, even if some recipients still have low incomes when it ends. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should tax accumulated wealth to fund transfers to households with low incomes. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Income benefits should be kept modest so that those funding them face a lower tax burden. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People eligible for income benefits should receive enough support to participate in ordinary social life, beyond meeting basic survival needs. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should prioritise cutting taxes over increasing cash benefits. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should provide publicly funded income supplements to low-paid workers. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Additional income earned by high earners should not face higher tax rates than additional income earned by other workers. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should redistribute some large landholdings to people with little or no land, compensating owners through public funds. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Cash benefits should be restricted to households unable to meet basic needs rather than extended to a wider range of low-income households. Need the subject's cash-benefit eligibility, adequacy and tax-financing preferences; public healthcare or housing does not automatically imply stronger cash transfers.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Independent exact-proposition reassessment: 3 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country’s laws should be justified without relying on the teachings of any particular religion. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Religious teachings should be an official source of national law in my country. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The religious-liberty commission recommends actions but does not have approval power over government policy, supporting qualified government independence.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country’s constitution should recognise a particular religion as a foundation of the state. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public schools in my country should teach about religions without trying to persuade pupils to adopt one. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Public schools in my country should include instruction intended to cultivate faith in the state’s recognised religion. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country’s state courts should apply laws enacted by civil institutions rather than rulings issued by religious authorities. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He appoints clergy and religious advisory boards to recommend legislative or executive action, supporting an advisory official role rather than a clerical veto.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Official ceremonies held by my government should not include organised religious worship. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My government should use public funds for activities intended to strengthen religious belief. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Government buildings should not display symbols endorsing a particular religion. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should keep national public holidays marking the predominant religion’s major festivals as an official recognition of that religion. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious leaders are advisers rather than holders of automatic congressional seats by religious office; qualified disagreement with ex-officio legislative privilege follows.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Religious organisations should receive tax exemptions specifically for their religious activities, beyond exemptions available for charitable work. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should remove religious approval requirements from laws governing marriage. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should recognise decisions made by religious courts as legally binding in some areas of family law. Need specific religion-in-law, constitution, government-seat, worship, holiday-recognition, tax-exemption or family-court policy; personal faith and customary festivities do not establish religious state authority.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Independent exact-proposition reassessment: 5 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Social customs in my country should be open to substantial change as people’s values change. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Preserving long-standing social traditions should take priority over adapting them to new values. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Families outside the traditional two-parent married household should receive the same social recognition as that household. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Society should continue to encourage distinct traditional roles for men and women. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Marriage in my country should be available to couples regardless of their sex. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Society should continue to favour the two-parent married household as its preferred family model. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Choosing an abortion early in pregnancy should be socially accepted. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He explicitly prioritises parental school choice and decisions while conditioning federal funds against gender ideology.",
+          "sources": [
+            "audit-education"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Same-sex couples should be as socially accepted as adoptive parents as opposite-sex couples. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Traditional expectations about modest dress should continue to guide how people dress in public. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His programme formally rejects gender-identity language in favour of biological male and female categories.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His programme presents national historical symbols and inherited American values as priorities to transmit.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Adults who take on roles traditionally associated with the other sex should receive the same social acceptance as those who follow traditional roles. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Changes to long-standing social institutions should be gradual, even when faster change is popular. Need the specific family, sex-role, school, adoption, modesty or change-speed preference; ideological labels cannot settle each social proposition.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Federal education funds are conditioned against gender ideology and related programmes, opposing compulsory instruction despite traditional parental objections.",
+          "sources": [
+            "audit-education"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He promises to name national landmarks to honour national history, supporting preservation of customs for historical connection.",
+          "sources": [
+            "agenda"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Independent exact-proposition reassessment: 4 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks. Source contradictions and limits are recorded in each resolved rationale; absent comparative evidence is unresolved rather than Neutral.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should allow new technologies to be widely used when early evidence suggests substantial benefits, even if long-term risks remain uncertain. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: New technologies should remain limited to small trials until there is substantial evidence about their long-term risks. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He declares an energy emergency and accelerates critical infrastructure; qualified agreement reflects development priority alongside opposition to landscape-damaging wind farms.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: New medical technologies should not become widely available until their long-term safety has been studied. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should adopt AI systems that raise workplace productivity, even if many existing jobs are replaced and workers must retrain. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His programme promotes mining and energy development by rescinding restrictions, so preservation is not an automatic priority over public benefit.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should support replacing some conventional meat production with cultivated meat, even before its long-term environmental effects are fully understood. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Brain implants intended to enhance the abilities of healthy people should remain limited to research until there is strong evidence of long-term safety. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Independent peer review: Energy expansion and anti-restraint policy do not by themselves establish preferred technological CLIMATE solutions that remain unproven at scale; needs climate-solving bridge rather than supply expansion.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His policy streamlines permitting for production and infrastructure, weighing against routinely delaying projects pending complete environmental knowledge.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Adults should be allowed to use brain implants to enhance their mental abilities once basic safety requirements are met, even if long-term effects remain uncertain. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: AI systems used to make medical diagnoses should remain limited to supervised trials until there is strong evidence of their reliability across different patient groups. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should allow controlled trials of embryo gene editing to enhance human abilities, rather than limit gene editing to preventing disease. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Genetically modified crops should require evidence of long-term ecosystem safety before widespread cultivation, even if early trials show higher yields. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Critical infrastructure construction receives emergency priority, supporting qualified development priority over keeping land unused.",
+          "sources": [
+            "agenda"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: My country should delay technologies that could cause irreversible harm until there is strong evidence that the harm is unlikely, even when early evidence suggests substantial benefits. Need the technology-specific risk threshold, especially cultivated meat, healthy-person implants, medical AI across patient groups, embryo enhancement and long-term GM ecosystem safety; AI optimism does not settle unrelated biomedical risks.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Independent exact-proposition reassessment: 1 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: States and regions should have a protected right to govern their own affairs, even when the national government disagrees with their policies. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The national government should have the final say when regional and national governments disagree over who has authority to make a decision. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: A state or region should be allowed to leave a country or federal union if a majority of its voters supports leaving in a referendum. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The national government should be able to overturn a regional policy that obstructs a nationwide programme, even if the policy has regional voter support. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: States and regions should be able to adopt their own constitutions defining how their governments work, within the rights protected by the national constitution. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Police forces should be directed by a single national authority rather than by separate state or regional governments. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: State and local governments should keep most of the tax revenue collected in their area rather than send it to the national government to allocate. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He returns schooling authority to states and communities, although remaining federal funds have national ideological conditions; qualified disagreement preserves that counterevidence.",
+          "sources": [
+            "audit-education"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Regional governments should be able to raise or lower their own tax rates, even if this means people pay different rates in different parts of the country. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Employment laws should be set nationally, even if states or regions want different rules on working hours or dismissal. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Local voters should be able to change the powers and boundaries of their councils without national approval. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The national government should decide which medical treatments public healthcare covers, even if regional governments would cover different treatments. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Indigenous communities should be able to govern local affairs within their territories through their own institutions rather than through national authorities. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The national government should set limits on how states and regions can compete with each other through lower taxes. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Regional governments should decide how to manage land and wildlife when the effects of those decisions stay within their region. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: During a disaster affecting several regions, the national government should direct the emergency response, even if regional authorities prefer their own plans. Need exact constitutional, fiscal, school, policing, health-treatment, council-boundary, Indigenous or disaster allocation of authority; ordinary local service delivery does not establish sovereignty against the national government.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Independent exact-proposition reassessment: 0 of 16 answers currently resolved; individual rationales specify evidence and limits.",
+      "counterEvidence": "Review did not infer this axis from a neighbouring axis or a political label. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance. No supported answer was established for this axis in the inspected source set; additional targeted research remains required.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People’s behaviour is shaped more by upbringing and social surroundings than by inherited tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in IQ scores between countries can be explained more by inherited characteristics than by upbringing and education. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Where men and women behave differently, social expectations and upbringing explain more of the difference than biology does. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in people’s sensitivity to stress are explained more by biological differences than by social surroundings and experience. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in people’s interests are shaped more by experiences and opportunities than by inherited tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People’s willingness to take risks is shaped more by inherited tendencies than by learning and experience. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Whether people develop cooperative habits depends more on their social surroundings than on inherited tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in people’s capacity for empathy are explained more by inherited characteristics than by social experience and upbringing. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in people’s ability to sustain attention are explained more by their experiences and surroundings than by inherited characteristics. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People’s immediate reactions to what they consider right or wrong are shaped more by biological predispositions than by upbringing and culture. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in what people find threatening are explained more by learning and experience than by inherited tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Differences in people’s temperament are explained more by biological predispositions than by upbringing and social surroundings. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People’s preferences about physical attractiveness are shaped more by culture and personal experience than by inherited tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: Different races being more likely to commit violent acts (per capita) is better explained by biological differences than by upbringing and social surroundings. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: People’s habits of self-control are shaped more by learning and experience than by inherited racial tendencies. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The inspected source set does not establish Donald Trump's response to this exact proposition: The gender pay gap can be attributed to differences in economic value between men and women instead of different social expectations. Need the subject's comparative causal belief for the exact human trait and population contrast; supporting education, equality, traditionalism or health services does not establish genetic-versus-social explanatory dominance.",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex: author wording pass; independent /root/historical_audit peer review; /root parent targeted review",
+    "reviewedAt": "2026-10-04",
+    "notes": "All 240 exact conditions and rationales were independently reviewed by historical_audit, with parent targeted review of original causal and technology claims. Peer objections were repaired through narrower values, explicit source bridges, or unknowns. Completed review does not certify a complete replacement: unresolved evidence and source-publisher coverage prevent publication. Source-read boundaries and outstanding research are recorded per axis in the report. Original archive withdrawal rests on concrete unsupported original causal and threshold claims, independently of replacement unknown counts.",
+    "similarity": []
+  }
+}

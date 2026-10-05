@@ -1,0 +1,2945 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "winston-churchill",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "Image-only revision: replace the portrait with the main infobox image shown on the subject’s English Wikipedia page, as requested by the owner. All 240 answers, sources, evidence reviews and calculated scores are unchanged.",
+  "metadata": {
+    "name": "Winston Churchill",
+    "description": "British wartime and postwar prime minister assessed through parliamentary leadership, imperial and alliance policy, and his acceptance of a mixed postwar economy.",
+    "category": "Political leader",
+    "period": "1940–1955",
+    "scope": "Personal positions and governing conduct during 1940–1955; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "British parliamentarian and prime minister",
+    "lifespan": "1874–1965",
+    "image": {
+      "path": "profiles/images/winston-churchill-r2.jpg",
+      "alt": "Portrait of Winston Churchill",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sir_Winston_Churchill_-_19086236948_(restored).jpg",
+      "creator": "Yousuf Karsh / Library and Archives Canada; restoration recorded on Commons",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "parliament",
+      "title": "Kevin Theakston: Churchill and parliamentary democracy",
+      "url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-136/part-of-the-constitution-winston-s-churchill-and-parliamentary-democracy/",
+      "publisher": "International Churchill Society",
+      "date": "2013-07-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "government",
+      "title": "History of Sir Winston Churchill",
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/winston-churchill",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "manifesto",
+      "title": "1951 Conservative manifesto: Churchill declaration",
+      "url": "https://www.ukpol.co.uk/general-election-manifestos-1951-conservative-party/",
+      "publisher": "Conservative Party via UKPOL",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "policy1951",
+      "title": "King’s speech setting out Churchill government programme, 6 November 1951",
+      "url": "https://www.nationalarchives.gov.uk/education/resources/attlees-britain/tory-policy-1951/",
+      "publisher": "The National Archives",
+      "date": "1951-11-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conservatism",
+      "title": "Churchill: speech to Conservative conference, 1946",
+      "url": "https://sourcebooks.web.fordham.edu/mod/1946churchill-conservatism.asp",
+      "publisher": "Fordham University",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "science",
+      "title": "Churchill: Fifty Years Hence, December 1931; background on science and human nature",
+      "url": "https://www.nationalchurchillmuseum.org/fifty-years-hence.html",
+      "publisher": "America’s National Churchill Museum",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "churches",
+      "title": "Philip Williamson: Churchill and the Churches",
+      "url": "https://winstonchurchill.org/publications/finest-hour/finest-hour-191/churchill-and-the-churches/",
+      "publisher": "International Churchill Society",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "migration",
+      "title": "Commonwealth migration since 1945: primary documents and context",
+      "url": "https://cdn.nationalarchives.gov.uk/documents/education/Commonwealth-migration-since-1945-The-National-Archives.pdf",
+      "publisher": "The National Archives",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "quote-audit",
+      "title": "Richard Langworth: immigration diary report and disputed quotations",
+      "url": "https://richardlangworth.com/quotes-churchill-never-said-2",
+      "publisher": "Richard Langworth",
+      "date": "2018-11-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "changes",
+      "title": "Churchill plans few changes: contemporary account of government programme",
+      "url": "https://www.upi.com/Archives/1951/10/27/Churchill-plans-few-changes/2221492107540/",
+      "publisher": "United Press",
+      "date": "1951-10-27",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Churchill defended parliamentary government, competitive elections and executive accountability, accepting his defeat in 1945. His democracy was representative and imperial rather than consistently universal across British territories.",
+      "counterEvidence": "Earlier doubts about mass democracy and wartime election delays qualify the record; Parliament approved wartime continuance, and his imperial subjects did not enjoy equal national political rights.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He accepted electoral defeat and later returned through competitive elections.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert advice did not replace elected Parliament as the source of government.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He accepted broad British adult suffrage, qualified by unequal imperial political rights.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Even wartime leadership remained dependent on parliamentary authority.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Opposition and contested elections resumed with the end of wartime coalition.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Commons scrutiny and public parliamentary debate were integral to his constitutional view.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Independent judicial restraint of unlawful executive conduct fits his liberties, while parliamentary sovereignty limits review of legislation.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Trade unions were legitimate negotiating bodies, not substitutes for the electorate.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Political opponents could compete, with wartime security restrictions qualifying the general rule.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He sometimes entertained referendums while ordinarily preferring parliamentary judgement, giving a mixed inference.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His conception placed national authority in Parliament, not the leader alone.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A government must retain parliamentary confidence and answer serious abuse.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Wartime extensions required legislation rather than unilateral personal postponement.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Stable representative mandates weigh against routine recall votes.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "He explicitly defended executive accountability through elected institutions.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Civilian parliamentary government contradicts discretionary military replacement.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Churchill combined a strong vocabulary of constitutional liberty with extensive wartime security powers. Exceptional war measures and his peacetime preference for restoring freedoms are both represented.",
+      "counterEvidence": "Internment and censorship show practical limits to libertarian rhetoric. His opposition to permanent controls prevents treating total-war restrictions as an unconditional ordinary peacetime programme.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His defence of personal freedom did not imply acceptance of harmful drugs without regulation.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Serious-crime surveillance subject to legal authority fits both security and constitutional principles.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Political assembly is protected, while obstruction and wartime order qualify an unconditional right.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sharp criticism of ministers remained legitimate in his parliamentary practice.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Paternal social protection and public health support limited protective requirements.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Wartime security administration supports retaining movement information, qualified by peacetime liberty.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public safety gives a plausible basis for proportionate intoxication checks.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Preventive security restrictions fit his wartime practice where a court establishes grave danger.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He valued free expression but accepted moral and security limits in the institutions he retained.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Free personal communication and security monitoring are competing principles for this modern analogy.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible grave violence fits exceptional preventive search powers.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wartime and public-order priorities support preventing gatherings likely to produce serious disorder.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common-law liberties favour legal warrants outside urgent danger.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His defence of official secrecy weighs against an unrestricted right to publish classified material.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Arming civilians against invasion supports defensive possession in national emergency, but does not establish a general personal self-defence entitlement in ordinary life. That emergency practice and retained peacetime firearms licensing support a mixed inference.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Wartime internment supports strong detention powers, but his defence of habeas corpus and ordinary liberty counters an indefinite review-free rule.",
+          "sources": [
+            "parliament",
+            "government",
+            "manifesto",
+            "conservatism"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Churchill favoured a shared British identity rooted in parliamentary and cultural inheritance. He accommodated varied traditions within the empire while assigning British civilisation a privileged position.",
+      "counterEvidence": "An imperial conception incorporated different peoples without necessarily giving their cultures equal public status. Religious tolerance and continued Commonwealth belonging temper a claim of total cultural erasure.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "British civic and cultural inheritance took priority in his national conception.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Pragmatic accommodation existed across the empire, balanced by dominant British institutions.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Settlers were expected to join British civic and social life.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Loyalty to Britain could coexist with continuing private or religious traditions.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common English public institutions fit his national integration outlook.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Imperial recognition of local peoples coexisted with hierarchy; ceremonial acknowledgement is a balanced inference.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National cultural inheritance was a central public value.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Conflicting community expectations would not override common British institutions.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A common national calendar fits the state ceremonies he supported.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He recognised multiple imperial communities but not an equal-cultures model of metropolitan identity.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Shared national participation follows his emphasis on unity.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Common-language institutions weigh against extensive parallel foreign-language public signage.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His wartime appeal placed common national identity above sectional loyalties.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious accommodation and common public security pull in opposite directions for this specific exemption.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "British identity included varied communities while retaining a dominant institutional culture.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National unity and shared customs take priority in the inferred integration approach.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "migration",
+            "quote-audit"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Churchill’s late-period concerns about Commonwealth migration suggest restriction, but his government did not enact the later Commonwealth entry controls. Existing imperial citizenship and refugee considerations qualify the inference.",
+      "counterEvidence": "The often repeated 1955 slogan rests on Macmillan’s diary report, not a recorded public policy pledge. It is not used as proof of a specific quota or as evidence that later legislation was his.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concern about settlement pressure supports numerical control in principle, but no exact annual formula is attributed.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His late concerns weigh against a general right to move for improved circumstances.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Imperial citizenship and labour utility compete with selective admission, so skills were not the sole governing basis.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family unity and existing subject status support joining lawful permanent residents.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Humanitarian sanctuary supported exceptions, but permanent protection regardless of other considerations was not unconditional.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Security and lawful status requirements weigh against a general right for unauthorised entrants to remain.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His concerns were not limited to employer workforce needs.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Pressure on national cohesion and services gives a basis for reducing entry despite some economic gains.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family obligations and restrictions compete, with no established universal family quota.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Work opportunities and Commonwealth status favoured some movement, while concerns about settlement qualified it.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Sponsors could help controlled entry, but broad imperial citizenship supplied other claims.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary educational residence need not itself confer permanent settlement.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Humanitarian protection could justify exceptional entry beyond ordinary restrictions.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His cultural hierarchy gives a moderate inference of favouring easier cultural assimilation.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Membership and welfare obligations support access for some residents, balanced against entry and fiscal restrictions.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He did not seek additional migration specifically to increase cultural difference.",
+          "sources": [
+            "migration",
+            "quote-audit",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Churchill backed strong military capability, conscription, alliance warfare and force for strategic interests. His later diplomacy and fear of nuclear destruction qualify an otherwise strong military posture.",
+      "counterEvidence": "Pursuit of summit diplomacy and acceptance of negotiated settlements distinguish military preparedness from a desire for constant war. The assessment does not attribute the 1956 Suez invasion to his government.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Imperial and alliance strategy accepted military action beyond direct defence of the homeland.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He used diplomacy actively but rejected delaying necessary action as a universal rule.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Defence strength was central to national survival and deterrence.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A well-evidenced imminent attack warrants pre-emptive defence in his strategic outlook.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Overseas strategic interventions exceeded a narrow attack-response doctrine.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His wartime and postwar governments retained compulsory national service.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He opposed buying peace through strategically dangerous concessions.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His pursuit of technical military advantage suggests conditional support for effective autonomous systems, with uncertainty over command safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "British strategy required campaigns beyond territorial defence.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His wartime leadership directly rejects avoiding war at every cost.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sustained overseas capability was essential to imperial and alliance commitments.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiation and territorial resolve both mattered, so an automatic war-or-concession rule is inappropriate.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Deterrent threats were legitimate instruments of serious diplomacy.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His later nuclear caution balanced the need to demonstrate resolve.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Military intelligence was an important instrument despite international risks.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reciprocal negotiated reductions could support peace without unilateral disarmament.",
+          "sources": [
+            "government",
+            "manifesto",
+            "science"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Churchill supported the United Nations, Atlantic partnership and European cooperation while preserving British and Commonwealth sovereignty. International coordination and sovereign vetoes coexisted.",
+      "counterEvidence": "His enthusiasm for European union should not automatically be read as support for Britain joining a federation on identical terms to continental states.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary sovereignty remained foundational in his British constitutional view.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "International machinery was valuable but not an unlimited authority over unwilling Britain.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic constitutional authority retained priority, qualified by accepted international obligations.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Atlantic and wartime alliances involved sustained commitments and constrained unilateral freedom.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sovereign Britain retained a right to withdraw through political and legal processes.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International justice appealed alongside reluctance to submit all national decisions to outside judges.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "British and imperial interests strongly qualified external institutional demands.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared environmental problems plausibly warrant cooperative rules by analogy to collective security.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Coordinated alliance policy was welcome while automatic bloc control remained questionable.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Human-rights institutions and sovereign parliamentary authority provide competing considerations.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National and sterling-area monetary control remained important.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His alliance strategy endorsed pooled effort for common international problems.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Border and imperial citizenship policy remained a national responsibility.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International commerce required accepted reciprocal rules rather than complete isolation.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Britain and the Commonwealth retained distinct constitutional roles in his European plans.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective security required action beyond immediate narrow advantage.",
+          "sources": [
+            "manifesto",
+            "government",
+            "parliament"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Churchill’s postwar position favoured private enterprise and selective denationalisation while retaining major public utilities, rail, healthcare and housing commitments. Wartime mobilisation did not establish permanent public ownership of all commerce.",
+      "counterEvidence": "His 1951 government largely retained the welfare-state structure and several nationalised industries, qualifying the anti-socialist campaign language.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He generally preferred free enterprise to state commercial ownership.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Retained public utilities support ownership exceptions for essential networks.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His declared preference for enterprise applies when service outcomes are comparable.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He opposed expanding state trading into competitive industries as a routine policy.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Retaining the NHS supports substantial publicly owned facilities.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His government retained publicly owned rail while seeking administrative reform.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Value-for-money reform permits equivalent cheaper private delivery.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National financial institutions and private banking coexisted, without a clear preference for expanding either ownership form.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Steel and road-haulage denationalisation support selective sales.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing construction and social security goals accepted substantial public provision.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private enterprise could serve defence under effective government oversight.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public coal and private resource enterprise produce genuinely mixed evidence.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local public provision and competitive efficiency both fit his pragmatic programme.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Retaining key nationalised assets shows strategic ownership could outweigh immediate sale proceeds.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Repeated commercial loss strengthened the case for denationalisation.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The BBC formed part of the public institutional order he retained.",
+          "sources": [
+            "conservatism",
+            "policy1951",
+            "changes",
+            "manifesto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Churchill promoted overseas commerce but accepted imperial preference, strategic supply and agricultural protection. His earlier free-trade campaigning is background rather than the entire governing-period position.",
+      "counterEvidence": "Dependence on imported food and raw materials weighed against autarky. Wartime restrictions were more extensive than the ordinary postwar trade position.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Commercial openness and imperial preference balance on routine protective tariffs.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "An import-dependent trading economy benefits from lower barriers.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic and Commonwealth purchasing considerations support some domestic preference.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Enterprise and import dependence favour flexible international sourcing.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "War experience makes maintaining essential domestic capacity valuable.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Open trade is desirable, but reciprocity and imperial arrangements qualify unilateral removal.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Industrial development and competitive efficiency compete for temporary infant protection.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Enterprise and allied investment support broadly open establishment.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Food security and support for British agriculture justify some import restrictions.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His private-enterprise outlook favours adjustment where strategic interests do not require shelter.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reciprocal commercial bargaining permits proportionate tariff responses.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary product taxes should not systematically discriminate, subject to retained preferences.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Countering artificially subsidised competition fits reciprocal trade policy.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International recovery supports tariff-reducing agreements despite some supply dependence.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defence and strategic independence justify limits on foreign control.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His commerce-friendly orientation supports access to foreign online services by modern analogy.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Ordinary production should largely follow enterprise and bargaining, with macroeconomic management, essential supply measures and retained controls after the war. Wartime planning is not treated as a permanent peacetime ideal.",
+      "counterEvidence": "His government accepted a mixed economy and transitional constraints, so this is less uniformly market-oriented than anti-socialist rhetoric alone suggests.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His postwar programme restored initiative to ordinary businesses.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Mandatory peacetime production targets conflict with his enterprise preference.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He preferred prices guiding normal commerce while retaining essential exceptions.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Infrastructure priorities and resistance to comprehensive planning balance.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer choice and commercial initiative should usually guide expansion.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Essential affordability and the removal of wartime restrictions create a mixed judgement.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free enterprise supports entry without a routine state production-need test.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic reconstruction finance can justify intervention, but general direction of commercial credit was not his stated ideal.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Retained postwar exchange constraints weigh against unrestricted capital movement.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defence and reconstruction priorities justify some targeted assistance.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Sterling stability and national monetary authority outweigh private-currency competition.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His social-reform background and minimum labour standards support a legal wage floor.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "He explicitly favoured collective bargaining with private employers.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public macroeconomic management and resistance to detailed planning balance on this compound proposal.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing protection and revival of private building both mattered.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His peacetime objection to socialism weighs against ordinary central production and distribution coordination.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "conservatism",
+            "changes"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Churchill accepted social insurance and a minimum standard while resisting equalisation as the organising purpose of economic policy. His government preserved substantial transfers and sought fiscal restraint.",
+      "counterEvidence": "Earlier social reform and postwar welfare retention prevent equating his private-enterprise preference with minimal or abolished income protection.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He supported social protection but criticised class-based equalisation, producing a mixed income-gap judgement.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Income differences alone were not his principal justification for taxation.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Social insurance improvement and tax restraint competed.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His own account stressed raising the social minimum rather than equalising all living standards.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A progressive contribution is compatible with the strong assisting the weak.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He sought lower burdens to restore enterprise even with unequal rewards.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Established estate taxation and property-owning aspirations pull in different directions.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Work and insurance principles matter, but a hard cut-off despite continuing need is not established.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Social obligation and private property balance on wealth-funded transfers.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Fiscal economy and adequate protection were simultaneous goals.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Tolerable social conditions imply more than bare biological survival.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reducing excessive taxation had priority over a general expansion of cash benefits.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Making low-paid workers secure fits his social-insurance and minimum-standards programme.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He retained progressive income-tax rates while seeking reductions in the overall burden. Accepting higher marginal rates for high earners weighs against the proposed removal of that distinction; lower taxation is a separate question.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Property diffusion appealed, but large compulsory land redistribution was not a general programme.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Contributory insurance covered more than only destitute households, while scarce resources also justified targeting.",
+          "sources": [
+            "manifesto",
+            "conservatism",
+            "changes"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Churchill actively supported public Christian worship and establishment despite personal religious scepticism. Civil parliamentary government retained authority over policy and law.",
+      "counterEvidence": "Religious symbolism and state-sponsored prayer were substantial, but neither proves doctrinal belief nor government submission to church leaders.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His lawmaking relied on civil institutions while public justification often invoked Christian civilisation.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian ethics informed institutions without becoming a complete authoritative legal code.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Ministers did not require religious approval for policy.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Established religion remained part of the constitution he defended.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Teaching about beliefs and sustaining Christian cultural inheritance coexisted.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious education and worship fit the state-church settlement he supported.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliament and ordinary courts held civil authority.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Established bishops participated officially in parliamentary scrutiny of laws. His acceptance of that arrangement supports a limited religious reviewing role without implying an independent church veto.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "His wartime government actively organised religious observances.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public support for worship served national moral cohesion.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He accepted Christian symbols in inherited public institutions.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Christian festivals were part of official national tradition.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His constitutional continuity favoured retaining the established bishops' parliamentary role.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional support for churches makes religious fiscal privileges a plausible inference.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage remained available independently of religious approval.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Respect for religious custom coexisted with civil adjudication, rather than a universal binding religious-court power.",
+          "sources": [
+            "churches",
+            "parliament"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Churchill placed high value on continuity, inherited institutions and conventional family morality while accepting practical social reforms. Governing-era conservatism supports moderate traditionalist inferences, not invented statements on later identity debates.",
+      "counterEvidence": "Major welfare and educational reforms show willingness to alter institutions. Evidence on specific modern marriage, adoption and language proposals is indirect and receives restrained magnitudes.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He accepted reform where needed but placed strong weight on inherited social continuity.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Established traditions were affirmative national goods in his public outlook.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His conventional family framework gives a modest preference to the married household.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Traditional family and social roles remained normal within the institutions he defended.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His conventional marriage framework suggests opposition, but no modern same-sex-marriage statement is attributed.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The stable married household fits his preferred social structure.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The governing-era restrictive moral framework supports moderate opposition to social acceptance of elective abortion.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family and church roles in education support parental influence over traditional sexual teaching.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The conventional household preference supplies a moderate inference against equal same-sex adoption recognition.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public decorum and inherited convention fit his cultural conservatism.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His attachment to inherited language supports a moderate preference for established conventions over changing usage to reflect personal identification. This is an inference about voluntary conventions as well as official usage, not an assumption that the question requires compulsion.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Transmitting established moral inheritance was important to national continuity.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Women’s expanded wartime roles qualify traditional expectations, creating a mixed assessment of role crossing.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reform should normally preserve continuity rather than discard established institutions rapidly.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His church-and-family educational conception suggests caution toward modern sexuality curricula.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Historical connection itself was a reason he valued national customs.",
+          "sources": [
+            "manifesto",
+            "churches",
+            "conservatism",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Churchill embraced technical development and foresaw cultivated food, but warned that science could outpace moral judgement and destroy human freedom. His historical scientific essay informs explicitly limited analogies.",
+      "counterEvidence": "Prediction of a technology is not automatic endorsement. His alarm about engineered humans prevents converting military innovation or earlier eugenic beliefs into blanket support for elective enhancement.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His development and science outlook supports beneficial adoption with safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Urgent material progress and fear of catastrophic misuse balance on a universal trial-only rule. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National reconstruction and major technical works justified some permanent habitat loss. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His warning that science may outrun judgement supports medical safety study. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Labour-saving machinery and productive scientific progress supply a moderate analogy for AI adoption. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Development benefits normally outweighed preserving every untouched habitat. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His positive account of separately grown meat supports regulated cultivated-food development, without proving a specific risk threshold. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His alarm about engineered mental capacities supports caution for invasive healthy-person enhancement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He envisaged technological mastery of energy and climate, favouring technical solutions by analogy. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Major works and caution about uncontrolled power create a conditional environmental-assessment balance. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Concern for unanticipated alteration of human capacities weighs against basic safety alone. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His preference for effective science implies demonstrating medical reliability before large-scale use. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Potential scientific benefit and alarm about engineered humans oppose a categorical position on enhancement trials. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Productive biological innovation and fear of large-scale consequences both have weight. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His housing and reconstruction priorities favour substantial infrastructure expansion. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His explicit warning of fatal scientific discoveries supports strong safeguards against irreversible harm. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "science",
+            "manifesto",
+            "government"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Churchill defended a sovereign Parliament and national coordination, while acknowledging local administration and regional identities. His postwar programme even proposed greater regional flexibility within retained public industries.",
+      "counterEvidence": "Imperial and Commonwealth arrangements varied markedly. Recognising self-government in some territories did not establish an unlimited right of every British region to secede.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local autonomy and a sovereign national Parliament coexist, without constitutionally absolute regional protection.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Westminster retained ultimate legal authority.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His unionism weighs against a general unilateral referendum right to leave.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National programmes could override local obstruction under parliamentary law.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A unitary parliamentary framework does not favour separate regional constitutions.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local constabularies and national security coordination produce a mixed position.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National defence and social obligations require substantial pooled fiscal resources.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National educational standards fit the state framework while local delivery remained.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local fiscal variation was compatible with national statutory oversight.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common minimum working conditions fit national labour standards.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local authorities' powers and boundaries remained subject to national law.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The retained NHS supports nationally determined minimum coverage.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Customary governance was accommodated within the empire but subordinate to central imperial authority, yielding a mixed modern analogy.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National fiscal requirements permit constraints on local competition.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary local land management can remain local where national interests are absent.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "His wartime national leadership supports unified command in a multiregional emergency.",
+          "sources": [
+            "manifesto",
+            "policy1951",
+            "changes",
+            "parliament"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Churchill’s account combined enduring human nature and inherited capacities with civilisation, moral education, hardship and institutional experience. The scientific essay is background context, not a record of answers to modern behavioural genetics.",
+      "counterEvidence": "Imperial racial hierarchy is documented, but it does not by itself settle every biological causation claim. Mixed responses keep genetic assertions separate from normative cultural preference.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "He described both durable human nature and profound effects of circumstances, supporting a balanced primacy judgement.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His racial hierarchy and emphasis on civilisational development do not establish whether national test-score differences were chiefly genetic.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conventional sex differences and changing social roles both fit his outlook.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His account of stress transforming conduct coexists with durable individual dispositions.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual gifts and opportunities supplied complementary explanations for interests.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Courage could reflect character and training, leaving neither heredity nor experience clearly primary.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His historical account links cooperation to changing modes of life and institutions.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His call to cultivate compassion recognises learning while invoking inherent virtues, giving a mixed answer.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mental endowment and early treatment both appear in his discussion of development.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Enduring human nature and culturally taught moral philosophy are competing explanatory factors.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His discussion of terror, war and national experience supports learned perceptions of threat.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His account of resilient human nature gives a modest disposition-based inference for temperament.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He treated tastes and customs as varying across civilisations, supporting substantial cultural influence.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Racial hierarchy alone cannot establish biological primacy for violence; he also explicitly explained atrocities through stress and social conditions.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Moral education and civil institutions were meant to restrain conduct across communities.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His account of different capacities coexisted with institutional and social roles, supporting no single dominant explanation for pay differences.",
+          "sources": [
+            "science",
+            "manifesto",
+            "conservatism"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 item answers with the exact bank wording, 15 briefs/counterarguments and period metadata. Cross-checked parliamentary-democracy history, the 1951 programme, the historical science essay and the church-policy account. Corrected bishops’ official parliamentary review versus an assumed clerical veto, wartime civilian defence versus ordinary personal firearms permission, and progressive income-tax retention versus flat marginal rates. Removed an assumed compulsion requirement from changing language conventions. Retained distinctions between British democratic practice and imperial inequality, wartime planning and postwar mixed economy, existing Commonwealth movement and his later restrictive concerns, and prediction of technology versus endorsement of its risks. High neutral Culture vs Nature responses reflect his mixture of durable dispositions and socially formed conduct; imperial hierarchy alone does not prove genetic primacy on each trait. Portrait and whole-catalogue similarity are checked during integration. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers. Portrait integration review by OpenAI Codex on 2026-10-04: verified the Wikipedia infobox file, Commons creator and reuse status, and image size. The independent political evidence audit is retained; no political assessment changed.",
+    "similarity": []
+  }
+}

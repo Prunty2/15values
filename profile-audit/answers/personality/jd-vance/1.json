@@ -1,0 +1,2630 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "jd-vance",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (current_assessments)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "JD Vance",
+    "description": "US vice president advocating family-centred social policy, economic nationalism and rapid development of American technology.",
+    "category": "Political leader",
+    "period": "2025–2026-10-04",
+    "scope": "Current documented governing or campaigning position through 4 October 2026. Recent conduct is prioritised; earlier material is used only as a stated continuity-based inference. Party proposals are attributed as the leader’s endorsed programme, not implemented law. Every answer is an interpretive assessment, with lower confidence for biomedical hypotheticals and fine-grained psychological causation. No scores were targeted.",
+    "role": "Vice President of the United States",
+    "lifespan": "Born 1984",
+    "image": {
+      "path": "profiles/images/jd-vance-r1.jpg",
+      "alt": "JD Vance portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:January_2025_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg",
+      "creator": "Daniel Torok",
+      "license": "Public domain",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov"
+    }
+  },
+  "sources": [
+    {
+      "id": "ai",
+      "title": "Remarks at the Artificial Intelligence Action Summit, Paris",
+      "url": "https://www.presidency.ucsb.edu/documents/remarks-the-vice-president-the-artificial-intelligence-action-summit-paris-france",
+      "publisher": "American Presidency Project; US Vice President transcript",
+      "date": "2025-02-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rnc",
+      "title": "Speech to RNC midterm convention in Dallas",
+      "url": "https://rollcall.com/factbase/trump/transcript/donald-trump-speech-jd-vance-rnc-midterm-convention-dallas-september-10-2026/",
+      "publisher": "Roll Call / Factba.se",
+      "date": "2026-09-10",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "context",
+      "title": "Vance: MAGA’s millennial messenger for the midterms",
+      "url": "https://www.axios.com/2026/09/11/vance-speech-gop-convention-millennials",
+      "publisher": "Axios",
+      "date": "2026-09-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family",
+      "title": "Official biography of Vice President JD Vance",
+      "url": "https://www.whitehouse.gov/administration/jd-vance/",
+      "publisher": "Executive Office of the President",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "faith",
+      "title": "Vance writes of journey to Catholicism in Communion",
+      "url": "https://apnews.com/article/7feaef244ef1fb8c8b71fc891c57a127",
+      "publisher": "Associated Press",
+      "date": "2026-06-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "courts-audit",
+      "title": "Vance on judicial review and executive authority",
+      "url": "https://abcnews.com/Politics/trump-vance-musk-aim-courts-judges-halt-2nd/story?id=118649658",
+      "publisher": "ABC News (United States)",
+      "date": "2025-02-10",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-audit",
+      "title": "2026 tax inflation adjustments and retained marginal rates",
+      "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+      "publisher": "Internal Revenue Service",
+      "date": "2025-10-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-tax-audit",
+      "title": "Working families tax cuts enacted programme",
+      "url": "https://www.whitehouse.gov/obbb/",
+      "publisher": "The White House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "He seeks electoral support for a strong executive governing programme, with an adversarial view of institutional opposition.",
+      "counterEvidence": "Vance campaigns in competitive elections but has questioned binding judicial limits and supported expansive executive discretion. That is distinct from military rule, abolishing Congress or banning opposition parties.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Regular electoral replacement provides the necessary mandate.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Expert advice should not replace an electoral mandate.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Education is not a legitimate qualification for citizenship voting rights.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Vance favours broad presidential discretion, including resistance to constraints he considers illegitimate. Yet passing national legislation through Congress remains part of his programme. Neutral distinguishes an expansive executive from a demonstrated right to enact a bill after Congress rejects it.",
+          "sources": [
+            "courts-audit",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Equal contestation is part of legitimate electoral competition.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His electoral appeal to replace Democrats and expose government waste is compatible with congressional investigation. Partisan hostility qualifies that inference, but does not establish that opposition representatives must be denied scrutiny of public spending.",
+          "sources": [
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Vance has suggested disregarding judicial decisions deemed illegitimate, including Supreme Court orders. That gives executive judgment precedence in important conflicts and weakens the original neutral assessment, although his claim concerns legitimate executive powers rather than abolishing all courts.",
+          "sources": [
+            "courts-audit"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Trade-union representation should not replace the general electorate.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "He attacks Democratic positions while campaigning to defeat their candidates. That is evidence for electoral exclusion by voters, not a governing power to prohibit parties because of ideology; modest disagreement preserves the distinction.",
+          "sources": [
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from Vance’s strong-executive electoral programme: voters may directly reverse representative decisions; balanced against the consideration that ordinary representative or governing institutions should retain legislative control. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His unitary-executive view concentrates administration under the president. Congress still legislates and funds policy, so sole authority over all major national decisions goes beyond that view; neutrality balances the concentration of executive control against those retained legislative roles.",
+          "sources": [
+            "courts-audit",
+            "family-tax-audit"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Serious abuse warrants a defined institutional removal mechanism.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Continuity alone cannot justify evading independently fixed election rules.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Accountability may include removal before the next scheduled election.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Even a strong executive must answer to voters or representatives.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from Vance’s strong-executive electoral programme: Armed forces should not independently choose the government.",
+          "sources": [
+            "rnc",
+            "context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Anti-censorship and gun-rights commitments sit alongside border enforcement and criminal-order priorities.",
+      "counterEvidence": "The Paris speech criticises censorship but explicitly allows protection against predation; free expression is not absolute immunity from law.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Protective law can restrict dangerous choices even without immediate third-party harm.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: A serious-crime warrant supplies a proportionate security safeguard.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Public access and order can justify restricting disruptive assemblies.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Offence is insufficient to suppress criticism of public power.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Self-regarding medical risk should normally remain voluntary.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his free-expression and security commitments: preventive security can justify retained movement records; balanced against the consideration that retention without individual suspicion exceeds proportionate policing. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Road safety justifies preventive checks without individual suspicion.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: A judicial finding of serious danger permits preventive restraint.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Adults retain access despite governmental moral disapproval.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Ordinary communication should not require government identity registration.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: A credible violence threat permits area-wide preventive searches.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Credible evidence of disorder can justify prevention.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Independent authorisation is needed absent an immediate emergency.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his free-expression and security commitments: public accountability can justify disclosure of official secrets; balanced against the consideration that confidentiality and security can outweigh a publisher’s misconduct claim. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his free-expression and security commitments: Screened adults should retain a means of armed self-defence.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his free-expression and security commitments: executive threat assessment can justify prolonged detention; balanced against the consideration that a security allegation cannot remove independent review indefinitely. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "His national appeal prioritises common American loyalty and intergenerational belonging while his own family includes Indian heritage.",
+      "counterEvidence": "Shared identity does not necessarily require abandoning private cultural ancestry; family biography alone does not determine immigration policy.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Common public expectations should prevail over competing migrant customs.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his shared American loyalty with retained family heritage: equal participation can justify additional accommodation spending; balanced against the consideration that shared services need not finance distinct customary arrangements. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Permanent membership entails learning and practising shared customs.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Civic membership can coexist with a distinct private identity.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: A common language should be the default institutional priority.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his shared American loyalty with retained family heritage: national history should publicly acknowledge Indigenous communities; balanced against the consideration that ceremonies should stress undifferentiated national citizenship. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Public cultural funds should primarily preserve common inherited traditions.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Shared civic expectations should take precedence in conflicts.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Institutions can organise around one common calendar.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Multiple traditions can belong to the national story.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Participation in common public life is preferable to isolated enclaves.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Public signage should reinforce a common language.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Families should cultivate national belonging above sectional identity.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: A generally applicable covering rule should not have this cultural exception.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: National membership should encompass distinct cultural practices.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his shared American loyalty with retained family heritage: Public integration policy should teach common customs first.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Worker-first immigration and enforcement are central to his current programme, with selective admissions subordinated to national benefit.",
+      "counterEvidence": "His AI speech envisages international partnership, but technical cooperation does not create a general settlement right.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Permanent intake should remain controllable within national capacity.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: National selection takes precedence over a general migration entitlement.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A worker-first policy prefers economically useful admissions, but his family emphasis and criticism even of employers seeking foreign workers do not establish that skills are the sole normal route to permanent membership. Qualified agreement is a narrower inference.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his worker-first immigration approach: stable family life normally warrants admission of dependants; balanced against the consideration that family claims remain subordinate to tighter intake or eligibility rules. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Permanent membership can remain selective despite a protection claim.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Irregular entry should normally result in removal.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Employer demand does not override national population policy.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Housing and services can outweigh aggregate economic gain.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Family admissions should not circumvent an overall limit.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his worker-first immigration approach: a credible job offer normally justifies work admission; balanced against the consideration that a job offer alone is insufficient without wider national selection. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: A resident sponsor supplies an appropriate admission condition.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: A qualification alone should not create a residence pathway.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his worker-first immigration approach: protection obligations justify an exception to routine quotas; balanced against the consideration that the national intake limit can prevail even over a protection claim. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Ease of cultural integration can legitimately influence selection.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Welfare entitlement should be reserved chiefly to citizens.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his worker-first immigration approach: Difference alone is not sufficient reason to expand intake.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "He supports national-security strength while being more conditional about prolonged foreign commitments than an unrestricted interventionist.",
+      "counterEvidence": "Current service in an administration using force qualifies anti-war rhetoric; keeping a military option differs from prioritising it in every dispute.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: National interests can justify force beyond strict self-defence.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Avoiding combat normally outweighs faster coercive results.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Security warrants paying for a decisive capability advantage.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Credible imminent danger justifies anticipatory defence.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Serious interests may justify force before an attack occurs.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: A professional force and voluntary service are preferable.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his security strength and qualified interventionism: preventing war can justify a weaker bargaining position; balanced against the consideration that major concessions may invite greater future insecurity. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Supervised military systems may delegate individual engagements.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Defence should avoid extensive foreign campaigns.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: An attacked ally can justify armed intervention.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Credible defence requires sustained operations abroad.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: An unsettled claim is preferable to starting a war.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Credible military leverage is a legitimate bargaining instrument.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his security strength and qualified interventionism: de-escalation should prevail over a symbolic show of resolve; balanced against the consideration that demonstrated resolve can be necessary despite escalation risk. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his security strength and qualified interventionism: Intelligence advantages justify some diplomatic costs.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his security strength and qualified interventionism: reciprocal security can justify reducing military capacity; balanced against the consideration that capability should not be traded away on insufficient security assurances. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "ai"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "National control and protection against foreign regulatory constraints dominate his approach, alongside selective allied cooperation.",
+      "counterEvidence": "His explicit invitation to foreign AI partners prevents equating sovereignty with refusal of all joint efforts.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Domestic institutions should retain ultimate lawmaking authority.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: National consent should not be displaced by external decisions.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Domestic constitutional authority should be final.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Durable alliances justify limits on unilateral action.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: A sovereign state must retain an exit option.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Domestic officials should remain under final national jurisdiction.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: National obligations prevail over external institutional objectives.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Environmental cooperation should retain final domestic control.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Independent foreign policy should not be surrendered.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: External institutions should not dictate national rights law.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Currency decisions should remain nationally accountable.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Shared problems can justify common funds and decisions.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Entry decisions must remain finally national.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his national-control approach with selected alliances: reciprocal rules can justify restraints on unilateral trade policy; balanced against the consideration that national discretion should prevail over binding common trade rules. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Political union would transfer too much national authority.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his national-control approach with selected alliances: Immediate national interest should determine enforcement participation.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private innovation and competing firms are central, qualified by strategic national production and worker-focused intervention.",
+      "counterEvidence": "Criticism of big business does not itself imply nationalisation; small firms and startups are explicitly defended.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Ordinary commerce should generally remain in private hands.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence of private startups and domestic production: essential network ownership should serve public rather than shareholder control; balanced against the consideration that regulation can secure utility goals without public ownership. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Equal service outcomes favour private rather than state ownership.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence of private startups and domestic production: public firms can legitimately compete in ordinary markets; balanced against the consideration that competitive markets should normally be left to private enterprises. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Publicly financed care can generally be provided through private facilities.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence of private startups and domestic production: rail networks are appropriate public infrastructure; balanced against the consideration that rail infrastructure can be privately owned under suitable rules. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Equivalent access and lower cost justify switching ownership.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Banking should generally be privately provided and regulated.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Commercial assets should normally return to private ownership.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence of private startups and domestic production: public landlords are needed at a substantial scale; balanced against the consideration that housing should remain predominantly privately supplied. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Effective regulation makes nationalisation unnecessary.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence of private startups and domestic production: natural-resource rents justify public ownership; balanced against the consideration that private operators and royalties can protect the public interest. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Competitive contracting is preferable to public operation.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Continuing strategic control outweighs one-off revenue.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Persistent subsidy dependence is a reason to privatise.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence of private startups and domestic production: Broadcasting should not require a state-owned provider.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Domestic chips, supply-chain security and criticism of offshoring support substantial protection of national production.",
+      "counterEvidence": "International AI partnerships and export opportunities coexist with restrictions on adversaries, so the position is selective rather than autarkic.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Domestic capacity warrants border protection.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Preserving domestic producers can justify trade restrictions.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: National capacity justifies paying a procurement premium.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Security or industrial goals can constrain sourcing.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Resilience warrants protecting essential domestic production.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Barriers should be removed through reciprocal concessions.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Temporary protection can establish strategic domestic capacity.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his domestic-supply-chain and tariff priorities: investment should generally compete regardless of nationality; balanced against the consideration that domestic or strategic interests can justify different terms. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Domestic food capacity merits special protection.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: The social and strategic costs can justify protection.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Reciprocity can justify tariffs against imposed barriers.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his domestic-supply-chain and tariff priorities: tax rules should normally be neutral between foreign and domestic products; balanced against the consideration that preferential domestic taxation can support production. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Foreign subsidies can justify corrective trade measures.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his domestic-supply-chain and tariff priorities: mutual market access can justify some increased dependence; balanced against the consideration that strategic autonomy can outweigh tariff-free access. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his domestic-supply-chain and tariff priorities: Strategic ownership requires screening beyond investment value.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his domestic-supply-chain and tariff priorities: consumers should normally access foreign digital providers; balanced against the consideration that security or strategic policy can justify special digital restrictions. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "He favours startup competition and limited regulation while expecting coordinated worker training and industrial resilience.",
+      "counterEvidence": "Coordination with labour and government is not a compulsory production schedule; pro-worker language does not settle every wage-control instrument.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Firms should usually choose output in response to demand.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Strategic encouragement need not become compulsory production quotas.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Supply and demand should normally determine prices.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Public strategy should direct capital to priority industries.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Consumer demand should normally determine business scale.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his startup competition and industrial coordination: affordability warrants controlling essential prices; balanced against the consideration that supply incentives and market signals argue against administrative prices. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Entrepreneurs should not need to prove a production shortage.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Credit should support designated strategic priorities.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Owners should generally control international transfers.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Development goals can justify selective public support.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Monetary innovation should be permitted alongside public money.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: A statutory wage floor protects workers’ bargaining position.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Ordinary wages should follow employer-worker bargaining.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his startup competition and industrial coordination: monetary policy should serve a national production strategy; balanced against the consideration that institutional autonomy protects monetary policy from production directives. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Rental supply and prices should generally respond to demand.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his startup competition and industrial coordination: Normal production and distribution should remain decentralised.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Family affordability and worker earnings qualify the administration’s tax-cutting and welfare-control programme.",
+      "counterEvidence": "Support for families can redistribute toward selected households without seeking general income equalisation or unlimited working-age support.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his family support and tax-cutting programme: taxes and benefits should materially narrow income gaps; balanced against the consideration that income equalisation is not an overriding fiscal purpose. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Unequal earnings alone do not justify additional tax.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his family support and tax-cutting programme: a stronger income floor warrants additional taxation; balanced against the consideration that tax burdens constrain expansion of cash entitlements. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Benefits should chiefly prevent hardship, not equalise lifestyles.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The administration’s tax law retains graduated rates and deductions, so higher earners generally owe a larger average share despite rate cuts. His family and worker tax relief qualifies the magnitude without implying proportional taxation.",
+          "sources": [
+            "tax-audit",
+            "family-tax-audit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Retaining earnings should take priority over further equalisation.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Family transmission should not be taxed primarily for redistribution.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His work-first emphasis favours conditions on assistance, while his family-income commitments favour continuing help for compliant low-paid parents. Those principles do not settle a fixed expiry regardless of continuing need; this midpoint is conditional rather than treating work rules as expiry.",
+          "sources": [
+            "rnc",
+            "family-tax-audit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Asset ownership should not be taxed chiefly to redistribute wealth.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Containing the taxpayer burden limits benefit generosity.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Adequacy extends beyond bare subsistence.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Retained income and incentives deserve fiscal priority.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Public supplements can support people in low-paid work.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The enacted tax package retains seven progressive marginal rates. His backing for tax cuts therefore does not imply equal rates on an additional dollar at every income level; the retained progression supports modest disagreement.",
+          "sources": [
+            "tax-audit",
+            "family-tax-audit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his family support and tax-cutting programme: Property rights and market transfer should normally determine landholding.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his family support and tax-cutting programme: eligibility should focus on households unable to meet essentials; balanced against the consideration that a wider low-income group can reasonably receive support. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Christian faith is publicly central to his conception of family and national purpose, within civil institutions.",
+      "counterEvidence": "Conversion to Catholicism does not prove support for episcopal vetoes or binding religious courts; Usha Vance’s different faith also qualifies uniform establishment assumptions.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his public Christianity within civil government: civil reasons should justify enforceable laws; balanced against the consideration that religious teaching can provide an official legislative rationale. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his public Christianity within civil government: religious doctrine should have an official legal role; balanced against the consideration that religious conviction should not itself determine civil law. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Government must retain authority without clerical permission.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his public Christianity within civil government: the state may formally recognise inherited religious foundations; balanced against the consideration that constitutional membership should not privilege a specific religion. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Schools should teach understanding without requiring belief.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his public Christianity within civil government: religious formation can be a public-school purpose; balanced against the consideration that public schools should not inculcate a state faith. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Courts should apply civil enactments rather than clerical rulings.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Religious advice should not receive an official legislative privilege.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Inherited public worship can remain part of official ceremony.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His public Christianity favours religious participation and family formation, while civil government and religious liberty leave belief to individuals and communities. Funding worship specifically to increase belief is stronger than those positions; a balanced inference is preferable to assuming direct promotion.",
+          "sources": [
+            "faith",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Religious symbols can express legitimate inherited public culture.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Official recognition of inherited festivals should continue.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Public office should not follow automatically from religious rank.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His protection of churches and public religious life supports preserving fiscal privileges for worship, but conversion and family rhetoric alone cannot establish the strongest endorsement of exemptions beyond secular charities. This remains a qualified institutional inference.",
+          "sources": [
+            "faith",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Civil marriage should not depend on religious consent.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his public Christianity within civil government: Civil family law should retain exclusive binding authority.",
+          "sources": [
+            "faith",
+            "rnc",
+            "family"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "The convention speech centres marriage, fatherhood and inherited family responsibilities against perceived hostility to the nuclear family.",
+      "counterEvidence": "Support for motherhood need not imply excluding women from work; political change can be rapid while preferred family norms are traditional.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Established customs deserve priority over rapid value shifts.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Continuity should guide social expectations.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his nuclear-family and inherited-duty programme: social recognition should not depend on the traditional household form; balanced against the consideration that society should retain a special preference for established family forms. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Complementary inherited roles merit social encouragement.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Marriage should retain its traditional sex-specific definition.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: The established married-parent model deserves social encouragement.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Abortion should remain morally disfavoured even where legally available.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Parents should be able to withhold conflicting school instruction.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his nuclear-family and inherited-duty programme: parental suitability need not depend on the couple’s sex; balanced against the consideration that traditional parental complementarity deserves preference. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Inherited modesty norms should continue shaping public conduct.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Shared inherited categories should not be displaced by personal identification.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Intergenerational continuity should take precedence.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his nuclear-family and inherited-duty programme: nontraditional roles should receive equal social respect; balanced against the consideration that society may prefer inherited sex-specific roles. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Durable institutions require measured change.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: School instruction should remain constrained by traditional family values.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his nuclear-family and inherited-duty programme: Historical continuity can itself justify retaining a custom.",
+          "sources": [
+            "rnc",
+            "faith"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "The Paris speech explicitly prefers AI opportunity and deployment over precautionary overregulation, with worker benefits as a condition.",
+      "counterEvidence": "He says AI should augment workers, so the job-replacement premise receives a mixed response. Elective implants and embryo editing involve different safety and moral trade-offs.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Early benefits can justify wider use before complete long-term knowledge.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "At Paris Vance explicitly prioritised broad AI development over precautionary restriction and warned that regulation would entrench incumbents. That is a strong basis for rejecting a general small-trial-only rule while substantial long-term risk evidence accumulates; it is not a demand to ignore all safety evidence.",
+          "sources": [
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Substantial public benefits can outweigh some permanent habitat loss.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Paris argument for technological opportunity: medical deployment needs evidence beyond immediate benefit; balanced against the consideration that basic demonstrated safety may justify access before long-term study. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mixed inference. At Paris he argues that AI should augment rather than replace workers and promises workforce training and participation. Productivity supports adoption, but the question expressly assumes many jobs disappear, which conflicts with his stated condition. This is a conditional response, not an assertion that he endorsed mass displacement.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Public development needs may outweigh keeping habitats untouched.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Paris argument for technological opportunity: controlled adoption can proceed despite remaining environmental uncertainty; balanced against the consideration that food-system novelty warrants more evidence before substitution. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Elective invasive enhancement warrants strong long-term evidence.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Innovation can be preferable to restraining consumption.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Public need can justify proceeding with proportionate mitigation.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Paris argument for technological opportunity: adult consent can justify access despite residual uncertainty; balanced against the consideration that basic safety alone is inadequate for invasive elective enhancement. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Diagnostic reliability across patient groups is a prerequisite.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Heritable enhancement crosses an ethical or precautionary boundary.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Paris argument for technological opportunity: widespread cultivation needs a robust ecological evidence threshold; balanced against the consideration that managed early evidence can suffice without waiting for long-term certainty. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Paris argument for technological opportunity: Necessary built capacity can outweigh preserving unused land.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Paris argument for technological opportunity: potentially irreversible damage warrants a strong evidence threshold; balanced against the consideration that large expected benefits can justify managed residual irreversible risk. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Federal security and industrial priorities coexist with US state institutions and local control in domestic life.",
+      "counterEvidence": "Opposing foreign regulation does not prove support for regional secession or full federal control of all services.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Regional institutions need protected room to disagree.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: A common state needs final national authority in disputes.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: The national union cannot be dissolved by a single regional vote.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Nationwide programmes can take precedence over regional refusal.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Regions can define their institutions within national rights.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Policing should remain principally regional or local.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Local fiscal responsibility warrants keeping most local receipts.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Regions should control compulsory subjects within broad rights.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Local democratic priorities can justify different tax rates.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his federal framework with national security powers: workers should have common national employment guarantees; balanced against the consideration that regional conditions can justify different labour rules. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His federalist domestic framework leaves municipalities under state and local institutions. The question excludes national permission, not state approval; modest agreement better reflects that allocation.",
+          "sources": [
+            "rnc",
+            "family"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his federal framework with national security powers: common entitlement warrants nationally defined coverage; balanced against the consideration that regions should choose their own additional or differing coverage. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his federal framework with national security powers: self-government can protect local Indigenous institutions; balanced against the consideration that a common citizenship framework should govern local authority. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Regions should remain free to attract activity through tax choices.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Contained local effects justify regional decisions.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his federal framework with national security powers: Cross-regional emergencies justify coordinated national command.",
+          "sources": [
+            "ai",
+            "rnc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "His personal and political account gives family instability, community, faith and opportunity causal roles in behaviour and recovery.",
+      "counterEvidence": "The account does not deny inherited temperamental or health variation; social conservatism should not be mistaken for a racial-genetic theory.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His account of family instability and his grandparents’ guidance gives upbringing a substantial explanatory role. It supports moderate cultural primacy, not a demonstrated universal claim that biology has little effect.",
+          "sources": [
+            "family",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Education and conditions better explain cross-country scores.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his account of family instability, training and recovery: expectations and upbringing explain more than sex-linked biology; balanced against the consideration that sex-linked dispositions receive greater explanatory weight. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Experience and surroundings receive greater weight in stress response.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His path from an unstable childhood through military service and education makes changing opportunities a plausible explanation of interests. Generalising this biography to all people warrants moderate agreement only.",
+          "sources": [
+            "family",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Learning and experience primarily shape risk tolerance.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His emphasis on family obligations, workplace participation and worker training treats cooperation as cultivated through institutions. The broad causal comparison remains a moderate inference.",
+          "sources": [
+            "family",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Relationships and social experience primarily shape empathy.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Experience and environment receive greater causal weight.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Moral learning and culture are weighted more heavily.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Experience and social learning chiefly shape perceived threats.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his account of family instability, training and recovery: stable inherited dispositions receive greater explanatory weight; balanced against the consideration that social formation and experience receive greater explanatory weight. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His preference for inherited family customs allows learned ideals of beauty, while his emphasis on durable male-female differences leaves room for predispositions. Neither determines the cause of physical attractiveness preferences; neutral explicitly balances both mechanisms without substituting views about sexual orientation.",
+          "sources": [
+            "family",
+            "faith"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his account of family instability, training and recovery: Social context and upbringing are favoured over racial heredity.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "He credits guidance and disciplined environments with changing behaviour. That supports learned self-control over inherited racial tendencies, without claiming that one biography proves a universal scientific comparison.",
+          "sources": [
+            "family",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his account of family instability, training and recovery: occupational output or market valuation is weighted above social expectations; balanced against the consideration that social expectations and opportunity are weighted above intrinsic economic difference. This is a balanced application of those principles to this condition, not a claimed personal answer.",
+          "sources": [
+            "family",
+            "faith",
+            "rnc"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/thinker_assessments (not the original assessor)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent audit read all 240 exact questions and 15 briefs/counters. Reopened APP Paris speech, Roll Call September transcript, Axios context and official biography; added ABC News reporting of his judicial-review statements and current IRS/White House tax evidence. AP faith URL was inaccessible on this pass and is retained as earlier assessor evidence, not claimed reread. Corrected executive legislation/sole-policy authority, opposition oversight and party exclusion, judicial review, skills-only immigration strength, progressive tax rates, benefits conditionality versus expiry, religious funding/exemption strength, substantial evidence wording, national versus state municipal approval, and overconfident generalisation of biography to trait causation. Reduced four strong culture scores to qualified inference and made attractiveness explicitly mixed. Removed repeated whole-axis boilerplate. All changes concern evidence and literal wording, never a score target; portraits preserved. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}

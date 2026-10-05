@@ -1,0 +1,2384 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "ideology",
+  "id": "nationalist-conservatism",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex assessment agent /root/liberal_conservative (AI-assisted doctrinal interpretation)",
+  "changeNote": "Completed 240 independently considered answers to the current bank from the scoped doctrine. No imported 12Axes vectors or score targets. User authorised neutral answers and completion on 2026-10-04. Conditional modern applications and mixed-causation modelling are explicitly inferred, not claims of direct statements or scientific findings. Independent review completed on 2026-10-04; question-meaning and evidence corrections are recorded in review notes.",
+  "metadata": {
+    "name": "Nationalist Conservatism (2022 NatCon principles)",
+    "description": "The national-conservative school articulated in the Edmund Burke Foundation statement of 2022; not ethnic supremacism, all nationalisms, or every policy of its signatories.",
+    "category": "Conservative",
+    "period": "Western national-conservative statement, 2022",
+    "scope": "The national-conservative school articulated in the Edmund Burke Foundation statement of 2022; not ethnic supremacism, all nationalisms, or every policy of its signatories. This is a representative interpretation of the specified doctrine, not answers personally submitted by every adherent. Modern technological questions apply the doctrine conditionally. Trait-specific neutral responses express a stated mixed-causation model where the doctrine rejects a single fixed causal priority; they are not empirical scientific estimates.",
+    "phrase": "A society organised around an independent nation, shared traditions, family institutions and a public role for its religious heritage."
+  },
+  "sources": [
+    {
+      "id": "natcon",
+      "title": "National Conservatism: A Statement of Principles",
+      "url": "https://nationalconservatism.org/national-conservatism-a-statement-of-principles/",
+      "publisher": "Edmund Burke Foundation",
+      "date": "2022-06-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "con",
+      "title": "Conservatism",
+      "url": "https://plato.stanford.edu/entries/conservatism/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "date": "2025-07-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "natnews",
+      "title": "National conservatism is reshaping the Republican Party",
+      "url": "https://apnews.com/article/national-conservativism-conference-schmitt-a27e3b489dcf768dbebfc927f5e4a1d0",
+      "publisher": "Associated Press",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "The 2022 declaration endorses constitutional restraints and representative legislatures while criticising judicial policy-making.",
+      "counterEvidence": "Later adherents' executive-power rhetoric is counter-evidence; the declaration is not a licence to infer support for coups or cancelled elections.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Representative national self-government requires regular popular consent.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert administration cannot displace nationally elected institutions.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal national citizenship supports broad adult suffrage.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A strong executive remains subject to constitutional division of powers.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Representative government requires lawful opposition participation.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Legislative oversight checks misuse of national resources.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional review is accepted, distinguished from judicial policy-making.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union elites cannot replace the national electorate.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Mere political disagreement is insufficient for incumbent exclusion.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Popular national consent supports defined referendum mechanisms.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strong leadership does not abolish the declared division of powers.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional removal protects the inherited legal order.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unilateral suspension conflicts with representative national government.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Popular accountability and stable inherited institutions require balancing.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The declaration's limited-state commitment rejects unaccountable rule.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Military replacement would violate lawful constitutional continuity.",
+          "sources": [
+            "natcon",
+            "con",
+            "natnews"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Public morality, family protection and order qualify individual liberty.",
+      "counterEvidence": "The declaration also expressly protects adults from ideological or religious coercion in their homes.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Addictive conduct is treated as a threat to families and public welfare.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Judicially authorised surveillance fits strong lawful enforcement.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Road obstruction conflicts with priority for public order.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional expression remains protected despite moral disagreement.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protective paternalism and adult private freedom pull in different directions.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security information may be useful, but indiscriminate tracking threatens limited government.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public road safety justifies preventive intoxication checks.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A judicially established serious danger warrants protective restriction.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The declaration treats pornography and destructive habits as public concerns.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private freedom and accountability for harmful online activity require balance.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Serious local violence can warrant broader preventive measures.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Likely serious disorder fits the explicit insistence on restoring order.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protection of private homes requires lawful independent safeguards.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Misconduct exposure competes with state security and legal confidentiality.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lawful personal defence fits Anglo-American liberty traditions.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Unreviewable indefinite detention exceeds a constitutionally limited state.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Shared language, inherited religion and national traditions anchor belonging.",
+      "counterEvidence": "Minority communal institutions are protected; cultural priority is not equivalent to racial supremacy.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National cultural continuity has priority in public conflicts.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Accommodation cannot routinely displace common institutions or their priorities.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Settlement should entail adopting central national customs.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private heritage is allowed within overriding shared national allegiance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Shared language is a defining national institution.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Minority heritage can be acknowledged without displacing the common nation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cultural funding should sustain inherited national traditions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Distinct identities cannot override the nation's shared institutional culture.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common religious and civic rhythms support national continuity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Minorities may be recognised within a predominant national tradition.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration into national civic life is explicitly central.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Separate linguistic provision should not entrench communal separation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family formation should transmit loyalty to the common nation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious accommodation does not automatically defeat general public restrictions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private plurality is protected while public culture remains predominantly shared.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common national customs are the preferred integration goal.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The declaration favours substantial immigration restraint until assimilation is supported.",
+      "counterEvidence": "It recognises potential benefits of immigration but prioritises cohesion and national consent.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strict capacity-sensitive limits support manageable assimilation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal improvement does not override the receiving nation's priorities.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selection should favour contributions to national welfare.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Immediate family unity supports stable social institutions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Humanitarian admission remains conditional on national capacity and security.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Illegal settlement conflicts with national borders and the rule of law.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Employer demand cannot override cohesion and public capacity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and service pressure justify lower admission.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family migration remains part of overall national planning.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Employment is relevant but does not establish an entry entitlement.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Established sponsors support responsibility and integration.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The declaration prioritises assimilation and national contribution over expanding admission generally. Applied to graduate routes, it favours additional evidence of attachment or national need rather than making graduation itself the qualifying basis.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protection duties and capacity constraints require exceptional-case judgment.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cultural compatibility matters within the declaration's assimilation criterion.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Established residents may receive protection while admission-related dependency is discouraged.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expanding diversity is not the aim of national admission policy.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Rearmament and defensive alliances coexist with rejection of imperialism and remaking foreign nations.",
+      "counterEvidence": "National strength does not imply neoconservative democracy-promotion wars.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protective interests can justify force, but imperial expansion is rejected.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Independent nations should cooperate peacefully where possible.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible deterrence needs substantial defence investment.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Imminent attack can justify necessary national defence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A defence-centred presumption restrains external ideological ventures.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared national duty can support military training obligations.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Major concessions can invite aggression against sovereignty.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Defence innovation and responsibility for lethal decisions both matter.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The declaration's anti-imperialism favours defence over foreign remaking.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Defensive alliances require action when partners face aggression.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defensive alliances may require sustained capability beyond borders.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Territorial bargaining is preferable to initiating unnecessary war.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible threats can deter serious attacks on national interests.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Avoiding war and demonstrating deterrence must be balanced.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protective intelligence serves national independence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mutual reductions are acceptable only with preserved credible defence.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Independent nation-states should cooperate without transferring governing authority to supranational bodies.",
+      "counterEvidence": "Treaties and alliances are explicitly allowed; sovereignty is not a rejection of every international rule.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National institutions retain final legal authority.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The statement expressly rejects supranational displacement of elected governments.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic constitutional authority takes priority over external rulings.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defensive alliances can legitimately involve durable mutual commitments.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National consent includes the power to leave international arrangements.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Binding external jurisdiction threatens independent national government.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National welfare outranks international institutional goals when they conflict.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Environmental cooperation should preserve national decision-making.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Compulsory common foreign policy erodes independent statehood.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "National legal traditions should not be externally rewritten.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Independent monetary authority preserves national economic self-government.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Voluntary joint projects are explicitly compatible with independent nations.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Border authority belongs to the independent national community.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Trade treaties are acceptable forms of free interstate cooperation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political federation contradicts the preferred order of independent nations.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Collective rules matter when compatible with sovereign national duties.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private enterprise serves national welfare, with strategic intervention against dependency.",
+      "counterEvidence": "The declaration rejects socialist planning and crony capitalism; strategic intervention need not mean state ownership.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private property and enterprise are explicitly endorsed.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Utility ownership depends on security and public welfare.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private enterprise is preferred when public functions are equally protected.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary state competition lacks the strategic justification required.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Healthcare ownership should serve families and national welfare pragmatically.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Rail ownership is an institutional means rather than a doctrinal end.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private delivery is acceptable when access and national obligations survive.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public banking needs a strategic function beyond duplicating markets.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Sales must be tested against sovereignty and long-term capacity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family housing security permits mixed ownership mechanisms.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "If regulation truly secures interests, private ownership remains preferred.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Resource sovereignty can be protected through ownership or regulation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Routine competitive provision fits free-enterprise principles.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic national independence can outweigh sale receipts.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A failing business may retain strategic value despite losses.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A public broadcaster can sustain shared national cultural institutions.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "National industrial independence qualifies free trade, particularly concerning hostile powers.",
+      "counterEvidence": "The declaration permits treaties and competition, so protection is selective rather than total autarky.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protection can defend important domestic productive capacity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Removing most barriers can sacrifice strategically necessary industries.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Procurement can sustain national production despite higher prices.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Efficient sourcing must be balanced against strategic dependence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential domestic capacity warrants protection against dangerous dependence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Unilateral concessions need evidence of national benefit.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary protection can rebuild important manufacturing capabilities.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Foreign investment is useful where it respects national interests.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic food capacity contributes to national resilience.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Competitive adjustment and preserving critical capacity have competing claims.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reciprocal tariffs may defend national industries against unfair treatment.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal taxes are reasonable except where strategic national policy qualifies them.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Hostile state subsidies can justify defensive trade measures.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Dependence on essential suppliers can outweigh tariff removal.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign control of strategic businesses threatens independence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Digital services should remain open unless security or public-order interests require limits.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "The declaration endorses markets while directing research and critical industry toward national goals.",
+      "counterEvidence": "Anti-socialism rejects comprehensive output planning even while public research and industrial policy expand.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary businesses remain responsible for production decisions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Compulsory targets overreach beyond selective national priorities.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Markets generally set prices with public-welfare exceptions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic manufacturing and defence research warrant coordinated investment.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Consumer demand matters unless closure destroys critical capacity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Essential affordability can justify measures that preserve supply.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary competitive entry should remain open.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Priority finance can support strategically important industry.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Capital movement is acceptable unless it undermines independence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Critical industrial development explicitly warrants public support.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Monetary innovation competes with sovereign financial stability.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family-supporting wages fit national social welfare priorities.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary wage negotiation is compatible with a protective floor.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National economic goals matter alongside monetary discipline.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family housing affordability and private investment require balance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The declaration explicitly rejects a rational state plan governing all activity.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Family stability and national solidarity justify targeted support without egalitarian economic levelling.",
+      "counterEvidence": "Private property and opposition to socialism limit general redistribution; support need not be uniformly low.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cohesion can justify transfers without making equal outcomes the goal.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Income differences alone do not establish a claim for taxation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A family-supporting minimum can justify public resources.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support should secure stability rather than extensively equalise living standards.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Progression is permissible but weighed against enterprise and family property.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Retention and family support deserve a context-sensitive balance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Intergenerational family continuity weighs against heavy inheritance redistribution.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Work obligations matter, but family needs can outlast a deadline.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Concentrated wealth and property security present competing considerations.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Fiscal restraint cannot automatically outweigh family stability.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National community membership requires meaningful social participation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family-supporting benefits can compete legitimately with tax cuts.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Low-paid working families are appropriate recipients of targeted assistance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tax rates should serve national welfare rather than a universal flat-rate doctrine.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Redistribution of land conflicts with secure family property absent exceptional need.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family policy can extend beyond immediate destitution.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "The declaration explicitly favours a public Christian moral foundation in Christian-majority nations.",
+      "counterEvidence": "Minority worship and adult private conscience are expressly protected; public religion does not necessarily mean clerical government.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious moral teaching is a legitimate foundation of public law.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Scriptural principles may have recognised legislative influence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil government remains institutionally distinct from clerical approval.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Honouring a Christian-majority nation’s religious inheritance at state level supports formal constitutional recognition as an inference. The declaration does not prescribe a particular constitutional clause or require clerical government.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religions may be taught broadly while Christianity has public priority.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The declaration gives the Bible educational priority as shared civilisational inheritance, including for nonbelievers, while protecting private conscience. That mixes religious public culture with freedom of belief rather than unambiguously requiring instruction intended to cultivate faith.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Enacted civil law remains authoritative despite religious inspiration.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Formal religious consultation is compatible, but a clerical veto is not required.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious worship appropriately forms part of national ceremony.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public support may sustain the nation's religious inheritance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Public religious symbols legitimately express national heritage.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Religious festivals should structure public recognition and national continuity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious leaders may have traditional roles without a universal entitlement to seats.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious institutions merit support beyond narrow service provision.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Civil marriage and religious moral requirements require institutional reconciliation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protected communal institutions do not automatically entail binding separate courts.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Traditional marriage, family fertility and sex distinctions underpin national continuity.",
+      "counterEvidence": "The declaration protects private adult conscience, so public traditionalism does not entail every private coercion.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Substantial change risks dissolving inherited national institutions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Longstanding traditions have priority over transient cultural preferences.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The traditional family retains a preferred public status.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Distinct male and female family roles are affirmatively valued.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The inherited marriage model is defined around man and woman.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The married two-parent household is central to family policy.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Continuity of life and family obligations qualify early abortion acceptance.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parents and religious communities direct children's moral education.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Traditional parental complementarity weighs against equivalent social status.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public modesty supports inherited moral conventions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Its preference for inherited male-female distinctions and resistance to radical sexual experimentation favours retaining established language conventions over revising them around self-identification. This is a social preference, not an inference that the question requires legal compulsion.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Transmitting inherited moral customs is an explicit priority.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Traditional role complementarity remains a preferred social pattern.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional continuity requires careful gradual change.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Public teaching should not override inherited family sexual norms.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Connection across generations is itself a reason for preservation.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Large-scale defence science and industrial renewal coexist with moral and ecological caution.",
+      "counterEvidence": "Support for public research does not establish blanket enthusiasm for human enhancement.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Useful technology can restore national productive and strategic strength.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Trial limits depend on security benefits and concrete risks.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Major national infrastructure can justify limited environmental trade-offs.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protecting families supports strong medical safety requirements.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Productivity innovation is legitimate when national employment capacity survives.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Stewardship and national development require balancing.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Food innovation must be judged against family, farming and safety concerns.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Invasive human enhancement demands robust long-term safeguards.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Technological capacity is favoured as a means of sustaining national prosperity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Environmental investigation matters without an unlimited veto on renewal.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Basic evidence is insufficient for irreversible alteration of healthy people.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Trustworthy diagnosis requires demonstrated performance across patients.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Heritable enhancement conflicts with inherited human and family moral limits.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Long-lived ecological exposure warrants careful evidence.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing and transport can support family formation and national renewal.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Irreversible harm deserves stronger caution than reversible productive innovation.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "The declaration endorses federal variation but allows energetic national intervention where order collapses.",
+      "counterEvidence": "This explicit exception prevents interpreting its federalism as absolute regional sovereignty.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Federal delegation allows variation and protects local institutions.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Constitutional competence matters, with national intervention in grave breakdowns.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National continuity and minority obligations constrain simple secession votes.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A serious obstruction of national justice can justify intervention.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regional constitutional institutions fit divided national power.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local policing is preferred unless serious lawlessness demands intervention.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local fiscal responsibility supports real decentralised authority.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National cultural inheritance and local educational institutions both matter.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Fiscal variation supports regional experimentation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National welfare floors coexist with regional institutional diversity.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local traditions and consent deserve control over local arrangements.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Common welfare requirements need not dictate every local treatment choice.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Communal self-government fits protected local institutions under national law.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National solidarity may justify limits without suppressing all tax variation.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Wholly local ecological effects support regional responsibility.",
+          "sources": [
+            "natcon"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A multi-region disaster is a core national coordination responsibility.",
+          "sources": [
+            "natcon"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "The declaration stresses family cultivation, national tradition and sex differences while expressly rejecting racial superiority.",
+      "counterEvidence": "Religious human nature is not a psychometric theory. Mixed trait answers do not claim genetic causal percentages.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Traditions and family upbringing cultivate habits and loyalties.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International IQ comparisons involve education, health, measurement and inheritance; the scoped doctrine does not assign a stable causal priority. This representative response adopts a mixed model rather than inferring biology from citizenship or tradition.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Male-female embodiment is given a substantive role alongside socialisation.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Bodily dispositions and social experience jointly affect stress.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and national institutions shape interests and aspirations.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Risk behaviour combines disposition and learned discipline.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cooperation grows through family, congregation and national community.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Empathy requires human capacities and moral cultivation.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Attention reflects individual constitution and social conditions without a fixed hierarchy.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The doctrine emphasises transmitted moral traditions over biological reflex alone.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Historical memory and communal experience shape perceived threats.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Temperament can reflect both innate disposition and formation.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Embodied attraction and cultural ideals interact without a settled causal priority.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The statement rejects judging worth or loyalty by race but that moral rule does not establish crime causation. The representative model considers circumstances and individual dispositions without assigning biological priority to racial categories.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Moral discipline is cultivated in families rather than inherited through race.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Sex differences, choices and social expectations all remain relevant to pay.",
+          "sources": [
+            "natcon",
+            "con"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex independent assessment reviewer /root/socialist_green (separate from author)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 answers against the current bank and checked the scoped primary doctrine plus scholarship/context. No scores or desired locations were consulted. Reviewed literal government authority, ownership versus funding, official religious review versus veto, graduate routes versus guaranteed residence, military initiation versus response, and causal claims versus moral equality. Corrections: restricted-immigration-open-immigration-12: 1 -> 1; secular-religious-06: 1 -> 0; secular-religious-04: 2 -> 1; progressive-traditionalist-11: -2 -> -2. The inferred modern-policy answers and mixed causal models remain representative applications, not documented answers by every adherent or scientific causal estimates. Similarity review is a subsequent mechanical check. Re-read all ten 2022 principles. AP reporting on later adherents is counter-evidence about the movement, not substituted for the scoped declaration or treated as a comprehensive government record. Validation returned zero errors. Explicitly examined neutral-count warnings: public-private 8/16, protectionism-free-trade 5/16, planning-free-market 6/16, high-redistribution-low-redistribution 9/16, secular-religious 6/16, central-local 6/16, culture-nature 9/16. Retained condition-dependent policy tradeoffs and representative interaction models; in particular the Culture vs Nature neutrals withhold causal primacy rather than converting equal rights into empirical proof. High neutrality records weaker doctrinal determination and must not be presented as a precisely measured consensus among adherents. No answers were changed after inspecting validation scores.",
+    "similarity": []
+  }
+}

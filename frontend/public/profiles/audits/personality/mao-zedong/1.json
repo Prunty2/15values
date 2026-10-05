@@ -1,0 +1,2641 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "mao-zedong",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Mao Zedong",
+    "description": "Founding leader of the People’s Republic of China who pursued collectivisation, mass political campaigns and the Cultural Revolution.",
+    "category": "Political leader",
+    "period": "1949–1976",
+    "scope": "Personal positions and governing conduct during 1949–1976; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "Chinese Communist leader",
+    "lifespan": "1893–1976",
+    "image": {
+      "path": "profiles/images/mao-zedong-r1.jpg",
+      "alt": "Portrait of Mao Zedong",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mao_Zedong_1950_Portrait_(3x4_cropped)(2).jpg",
+      "creator": "Chen Zhengqing (1917–1966)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "contradictions",
+      "title": "On the Correct Handling of Contradictions among the People",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-5/mswv5_58.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "1957-02-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "chronology",
+      "title": "A Chronology of the PRC under Mao Zedong,1949–1976",
+      "url": "https://afe.easia.columbia.edu/special/china_1950_prc_timeline.htm",
+      "publisher": "Columbia University",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nature",
+      "title": "Mao’s War Against Nature: Legacy and Lessons",
+      "url": "https://doi.org/10.1017/S1598240800000461",
+      "publisher": "Cambridge University Press",
+      "date": "2016-03-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "human-nature",
+      "title": "Talks at the Yenan Forum on Literature and Art",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-3/mswv3_08.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "1942-05-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "founding",
+      "title": "The Chinese People Have Stood Up",
+      "url": "https://www.marxists.org/reference/archive/mao/selected-works/volume-5/mswv5_01.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "1949-09-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "straits",
+      "title": "The Taiwan Straits Crises: 1954–55 and 1958",
+      "url": "https://history.state.gov/milestones/1953-1960/taiwan-strait-crises",
+      "publisher": "US Department of State",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Party leadership and dictatorship over designated enemies excluded competitive national government.",
+      "counterEvidence": "Mass criticism could challenge officials, but did not establish independent multiparty elections or constitutional accountability.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Rejected Western alternation between governing and opposition parties.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Experts subordinate to political leadership and mass line.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Class enemies denied voting rights despite broad formal franchise.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Leadership campaigns could override representative institutions.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Opposition equality contradicts dictatorship over reactionaries.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Scrutiny conducted within authorised political campaigns.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Courts could not independently veto party leadership.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unions not sovereign selectors outside party guidance.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Opponents of socialist construction excluded as enemies.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Autonomous repeal would challenge central political direction.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Personal authority and campaigns concentrated national decisions.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Removal of party leaders followed power struggles, not protected constitutional process.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Scheduled competition not allowed to bind revolutionary continuity.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mass removal campaigns welcomed but formal independent recall not established.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Mass-line claims did not produce accountable competitive government.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Army expected to follow the party, not replace it independently.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Revolutionary discipline and the enemy/people distinction placed coercive limits on civil liberty.",
+      "counterEvidence": "Encouraged criticism and mass protest when politically authorised; these exceptions do not establish universal rights.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Personal vice conflicts with socialist collective discipline.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Security surveillance consistent with counter-revolutionary suppression.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Some mass protest encouraged, but no general independent right.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Criticism judged by socialist loyalty, not protected despite offence.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective health and productive duty outweigh personal refusal.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Population supervision fits control of political enemies.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public safety enforcement compatible with obligatory regulations.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive restraint fits coercive suppression of threats.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Access subject to political and moral approval.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unregistered services would evade ideological supervision.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Threat-based collective searches fit security practice.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Serious disorder justifies administrative prohibition.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent judicial permission cannot constrain political suppression.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Revelation acceptable only within approved campaigns, not general right.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Armed masses mobilised under party direction, not independent personal entitlement.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Enemies could be restrained until political authorities considered them transformed.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Multiple nationalities recognised within one socialist Chinese political community.",
+      "counterEvidence": "Anti-Han-chauvinist language coexisted with coercive cultural transformation and attacks on older customs.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared socialist unity prevails over conflicting cultural practice.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Nationalities policy permits differentiated provision.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared socialist conduct expected, not every Han custom.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National identity can include minority identity under common allegiance.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common communication favoured while minority languages recognised.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multi-national recognition supports acknowledgement, bounded by unity.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Funding served revolutionary culture more than inherited predominant customs.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Separate identities cannot supersede common socialist construction.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common revolutionary schedule favoured over conflicting celebrations.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Several nationalities explicitly belong within China.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Participation in common revolutionary life strongly preferred.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local accommodation possible but not unconditional foreign-language priority.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family socialisation should produce socialist national solidarity.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious-cultural exemption secondary to common state rules.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official multi-national identity recognises distinct ways of life.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Programmes emphasise common socialist norms while retaining selected local forms.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Movement and settlement were planned and security-controlled, with selective solidarity for political allies.",
+      "counterEvidence": "International revolutionary solidarity differs from an unrestricted individual immigration right.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Planned labour and housing imply strict admission controls.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Individual settlement preference subordinate to national socialist construction.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Political solidarity could support admission independently of occupational skills, even though useful specialists were valued. Skills were therefore not the exclusive basis of an otherwise controlled system.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family unity balanced against state settlement controls.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Refuge for aligned causes does not imply unconditional admission.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unauthorised presence inconsistent with controlled residence.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Employer demands cannot determine national labour allocation.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Resource constraints and planned provision justify limits.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family admission would be administered within population planning.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A private job offer cannot override political permission.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State or collective permission differs from the employer-or-family sponsorship specified here. Organised recruitment supports supervision, while political solidarity could admit people independently of those sponsors.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Study completion would not establish automatic settlement rights.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Solidarity with persecuted allies balanced by security screening.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Revolutionary alignment more important than mere cultural similarity.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Approved resident workers could receive provision; outsiders lacked universal entitlement.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Cultural difference alone would not justify expanded settlement.",
+          "sources": [
+            "founding",
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Korea and revolutionary defence demonstrate willingness to deploy force; diplomacy and accommodation also occurred.",
+      "counterEvidence": "Later rapprochement with the United States and armistice-making qualify a uniformly maximal military posture.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Force beyond direct attack permissible for revolutionary security.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diplomacy and struggle alternated according to strategic conditions.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Defence capacity worth substantial resources despite development needs.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible imminent aggression supports pre-emptive defence.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Korean intervention alone does not disprove defence of an ally. However, the 1954 and 1958 bombardments to advance territorial and strategic objectives support a broader willingness to use force; his framing of these as sovereignty disputes qualifies rather than removes that inference.",
+          "sources": [
+            "straits",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Mass mobilisation and national defence support compulsory training.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Major concessions constrained by sovereignty and revolutionary commitments.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military effectiveness supports conditional adoption under party command. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Forward defence and revolutionary assistance exceed homeland-only operations.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unconditional avoidance conflicts with armed revolutionary defence.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Korean operations demonstrate prolonged combat capability abroad.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tactical settlements possible, but territorial claims could justify force.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military pressure available in serious disputes.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Demonstrating resolve often outweighed avoiding escalation.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Security struggle supports intelligence against opponents.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated limitation acceptable only if compatible with revolutionary security.",
+          "sources": [
+            "chronology",
+            "founding"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Independence from foreign domination remained central alongside socialist alliances and international solidarity.",
+      "counterEvidence": "Sino-Soviet cooperation and later US rapprochement were real, but neither erased insistence on independent Chinese authority.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Chinese institutions retain sovereign domestic authority.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Opposed subordination to foreign-directed decisions.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National sovereignty outweighs external judicial claims.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sino-Soviet treaty illustrates strategic alliance commitment.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Independent China retains right to revise alignments.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External courts could not govern party-state conduct.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National revolutionary interests outrank external institutional goals.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cooperation on shared problems compatible, external override resisted.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Soviet alliance supported coordination, but the eventual split demonstrated resistance to subordinating Chinese foreign policy. A bloc requiring a common foreign policy conflicts with that retained independence.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External rights supervision conflicts with revolutionary sovereignty.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National development requires own monetary authority.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International solidarity permits pooled resources for shared aims.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Admission decisions remain sovereign state functions.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated trade acceptable, but not unconditional external discipline.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sovereignty struggles weigh against political absorption.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Collective action conditional on revolutionary and national priorities.",
+          "sources": [
+            "founding",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Transition culminated in public and collective enterprise rather than general private ownership.",
+      "counterEvidence": "Early joint state-private firms and interest payments were transitional concessions, not a permanent market-ownership ideal.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private majority incompatible with socialist transformation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Utility assets belong within collective development.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Public ownership favoured as socialist social relation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State enterprise central to industrial construction.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Health provision organised through public and collective structures.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Railways strategic public infrastructure.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private contracting would reintroduce exploitation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public banking supported; permanent private banks inconsistent with eventual transformation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Sales to private owners reverse socialism.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public and collective bodies should organise housing provision.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Security enterprises should be collectively owned.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Natural resources part of public productive foundation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Routine services can be supplied by public or collective units.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic control preserved over commercial sale proceeds.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Collective restructuring preferable to capitalist disposal.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State broadcasting serves national socialist education.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Self-reliance and planned external exchange prevailed over open international competition.",
+      "counterEvidence": "Foreign technology, Soviet assistance and later Western contacts qualify complete economic isolation.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection supports independent socialist industrial capacity.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unrestricted market opening inconsistent with planned exchange.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Procurement should sustain national construction.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign sourcing subject to central priorities.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential domestic capability protected despite cost.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unilateral liberalisation undermines self-reliance.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Infant industrial sectors protected during development.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign capital cannot receive unconditional equal operating rights.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Food production prioritised under planned agriculture.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Domestic production follows social plans rather than import competition.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Retaliatory restrictions compatible with sovereign exchange policy.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Product treatment subordinate to planned allocation.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Subsidised foreign competition could justify import controls.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Agreements useful, but growing dependency a constraint.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic businesses kept outside foreign control.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unrestricted imported services conflict with planned and ideological control.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Mao explicitly defended continuous state adjustment of production and consumption through economic plans.",
+      "counterEvidence": "Decentralised commune production and campaigns differed from Soviet bureaucracy but not from market allocation.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Production oriented to socialist plans.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Great Leap imposed politically chosen production targets.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Prices subordinate to planned distribution.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Investment allocated toward national industrial goals.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Consumer demand cannot independently determine enterprise survival.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential supply subject to public allocation and pricing.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Industry entry follows collective economic priorities.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Credit should serve planned sectors.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unapproved capital flight contradicts socialised resources.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Selected industries supported to transform production.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private monetary competition incompatible with national planning.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wage minima determined collectively rather than private bargaining.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Wages subordinate to socialist planning.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Monetary policy supports national productive targets.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Housing prices not left to competitive bidding.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "1957 speech expressly requires ordinary continuing production coordination.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Egalitarian class transformation supports redistribution, but production and collective provision were more central than cash transfers.",
+      "counterEvidence": "Some differences by labour remained; confiscatory land reform differs from the question’s compensated redistribution.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Class equalisation supports reducing disposable-income gaps.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Income inequality considered politically significant, not irrelevant to taxation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Basic collective security supports stronger minima.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Socialist equality extends beyond a minimal safety net.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Progressive burdens fit struggle against accumulated privilege.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Private retention does not outweigh narrowing class differences.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Large inheritance contradicts removing hereditary class advantage.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Work obligations qualify indefinite support for able-bodied recipients.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Accumulated wealth should serve collective welfare.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Low consumption and productive investment temper benefit generosity.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and collective participation exceed survival.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cutting individual taxes not prioritised over socialist support.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective supplementation can sustain low-paid workers.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal marginal rates would protect high-income privilege.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Land redistribution supported, compensation to landlord class not generally accepted.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Provision aims beyond only extreme destitution.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Secular socialist institutions governed law and education; personal religious belief nominally distinguished from state authority.",
+      "counterEvidence": "1957 persuasion language contrasts with Cultural Revolution religious repression; neither establishes a clerical role.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Policy justified through material and socialist reasoning.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious teachings do not bind national legislation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clergy cannot approve or veto state policy.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "No religion is the socialist constitutional foundation.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Non-confessional teaching more compatible than cultivating faith.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State schools transmit socialist rather than religious doctrine.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil institutions determine legal rules.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious authorities have no independent legislative review role.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Official ceremony centres secular revolutionary institutions.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strengthening religion conflicts with socialist ideological education.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State symbols should represent secular revolutionary authority.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inherited festivals may persist culturally without religious establishment.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clerical office does not confer a government seat.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Special religious tax privilege inconsistent with secular equality.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Marriage reform removes religious or traditional approval barriers.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious family rulings cannot override civil law.",
+          "sources": [
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Marriage reform, women’s mobilisation and attacks on old customs radically changed traditional institutions, without contemporary sexual pluralism.",
+      "counterEvidence": "Gender equality and anti-traditional campaigns do not imply same-sex marriage or unrestricted individual sexual expression.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Revolutionary values justify substantial social reconstruction.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Old customs could be attacked as obstacles to socialism.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Divorce and freer marriage weaken exclusive inherited household status.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Women’s productive mobilisation challenges rigid domestic confinement.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Contemporary revolutionary family model remained opposite-sex; cautious inference.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Coupled family retained despite collective reorganisation.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Changing fertility priorities balance individual choice against collective aims.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Party education supersedes traditional parental veto.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Same-sex adoption does not follow women’s emancipation; conventional model retained.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Austere public presentation consistent with revolutionary discipline.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Collective class categories outweigh individually selected identity conventions.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Revolutionary customs supersede inherited moral tradition.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Women in formerly male work supports cross-role acceptance.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Rapid destruction of old institutions directly contradicts gradualism.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Schooling promoted approved socialist sexuality, not plural orientations.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural Revolution explicitly targeted old customs and cultural forms.",
+          "sources": [
+            "chronology",
+            "contradictions"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Accelerated production and campaigns to transform nature prioritised development over ecological precaution.",
+      "counterEvidence": "Scepticism toward elite expertise and orthodox genetics could reject some innovations despite a strongly transformative orientation.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Promised productive transformation favours rapid deployment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Prolonged trials conflict with urgency of revolutionary construction. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Development gains justify habitat conversion. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Mass health utility could outweigh long follow-up delays. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Productivity and retraining serve collectivised production. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Undisturbed habitats subordinate to construction and cultivation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "New food production fits supply transformation if politically endorsed. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Approved productive enhancement could be deployed before strong long-term safety evidence under his transformative development approach. This is a limited historical inference; the question does not require research to continue indefinitely.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Technical mobilisation preferred to restraining national development. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Environmental uncertainty did not prevent transformative campaigns. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Enhancement utility balanced against collective control rather than personal entitlement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Practical mass deployment favoured over prolonged expert trials. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State-directed enhancement trials fit remaking human capacities, conditional on ideological acceptance. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Agricultural campaigns privileged output over long ecosystem validation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and transport development outweigh undeveloped land. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Transformative urgency outweighs strong precaution against irreversible harm. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "nature",
+            "contradictions",
+            "chronology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Mao alternated decentralised production with national political command; local autonomy was not protected against party direction.",
+      "counterEvidence": "Commune initiatives and criticism of bureaucracy require distinguishing decentralised implementation from independent constitutional power.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local initiative allowed, but cannot bind opposing national leadership.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Central party decides jurisdictional conflicts.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Territorial secession inconsistent with national revolutionary unity.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National campaigns can override regional preferences.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Regional institutions subordinate to national party-state framework.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public security under overall national political command.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Local production resources subject to collective national priorities.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common socialist curriculum supports central compulsory teaching.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent tax-setting incompatible with planned allocation.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Labour policy nationally directed despite local implementation.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Council changes require political sanction rather than autonomous electorate.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National collective health priorities determine coverage principles.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Minority administration exists within stronger national direction.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Fiscal competition should not undermine collective planning.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local adaptation encouraged, but ideological production orders could override.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Multi-region emergency requires central mobilisation.",
+          "sources": [
+            "contradictions",
+            "chronology",
+            "nature"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Mao explicitly grounded human nature, love and hostility in class experience and social practice.",
+      "counterEvidence": "Political classification by family background sometimes became quasi-hereditary; the stated theory nevertheless emphasised remoulding through practice.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Human character has concrete social and class conditions.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inherited national intelligence hierarchy conflicts with transformable social capacity.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Revolutionary transformation of sex roles favours social explanation.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Experience and class circumstances inferred to shape stress responses.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Practice and opportunity form interests.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Courage can be cultivated through struggle rather than inherited alone.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective practice creates solidarity and cooperative habits.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Love and solidarity explicitly connected to social experience.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Learning and practical activity can remake attention habits.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Moral judgement follows social practice and class position.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Hatred and fear arise from concrete oppression and experience.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Temperament subject to ideological remoulding; moderate rather than absolute inference.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Aesthetic preferences develop within class and cultural practice.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Racial biology does not explain conduct under his social theory.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Self-discipline cultivated through revolutionary education and labour.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Socially restricted opportunity better explains pay differences than fixed gender value.",
+          "sources": [
+            "human-nature",
+            "contradictions"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 rationales and matched them to the exact questions, all axis briefs and counter-evidence. Reopened the 1957 contradictions speech, the Columbia chronology and the Yan’an account of socially situated human nature. Corrected employer/family sponsorship versus state permission, skills-only admission logic, and the unsupported inference that Korean intervention alone disproves defence of an ally. Distinguished military alliance from a compulsory common foreign policy and substantial safety evidence from indefinite research. Retained distinctions between local implementation and protected autonomy, gender emancipation and contemporary sexual pluralism, and collectivisation versus cash redistribution. Modern technologies and psychological traits remain explicit historical inferences; mixed answers reflect tensions in policy and doctrine rather than unfilled questions. Portrait and catalogue similarity are checked at integration. Additional source check of the Taiwan Strait bombardments supports limited disagreement with defence-only force; the retained choice now cites that evidence instead of relying on the flawed Korea example. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}

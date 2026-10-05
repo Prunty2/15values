@@ -1,0 +1,2458 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "rosa-luxemburg",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex — primary assessment agent",
+  "changeNote": "Image-only revision: replace the portrait with the main infobox image shown on the subject’s English Wikipedia page, as requested by the owner. All 240 answers, sources, evidence reviews and calculated scores are unchanged.",
+  "metadata": {
+    "name": "Rosa Luxemburg",
+    "description": "Polish-German socialist theorist and revolutionary who advocated collective ownership, workers’ democracy and international solidarity, while opposing imperial war and bureaucratic repression.",
+    "category": "Political thinker",
+    "period": "1898–1919",
+    "scope": "Political writings and activity from her entry into German Social Democracy through the 1918–1919 revolution. Modern policies are explicitly inferred from her principles; she never governed a national administration. Conflicting council and universal-democratic commitments are retained rather than flattened.",
+    "role": "Socialist theorist and revolutionary",
+    "lifespan": "1871–1919",
+    "image": {
+      "path": "profiles/images/rosa-luxemburg-r2.jpg",
+      "alt": "Portrait of Rosa Luxemburg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Luxemburg_(cropped).jpg",
+      "creator": "Unknown photographer",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "revolution",
+      "title": "The Russian Revolution, Chapter 6",
+      "url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/ch06.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "spartacus",
+      "title": "What Does the Spartacus League Want?",
+      "url": "https://www.marxists.org/archive/luxemburg/1918/12/14.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "1918-12-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "churches",
+      "title": "Socialism and the Churches (1905)",
+      "url": "https://www.marxists.org/archive/luxemburg/1905/misc/socialism-churches.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autonomy",
+      "title": "The National Question: Centralism and Self-Government",
+      "url": "https://www.marxists.org/archive/luxemburg/1909/national-question/ch04.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "reform",
+      "title": "Reform or Revolution: Capitalism and the State",
+      "url": "https://www.marxists.org/archive/luxemburg/1900/reform-revolution/ch04.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "women",
+      "title": "Women’s Suffrage and Class Struggle",
+      "url": "https://www.marxists.org/archive/luxemburg/1912/05/12.htm",
+      "publisher": "Marxists Internet Archive",
+      "date": "1912-05-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sep",
+      "title": "Rosa Luxemburg — Lea Ypi",
+      "url": "https://plato.stanford.edu/entries/luxemburg/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "date": "2022-04-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "life",
+      "title": "The Life of Rosa Luxemburg",
+      "url": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxemburg/the-life-of-rosa-luxemburg",
+      "publisher": "Rosa-Luxemburg-Stiftung",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nature",
+      "title": "Frequently Asked Questions about Rosa Luxemburg",
+      "url": "https://www.rosalux.de/en/foundation/historical-centre-for-democratic-socialism-1/rosa-luxemburg/frequently-asked-questions-about-rosa-luxemburg",
+      "publisher": "Rosa-Luxemburg-Stiftung",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Luxemburg defended continuing mass participation and dissent, while her late programme placed sovereignty in elected workers’ councils.",
+      "counterEvidence": "Universal freedom in The Russian Revolution sits uneasily with class-restricted council membership in the Spartacus programme. Neither a liberal-parliamentary nor a one-party label captures this tension. The December 1918 programme restricts the franchise to working people and excludes officers: regular council elections are therefore distinguished from unrestricted universal electoral competition.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The December 1918 programme requires frequent new council elections and immediate recall, but restricts the electorate to working people and excludes some soldiers. Recurrent competition is supported within that revolutionary polity, so agreement is qualified rather than claiming an unrestricted liberal electoral system.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert appointment would replace the political learning she located in popular participation.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The National Question advocates equal voting rights for the entire population and her 1912 speech defends women’s suffrage. The December 1918 programme instead elects councils through the adult working population and excludes officers. The period contains a real universal-versus-class-franchise tension; none of these exclusions is an education or IQ test.",
+          "sources": [
+            "autonomy",
+            "women",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Executives answer to elected councils; rejecting bourgeois parliament does not license a leader to overrule representative bodies.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She protects dissenting political organisation, qualified by her revolutionary opposition to restoration of class rule.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Councils’ supervision of officials supports elected opposition scrutinising expenditure.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protection against arbitrary administration coexists with council supremacy rather than a separate constitutional judiciary.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union officials cannot replace broad popular political choice in her anti-bureaucratic conception.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Her Russian Revolution critique condemns suppression of opposing opinion, while the Spartacus programme replaces bourgeois political organs and excludes officers from soldiers’ councils. Class exclusion is not itself a documented power to ban every opposing party. The neutral assessment records that specific freedom-versus-revolutionary-boundary tension.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Direct popular control supports a repeal mechanism, though her actual preferred instrument is recallable councils.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "An executive subordinate to councils cannot monopolise major decisions.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Recall and dismissal powers directly support representatives removing abusive executives.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Suspending popular control for political convenience repeats the bureaucratic danger she identified.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Immediate recall of delegates is an explicit part of her proposed constitution.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Accountability is essential to living socialist democracy, not an optional restraint.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She rejects the old officer command but supports a workers’ revolution involving soldiers; a professional military veto is different.",
+          "sources": [
+            "spartacus"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Public dissent and conscious self-emancipation strongly limit bureaucratic coercion in her theory.",
+      "counterEvidence": "The Spartacus programme nevertheless permits force against counter-revolution. Modern policing answers distinguish targeted protection from suppression of political participation.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Freedom of conscience and self-direction favour personal choices without demonstrated harm to others; this is a modern autonomy inference.",
+          "sources": [
+            "churches",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protection from violent counter-revolution can justify investigation, but judicial authorisation alone does not remove her concern about a class police apparatus.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her defence of mass action strongly supports peaceful demonstrations despite temporary commercial disruption.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public institutions must remain exposed to criticism, including unwelcome criticism from opponents.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Collective health protection and individual self-direction pull differently when only the adult’s own welfare is at risk.",
+          "sources": [
+            "churches",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Long-term tracking of unsuspected people would empower the bureaucracy she wanted kept under popular control.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protecting others on roads offers a public purpose, but indiscriminate police stops require limits consistent with popular liberty.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She accepts protection against organised violent threats while resisting preventive repression of dissent; safeguards and evidence determine the balance.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Personal conscience and open debate argue against moral censorship; the inference does not excuse direct incitement to violence.",
+          "sources": [
+            "churches",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Anonymous political communication would help protect dissent from the repressive state she opposed.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "An area-wide threat would not make every resident a justified target of coercive investigation.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Mass assembly is central, but a demonstrated violent counter-revolutionary operation could justify restrictions; anticipated disagreement cannot.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Independent prior scrutiny is a plausible safeguard against arbitrary intrusion, although her preferred judiciary was revolutionary rather than liberal.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Exposure of official wrongdoing advances the public scrutiny on which she made democratic life depend.",
+          "sources": [
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She armed working people while disarming the ruling classes; that class-based position is neither universal firearm liberty nor universal prohibition.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Indefinite detention without independent scrutiny would allow the executive to extinguish political freedom.",
+          "sources": [
+            "revolution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Her internationalism defends people against national and racial oppression while valuing distinct cultures.",
+      "counterEvidence": "She prioritises common working-class action rather than insulated cultural nationalism. Cultural pluralism is independent of whether she supports a separate nation-state.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A dominant national culture has no inherent claim to override minority workers’ identities.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Responsive services may accommodate local cultural and language needs instead of forced homogenisation.",
+          "sources": [
+            "autonomy",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Belonging need not require adopting every custom of the dominant national community.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "She distinguished appreciation of national culture from a political demand for exclusive national allegiance.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local linguistic conditions should inform administration rather than an inflexible monolingual rule.",
+          "sources": [
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Acknowledging colonised peoples is consistent with her opposition to erasing their histories and communities.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public cultural life should not systematically privilege the majority tradition over others.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She opposes coerced national unity but also cultural particularism that divides common struggles; neither identity always prevails.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A practical common calendar is useful, but local accommodation and freedom of belief qualify its exclusive use.",
+          "sources": [
+            "autonomy",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A common political community can include several cultural inheritances without creating separate sovereign nations.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Participation in wider collective life is important, while participation must not require cultural erasure.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local-language signage is a reasonable practical application of responsive self-government.",
+          "sources": [
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A prescribed national identity should not take automatic precedence over a family’s particular cultural ties.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Voluntary religious dress is protected, but equal rules and women’s autonomy require examining the purpose of any general face-covering restriction.",
+          "sources": [
+            "churches",
+            "women"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Several cultural forms can coexist within the broader political and economic community.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration should develop shared participation rather than require replacing minority customs with dominant ones.",
+          "sources": [
+            "sep"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Cross-border working-class solidarity and resistance to national exclusion ground these migration inferences.",
+      "counterEvidence": "She supplied no present-day visa code. Labour protections and material provision qualify openness without making cultural similarity or private wealth conditions of equal standing.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A rigid national cap risks subordinating workers’ common interests to national partition, though housing must be provided.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Workers’ efforts to improve their lives are not morally confined by the nationality of their birthplace.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Admission limited to economically selected skills treats people mainly as inputs for national employers.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family life and equal human standing support reunification rather than separation for nationalist purposes.",
+          "sources": [
+            "sep",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection from persecution should not depend on profitability or resemblance to the dominant culture.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She would favour regularisation and equal labour rights over deportation of vulnerable workers; this is a modern internationalist inference.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National exclusion is not her preferred response to labour demand; protections should apply to workers of all origins.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public investment and common provision better address shortages than excluding newcomers to reserve goods by nationality.",
+          "sources": [
+            "spartacus",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family unity should not automatically be subordinated to a uniform labour-market quota.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cross-border employment is acceptable with equal labour safeguards, rather than becoming an employer’s unqualified power over migration.",
+          "sources": [
+            "sep",
+            "reform"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Requiring dependence on a private sponsor undermines a worker’s independent equal standing.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Education can justify continued participation, but no single credential should automatically determine a person’s full claim to membership.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection against persecution takes precedence over routine nationalist allocation rules.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural proximity is not a legitimate hierarchy of workers’ entitlement to move.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Social provision should protect resident workers rather than distinguish basic need by citizenship.",
+          "sources": [
+            "spartacus",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International solidarity opposes cultural discrimination in admission, but is not a programme to raise immigration because newcomers are culturally different. Cultural plurality and a common class community both have value; difference alone has no categorical priority. The draft’s positive answer confused tolerating diversity with selecting for it.",
+          "sources": [
+            "autonomy",
+            "sep"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "She opposed imperial war and militarism while supporting armed defence of a mass revolution.",
+      "counterEvidence": "This is not absolute pacifism. The programme’s workers’ militia must not be confused with the imperial standing army she sought to abolish.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "National advantage does not justify imperial military attack.",
+          "sources": [
+            "life",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Avoiding inter-state war outweighs the speed with which a state could obtain its preferred outcome by force.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "An expensive competitive arms race perpetuates militarism rather than workers’ security.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Immediate armed defence may be necessary, but a state’s preventive-war claim demands scrutiny against imperial pretexts.",
+          "sources": [
+            "spartacus",
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Restricting state force to defence fits anti-militarism, qualified by her acceptance of revolutionary resistance to domestic domination.",
+          "sources": [
+            "life",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She proposes an armed adult male workers’ militia but rejects the old conscript army; the institution and class purpose are decisive.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State prestige or international rank would not justify sacrificing workers in an avoidable war.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Modern inference: democratic supervision of armed power supplies a reason for human review of lethal targeting. Her rejection of militarism does not directly settle every autonomous system, especially the stipulated security benefits. Qualified disagreement is better supported than a categorical technological prohibition.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A defensive orientation is preferable to projecting national power in foreign campaigns.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She accepts armed resistance to violent counter-revolution, so avoiding all military action at any cost is too absolute.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Maintaining expeditionary warfare capacity reproduces the imperial military structure she opposed.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Unresolved borders are preferable to killing workers to advance competing territorial nationalisms.",
+          "sources": [
+            "sep",
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Threats of inter-state violence are instruments of the militarist diplomacy she condemned.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Avoiding escalation outweighs demonstrations of state resolve.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Gaining a military advantage is not sufficient to justify intelligence operations that increase the danger of war.",
+          "sources": [
+            "life"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Negotiated reductions accord with opposition to arms competition, without requiring workers to surrender all self-defence.",
+          "sources": [
+            "life"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Her internationalism challenges the nation-state as the final boundary of workers’ political obligations.",
+      "counterEvidence": "She also rejects international institutions that merely coordinate capitalist domination. Conditional answers distinguish democratic solidarity from automatic deference to any supranational body.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National sovereignty cannot be the final ethical limit on a genuinely international democratic movement.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Binding transnational cooperation is legitimate when democratically accountable, not simply because an institution calls itself international.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neither a domestic nor international court deserves automatic priority if it entrenches class domination; legitimacy depends on the governing settlement.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Imperial military alliances divide workers; durable international solidarity is not an endorsement of those state alliances.",
+          "sources": [
+            "life",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Democratic commitments matter, but emancipation cannot depend on permission from an institution sustaining domination.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International accountability is attractive, while courts insulated from democratic working-class control lack an automatic mandate.",
+          "sources": [
+            "sep",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A national-interest claim cannot justify sacrificing workers elsewhere to one state’s advantage.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cross-border harms call for common decisions rather than exclusive national discretion, inferred from her international coordination principle.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A common emancipatory foreign policy is preferable to nationalism, although imperial blocs are unacceptable.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International protection of basic freedoms can properly constrain oppressive national authorities when genuinely accountable.",
+          "sources": [
+            "revolution",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Common monetary coordination is compatible with international planning; a separate currency is not a necessary nationalist entitlement.",
+          "sources": [
+            "spartacus",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Shared resources and collective decisions fit her conception of international working-class cooperation.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Exclusive state discretion over entry should not override transnational solidarity and protection from persecution.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Negotiated common exchange rules are preferable to competing national protectionism if workers participate in making them.",
+          "sources": [
+            "sep",
+            "reform"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A democratic international socialist federation fits her outlook better than treating national policy control as an end in itself.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Collective enforcement is legitimate only when the rules and means serve emancipatory solidarity rather than an imperial coalition.",
+          "sources": [
+            "sep",
+            "life"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Her programme calls for collective ownership of major production, finance and transport.",
+      "counterEvidence": "It temporarily preserves small peasant holdings and insists on active worker control, not merely ownership by a remote bureaucracy. Public-service extensions below are analogies.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Predominant private business ownership would preserve the class control her programme sought to replace.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Utility networks fit her proposed common control of essential production and distribution.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Equal service performance does not remove her independent objection to private appropriation of economic power.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective enterprises would extend democratic economic control beyond natural monopolies.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her transformation of health provision points towards collective facilities, not a default of private ownership.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The programme explicitly places public transport under the council republic.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Lower contract prices alone would not justify relinquishing worker and public control of services.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A public bank is compatible with transition, but a permanent parallel private banking sector conflicts with her call to socialise all banks.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Selling collective businesses would restore the ownership relations she opposed.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective housing provision follows from the programme’s proposed transformation of the housing system.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regulation would not substitute for collective control of strategically important production.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Mines are explicitly included in the proposed transfer to collective ownership.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Municipal collective provision better fits her self-government model than routine reliance on private contractors.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Immediate sale proceeds would not outweigh the political purpose of keeping strategic production collectively controlled.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "She would favour reorganisation under worker control before selling a struggling enterprise back to capital.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A public broadcaster could support common access, provided opposition speech remains protected rather than monopolised by officials.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Her trade analysis rejects the identification of workers’ interests with national business protection.",
+      "counterEvidence": "She is not a laissez-faire globalist: collective control of capital and anti-colonial protection of communities qualify commercial freedom. Modern trade rules are inferred within that distinction.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Tariffs protecting domestic capitalists do not overcome exploitation and divide workers internationally.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Removing nationalist trade barriers supports international solidarity, without accepting every consequence of unrestricted capital.",
+          "sources": [
+            "reform",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Nationality alone gives no socialist reason to prefer a supplier; labour conditions and social need could.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cross-border sourcing can be useful, but cheapest private terms cannot override democratically planned production.",
+          "sources": [
+            "reform",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National production is not inherently a workers’ interest deserving costly import barriers.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Opposition to protectionism need not depend on other states first making reciprocal concessions.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Infant-industry protection can enrich national capital without emancipating labour; she would not accept its stated purpose as sufficient.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Equal treatment across nationalities is supported, while unrestricted private establishment conflicts with collective ownership.",
+          "sources": [
+            "sep",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Agricultural protection serving landowners is not justified merely by calling it national farming capacity.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She rejects shielding owners from competition, though workers should not bear an unprotected social cost of adjustment.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A retaliatory tariff spiral extends the conflict among capitalist states rather than workers’ common interests.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Discriminatory product taxes reproduce tariff protection without changing its nationalist rationale.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Foreign subsidies can distort exchange, but another import barrier is not automatically a socialist remedy.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cross-border economic interdependence is compatible with her internationalism; tariff-free trade remains subject to social control.",
+          "sources": [
+            "sep",
+            "reform"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She opposes private control of strategic production regardless of the investor’s nationality, rather than privileging domestic capital.",
+          "sources": [
+            "spartacus",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Access to foreign communications supports international solidarity, subject to protections against private domination rather than nationality barriers.",
+          "sources": [
+            "revolution",
+            "sep"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "She proposes coordinated production serving social need, with workers actively governing workplaces.",
+      "counterEvidence": "Planning is not licence for an insulated committee to dictate social life. Market-era reforms and the eventual socialist programme must be distinguished.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Uncoordinated private production would frustrate collective control over the economy’s purpose.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A democratic economic plan can set binding output obligations, with workplace participation rather than arbitrary bureaucratic targets.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her replacement of production for profit makes market prices subordinate to collectively determined needs.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National coordination directs resources towards collectively selected economic priorities.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Consumer purchasing power alone would not decide which necessary enterprises survive.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Securing food and essential consumption takes priority over owners’ preferred prices.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "New production must fit collective resource decisions; private entry cannot be an unconditional entitlement.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Socialised banks would allocate credit according to the collective economic programme.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unrestricted capital export could defeat social ownership and democratic control of investment.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support for selected socially necessary industries is justified as a transition, although subsidy to private profit is not her final model.",
+          "sources": [
+            "reform",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Competing private currencies would return monetary coordination to private interests.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Worker-protective legal wage floors are compatible with her support for immediate labour reforms.",
+          "sources": [
+            "reform"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Worker bargaining matters during capitalism; collective production ultimately replaces the wage relationship, so neither wage-setting arrangement is her unqualified ideal.",
+          "sources": [
+            "reform",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public finance should serve the economic plan rather than an autonomous financial class.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Access to housing is a social need, not something she would entrust solely to market bidding.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Planned production and distribution are ordinary features of her socialist programme, not merely emergency measures.",
+          "sources": [
+            "spartacus"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Economic equality and material emancipation are central, extending beyond redistribution to ownership change.",
+      "counterEvidence": "Her programme expects collective contribution and supports expropriation; it is not an unconditional cash-benefit blueprint. Instrument-specific answers retain these qualifications.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Redistributive taxation and benefits can reduce class inequality during transition, though ownership transformation goes further.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Leaving unequal private incomes untouched would privilege existing class power over material equality.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A stronger social minimum accords with securing food and an honourable life for working people.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A bare safety net falls short of her objective of overcoming class differences.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Greater claims on high incomes are consistent with her much stronger proposal to confiscate large fortunes.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private retention of earnings cannot take precedence over collective provision and equality.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Taxing large inheritances is a defensible lesser measure than the programme’s confiscation of dynastic wealth.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The programme demands contribution from able people but also promises work and an honourable life. A fixed benefit cutoff despite low income can defeat that guarantee even when employment is unavailable. Her work duty therefore supports conditions, not automatic expiry; the exact item leans against.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wealth transfers to meet collective needs follow directly from her attack on concentrated fortunes.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Reducing owners’ tax burdens would not justify keeping the social minimum inadequate.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Her concept of human emancipation requires participation in cultural and social life, not survival alone.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Material provision for ordinary people takes priority over protecting accumulated private income through tax cuts.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Supplements can relieve exploitation during transition, though she would prefer higher worker control and social provision to subsidising low-wage employers.",
+          "sources": [
+            "reform",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Uniform marginal taxation would leave class concentration insufficiently challenged.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She supports redistributing large estates but proposes expropriation rather than guaranteed public compensation to owners; the combined proposition is mixed.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A narrowly destitution-based benefit system is insufficient for broad material emancipation.",
+          "sources": [
+            "spartacus"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Socialism and the Churches defends individual belief while rejecting clerical political domination.",
+      "counterEvidence": "Freedom for religious people is not a programme of official religious privilege. Detailed school, tax and family-law arrangements below are institutional inferences.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil rules should be defensible to workers of different beliefs without requiring religious assent.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Treating religious doctrine as national law would extend the clerical domination she criticised.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Government accountable to working people cannot require clerical permission to act.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A privileged constitutional religion conflicts with equal liberty of conscience.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Teaching about belief without imposing it respects both knowledge and personal conscience.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State-directed cultivation of one faith would compromise the private freedom she defended.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil democratic authority, rather than religious office, should determine state court law.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "An official clerical law-review power would reintroduce religious political privilege.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A secular common ceremony is more consistent with equal conscience than state-organised worship.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public resources should meet common social needs, not finance religious recruitment as such.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official endorsement of a single faith would compromise governmental neutrality between workers’ beliefs.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A shared rest day can serve workers irrespective of belief, but formal state endorsement of its theology conflicts with secular equality.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Religious office alone is no democratic entitlement to a governmental seat.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious activity does not justify fiscal privileges beyond generally available social-benefit exemptions.",
+          "sources": [
+            "churches"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage without religious permission follows from equal citizenship and liberty of conscience.",
+          "sources": [
+            "churches",
+            "women"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Voluntary beliefs remain protected, but binding religious family-law power could compromise equal civil rights.",
+          "sources": [
+            "churches",
+            "women"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Her analysis links gender roles and domestic subordination to historically created institutions.",
+      "counterEvidence": "She did not write a modern sexuality platform. Those answers extrapolate equal civil status and personal conscience; neither personal biography nor contemporary party views supplies a direct position.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Social arrangements are historically changeable and should yield to emancipation rather than inherited authority.",
+          "sources": [
+            "women",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The age of a subordinating custom gives no reason to preserve it against equal participation.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal civic standing and freedom of conscience support recognition beyond one prescribed household form.",
+          "sources": [
+            "women",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her critique treats women’s prescribed domestic role as historically produced subordination.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equal civil rights and non-clerical marriage support an analogy to equal marriage, not a documented statement about same-sex couples.",
+          "sources": [
+            "women",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A preferred family template should not perpetuate dependent status or inferior recognition for others.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Women’s self-direction supplies a qualified autonomy inference for early abortion; it is not a claim she debated this exact policy.",
+          "sources": [
+            "women",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Equal public education should not be wholly vetoed by customary family authority.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The inferred criterion is equal civil status and actual caregiving, not conformity to a religious household ideal.",
+          "sources": [
+            "women",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Gendered public modesty norms should not override personal equal standing merely because they are traditional.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Respect for self-direction gives a qualified reason to adapt language rather than enforce inherited social rank.",
+          "sources": [
+            "churches",
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Reproducing inherited moral hierarchy would hinder the emancipatory change she pursued.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equal participation directly challenges restrictions on roles assigned by sex.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Her revolutionary programme rejects gradualism as a compulsory limit on institutional transformation.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inclusive education is a defensible extension of equality and conscience, while respecting pupils rather than compelling private belief.",
+          "sources": [
+            "women",
+            "churches"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She valued inherited literature and culture but opposed preserving institutions merely because of age; expressive heritage differs from binding social rules.",
+          "sources": [
+            "sep"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Her socialism seeks productive emancipation while insisting on conscious human control and rejecting exploitation; her botanical interests also resist treating nature as valueless.",
+      "counterEvidence": "She had no direct position on modern implants, AI or genome editing. These are explicitly limited analogies: autonomy and collective benefit support experimentation, while irreversible harm and externally imposed costs justify safeguards. Implant access after only basic safety checks is cautiously opposed to match the stated preference for long-term research safeguards; it remains a modern analogy.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Productive progress matters, but adoption needs democratic control of risks. Early evidence of substantial benefits supports deployment; uncertain long-term imposed harms support restraint. The draft incorrectly described the benefits themselves as uncertain.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Trials and substantial long-term risk evidence support collective control of technologies with significant imposed harms. Her productive-emancipation programme also supports proportionate deployment of less hazardous tools. The mixed assessment distinguishes risk levels; the question requires substantial evidence, not certainty or an indefinite ban.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Meeting common infrastructure needs has weight, but permanent habitat destruction is a genuine cost rather than something production automatically overrides.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protecting people from avoidable medical harm warrants study before wide exposure; therapeutic urgency could justify exceptions.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Productivity is welcome if its gains and retraining are collectively secured; displacement without such protection would reproduce exploitation.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She values living nature and human material liberation; neither undisturbed habitat nor every beneficial development has unconditional priority.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Less burdensome food production could help, but widespread replacement before ecological assessment is not required by her support for science.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Research-first safeguards protect voluntary agency against irreversible elective harm; this is a precautionary inference, not a recorded implant stance.",
+          "sources": [
+            "revolution",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Unproven technical fixes should not excuse wasteful consumption patterns maintained by capitalist accumulation.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Understanding a project’s ecological effects is a defensible condition of genuinely collective decision-making.",
+          "sources": [
+            "nature",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Modern inference: basic safety checks are weaker than the strong long-term evidence required by the preceding implant item. Elective enhancement with potentially irreversible harm has no therapeutic urgency, so her collective protection and conscious-control commitments modestly favour continued research. This makes the pair coherent without attributing a recorded implant opinion.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reliable performance for all affected groups is necessary before replacing supervised diagnosis with a widely deployed system.",
+          "sources": [
+            "spartacus",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Human development and experimentation are valuable, but her opposition to domination gives no unconditional licence to design another person’s inherited capacities.",
+          "sources": [
+            "women",
+            "revolution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective welfare includes ecosystem protection, so early yield gains alone do not settle widespread agricultural release.",
+          "sources": [
+            "nature",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Housing needs and ecological stewardship require collective comparison; neither land preservation nor expansion is an absolute rule.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Serious irreversible harm would undermine the people’s capacity to direct their own future and warrants stronger evidence.",
+          "sources": [
+            "nature",
+            "revolution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "She supports local self-government within a coordinated larger political economy and opposes nationalist fragmentation.",
+      "counterEvidence": "Her critique of party bureaucracy is not proof of territorial federalism. The 1918 programme combines central councils with local recall and workplace power.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protected local self-government checks rigid central bureaucracy, within a wider common legal order.",
+          "sources": [
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A national coordinating council retains authority over genuinely common matters; it should not absorb every local function.",
+          "sources": [
+            "autonomy",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her critique of national self-determination rejects majority secession as an unconditional political entitlement.",
+          "sources": [
+            "sep"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local policy cannot automatically defeat a democratically adopted common economic programme.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local institutional initiative is valuable, but autonomous regional constitutions are qualified by the unitary socialist republic.",
+          "sources": [
+            "autonomy",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "She replaces the old police with popular organisation; coordination and local democratic control matter more than one exclusive command level.",
+          "sources": [
+            "autonomy",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Keeping almost all local revenue would obstruct collective redistribution and national economic planning.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A common emancipatory education programme supports national core requirements alongside local administration.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local fiscal choice has administrative value, but cannot undermine the shared redistributive programme.",
+          "sources": [
+            "autonomy",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The proposed national six-hour day supports common employment protections across regions.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local democratic initiative supports council reorganisation, qualified where wider institutions are affected.",
+          "sources": [
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common health entitlements should not depend entirely on a region’s choices or resources.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Her opposition to colonial domination and support for local autonomy favour indigenous self-government within shared rights.",
+          "sources": [
+            "sep",
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventing tax competition that weakens common redistribution follows from collective fiscal planning.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Locally confined land-management effects favour the responsive local administration she defended.",
+          "sources": [
+            "autonomy"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A multi-region disaster requires coordination, while local councils supply knowledge and democratic oversight.",
+          "sources": [
+            "spartacus",
+            "autonomy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Her account of learning through political practice and her critique of women’s subordination stress social formation rather than fixed group destinies.",
+      "counterEvidence": "She was interested in natural science, not a modern behavioural-genetics theorist. Trait-specific comparisons are modest inferences, and neutral entries reflect a balance between biological embodiment and demonstrable social formation rather than claims of measured heritability.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "She describes capacities and civic habits developing through changed social relations and active experience.",
+          "sources": [
+            "spartacus",
+            "women"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Unequal historical opportunities provide a stronger explanatory starting point than inherited national intelligence in her materialist account.",
+          "sources": [
+            "sep",
+            "women"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Prescribed male and female roles are traced to economic and historical conditions, not immutable biology.",
+          "sources": [
+            "women"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Material hardship shapes stress while embodied individual susceptibility also matters; her social theory does not require either alone to dominate.",
+          "sources": [
+            "spartacus",
+            "nature"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Practical activity and access to new collective roles develop interests that an inherited-tendency account would treat as fixed.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Risk-taking in political struggle develops with social experience and organisation rather than an assumed inherited political temperament.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cooperative conduct is explicitly something people learn through participating in collective activity.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her account of political learning describes solidarity developing through shared activity and experience. Applied cautiously to empathy, that supports a learned emphasis, while solidarity as a moral ideal is not itself evidence about inherited individual capacity. This remains a low-confidence psychological analogy.",
+          "sources": [
+            "revolution",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Conditions of work, education and active learning offer a stronger explanatory emphasis for attention than fixed inherited capacity; a qualified extrapolation.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Moral responses are strongly shaped by social relations and learned civic habits in her analysis.",
+          "sources": [
+            "women",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National and political fears are cultivated through institutions and conflict, suggesting learned experience has substantial explanatory priority.",
+          "sources": [
+            "sep",
+            "life"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual biological disposition is compatible with her view that experience changes conduct; no rigid social or biological determinism is inferred.",
+          "sources": [
+            "nature",
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Historically changing social life offers a plausible source of aesthetic preferences rather than fixed inherited standards alone.",
+          "sources": [
+            "women",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Her explanation of organised violence centres on exploitation, colonial domination and political institutions. That supports a modest social-cause inference against biological racial predominance, but does not directly establish a finding about modern per-capita violent offending. The prior strong answer overstated the evidential reach.",
+          "sources": [
+            "spartacus",
+            "sep"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Self-discipline develops through collective practice and education, not an inherited racial hierarchy.",
+          "sources": [
+            "spartacus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "She critiques the social devaluation of women’s labour, contradicting an explanation that dismisses gendered expectations as the cause of unequal pay.",
+          "sources": [
+            "women"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/current_assessments",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent evidence audit by a different agent from the assessment author. Checked every answer against all 240 exact bank questions, agreement directions, stated period and retained source context, with targeted rereads of primary texts. Qualified electoral claims against the December 1918 class franchise; retained the documented period-wide universal/class-franchise tension. Corrected diversity-as-admission-purpose, autonomous-weapon certainty, fixed benefit expiry, implant consistency and racial-crime overstatement. Numeric changes: democracy-autocracy-01: 2 -> 1; restricted-immigration-open-immigration-16: 1 -> 0; militarist-pacifist-08: -2 -> -1; high-redistribution-low-redistribution-08: 0 -> -1; innovation-caution-11: 0 -> -1; culture-nature-14: -2 -> -1. Limitations: contemporary visas, clinical AI, brain implants, embryo enhancement and trait-level causal comparisons remain explicitly counterfactual educated inferences, not reported opinions. Neutral answers were reviewed as competing principles or permissible institutional arrangements; sparse Culture/Nature evidence remains low-confidence and is not a scientific claim. No scores or similarity thresholds were targeted. Validation and batch-neighbour review are separate from source accuracy; parent retains archive and publication responsibility. Follow-up wording check retained innovation-02 as a proportional-risk inference and removed its incorrect reference to long-term certainty. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers. Portrait integration review by OpenAI Codex on 2026-10-04: verified the Wikipedia infobox file, Commons creator and reuse status, and image size. The independent political evidence audit is retained; no political assessment changed.",
+    "similarity": []
+  }
+}

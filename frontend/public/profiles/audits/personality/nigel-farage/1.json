@@ -1,0 +1,2596 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "nigel-farage",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex assessment agent (current_assessments)",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Nigel Farage",
+    "description": "British political leader advocating national sovereignty, substantially lower immigration, tax reductions and changes to public service delivery.",
+    "category": "Political leader",
+    "period": "2025–2026-10-04",
+    "scope": "Current documented governing or campaigning position through 4 October 2026. Recent conduct is prioritised; earlier material is used only as a stated continuity-based inference. Party proposals are attributed as the leader’s endorsed programme, not implemented law. Every answer is an interpretive assessment, with lower confidence for biomedical hypotheticals and fine-grained psychological causation. No scores were targeted.",
+    "role": "Leader of Reform UK",
+    "lifespan": "Born 1964",
+    "image": {
+      "path": "profiles/images/nigel-farage-r1.jpg",
+      "alt": "Nigel Farage portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Nigel_Farage_MP.jpg",
+      "creator": "Laurie Noble",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+    }
+  },
+  "sources": [
+    {
+      "id": "policy",
+      "title": "Current policy platform",
+      "url": "https://www.reformparty.uk/policies",
+      "publisher": "Reform UK",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "border",
+      "title": "The English Channel is a national frontier",
+      "url": "https://reformparty.uk/news/the-english-channel-is-a-national-frontier-it-is-high-time-we-treated-it-like-one",
+      "publisher": "Reform UK; Nigel Farage",
+      "date": "2026-09-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nhs",
+      "title": "Is Labour right to claim Reform UK would scrap the NHS?",
+      "url": "https://fullfact.org/health/reform-nigel-farage-pay-for-nhs-labour/",
+      "publisher": "Full Fact",
+      "date": "2025-04-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "interview",
+      "title": "Farage discusses policy differences with Trump, interview 5 March 2026",
+      "url": "https://www.reutersconnect.com/item/nigel-farage-declares-war-on-the-old-order-in-his-blueprint-for-britain/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1ZBNDUzMzE2MDMyMDI2UlAx/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX0xWQTAwQjQ1MzMxNjAzMjAyNlJQMQ",
+      "publisher": "Reuters",
+      "date": "2026-03-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "welfare-audit",
+      "title": "Making Welfare Work: welfare-to-work conditions and disability support",
+      "url": "https://www.reformparty.uk/policies/making-welfare-work/download",
+      "publisher": "Reform UK",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "His electoral and referendum route seeks to replace governing parties through votes rather than suspend elections.",
+      "counterEvidence": "Hostility to external courts should not automatically be read as rejecting every independent domestic court; parliamentary sovereignty limits constitutional judicial review.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Regular electoral replacement provides the necessary mandate.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Expert advice should not replace an electoral mandate.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Education is not a legitimate qualification for citizenship voting rights.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: A rejected bill cannot acquire authority solely from the leader.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Equal contestation is part of legitimate electoral competition.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Public spending should face scrutiny beyond the governing leadership.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Farage proposes changing Acts of Parliament and leaving external conventions through legislation. That does not imply permitting ministers to violate domestic constitutional law. Parliamentary sovereignty limits courts against primary legislation, but modest agreement with review of unlawful executive decisions is the better inference.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Trade-union representation should not replace the general electorate.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Disagreement alone should not disqualify an electoral competitor.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Voters may directly reverse representative decisions.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Major decisions need institutions beyond the individual leader.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Serious abuse warrants a defined institutional removal mechanism.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Continuity alone cannot justify evading independently fixed election rules.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Accountability may include removal before the next scheduled election.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Even a strong executive must answer to voters or representatives.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his electoral campaigning and parliamentary sovereignty: Armed forces should not independently choose the government.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Free-expression and anti-bureaucratic commitments coexist with tougher policing, detention and public-order proposals.",
+      "counterEvidence": "The programme is not uniformly libertarian; coercive immigration measures and suspicionless searches are assessed separately from speech.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Protective law can restrict dangerous choices even without immediate third-party harm.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: A serious-crime warrant supplies a proportionate security safeguard.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Public access and order can justify restricting disruptive assemblies.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Offence is insufficient to suppress criticism of public power.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Self-regarding medical risk should normally remain voluntary.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his combination of speech protections and tougher policing: preventive security can justify retained movement records; balanced against the consideration that retention without individual suspicion exceeds proportionate policing. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Road safety justifies preventive checks without individual suspicion.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: A judicial finding of serious danger permits preventive restraint.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Adults retain access despite governmental moral disapproval.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Ordinary communication should not require government identity registration.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: A credible violence threat permits area-wide preventive searches.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Credible evidence of disorder can justify prevention.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Independent authorisation is needed absent an immediate emergency.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: Public accountability can justify disclosure of official secrets.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his combination of speech protections and tougher policing: screened adults should retain a means of armed self-defence; balanced against the consideration that public safety favours tighter limits than a violence-history check alone. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his combination of speech protections and tougher policing: A security allegation cannot remove independent review indefinitely.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "English fluency and common British identity are prioritised over state-supported cultural separation.",
+      "counterEvidence": "An individual can retain private ancestry while joining a shared civic culture; this does not establish racial heredity claims.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Common public expectations should prevail over competing migrant customs.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Shared services need not finance distinct customary arrangements.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Permanent membership entails learning and practising shared customs.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his common-language integration programme: civic membership can coexist with a distinct private identity; balanced against the consideration that separate inherited identity can conflict with full national integration. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: A common language should be the default institutional priority.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his common-language integration programme: national history should publicly acknowledge Indigenous communities; balanced against the consideration that ceremonies should stress undifferentiated national citizenship. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Public cultural funds should primarily preserve common inherited traditions.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Shared civic expectations should take precedence in conflicts.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Institutions can organise around one common calendar.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his common-language integration programme: multiple traditions can belong to the national story; balanced against the consideration that national identity should rest chiefly on one predominant tradition. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Participation in common public life is preferable to isolated enclaves.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Public signage should reinforce a common language.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Families should cultivate national belonging above sectional identity.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: A generally applicable covering rule should not have this cultural exception.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his common-language integration programme: national membership should encompass distinct cultural practices; balanced against the consideration that a common customary identity should be prioritised. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his common-language integration programme: Public integration policy should teach common customs first.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Current plans seek net-negative migration, replacement of indefinite leave and deportation of all irregular migrants.",
+      "counterEvidence": "Shortage-based work visas and pension protections for qualifying contributors remain, so blanket rejection of every admission would be inaccurate.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Permanent intake should remain controllable within national capacity.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: National selection takes precedence over a general migration entitlement.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reform reserves work admission for critical shortages and would replace indefinite leave with renewable visas. This favours skills selection but does not promise permanent residence even to skilled applicants; qualified agreement avoids converting a temporary route into permanent entitlement.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his selective visas and net-negative migration policy: stable family life normally warrants admission of dependants; balanced against the consideration that family claims remain subordinate to tighter intake or eligibility rules. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Permanent membership can remain selective despite a protection claim.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Irregular entry should normally result in removal.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Employer demand does not override national population policy.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Housing and services can outweigh aggregate economic gain.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Family admissions should not circumvent an overall limit.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: A job offer alone is insufficient without wider national selection.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: A resident sponsor supplies an appropriate admission condition.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: A qualification alone should not create a residence pathway.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: The national intake limit can prevail even over a protection claim.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Ease of cultural integration can legitimately influence selection.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Reform proposes denying most benefits to foreign nationals but expressly preserves state pensions and residence for qualifying contributors. Strong general restriction therefore has a material exception to this broadly worded permission question.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his selective visas and net-negative migration policy: Difference alone is not sufficient reason to expand intake.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "He favours stronger armed forces and deterrence while treating British national interests as the criterion for intervention.",
+      "counterEvidence": "Navy use at the border is not itself interstate warfare. His criticism of some foreign commitments qualifies universal interventionism.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: National interests can justify force beyond strict self-defence.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Avoiding combat normally outweighs faster coercive results.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Security warrants paying for a decisive capability advantage.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Credible imminent danger justifies anticipatory defence.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence expansion and selective interventionism: defensive necessity should sharply limit military action; balanced against the consideration that serious interests may justify force before an attack occurs. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: A professional force and voluntary service are preferable.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence expansion and selective interventionism: preventing war can justify a weaker bargaining position; balanced against the consideration that major concessions may invite greater future insecurity. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence expansion and selective interventionism: supervised military systems may delegate individual engagements; balanced against the consideration that human responsibility should include meaningful control of lethal decisions. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Defence should avoid extensive foreign campaigns.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: An attacked ally can justify armed intervention.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The proposed defence expansion and readiness against Russia and China favour the ability to sustain allied operations outside Britain. That supports this capability modestly; the source does not establish a specific commitment to prolonged expeditionary campaigns.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: An unsettled claim is preferable to starting a war.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Credible military leverage is a legitimate bargaining instrument.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence expansion and selective interventionism: de-escalation should prevail over a symbolic show of resolve; balanced against the consideration that demonstrated resolve can be necessary despite escalation risk. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his defence expansion and selective interventionism: Intelligence advantages justify some diplomatic costs.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his defence expansion and selective interventionism: reciprocal security can justify reducing military capacity; balanced against the consideration that capability should not be traded away on insufficient security assurances. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview",
+            "border"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Brexit-style national sovereignty and departure from external human-rights constraints are explicit priorities.",
+      "counterEvidence": "He supports voluntary alliances and trade bargains; sovereignty does not mean ending every form of international cooperation.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Domestic institutions should retain ultimate lawmaking authority.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: National consent should not be displaced by external decisions.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Domestic constitutional authority should be final.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Durable alliances justify limits on unilateral action.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: A sovereign state must retain an exit option.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Domestic officials should remain under final national jurisdiction.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: National obligations prevail over external institutional objectives.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Environmental cooperation should retain final domestic control.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Independent foreign policy should not be surrendered.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: External institutions should not dictate national rights law.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Currency decisions should remain nationally accountable.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his Brexit and ECHR-withdrawal programme: shared problems can justify common funds and decisions; balanced against the consideration that cooperation should avoid transferring substantive decision authority. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Entry decisions must remain finally national.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Reciprocal rules can justify restraints on unilateral trade policy.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Political union would transfer too much national authority.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his Brexit and ECHR-withdrawal programme: Immediate national interest should determine enforcement participation.",
+          "sources": [
+            "policy",
+            "border",
+            "interview"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Business ownership and contracted delivery are favoured, alongside tax-funded healthcare and social housing commitments.",
+      "counterEvidence": "Free NHS access is not proof that every facility must be publicly owned; he has entertained alternative funding and provision models.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Ordinary commerce should generally remain in private hands.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: essential network ownership should serve public rather than shareholder control; balanced against the consideration that regulation can secure utility goals without public ownership. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Equal service outcomes favour private rather than state ownership.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Competitive markets should normally be left to private enterprises.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: publicly financed care can generally be provided through private facilities; balanced against the consideration that public health objectives favour public or nonprofit facility ownership. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: rail networks are appropriate public infrastructure; balanced against the consideration that rail infrastructure can be privately owned under suitable rules. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Equivalent access and lower cost justify switching ownership.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: public credit institutions can meet needs private banks neglect; balanced against the consideration that banking should generally be privately provided and regulated. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Commercial assets should normally return to private ownership.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Public landlords are needed at a substantial scale.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Effective regulation makes nationalisation unnecessary.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: natural-resource rents justify public ownership; balanced against the consideration that private operators and royalties can protect the public interest. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Competitive contracting is preferable to public operation.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his private enterprise, mixed NHS provision and social-housing commitments: continuing strategic control outweighs one-off revenue; balanced against the consideration that sale and regulation can meet strategic needs more efficiently. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Persistent subsidy dependence is a reason to privatise.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his private enterprise, mixed NHS provision and social-housing commitments: Broadcasting should not require a state-owned provider.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Farage explicitly distinguishes his trade approach from Trump’s tariffs while retaining strategic and agricultural exceptions.",
+      "counterEvidence": "National sovereignty does not imply high tariffs; domestic procurement and secure supply chains qualify unrestricted openness.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inferred disagreement. In the March 2026 Reuters interview Farage expressly says Britain differs from Trump on tariffs and lacks the economic position to use them that way. Strategic procurement and farm protection qualify this, but generic protective tariffs are not inferred merely from nationalism.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Consumer and competitive gains outweigh protecting incumbent sales.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: National capacity justifies paying a procurement premium.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Businesses should generally choose the most favourable supplier.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his rejection of Trump-style tariffs with strategic exceptions: resilience warrants protecting essential domestic production; balanced against the consideration that resilience need not require restricting cheaper imports. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Lower import costs can benefit the country without reciprocity.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his rejection of Trump-style tariffs with strategic exceptions: temporary protection can establish strategic domestic capacity; balanced against the consideration that new firms should compete without imposing higher import costs. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Investment should generally compete regardless of nationality.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Domestic food capacity merits special protection.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Competitive adaptation is preferable to shielding businesses.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his rejection of Trump-style tariffs with strategic exceptions: reciprocity can justify tariffs against imposed barriers; balanced against the consideration that retaliation can compound harm to domestic consumers. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Tax rules should normally be neutral between foreign and domestic products.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Foreign subsidies can justify corrective trade measures.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Mutual market access can justify some increased dependence.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Strategic ownership requires screening beyond investment value.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his rejection of Trump-style tariffs with strategic exceptions: Consumers should normally access foreign digital providers.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Tax and regulatory reductions favour private allocation, with selected housing, energy and apprenticeship interventions.",
+      "counterEvidence": "A national living wage and industry incentives can coexist with opposition to economy-wide compulsory production plans.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Firms should usually choose output in response to demand.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Strategic encouragement need not become compulsory production quotas.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Supply and demand should normally determine prices.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his deregulation agenda with selected public interventions: public strategy should direct capital to priority industries; balanced against the consideration that investment should generally follow decentralised commercial judgement. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Consumer demand should normally determine business scale.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his deregulation agenda with selected public interventions: affordability warrants controlling essential prices; balanced against the consideration that supply incentives and market signals argue against administrative prices. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Entrepreneurs should not need to prove a production shortage.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his deregulation agenda with selected public interventions: credit should support designated strategic priorities; balanced against the consideration that bank credit should normally follow decentralised risk and return. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Owners should generally control international transfers.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his deregulation agenda with selected public interventions: development goals can justify selective public support; balanced against the consideration that investor and consumer choices should determine industrial growth. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Monetary innovation should be permitted alongside public money.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: A statutory wage floor protects workers’ bargaining position.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Ordinary wages should follow employer-worker bargaining.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Institutional autonomy protects monetary policy from production directives.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Rental supply and prices should generally respond to demand.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his deregulation agenda with selected public interventions: Normal production and distribution should remain decentralised.",
+          "sources": [
+            "policy",
+            "nhs"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Lower taxes and tighter working-age welfare are prioritised, with protection for disabled people and selected household support.",
+      "counterEvidence": "The current allowance is £15,000 with £20,000 an aspiration; welfare nationalism does not mean rejecting support for eligible citizens.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Income equalisation is not an overriding fiscal purpose.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Unequal earnings alone do not justify additional tax.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Tax burdens constrain expansion of cash entitlements.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Benefits should chiefly prevent hardship, not equalise lifestyles.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Raising the tax-free allowance while retaining higher-rate bands leaves higher earners paying a greater average share. His tax-cutting priority qualifies the strength of agreement but does not amount to proportional taxation.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Retaining earnings should take priority over further equalisation.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Family transmission should not be taxed primarily for redistribution.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The current welfare paper requires work-capable claimants to undertake community work after a year. Compliance preserves support; this is a work condition, not a fixed expiry even for compliant recipients who remain poor. Modest disagreement reflects that distinction.",
+          "sources": [
+            "welfare-audit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Asset ownership should not be taxed chiefly to redistribute wealth.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Containing the taxpayer burden limits benefit generosity.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Adequacy extends beyond bare subsistence.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Retained income and incentives deserve fiscal priority.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Public supplements can support people in low-paid work.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Current proposals cut particular taxes and raise allowances within a system that still has higher marginal bands. They do not establish a flat marginal rate. Retaining progression supports modest disagreement rather than the original inference from tax cuts alone.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Property rights and market transfer should normally determine landholding.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his lower-tax, conditional-welfare programme: Eligibility should focus on households unable to meet essentials.",
+          "sources": [
+            "policy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "British cultural Christianity is compatible with civil law and parliamentary rather than clerical government in his programme.",
+      "counterEvidence": "Ceremonial establishment is distinct from requiring religious consent to ordinary legislation; private belief is not the scoring basis.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Civil reasons should justify enforceable laws.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Religious conviction should not itself determine civil law.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Government must retain authority without clerical permission.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: The state may formally recognise inherited religious foundations.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Schools should teach understanding without requiring belief.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his cultural Christianity alongside civil parliamentary law: religious formation can be a public-school purpose; balanced against the consideration that public schools should not inculcate a state faith. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Courts should apply civil enactments rather than clerical rulings.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his cultural Christianity alongside civil parliamentary law: religious offices should have formal consultative or reviewing authority; balanced against the consideration that religious advice should not receive an official legislative privilege. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Inherited public worship can remain part of official ceremony.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his cultural Christianity alongside civil parliamentary law: religious life can be a public purpose deserving support; balanced against the consideration that public funds should not chiefly cultivate religious adherence. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Religious symbols can express legitimate inherited public culture.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Official recognition of inherited festivals should continue.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his cultural Christianity alongside civil parliamentary law: public office should not follow automatically from religious rank; balanced against the consideration that established religious offices can warrant institutional seats. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "His cultural Christianity supports treating worship as socially valuable, while his tax-cutting and civil-law programme supplies no clear reason to privilege worship over equivalent secular charitable activity. Neutral balances these institutional principles rather than assuming Christian identity entails a special exemption.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Civil marriage should not depend on religious consent.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his cultural Christianity alongside civil parliamentary law: Civil family law should retain exclusive binding authority.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "His cultural programme favours established national and parental norms, but he distinguishes British views on abortion from US Republican debates.",
+      "counterEvidence": "Conservatism is not uniform across every family or personal-life question; conditional scores avoid importing Trump’s social platform.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: customs should respond to changing social values; balanced against the consideration that established customs deserve priority over rapid value shifts. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Continuity should guide social expectations.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: social recognition should not depend on the traditional household form; balanced against the consideration that society should retain a special preference for established family forms. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: complementary inherited roles merit social encouragement; balanced against the consideration that sex should not determine socially preferred roles. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: marriage should be available without a sex-based restriction; balanced against the consideration that marriage should retain its traditional sex-specific definition. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: The established married-parent model deserves social encouragement.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Farage explicitly distinguishes British centre-right abortion debate from the US Republican position. His emphasis on traditional family values can imply moral reservations, while that distinction supports continued personal choice; neither is treated as proof of complete social acceptance or rejection.",
+          "sources": [
+            "interview"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Parents should be able to withhold conflicting school instruction.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: parental suitability need not depend on the couple’s sex; balanced against the consideration that traditional parental complementarity deserves preference. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: inherited modesty norms should continue shaping public conduct; balanced against the consideration that adult dress should not be governed primarily by traditional norms. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Shared inherited categories should not be displaced by personal identification.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Intergenerational continuity should take precedence.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his traditional family and national-custom commitments: nontraditional roles should receive equal social respect; balanced against the consideration that society may prefer inherited sex-specific roles. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Durable institutions require measured change.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: School instruction should remain constrained by traditional family values.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his traditional family and national-custom commitments: Historical continuity can itself justify retaining a custom.",
+          "sources": [
+            "interview",
+            "policy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Energy supply and lower regulatory burdens favour practical development; personal bodily risk warrants more conditional judgments.",
+      "counterEvidence": "Opposing net zero is not evidence of accepting all novel foods or genetic enhancement. Biomedical answers use explicit analogy, not claimed policy.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Early benefits can justify wider use before complete long-term knowledge.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Farage’s removal of regulatory obstacles and preference for practical energy deployment favour moving beyond trials on promising evidence. Modest disagreement extrapolates that approach to the stated substantial-evidence threshold; the question does not demand certainty.",
+          "sources": [
+            "policy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Substantial public benefits can outweigh some permanent habitat loss.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his development agenda qualified by bodily-risk concerns: medical deployment needs evidence beyond immediate benefit; balanced against the consideration that basic demonstrated safety may justify access before long-term study. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Productivity and retraining can justify disruptive adoption.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Public development needs may outweigh keeping habitats untouched.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Food-system novelty warrants more evidence before substitution.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Elective invasive enhancement warrants strong long-term evidence.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Innovation can be preferable to restraining consumption.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Public need can justify proceeding with proportionate mitigation.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his development agenda qualified by bodily-risk concerns: adult consent can justify access despite residual uncertainty; balanced against the consideration that basic safety alone is inadequate for invasive elective enhancement. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Diagnostic reliability across patient groups is a prerequisite.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Heritable enhancement crosses an ethical or precautionary boundary.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his development agenda qualified by bodily-risk concerns: widespread cultivation needs a robust ecological evidence threshold; balanced against the consideration that managed early evidence can suffice without waiting for long-term certainty. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Necessary built capacity can outweigh preserving unused land.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his development agenda qualified by bodily-risk concerns: Potentially irreversible damage warrants a strong evidence threshold.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "UK sovereign law and nationwide border and policing goals coexist with local government and business autonomy.",
+      "counterEvidence": "National sovereignty is separate from internal centralisation; local implementation does not entail a right to nullify national law.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his UK-wide policy priorities alongside existing local administration: regional institutions need protected room to disagree; balanced against the consideration that national authority can override regional policy disagreement. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: A common state needs final national authority in disputes.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: The national union cannot be dissolved by a single regional vote.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Nationwide programmes can take precedence over regional refusal.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his UK-wide policy priorities alongside existing local administration: regions can define their institutions within national rights; balanced against the consideration that constitutional organisation should remain centrally determined. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Policing should remain principally regional or local.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Local fiscal responsibility warrants keeping most local receipts.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Common knowledge and standards justify national content.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Local democratic priorities can justify different tax rates.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Workers should have common national employment guarantees.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his UK-wide policy priorities alongside existing local administration: local voters should control their institutional arrangements; balanced against the consideration that changes to local public authority require national oversight. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Common entitlement warrants nationally defined coverage.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: A common citizenship framework should govern local authority.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his UK-wide policy priorities alongside existing local administration: national coordination prevents harmful fiscal competition; balanced against the consideration that regions should remain free to attract activity through tax choices. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Contained local effects justify regional decisions.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Inference from his UK-wide policy priorities alongside existing local administration: Cross-regional emergencies justify coordinated national command.",
+          "sources": [
+            "policy",
+            "border"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Training, integration and incentives are treated as mechanisms that shape behaviour; cultural preservation is not a genetic theory.",
+      "counterEvidence": "No inherited racial explanation is implied by border restriction. Fine-grained psychological items remain mixed, lower-confidence analogies.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Social formation is the stronger general explanation.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: hereditary variation is treated as the stronger explanation; balanced against the consideration that education and conditions better explain cross-country scores. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: expectations and upbringing explain more than sex-linked biology; balanced against the consideration that sex-linked dispositions receive greater explanatory weight. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: biological vulnerability is given more weight than experience; balanced against the consideration that experience and surroundings receive greater weight in stress response. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Opportunity and experience primarily cultivate interests.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: risk appetite is weighted toward inherited disposition; balanced against the consideration that learning and experience primarily shape risk tolerance. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Institutions and upbringing are the stronger source of cooperation.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: inherited variation is weighted above social formation; balanced against the consideration that relationships and social experience primarily shape empathy. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: experience and environment receive greater causal weight; balanced against the consideration that biological predisposition is weighted more heavily for attention. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: immediate moral reactions are attributed primarily to predisposition; balanced against the consideration that moral learning and culture are weighted more heavily. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Experience and social learning chiefly shape perceived threats.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: stable inherited dispositions receive greater explanatory weight; balanced against the consideration that social formation and experience receive greater explanatory weight. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: learned conventions and personal experience are weighted more heavily; balanced against the consideration that inherited preferences receive greater explanatory weight. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Social context and upbringing are favoured over racial heredity.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inference from his reliance on education, integration and work incentives to influence behaviour: Self-control is teachable rather than principally racially inherited.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Conditional inference from his reliance on education, integration and work incentives to influence behaviour: occupational output or market valuation is weighted above social expectations; balanced against the consideration that social expectations and opportunity are weighted above intrinsic economic difference. Neutral gives these competing considerations comparable weight for this specific condition; it is an extrapolation, not a documented answer.",
+          "sources": [
+            "policy",
+            "interview"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root/thinker_assessments (not the original assessor)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read the 240 exact statements, all 15 briefs/counter-evidence and source-linked reasoning. Reopened current Reform policies, September border statement, Full Fact NHS analysis and the March Reuters transcript (three independent publishers); added and read the current welfare paper. Corrected domestic constitutional review, permanent-versus-renewable skill selection, pension exception, expeditionary-capability strength, progressive average and marginal taxes, welfare conditionality versus expiry, and substantial-risk-evidence wording. Replaced repeated full-brief boilerplate with concise labelled inferential bridges. Preserved genuine conditional neutrals and distinguished cultural Christianity from clerical authority or special religious tax exemptions. Trait-specific and hypothetical biomedical judgments remain explicitly lower-confidence analogies, not claims of personal questionnaire answers. Portrait metadata preserved. No score targets or similarity adjustment used. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}

@@ -1,0 +1,78 @@
+.overview { margin: 42px auto 0; }
+.comparison { max-width: 640px; margin-inline: auto; }
+.placeholderIcon { width: 76px; height: 76px; border: 1px dashed var(--border-strong); border-radius: 13px; background: var(--surface); display: grid; place-items: center; color: var(--accent); }
+.placeholderIcon svg { width: 32px; height: 32px; }
+.quote { margin-top: 40px; padding: 38px 42px; border-radius: 28px; display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 24px; background: #dce3d5; color: var(--forest); }
+.quoteMark { font-size: 112px; font-weight: 800; line-height: 1; }
+.quote h2 { font-size: 12px; font-weight: 700; letter-spacing: .17em; text-transform: uppercase; margin-block: 7px 20px; line-height: 1.6; }
+.quote blockquote { margin: 0; font-size: clamp(23px, 2.65vw, 34px); font-weight: 650; letter-spacing: -.035em; line-height: 1.3; text-wrap: pretty; }
+.quote p { font-size: 15px; margin-top: 22px; }
+.axes { margin-top: 46px; }
+.sectionHeading { padding-bottom: 27px; border-bottom: 1px solid var(--ink); }
+.sectionHeading > span { color: var(--accent); font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: .18em; }
+.sectionHeading h2 { font-size: clamp(25px, 3vw, 36px); line-height: 1.2; letter-spacing: -.045em; margin-top: 12px; }
+.axis { padding: 20px 0; border-bottom: 1px solid var(--line); border-radius: 15px; }
+.axisHeading { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 12px; }
+.topic { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.topic h3 { font-size: 20px; letter-spacing: -.025em; line-height: 1.25; }
+.info { position: relative; flex-shrink: 0; }
+.info summary { display: grid; place-items: center; cursor: pointer; width: 32px; height: 32px; list-style: none; font-size: 11px; font-weight: 700; color: var(--muted); }
+.helpIcon { display: flex; align-items: center; justify-content: center; width: 16px; height: 16px; border: 1.5px solid currentColor; border-radius: 50%; font-size: 10px; line-height: 1; }
+.info summary::-webkit-details-marker { display: none; }
+.info > div { position: absolute; top: 34px; left: -100px; z-index: 3; width: min(320px, 75vw); background: var(--paper); border: 1px solid var(--border-strong); box-shadow: 0 10px 30px #193b2d20; border-radius: 12px; padding: 20px; font-size: 13px; }
+.info p { margin-top: 10px; color: var(--muted); }
+.badge { display: inline-flex; align-items: center; justify-content: center; gap: 8px; border-radius: 30px; padding: 8px 13px; font-size: 13px; font-weight: 600; line-height: 1.2; background: color-mix(in srgb, var(--axis-colour) 14%, var(--paper)); }
+.badge i { width: 8px; height: 8px; flex: 0 0 8px; border-radius: 50%; background: var(--axis-colour); }
+.scale { display: grid; grid-template-columns: minmax(180px, 1fr) minmax(100px, 1.7fr) minmax(180px, 1fr); align-items: center; gap: 22px; }
+.pole { display: flex; gap: 10px; align-items: center; border: 1px solid var(--line); border-radius: 15px; min-height: 52px; padding: 9px 13px; background: var(--paper); }
+.pole svg { width: 21px; height: 21px; color: var(--muted); }
+.pole > div { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.pole strong { overflow-wrap: anywhere; hyphens: auto; font-size: 14px; line-height: 1.15; font-weight: 600; }
+.pole span { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.pole[data-active="true"] { border-color: color-mix(in srgb, var(--axis-colour) 45%, var(--paper)); background: color-mix(in srgb, var(--axis-colour) 12%, var(--paper)); }
+.pole[data-active="true"] span, .pole[data-active="true"] svg { color: var(--ink); font-weight: 650; }
+.rightPole { flex-direction: row-reverse; text-align: right; }
+.track { position: relative; height: 24px; margin-inline: 8px; }
+.trackBase, .trackFill { position: absolute; top: 8px; height: 8px; border-radius: 8px; }
+.trackBase { width: 100%; background: #dedcce; }
+.trackFill { background: var(--axis-colour); }
+.midpoint { position: absolute; left: 50%; top: 4px; width: 2px; height: 16px; background: #6e7267; transform: translateX(-50%); }
+.marker { position: absolute; top: 3px; transform: translateX(-50%); border: 4px solid var(--axis-colour); border-radius: 50%; width: 18px; height: 18px; background: var(--paper); }
+.neutralNote { display: block; margin-top: 9px; font-size: 11px; color: var(--muted); }
+@media (max-width: 700px) {
+  .quote { padding: 25px; grid-template-columns: 1fr; gap: 0; border-radius: 22px; }
+  .quoteMark { font-size: 72px; height: 48px; }
+  .quote h2 { font-size: 10px; margin-bottom: 16px; }
+  .quote p { font-size: 13px; }
+  .axisHeading { align-items: flex-start; }
+  .topic h3 { font-size: 17px; }
+  .badge { max-width: 48%; font-size: 11px; padding: 7px 10px; }
+  .scale { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 13px 18px; }
+  .track { grid-row: 2; grid-column: 1 / -1; margin-inline: 9px; }
+  .pole { height: 100%; padding: 10px; gap: 7px; border-radius: 12px; }
+  .pole strong { font-size: 12px; }
+  .pole svg { width: 18px; height: 18px; }
+  .info > div { position: fixed; top: auto; left: 5vw; width: 90vw; }
+  .placeholderIcon { width: 100%; height: 62px; }
+}
+.compact { margin-top: 28px; }
+.compact .sectionHeading { padding-bottom: 17px; }
+.compact .sectionHeading h2 { font-size: 28px; margin-top: 8px; }
+.compact .axis { padding: 10px 0; border-radius: 0; }
+.compact .axisHeading { margin-bottom: 5px; gap: 10px; }
+.compact .topic h3 { font-size: 16px; }
+.compact .badge { font-size: 11px; padding: 5px 9px; }
+.compact .pole { min-height: 39px; padding: 5px 10px; border-radius: 10px; gap: 8px; }
+.compact .pole strong { font-size: 12px; }
+.compact .pole span { font-size: 11px; }
+.compact .pole svg { width: 17px; height: 17px; }
+.compact .scale { gap: 16px; }
+@media (max-width: 700px) {
+  .compact .sectionHeading h2 { font-size: 24px; }
+  .compact .axis { padding: 9px 0; }
+  .compact .topic { gap: 3px; }
+  .compact .topic h3 { font-size: 15px; }
+  .compact .badge { font-size: 10px; }
+  .compact .scale { gap: 4px 14px; }
+  .compact .pole { padding: 5px 8px; }
+}

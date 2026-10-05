@@ -1,0 +1,3305 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "south-korea",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex GPT-6 assessment agent /root/uk_assessment",
+  "changeNote": "Independent assessment against all 240 repository questions, followed by a distinct same-agent evidence review. Implemented institutions and policies through 4 October 2026; precise unsupported items remain unresolved.",
+  "metadata": {
+    "name": "South Korea",
+    "description": "South Korea’s presidential republic, institutions and implemented policies under President Lee Jae Myung, assessed to 4 October 2026.",
+    "category": "Presidential republic",
+    "period": "Institutions and implemented policy through 4 October 2026; Lee Jae Myung presidency since 4 June 2025",
+    "scope": "Republic of Korea national institutions and implemented policy, with relevant local variation. The failed December 2024 martial-law attempt is historical counterevidence, not the incumbent government’s programme. Plans and proposed laws are distinguished from implementation; this is not a survey of citizens.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/south-korea-r1.png",
+      "alt": "Flag of South Korea: red and blue taegeuk and four black trigrams on white.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
+      "creator": "Original: Government of the Republic of Korea; vector: Great Brightstar and others",
+      "license": "Public domain (PD-South Korea; flag contains no original authorship)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Threshold_of_originality#Logos_and_flags"
+    }
+  },
+  "sources": [
+    {
+      "id": "presidency",
+      "title": "President Lee Jae Myung: current official presidential communications",
+      "url": "https://www.president.go.kr/",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "Constitution of the Republic of Korea (current 1987 text)",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=61603&viewCls=engLsInfoR",
+      "publisher": "Republic of Korea public authorities",
+      "date": "1987-10-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freedom",
+      "title": "South Korea: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/south-korea/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hrw",
+      "title": "World Report 2026: South Korea",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/south-korea",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lee-north",
+      "title": "Lee: step-by-step approach to North Korean nuclear dismantlement",
+      "url": "https://apnews.com/article/2c12c8b88ca37e9dab861af584efa574",
+      "publisher": "Associated Press",
+      "date": "2026-09-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "truth",
+      "title": "South Korea relaunches truth commission focusing on adoption fraud",
+      "url": "https://apnews.com/article/a3d0a0d8629c699b9b215b2e7b5a9891",
+      "publisher": "Associated Press",
+      "date": "2026-02-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "growth",
+      "title": "2026 Economic Growth Strategy: enacted fiscal and tax measures",
+      "url": "https://english.mofe.go.kr/ec/selectTbEconomicDtl.do?boardCd=E0005&seq=6328",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-01-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "livelihood",
+      "title": "Basic livelihood benefit levels for 2026",
+      "url": "https://www.mohw.go.kr/menu.es?mid=a10708010500",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-09-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minimum-wage",
+      "title": "2026 statutory minimum wage of KRW 10,320",
+      "url": "https://moel.go.kr/mainpop2.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "immigration-plan",
+      "title": "Fourth Master Plan for Immigration Policy 2023–2027",
+      "url": "https://www.moj.go.kr/immigration_eng/1847/subview.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "immigration-2026",
+      "title": "2026 implementation plan for immigration policy",
+      "url": "https://www.moj.go.kr/bbs/immigration/226/605602/artclView.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-04-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "local-law",
+      "title": "Local Autonomy Act: elected institutions, recall and national relations",
+      "url": "https://elaw.klri.re.kr/kor_mobile/viewer.do?hseq=71407&key=15&type=sogan",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "assembly",
+      "title": "Assembly and Demonstration Act",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=55727&key=11&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police",
+      "title": "Act on Performance of Duties by Police Officers",
+      "url": "https://elaw.klri.re.kr/kor_mobile/viewer.do?hseq=68706&key=21&type=sogan",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "comms",
+      "title": "Protection of Communications Secrets Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=70970&lang=ENG",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "anonymous",
+      "title": "Constitutional Court: internet identity verification unconstitutional",
+      "url": "https://english.ccourt.go.kr/site/eng/ex/bbs/View.do?bcIdx=984895&cbIdx=1142",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "whistle",
+      "title": "Public-interest reporting and protected reporting channels",
+      "url": "https://www.acrc.go.kr/menu.es?mid=a20201030100",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "guns",
+      "title": "Act on Safety Management of Guns, Swords and Explosives",
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=50961",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "traffic",
+      "title": "Road Traffic Act: safety rules and alcohol testing",
+      "url": "https://elaw.klri.re.kr/kor_mobile/subjectViewer.do?hseq=64085&key=%EB%8F%84%EB%A1%9C%EA%B5%90%ED%86%B5%EB%B2%95&pCode=59&pName=%3F%3F%3F%3F+%3F%3F%3F&type=subject",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multicultural-act",
+      "title": "Multicultural Families Support Act, including 2025 amendments",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72623&key=38&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multicultural-support",
+      "title": "Implemented support for multicultural families",
+      "url": "https://www.mogef.go.kr/eng/pc/eng_pc_f006.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bilingual",
+      "title": "Expanded bilingual education for multicultural children",
+      "url": "https://www.mogef.go.kr/eng/pr/eng_pr_s101d.do?bbtSn=709772&mid=eng001",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "visa",
+      "title": "Visa Navigator: customized stay guide for foreign residents",
+      "url": "https://www.moj.go.kr/bbs/immigration_eng/230/454085/download.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "refugees",
+      "title": "Refugee Act: recognition, family unity and social security",
+      "url": "https://elaw.klri.re.kr/kor_service/lawViewContent.do?hseq=43622",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "departure",
+      "title": "2025–2026 special voluntary departure scheme and enforcement exclusions",
+      "url": "https://www.moj.go.kr/bbs/immigration/47/488345/download.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "International Religious Freedom Report 2023: South Korea",
+      "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/south-korea/",
+      "publisher": "US Department of State",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "forms",
+      "title": "Foreign residents: 235 civil forms in ten languages",
+      "url": "https://www.mois.go.kr/eng/bbs/type002/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000022&nttId=115126",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "symbols",
+      "title": "National symbols and civic integration",
+      "url": "https://www.mois.go.kr/frt/sub/a06/b08/nationalIcon/screen.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holidays",
+      "title": "National holidays and commemorative days",
+      "url": "https://www.mois.go.kr/chd/sub/a05/celebrationDay/screen.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military",
+      "title": "Defence White Paper: three-axis response, force structure and overseas missions",
+      "url": "https://www.mnd.go.kr/user/mnd/upload/pblictn/PBLICTNEBOOK_202307280154382000.pdf",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military-2026",
+      "title": "2026 defence programme: modern military and three-axis system",
+      "url": "https://www.korea.kr/news/policyFocusView.do?newsId=148956766&pkgId=49500828",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-budget",
+      "title": "Implemented 2026 defence budget",
+      "url": "https://www.mnd.go.kr/mnd/193/subview.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conscription",
+      "title": "Constitutional basis and male military service",
+      "url": "https://www.mma.go.kr/eng/contents.do?mc=mma0000838",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "speakers",
+      "title": "South Korea removes border propaganda loudspeakers",
+      "url": "https://apnews.com/article/0ee53f235ea436916f29a96b6af2bb51",
+      "publisher": "Associated Press",
+      "date": "2025-08-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military-ai",
+      "title": "REAIM: legal review and appropriate human oversight of autonomous weapons",
+      "url": "https://www.mofa.go.kr/eng/brd/m_5689/view.do?seq=319642",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2024-09-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "intelligence",
+      "title": "NIS foreign intelligence mission",
+      "url": "https://nis.go.kr/AF/1_3.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "alliance",
+      "title": "ROK–US alliance and contemporary North American relations",
+      "url": "https://www.mofa.go.kr/eng/wpge/m_4904/contents.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "icc",
+      "title": "Republic of Korea ratification of Rome Statute",
+      "url": "https://asp.icc-cpi.int/states-parties/asian-states/republic-of-korea",
+      "publisher": "International Criminal Court",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "climate-diplomacy",
+      "title": "Korea and international climate institutions",
+      "url": "https://www.mofa.go.kr/eng/wpge/m_5655/contents.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wto",
+      "title": "WTO: Republic of Korea membership and commitments",
+      "url": "https://www.wto.org/english/thewto_e/countries_e/korea_republic_e.htm",
+      "publisher": "World Trade Organization",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wto-review",
+      "title": "Republic of Korea trade policy review 2021: barriers, ownership and competition",
+      "url": "https://www.wto.org/english/tratop_e/tpr_e/s414_e.pdf",
+      "publisher": "World Trade Organization",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "WTO current Korea tariff profile",
+      "url": "https://ttd.wto.org/en/profiles/korea-republic-of",
+      "publisher": "World Trade Organization",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fx",
+      "title": "Foreign-exchange payments and transactions, including sanctions",
+      "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400191",
+      "publisher": "Bank of Korea",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bok",
+      "title": "Bank of Korea monetary objectives and currency role",
+      "url": "https://www.bok.or.kr/eng/main/contents.do?menuNo=400012",
+      "publisher": "Bank of Korea",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oecd-economy",
+      "title": "OECD Economic Survey Korea 2024",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-korea-2024_c243e16a-en.html",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health-ownership",
+      "title": "Korea health information review: private ownership of care provision",
+      "url": "https://www.oecd.org/en/publications/towards-an-integrated-health-information-system-in-korea_c4e6c88d-en/full-report/component-6.html",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kepco",
+      "title": "KEPCO 2026 Form 20-F: statutory public ownership and finances",
+      "url": "https://www.sec.gov/Archives/edgar/data/887225/000119312526190113/d86100d20f.htm",
+      "publisher": "Korea Electric Power Corporation",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rail",
+      "title": "Competition approval for KORAIL–SR combination",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=156773049",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-08-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "LH public rental housing operations",
+      "url": "https://www.lh.or.kr/",
+      "publisher": "Korea Land and Housing Corporation",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "water",
+      "title": "K-water ownership and statutory public mission",
+      "url": "https://www.kwater.or.kr/eng/about/sub02/kwaterPage.do?s_mid=1099",
+      "publisher": "K-water",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kdb",
+      "title": "Korea Development Bank government ownership and loss compensation",
+      "url": "https://www.kdb.co.kr/BZCOWS00N00.act?_mnuId=IHIHEN0025&wcmsPath=%2Fhmp%2Fch%2Fgl%2Fir%2FCHGLIR0200.html",
+      "publisher": "Korea Development Bank",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Domestic procurement and GPA national treatment",
+      "url": "https://www.pps.go.kr/eng/content.do?key=01156",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "investment",
+      "title": "Foreign-investment eligibility and restricted sectors",
+      "url": "https://www.investkorea.org/ik-en/cntnts/i-334/web.do",
+      "publisher": "KOTRA Invest Korea",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mining",
+      "title": "Mining Industry Act: private mineral concessions",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=72618&key=13&type=sogan",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "broadcast",
+      "title": "Broadcasting Act: KBS statutory public corporation",
+      "url": "https://elaw.klri.re.kr/eng_mobile/ganadaDetail.do?hseq=64715&key=BROADCASTING+ACT&param=B&type=abc",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "waste",
+      "title": "Seoul 2026 waste collection contractor register",
+      "url": "https://news.seoul.go.kr/env/archives/570139",
+      "publisher": "Seoul Metropolitan Government",
+      "date": "2026-07-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nhis",
+      "title": "National health-insurance benefits",
+      "url": "https://www.nhis.or.kr/english/wbheaa02600m01.do",
+      "publisher": "National Health Insurance Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "food-tariffs",
+      "title": "Korea 2025 adjustment tariffs and voluntary tariff-rate quotas",
+      "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=2025+Adjustment+and+Voluntary+TRQs+for+Agricultural+Commodities_Seoul_Korea+-+Republic+of_KS2025-0008",
+      "publisher": "US Department of Agriculture",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "Virtual-asset user protection enforcement decree",
+      "url": "https://fsc.go.kr/eng/pr010101/82534",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2024-06-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rent",
+      "title": "Special Act on Private Rental Housing: rent increase limits",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=69370&key=4&type=sogan",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fund",
+      "title": "National Growth Fund: public-private financing and priority industries",
+      "url": "https://fsc.go.kr/eng/pr010101/86697?curPage=&srchBeginDt=&srchCtgry=2&srchEndDt=&srchKey=&srchText=",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-04-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "income-tax",
+      "title": "Individual income-tax progressive rates",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7666&mi=2227",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "inheritance",
+      "title": "Inheritance tax computation and progressive rates",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7720&mi=2308",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eitc",
+      "title": "2026 earned-income and child tax-credit explanation",
+      "url": "https://t.nts.go.kr/nts/na/ntt/selectNttList.do?bbsId=50664&mi=7267",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gender-act",
+      "title": "Framework Act on Gender Equality: equal participation, education and family responsibilities",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=74836&key=38&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "single-parent",
+      "title": "2026 single-parent family welfare services",
+      "url": "https://www.mogef.go.kr/io/ind/io_ind_s005d.do?bbtSn=209&mid=old919",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-02-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "same-sex-benefit",
+      "title": "Supreme Court: equal NHIS dependent coverage for same-sex partners",
+      "url": "https://scourt.go.kr/supreme/news/NewsViewAction2.work?gubun=4&seqnum=9950",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2024-07-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abortion",
+      "title": "Constitutional Court: abortion criminal provisions incompatible with Constitution",
+      "url": "https://www.ccourt.go.kr/site/kor/ex/bbs/View.do?bcIdx=1002342&cbIdx=1195",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2019-04-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "2022 revised national curriculum and staged implementation through 2027",
+      "url": "https://www.moe.go.kr/boardCnts/viewRenew.do?boardID=141&boardSeq=93458&lev=0&search=",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2022-12-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum-review",
+      "title": "Joint NGO submission to CEDAW documenting removal of sexual-minority language from national curriculum",
+      "url": "https://www.sisters.or.kr/file/down/_data/board_list_file/19/2023/230131052756407.pdf",
+      "publisher": "Korea Sexual Violence Relief Center and joint women’s organisations",
+      "date": "2023-01-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Consular guidance: Korean civil marriage registration",
+      "url": "https://www.mofa.go.kr/us-ko/brd/m_4480/view.do?page=1&seq=1071140",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "modesty",
+      "title": "Punishment of Minor Offenses Act: excessive exposure offence",
+      "url": "https://elaw.klri.re.kr/eng_service/lawViewContent.do?hseq=29493",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "heritage",
+      "title": "2026 Royal Culture Festival: completed spring heritage programme",
+      "url": "https://khs.go.kr/cop/bbs/selectBoardArticle.do?bbsId=BBSMSTR_1250&ctgryLrcls=&ctgryMdcls=&ctgrySmcls=&mn=NS_01_28&ntcEndDt=&ntcStartDt=&nttId=93189&pageIndex=1&pageUnit=10&searchCnd=&searchUseYn=&searchWrd=",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-05-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "career",
+      "title": "Women’s career-interruption prevention: family care and workplace culture",
+      "url": "https://saeil.mogef.go.kr/hom/prevent/prevent01.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "intangible",
+      "title": "Republic of Korea periodic report on safeguarding intangible cultural heritage",
+      "url": "https://ich.unesco.org/en/state/republic-of-korea-KR?cp=KR&info=periodic-reporting&topic=fr-etat",
+      "publisher": "UNESCO / Republic of Korea",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-act",
+      "title": "AI Basic Act in force from 22 January 2026: innovation and high-impact safeguards",
+      "url": "https://www.msit.go.kr/eng/bbs/view.do%3Bjsessionid%3DR15sRn4EJvYb4ya9k4Roiy9k6Ci-tgMefxkNeVIs.AP_msit_1?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1214&sCode=eng",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-01-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-learning",
+      "title": "2026 AI learning and workforce transition initiatives",
+      "url": "https://english.msit.go.kr/eng/bbs/view.do?bbsSeqNo=42&mId=4&mPid=2&nttSeqNo=1284&sCode=eng",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bioethics",
+      "title": "Bioethics and Safety Act: embryo research and gene-therapy limits",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=68583&key=36&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "digital-medical",
+      "title": "Digital medical-product regulatory categories and approval framework",
+      "url": "https://emedi.mfds.go.kr/msismext/emd/bif/digitInfoIntrcnView.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cultivated-food",
+      "title": "MFDS safety assessment guidance for cell-cultivated food materials",
+      "url": "https://impfood.mfds.go.kr/CFBDD06F02/getCntntsDetail?cntntsSn=570566",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eia",
+      "title": "Environmental Impact Assessment Act",
+      "url": "https://elaw.klri.re.kr/eng_service/lawView.do?hseq=52910&lang=ENG",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "airport",
+      "title": "Gadeokdo airport: government starts site-construction basic-design procedure",
+      "url": "https://www.molit.go.kr/USR/NEWS/m_72/dtl.jsp/dtl.jsp?id=95091763&lcmspage=3",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2026-03-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "Transboundary Movement of Living Modified Organisms Act and environmental risk assessment",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=28256",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "biotech-review",
+      "title": "Biotechnology and Other New Production Technologies Annual, Korea 2025",
+      "url": "https://apps.fas.usda.gov/newgainapi/api/Report/DownloadReportByFileName?fileName=Biotechnology+and+Other+New+Production+Technologies+Annual_Seoul_Korea+-+Republic+of_KS2025-0047.pdf",
+      "publisher": "US Department of Agriculture Foreign Agricultural Service",
+      "date": "2025-12-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-local",
+      "title": "Act on organisation and operation of national and autonomous police",
+      "url": "https://elaw.klri.re.kr/kor_mobile/viewer.do?hseq=73561&key=21&type=sogan",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "local-tax",
+      "title": "Local Tax Act: nationally prescribed taxes and local rate discretion",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=63952&key=10&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-system",
+      "title": "Korean Taxation: allocation of national and local taxes",
+      "url": "https://english.moef.go.kr/upload/eco/2022/12/FILE_20221209085229_2.pdf",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "labour",
+      "title": "National labour standards: hours and employment protection",
+      "url": "https://www.moel.go.kr/english/policy/laborStandards.do",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wildlife",
+      "title": "Wildlife Protection and Management Act: national and regional conservation powers",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=32441&key=37&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disasters",
+      "title": "Framework Act on Management of Disasters and Safety: central response powers",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=37385",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "child-development",
+      "title": "NCMH expert discussion: biological predispositions and upbringing interact in child development",
+      "url": "https://www.mentalhealth.go.kr/portal/bbs/bbsDetail.do?bbsId=BBSINIT_5&nttId=598",
+      "publisher": "National Center for Mental Health",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stress-model",
+      "title": "NCMH: somatic symptom disorder and biological, psychological and cultural stress sensitivity",
+      "url": "https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=8",
+      "publisher": "National Center for Mental Health / Korean Neuropsychiatric Association",
+      "date": "2020-05-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gambling-model",
+      "title": "NCMH: gambling disorder, genetic factors, learning and environment",
+      "url": "https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=61&srCodeNm=%EB%8F%84%EB%B0%95%EC%9E%A5%EC%95%A0",
+      "publisher": "National Center for Mental Health / Korean Neuropsychiatric Association",
+      "date": "2021-11-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd-model",
+      "title": "NCMH: adult ADHD, heritability and environmental factors",
+      "url": "https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=15",
+      "publisher": "National Center for Mental Health / Korean Neuropsychiatric Association",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "threat-model",
+      "title": "NCMH: social anxiety, inherited vulnerability and learned threat responses",
+      "url": "https://www.mentalhealth.go.kr/portal/disease/diseaseDetail.do?dissId=68",
+      "publisher": "National Center for Mental Health / Korean Neuropsychiatric Association",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "narcotics",
+      "title": "Narcotics Control Act: restrictions on possession and non-medical use",
+      "url": "https://elaw.klri.re.kr/eng_service/lawTwoView.do?hseq=14446",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cctv",
+      "title": "Personal Information Protection Commission: minimum necessary CCTV retention",
+      "url": "https://www.privacy.go.kr/front/case/view.do?nttId=8674",
+      "publisher": "Personal Information Protection Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-treaty",
+      "title": "US–Republic of Korea Mutual Defense Treaty, including unilateral withdrawal clause",
+      "url": "https://avalon.law.yale.edu/20th_century/kor001.asp",
+      "publisher": "United States and Republic of Korea treaty text / Yale Avalon Project",
+      "date": "1953-10-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "official-secrets",
+      "title": "Criminal Act Article 127: disclosure of official secrets",
+      "url": "https://elaw.klri.re.kr/kor_service/lawViewMultiContent.do?hseq=63711",
+      "publisher": "Republic of Korea public authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "shelter-signs",
+      "title": "2024 civil-defence guidance: multilingual shelter signs for multicultural families and foreign residents",
+      "url": "https://www.jne.go.kr/upload/open/na/bbs_297/ntt_5121017/doc_c2e8da7d-fb5a-4e12-a8bd-06c3939d787d1721a9522b65225.pdf",
+      "publisher": "Ministry of the Interior and Safety / Jeollanamdo Office of Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stalking",
+      "title": "Act on Punishment of Crime of Stalking: court-ordered protective restrictions",
+      "url": "https://elaw.klri.re.kr/eng_mobile/viewer.do?hseq=63352&key=9&type=part",
+      "publisher": "Republic of Korea public authorities",
+      "date": "2023-07-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "deployed-units",
+      "title": "Four overseas military units and their current missions, reporting Joint Chiefs of Staff information",
+      "url": "https://en.sedaily.com/politics/2026/09/13/korea-keeps-four-military-units-deployed-overseas",
+      "publisher": "Seoul Economic Daily",
+      "date": "2026-09-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military-accord-review",
+      "title": "Government reviewing revival of 2018 agreement and no-fly zones; not yet implementation",
+      "url": "https://www.korea.net/NewsFocus/policies/view?articleId=287663",
+      "publisher": "Korea.net / Ministry of Unification",
+      "date": "2026-02-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "airport-method",
+      "title": "MOLIT selection of reclamation method for Gadeokdo airport",
+      "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=156557259",
+      "publisher": "Ministry of Land, Infrastructure and Transport",
+      "date": "2023-03-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-corroboration",
+      "title": "AI regulatory framework took effect in January 2026",
+      "url": "https://www.loc.gov/item/global-legal-monitor/2026-02-20/south-korea-comprehensive-ai-legal-framework-takes-effect/",
+      "publisher": "US Library of Congress",
+      "date": "2026-02-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religious-outreach",
+      "title": "Presidential meeting with leaders of seven religious traditions",
+      "url": "https://www.president.go.kr/briefings/d074mJE3",
+      "publisher": "Office of the President",
+      "date": "2026-01-12",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive elections, parliamentary scrutiny and constitutional review structure the presidential republic. The removal of Yoon after martial law demonstrates actual constitutional accountability, followed by the elected Lee government.",
+      "counterEvidence": "The failed 2024 martial-law attempt is serious counterevidence about institutional vulnerability. National popular recall and citizen-initiated statutory repeal are absent; local recall is narrower. Security-related party restrictions require judicial process.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The president is directly elected for a single five-year term and the legislature is competitively renewed.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The electorate chooses the president; expert appointment does not replace competitive executive election.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adult suffrage does not depend on educational or intelligence qualifications, although legal disqualifications prevent an absolute answer.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary legislation requires the Assembly; emergency ordinance powers are exceptional and subject to parliamentary control.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Opposition parties contest elections, with national-security restrictions qualifying a fully unconditional answer.",
+          "sources": [
+            "freedom",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The National Assembly has authority to inspect state affairs and budgets, including through opposition members.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional review includes binding removal and invalidation powers, actually exercised after the martial-law crisis.",
+          "sources": [
+            "constitution",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Trade unions may participate politically but have no constitutional power to choose the national government.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Party dissolution requires a Constitutional Court decision on constitutional democratic-order grounds; leaders cannot exclude opponents by personal decision.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The constitution provides presidential policy and amendment referendums rather than a general voter-initiated power to repeal ordinary laws.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislation, budgets, treaties and impeachment involve the Assembly and courts, preventing sole executive authority.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Assembly impeachment followed by Constitutional Court adjudication removed President Yoon for serious constitutional violations.",
+          "sources": [
+            "constitution",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Fixed constitutional election terms and electoral institutions do not give the president unilateral political-continuity extensions.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local heads and constituency councillors are recallable, while the president and national lawmakers have no corresponding popular recall mechanism.",
+          "sources": [
+            "local-law",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The executive is subject to elections, legislative oversight and constitutional accountability.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The constitution mandates politically neutral armed forces; the martial-law attempt was reversed and its president removed.",
+          "sources": [
+            "constitution",
+            "hrw"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional liberties and judicial warrants coexist with restrictive drug, firearms, obscenity and security laws. Anonymous online expression receives constitutional protection.",
+      "counterEvidence": "Protests generally proceeded freely in 2025, but traffic restrictions and national-security expression offences remain. Whistleblower reporting protection must not be confused with unrestricted public leaking. Some preventive-surveillance questions need narrower evidence.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Non-medical possession and use of controlled narcotics remain prohibited even when the user acts privately and is not harming another identifiable person.",
+          "sources": [
+            "narcotics"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The communications statute permits serious-crime interception with judicial authorisation and legal limits.",
+          "sources": [
+            "comms"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Assembly freedom operates alongside statutory major-road traffic restrictions and prohibition powers, yielding conditional tolerance of obstruction.",
+          "sources": [
+            "assembly",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Political criticism is protected, but criminal defamation and national-security expression restrictions can apply even without physical harm.",
+          "sources": [
+            "freedom",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Road rules impose safety-belt and helmet requirements that protect wearers, supporting limited paternalistic health mandates.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "PIPC guidance requires the minimum necessary CCTV retention and ordinarily uses a 30-day default when a justified period cannot be established, weighing against routine multi-year storage for potential investigations.",
+          "sources": [
+            "cctv"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Traffic police may require alcohol testing for traffic safety, not only after an offence has been proved.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Court orders restrict suspected stalkers before conviction and can prevent further harm, but they presuppose stalking conduct; reviewed evidence does not establish the question’s broader before-any-offence regime.",
+          "sources": [
+            "stalking",
+            "police"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Criminal restrictions on obscene and pro-North material constrain adults’ access to government-disapproved content.",
+          "sources": [
+            "hrw",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Constitutional Court invalidated general mandatory identity verification for online forums as a disproportionate restriction on anonymous expression.",
+          "sources": [
+            "anonymous"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Police stop-and-question powers require reasonable grounds tied to conduct or knowledge of an offence; a threat in an area alone is not a general personal-search warrant.",
+          "sources": [
+            "police"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The assembly statute permits restrictions where direct threats to public peace and order are apparent.",
+          "sources": [
+            "assembly"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Search warrants issued by judges are the constitutional norm, with legally limited urgent/arrest exceptions.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Criminal Act Article 127 penalises official disclosure of classified duty-related secrets, while protected whistleblowing uses designated channels; there is no general public-publication exception in this evidence.",
+          "sources": [
+            "official-secrets",
+            "whistle"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Police licensing and purpose-specific firearm possession restrictions are much narrower than ordinary adult ownership for personal defence.",
+          "sources": [
+            "guns"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional arrest and detention safeguards require judicial warrants and review, rather than detention until authorities decide a threat has ended.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Korean language and civic integration remain central, while funded multicultural-family centres, translation and bilingual education preserve some migrant identities.",
+      "counterEvidence": "The legal multicultural-family definition is selective and does not make cultural difference override common law. Funding language support is not evidence for Indigenous recognition. National-culture promotion and foreign-language assistance coexist.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration law and the constitutional duty to develop national culture place shared civic and Korean cultural participation at the centre.",
+          "sources": [
+            "multicultural-act",
+            "constitution",
+            "symbols"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Publicly funded family centres and multilingual civil forms accept costs to accommodate migrant needs.",
+          "sources": [
+            "multicultural-support",
+            "forms"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Settlement and integration programmes teach Korean language and society, although they do not demand erasure of origin identities.",
+          "sources": [
+            "visa",
+            "immigration-plan"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Bilingual programmes explicitly teach immigrant parents’ native languages while integrating their children into Korean society.",
+          "sources": [
+            "bilingual",
+            "multicultural-act"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Korean-language integration is prioritised, but ten-language civil forms and multilingual counselling are provided as public services.",
+          "sources": [
+            "forms",
+            "multicultural-support"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The reviewed national ceremonial framework does not establish a position on distinct Indigenous peoples; ethnic Korean heritage is not an equivalent concept.",
+          "sources": [
+            "symbols"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional Article 9 mandates sustaining national heritage, reinforced by state national-symbol and commemorative programmes.",
+          "sources": [
+            "constitution",
+            "symbols"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Multicultural support aims at stable participation and responsibilities within Korean society rather than overriding shared public institutions.",
+          "sources": [
+            "multicultural-act"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Government commemorations organise public life around a common national calendar including Korean traditional and major religious holidays.",
+          "sources": [
+            "holidays",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The state supports bilingual multicultural families and cultural exchange as members of the national community; this supports plural membership alongside common culture.",
+          "sources": [
+            "multicultural-act",
+            "bilingual"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Community participation and overcoming separation and prejudice are express functions of multicultural-family programmes.",
+          "sources": [
+            "multicultural-act"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil-defence guidance expressly requires foreign-language shelter signage so multicultural families and foreign residents can identify shelters, supporting practical multilingual public signs.",
+          "sources": [
+            "shelter-signs"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family policy teaches Korean society and civic participation while funding children’s retention of their migrant parent’s language and identity.",
+          "sources": [
+            "multicultural-support",
+            "bilingual"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Religious freedom is protected, but the reviewed law does not establish a special burqa exception where other complete coverings are prohibited.",
+          "sources": [
+            "religion",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Funded bilingual and multicultural-family programmes recognise distinct origins as compatible with membership in Korean society.",
+          "sources": [
+            "multicultural-act",
+            "bilingual"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The integration programme prioritises Korean language and social adaptation, while separate bilingual support preserves origin cultures.",
+          "sources": [
+            "visa",
+            "multicultural-support"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The visa system channels migration through skills, employment, family, ancestry, investment and protection. It is selectively open rather than a general right to settle.",
+      "counterEvidence": "Family and refugee residence qualify a skills-only reading. Temporary labour quotas cannot be treated as a universal permanent-migration cap. Recognised refugees receive social protection, but recognition practice is restrictive.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The guide provides multiple permanent and family residence categories rather than one housing-linked annual ceiling for all permanent entrants.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Improving living conditions is not independently sufficient: an applicant needs an authorised residence category.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family, refugee and investment routes coexist with talent routes, contradicting a skills-only normal rule.",
+          "sources": [
+            "visa",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Spouses and minor children of permanent residents can obtain resident status, subject to immigration conditions.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Refugee recognition provides residence and social protection without a skills test, but it is not an automatic permanent-residence grant to everyone fleeing a country.",
+          "sources": [
+            "refugees",
+            "visa",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The 2025–2026 voluntary-departure programme incentivised leaving and retained deportation for enforcement cases rather than general regularisation.",
+          "sources": [
+            "departure"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Employer demand operates within defined work statuses and qualifying transitions; a labour request alone does not confer permanent residence.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The general selective system does not establish that housing and services outweigh admitted economic benefits in deciding an immigration reduction.",
+          "sources": [
+            "immigration-plan"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family residence is a separate eligibility route; the reviewed system does not aggregate it within one universal permanent annual cap.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A job can support a qualifying work visa, but occupation, status and employer conditions restrict general job-offer mobility.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Independent talent, investment and qualifying long-residence routes show that family or employer sponsorship is not universally required.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Study is a temporary status and graduation normally requires further work, points or other qualifying conditions before permanent residence.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refugee applications and non-refoulement protection are distinct legal routes rather than ordinary employment-quota slots.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Dedicated overseas-Korean residence routes give ancestry-related advantages beyond purely universal skill criteria.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Recognised refugees receive statutory social security and livelihood protection; some other family statuses receive support, without universal eligibility for every migrant.",
+          "sources": [
+            "refugees",
+            "multicultural-support"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Policy welcomes a multicultural environment and migrant dignity, but admissions are principally organised around economic and integration needs rather than cultural difference alone.",
+          "sources": [
+            "immigration-plan"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Substantial defence spending, male conscription, the US alliance and an operational pre-emptive strike capability coexist with Lee’s implemented de-escalation measures and preference for negotiation.",
+      "counterEvidence": "Lee’s actual speaker removal and diplomatic approach qualify the large defence budget and deterrent posture. Sustained overseas peace-support missions do not prove prolonged foreign combat policy. The 2026 review of restoring negotiated no-fly zones is prospective and is not scored as implementation.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The constitution rejects aggressive war, while overseas missions and retained pre-emptive defence capabilities permit force in narrower circumstances than responding to completed attacks.",
+          "sources": [
+            "constitution",
+            "military",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Removing propaganda speakers is a concrete concession to diplomatic de-escalation, reinforced by the incumbent’s gradual dialogue approach.",
+          "sources": [
+            "speakers",
+            "lee-north"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2026 defence budget increased 7.5% to fund advanced deterrence against North Korea, accepting substantial cost for capability advantage.",
+          "sources": [
+            "defence-budget",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The retained Kill Chain seeks to detect and strike imminent North Korean attack preparations; this is narrower than preventive war against a distant risk.",
+          "sources": [
+            "military",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Pre-emptive strike capability and overseas peace-support roles extend beyond a strict completed-attack-only rule.",
+          "sources": [
+            "military",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Male citizens are legally required to fulfil military service, with fitness and alternative-service arrangements.",
+          "sources": [
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Lee accepted removal of psychological-warfare assets to reduce tension but maintained defence readiness and strengthened spending, balancing concessions with security.",
+          "sources": [
+            "speakers",
+            "defence-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Military AI is developed, but policy requires legal review and appropriate human oversight. That is a conditional position, not unqualified autonomy or a categorical human-per-shot rule.",
+          "sources": [
+            "military-ai",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Territorial deterrence and defence dominate force planning, although overseas deployments remain.",
+          "sources": [
+            "military",
+            "military-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The US defence alliance and armed deterrence reject avoiding military action at any cost.",
+          "sources": [
+            "alliance",
+            "military"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Current overseas rotations demonstrate sustained presence, counter-piracy and peace-support capacity, but do not establish the exact policy of maintaining prolonged foreign combat capability.",
+          "sources": [
+            "deployed-units",
+            "military"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional peaceful unification and Lee’s gradual diplomacy favour leaving disputes unresolved over starting a territorial war.",
+          "sources": [
+            "constitution",
+            "lee-north"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Retaliatory deterrent capabilities signal force, while incumbent practice reduces border threats to facilitate negotiations.",
+          "sources": [
+            "military-2026",
+            "speakers"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Physical speaker removal prioritised de-escalation without abandoning deterrence, giving modest support to reducing escalation risk.",
+          "sources": [
+            "speakers"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "NIS maintains covert foreign security and proliferation intelligence capabilities, supporting espionage despite foreseeable diplomatic sensitivity.",
+          "sources": [
+            "intelligence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Speaker removal was a unilateral confidence-building action. The reviewed 2026 revival of negotiated military limits remains a review/proposal, so implemented acceptance of capability reductions through negotiation is not established.",
+          "sources": [
+            "speakers",
+            "military-accord-review"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "South Korea preserves a sovereign constitutional and monetary system while accepting binding trade, alliance and international-criminal-law obligations.",
+      "counterEvidence": "Treaties have domestic legal force but do not create a supranational political federation. Climate targets are nationally determined. International human-rights recommendations and binding judicial orders must be distinguished.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Constitutional institutions remain sovereign, while duly concluded treaties and international law have domestic legal effect under Article 6.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "WTO obligations and treaty-based adjudication constrain the government even when particular outcomes are unwelcome.",
+          "sources": [
+            "wto",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Treaties have domestic force and ICC jurisdiction is accepted, but the constitutional order has not generally subordinated every domestic judgment to all international courts.",
+          "sources": [
+            "constitution",
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The enduring US mutual-defence alliance and integrated security cooperation constrain independent action.",
+          "sources": [
+            "alliance"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Article VI of the mutual-defence treaty permits either party to withdraw one year after notice, without requiring the other party or an international institution to approve.",
+          "sources": [
+            "defence-treaty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Rome Statute ratification accepts criminal jurisdiction that can apply to Korean officials, subject to jurisdictional and complementarity rules.",
+          "sources": [
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official economic strategy explicitly prioritises national interests in trade negotiations while maintaining multilateral commitments.",
+          "sources": [
+            "growth",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Paris and climate-finance cooperation share rules and resources, while emissions commitments remain nationally determined.",
+          "sources": [
+            "climate-diplomacy"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The state retains its own foreign policy through bilateral alliances and multilateral cooperation rather than a common-foreign-policy bloc.",
+          "sources": [
+            "alliance",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Treaty rights and international recommendations matter, but domestic constitutional and legislative implementation remains necessary outside specific binding jurisdictions.",
+          "sources": [
+            "constitution",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Bank of Korea maintains the won and national monetary authority.",
+          "sources": [
+            "bok"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multilateral climate finance and international institutional participation pool resources and some decisions.",
+          "sources": [
+            "climate-diplomacy",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The visa and border system remains administered nationally rather than through a shared external-border authority.",
+          "sources": [
+            "visa"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "WTO and free-trade commitments accept mutually negotiated common trade rules.",
+          "sources": [
+            "wto",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The constitution establishes national sovereignty, with no political-federation membership replacing it.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Financial-sanctions implementation expressly supports treaty obligations and international peace-and-security efforts even where transactions would be commercially beneficial.",
+          "sources": [
+            "fx"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private firms and providers dominate much ordinary production and healthcare, while strategic utilities, rail, development banking, public housing and broadcasting retain substantial public ownership.",
+      "counterEvidence": "Public funding is not itself public ownership: private hospitals and contracted municipal collection remain private. Resource concessions differ from ownership of the minerals. The 2026 rail merger approval is a concrete public-sector consolidation measure, not completed integration by assumption.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional economic freedom and the private-enterprise economy make private ownership normal for ordinary business.",
+          "sources": [
+            "constitution",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "K-water is publicly owned and KEPCO must retain majority state ownership, supporting public utility networks.",
+          "sources": [
+            "water",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private contracting is established, but strategic public corporations persist even where commercial providers could compete.",
+          "sources": [
+            "procurement",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State development banks and commercial utility businesses operate alongside private firms rather than reserving every competitive activity to them.",
+          "sources": [
+            "kdb",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Care delivery relies overwhelmingly on privately owned clinics and hospitals despite public national health insurance.",
+          "sources": [
+            "health-ownership",
+            "nhis"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National rail institutions remain public, with the 2026 government-approved KORAIL–SR combination reinforcing that model.",
+          "sources": [
+            "rail"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public procurement uses competitive purchases from suppliers and municipal waste is contracted to private firms.",
+          "sources": [
+            "procurement",
+            "waste"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "KDB is wholly government-owned and operates alongside private banking.",
+          "sources": [
+            "kdb"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic ownership is legally retained in KEPCO and development banking rather than subject to a general sale programme.",
+          "sources": [
+            "kepco",
+            "kdb"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "LH directly supplies and manages a substantial public rental-housing portfolio.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private strategic-sector businesses operate subject to security screening, while public energy and banking ownership remain.",
+          "sources": [
+            "investment",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The mining statute grants transferable extraction rights and concessions to operators rather than generally requiring state-owned extraction companies.",
+          "sources": [
+            "mining"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Seoul’s current register documents contracted commercial collection companies across districts; this supports outsourcing while remaining a local practice inference.",
+          "sources": [
+            "waste"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "KEPCO’s majority public ownership is statutory and KDB remains wholly public, making strategic control more than a fiscal-sale choice.",
+          "sources": [
+            "kepco",
+            "kdb"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "KDB has a statutory government loss-compensation provision, and strategic public firms retain ownership through financial pressure.",
+          "sources": [
+            "kdb",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Broadcasting Act establishes and capitalises KBS as a public corporation rather than leaving national broadcasting entirely private.",
+          "sources": [
+            "broadcast"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "An extensive WTO and FTA framework coexists with agricultural protection, trade remedies, security screening and sector-specific restrictions.",
+      "counterEvidence": "Tariff protection cannot be inferred from industrial subsidies alone. Unilateral food-duty reductions and national treatment in covered procurement counter a blanket protectionist reading. Older WTO detail is contextual and checked against current tariff and investment material.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The tariff schedule retains meaningful protection, particularly for agriculture, alongside preferential liberalisation.",
+          "sources": [
+            "tariffs",
+            "wto-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "WTO and FTAs substantially reduce barriers to external competition, despite sensitive-sector exceptions.",
+          "sources": [
+            "wto",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Covered GPA procurement provides foreign national treatment, while domestic SME and excluded-sector purchasing rules preserve preferences.",
+          "sources": [
+            "procurement",
+            "wto-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Import sourcing is generally commercial, subject to sanctions and strategic-product restrictions.",
+          "sources": [
+            "wto-review",
+            "fx"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agricultural protection preserves domestic capacity, but voluntary food-input quota reductions permit cheaper supply when shortages threaten prices.",
+          "sources": [
+            "food-tariffs",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Voluntary tariff-rate quotas reduce selected food duties to address costs without requiring reciprocal concessions.",
+          "sources": [
+            "food-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Safeguard and tariff instruments permit selective protection, but new-industry support often takes investment and subsidies instead of import exclusion.",
+          "sources": [
+            "wto-review",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign investment is broadly welcomed, subject to specified prohibited and restricted activities and national-security screening.",
+          "sources": [
+            "investment"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "High agricultural tariffs and tariff-rate quotas explicitly protect sensitive domestic farm markets.",
+          "sources": [
+            "tariffs",
+            "food-tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Export-oriented competition coexists with farm and trade-remedy protection; policy does not require all industries to adjust without protection.",
+          "sources": [
+            "wto-review",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The system retains legally authorised trade-response instruments, but the incumbent settled US tariff disputes through negotiations rather than automatic retaliation.",
+          "sources": [
+            "growth",
+            "wto-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "WTO national-treatment commitments generally apply internal product taxes without differentiating domestic and imported goods solely by origin.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The WTO-reviewed trade-remedy regime includes countervailing measures against injurious subsidised imports.",
+          "sources": [
+            "wto-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "FTA commitments remove tariffs and deepen cross-border supply links despite resulting dependence.",
+          "sources": [
+            "wto",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign investment may be restricted where it threatens national security, including sensitive strategic sectors.",
+          "sources": [
+            "investment"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cross-border services are traded, while regulated digital and audiovisual sectors and content controls constrain unrestricted foreign-service access.",
+          "sources": [
+            "wto-review",
+            "hrw"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Markets determine most production and ordinary prices, but industrial credit, the National Growth Fund, utility pricing and wage/rent floors give the state an active economic steering role.",
+      "counterEvidence": "Industrial targets and funding priorities are not compulsory output quotas. Bank of Korea monetary objectives differ from executive-directed national production planning. Virtual assets are permitted as assets, not automatically as competing legal currency.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The constitution protects enterprise initiative and most businesses choose production in competitive markets.",
+          "sources": [
+            "constitution",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The growth strategy steers investment and incentives rather than imposing universal compulsory output quotas on important industries.",
+          "sources": [
+            "growth",
+            "fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Most goods use market prices, although utilities and regulated services are exceptions.",
+          "sources": [
+            "oecd-economy",
+            "kepco"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The National Growth Fund and budget explicitly direct capital toward AI and designated high-tech sectors.",
+          "sources": [
+            "growth",
+            "fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary entry, expansion and exit follow enterprise decisions, qualified by strategic finance and sector regulation.",
+          "sources": [
+            "constitution",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public electricity tariffs and health-insurance reimbursement are regulated rather than freely chosen by essential-service suppliers.",
+          "sources": [
+            "kepco",
+            "nhis"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary enterprise is constitutionally protected and there is no general proof-of-demand entry test, though regulated sectors require licences.",
+          "sources": [
+            "constitution",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "KDB-led financing and the Growth Fund direct policy-bank lending toward selected strategic industries.",
+          "sources": [
+            "fund",
+            "kdb"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Current payments are generally free of reporting, while designated capital transactions require advance reports and sanctioned payments may require approval.",
+          "sources": [
+            "fx"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Targeted AI and industrial funding deliberately steers investment rather than simply following private investors.",
+          "sources": [
+            "growth",
+            "fund"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Virtual assets have a lawful regulated market, but the won remains the national currency and token trading does not itself create equal monetary status.",
+          "sources": [
+            "crypto",
+            "bok"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A statutory nationwide minimum wage of KRW 10,320 applies in 2026.",
+          "sources": [
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Above the statutory floor, wages are normally set through employment contracts and bargaining rather than a national wage grid.",
+          "sources": [
+            "minimum-wage",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Bank of Korea policy is framed around price and financial stability rather than an executive production-plan lending mandate.",
+          "sources": [
+            "bok"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "New rents are negotiated but regulated rental categories face statutory renewal-increase limits, combining markets and controls.",
+          "sources": [
+            "rent"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The government steers priority investment but constitutional enterprise freedom and market organisation reject comprehensive routine production-and-distribution planning.",
+          "sources": [
+            "constitution",
+            "growth"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income and inheritance taxes, means-tested livelihood guarantees and earned-income supplements redistribute resources. The 2026 government expanded basic-benefit thresholds and restored revenue measures.",
+      "counterEvidence": "Korea’s safety net remains comparatively limited and often tightly means-tested. Broader child and worker supplements differ from a guaranteed equal standard of living. Current land-tenure policy cannot be inferred from historic agrarian reform.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Progressive taxes, the livelihood floor and earned-income credits actively narrow disposable-income differences.",
+          "sources": [
+            "income-tax",
+            "livelihood",
+            "eitc"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional economic-democratisation powers and progressive fiscal support treat distribution as a legitimate state concern.",
+          "sources": [
+            "constitution",
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2026 benefit floor rose with the median-income benchmark while revenue-raising measures accompanied increased fiscal support.",
+          "sources": [
+            "livelihood",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The basic livelihood payment tops households up to a limited minimum rather than generally equalising living standards.",
+          "sources": [
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Progressive marginal income-tax brackets impose substantially higher rates on higher earners.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private earnings remain protected and the safety net is limited, but progressive taxation and benefit expansion reject an unconditional retention priority.",
+          "sources": [
+            "income-tax",
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Large estates face progressive inheritance taxation, contributing to general revenues alongside income-support expenditure rather than a strictly earmarked transfer.",
+          "sources": [
+            "inheritance",
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The livelihood scheme is based on continuing qualifying income and assets rather than a universal fixed lifetime limit for all able-bodied recipients.",
+          "sources": [
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Property and inheritance taxes collect wealth-related revenues, while there is no general annual net-wealth tax across all assets.",
+          "sources": [
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A modest means-tested floor limits cost, but the 2026 increase demonstrates willingness to expand it rather than prioritising lower tax alone.",
+          "sources": [
+            "livelihood",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The scheme includes clothing, fuel and ordinary daily-life expenses, with housing and education support beyond emergency subsistence.",
+          "sources": [
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The incumbent expanded fiscal welfare support and restored corporate revenue rates rather than generally prioritising tax cuts over benefits.",
+          "sources": [
+            "growth",
+            "livelihood"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The earned-income tax credit explicitly supplements low-paid households’ income.",
+          "sources": [
+            "eitc"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Progressive marginal income-tax brackets directly reject a uniform rate on high earners’ additional income.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Historic land reform and modern housing supply do not establish a current policy of compensated redistribution of large landholdings to land-poor households.",
+          "sources": [
+            "housing",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Earned-income and child credits extend support to a wider low-income population beyond households qualifying for the basic survival floor.",
+          "sources": [
+            "eitc",
+            "livelihood"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "The constitution separates religion and state. Civil legislatures and courts govern public law, public schools do not cultivate an official faith, and marriage is civil. Religious-property tax exemptions and religious-origin holidays qualify this secular structure.",
+      "counterEvidence": "Buddhist and Christian festivals both receive public-holiday status, and religious organisations receive specific exemptions. Heritage support for temples or ancestral rites is not automatically a programme to increase belief. Evidence about organised worship in official ceremonies is incomplete.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional religious freedom and separation of religion and state make civil rather than confessional justification the national legal framework.",
+          "sources": [
+            "constitution",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Article 20 bars establishment of a state religion and separates religion from state; religious teachings are not an official legislative source.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Legislation and executive policy are authorised by elected civil institutions without clerical approval.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The constitution expressly rules out a state religion rather than recognising one as the state’s foundation.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public schools may teach religious knowledge but are prohibited from providing denominational religious instruction.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "There is no state-recognised religion whose faith public schools must cultivate; public religious instruction is prohibited.",
+          "sources": [
+            "religion",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutionally constituted courts apply civil statutes and constitutional rights rather than religious-authority rulings.",
+          "sources": [
+            "constitution",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The constitutional legislative process assigns review to civil institutions, with no official clerical veto or reviewing chamber.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Secular civic symbols and constitutional separation do not establish whether every category of official ceremony excludes organised worship.",
+          "sources": [
+            "symbols",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Public support documented for religious sites is framed around heritage and culture, while constitutional separation weighs against funding aimed at strengthening belief itself.",
+          "sources": [
+            "religion",
+            "heritage",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The constitutional separation rule and non-denominational national symbols support institutional neutrality; this is an inference, not a claim that every public display has been audited.",
+          "sources": [
+            "constitution",
+            "symbols"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Buddha’s Birthday and Christmas are both national holidays, recognising multiple traditions rather than endorsing a single predominant religion as the question specifies.",
+          "sources": [
+            "holidays",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Legislative seats derive from elections and appointments prescribed by civil law, without ex officio clerical seats.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Religious organisations receive exemptions for property used in religious activities, beyond only charitable service provision.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil registration establishes marriage without religious approval or a religious officiant.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Family legal status and marriage registration are determined by civil law and courts, with no religious-court jurisdiction giving binding family-law decisions.",
+          "sources": [
+            "marriage",
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Gender-equality law and support for single-parent households permit changes in established roles. Marriage remains restricted to opposite-sex couples; curriculum and family law retain important traditional boundaries.",
+      "counterEvidence": "Same-sex health-insurance benefits are a significant equality judgment but do not establish equal marriage or adoption. Abortion decriminalisation coexists with major access gaps. Heritage preservation demonstrates support for inherited customs without proving that all moral customs outrank reform.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Gender-equality duties and same-sex partner health coverage demonstrate institutional adaptation to changing roles and family relationships.",
+          "sources": [
+            "gender-act",
+            "same-sex-benefit"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The gender-equality framework requires reducing stereotyped roles instead of giving inherited gender custom overriding priority.",
+          "sources": [
+            "gender-act"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Single parents receive dedicated benefits and same-sex partners gained health coverage, but marriage and full family recognition remain unequal.",
+          "sources": [
+            "single-parent",
+            "same-sex-benefit",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The gender-equality framework calls for equal participation and shared family responsibilities rather than prescribed separate traditional roles.",
+          "sources": [
+            "gender-act"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Same-sex marriage remains unrecognised, despite the narrower Supreme Court insurance-equality ruling.",
+          "sources": [
+            "hrw",
+            "same-sex-benefit"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Opposite-sex marriage retains privileged full legal status while dedicated single-parent programmes recognise and support other households.",
+          "sources": [
+            "marriage",
+            "single-parent",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Abortion criminalisation was invalidated, recognising reproductive autonomy, but unresolved legislation and lack of approved pills limit institutional acceptance in practice.",
+          "sources": [
+            "abortion",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The national curriculum reflects conservative exclusions, but the reviewed evidence does not establish a parental final veto over compulsory sex education.",
+          "sources": [
+            "curriculum",
+            "curriculum-review"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Absence of same-sex marriage and joint-parent status indicates unequal institutional acceptance of same-sex adoptive couples; insurance equality does not extend to joint adoption.",
+          "sources": [
+            "hrw",
+            "same-sex-benefit"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The excessive-exposure offence preserves public modesty limits, while constitutional personal liberty leaves ordinary dress choices free; this is a limited legal-practice proxy.",
+          "sources": [
+            "modesty",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Gender-equality legislation addresses stereotypes but does not establish a governmental position on changing language conventions to match individuals’ gender identities.",
+          "sources": [
+            "gender-act",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The state transmits inherited cultural traditions while gender-equality education deliberately challenges inherited role expectations; neither is an exclusive priority.",
+          "sources": [
+            "gender-act",
+            "heritage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The gender-equality framework supports equal opportunity and acceptance across occupational and family roles rather than treating cross-role participation as improper.",
+          "sources": [
+            "gender-act",
+            "career"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Mixed outcomes and legislative delays do not by themselves establish a principled preference for gradual institutional change even when faster change is popular.",
+          "sources": [
+            "hrw",
+            "gender-act"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The revised curriculum removed explicit sexual-minority terminology and remains in staged implementation, supporting a limited restrictive inference on inclusive sexuality teaching.",
+          "sources": [
+            "curriculum",
+            "curriculum-review"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Intangible-heritage transmission and the 2026 royal-cultural programme preserve practices because of historical continuity rather than only their present practical function.",
+          "sources": [
+            "intangible",
+            "heritage"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "AI investment, digital-medical approvals and infrastructure development favour adoption, while environmental assessment, GMO risk review and stringent embryo rules create substantial safeguards.",
+      "counterEvidence": "The AI law took effect in January 2026 but most fact-finding and penalties have an at-least-one-year grace period. Gadeokdo design/approval is continuing, not completed construction. A cultivated-food approval route is not unconditional replacement of livestock. Medical treatment rules do not necessarily cover elective cognitive enhancement in healthy people.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The AI Act enables broader deployment with risk-tiered safeguards rather than awaiting complete long-term knowledge of all applications.",
+          "sources": [
+            "ai-act",
+            "growth"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The AI adoption programme and commercial digital-medical pathway reject a blanket small-trials-only rule, while high-risk uses receive additional safeguards.",
+          "sources": [
+            "ai-act",
+            "digital-medical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The incumbent continued the Gadeokdo airport project’s design procedure, based on a reclamation method that changes coastal land and sea habitat; public benefits can justify approved conversion subject to assessment.",
+          "sources": [
+            "airport",
+            "airport-method",
+            "eia"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Medical products require safety and performance assessment but have regulated approval pathways without a universal demand for decades of long-term observations.",
+          "sources": [
+            "digital-medical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Government AI productivity deployment is paired with workforce learning and retraining rather than preserving every existing task unchanged.",
+          "sources": [
+            "growth",
+            "ai-learning"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Continuation of the reclamation-based airport project, with impact mitigation rather than absolute habitat preservation, shows that substantial development benefits can prevail.",
+          "sources": [
+            "airport",
+            "airport-method",
+            "eia"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "MFDS created a safety-assessment route for cultivated food, supporting conditional market development while requiring evidence rather than an unconditional livestock-replacement policy.",
+          "sources": [
+            "cultivated-food",
+            "biotech-review"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Therapeutic digital-device and bioethics rules do not establish the required long-term threshold for brain implants used to enhance healthy adults.",
+          "sources": [
+            "digital-medical",
+            "bioethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Climate investment supports new energy and industrial technologies, alongside emissions-reduction commitments; the reviewed policy is not an exclusive technology-over-consumption hierarchy.",
+          "sources": [
+            "growth",
+            "climate-diplomacy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Statutory environmental assessment and consultation must precede relevant approvals and construction, supporting delay where required impacts have not been assessed.",
+          "sources": [
+            "eia"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "A medical-device approval route does not establish that healthy adults may use cognitive-enhancement implants on basic safety evidence alone.",
+          "sources": [
+            "digital-medical",
+            "bioethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Medical AI may enter practice through regulated digital-product approval. The AI Act adds high-impact safeguards, but its first-year general enforcement grace period further distinguishes this from compulsory trial-only use.",
+          "sources": [
+            "ai-act",
+            "ai-corroboration",
+            "digital-medical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The Bioethics Act restricts embryo research and prohibits embryo, ovum and fetal gene therapy; enhancement trials do not receive a permissive exception.",
+          "sources": [
+            "bioethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "LMO production requires prior human-health and environmental risk approval; agricultural-biotechnology review documents continuing precautionary cultivation controls.",
+          "sources": [
+            "gmo",
+            "biotech-review"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Continued public-housing supply and airport development procedures prioritise additional infrastructure where statutory assessment permits land conversion, without a blanket ban on undeveloped-land use.",
+          "sources": [
+            "housing",
+            "airport",
+            "eia"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Potentially irreversible biological interventions face tight prohibitions, whereas AI deployment proceeds under managed safeguards; the threshold is sector-specific.",
+          "sources": [
+            "bioethics",
+            "gmo",
+            "ai-act"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "South Korea is a unitary state with elected and constitutionally recognised local governments. National law sets their powers, major tax structure, labour standards and health-insurance coverage, with meaningful local administrative and limited tax discretion.",
+      "counterEvidence": "Autonomous-police committees and local ordinances constrain any claim of purely central administration. Local autonomy includes legal remedies against unlawful interference, but is not sovereignty or an independent right to secede. No specific Indigenous territorial institution was established by the reviewed evidence.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional local autonomy and elected councils protect local affairs within national statutes, though not unlimited policy independence.",
+          "sources": [
+            "constitution",
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National law delimits local powers and ministers supervise delegated affairs, while courts resolve legal disputes; the national executive is not an unreviewable final arbiter.",
+          "sources": [
+            "local-law",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional territorial unity and statutory local autonomy contain no regional right of unilateral secession by referendum.",
+          "sources": [
+            "constitution",
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National supervisory powers permit correction of unlawful or seriously harmful local measures and direction of delegated national affairs, subject to judicial controls.",
+          "sources": [
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regions operate under national constitutional and statutory arrangements through ordinances, not their own sovereign constitutions.",
+          "sources": [
+            "constitution",
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A national police structure coexists with city/province autonomous-police committees that independently administer allocated local police affairs.",
+          "sources": [
+            "police-local"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Major income, corporation, VAT and customs taxes are national, with separate local taxes and redistribution, rather than a general rule letting each area retain most collections.",
+          "sources": [
+            "tax-system",
+            "local-tax"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The national curriculum sets compulsory educational content and phased grade implementation, allowing local delivery discretion within that framework.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local tax law permits specified rate changes by ordinance within national bands, creating real but bounded regional variation.",
+          "sources": [
+            "local-tax"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Working-hours, dismissal and minimum-wage rules are established through national labour law.",
+          "sources": [
+            "labour",
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Council powers and territorial reorganisation are regulated by national law; local consultation and referendums do not substitute for the required legal approvals.",
+          "sources": [
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National health-insurance law and national reimbursement decisions determine insured benefits rather than independent regional coverage schedules.",
+          "sources": [
+            "nhis"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Ordinary Korean local autonomy does not establish a position on self-government for specifically Indigenous territorial communities.",
+          "sources": [
+            "local-law"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National statutes define available local taxes and permissible rate bands, limiting interregional tax competition.",
+          "sources": [
+            "local-tax"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regional and local authorities have land-management and wildlife-protection duties, including regional protection districts, within national environmental standards.",
+          "sources": [
+            "local-law",
+            "wildlife"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The central disaster headquarters coordinates and directs large-scale responses and may require action by local agencies, with prime-ministerial authority for major emergencies.",
+          "sources": [
+            "disasters"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Official health guidance explicitly uses interacting biological and experiential causes for behaviour, stress reactions, risk-taking and fear. ADHD guidance gives inherited factors a substantial role; gender-pay policy addresses unequal opportunity and care expectations.",
+      "counterEvidence": "Clinical guidance is a limited proxy for state institutional beliefs, not a claim about every citizen or every normal trait. Policies promoting equality or learning do not automatically answer comparative causation. National IQ, sex differences in general behaviour, interests, cooperation, empathy, immediate moral intuitions, attraction and racial behavioural explanations remain unsupported.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "NCMH child-development guidance explicitly describes inherited biological predispositions interacting with parenting and environmental experiences; the inference is an interaction model, not a quantified claim for all behaviour.",
+          "sources": [
+            "child-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Neither education policy nor individual ADHD heritability establishes a position on inherited versus educational causes of differences between countries’ IQ scores.",
+          "sources": [
+            "curriculum",
+            "adhd-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Gender-equality duties oppose stereotyped roles, but do not compare the causal weight of upbringing and biology in male/female behavioural differences.",
+          "sources": [
+            "gender-act"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "NCMH explains stress-related bodily sensitivity through nervous-system responsiveness, psychological processing and cultural environments, supporting a conditional mixed account.",
+          "sources": [
+            "stress-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Career opportunity and child development programmes do not establish whether differences in people’s interests are predominantly experiential rather than inherited.",
+          "sources": [
+            "career",
+            "child-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official gambling guidance identifies genetic vulnerability, reward biology and learned/environmental reinforcement, while limiting the certainty of genetic comparisons; this supports a qualified interaction model for risky gambling, not every risk preference.",
+          "sources": [
+            "gambling-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Educational encouragement of cooperative conduct is not evidence comparing social and inherited causes of cooperative habits.",
+          "sources": [
+            "curriculum",
+            "child-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The reviewed clinical and educational guidance does not establish the comparative inherited and experiential causes of empathy capacity.",
+          "sources": [
+            "child-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "NCMH ADHD guidance gives genetic factors a large role in sustained-attention impairment alongside environmental contributors; this is a moderate clinical-domain inference, not a universal claim about normal attention.",
+          "sources": [
+            "adhd-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Moral education and cultural transmission do not establish whether immediate moral intuitions arise mainly from biology or upbringing.",
+          "sources": [
+            "curriculum",
+            "heritage"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official social-anxiety guidance explicitly combines inherited vulnerability with learned fearful reactions and distorted interpretation of environmental cues. This supports a mixed explanation of perceived social threats.",
+          "sources": [
+            "threat-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The official child-development discussion describes innate difficult temperaments interacting with caregiver responses and subsequent experience, supporting a reciprocal developmental account.",
+          "sources": [
+            "child-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "No reviewed policy or official explanatory source compares cultural learning and inheritance in physical-attractiveness preferences.",
+          "sources": [
+            "child-development",
+            "gender-act"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "General equality protections and clinical risk models do not establish a government explanation of racial differences in per-capita violence.",
+          "sources": [
+            "constitution",
+            "gambling-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Self-regulation treatment supports behavioural learning, but does not directly resolve the question’s comparison with inherited racial tendencies.",
+          "sources": [
+            "gambling-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Career-interruption prevention and equal-work responsibilities address gendered care expectations and workplace barriers, rejecting an exclusively economic-value explanation for unequal pay.",
+          "sources": [
+            "career",
+            "gender-act"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex GPT-6 /root/uk_assessment — distinct same-agent evidence review, not an independent second agent",
+    "reviewedAt": "2026-10-04",
+    "notes": "Completed a distinct reread of all 240 question rationales and axis boundaries after drafting. Rechecked current presidency, 2026 AI enforcement and grace period, genetic/experiential clinical guidance, official-secrets restriction, treaty withdrawal, multilingual signs, airport reclamation and overseas missions. Corrected drug-law citation and CCTV retention; added literal signage and treaty evidence; withdrew prolonged foreign combat and negotiated capability-reduction answers when sources established only presence or prospective revival. Culture/Nature 02/03/05/07/08/10/13/14/15 remain unknown; no generic education, equal-rights or party-label substitution. Its supported answers are explicitly limited clinical-domain interaction inferences, with ADHD’s documented strong inherited contribution and gender-pay institutional barriers. All numerical answers use the supplied question direction without target vectors or copying another profile. Other precise gaps remain in preventive movement restrictions before any offence, Indigenous questions, burqa-specific exception, housing-driven immigration cuts, current land redistribution, official-ceremony worship, parental sex-education veto, identity language, institutional gradualism and healthy cognitive implants. Parent agent still needs independent review. Flag File page, creator and public-domain notices checked; downloaded 960x640 PNG visually inspected. Validation results to be appended. Repository validator run after review: only the 23 documented unknowns prevent scoring/archive; source references, metadata and schema produced no errors. Neutral-count warnings: Nationalism 5, Trade 6, Progressive 5, Innovation 5, Culture/Nature 5. These were reread as qualified policy/domain mixtures rather than evidence absence. No neighbour comparison is available because unresolved answers prevent score generation. Manual structure check confirmed 240 unique question IDs, 15 complete briefs and counterevidence entries, no dangling source IDs, and a 960x640 PNG below 1 MB. No archive, catalogue generation, build or browser verification was performed by this assigned agent.",
+    "similarity": []
+  }
+}

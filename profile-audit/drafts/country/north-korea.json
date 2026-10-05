@@ -1,0 +1,2411 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "north-korea",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex (AI-assisted research)",
+  "changeNote": "First two-axis assessment and distinct partial review: 23 supported responses; 217 questions remain unresolved or unassessed. Full research, flag, shared credits, review sign-off and archive are pending.",
+  "metadata": {
+    "name": "North Korea",
+    "description": "Assessment in progress of North Korea’s institutions and implemented policies under Kim Jong Un through 4 October 2026; not the views of its citizens.",
+    "category": "One-party state under centralized personal leadership",
+    "period": "Kim Jong Un government; contemporary institutions and implemented policy through 2026-10-04",
+    "scope": "National institutions and implemented policy, with current governance checked against the March 2026 assembly and constitutional changes. Formal law is distinguished from enforcement; country-level inferences do not describe every citizen. The cabinet premier and supreme executive are distinguished where accountability differs. Evidence access is limited, and later axes remain unfinished. In questions specifically naming the head of government, that office means the cabinet premier; broader national-leadership questions include Kim as head of state and supreme political authority.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/north-korea-r1.jpg",
+      "alt": "",
+      "sourceUrl": "",
+      "creator": "",
+      "license": "",
+      "licenseUrl": ""
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-context",
+      "title": "North Korea: Freedom House country overview (2026)",
+      "url": "https://freedomhouse.org/country/north-korea/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution-2026-translation",
+      "title": "DPRK Constitution (2026): academic English translation, provisions on institutions and civil rights",
+      "url": "https://www.hrnkinsider.org/2026/05/constitution-of-democratic-peoples.html",
+      "publisher": "Committee for Human Rights in North Korea",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitutional-change-july-2026",
+      "title": "Consolidating Kim’s Rule: Constitutional Revisions, Ideological Reinforcement, and Elite Management",
+      "url": "https://www.38north.org/2026/07/consolidating-kims-rule-constitutional-revisions-ideological-reinforcement-and-elite-management/",
+      "publisher": "38 North",
+      "date": "2026-07-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "assembly-implementation-2026",
+      "title": "From Party Congress to Supreme People’s Assembly: Kim’s Power Consolidation, Self-Reliance Strategy, and New Five-Year Plan",
+      "url": "https://www.38north.org/2026/04/from-party-congress-to-supreme-peoples-assembly-kims-power-consolidation-self-reliance-strategy-and-new-five-year-plan/",
+      "publisher": "38 North",
+      "date": "2026-04-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kcna-leadership-election-2026",
+      "title": "KCNA account of Kim Jong Un’s reelection by the Supreme People’s Assembly on 22 March 2026",
+      "url": "https://koreanewsservice.com/en-news/respected-comrade-kim-jong-un-reelected-as-president-of-state-affairs-of-dprk/",
+      "publisher": "KCNA via Korea News Service",
+      "date": "2026-03-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ohchr-decade-2025",
+      "title": "A/HRC/60/58: ten-year human-rights assessment; methodology and paragraphs 9–24",
+      "url": "https://seoul.ohchr.org/sites/default/files/2025-12/g2512795_1.pdf",
+      "publisher": "Office of the UN High Commissioner for Human Rights",
+      "date": "2025-09-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hrw-world-report-2026",
+      "title": "World Report 2026: North Korea, events of 2025; civil liberties and implementation",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/north-korea",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "radio-control-law-2025",
+      "title": "North Korea’s Revised Radio Wave Control Law: analysis of a 2023 law found on a locally sold phone",
+      "url": "https://www.38north.org/2025/07/north-koreas-revised-radio-wave-control-law/",
+      "publisher": "38 North",
+      "date": "2025-07-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "phone-identification-analysis-2025",
+      "title": "Mobile User Identification app: analysis of two obtained versions and identity-linked service access",
+      "url": "https://www.dailynk.com/english/n-korean-smartphone-app-evolved-from-simple-id-tool-to-permanent-surveillance-platform/",
+      "publisher": "Daily NK",
+      "date": "2025-07-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "criminal-law-2015-drug-use",
+      "title": "Criminal Law (2015), articles 206–208: unofficial translation retained as historical legal baseline",
+      "url": "https://sherloc.unodc.org/cld/fr/legislation/prk/criminal_law_of_the_democratic_peoples_republic_of_korea_2015/chapter_vi/article_206-208/article_206-208.html?lng=fr&tmpl=sherloc",
+      "publisher": "UNODC SHERLOC",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drug-law-study-2024",
+      "title": "Kim Jong Hwan (2024), Expanding punishment for drug crimes through the Prevention of Drug Crimes Act: published abstract reviewed",
+      "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003125328",
+      "publisher": "Institute of Legal Studies, Yonsei University",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "immigration-law-2017-recovered-2024",
+      "title": "Immigration Law, amended 21 June 2017; recovered from a phone sold in 2024; machine translation",
+      "url": "https://www.nktechlab.org/wp-content/uploads/2025/07/170621-Immigration-Law-%EC%B6%9C%EC%9E%85%EA%B5%AD%EB%B2%95-_ENG.pdf",
+      "publisher": "NK TechLab",
+      "date": "2017-06-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "law-database-methodology",
+      "title": "North Korean Law Database: provenance, unchecked OCR and machine-translation caveats",
+      "url": "https://www.nktechlab.org/north-korean-law-database/",
+      "publisher": "NK TechLab",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "language-enforcement-july-2026",
+      "title": "North Korea cracks down on youths using South Korean-style word for dad",
+      "url": "https://www.dailynk.com/english/north-korea-appa-dad-language-crackdown/",
+      "publisher": "Daily NK",
+      "date": "2026-07-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-names-march-2025",
+      "title": "North Korea orders parents to give children names that reflect revolutionary spirit",
+      "url": "https://www.rfa.org/english/korea/2025/03/18/north-korea-children-names/",
+      "publisher": "Radio Free Asia",
+      "date": "2025-03-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "chinese-school-february-2026",
+      "title": "Ambassador Wang Yajun visits Pyongyang Chinese school before Spring Festival (Chinese)",
+      "url": "https://kp.china-embassy.gov.cn/zxxx/202602/t20260213_11859193.htm",
+      "publisher": "Embassy of China in the DPRK",
+      "date": "2026-02-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "chongjin-festival-february-2026",
+      "title": "Chongjin consulate holds 2026 Spring Festival gathering (Chinese)",
+      "url": "https://kp.china-embassy.gov.cn/zxxx/202602/t20260211_11856222.htm",
+      "publisher": "Embassy of China in the DPRK",
+      "date": "2026-02-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "china-consular-entry-residence",
+      "title": "DPRK entry and residence guidance: invitations, registration and host arrangements (Chinese)",
+      "url": "https://cs.mfa.gov.cn/zggmcg/ljmdd/yz_645708/cx_646206/rjjl_646216/",
+      "publisher": "Ministry of Foreign Affairs of China",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "king-expulsion-2023",
+      "title": "North Korea decides to expel Travis King over border crossing: KCNA announcement and context",
+      "url": "https://en.yna.co.kr/view/AEN20230927009452315?section=nk/nk",
+      "publisher": "Yonhap News Agency",
+      "date": "2023-09-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "celadon-project-2025",
+      "title": "Safeguarding the Living Heritage of Koryo Celadon in the Democratic Peoples Republic of Korea",
+      "url": "https://www.unesco.org/en/articles/safeguarding-living-heritage-koryo-celadon-democratic-peoples-republic-korea?hub=171169",
+      "publisher": "UNESCO",
+      "date": "2025-08-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nuclear-law-2022-text",
+      "title": "Full KCNA English text of the 2022 nuclear-forces policy law, reproduced by Reuters",
+      "url": "https://www.devdiscourse.com/article/law-order/2172795-text-north-koreas-new-law-establishing-its-nuclear-weapons-policies",
+      "publisher": "Reuters via Devdiscourse",
+      "date": "2022-09-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nuclear-threat-september-2026",
+      "title": "Spokesman for DPRK Ministry of National Defence Clarifies Stand",
+      "url": "https://koreanewsservice.com/en-news/spokesman-for-dprk-ministry-of-national-defence-clarifies-stand/",
+      "publisher": "KCNA via Korea News Service",
+      "date": "2026-09-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nuclear-status-september-2026",
+      "title": "Press Statement of DPRK Foreign Minister: permanent nuclear status",
+      "url": "https://koreanewsservice.com/en-news/press-statement-of-dprk-foreign-minister/",
+      "publisher": "KCNA via Korea News Service",
+      "date": "2026-09-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military-signaling-analysis-2026",
+      "title": "Quick Take: A Shift in US Messaging Amid North Koreas Nuclear Signaling",
+      "url": "https://www.38north.org/2026/09/quick-take-a-shift-in-us-messaging-amid-north-koreas-nuclear-signaling/",
+      "publisher": "38 North",
+      "date": "2026-09-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "budget-nuclear-policy-march-2026",
+      "title": "Kim Jong Un says North Koreas nuclear status is irreversible, threatens South",
+      "url": "https://www.investing.com/news/world-news/kim-jong-un-says-north-koreas-nuclear-status-is-irreversible-threatens-south-4576473",
+      "publisher": "Reuters via Investing.com",
+      "date": "2026-03-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conscription-march-2026",
+      "title": "As overseas deployment fears grow, North Korean parents dread conscription season",
+      "url": "https://www.dailynk.com/english/as-overseas-deployment-fears-grow-north-korean-parents-dread-conscription-season/?tztc=1",
+      "publisher": "Daily NK",
+      "date": "2026-03-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "russia-war-participation-2025",
+      "title": "North Koreas Acknowledgement of War Participation",
+      "url": "https://www.38north.org/2025/04/north-koreas-acknowledgement-of-war-participation/",
+      "publisher": "38 North",
+      "date": "2025-04-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "russia-treaty-2024-translation",
+      "title": "DPRK-Russia Treaty on Comprehensive Strategic Partnership: unofficial English text",
+      "url": "https://dprknotes.home.blog/2024/06/20/dprk-russia-treaty-on-comprehensive-strategic-partnership-2024-6-19/",
+      "publisher": "DPRKnotes",
+      "date": "2024-06-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "russia-treaty-entry-into-force",
+      "title": "North Korea-Russia defense treaty goes into effect December 4",
+      "url": "https://en.yna.co.kr/view/AEN20241205000900315",
+      "publisher": "Yonhap News Agency",
+      "date": "2024-12-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-weapons-study-2026",
+      "title": "North Koreas Discourse and Practice in Defense AI: sections on unmanned vessels and aerial systems",
+      "url": "https://global.eai.or.kr/en/reports/13479",
+      "publisher": "East Asia Institute",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "military-espionage-advisory-2024",
+      "title": "NCSC and partners expose DPRK-sponsored campaign to steal military and nuclear secrets",
+      "url": "https://www.ncsc.gov.uk/news/ncsc-partners-vigilant-dprk-sponsored-cyber-campaign",
+      "publisher": "UK National Cyber Security Centre",
+      "date": "2024-07-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ncsc-dprk-review-2025",
+      "title": "NCSC Annual Review 2025: DPRK intelligence collection and military technology theft",
+      "url": "https://www.ncsc.gov.uk/collection/ncsc-annual-review-2025/chapter-01-cyber-threat-to-the-uk",
+      "publisher": "UK National Cyber Security Centre",
+      "date": "2025-10-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "andariel-investigation-2026",
+      "title": "To the past and beyond: Andariels latest arsenal and cyberattacks; research summary",
+      "url": "https://www.withsecure.com/en/resources-hub/w-labs/andariel-2025/",
+      "publisher": "WithSecure",
+      "date": "2026-01-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "territorial-clause-may-2026",
+      "title": "North Koreas revised constitution defines territory, drops unification references",
+      "url": "https://en.yna.co.kr/view/AEN20260506006600315",
+      "publisher": "Yonhap News Agency",
+      "date": "2026-05-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "human-rights-resolution-rejection-2026",
+      "title": "North Korea condemns UN human-rights resolution on Pyongyang",
+      "url": "https://en.yna.co.kr/view/AEN20260402001152315",
+      "publisher": "Yonhap News Agency",
+      "date": "2026-04-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "upr-rejection-icc-2025",
+      "title": "North Korea: Increasing Isolation and Repression Amidst Worsening Humanitarian Crisis; UPR intervention",
+      "url": "https://www.hrw.org/news/2025/03/25/north-korea-increasing-isolation-and-repression-amidst-worsening-humanitarian",
+      "publisher": "Human Rights Watch",
+      "date": "2025-03-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "monetary-control-bti-2026",
+      "title": "BTI 2026 North Korea Country Report: monetary and fiscal stability, evidence through January 2025",
+      "url": "https://bti-project.org/en/reports/country-report/PRK",
+      "publisher": "Bertelsmann Stiftung",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "digital-payments-july-2026",
+      "title": "More Than Smartphones: How Digital Technology Is Changing North Korea; e-payment institutions",
+      "url": "https://www.38north.org/2026/07/more-than-smartphones-how-digital-technology-is-changing-north-korea/",
+      "publisher": "38 North",
+      "date": "2026-07-15",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "The 2026 assembly renewed Kim’s leadership; constitutional changes expand his control. Competitive elections, independent opposition and judicial checks are absent in practice. Selection by experts, trade unions or an autonomous military is assessed separately from concentrated executive power.",
+      "counterEvidence": "Formal suffrage and representative-recall provisions remain. Questions specifying the head of government refer to the cabinet premier; broader leadership questions include Kim. Premier accountability has a constitutional basis, despite party control. The voter recall procedure and unilateral political-continuity postponement remain unverified.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Kim’s March reelection occurred within the party-controlled assembly; competitive electoral accountability is absent.",
+          "sources": [
+            "kcna-leadership-election-2026",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Assembly election within party rule is the implemented selection route, rather than delegation to a panel selected for expertise.",
+          "sources": [
+            "kcna-leadership-election-2026",
+            "assembly-implementation-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Article 65 rejects education-based exclusion but excludes people described as having mental disabilities. The franchise is broad, yet not universal.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "For the cabinet premier, articles 93 and 119–124 subordinate administrative action to assembly legislation. Kim’s separate head-of-state powers are not transferred to the premier.",
+          "sources": [
+            "constitution-2026-translation",
+            "assembly-implementation-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Opposition has no realistic route to compete or take office; formal party-activity guarantees do not provide equal electoral conditions.",
+          "sources": [
+            "freedom-context",
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Budget scrutiny occurs within controlled institutions; the absence of independent opposition prevents opposition-led investigation of public spending.",
+          "sources": [
+            "freedom-context",
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Party interference in adjudication prevents an independent constitutional check on executive decisions.",
+          "sources": [
+            "ohchr-decade-2025",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The assembly selects national leadership; affiliated unions mobilize people rather than exercise a separate power to choose the government.",
+          "sources": [
+            "kcna-leadership-election-2026",
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The enforced party monopoly excludes political competition, supporting leadership control over which political organizations may contest elections.",
+          "sources": [
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Law-making is assigned to controlled state organs, with no voter repeal mechanism in the reviewed constitutional framework.",
+          "sources": [
+            "constitution-2026-translation",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The 2026 changes institutionalize leader-directed state affairs; commission and cabinet functions operate beneath that overarching authority.",
+          "sources": [
+            "constitutional-change-july-2026",
+            "assembly-implementation-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Article 96 permits the assembly to recall the cabinet premier. Qualified agreement reflects this defined power, without claiming independent accountability or extending it to Kim.",
+          "sources": [
+            "constitution-2026-translation",
+            "assembly-implementation-2026",
+            "constitutional-change-july-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The constitution allows election postponement for unavoidable circumstances, but the reviewed evidence does not establish the question’s specific unilateral political-continuity power.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Article 7 recognizes recall, but a defined voter-initiated recall ballot and its practical availability have not been verified.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Leader supremacy and removal of the assembly’s recall power leave the supreme executive without effective electoral or legislative accountability.",
+          "sources": [
+            "constitutional-change-july-2026",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The armed forces are constitutionally subordinate to the supreme commander, supporting rejection of an independent military power to replace him.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Recent reporting documents enforced media controls, restrictions on independent gatherings and warrantless inspections. Device law and obtained software demonstrate identification controls. Narrow questions about health paternalism, retention periods, road testing and preventive powers remain unresolved.",
+      "counterEvidence": "Constitutional privacy and expression provisions contrast with documented enforcement. Some unauthorized media consumption persists despite punishment, so state control is not assumed perfectly effective. Phone permissions demonstrate capability, not proof that every possible surveillance function is used.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Drug use is criminalized in the documented legal baseline; later research describes expanded punishment. This opposes a general personal-risk exemption.",
+          "sources": [
+            "criminal-law-2015-drug-use",
+            "drug-law-study-2024",
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Identity-linked communication controls and surveillance support investigatory monitoring, including the narrower court-authorized case; independent judicial safeguards are not claimed.",
+          "sources": [
+            "phone-identification-analysis-2025",
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent assembly is suppressed; peaceful demonstrators have no practical entitlement to obstruct roads under the proposed safeguards.",
+          "sources": [
+            "freedom-context",
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Criticism of government is treated as a security offence, rather than protected despite offence caused.",
+          "sources": [
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Epidemic restrictions concern transmission to others; a measure primarily protecting the compelled adult requires separate evidence.",
+          "sources": [
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Extensive surveillance is documented, but multi-year retention of non-suspects’ movement records has not been established.",
+          "sources": [
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Random intoxication testing of drivers has not yet been researched specifically.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "General travel-permit restrictions do not establish the particular preventive court finding about likely harm to others.",
+          "sources": [
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Enforced bans on unapproved foreign media deny adults the proposed freedom of access.",
+          "sources": [
+            "hrw-world-report-2026",
+            "radio-control-law-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Obtained smartphone software links users, SIMs and devices to state-managed identifiers used for service access; device registration is also required.",
+          "sources": [
+            "phone-identification-analysis-2025",
+            "radio-control-law-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Warrantless home inspections are documented, but the distinct public stop-and-search scenario still needs targeted evidence.",
+          "sources": [
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The suppression of independent gatherings supports authority to prohibit gatherings under the narrower serious-disorder condition.",
+          "sources": [
+            "freedom-context",
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Group 109 conducts unannounced, warrantless home inspections for prohibited materials, outside the immediate-safety exception.",
+          "sources": [
+            "ohchr-decade-2025"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent reporting contrary to official positions is punishable; exposing misconduct does not provide the proposed publication freedom.",
+          "sources": [
+            "ohchr-decade-2025",
+            "hrw-world-report-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Military service and an armed-population doctrine do not establish private ownership for personal defence.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Arbitrary political imprisonment is documented, but the specific terrorism-suspect detention rule and release threshold remain unverified.",
+          "sources": [
+            "ohchr-decade-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "The government enforces a shared socialist national culture and Pyongyang language norms, including restrictions on Southern cultural influence. RFA reports family naming directives in 2025; Daily NK reports a July 2026 youth reprimand, while distinguishing officials’ etiquette explanation from the youths’ interpretation. Accommodation is selective: February 2026 Chinese embassy records describe an operating Chinese school supported by the DPRK and Chinese community festivities attended by provincial officials. Those are actual counterexamples to universal cultural erasure, not evidence of unrestricted pluralism. Assessment concerns governing institutions, not citizens’ preferences.",
+      "counterEvidence": "Chinese school continuity and official participation in a Chinese consular celebration qualify assimilation inferences. Embassy accounts verify specific institutions and events but do not establish universal cultural rights, school budget amounts or nationality changes. The consular festival is not a DPRK-wide public holiday. UNESCO reports a completed 2024–2025 national-heritage project funded internationally: government participation does not prove the share of domestic cultural spending. Anonymous-source enforcement reports have access limitations; the July 2026 incident involved a reprimand, not a verified criminal sentence. Indigenous acknowledgment, migrant signage, integration-programme design and the burqa exception remain unestablished.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign arrivals must comply with content restrictions in consular guidance; Article 39 prioritises national culture against disallowed external influence. Infer priority in a conflict, qualified by actual accommodation of the Chinese community.",
+          "sources": [
+            "china-consular-entry-residence",
+            "constitution-2026-translation",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The Chinese school is explicitly supported by the DPRK, but the account does not establish additional public spending or a general accommodation rule across public services.",
+          "sources": [
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Article 53 promotes the socialist way of life and Article 54 applies national linguistic character across society. Infer an expectation that settlers adopt common norms, while Chinese schools show that adoption need not erase every inherited custom.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Chinese pupils retain a community institution while being encouraged to contribute to DPRK society. At the same time, authorities police disallowed Southern influence. This supports selective cultural retention rather than either unconditional acceptance or compulsory abandonment of every foreign identity.",
+          "sources": [
+            "chinese-school-february-2026",
+            "language-enforcement-july-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Article 54 gives the Pyongyang language an explicit public priority, with recent speech policing illustrating implementation. Infer national-language priority, qualified by the functioning Chinese school; no claim that every foreign-language service is banned.",
+          "sources": [
+            "constitution-2026-translation",
+            "language-enforcement-july-2026",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The sources establish Chinese community recognition, not recognition of Indigenous peoples in national ceremonies. A small foreign-resident community cannot be substituted for the question’s Indigenous population.",
+          "sources": [
+            "chinese-school-february-2026",
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Articles 39 and 50 direct state cultural work toward national heritage and national artistic forms. The completed celadon project illustrates institutional implementation. Infer the spending priority from that mandate, without claiming a measured budget share or treating UNESCO funding as domestic expenditure.",
+          "sources": [
+            "constitution-2026-translation",
+            "celadon-project-2025"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The reported naming directive subordinates family cultural choices to state-defined national identity; contemporary language policing reinforces that priority. Distinct identities therefore do not prevail when authorities judge them incompatible. Permitted Chinese festivities do not reverse that conflict rule.",
+          "sources": [
+            "family-names-march-2025",
+            "language-enforcement-july-2026",
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Provincial officials attended a Chinese consular celebration, but attendance does not establish accommodation in public institutions’ operating schedules. No supported calendar-versus-accommodation decision was located.",
+          "sources": [
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Articles 39 and 53 define the national cultural project through socialist national continuity and reject conflicting ways of life. Infer qualified disagreement with incorporating several distinct cultural traditions into national identity; Chinese community recognition prevents treating this as complete exclusion of foreign traditions.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026",
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "School pupils are encouraged to contribute to the wider country, but this does not establish a government migrant-integration programme or its preference between wider participation and mainly separate community life.",
+          "sources": [
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Chinese school and consular records establish institutions, not a government policy of foreign-language public signage for migrant communities. Diplomatic or tourist signage would not alone answer this wording.",
+          "sources": [
+            "chinese-school-february-2026",
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "RFA’s March 2025 resident interviews report directives requiring names that express revolutionary loyalty and national identity, including a specific ordered change of a name construed as disloyal. Infer strong preference for family transmission of shared state-defined identity over competing community choices; these are reported directives, not verified universal compliance.",
+          "sources": [
+            "family-names-march-2025"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Sources on language, naming and permitted community institutions do not establish whether religious full-body coverings receive an exception when other full-body coverings are prohibited.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The state prescribes a shared socialist cultural life, but supports an identifiable Chinese community school and officials join its festivities. Infer a predominant common national identity with limited community accommodation, rather than equal incorporation of distinct ways of life.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026",
+            "chongjin-festival-february-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "General cultural conformity and a Chinese school do not establish the curriculum or priorities of government integration programmes for migrants.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Foreign entry and residence are permission-based, with host arrangements and registration described in China’s consular guidance. The recovered 2017 immigration statute supplies a legal baseline, not a verified 2026 consolidated code: NK TechLab discloses unchecked OCR and machine translation from a phone sold in 2024. Article 79 of the 2026 constitutional translation provides politically defined asylum protection. Residence of Chinese families is demonstrable in 2026, so general isolation cannot stand in for every admission rule. Citizens’ exit restrictions are not used to answer foreign-settlement questions.",
+      "counterEvidence": "The law recognises foreign residence and children’s documents, and Chinese schools demonstrate an established resident community. Those facts qualify any claim that settlement is entirely impossible. The 2023 King expulsion announcement is an earlier act under the same leader, involving an exceptional military-border crossing; it corroborates use of expulsion but cannot establish all refugee or family outcomes. China’s guidance is currently accessible but undated. Numeric caps, housing trade-offs, family admission entitlements, graduate routes and welfare eligibility require more specific evidence.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The immigration statute and consular guidance describe permits and registration, not a strict annual number calculated from housing and workforce deficits.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology",
+            "china-consular-entry-residence"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Host-arranged procedures and purpose-based residence are established, but these do not show whether economic improvement is normally accepted as a settlement purpose. Withdrawn on review: requiring permission is not by itself opposition to generally allowing settlement.",
+          "sources": [
+            "china-consular-entry-residence",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Chinese families and children reside in the country, but the evidence does not establish the normal permanent-admission criteria for new applicants or a skills-only rule.",
+          "sources": [
+            "chinese-school-february-2026",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Family visits require an invitation and official consent. Existing children’s residence documents and schools do not establish a general entitlement for partners and dependent children abroad to join permanent residents.",
+          "sources": [
+            "china-consular-entry-residence",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Article 79 specifies politically defined grounds of asylum, rather than an unrestricted right to permanent settlement for anyone fleeing a home country. Infer qualified disagreement with the broad entitlement; the text does provide protection and does not establish a skills requirement.",
+          "sources": [
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Article 56 allows expulsion for serious immigration violations; KCNA’s September 2023 announcement applied expulsion to King’s unauthorised entry. Infer opposition to a general right to remain, without treating every irregular entrant as automatically deported.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology",
+            "king-expulsion-2023"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Entry controls alone do not establish a decision to limit permanent immigration in the face of employers’ demand for additional foreign workers.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "china-consular-entry-residence",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "No reviewed source ties a reduction in foreign arrivals to housing or service pressure despite acknowledged economic benefits. Security controls are a different policy rationale.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "china-consular-entry-residence",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Neither a common annual permanent-immigration cap nor the counting treatment of family admissions is established by the reviewed rules.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "china-consular-entry-residence",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The guidance establishes host invitations and official permission. It does not establish whether a confirmed employment offer normally succeeds in obtaining that permission; procedural requirements alone cannot answer the general-admission claim.",
+          "sources": [
+            "china-consular-entry-residence",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Host-arranged procedures are documented, but the eligible host need not be an employer or family member. The evidence does not establish that exact sponsorship requirement for permanent settlement.",
+          "sources": [
+            "china-consular-entry-residence",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Purpose-based registration does not resolve whether graduation creates an eligible route to permanent residence. A route may still require an application; no automatic residence is not the same as no route.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "china-consular-entry-residence",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Article 79 protects specified asylum seekers, but the sources do not establish what happens after ordinary immigration limits are reached or the treatment of persecution outside those political categories.",
+          "sources": [
+            "constitution-2026-translation",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "An existing Chinese community does not establish a preference for cultural similarity in selecting new migrants. Bilateral diplomatic ties and historic settlement are alternative explanations.",
+          "sources": [
+            "chinese-school-february-2026",
+            "china-consular-entry-residence"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Article 71 describes citizens’ material assistance. That wording and Chinese community schooling do not establish whether non-citizen migrants qualify for welfare payments or social housing.",
+          "sources": [
+            "constitution-2026-translation",
+            "chinese-school-february-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "No reviewed admission policy gives cultural difference itself as a reason to admit more migrants. Cultural conformity evidence is not substituted for a missing immigration-policy decision.",
+          "sources": [
+            "china-consular-entry-residence",
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "The 2022 nuclear-use law permits action before certain attacks materialise; the defence ministry invoked that framework in September 2026. Recent budget approval, conscription reporting and acknowledged combat in Russia show material military commitments. National-security claims are recorded as the government’s rationale, not accepted as factual proof that adversaries intend aggression. AI-weapon development is documented, but neither unmanned operation nor automatic navigation establishes absence of human approval for each attack.",
+      "counterEvidence": "The nuclear law calls nuclear use a last resort and presents deterrence as its main mission. The Russia deployment was officially justified as defence of an ally, not openly announced conquest; the assessment does not adopt that justification as an international-law finding. Diplomacy with Russia and conditional openness toward the US coexist with military priority. A military budget share is announced expenditure, not a verified complete measure of defence costs or actual superiority. Territorial definition and rejection of reunification do not establish a preference to leave every boundary dispute unresolved. Historical negotiations are not treated as the current government position after later reversals.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Section 6 permits nuclear use before specified attacks materialise; the September 2026 warning invokes that policy. This supports force before the country has been attacked, restricted to claimed security contingencies rather than arbitrary expansion.",
+          "sources": [
+            "nuclear-law-2022-text",
+            "nuclear-threat-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The September analysis records high preconditions for US talks alongside military signaling. The government maintains nuclear force as its security foundation. Infer qualified disagreement with giving slower diplomacy priority; this does not deny its extensive diplomacy with partners.",
+          "sources": [
+            "military-signaling-analysis-2026",
+            "budget-nuclear-policy-march-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The approved 2026 budget allocates 15.8% to defence, including expanded deterrence and combat capability. Infer willingness to carry substantial costs to gain military advantage; the figure does not prove superiority has been attained.",
+          "sources": [
+            "budget-nuclear-policy-march-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Section 6 expressly permits nuclear use when specified nuclear, leadership or strategic-target attacks are judged imminent. The ministry reaffirmed recourse to the law in September 2026. Strong evidence of an imminent attack falls within, rather than outside, that permissive doctrine.",
+          "sources": [
+            "nuclear-law-2022-text",
+            "nuclear-threat-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "The nuclear-use criteria include an attack judged imminent, not only an armed attack already suffered by the country or an ally. The government therefore rejects the statement’s exclusive retrospective condition.",
+          "sources": [
+            "nuclear-law-2022-text",
+            "nuclear-threat-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Article 85 requires service according to law. March 2026 reporting describes actual spring conscription, including male eligibility standards and a high proportion of school graduates listed. Together these support compulsory male service for force readiness; the small reported sample is not a national rate.",
+          "sources": [
+            "constitution-2026-translation",
+            "conscription-march-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "In March 2026 Kim rejected nuclear disarmament in return for economic benefits or security guarantees. September’s foreign-minister statement reinforces the sovereignty red line. Infer reluctance to weaken strategic standing through substantial concessions, while leaving room for less consequential diplomacy.",
+          "sources": [
+            "budget-nuclear-policy-march-2026",
+            "nuclear-status-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The defence-AI study documents unmanned platforms, automatic functions and Kim’s AI-development priority. It does not clearly establish a policy to let systems select and attack targets without a human approving each attack. A remotely operated drone or terminal guidance is insufficient.",
+          "sources": [
+            "ai-weapons-study-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The nuclear law identifies deterrence and repelling aggression as its main mission, but the government has also committed troops to sustained combat abroad in Russia. This is a supported combination of defensive purpose and expeditionary practice, rather than a claim that either is absent.",
+          "sources": [
+            "nuclear-law-2022-text",
+            "russia-war-participation-2025"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "The operative Russia treaty promises immediate military aid after an armed invasion, and the government acknowledged sending combat units under that obligation. Its conduct directly rejects avoiding military action at all costs when an ally is attacked.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "russia-treaty-entry-into-force",
+            "russia-war-participation-2025"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Troops initially dispatched in October 2024 were publicly acknowledged in combat in April 2025, with losses and continued support recognised. This sustained deployment supports maintaining a force able to fight beyond national borders; no unverified troop totals or worldwide reach are claimed.",
+          "sources": [
+            "russia-war-participation-2025"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The 2026 territorial clause drops reunification references but does not specify the disputed maritime boundary. That neither proves willingness to start war to settle the dispute nor a commitment to leave it unresolved.",
+          "sources": [
+            "territorial-clause-may-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The September 16 defence-ministry statement warns the US that its WMD-response cooperation could prompt invocation of the nuclear law. Infer use of threatened force to change an opponent’s conduct in a serious dispute, without claiming that concessions actually resulted.",
+          "sources": [
+            "nuclear-threat-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The government combines renewed nuclear warnings with weapons signaling and demanding diplomatic preconditions. Infer willingness to display resolve despite escalation risk. Its declared deterrence purpose is retained as counterevidence, rather than assuming that it seeks war.",
+          "sources": [
+            "military-signaling-analysis-2026",
+            "nuclear-threat-september-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The 2024 joint advisory attributes military-technology espionage to the DPRK intelligence apparatus; the 2025 NCSC review records continued military data theft. WithSecure’s January 2026 investigation independently identifies more recent Andariel activity. Infer acceptance of diplomatic exposure risk for intelligence advantage; attribution is an assessed finding, not a DPRK admission.",
+          "sources": [
+            "military-espionage-advisory-2024",
+            "ncsc-dprk-review-2025",
+            "andariel-investigation-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Kim’s March 2026 rejection of nuclear disarmament for security guarantees weighs against negotiated capability reduction as the present policy. Qualified disagreement avoids claiming that preserving a nuclear arsenal necessarily rules out every limited conventional or numerical arms-control concession.",
+          "sources": [
+            "budget-nuclear-policy-march-2026",
+            "nuclear-status-september-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "The government asserts domestic sovereignty against unwanted international requirements, including the April 2026 human-rights resolution and September denuclearisation demands. It nevertheless assumes real treaty commitments: the Russia agreement entered into force in December 2024 and its mutual-defence provision was invoked in 2025. Shared obligations are distinguished from giving an external institution final policy authority. Currency control remains domestic despite foreign-currency use. Court jurisdiction, environmental authority and pooled international governance require their own evidence.",
+      "counterEvidence": "Participation in the UN and UPR, accepted UPR recommendations, negotiated bilateral rules and the operative military alliance contradict any claim of total rejection of international cooperation. Rejection of a resolution establishes the government’s stance, not absence of its international legal obligations. Rome Statute rejection is not by itself a comprehensive rule for every international court. The bilateral treaty text is an unofficial translation; its commencement and defence clause are independently cross-checked in reporting, while other provisions remain treaty-text evidence. Foreign currency used domestically is not a transfer of monetary policymaking to a shared central bank.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The April 2026 rejection of external human-rights demands invokes national sovereignty and non-intervention, supporting final domestic control of law. Constitutional lawmaking powers sit with domestic institutions; accepted voluntary recommendations do not concede external supremacy.",
+          "sources": [
+            "human-rights-resolution-rejection-2026",
+            "constitution-2026-translation"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The September foreign-minister statement rejects denuclearisation demanded under Security Council resolutions when it conflicts with core sovereign interests. This directly supports opposition to unwanted binding external decisions; it is not a finding that the legal obligations cease to exist.",
+          "sources": [
+            "nuclear-status-september-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Domestic judicial structure and refusal to join the ICC do not establish a general conflict rule between national court decisions and rulings of all international courts. No applicable ruling or precedence provision was verified.",
+          "sources": [
+            "constitution-2026-translation",
+            "upr-rejection-icc-2025"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Russia treaty is indefinite and limits each party’s freedom through mutual defence and constraints on adverse third-state arrangements. Its entry into force and troop deployment show an operative long-term alliance, not merely a diplomatic promise.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "russia-treaty-entry-into-force",
+            "russia-war-participation-2025"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Article 23 permits either treaty party to terminate by written notice effective after one year. This is a concrete commitment designed for unilateral withdrawal without an international institution’s approval, while retaining an agreed notice obligation.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "russia-treaty-entry-into-force"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The 2025 UPR response rejected recommendations concerning the Rome Statute and the commission-of-inquiry accountability process. Infer opposition to binding international criminal jurisdiction over its officials, qualified by the narrower reach of this evidence than every possible interstate tribunal.",
+          "sources": [
+            "upr-rejection-icc-2025",
+            "human-rights-resolution-rejection-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The September 2026 foreign minister prioritises retention of nuclear weapons as a core sovereign interest over denuclearisation demanded pursuant to Security Council resolutions. That is an explicit choice of national policy over an international institution’s conflicting goal.",
+          "sources": [
+            "nuclear-status-september-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Climate-cooperation search results indicate participation, but the COP29 PDF could not be retrieved as a readable document. Neither participation nor support for national climate action alone proves transferred environmental decision authority; further primary evidence is required.",
+          "sources": []
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The Russia treaty requires consultation and mutual support but is not shown to impose a single foreign policy through a bloc institution. General independence claims do not settle whether the government would reject every bloc with that requirement.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "russia-treaty-entry-into-force"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The April 2026 foreign-ministry rejection of the Human Rights Council resolution treats country-specific external pressure as interference. Selective acceptance of UPR recommendations is voluntary cooperation, not recognition that those bodies can require domestic legal changes.",
+          "sources": [
+            "human-rights-resolution-rejection-2026",
+            "upr-rejection-icc-2025"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The BTI report describes centralised monetary control; July 2026 reporting documents payment systems under the domestic central bank and a government-set forex accounting rate. Infer retention of national monetary authority. Use of dollars or yuan does not constitute a shared international monetary authority.",
+          "sources": [
+            "monetary-control-bti-2026",
+            "digital-payments-july-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "The bilateral treaty provides cooperation on shared challenges and UNESCO has funded a domestic heritage project. Neither evidence yet establishes a jointly funded decision-making arrangement for managing a shared international problem.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "celadon-project-2025"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The immigration law places entry decisions with domestic agencies, and current consular guidance describes national permission procedures. Infer national control despite bilateral arrangements; reciprocal visa rules do not delegate admission decisions to an international institution.",
+          "sources": [
+            "immigration-law-2017-recovered-2024",
+            "law-database-methodology",
+            "china-consular-entry-residence"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Articles 10–13 of the operative Russia treaty commit to negotiated economic and customs cooperation and mutual recognition of standards and certificates. This supports accepting some common negotiated trade rules while retaining wide national discretion; it does not claim WTO membership or verified implementation of every promised mechanism.",
+          "sources": [
+            "russia-treaty-2024-translation",
+            "russia-treaty-entry-into-force"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The current territorial framework defines a separate sovereign state and removes reunification references, while the Russia partnership preserves distinct state institutions. Infer a preference to retain national policymaking rather than enter a political federation, without equating bilateral alliance duties with federal membership.",
+          "sources": [
+            "territorial-clause-may-2026",
+            "russia-treaty-2024-translation"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Assisting Russia is framed as serving shared security interests. It does not establish willingness to enforce collectively agreed rules specifically when neutrality better serves immediate national interests; no such trade-off was verified.",
+          "sources": [
+            "russia-war-participation-2025",
+            "russia-treaty-2024-translation"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "",
+      "counterEvidence": "",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "",
+    "reviewedAt": "",
+    "notes": "First-pass research, 2026-10-04, Codex: read the exact local questionnaire; used 2026 constitutional translation and original institutional analysis, KCNA’s March appointment account, Freedom House context, HRW reporting, OHCHR methodology and paragraphs 9–24, original device-law and software investigations, and the drug-law study abstract. Not all sources are independent for every claim: HRW repeats some OHCHR findings; constitutional translations are not treated as independent corroboration of each other. The UN report includes interviews and their access limitations. Historical drug provisions are not represented as a verified current consolidated code or used for current sentence lengths. No scores imported. A distinct review of these entries remains pending; no full sign-off. Distinct two-axis review, 2026-10-04, Codex (same AI agent): reread all 32 exact statements, directions, rationales and relevant passages. Corrected Democracy 04 from Agree to Disagree and 12 from Neutral to Agree after checking articles 93, 96 and 119–125: the questions specify the head of government, so the cabinet premier is the consistent referent. Kim’s head-of-state powers and immunity from recall cannot silently replace that office. These qualified answers do not assert competitive elections or independent legislative practice. Removed an unwarranted independence condition from the expert-panel rationale. Retained the suffrage mixed answer because formal education equality coexists with express disability exclusion. Reviewed surveillance and gathering inferences as support for the stated permissive powers, not proof of judicial independence. Kept duration-, context- and procedure-specific gaps unresolved. State announcements verify appointments, not democratic legitimacy; the 2024 legal study was read as an abstract, not its full paper. Reviewed the validation output by complete error categories: incomplete later axes, missing flag metadata and unfinished overall sign-off prevent archiving; no warnings or neighbours. No global review identity or date is entered because the 240-question assessment is unfinished. Cultural and immigration first pass, 2026-10-04, Codex: read all 32 exact local statements; added dated 2025–2026 enforcement and community records, consular entry/residence guidance, legal text and its provenance. Embassy sources are one publisher network, not independent corroboration of each other. The recovered law is unchecked OCR plus machine translation, so it is a qualified baseline cross-checked against consular guidance, not an official current consolidated English code. Remaining unknowns now specify the exact missing evidence. This is not full review sign-off. Distinct cultural/immigration review, 2026-10-04, Codex (same AI agent): reread each of the 32 exact statements and challenge the proposed inference separately from the research pass. Withdrew Immigration 02 because administrative permission requirements do not establish rejection of ordinary economic settlement. Applied that same distinction to job offers and graduation routes, which remain unknown. Retained Immigration 05 only as a qualified inference from positively specified political asylum categories, not proof of no asylum or a skills test. Immigration 06 rests on an explicit expulsion power and an earlier concrete announcement, not citizens’ emigration restrictions; King’s alleged motives are not treated as verified facts. Checked that Culture 04 is a substantive mixed response based on selective accommodation, not missing evidence. Culture 03/05/07/10/15 remain qualified inferences from explicit institutional mandates, with schools, public-language practice and international project funding distinguished from unsupported universal bans or budget percentages. Culture 09 remains unknown because attending a festival does not establish institutional scheduling. Confirmed that embassy reports belong to the same publisher network and that legal translation limitations are recorded. No complete-profile review sign-off, archive or publication is asserted. Military/international first pass, 2026-10-04, Codex: read all 32 exact statements; added nuclear-use law, September ministry statements, budget and conscription reporting, operative Russia treaty evidence, military-espionage research, current monetary implementation and human-rights responses. KCNA statements, their news reproductions and analyses are not independent witnesses to the same event. State allegations about adversaries are not adopted as verified facts. WithSecure research summary was read, not the linked full technical report. BTI’s 2026 label is distinguished from its older observation period. COP29 retrieval returned HTML instead of a PDF; the unread text is not cited as read evidence. No full sign-off.",
+    "similarity": []
+  }
+}

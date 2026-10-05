@@ -1,0 +1,2641 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "benito-mussolini",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "Image-only revision: replace the portrait with the main infobox image shown on the subject’s English Wikipedia page, as requested by the owner. All 240 answers, sources, evidence reviews and calculated scores are unchanged.",
+  "metadata": {
+    "name": "Benito Mussolini",
+    "description": "Italian Fascist dictator who established a one-party state, pursued imperial expansion and directed a corporatist economy.",
+    "category": "Political leader",
+    "period": "1925–1943",
+    "scope": "Personal positions and governing conduct during 1925–1943; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "Italian Fascist leader",
+    "lifespan": "1883–1945",
+    "image": {
+      "path": "profiles/images/benito-mussolini-r2.jpg",
+      "alt": "Portrait of Benito Mussolini",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mussolini_mezzobusto.jpg",
+      "creator": "Luce; reproduced in Adolf Dresler, Mussolini als Journalist (1939)",
+      "license": "Public domain",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "doctrine",
+      "title": "The Doctrine of Fascism (Mussolini and Giovanni Gentile)",
+      "url": "https://www.stephenhicks.org/wp-content/uploads/2013/03/Mussolini-THE-DOCTRINE-OF-FASCISM.pdf",
+      "publisher": "Stephen Hicks / primary document",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "corporations",
+      "title": "Italy: The corporative state; the Duce’s economic powers",
+      "url": "https://www.luigieinaudi.it/doc/italy-the-corporative-state-the-duces-economic-powers/",
+      "publisher": "Luigi Einaudi Foundation / The Economist",
+      "date": "1933-05-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lateran",
+      "title": "Lateran Pacts",
+      "url": "https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html",
+      "publisher": "Holy See",
+      "date": "1929-02-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "racial",
+      "title": "Ambassador Phillips on Italian racial measures",
+      "url": "https://history.state.gov/historicaldocuments/frus1938v02/d471",
+      "publisher": "US Department of State",
+      "date": "1938-10-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "iri",
+      "title": "Lessons from the past: Italy’s IRI in the 1930s",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0954349X22000455",
+      "publisher": "Elsevier / Structural Change and Economic Dynamics",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fascism-history",
+      "title": "What to Know About the Origins of Fascism’s Brutal Ideology",
+      "url": "https://time.com/5556242/what-is-fascism/",
+      "publisher": "TIME",
+      "date": "2019-03-22",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Dictatorship after1925 displaced competitive representation; corporative bodies served executive supremacy.",
+      "counterEvidence": "Monarchy and Grand Council survived; their1943 removal of him does not show his endorsement of accountable rule.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Rejected electoral competition as a governing principle.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Expert advice subordinate to Duce, not expert selection.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Mass mobilisation did not imply universal electoral rights.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Executive primacy displaced parliamentary veto.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Opposition suppressed rather than equally admitted.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent opposition scrutiny conflicts with total state.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Courts could not bind the supreme political leadership.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Corporatism did not empower independent union selection.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Political exclusion was integral to Fascist consolidation.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Plebiscitary approval differs from binding citizen repeal.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Leader embodied the claimed national will.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Rejected parliamentary responsibility of liberal government.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Continuity of dictatorship outweighed scheduled competition.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Representative recall contradicts corporative appointment.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Accountability ran upward within Fascism, not to voters.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Army autonomy would challenge his civilian dictatorship.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Police coercion and suppression of dissent subordinated personal autonomy to the state.",
+      "counterEvidence": "Selected private freedoms remained; absence of comprehensive enforcement does not establish legal rights.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Personal vice subordinated to collective discipline.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Court approval would not weaken his surveillance preference.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Disruptive protest challenged monopolised public mobilisation.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Offensive institutional criticism was suppressed.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective bodily discipline supports paternal health requirements.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political surveillance suggests tolerating prolonged movement records.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public order supports indiscriminate sobriety enforcement.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive confinement was compatible with Fascist policing.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State moral censorship overrides adult access.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Anonymous communication would undermine political supervision.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Area searches fit preventive political policing.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Disorder prevention readily overrides assembly.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent warrants would constrain executive police authority.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Exposing state misconduct conflicts with censorship.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Party-controlled force preferred over autonomous armed citizens.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political confinement was not dependent on independent review.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Italianisation and imperial national unity excluded competing cultural allegiances.",
+      "counterEvidence": "Recognition of Catholic institutions did not amount to equal multicultural citizenship.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National unity overrides migrant customs.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Extra spending for distinct practices opposes homogenisation.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Settlement would require Italian cultural allegiance.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Separate identity conflicts with total national community.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Italianisation supports predominant-language services.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Imperial hierarchy weakens recognition of colonised peoples.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Roman and Italian traditions underpin national mobilisation.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Distinct group claims cannot outrank Fascist unity.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common national and Catholic ceremonial calendar preferred.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Plural traditions acceptable only subordinate to Italian identity.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integrated mobilisation preferred to separate communities.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign-language institutional support cuts against Italianisation.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Family education should transmit national allegiance.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Distinctive exemptions conflict with uniform public discipline.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Multiple autonomous cultural identities oppose the national ideal.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Programmes would inculcate state-approved Italian customs.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Settlement depended on national and racial suitability, becoming explicitly exclusionary in1938.",
+      "counterEvidence": "Earlier Jewish participation and exemptions show change; assess the mature dictatorship, not the1919 programme.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Controlled admission fits national demographic management; exact quota inferred.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Universal settlement rights conflict with exclusion.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skills alone insufficient where race and loyalty decide.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family unity supported within approved groups but not across exclusions.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Racial expulsions contradict unconditional refugee admission.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Illegal presence would not establish a right to remain.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Employer demand subordinate to national demographic objectives.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National population interests override economic gains from immigration.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family admissions would remain subject to state controls.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Employment cannot override political and racial screening.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Political and racial approval constrained admission, while work and family ties could help approved applicants. Those criteria do not establish an employer-or-family sponsor as a universal prerequisite.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Education would not override ethnic eligibility.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Persecution abroad would not waive racial admission rules.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Culturally favoured settlement follows national homogenisation.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "State provision primarily organised around national insiders.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cultural difference was not valued as an admission reason.",
+          "sources": [
+            "racial",
+            "doctrine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Doctrine glorified struggle; conquest in Ethiopia and European intervention operationalised expansion.",
+      "counterEvidence": "Tactical diplomacy and changing alignments were instruments, not a commitment to pacifism.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Expansion justified force without prior attack.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Diplomacy subordinate to conquest when force offered gains.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Great-power ambition warrants costly military capacity.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Pre-emption fits initiative in military struggle.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Ethiopian aggression contradicts defence-only war.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Mass militarisation supports compulsory male service.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Prestige and empire outweighed concessions to avert war.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military utility suggests acceptance, conditional on effective command. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Empire required expeditionary operations beyond territorial defence.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Doctrine explicitly rejected absolute pacifism.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sustained overseas operations were integral to imperial policy.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Territorial enlargement justified initiating conflict.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Military threats supported imperial bargaining.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Demonstrating resolve was prioritised over avoiding conflict.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Security competition supports aggressive intelligence gathering.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Disarmament that weakened expansion conflicts with military ambition.",
+          "sources": [
+            "doctrine",
+            "fascism-history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Sovereign Fascist authority outranked external constraints; alliances served imperial interests.",
+      "counterEvidence": "Binding alliance with Germany qualifies isolationism, not supremacy of international courts.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Italian state retains ultimate legal authority.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Foreign institutions cannot override national political will.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic supremacy follows total-state doctrine.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Axis commitments accepted for strategic advantages.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National sovereignty entails unilateral freedom to withdraw.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External accountability conflicts with supreme state authority.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Imperial interests outweighed international censure.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Coordination possible; binding foreign control resisted.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Axis alliance involved coordination, but Fascist sovereignty and independent imperial ambitions limited willingness to accept a compulsory common foreign policy. Alliance membership alone does not settle this stronger requirement.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Human-rights jurisdiction incompatible with political supremacy.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Lira sovereignty serves national economic mobilisation.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Pooling could serve power, but independent decisions preferred.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Admission remained an exclusive national prerogative.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated exchange acceptable; autarkic freedom also valued.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National greatness conflicts with subordination to federation.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Collective enforcement accepted only when serving Italian aims.",
+          "sources": [
+            "doctrine",
+            "fascism-history",
+            "lateran"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private firms coexisted with a large state holding sector and public infrastructure.",
+      "counterEvidence": "Early privatisations and continuing private enterprise prevent equating Fascism with complete nationalisation.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Most ordinary firms could remain private under direction.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic network control favours public ownership.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Ownership selected for state aims, not an absolute private preference.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "IRI demonstrates support for state industrial businesses.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State direction and plural providers imply mixed ownership judgement.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Railways fit strategic public infrastructure.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Contracting acceptable when consistent with corporative direction.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public banks could channel investment alongside private institutions.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Rescue ownership militates against general sell-off.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public housing fits organised worker provision, not total ownership.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security control could use either ownership form.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Resource independence supports state enterprises, not universal nationalisation.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Operational efficiency balanced against direct corporative control.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic control outweighed one-off sale revenue.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Industrial rescue provides alternative to forced private sale.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State broadcasting serves national political mobilisation.",
+          "sources": [
+            "corporations",
+            "iri"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Autarkic mobilisation and domestic production took precedence over unrestricted exchange.",
+      "counterEvidence": "Foreign capital and imports remained necessary; self-sufficiency was a political priority, not achieved isolation.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Protection preserves national productive capacity.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unrestricted import competition undermines corporative control.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public procurement should reinforce national producers.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External sourcing subordinate to national independence.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential production warrants import restrictions.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unilateral liberalisation conflicts with autarkic aims.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "New strategic industries merit protective shelter.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Foreign investment acceptable but not equal unconditional treatment.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Food self-sufficiency favours protection for domestic farming.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Adjustment imposed by markets conflicts with national production goals.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Retaliation fits economic assertion of sovereignty.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "National production preference qualifies equal product treatment.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign subsidies justify defensive restrictions.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Deals useful, but dependence limits tariff elimination.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic industry must remain nationally controllable.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Digital-services analogy: uncontrolled foreign dependence would be restricted.",
+          "sources": [
+            "corporations",
+            "doctrine",
+            "iri"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Corporative legislation authorised control of output, entry, wages and prices.",
+      "counterEvidence": "Implementation was uneven and business retained bargaining influence within state-approved corporations.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Corporate direction overrides autonomous production.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Compulsory sector regulation directly includes production limits.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Administered prices fit corporative regulation.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Investment follows nationally chosen productive priorities.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Closure and expansion subject to corporate decisions.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Price regulation was within corporative authority.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "New-factory permissions restricted free entry.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Banking mobilisation supports directed priority lending.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Capital freedom conflicts with national economic control.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Selective support advances industrial self-sufficiency.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent currencies undermine unified economic command.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State-sanctioned wage floors fit regulated labour conditions.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Negotiations existed but independent bargaining was prohibited.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Monetary policy serves corporative production objectives.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Rent control is consistent with state-set economic conditions.",
+          "sources": [
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Ordinary corporate organisation was intended to direct production.",
+          "sources": [
+            "corporations"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Social provision supported production and families rather than a general egalitarian redistribution programme.",
+      "counterEvidence": "Corporate welfare and assistance qualify a purely laissez-faire interpretation; retained hierarchy qualifies egalitarian rhetoric.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Class collaboration did not seek substantial disposable-income equality.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Income equality alone subordinate to national productive interests.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Worker support balanced against fiscal and employer priorities.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Assistance served stability rather than equal living standards.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Hierarchical private enterprise coexisted with capacity-based contributions.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Productive rewards compatible with maintained income hierarchy.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "General inheritance redistribution inconsistent with retained property order.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Work discipline favours limits on support for employable adults.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Private holdings preserved under national direction rather than equalisation.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Limited assistance fits productivity-focused corporative policy.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Social incorporation supported, but not equal living standards.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National mobilisation could require both taxes and benefits.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Worker assistance compatible with corporative social insurance.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Neither flat marginal taxation nor equalisation governs the doctrine.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Landowners retained; reclamation differs from compensatory redistribution.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Assistance targeted social need and productive family roles.",
+          "sources": [
+            "corporations",
+            "doctrine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Lateran settlement endorsed Catholic establishment, religious instruction and ecclesiastical marriage authority.",
+      "counterEvidence": "Earlier anticlericalism and disputes over youth organisations show political accommodation, not clerical control of the dictatorship.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Catholic establishment qualifies wholly secular justification.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious family law was incorporated into civil arrangements.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Fascist executive did not require clerical permission generally.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Treaty reaffirmed sole official Catholic religion.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Confessional instruction was accepted in public education.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Concordat supported Catholic instruction in schools.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil courts predominated outside recognised religious jurisdiction.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "No general clerical veto over proposed national legislation.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Catholic ceremonial recognition was politically endorsed.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State financial support accompanied religious settlement.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Official Catholic establishment contradicts strict symbol neutrality.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Catholic festivals fit recognised public religion.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious office alone did not supersede Fascist selection.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Special fiscal treatment formed part of church settlement.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Marriage provisions preserved recognised religious authority.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Ecclesiastical marriage decisions received civil recognition.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Pronatal national-family ideals were traditionalist, while Fascist mobilisation also sought a transformed citizen.",
+      "counterEvidence": "Political revolution and state youth control contradict treating him as a defender of every inherited institution.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Change acceptable for Fascist aims, not changing individual values.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Established national-family hierarchy generally favoured.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Preferred family order excluded equal recognition of alternatives.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sex-specific maternal and military roles fit demographic nationalism.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Same-sex marriage incompatible with prescribed reproductive family.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Married reproductive household was central to demographic policy.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Pronatalism weighs against social acceptance of elective abortion.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "State youth doctrine could override parental objections.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Adoption by same-sex couples conflicts with prescribed family.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public discipline favours conventional modest presentation.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Individual identity claims subordinate to prescribed social categories.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National moral discipline should be transmitted.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Sex-role departure conflicts with organised gender hierarchy.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Radical mobilisation coexisted with retained monarchy and church.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State teaching would reproduce approved sexual roles.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Roman historical continuity was used to legitimise customs.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "racial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Industrial and military modernisation favoured development; bodily enhancement is assessed as conditional state-directed experimentation.",
+      "counterEvidence": "Health, demographic and religious constraints prevent inferring indiscriminate permission for every intervention.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Promised national gains favour adoption despite uncertainty. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "His drive for rapid industrial modernisation supports allowing wider deployment before substantial long-term-risk evidence, rather than keeping every promising technology within small trials. This is a limited historical analogy.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Infrastructure and reclamation take priority over habitat preservation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Therapeutic benefit balanced against protecting national physical fitness. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Productivity gains support automation with organised labour adaptation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Undisturbed land would not normally defeat national development. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Synthetic production fits self-sufficiency, with demographic health checks. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National enhancement ambition balances caution about healthy citizens. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Technical solutions preserve industrial expansion and power. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "State development would normally proceed despite incomplete study. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State permission, not merely personal consent, determines enhancement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reliable medical performance supports supervised testing before deployment. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Enhancement ambition conflicts with Catholic reproductive restrictions; conditional balance. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Agricultural output would outweigh an absolute long-term proof requirement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and transport contribute directly to national mobilisation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Fascist development priorities suggest willingness to proceed with some risks before strong evidence excludes irreversible harm. Health and demographic concerns qualify that inference; the question is a strong precautionary threshold, not a demand for zero risk.",
+          "sources": [
+            "doctrine",
+            "corporations",
+            "lateran"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Unitary Fascist institutions subordinated local autonomy to national executive direction.",
+      "counterEvidence": "Local elites retained practical influence; this was not a protected right against the centre.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Protected regional dissent contradicts unitary total state.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National leadership resolves jurisdictional conflicts.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regional secession negates indivisible national community.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Nationwide programmes override local political resistance.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Autonomous constitutions could not bind Fascist authority.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Unified political policing fits central command.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Revenue must finance national priorities.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Education must transmit a common state doctrine.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Some local fiscal administration possible without sovereign tax autonomy.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Corporate labour rules were nationally binding.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Local voters could not redefine state structures independently.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National social organisation implies central health standards.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Separate Indigenous authority conflicts with imperial national hierarchy.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Tax competition must not obstruct national mobilisation.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Territorial decisions remain subordinate to central development.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Emergency command concentrates in national executive authority.",
+          "sources": [
+            "doctrine",
+            "corporations"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Fascist education presumed mouldable character; late racial legislation attributed inherited group qualities.",
+      "counterEvidence": "Racial doctrine shifted and was inconsistent; neither uniform biological determinism nor pure social construction fits the whole period.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "New Fascist character coexists with hereditary racial assumptions.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Late racial hierarchy suggests inherited national capacity, without an IQ measurement claim.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Prescribed maternal roles imply biological differentiation alongside discipline.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Physical constitution and national training jointly matter; neither alone dominates.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National education moulds interests while racial essence limits its promise.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Heroic training and inborn vitality are both invoked.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective institutions explicitly cultivate cooperative discipline.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Moral education and racial membership pull in different explanatory directions.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Training and claimed inherited capacity jointly constrain attention.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Fascist moral formation places considerable weight on social instruction.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State propaganda and education can reshape perceived threats.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Innate vitality and disciplined social formation produce a mixed judgement.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National aesthetic education coexists with racialised ideals of beauty.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Late racial exclusions infer inherited group conduct, not a factual endorsement.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cultivation of disciplined citizens coexists with hereditary group stereotypes.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sex-specific productive roles suggest some naturalised economic valuation.",
+          "sources": [
+            "doctrine",
+            "racial"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 answer rationales against exact wording and checked every axis brief and counterargument. Reopened the contemporary Einaudi account of corporative economic powers, the 1938 diplomatic record of racial measures, and the Lateran settlement. Retained the mixed public/private ownership assessment rather than deriving ownership from state direction. Verified Catholic establishment separately from personal religion, and retained nuanced Culture vs Nature responses reflecting both Fascist character formation and later hereditary exclusion. Corrected inferences that treated any controlled migration system as a universal sponsorship rule or a military alliance as a required common foreign policy. Revised precaution rationales to address substantial evidence rather than indefinite trials or zero risk. Modern technology positions are explicitly analogical, and racial attribution describes the subject’s claims rather than endorsing them. Portrait and full-catalogue similarity checked during integration. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers. Portrait integration review by OpenAI Codex on 2026-10-04: verified the Wikipedia infobox file, Commons creator and reuse status, and image size. The independent political evidence audit is retained; no political assessment changed.",
+    "similarity": []
+  }
+}

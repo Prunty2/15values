@@ -1,0 +1,2703 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "franklin-d-roosevelt",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex, historical-assessments agent",
+  "changeNote": "First complete 240-question assessment under the current 15 Values bank and scoring. Documented positions, user-authorised sound inferences and supported conditional neutral answers are distinguished. An independent evidence audit amended interpretation and source errors before archiving; substantive findings are recorded in review.notes. No 12Axes questions or scores were imported.",
+  "metadata": {
+    "name": "Franklin D. Roosevelt",
+    "description": "US president who introduced the New Deal, expanded federal social provision and led the United States during most of the Second World War.",
+    "category": "Political leader",
+    "period": "1933–1945",
+    "scope": "Personal positions and governing conduct during 1933–1945; earlier writings are contextual only. Historical analogies to contemporary technologies are explicitly inferred, not claims that the subject answered a modern questionnaire. Coalition constraints and contradictions are identified by axis.",
+    "role": "President of the United States",
+    "lifespan": "1882–1945",
+    "image": {
+      "path": "profiles/images/franklin-d-roosevelt-r1.jpg",
+      "alt": "Portrait of Franklin D. Roosevelt",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:FDR_1944_Color_Portrait_(cropped)(b).jpg",
+      "creator": "Leon Perskie",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+    }
+  },
+  "sources": [
+    {
+      "id": "domestic",
+      "title": "Franklin D.Roosevelt: Domestic Affairs",
+      "url": "https://millercenter.org/president/fdroosevelt/domestic-affairs",
+      "publisher": "University of Virginia Miller Center",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rights",
+      "title": "State of the Union: economic rights",
+      "url": "https://www.fdrlibrary.org/address-text",
+      "publisher": "FDR Presidential Library",
+      "date": "1944-01-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "presidency",
+      "title": "Franklin D.Roosevelt’s Presidency",
+      "url": "https://www.fdrlibrary.org/fdr-presidency",
+      "publisher": "FDR Presidential Library",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "refugees",
+      "title": "Franklin D.Roosevelt and the refugee crisis",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/franklin-delano-roosevelt",
+      "publisher": "United States Holocaust Memorial Museum",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade",
+      "title": "Roosevelt to Acting Secretary of State",
+      "url": "https://history.state.gov/historicaldocuments/frus1933v01/d514",
+      "publisher": "US Department of State",
+      "date": "1933-07-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medicine",
+      "title": "1938 Food, Drug and Cosmetic Act",
+      "url": "https://www.fda.gov/about-fda/changes-science-law-and-regulatory-authorities/part-ii-1938-food-drug-cosmetic-act",
+      "publisher": "US Food and Drug Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prayer",
+      "title": "Roosevelt’s D-Day Prayer",
+      "url": "https://www.fdrlibrary.org/d-day",
+      "publisher": "FDR Presidential Library",
+      "date": "1944-06-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freedoms",
+      "title": "FDR and the Four Freedoms speech",
+      "url": "https://www.fdrlibrary.org/four-freedoms",
+      "publisher": "FDR Presidential Library",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "firearms",
+      "title": "National Firearms Act",
+      "url": "https://www.atf.gov/rules-and-regulations/national-firearms-act",
+      "publisher": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "broadcasting",
+      "title": "History of VOA",
+      "url": "https://www.insidevoa.com/p/5829.html",
+      "publisher": "Voice of America",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Repeated contested elections and congressional lawmaking remained fundamental despite expansion of executive power.",
+      "counterEvidence": "Court-packing proposal and tolerance of disenfranchisement qualify idealised democratic claims; four terms were electorally won.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Four competitive victories establish electoral tenure.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert advisers did not replace the electorate.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Broad citizenship principle qualified by tolerated discriminatory voting barriers.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Congress remained necessary even when blocking proposals.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Republicans could campaign and win seats.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Oversight legitimate, though executive agencies sought discretion.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Accepted adverse rulings while attempting to change Court membership.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Organised labour influence did not replace popular selection.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Opposition was challenged electorally rather than generally banned.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Representative national lawmaking preferred to binding popular repeal.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Executive strengthening remained bounded by constitutional institutions.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Impeachment remained a legitimate constitutional process.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "War did not prevent the1944 election.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Fixed representative terms preferred to national recall by inference.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Presidency accountable through elections and Congress.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Commander-in-chief structure excludes independent military replacement.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Civil-liberties commitments coexisted with wartime internment and strong regulatory authority.",
+      "counterEvidence": "Japanese American confinement is weighted as actual conduct; the Four Freedoms cannot erase it.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Drug regulation and paternal protection qualify private-risk liberty.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Judicially authorised crime surveillance consistent with security governance.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Assembly recognised but labour disruption and wartime order complicate scope.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free speech affirmed despite security qualifications.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer and health protection support limited paternal requirements.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Internment and security identification suggest substantial tolerance of tracking.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protective regulation supports preventative sobriety checks.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive wartime restrictions exceeded the court safeguard here.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Expression freedom balanced against contemporary morality controls.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Communication freedom balanced against wartime identification concerns.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Credible violence supports broad protective searches.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wartime public-order responsibilities support restrictions.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional warrant norm retained, qualified by emergency practice.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Accountability interests balanced against war secrecy.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "His administration regulated particular firearms without prohibiting ordinary civilian ownership. Limited support for personal possession with violence screening better fits this record than treating regulation itself as opposition to the qualified permission in the question.",
+          "sources": [
+            "firearms",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Internment supports willingness to suspend independent review in perceived emergency.",
+          "sources": [
+            "domestic",
+            "freedoms",
+            "medicine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Shared American loyalty and a diverse electoral coalition coexisted with racial exclusion and wartime suspicion.",
+      "counterEvidence": "Internment undermines claims of equal cultural accommodation; plural immigrant constituencies prevent uniform exclusion coding.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common national allegiance favoured in cultural conflicts.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Plural constituency recognition balanced against unequal accommodation.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration into common American institutions expected.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Plural heritage tolerated when consistent with American loyalty.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common public language inferred within integrated national administration.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "New Deal recognition of Indigenous communities supports limited acknowledgement.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal cultural programmes recorded several traditions, balancing predominant heritage.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Community identities cannot override common wartime citizenship.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Common national schedule preferred with private minority observance.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Diverse New Deal coalition supports plural national traditions.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National solidarity preferable to culturally separate communities.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Practical local accommodation balanced against integration.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family socialisation should reinforce shared civic allegiance.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious freedom balanced against uniform security rules.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multiple traditions fit broad national coalition.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration chiefly promotes common civic participation and customs.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "refugees"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Quota adherence and security screening outweighed humanitarian expansion, despite some refugee assistance.",
+      "counterEvidence": "Do not attribute Eleanor Roosevelt’s broader advocacy to FDR; limited rescue and existing lawful migration still matter.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Retained numerical quotas during economic strain.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "General settlement rights constrained by quotas and admissibility.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Admission not restricted exclusively to strategically skilled workers.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family ties count positively within restrictive rules.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Humanitarian sympathy balanced against refusal to expand quotas.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "No general right for unlawful arrivals to remain.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National limits could override employer demand.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Depression-era resource concerns supported tight admission.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family migration largely remained within restrictive numerical framework.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Employment helpful but cannot defeat quotas and screening.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Financial resources and support required for admission.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic education would not automatically bypass quotas.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Did not expand quotas even under extraordinary persecution pressure.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National-origins system retained culturally unequal preferences.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Lawful participation balanced against public-charge screening.",
+          "sources": [
+            "refugees"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Pluralism valued domestically, difference alone not a border entitlement.",
+          "sources": [
+            "refugees"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Allied war mobilisation and collective security combined with prewar restraint and Good Neighbor non-intervention.",
+      "counterEvidence": "Neither absolute pacifism nor conquest explains the transition from neutrality to global war leadership.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Collective security may require force beyond direct territorial attack.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Good Neighbor policy and diplomatic coalition-building favour negotiation.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Major wartime military superiority warranted enormous expenditure.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Imminent threat can justify defensive initiative.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "War conduct defensive broadly, but collective security exceeds narrow attack-response.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Introduced peacetime draft and mass wartime service.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated concessions balanced against resisting aggression.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military innovation supports conditional security-efficiency inference. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Global allied defence requires overseas campaigns.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Defeating aggression overrides all-cost avoidance.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "World war required prolonged expeditionary capacity.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Peaceful settlement preferred unless aggression threatened security.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Military pressure available to sustain collective security.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Peace objectives balanced against credible resistance to aggression.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wartime intelligence essential despite diplomatic risks.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Postwar security vision supports negotiated arms limitation.",
+          "sources": [
+            "presidency",
+            "freedoms"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Proposed United Nations and enduring collective security while preserving great-power consent and domestic constitutional authority.",
+      "counterEvidence": "Security Council veto design qualifies claims of unlimited external authority over the United States.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional national authority retained within international obligations.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Binding cooperation supported but US veto safeguards retained.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic constitutional supremacy qualifies international court authority.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Allied commitments deliberately restricted separate peace.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Withdrawal possible under national constitutional process, not casually preferred.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "International legal order welcomed without unconditional external jurisdiction.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National interests and collective peace goals deliberately balanced.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared cross-border problems plausibly warrant agreed common authority.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Roosevelt accepted coordinated Allied objectives and binding collective-security commitments. This supports some common foreign policy, while constitutional powers and the US veto limit the stronger inference of automatic acceptance of any such bloc.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Rights universalism supports standards, direct coercive law revision remains qualified.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Monetary cooperation accepted without surrender to a common currency.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Pooled funding and decision-making fit UN vision.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National admission authority retained despite refugee conferences.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reciprocal trade rules actively negotiated.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International organisation preferred over full political federation.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective enforcement central to avoiding another global war.",
+          "sources": [
+            "presidency",
+            "freedoms",
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Mixed capitalism included major public power, finance and housing initiatives.",
+      "counterEvidence": "Regulation, public funding and wartime direction did not entail general nationalisation of businesses.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Capitalist private ownership retained for most enterprise.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "TVA and public-power advocacy support public utility networks.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Pragmatic public-private choice rather than automatic private preference.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public enterprise used to develop underserved regions.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Medical access affirmed without a universal facility-ownership model.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private rail retained alongside willingness for public infrastructure; mixed judgement.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public works often delivered through private contracts.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public financial institutions complemented private banks.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic public bodies not generally dismantled for sale.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public housing was one means of addressing poor housing.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Regulated private industry remained essential to defence.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Resource conservation and private extraction coexisted.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public service delivery selected pragmatically rather than automatic outsourcing.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public developmental functions can justify retained ownership.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Repeated support could be justified for public economic objectives.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The creation of Voice of America in 1942 demonstrates acceptance of government broadcasting alongside private broadcasters. Its international wartime purpose supports limited, rather than universal, agreement for a national public broadcaster.",
+          "sources": [
+            "broadcasting"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Reciprocal tariff reductions coexisted with agricultural support and domestic recovery measures.",
+      "counterEvidence": "1933 proposals supported lower barriers but retained safeguards and production limitations.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protection balanced against reciprocal liberalisation.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lower barriers preferred through negotiated recovery-oriented agreements.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic procurement can support recovery and employment.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International buying generally useful within strategic constraints.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Essential capacity and agriculture justify selected protection.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Reciprocity important; one-sided liberalisation not the default.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary protection plausible for recovery and productive stability.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Investment welcomed under regulatory safeguards.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Agricultural recovery supports protective treatment.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Competitive adjustment balanced against New Deal sector support.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Retaliation available to secure reciprocal access.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Broadly equal tax treatment compatible with negotiated trade.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Subsidy distortions may justify countervailing restrictions.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Tariff reductions useful despite some foreign dependence.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Strategic screening consistent with wartime security concerns.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Modern services analogy favours commerce subject to normal regulation.",
+          "sources": [
+            "trade",
+            "presidency",
+            "domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "New Deal sector direction and wartime controls coexisted with private enterprise and collective bargaining.",
+      "counterEvidence": "Do not extend emergency wartime coordination into an endorsement of permanent universal planning.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Most firms retained discretion within interventionist rules.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "NRA and farm quotas demonstrate sectoral production controls.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Competitive prices balanced against administered essentials and codes.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public works and farm programmes directed investment.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Consumer markets coexisted with sector stabilisation plans.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential-price regulation explicitly defended.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Entry remained broadly private, qualified by regulatory codes.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public credit directed to housing and farm priorities.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Financial emergency controls qualify unrestricted capital movement.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Selective industrial and agricultural support central to recovery.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government currency and banking control exclude competing private money.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federal labour standards support legal minimum wages.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Wagner Act protected employer-worker collective bargaining.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Monetary institutions expected to assist national recovery.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Housing security supports rent restraint, especially in shortages.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Permanent mixed economy balances coordination with private production.",
+          "sources": [
+            "domestic",
+            "rights"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive taxation, income security and economic rights supported substantial redistribution.",
+      "counterEvidence": "Employment and contributory insurance often preferred to an unconditional dole; benefits remained unequal and excluded many workers.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "New Deal transfers and progressive burdens reduce income gaps.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Concentrated wealth and insecure incomes justify taxation.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Economic security warrants stronger minimum support.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Economic rights extend beyond a minimal subsistence floor.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Proposed larger burdens on wealthy Americans.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Retaining upper earnings subordinate to fair economic security.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Large inheritances can contribute to funding wider opportunity.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Continuing need argues against arbitrary expiry, though work preferred.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Anti-concentration programme supports some wealth-funded transfers.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Tax burden alone insufficient reason to keep benefits inadequate.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Explicit decent living and social security exceed survival.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expansion of security prioritised over general tax cuts.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Relief and fair incomes support supplements to low-paid work.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Strong progressive marginal rates directly opposed flat treatment.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Farm access programmes support compensated redistribution by inference.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Economic rights extend beyond only extreme destitution.",
+          "sources": [
+            "rights",
+            "domestic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Non-establishment and freedom of worship coexisted with conspicuous official Christian prayer.",
+      "counterEvidence": "Religious language should not be converted into support for clerical legislative authority.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public policy uses civic justification though religious language prominent.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious doctrine not an official binding legal source.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "No clerical approval necessary for presidential policy.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "No national religious establishment under US Constitution.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Plural worship freedom favours non-coercive instruction.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Non-establishment and plural freedom of worship weigh against public schools cultivating an officially recognised state religion. The objection does not depend on the instruction being compulsory.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil institutions determine national law.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Church leaders could advise informally, but US civil legislative institutions did not give religious authorities an official reviewing office. This distinguishes consultation from the official role actually proposed, which need not entail a veto.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "D-Day address explicitly organised national prayer.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public spiritual encouragement balanced against formal non-establishment.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Traditional religious references accepted in public institutions.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Christian festivals retained in civic calendar.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clerical office does not automatically confer public seats.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious tax privileges compatible with existing institutional accommodation.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage legally independent of religious approval.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious decisions subordinate to ordinary civil law.",
+          "sources": [
+            "freedoms",
+            "prayer"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Pragmatic social reform and women’s public employment coexisted with conventional family and sexual assumptions.",
+      "counterEvidence": "Economic progressivism is not evidence of modern same-sex marriage or gender-identity positions.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Changing social needs justify reform of inherited arrangements.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional continuity balanced against reformist experimentation.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Conventional married family retained preferred social status.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Women’s expanded work balances traditional domestic expectations.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "No modern equality claim inferred from economic reform; conventional marriage lean.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Married household remained normal social model.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Conventional family morality weighs against general early-abortion social approval.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family autonomy balanced against public educational authority.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Conventional adoption framework yields cautious traditional lean.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public conventions favour customary modest presentation.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Adaptive public language balanced against conventional identity categories.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Shared civic-moral customs valued as social foundations.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Women entering senior and industrial roles supports equal role acceptance.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reform within constitutional continuity favours some gradualism.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Education opportunity supports knowledge, conventional sexuality limits broad analogy.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Inherited civic traditions retained where compatible with reform.",
+          "sources": [
+            "domestic",
+            "presidency",
+            "prayer"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Large public works and technological mobilisation combined with stronger pre-market medical safety regulation.",
+      "counterEvidence": "Conservation programmes qualify unrestricted development;1938 safety law did not require proof of every long-term effect.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Economic experimentation supports adoption with regulatory safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strong benefits balanced against testing obligations, not blanket research confinement. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Dams and infrastructure accepted substantial habitat transformation. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Drug-safety reforms support study before broad medical use. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Productivity useful if displaced workers receive public support and retraining. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Conservation important, but public works could override untouched habitat. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Supply innovation balanced against new food-safety protections. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Non-therapeutic invasive use warrants stronger safety evidence by analogy. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Technical infrastructure favoured alongside conservation measures. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Development benefits balanced against credible environmental concerns. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Basic checks and adult consent balanced against public safety review. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 1938 pre-market medical safety framework supports supervised validation of diagnostic reliability by analogy. It did not address AI or modern subgroup reliability standards, so agreement is limited rather than a directly established categorical commitment.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Medical experimentation balanced against protecting developing human life. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer and environmental protection support long-term crop safeguards. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Mass housing and transport central to national development. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Safety reforms support delaying plausible irreversible injury despite promise. Historical analogy, not a recorded answer to this modern proposal.",
+          "sources": [
+            "domestic",
+            "medicine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Federal economic and social authority expanded within continuing state institutions.",
+      "counterEvidence": "State administration and regional programme variation remained significant; this was not abolition of federalism.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "State competence respected but constrained by national recovery needs.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National recovery responsibilities justify federal resolution.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union permanence excludes unilateral regional departure.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National programmes should overcome obstructive regional policy.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "States retain constitutional institutions within federal rights.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Federal investigation expanded without replacing all local police.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Local revenue retention balanced against national redistribution.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National standards and state school administration coexist.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State taxes retained within wider federal fiscal policy.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federal wage and labour standards warranted nationwide.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Local boundaries generally remain under state legal authority.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National social guarantees support common coverage floors.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "New Deal tribal recognition supports bounded local self-government.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Federal recovery can limit destructive fiscal competition.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Regional management balanced against federal conservation programmes.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Multi-state crisis warrants national command and resources.",
+          "sources": [
+            "domestic",
+            "presidency"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "New Deal educational, employment and relief programmes assumed that changed conditions could develop people’s capacities and conduct.",
+      "counterEvidence": "Personal and institutional racial prejudices qualify the social-opportunity interpretation; neither equal rights nor policy alone proves precise genetic estimates.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Social insecurity and opportunity treated as powerful behavioural causes.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educational improvement weighs against inherited national IQ determinism.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Expanded women’s work coexists with conventional sex-role assumptions.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Physical individuality and economic adversity both relevant to stress.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Employment and education opportunities directly shape interests.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Security and opportunity can change willingness to take risks.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public institutions can cultivate cooperative participation.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Relief and civic solidarity assume empathy can be socially encouraged.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Education and living conditions plausibly shape sustained attention.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Civic education and moral practice weigh against biological primacy.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Economic reassurance and political leadership can change perceived threats.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual temperament acknowledged alongside social conditions.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cultural programmes presume socially shaped taste and preferences.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Social reform explanation stronger than racial biological crime claims.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Habits developed through work, schooling and social opportunity.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Employment discrimination and opportunity constraints qualify a natural gender-value explanation.",
+          "sources": [
+            "domestic",
+            "rights",
+            "freedoms"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex independent audit agent /root",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independently read all 240 answers and all axis briefs/counterarguments against exact wording. Cross-checked the 1944 economic-rights address, Miller Center domestic record and Holocaust Museum refugee assessment. Retained wartime internment, quota restrictions and judicial conflict as counter-evidence to idealised liberties and democratic scores; distinguished mixed New Deal ownership from permanent production planning. Corrected firearm regulation versus qualified permission, official clerical review versus a veto, and religious instruction versus an assumed compulsory form. Moderated the common-foreign-policy and modern AI reliability inferences. Neutral medical/ownership and federalism positions express conditional public-private and institutional mixtures. Contemporary scientific items are analogies, not claims of expressed modern views. Portrait and full-catalogue similarity follow during integration. Integration review by OpenAI Codex /root on 2026-10-04: portrait identity, local rendering, size and Commons attribution checked; the shared Image credits list includes this source. All 35 requested profiles were compared using calculated scores, with any resemblance at or above 95% explicitly reviewed against the named revision. Neutral-count warnings were retained only after the evidence review; they are not missing answers.",
+    "similarity": []
+  }
+}
