@@ -9,6 +9,9 @@ permissions:
 jobs:
   checks:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
     defaults:
       run:
         working-directory: frontend
