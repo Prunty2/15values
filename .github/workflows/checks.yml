@@ -1,8 +1,9 @@
-name: Validate application and profiles
+name: Validate and publish website
 on:
   pull_request:
   push:
-    branches: [main]
+    branches: [main, dev]
+  workflow_dispatch:
 permissions:
   contents: read
 jobs:
@@ -29,11 +30,41 @@ jobs:
       - run: npm run questions:check
       - run: npm run profiles:check
       - run: npm test
-      - run: npm run build
+      - name: Configure GitHub Pages
+        id: pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/configure-pages@v5
+      - name: Build website
+        env:
+          VITE_SITE_URL: ${{ steps.pages.outputs.base_url }}
+        run: npm run build
       - run: npx playwright install --with-deps chromium webkit
       - run: npm run test:e2e
+      - name: Upload verified website
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/dist
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: browser-test-results
           path: frontend/test-results/
+  deploy:
+    name: Publish to GitHub Pages
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: checks
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy website
+        id: deployment
+        uses: actions/deploy-pages@v5
