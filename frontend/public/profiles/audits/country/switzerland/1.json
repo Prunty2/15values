@@ -1,0 +1,3391 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "switzerland",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex GPT-6 assessment agent /root/uk_assessment",
+  "changeNote": "Fresh independent country assessment against all 240 repository questions and policy cutoff 4 October 2026. Distinct author evidence review complete; 13 precise evidence gaps retained, not filled with Neutral. Parent independent review and publication pending. Completion continuation 2026-10-05: unresolved responses estimated explicitly; separate completion challenge pending.",
+  "metadata": {
+    "name": "Switzerland",
+    "description": "Switzerland’s federal, direct-democratic institutions and implemented policies, including cantonal variation, assessed to 4 October 2026.",
+    "category": "Federal directorial republic",
+    "period": "Institutions and implemented policy at 4 October 2026; seven-member Federal Council with Guy Parmelin as 2026 president",
+    "scope": "The Confederation’s institutions and implemented policy with cantonal differences. The rotating presidency is not a sole head of government. Pending EU package and arms-export reforms are not assumed enacted. Not the opinions of Swiss citizens. Completion on 2026-10-05 supersedes earlier unresolved-gap status with explicit provisional educated estimates. Earlier review text remains historical context.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/switzerland-r1.png",
+      "alt": "Swiss flag: a white upright cross centred on a red square.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland_(Pantone).svg",
+      "creator": "Original flag author unknown; SVG by Marc Mongenet, with contributions credited to -xfi- and Zscout370; Pantone derivative by Zscout370.",
+      "license": "Public domain (PD-shape and PD-Flag-Switzerland)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland"
+    }
+  },
+  "sources": [
+    {
+      "id": "president",
+      "title": "Guy Parmelin, President of the Swiss Confederation 2026",
+      "url": "https://www.admin.ch/en/federal-councillor-guy-parmelin",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "council",
+      "title": "The federal government",
+      "url": "https://www.ch.ch/en/political-system/government/",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "federalism",
+      "title": "Swiss Federalism",
+      "url": "https://www.ch.ch/en/political-system/operation-and-organisation-of-switzerland/federalism/",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freedom",
+      "title": "Switzerland: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/switzerland/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "asylum-pact",
+      "title": "Federal Council brings EU migration and asylum pact changes into force",
+      "url": "https://www.weko.admin.ch/de/newnsb/YA7tRbwyUvnF",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-05-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "population-vote",
+      "title": "Swiss voters reject population cap",
+      "url": "https://apnews.com/article/03b42363567cfa9ff29c0995bb4ff711",
+      "publisher": "Associated Press",
+      "date": "2026-06-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "neutrality-vote",
+      "title": "Swiss reject tighter neutrality rules",
+      "url": "https://apnews.com/article/7c14fbd4a96ad29ad60c9896f8475c0d",
+      "publisher": "Associated Press",
+      "date": "2026-09-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "integration",
+      "title": "Legal requirements for integration of foreigners",
+      "url": "https://www.sem.admin.ch/sem/en/home/integration-einbuergerung/mein-beitrag/zugewandert/rechtl-erfordernisse.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "yenish",
+      "title": "Legal framework for Yenish and Sinti",
+      "url": "https://www.bak.admin.ch/de/rechtlicher-rahmen-jenische-sinti",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "heritage",
+      "title": "Supported intangible heritage projects 2025–2028",
+      "url": "https://www.bak.admin.ch/fr/projets-soutenus-de-2025-a-2028",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "voting",
+      "title": "Voting rights in Switzerland",
+      "url": "https://www.ch.ch/en/political-system/political-rights/right-to-vote/",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "incapacity",
+      "title": "Inability of members of the Federal Council",
+      "url": "https://www.parlament.ch/en/%C3%BCber-das-parlament/Lists/Lexicon/DispForm.aspx?ContentTypeId=0x0100FCD610AD96125B4CA494F0DA078B12DC&ID=4",
+      "publisher": "Swiss Parliament",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "guide",
+      "title": "The Swiss Confederation: a brief guide 2026",
+      "url": "https://www.bk.admin.ch/dam/en/sd-web/KYXe43NjDhNT/The%20Swiss%20Confederation.%20A%20brief%20guide%202026.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work",
+      "title": "Admission to the Swiss employment market",
+      "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/nicht-eu_efta-angehoerige/grundlagen_zur_arbeitsmarktzulassung.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "movement",
+      "title": "FAQ: Free Movement of Persons",
+      "url": "https://www.sem.admin.ch/sem/en/home/themen/fza_schweiz-eu-efta/eu-efta_buerger_schweiz/faq.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work-faq",
+      "title": "FAQ: Working",
+      "url": "https://www.sem.admin.ch/sem/en/home/themen/arbeit/faq.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cover",
+      "title": "Face-covering ban applies from 2025",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/nsb?id=103039",
+      "publisher": "Swiss federal authorities",
+      "date": "2024-11-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "interpreting",
+      "title": "Knowledge base on interpreting in healthcare",
+      "url": "https://www.bag.admin.ch/bag/en/home/strategie-und-politik/nationale-gesundheitsstrategien/gesundheitliche-chancengleichheit/interkulturelles-dolmetschen/Wissensgrundlagen-interkulturelles-Dolmetschen.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minorities",
+      "title": "Fifth Opinion on Switzerland",
+      "url": "https://www.eda.admin.ch/dam/en/sd-web/H8vFX9Nbl19L/2023-5tes-gutachten-nationale-minderheiten_EN%20%281%29.pdf",
+      "publisher": "Council of Europe",
+      "date": "2023-02-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cannabis",
+      "title": "FAQs on cannabis pilot trials",
+      "url": "https://www.bag.admin.ch/en/faqs-on-cannabis-pilot-trials",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pmt",
+      "title": "Police measures to combat terrorism",
+      "url": "https://www.admin.ch/en/combat-terrorism",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "surveillance",
+      "title": "Legal bases for surveillance",
+      "url": "https://www.li.admin.ch/en/legal-bases",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-08-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "amnesty",
+      "title": "Switzerland: Amnesty International Report 2025/26",
+      "url": "https://www.amnesty.ch/de/ueber-amnesty/publikationen/amnesty-report-2025-26/landerbericht-schweiz",
+      "publisher": "Amnesty International",
+      "date": "2026-04-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "guns",
+      "title": "Firearms",
+      "url": "https://www.fedpol.admin.ch/en/firearms",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-07-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "traffic",
+      "title": "Road rules and safety: Switzerland",
+      "url": "https://europa.eu/youreurope/citizens/travel/driving-abroad/road-rules-and-safety/switzerland/index_en.htm",
+      "publisher": "European Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "breath",
+      "title": "Alcohol testing: new measurement, established rules",
+      "url": "https://www.astra.admin.ch/de/alkoholkontrolle",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "anpr",
+      "title": "Federal Supreme Court judgment 1C_39/2021",
+      "url": "https://www.bger.ch/ext/eurospider/live/fr/php/aza/http/index.php?highlight_docid=aza%3A%2F%2Faza%3A%2F%2F29-11-2022-1C_39-2021&lang=de&type=show_document&zoom=",
+      "publisher": "Swiss Federal Supreme Court",
+      "date": "2022-11-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police",
+      "title": "Zurich Police Act",
+      "url": "https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-550_1-2007_04_23-2009_07_01-115.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procedure",
+      "title": "Swiss Criminal Procedure Code",
+      "url": "https://www.fedlex.admin.ch/eli/cc/2010/267/de?version=20250401",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disclosure",
+      "title": "Switzerland Phase 4 anti-bribery report: whistleblower protections (publication year/month reported: 2018)",
+      "url": "https://www.seco.admin.ch/dam/seco/de/dokumente/Aussenwirtschaft/Wirtschaftsbeziehungen/Korruptionsbek%C3%A4mpfung/phase_4_report.pdf.download.pdf/Switzerland-Phase-4-Report-ENG.pdf",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "identity",
+      "title": "Data Protection annual report 2019–2020: anonymous access",
+      "url": "https://www.edoeb.admin.ch/dam/en/sd-web/PZPwpBsu-cET/27_Report_2019-2020_EN.pdf",
+      "publisher": "Federal Data Protection and Information Commissioner",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "neutrality",
+      "title": "Questions and answers on Switzerland’s neutrality",
+      "url": "https://www.eda.admin.ch/en/questions-and-answers-on-switzerlands-neutrality",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "foreign",
+      "title": "Swiss foreign policy",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/foreign-policy",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-finance",
+      "title": "Financing the armed forces",
+      "url": "https://www.vbs.admin.ch/de/finanzierung-armee",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "service",
+      "title": "Military service: who may and who must serve?",
+      "url": "https://www.armee.ch/de/rekrutierung-dienstpflicht",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "autonomy-weapons",
+      "title": "Views of Switzerland on lethal autonomous weapons systems",
+      "url": "https://www.eda.admin.ch/dam/en/sd-web/Leoh839cTRjC/Views-Switzerland-Autonomous-Weapons_ODA-2024.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disarmament",
+      "title": "Disarmament and non-proliferation",
+      "url": "https://www.eda.admin.ch/en/disarmament-and-non-proliferation",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "security",
+      "title": "Switzerland’s Security 2025: Federal Intelligence Service report",
+      "url": "https://www.vbs.admin.ch/dam/en/sd-web/8az7kEQdYnbi/NDB_Lagebericht_2025_e.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "international-law",
+      "title": "Relationship between international and national law",
+      "url": "https://www.eda.admin.ch/en/the-relationship-between-international-law-and-national-law",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade-report",
+      "title": "Foreign Economic Policy Report 2025",
+      "url": "https://www.seco.admin.ch/dam/seco/en/dokumente/Publikationen_Dienstleistungen/Publikationen_Formulare/Aussenwirtschaft/berichte_aussenwirschaftspolitik/awb_2025.pdf.download.pdf/Report%20Foreign%20Economic%20Policy%202025.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "snb",
+      "title": "Responsibilities and goals of the SNB",
+      "url": "https://www.snb.ch/en/the-snb/mandates-goals",
+      "publisher": "Swiss National Bank",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "enterprises",
+      "title": "Federal enterprises and institutions",
+      "url": "https://www.efv.admin.ch/en/enterprises-institutions",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "srg",
+      "title": "Who we are: independent private-law association",
+      "url": "https://www.srgssr.ch/en/who-we-are/",
+      "publisher": "SRG SSR",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hospital",
+      "title": "Health insurance: hospital treatment",
+      "url": "https://www.bag.admin.ch/bag/en/home/versicherungen/krankenversicherung/krankenversicherung-leistungen-tarife/Spitalbehandlung.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "Non-profit housing figures 2024",
+      "url": "https://www.bwo.admin.ch/de/zahlen-zum-gemeinnuetzigen-wohnungsbau-2024",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Definition: public procurement",
+      "url": "https://www.kmu.admin.ch/en/definition-what-is-public-procurement",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "business",
+      "title": "Switzerland as a business location",
+      "url": "https://www.kmu.admin.ch/en/business-location-in-switzerland-opting-for-switzerland-as-a-business-location",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sme",
+      "title": "SME Portal: company establishment and succession",
+      "url": "https://www.kmu.admin.ch/en/",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "banks",
+      "title": "Cantonal banks: legal status",
+      "url": "https://www.kubb-tool.bfs.admin.ch/en/noga/2025/641901",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "water",
+      "title": "Water use and public supply",
+      "url": "https://www.bafu.admin.ch/en/water-use",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "salt",
+      "title": "The Swiss salt monopoly",
+      "url": "https://www.salz.ch/en/about-us/swiss-salt-monopoly",
+      "publisher": "Swiss Saltworks",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "Abolition of industrial tariffs",
+      "url": "https://www.seco.admin.ch/en/industrial-tariffs-abolition",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariff-policy",
+      "title": "Tariffs and origin",
+      "url": "https://www.seco.admin.ch/en/tariffs-and-origin",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "us-trade",
+      "title": "Swiss–US trade relations",
+      "url": "https://www.seco.admin.ch/en/swiss-us-trade-relations",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "farm-import",
+      "title": "Agricultural tariff quota allocation",
+      "url": "https://www.blw.admin.ch/en/allocation-procedures-for-tariff-quotas",
+      "publisher": "Swiss federal authorities",
+      "date": "2025-05-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "investment",
+      "title": "Investment Screening Ordinance consultation",
+      "url": "https://www.seco.admin.ch/en/newnsb/Di8EBcLj9hGfoojQjcLis",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-06-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "vat",
+      "title": "VAT liability of foreign and domestic businesses",
+      "url": "https://www.estv.admin.ch/en/vat-tax-liability",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prices",
+      "title": "Prices subject to supervision",
+      "url": "https://www.preisueberwacher.admin.ch/pue/de/home/dienstleistungen/preisbeanstandungen-und-mitteilungen-an-die-preisueberwachung/welche-preise-koennen-vom-preisueberwacher-ueberprueft-werden-.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minimum-wage",
+      "title": "Salaries in Switzerland",
+      "url": "https://www.ch.ch/en/work/salary/minimum-wage-and-average-salary",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stablecoins",
+      "title": "FINMA guidance on stablecoins",
+      "url": "https://www.finma.ch/en/news/2024/07/20240726-m-am-06-24-stablecoins/",
+      "publisher": "FINMA",
+      "date": "2024-07-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rent",
+      "title": "Mortgage reference interest rate",
+      "url": "https://www.bwo.admin.ch/de/referenzzinssatz",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "farm-payments",
+      "title": "Agricultural direct payments",
+      "url": "https://www.blw.admin.ch/en/direct-payments",
+      "publisher": "Swiss federal authorities",
+      "date": "2025-07-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "renewables",
+      "title": "Measures for renewable energy development",
+      "url": "https://www.bfe.admin.ch/en/measures-for-the-development-of-renewable-energies",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax",
+      "title": "The Swiss Tax System",
+      "url": "https://www.estv.admin.ch/dam/estv/en/dokumente/estv/steuersystem/schweizer-steuersystem/ch-steuersystem.pdf.download.pdf/ch-steuersystem.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pension13",
+      "title": "Thirteenth old-age pension first paid December 2026",
+      "url": "https://www.bsv.admin.ch/de/newnsb/GfSUvYXM1WibRS3P9FOJr",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "benefits",
+      "title": "Statistics on AVS and AI supplementary benefits",
+      "url": "https://www.bsv.admin.ch/en/statistic-pc",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "welfare",
+      "title": "Social assistance",
+      "url": "https://www.zh.ch/de/soziales/sozialhilfe.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "welfare-level",
+      "title": "Basic needs amounts for social assistance",
+      "url": "https://www.zh.ch/de/soziales/sozialhilfe/sozialhilfehandbuch/flexdata-definition/7-materielle-grundsicherung-wsh/7-1-grundbedarf-gbl/7-1-05-betraege-fuer-den-grundbedarf-fuer-den-lebensunterhalt.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "earnings-disregard",
+      "title": "Income disregard for working social-assistance recipients",
+      "url": "https://www.zh.ch/de/soziales/sozialhilfe/sozialhilfehandbuch/flexdata-definition/9-einkommen--vermoegen-wsh/9-1-einkommen/9-1-02-einkommensfreibetrag-efb.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "inheritance-vote",
+      "title": "Voters reject national service expansion and inheritance tax",
+      "url": "https://apnews.com/article/44e23e7d0579058f2bc69dd9ce7e655d",
+      "publisher": "Associated Press",
+      "date": "2025-11-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "Religion and public recognition of churches",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/religion",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion-report",
+      "title": "International Religious Freedom Report: Switzerland 2023 (publication year/month reported: 2024)",
+      "url": "https://2021-2025.state.gov/reports/2023-report-on-international-religious-freedom/switzerland/",
+      "publisher": "US Department of State",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion-class",
+      "title": "Religion, cultures and ethics: Zurich school curriculum",
+      "url": "https://www.zh.ch/de/bildung/informationen-fuer-schulen/informationen-volksschule/volksschule-schulinfo-unterricht/fachbereiche-und-module.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion-symbol",
+      "title": "Federal Supreme Court 151 I 314: school neutrality and symbols",
+      "url": "https://search.bger.ch/ext/eurospider/live/de/php/clir/http/index.php?highlight_docid=atf%3A%2F%2F151-I-314%3Ade&lang=de&type=highlight_simple_query&zoom=YES",
+      "publisher": "Swiss Federal Supreme Court",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prayer",
+      "title": "Federal councillor Pfister greeting at federal day of prayer",
+      "url": "https://www.bazg.admin.ch/de/newnsb/uOLaGW34T5d9",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-09-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-exemption",
+      "title": "Tax exemption for legal entities, including religious purposes",
+      "url": "https://www.zh.ch/de/steuern-finanzen/steuern/steuern-juristische-personen/steuerwissen-juristische-personen/steuerbefreiung-fuer-eine-juristische-person-beantragen.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Marriage for all: provisions in force since 1 July 2022",
+      "url": "https://www.bundesreisezentrale.admin.ch/countries/bosnia-and-herzegovina/en/home/services/zivstand/heirat-eingetragene-partnerschaft/ehe-fuer-alle.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "civil-marriage",
+      "title": "Mandatory civil marriage according to Swiss law (publication year/month reported: 2021-04)",
+      "url": "https://folia.unifr.ch/rerodoc/330897/files/IR-Paper-03_Mandatory_civil_marriage.pdf",
+      "publisher": "University of Fribourg",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abortion",
+      "title": "Abortion: legal provisions",
+      "url": "https://www.bj.admin.ch/en/abortion",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gender",
+      "title": "Gender Equality Strategy 2030",
+      "url": "https://www.ebg.admin.ch/en/gender-equality-strategy-2030",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "language",
+      "title": "Guide to gender-inclusive language",
+      "url": "https://www.bk.admin.ch/de/leitfaden-geschlechtergerecht",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sex-education",
+      "title": "Federal Supreme Court 2C_132/2014: sex education exemption",
+      "url": "https://www.bger.ch/ext/eurospider/live/it/php/aza/http/index.php?highlight_docid=aza%3A%2F%2F15-11-2014-2C_132-2014&lang=it&type=show_document&zoom=",
+      "publisher": "Swiss Federal Supreme Court",
+      "date": "2014-11-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "Zurich Lehrplan 21: ethics, community, sexuality",
+      "url": "https://zh.lehrplan.ch/lehrplan_printout.php?f_id=5&fb_id=6&k=1&kb_id=5",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health-benefits",
+      "title": "Health insurance: benefits and tariffs",
+      "url": "https://www.bag.admin.ch/en/health-insurance-benefits-and-tariffs",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wildlife",
+      "title": "Hunting: cantonal responsibilities",
+      "url": "https://www.bafu.admin.ch/fr/chasse",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crisis",
+      "title": "Crisis management",
+      "url": "https://www.bk.admin.ch/en/crisis-management",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "employment",
+      "title": "Purpose of the employment contract",
+      "url": "https://www.kmu.admin.ch/en/the-purpose-of-the-employment-contract",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai",
+      "title": "Artificial intelligence: regulatory approach",
+      "url": "https://www.bakom.admin.ch/en/artificial-intelligence",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-implementation",
+      "title": "Implementation plan for AI in federal administration",
+      "url": "https://digital.swiss/en/action-plan/measures/implementation-plan-for-the-strategy-for-the-use-of-ai-systems-in-the-federal-administration",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "GMOs and the cultivation moratorium extended to 2030",
+      "url": "https://www.efbs.admin.ch/de/themen/inverkehrbringen-von-organismen/gentechnisch-veraenderte-organismen",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "novel-food",
+      "title": "Authorisation of novel foods",
+      "url": "https://www.blv.admin.ch/en/authorisation-of-novel-foods",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "devices",
+      "title": "Clinical investigations of medical devices",
+      "url": "https://www.swissmedic.ch/swissmedic/de/home/medizinprodukte/klinische-versuche.html",
+      "publisher": "Swissmedic",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nonmedical-devices",
+      "title": "Products without an intended medical purpose, version 1.5",
+      "url": "https://www.swissmedic.ch/dam/swissmedic/en/dokumente/medizinprodukte/mep_urr/mu600_00_007d_mb_produkte_ohne_medizinische_zweckbestimmung.pdf.download.pdf/MU600_00_007e_MB_Devices_without_an_intended_medical_purpose.pdf",
+      "publisher": "Swissmedic",
+      "date": "2026-08-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-ai",
+      "title": "Artificial Intelligence in Medical Products",
+      "url": "https://www.swissmedic.ch/dam/swissmedic/de/dokumente/stab/veranstaltung/regulatory-beyond/kuenstliche_intelligenz_in_mep.pdf.download.pdf/K%C3%BCnstliche%20Intelligenz%20in%20Medizinprodukten_Andr%C3%A9%20Baumgart.pdf",
+      "publisher": "Swissmedic",
+      "date": "2022-09-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "temporary-medical",
+      "title": "Temporary authorisation to use an unauthorised medicinal product",
+      "url": "https://www.swissmedic.ch/dam/swissmedic/de/dokumente/bewilligungen/klv/bw101_30_001e_ll_guideline_temporary_authorisationtouse_an_unauthorised_medicinal_product.pdf.download.pdf/BW101_30_001e_LL_Guideline_Temporary_Authorisation.pdf",
+      "publisher": "Swissmedic",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "environmental-law",
+      "title": "Swiss Environmental Law (publication year/month reported: 2022)",
+      "url": "https://www.bafu.admin.ch/dam/bafu/en/dokumente/recht/ud-umwelt-diverses/umweltrecht_kurzerklaert.pdf.download.pdf/umweltrecht_kurzerklaert.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "power-act",
+      "title": "Federal Act on a Secure Electricity Supply from Renewable Energy Sources",
+      "url": "https://www.admin.ch/en/federal-act-on-a-secure-electricity-supply-from-renewable-energy-sources",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "climate-funding",
+      "title": "Funding for climate protection: laws effective 1 January 2025",
+      "url": "https://www.bafu.admin.ch/en/funding-measures-climate",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "climate-targets",
+      "title": "Supplement to the long-term climate strategy: NDC 2031–2035",
+      "url": "https://www.bafu.admin.ch/dam/bafu/en/dokumente/klima/fachinfo-daten/ergaenzung_langfristige_klimastrategie.pdf.download.pdf/Supplement%20to%20Switzerland%20Long-Term%20Strategy%20-%20for%20NDC%202031-2035_en.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "2025-01-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "spatial",
+      "title": "Principles of spatial planning policy",
+      "url": "https://www.uvek.admin.ch/en/spatial-planning-policy",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "embryo",
+      "title": "Guidelines on preimplantation diagnosis: constitutional and legal framework (publication year/month reported: 2022)",
+      "url": "https://www.bag.admin.ch/dam/en/sd-web/R7aS0dibWrg4/nek-richtlinien-pid-fmedg-2022.pdf",
+      "publisher": "National Advisory Commission on Biomedical Ethics",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "embryo-law",
+      "title": "Legislation on stem-cell research",
+      "url": "https://www.bag.admin.ch/de/gesetzgebung-stammzellenforschung",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "addiction-model",
+      "title": "Addiction as a biopsychosocial phenomenon",
+      "url": "https://www.bag.admin.ch/de/zum-begriff-sucht",
+      "publisher": "Swiss federal authorities",
+      "date": "2022-01-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "child-mental-health",
+      "title": "Mental health of children and adolescents",
+      "url": "https://www.bag.admin.ch/fr/sante-mentale-enfants-adolescents",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD: federal expert group and supported responses",
+      "url": "https://www.bag.admin.ch/bag/de/home/gesund-leben/gesundheitsfoerderung-und-praevention/gesundheit-in-kindheit-und-jugend/adhs.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd-study",
+      "title": "Supporting children with ADHD: biological and social evidence",
+      "url": "https://www.bag.admin.ch/dam/de/sd-web/IyAnOVb9ArMq/adhs_kinder_foerdern_broschuere.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "early-childhood",
+      "title": "Health promotion and prevention in early childhood",
+      "url": "https://www.bag.admin.ch/dam/de/sd-web/Dp-hYvgZZSIJ/flyer_fruehe-kindheit.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "race",
+      "title": "Federal Service for Combating Racism: glossary",
+      "url": "https://www.frb.admin.ch/de/glossar",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pay-gap",
+      "title": "Equal pay: causes and legal implementation",
+      "url": "https://www.ebg.admin.ch/en/equal-pay",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "kindergarten",
+      "title": "Kindergarten: learning cooperation",
+      "url": "https://www.zh.ch/de/bildung/schulen/volksschule/kindergarten.html",
+      "publisher": "Canton of Zurich",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sbb-support",
+      "title": "2025 federal accounts: CHF 850 million contribution to SBB",
+      "url": "https://www.sbfi.admin.ch/en/newnsb/n45pQLRYI0hWoiWwKPHUU",
+      "publisher": "Swiss federal authorities",
+      "date": "2026-02-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "random-alcohol",
+      "title": "Alcohol: road-safety effects and suspicion-free checks",
+      "url": "https://www.bag.admin.ch/bag/de/home/gesund-leben/sucht-und-gesundheit/alkohol/soziale-folgen.html",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gun-eligibility",
+      "title": "Fedpol annual report 2017: firearms eligibility, page 20 (publication year/month reported: 2017)",
+      "url": "https://www.fedpol.admin.ch/dam/en/sd-web/pdXLaRSvYeUx/jabe-2017.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multilingual-signs",
+      "title": "Multilingualism: federal building signage and national languages",
+      "url": "https://www.aboutswitzerland.eda.admin.ch/en/multilingualism",
+      "publisher": "Swiss federal authorities",
+      "date": "2024-06-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "secrecy-case",
+      "title": "Federal Supreme Court 6B_186/2012, with linked current Article 293",
+      "url": "https://entscheide.weblaw.ch/cache.php?link=11.01.2013_6b_186-2012&sel_lang=fr",
+      "publisher": "Swiss Federal Supreme Court (reproduced by Weblaw)",
+      "date": "2013-01-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "force-law",
+      "title": "Swiss position on international law in cyberspace, section 4",
+      "url": "https://www.eda.admin.ch/dam/it/sd-web/JlmsS98K7HLB/20210527-Schweiz-Annex-UN-GGE-Cybersecurity-2019-2021_EN.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "2021-05-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage-in-force",
+      "title": "Marriage for all: provisions in force since 1 July 2022",
+      "url": "https://www.schweiz-vereinigteskoenigreich.eda.admin.ch/en/marriage-for-all-in-switzerland-provisions-in-force",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sex-education-overview",
+      "title": "School sexual education in Switzerland: federal overview (publication year/month reported: 2024-12)",
+      "url": "https://www.sbfi.admin.ch/dam/sbfi/de/dokumente/2024/12/schulische_sexualaufklaerung_in_der_schweiz_uebersicht.pdf.download.pdf/schulische_sexualaufklaerung_in_der_schweiz_uebersicht_de.pdf",
+      "publisher": "Swiss federal authorities",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "completion-body-image",
+      "title": "Körpergewicht: healthy body image prevention",
+      "url": "https://www.bag.admin.ch/de/koerpergewicht",
+      "publisher": "Federal Office of Public Health",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "completion-beauty-study",
+      "title": "JAMESfocus 2025: Soziale Netzwerke und Schönheitsideale",
+      "url": "https://www.zhaw.ch/storage/hochschule/medien/news/2025/251205_MM-JAMESfocus/JAMESfocus_Soziale-Netzwerke-und-Schoenheitsideale.pdf",
+      "publisher": "ZHAW and Swisscom",
+      "date": "2025-12-05",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive parliamentary elections, collegial executive government and frequent binding popular votes distribute authority widely. The Council is elected indirectly for four-year terms.",
+      "counterEvidence": "No general federal recall or political no-confidence dismissal exists. Federal statutes cannot normally be struck down for unconstitutionality; some disabled adults remain excluded from voting.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Councillors require election by the competitively elected Parliament every four years.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Parliament elects the Council; an expert panel has no replacement mandate.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adult citizenship normally confers voting rights without education tests, but disability exclusions prevent an unqualified strong answer.",
+          "sources": [
+            "voting"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Council ordinances implement legislation; it cannot ordinarily replace rejected parliamentary bills with personal legislation.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parties compete openly and can gain representation independently of membership in the coalition.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary supervisory bodies examine administration and finance, with representation beyond a single ruling party.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Courts review executive legality independently, although review cannot invalidate federal statutes merely for constitutional conflict.",
+          "sources": [
+            "federalism",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Trade unions participate in politics but do not select the government in place of elected representatives.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Political plurality is protected; the executive does not exclude lawful electoral competitors for opposing it.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Optional referendums can reject new laws within the statutory challenge period; this supports binding popular veto rather than an unlimited retrospective repeal mechanism.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Collegial voting, Parliament, cantons and referendum rights preclude sole national policy authority.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Parliament can establish incapacity but lacks a general political impeachment or no-confidence removal process during a Council term.",
+          "sources": [
+            "incapacity",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regular fixed election arrangements give the executive no personal continuity exception.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Federal representatives have fixed mandates without ordinary citizen recall; some cantonal arrangements differ.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Council members must report to Parliament and face periodic parliamentary re-election.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The constitutional military is subordinate to civilian authorities and cannot replace them.",
+          "sources": [
+            "guide"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Rights of expression and lawful media access coexist with criminal drug controls, authorised surveillance and preventive terrorism measures. Cantonal policing and recent protest restrictions qualify the liberal legal framework.",
+      "counterEvidence": "Gun ownership is not equivalent to unrestricted public carry. Prosecutors rather than courts can authorise ordinary searches. Historic disclosure and identity evidence requires current corroboration during independent review.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Recreational cannabis is limited to regulated pilot trials rather than a general right to consume controlled drugs.",
+          "sources": [
+            "cannabis"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Criminal telecommunications interception is authorised through serious-offence and judicial-control procedures.",
+          "sources": [
+            "surveillance",
+            "procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Peaceful assembly is protected, but permits, obstruction enforcement and prosecutions for sit-ins limit tolerance of access disruption.",
+          "sources": [
+            "freedom",
+            "amnesty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Political criticism is broadly protected, although defamation and specific expression restrictions remain.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mandatory seat belts and motorcycle helmets require protective behaviour even primarily for the adult wearer’s own safety.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The Supreme Court imposed proportionality and retention constraints on automated movement recording, against unrestricted multiyear tracking of nonsuspects.",
+          "sources": [
+            "anpr"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Since 2005 police may conduct breath-alcohol checks without signs of intoxication, with evidential testing safeguards.",
+          "sources": [
+            "random-alcohol",
+            "breath"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preventive terrorism measures include court-approved house arrest based on a serious prospective threat.",
+          "sources": [
+            "pmt"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free media and private autonomy allow adult access to objectionable material within specific criminal-content restrictions.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Data-protection policy supports anonymous ordinary online access; identification attaches to particular regulated transactions rather than all communications.",
+          "sources": [
+            "identity"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cantonal preventive police powers permit identity and safety checks where a concrete danger exists, rather than only after an individual offence.",
+          "sources": [
+            "police"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public-order policing and permit practice allow restrictions on gatherings posing demonstrable serious disorder risks.",
+          "sources": [
+            "police",
+            "amnesty"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary criminal searches may be ordered by a prosecutor; a prior court warrant is not universally required.",
+          "sources": [
+            "procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official-secret publication remains an offence, but Article 293 and public-interest jurisprudence permit balancing against overriding secrecy interests. Disclosure of misconduct is therefore conditionally protected rather than categorically allowed.",
+          "sources": [
+            "secrecy-case"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adult acquisition of firearms including handguns is lawful subject to violence-record and danger checks; carrying in public is more restricted.",
+          "sources": [
+            "guns",
+            "gun-eligibility"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Preventive restrictions and detention operate with judicial controls, not an open-ended police power to detain until satisfied.",
+          "sources": [
+            "pmt",
+            "procedure"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Integration requires language skills, constitutional values and social participation, while the federation explicitly protects several language regions and minority traditions. The face-covering ban is a concrete limit on accommodation.",
+      "counterEvidence": "Multilingual Swiss identity is not unlimited accommodation of foreign customs. Some specific comparative claims about ceremonies and family identity are not directly established by integration law. Completion correction: earlier unresolved comparisons now have provisional estimates with explicit question-level uncertainty.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public order and constitutional values take precedence in integration requirements, as the facial-covering ban illustrates.",
+          "sources": [
+            "integration",
+            "cover"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public support for interpreting and minority halting sites accepts some spending to accommodate distinct needs.",
+          "sources": [
+            "interpreting",
+            "yenish"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Settlement requires integration in Swiss life and local language, though wholesale abandonment of origin customs is not required.",
+          "sources": [
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Minority protection and integration criteria allow a distinct cultural identity alongside constitutional participation.",
+          "sources": [
+            "minorities",
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Local national-language competence is required; foreign-language interpreting supplements rather than displaces that framework.",
+          "sources": [
+            "integration",
+            "interpreting"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recognised national minorities receive institutional acknowledgement. Moderate agreement is the likelier extension to ceremonial acknowledgement, but Yenish/Sinti status is not proof of a distinct Indigenous ceremony or identity.",
+          "sources": [
+            "yenish",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Preservation funding supports Swiss craft traditions, while minority-language and itinerant cultures also receive targeted funding.",
+          "sources": [
+            "heritage",
+            "yenish"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Distinct practices receive protection within common constitutional and public-order requirements, not priority over those requirements.",
+          "sources": [
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Common cantonal holidays and schedules coexist with religious-freedom accommodations, including employees’ observance of religious holidays.",
+          "sources": [
+            "religion-report",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Representation of several national language regions is embedded in the executive and minority traditions receive recognition.",
+          "sources": [
+            "council",
+            "yenish"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration expressly includes participation in economic and social life and learning the local language.",
+          "sources": [
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Federal building signage is required in national official languages. The documented framework accommodates national linguistic territories and interpreting needs rather than requiring migrant foreign-language signage.",
+          "sources": [
+            "multilingual-signs",
+            "interpreting"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The federation promotes shared constitutional membership while formally protecting distinct language and minority identities within families and communities.",
+          "sources": [
+            "integration",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The public face-covering prohibition effective January 2025 does not exempt a burqa simply because it is religious.",
+          "sources": [
+            "cover"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Multiple national languages and protected Yenish/Sinti ways of life form part of the recognised national community.",
+          "sources": [
+            "guide",
+            "yenish"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration programmes emphasise common civic participation and language while allowing continuing community traditions.",
+          "sources": [
+            "integration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "EU/EFTA free movement coexists with skilled-worker quotas for other nationals and distinct humanitarian and family channels. The 2026 population-cap initiative failed; asylum-pact screening changes took effect on 12 June.",
+      "counterEvidence": "Free movement is regional rather than a universal settlement right. Protection status and family admission have conditions, while irregular entrants may be removed. National quotas should not be falsely applied to every route.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Third-country work quotas coexist with uncapped qualifying EU/EFTA movement; the proposed general population ceiling was rejected.",
+          "sources": [
+            "work",
+            "population-vote"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "EU/EFTA nationals have extensive residence routes, whereas third-country migrants must qualify under restricted work, family or protection rules.",
+          "sources": [
+            "movement",
+            "work"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skilled selection governs third-country work admissions, but family and EU/EFTA routes are not confined to shortage skills.",
+          "sources": [
+            "work",
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Family reunification is a recognised route, with accommodation and other conditions rather than a blanket ban.",
+          "sources": [
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Refugee protection is independent of labour-market skills, but protection and permanent settlement are distinct and may depend on status and integration.",
+          "sources": [
+            "asylum-pact",
+            "integration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The asylum framework expressly includes return procedures for people without a right to remain, subject to protection safeguards.",
+          "sources": [
+            "asylum-pact"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Third-country quotas can bind employers, but free movement permits much recruitment beyond those quotas.",
+          "sources": [
+            "work",
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The rejected population-cap proposal and retained free movement weigh against a general reduction overriding economic benefits.",
+          "sources": [
+            "population-vote",
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family reunification operates as a separate entitlement and is not counted in a universal annual work quota.",
+          "sources": [
+            "movement",
+            "work"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A qualifying EU/EFTA job generally permits entry, while a third-country offer still needs skills, priority and quota tests.",
+          "sources": [
+            "movement",
+            "work"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "EU/EFTA self-employment and sufficient-resources residence routes do not universally require an employer or family sponsor.",
+          "sources": [
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A Swiss degree gives third-country graduates limited job-search time, not an automatic permanent residence entitlement.",
+          "sources": [
+            "work-faq"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Asylum protection procedures operate separately from ordinary labour quotas, although Dublin allocation can determine the responsible state.",
+          "sources": [
+            "asylum-pact",
+            "work"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "EU/EFTA preference is institutional and geographic; individual integration requirements add language and civic conditions without a universal cultural-similarity rule.",
+          "sources": [
+            "movement",
+            "integration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lawfully resident migrants can access social assistance subject to status and residence consequences; the system is not a citizen-only welfare regime.",
+          "sources": [
+            "integration",
+            "movement"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Admission rules prioritise work, family and protection rather than recruiting additional migrants specifically for cultural difference.",
+          "sources": [
+            "work",
+            "movement"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Armed neutrality combines territorial defence and male conscription with diplomacy, humanitarian engagement and arms-control participation. Planned capability expansion responds to European threats.",
+      "counterEvidence": "Neutrality is not disarmament or an obligation to accept occupation. Switzerland permits international peace-support activity and defence cooperation while remaining outside military alliances. AI policy requires human control rather than a simplistic technology ban.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Permanent neutrality and nonparticipation in wars oppose force for ordinary interests absent an attack.",
+          "sources": [
+            "neutrality",
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Good offices and diplomatic prevention are central operational foreign-policy instruments.",
+          "sources": [
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Higher defence spending is pursued to restore credible defence, but not a doctrine of military superiority over all potential opponents.",
+          "sources": [
+            "defence-finance"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The published Swiss international-law position requires an armed attack first for self-defence; applying that stated general rule to imminent conventional attack is an explicit inference against anticipatory force.",
+          "sources": [
+            "force-law",
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Neutrality sharply limits combat outside self-defence, while peace-support mandates qualify a literal only-self-or-ally rule.",
+          "sources": [
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Male citizens are subject to compulsory service, with alternative service and fitness exemptions.",
+          "sources": [
+            "service"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Diplomatic accommodation and good offices coexist with armed protection of independence; policy does not accept every sovereignty concession to avoid conflict.",
+          "sources": [
+            "foreign",
+            "defence-finance"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The autonomous-weapons position demands effective human control and legal predictability, rejecting efficiency as sufficient justification for uncontrolled targeting.",
+          "sources": [
+            "autonomy-weapons"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The armed forces’ primary mission is national territorial defence rather than expeditionary war.",
+          "sources": [
+            "defence-finance",
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Neutrality avoids joining wars but preserves robust armed self-defence, so it rejects avoiding force at all costs.",
+          "sources": [
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The defence posture prioritises national territory, with limited peace-support deployments rather than prolonged overseas combat campaigns.",
+          "sources": [
+            "neutrality",
+            "defence-finance"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Diplomatic settlement and non-use of force make leaving disputes unresolved preferable to starting territorial war.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Good offices and neutrality weigh against military threats as a normal bargaining instrument abroad.",
+          "sources": [
+            "foreign",
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "De-escalation and diplomacy receive priority, though maintaining deterrence is also a concrete policy objective.",
+          "sources": [
+            "foreign",
+            "defence-finance"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign intelligence collection supports security assessment despite diplomatic sensitivities; this is a limited inference from the active intelligence mandate.",
+          "sources": [
+            "security"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Arms-control and disarmament commitments accept reciprocal capability restraints for security, while preserving national defence.",
+          "sources": [
+            "disarmament"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Switzerland retains a national currency and political independence outside the EU and NATO, while treaties, international courts and Schengen/Dublin create binding shared obligations.",
+      "counterEvidence": "International law generally prevails, but the Schubert exception and political resistance to particular judgments qualify that rule. September 2026 voters rejected neutrality rules that would have prohibited many non-UN sanctions.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Domestic democratic approval is essential, yet approved treaties become binding law with general precedence over statutes.",
+          "sources": [
+            "international-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Treaty institutions and international courts can bind Switzerland after accession even against a particular government preference.",
+          "sources": [
+            "international-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "International law generally prevails in court, especially human rights, although a limited deliberate-statutory-conflict exception exists.",
+          "sources": [
+            "international-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Long-term UN and European treaty cooperation is accepted, but permanent neutrality excludes a military alliance commitment.",
+          "sources": [
+            "foreign",
+            "neutrality"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Treaties bind according to agreed withdrawal procedures; Switzerland retains the sovereign ability to terminate under those procedures.",
+          "sources": [
+            "international-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The country accepts international judicial obligations; domestic disagreement with a ruling does not abolish jurisdiction.",
+          "sources": [
+            "international-law",
+            "amnesty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National interests guide policy but are pursued within binding international rules rather than always overriding them.",
+          "sources": [
+            "foreign",
+            "international-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Multilateral environmental commitments and the accepted human-rights framework permit shared oversight across borders.",
+          "sources": [
+            "foreign",
+            "amnesty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The federation remains outside political and military blocs requiring a common foreign policy.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "ECHR obligations and judgment supervision can require domestic changes, despite contested implementation.",
+          "sources": [
+            "international-law",
+            "amnesty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Swiss National Bank retains an independent national monetary mandate and franc currency.",
+          "sources": [
+            "snb"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International cooperation and pooled contributions address peace, development and shared European problems.",
+          "sources": [
+            "foreign",
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Schengen/Dublin rules and the June 2026 pact implementation share border and asylum responsibilities.",
+          "sources": [
+            "asylum-pact"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "WTO and extensive negotiated trade agreements establish shared rules instead of wholly unilateral tariff policy.",
+          "sources": [
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Bilateral cooperation and neutrality preserve sovereignty outside an international political federation.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Russia sanctions and the rejection of rigid neutrality demonstrate participation in collective rule enforcement despite neutrality-related costs.",
+          "sources": [
+            "neutrality-vote"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "A predominantly private business economy retains public rail, postal, telecommunications and defence enterprises, public utility provision and cantonal banks. Healthcare and housing have mixed ownership.",
+      "counterEvidence": "Public funding does not prove public ownership: SRG is a private-law nonprofit association and housing cooperatives are not government bodies. Some commercial assets have been sold, so retention is selective.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Company formation and succession policy assumes private enterprise as the normal business model.",
+          "sources": [
+            "sme",
+            "business"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public water provision and municipal infrastructure support public utility ownership, alongside organisational variation.",
+          "sources": [
+            "water",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Competitive private provision is accepted, while strategic public enterprises are retained even in competitive markets.",
+          "sources": [
+            "procurement",
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Swisscom and RUAG show maintained public enterprise in competitive commercial sectors.",
+          "sources": [
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Hospital listing and finance accommodate public and private facilities without a general private-ownership requirement.",
+          "sources": [
+            "hospital"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "SBB remains a federal enterprise operating core passenger rail infrastructure.",
+          "sources": [
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Procurement explicitly purchases services from private tenderers under competitive rules.",
+          "sources": [
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cantonal banks, mostly public-law institutions, operate alongside private banks.",
+          "sources": [
+            "banks"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic ownership policy retains major commercial holdings rather than adopting general privatisation.",
+          "sources": [
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Housing policy supports a limited nonprofit sector including cooperatives, not broad government ownership of rental stock.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private businesses operate under security regulation while the state retains the strategic defence enterprise RUAG.",
+          "sources": [
+            "enterprises",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cantonal ownership of domestic salt extraction and public hydropower interests support public ownership in important resource sectors.",
+          "sources": [
+            "salt",
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Municipal responsibilities coexist with procurement from private providers; there is no uniform national rule preferring outsourcing.",
+          "sources": [
+            "federalism",
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The federal ownership strategy retains essential strategic enterprises instead of treating sale proceeds as decisive.",
+          "sources": [
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The Confederation contributed CHF 850 million in 2025 to offset SBB pandemic-related losses while retaining public ownership, opposing sale as the default response to losses.",
+          "sources": [
+            "sbb-support",
+            "enterprises"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The national public-service broadcaster is a private-law nonprofit association, so its public mandate does not support state ownership.",
+          "sources": [
+            "srg"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Unilateral abolition of industrial tariffs and extensive trade agreements favour open trade. Agricultural border protection, salt supply arrangements and strategic exceptions remain substantial.",
+      "counterEvidence": "The Investment Screening Act passed in December 2025, but its implementing ordinance was still in consultation on the cutoff; it is not scored as an operational general screening regime. US tariffs prompted negotiation rather than blanket Swiss retaliation.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Industrial tariffs were abolished, but agricultural tariffs continue to protect domestic production.",
+          "sources": [
+            "tariffs",
+            "farm-import"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Broad industrial liberalisation accepts competition, with retained agricultural exceptions.",
+          "sources": [
+            "tariffs",
+            "tariff-policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Treaty-based procurement opens covered tenders to foreign suppliers instead of a general domestic-price preference.",
+          "sources": [
+            "business",
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Open industrial imports permit sourcing by commercial terms, subject to sanctions and sector rules.",
+          "sources": [
+            "tariffs",
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Agriculture and domestic salt supply receive protection, while most essential industrial inputs can enter tariff-free.",
+          "sources": [
+            "farm-import",
+            "salt",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Industrial tariff abolition was unilateral and not conditional on matching foreign reductions.",
+          "sources": [
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Policy generally promotes competitiveness and market access rather than infant-industry import barriers.",
+          "sources": [
+            "trade-report",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign business establishment is broadly open; property and strategic exceptions temper an absolute equal-terms claim.",
+          "sources": [
+            "business",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Agricultural tariff quotas explicitly preserve protected domestic production.",
+          "sources": [
+            "farm-import"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Most industrial businesses face foreign competition without tariff shelter, although farms remain protected.",
+          "sources": [
+            "tariffs",
+            "farm-import"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The US trade response retained zero industrial duties and pursued negotiated concessions rather than mirror tariffs.",
+          "sources": [
+            "us-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "VAT applies under equivalent domestic and foreign supplier rules, distinct from customs protection.",
+          "sources": [
+            "vat"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "General industrial liberalisation is maintained without an across-the-board countervailing barrier against subsidised imports.",
+          "sources": [
+            "tariffs",
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free-trade agreements reduce tariffs while retaining sensitive sector exceptions.",
+          "sources": [
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Strategic public holdings limit takeovers, but private investment is broadly open and the new screening machinery remained prospective.",
+          "sources": [
+            "enterprises",
+            "investment",
+            "business"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign online suppliers operate under ordinary tax rules rather than a general protectionist barrier on online services.",
+          "sources": [
+            "vat",
+            "business"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Private production and competition are the economic baseline. Sector subsidies, regulated essential-service prices and rent protections qualify it; wage formation is largely negotiated and the central bank is independent.",
+      "counterEvidence": "Agriculture and energy receive targeted direction and aid. Some cantons have minimum wages despite no national floor. Fintech regulation permits private payment tokens without relinquishing the public banknote monopoly.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Business establishment guidance leaves product and commercial decisions to enterprises.",
+          "sources": [
+            "sme"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Ordinary private enterprise operates without compulsory national production quantities.",
+          "sources": [
+            "sme",
+            "business"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competitive prices are the baseline; the price supervisor intervenes principally where market power or administrative pricing displaces competition.",
+          "sources": [
+            "prices"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Targeted agriculture and energy investment aid coexist with a market economy rather than a comprehensive national allocation plan.",
+          "sources": [
+            "farm-payments",
+            "renewables",
+            "business"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Commercial expansion and succession follow business demand and viability, not mandatory production plans.",
+          "sources": [
+            "sme"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Health and network-service prices are regulated or supervised even where providers prefer higher charges.",
+          "sources": [
+            "prices"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary company formation is open without an economy-wide test of whether additional production is needed.",
+          "sources": [
+            "sme"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Commercial banking and independent monetary policy do not impose general government-priority lending quotas.",
+          "sources": [
+            "banks",
+            "snb"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The open international business and investment framework permits capital movement, subject to financial controls rather than general discretionary exit approval.",
+          "sources": [
+            "business",
+            "trade-report"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Agricultural direct payments and renewable support deliberately sustain selected production beyond private returns.",
+          "sources": [
+            "farm-payments",
+            "renewables"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "FINMA permits privately issued stablecoins under regulated structures as alternative payment assets.",
+          "sources": [
+            "stablecoins"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "There is no national minimum wage, but cantonal floors and binding sector agreements provide legal minima in parts of the labour market.",
+          "sources": [
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Wages generally arise from individual and collective employer-worker agreements.",
+          "sources": [
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The SNB sets monetary policy independently with price stability as its primary statutory goal.",
+          "sources": [
+            "snb"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Rent adjustment rules and the mortgage reference rate constrain unrestricted market-demand pricing.",
+          "sources": [
+            "rent"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private enterprise coordinates ordinary production; sector supports do not amount to central organisation of the whole economy.",
+          "sources": [
+            "sme",
+            "business"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income taxes, cantonal wealth taxes, social insurance and means-tested assistance redistribute resources while maintaining a subsidiary safety-net model and cantonal tax competition.",
+      "counterEvidence": "Large inheritance taxation is limited and the proposed federal tax was rejected in 2025. The legislated thirteenth pension starts with a December 2026 payment, so no payment is claimed by the October cutoff. Benefits and taxes vary by canton.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Progressive taxation and means-tested social transfers reduce disposable-income gaps, though redistribution is not unlimited.",
+          "sources": [
+            "tax",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Progressive rates and targeted benefits accept income equalisation as a legitimate fiscal purpose.",
+          "sources": [
+            "tax",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A stronger pension entitlement was legislated while assistance remains means-tested and fiscal restraint limits wider expansion.",
+          "sources": [
+            "pension13",
+            "welfare"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Assistance is designed around a social minimum and subsidiary support, not general equalisation of living standards.",
+          "sources": [
+            "welfare",
+            "welfare-level"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Progressive federal and many cantonal income schedules impose larger average shares on higher incomes.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tax autonomy and resistance to a new inheritance levy favour retention, while progressive income and wealth taxes still fund transfers.",
+          "sources": [
+            "tax",
+            "inheritance-vote"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cantonal inheritance taxes coexist with close-family exemptions and the rejection of a new nationwide levy; the proposed funding purpose is not the existing general rule.",
+          "sources": [
+            "tax",
+            "inheritance-vote"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Means-tested social assistance remains available on assessed need rather than ending solely after a universal time limit, despite duties and sanctions.",
+          "sources": [
+            "welfare"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cantonal wealth taxes form part of public revenues supporting social functions, without a specific nationwide earmark.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Subsidiary and means-tested support constrains cost, but the social minimum and pension expansion reject minimisation of benefits as the only goal.",
+          "sources": [
+            "welfare-level",
+            "pension13"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The social-assistance minimum includes social integration rather than mere physiological survival.",
+          "sources": [
+            "welfare",
+            "earnings-disregard"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tax restraint and the inheritance vote coexist with the new pension entitlement, showing competing budget priorities.",
+          "sources": [
+            "inheritance-vote",
+            "pension13"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Working recipients can retain an earnings disregard while receiving means-tested assistance, supplementing low employment income.",
+          "sources": [
+            "earnings-disregard"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Progressive schedules apply higher marginal taxation across much of the income distribution, though upper-band details vary.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Private ownership and housing policy rely on support and regulated markets rather than redistributing large estates to landless households.",
+          "sources": [
+            "business",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Last-resort assistance is needs-tested, but social-insurance pensions and family-related support extend beyond immediate destitution.",
+          "sources": [
+            "welfare",
+            "benefits",
+            "pension13"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil democratic institutions make national law without clerical approval. Cantonal church recognition, taxation, optional confessional instruction and religious public traditions produce a mixed institutional settlement.",
+      "counterEvidence": "The constitutional invocation of God is not establishment of a single national religion. Cantonal arrangements vary, notably Geneva and Neuchâtel. Civil and religious marriage must not be conflated.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National legislation comes from civil constitutional institutions, while inherited religious traditions influence some public arrangements.",
+          "sources": [
+            "council",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious teachings are not a national source superior to enacted civil law.",
+          "sources": [
+            "guide",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Federal policy decisions require collegial and parliamentary procedures, not religious-leader consent.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The federation protects religious freedom without designating one faith as the national constitutional foundation, despite the theistic preamble and cantonal churches.",
+          "sources": [
+            "religion",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Neutral comparative religious education is a public-school model, exemplified by Zurich’s religion, cultures and ethics subject.",
+          "sources": [
+            "religion-class"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Optional confessional instruction exists in some cantons alongside religiously neutral compulsory teaching; no single national faith curriculum applies.",
+          "sources": [
+            "religion-report",
+            "religion-class"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State adjudication applies civil law and constitutional rights rather than binding clerical rulings.",
+          "sources": [
+            "civil-marriage",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The legislative process gives no clerical body a required religious review or veto.",
+          "sources": [
+            "council"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A federal councillor participated in the 2026 day-of-prayer event in the Federal Palace, reflecting accepted religious official ceremony.",
+          "sources": [
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "State-collected church taxes and some public contributions sustain recognised religious institutions and their activities.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Court doctrine restricts state endorsement through classroom crucifixes, while heritage and ceremonial settings make the rule context-specific.",
+          "sources": [
+            "religion-symbol"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official Christian-derived holidays and the federal day of prayer remain part of public recognition of religious tradition, with cantonal variation.",
+          "sources": [
+            "religion",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Council and parliamentary seats arise through civil electoral procedures, not ecclesiastical office.",
+          "sources": [
+            "council",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Zurich recognises tax exemption for religious purposes as a distinct qualifying basis.",
+          "sources": [
+            "tax-exemption"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Legal marriage is civil and does not depend on a faith’s permission.",
+          "sources": [
+            "civil-marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Religious marriage rites do not replace mandatory civil marriage and state family-law authority.",
+          "sources": [
+            "civil-marriage"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Marriage equality, joint adoption, legal early abortion and implemented equality programmes accommodate changing family and gender norms. Cultural heritage and consensus institutions retain substantial continuity.",
+      "counterEvidence": "Marriage retains legal advantages and public modesty norms are not wholly absent. Gender-inclusive language is regulated within official usage, not an unlimited adoption of every proposed convention. Cantonal education varies.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Marriage equality and active gender-equality measures demonstrate willingness to change established social conventions.",
+          "sources": [
+            "marriage",
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Implemented equality reforms accept new values over preserving all longstanding family restrictions.",
+          "sources": [
+            "marriage",
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Equality policy recognises varied family and work arrangements, though legal distinctions between married and unmarried households remain.",
+          "sources": [
+            "gender",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The equality strategy explicitly opposes stereotypes that restrict women’s and men’s lifestyles.",
+          "sources": [
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Same-sex marriage has been legally available since July 2022.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Marriage remains a recognised legal institution with special rights, but it includes same-sex couples and equality policy permits other family arrangements.",
+          "sources": [
+            "marriage",
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The early-pregnancy legal framework permits a woman’s written request in distress rather than requiring continued pregnancy.",
+          "sources": [
+            "abortion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The Federal Supreme Court rejected a general parental exemption from age-appropriate sex education solely on moral disagreement.",
+          "sources": [
+            "sex-education"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Marriage for all has been in force since July 2022 and married same-sex couples have access to joint adoption.",
+          "sources": [
+            "marriage-in-force"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Individual dress freedom and restrictions such as the public face-covering ban coexist; neither inherited modesty nor total clothing freedom controls all settings.",
+          "sources": [
+            "cover",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official guidance adapts language for gender equality but regulates acceptable forms instead of automatically adopting every identity-specific convention.",
+          "sources": [
+            "language"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "School ethics and equality measures encourage reflection and challenge restrictive stereotypes rather than prioritising inherited morality as such.",
+          "sources": [
+            "curriculum",
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Government equality policy seeks equal participation and rejection of restrictive gender stereotypes in work, family and society.",
+          "sources": [
+            "gender"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consultation, bicameral passage and referendum procedures favour considered institutional change even where a faster executive route would be popular.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The federal overview includes gender identity and sexual orientation in school sexuality education; cantonal implementation combines compulsory age-appropriate teaching with parental information.",
+          "sources": [
+            "sex-education-overview",
+            "curriculum",
+            "sex-education"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Funding intangible heritage and traditional crafts explicitly preserves intergenerational cultural continuity.",
+          "sources": [
+            "heritage"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Risk-based medical and food regulation, the GM cultivation moratorium and environmental assessment coexist with AI deployment, renewable infrastructure and climate-technology funding.",
+      "counterEvidence": "Regulatory plans for a future AI convention are not yet a comprehensive enacted AI law. Clinical approval can precede complete long-term certainty. No sufficiently specific operational policy was established for invasive enhancement-only brain implants. Completion correction: earlier unresolved comparisons now have provisional estimates with explicit question-level uncertainty.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Ordinary AI and digital adoption are encouraged, while high-risk food, medical and genetic technologies face premarket scrutiny or moratoria.",
+          "sources": [
+            "ai",
+            "novel-food",
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "AI implementation proceeds beyond small trials and novel products can enter markets following risk assessment rather than waiting for all long-term uncertainties.",
+          "sources": [
+            "ai-implementation",
+            "novel-food"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Renewable infrastructure receives national-interest status and relaxed planning for specified hydropower projects, accepting some environmental tradeoffs.",
+          "sources": [
+            "power-act"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Clinical safety evaluation is required, but temporary medical access can be authorised where unmet need justifies remaining uncertainty.",
+          "sources": [
+            "devices",
+            "temporary-medical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2026 administration programme combines AI efficiency gains with workforce skill development, supporting adaptation rather than preserving every existing task.",
+          "sources": [
+            "ai-implementation"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protected habitats matter, but renewable-energy national interests require balancing rather than unconditional habitat priority.",
+          "sources": [
+            "renewables",
+            "environmental-law"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cell-cultured products have an active novel-food authorisation route, but no policy mandates replacement of meat before assessment is complete.",
+          "sources": [
+            "novel-food"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Swissmedic supervision of nonmedical invasive products favours caution with uncertain long-term risks. Moderate agreement is the likelier healthy-implant estimate; no implant-specific research-only requirement was verified.",
+          "sources": [
+            "nonmedical-devices",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Climate law funds new technologies and simultaneously reduces energy consumption through efficiency, without giving unproven technology automatic priority.",
+          "sources": [
+            "climate-funding",
+            "climate-targets"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Major potentially damaging projects need environmental impact reports before authorisation.",
+          "sources": [
+            "environmental-law"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical oversight makes basic safety alone an unlikely sufficient threshold for elective cognitive implants. Moderate disagreement remains an extrapolation rather than a verified permission rule.",
+          "sources": [
+            "nonmedical-devices",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Diagnostic AI is treated as medical technology needing clinical performance and safety evidence for its intended population, not simply workplace software.",
+          "sources": [
+            "medical-ai",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The reproductive framework prohibits gene manipulation of germ cells and embryos and creating selected child characteristics; permitted stem-cell work does not authorise enhancement trials.",
+          "sources": [
+            "embryo",
+            "embryo-law"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The GM cultivation moratorium extended through 2030 maintains a precautionary barrier despite potential agronomic benefits.",
+          "sources": [
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Spatial policy prioritises inward development and curbs land consumption instead of generally sacrificing undeveloped land.",
+          "sources": [
+            "spatial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Genetic restrictions and environmental precaution require stronger safeguards for potentially irreversible damage, despite more permissive treatment of lower-risk innovation.",
+          "sources": [
+            "gmo",
+            "environmental-law"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Constitutionally protected cantons and autonomous communes control many taxes, schools and services. Federal powers are enumerated, while national employment rules, health-insurance entitlements and legal supremacy bind lower levels.",
+      "counterEvidence": "Federalism does not create unilateral secession or total tax independence. Disaster management is coordinated across levels. National minorities do not automatically possess Indigenous territorial governments. Completion correction: earlier unresolved comparisons now have provisional estimates with explicit question-level uncertainty.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cantons retain all unassigned powers and their own constitutions, protecting local decisions within federal rights.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional allocation and courts govern competence disputes; the national executive does not simply choose its own remit.",
+          "sources": [
+            "federalism",
+            "guide"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Changing the federation’s territory and cantonal status requires wider constitutional consent, not solely a regional majority.",
+          "sources": [
+            "guide"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal law prevails in valid federal competences, but ordinary policy disagreement does not remove protected cantonal powers.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Each canton is expressly entitled to its own constitution within the federal framework.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cantonal policing remains fundamental, with federal specialist functions and cooperation rather than a single national command.",
+          "sources": [
+            "police",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cantonal and communal tax powers and budgets retain substantial locally raised revenue, subject to equalisation and separate federal taxes.",
+          "sources": [
+            "federalism",
+            "tax"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cantons and communes manage school education and curricula; national coordination does not prescribe every compulsory subject.",
+          "sources": [
+            "federalism",
+            "religion-class"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Cantons and communes levy different tax rates as a normal constitutional feature.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Federal employment-contract law sets a common framework, although cantonal minimum wages demonstrate retained local scope.",
+          "sources": [
+            "employment",
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal organisation and local changes generally operate within cantonal rather than national approval arrangements.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Federal compulsory-insurance law mandates an identical basic benefits package, despite cantonal hospital and subsidy responsibilities.",
+          "sources": [
+            "health-benefits"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Minority protections address participation and cultural accommodation within existing cantonal institutions. Moderate disagreement is the likelier estimate of separate Indigenous territorial jurisdiction, not an assertion that no Indigenous claim could exist or that minority status is equivalent.",
+          "sources": [
+            "minorities",
+            "yenish"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National tax harmonisation constrains tax structures, while cantons retain substantial competition through rates and deductions.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cantons regulate hunting and local land use within federal conservation and planning requirements.",
+          "sources": [
+            "wildlife",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Federal crisis coordination and shared exercises coexist with cantonal emergency responsibility rather than automatic overriding command.",
+          "sources": [
+            "crisis",
+            "federalism"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Official health policy explicitly uses biological, psychological and social interaction models for addiction, stress-related mental health and attention problems. Anti-racism and equal-pay policy reject biological group explanations as sufficient accounts.",
+      "counterEvidence": "Programmes that improve behaviour do not establish that social causes outweigh inheritance. No numeric position is assigned to unsupported national-IQ, general sex-behaviour, interests, empathy, immediate moral-intuition, temperament or attraction comparisons. State-funded academic research is not automatically the government’s position. Completion correction: earlier unresolved comparisons now have provisional estimates with explicit question-level uncertainty.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Health policy explicitly combines individual predispositions and social conditions in explaining harmful behaviour; this supports a mixed rather than exclusively social account.",
+          "sources": [
+            "addiction-model",
+            "child-mental-health"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The federal glossary rejects naturalised group hierarchies. Moderate disagreement is the likelier extension to inherited national-IQ predominance; countries and racial categories differ and the glossary does not provide that exact empirical comparison.",
+          "sources": [
+            "race"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The implemented equality strategy addresses limiting stereotypes and uneven social roles. Moderate agreement is a qualified extension to behaviour, not a measured general ranking against biology.",
+          "sources": [
+            "gender"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The official mental-health model identifies genetic and health influences alongside bullying, family conditions and other stressors, supporting interaction.",
+          "sources": [
+            "child-mental-health",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Equality and curriculum measures expand opportunities despite stereotypes. Moderate agreement is the likelier estimate for interests; changed access cannot quantify the relative inherited contribution.",
+          "sources": [
+            "gender",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Addiction policy explains risky conduct through predispositions, social context and brain adaptation; this is a limited domain-specific mixed causal inference.",
+          "sources": [
+            "addiction-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Kindergarten explicitly cultivates cooperation in shared experience. Moderate agreement is a provisional operational estimate, not proof that teachability establishes social predominance.",
+          "sources": [
+            "kindergarten"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Supportive child-development settings make social experience a practical mechanism for empathy. Moderate disagreement is the likelier estimate; no comparative empathy study or adopted causal ranking is claimed.",
+          "sources": [
+            "curriculum",
+            "child-mental-health"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The federal ADHD material recognises medical and genetic evidence alongside social context and environmental intervention, rather than a single dominant explanation.",
+          "sources": [
+            "adhd",
+            "adhd-study"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Curriculum ethics develops learned reflection and conduct. Moderate disagreement is the likelier extension to immediate intuitions, but reflective teaching does not settle their biological origins.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Mental-health guidance combines vulnerability and psychosocial context. A mixed interpretation is likelier for threat perception than either general predominance claim; clinical stress is narrower than learned threat content.",
+          "sources": [
+            "child-mental-health"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health models recognise individual predispositions alongside context. Moderate agreement is a tentative extension to stable temperament, qualified because predisposition need not mean inheritance and addiction is not temperament.",
+          "sources": [
+            "child-mental-health",
+            "addiction-model"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The primary JAMESfocus study identifies social transmission of beauty ideals, alongside BAG’s maintained body-image prevention programme. Moderate agreement is the likelier institutional extension to attraction preferences; body image and attraction differ, hereditary balance was not measured, and hosting research does not establish adopted national doctrine.",
+          "sources": [
+            "gender",
+            "curriculum",
+            "completion-body-image",
+            "completion-beauty-study"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The federal anti-racism framework rejects treating social group inequalities as biological racial properties; applying that reasoning to violence is an explicit limited inference.",
+          "sources": [
+            "race"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Anti-racism policy rejects inherited racial character categories, while educational practice treats behavioural habits as learnable. This is an inference, not a direct heritability estimate.",
+          "sources": [
+            "race",
+            "kindergarten"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Equal-pay policy explains part of the gap through occupational and educational factors and identifies potential discrimination in the unexplained portion, rejecting economic value as a sufficient replacement for social explanation.",
+          "sources": [
+            "pay-gap"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex (GPT-6), primary agent /root; distinct completion challenge after retained earlier reviews",
+    "reviewedAt": "2026-10-05",
+    "notes": "Re-read the literal questions and reviewed direction, sources, counterevidence and metadata after completing all 15 axes. Corrected no-confidence/recall assumptions, SRG private-law ownership, prospective investment screening, marriage/adoption support, public-company loss response, official-secret publication, random alcohol checks and anticipatory force. Guy Parmelin is rotating president of a seven-member council, not a sole executive. Recent referendum outcomes and implemented measures were researched separately from proposals. Federal departments count as one primary publisher; AP, Freedom House, Amnesty, Council of Europe, OECD and others supply independent material. Thirteen unanswered questions remain after targeted follow-up: two Indigenous-specific questions, two invasive cognitive-implant questions and nine precise causal-psychology comparisons. Anti-racism and clinical interaction models are explicit limited inferences, not direct general heritability findings; Nature Q1/Q6/Q14/Q15 merit independent scrutiny. Further review should examine assimilation Q12/Q13, natural-resource ownership Q12 and cantonal-to-national generalisation. No comparison target or other country answers used. Commons File page, creators and public-domain notices checked; local 960px square PNG visually inspected, 658 bytes, no crop. Independent parent audit and similarity review pending. Validation on 4 October 2026 reports only the 13 deliberately unresolved answers as errors; the validator also labels unknown/null evidence as unscorable Neutral, although all are null rather than zero. Warnings for six immigration, six redistribution and five innovation Neutrals were checked as conditional or mixed policies. No neighbours are emitted for the incomplete draft. Separate completion challenge on 2026-10-05: checked exact wording, qualified magnitude, source scope and earlier withdrawal reasons for new estimates. Minority recognition is not Indigenous territorial jurisdiction, subgroup asylum preference is not country-wide preference, product oversight is not a healthy-implant-specific threshold, and learning interventions do not quantify general heredity. Neutral entries describe contextual interaction rather than missing evidence. Body-image studies are narrower than attraction and are not adopted government doctrine. Retained earlier detailed assessment reviews; no independent second-agent or human review is claimed. Newly flagged assumption IDs: assimilation-multiculturalism-06, innovation-caution-08, innovation-caution-11, central-local-13, culture-nature-02, culture-nature-03, culture-nature-05, culture-nature-07, culture-nature-08, culture-nature-10, culture-nature-11, culture-nature-12, culture-nature-13. All remaining null responses resolved under the owner-authorised educated-assumption rule; validation and generated output recorded separately. Read every neutral rationale on the validator-flagged axes in a separate warning pass. Swiss immigration describes EU/EFTA versus third-country rules; redistribution competing implemented entitlements and tax restraint; innovation sector-specific safeguards; causal traits interactive models. US liberty records scoped powers and judicial exceptions, ownership actual public/private combinations, and causal traits interaction. These were retained for substantive mixed evidence, not missing answers.",
+    "similarity": []
+  }
+}

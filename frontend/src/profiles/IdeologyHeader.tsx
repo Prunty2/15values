@@ -10,12 +10,13 @@ export default function IdeologyHeader({ profile }: { profile: Profile }) {
     ? 'Platform of the Republican Party, combining border security and deportations, tariffs and industrial protectionism, tax cuts and deregulation, gun rights, Christian values and returning abortion to the states.'
     : profile.metadata.description;
   const name = /^(.*?)\s*\((.*)\)$/.exec(profile.metadata.name);
+  const titleSize = `${140 / (name?.[1] ?? profile.metadata.name).length}cqi`;
   return <div className={s.graphic} style={{ '--profile-color': group.color } as CSSProperties}>
     <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/ideologies" aria-label="All ideologies">Ideologies</a><span aria-hidden="true">/</span><span>{name?.[1] ?? profile.metadata.name}</span></nav>
     <header className={s.hero}>
       <div className={s.intro}>
         <div className={s.badges}><span className={s.groupBadge}>{group.name}</span><span>Ideology</span></div>
-        <h1>{name ? <>{name[1]} <span className={s.variant}>({name[2]})</span></> : profile.metadata.name}</h1>
+        <h1 style={{ fontSize: `min(44px, ${titleSize})` }}>{name ? <>{name[1]} <span className={s.variant}>({name[2]})</span></> : profile.metadata.name}</h1>
         <p className={s.description}>{summary}</p>
       </div>
       <aside className={s.references} aria-label="Reference placeholders">

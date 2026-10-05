@@ -1,0 +1,160 @@
+{
+  "date": "2026-10-05",
+  "profiles": [
+    {
+      "id": "jeff-bezos",
+      "revision": 1,
+      "permanentAnswerFile": "profile-audit/answers/personality/jeff-bezos/1.json",
+      "answered": 240,
+      "inferred": 240,
+      "sha256": "864c4cf8f556561ce7777c5664781e1a18f5e6819b9cdf726dca57b44d85c7f7",
+      "publicCopyIdentical": true
+    },
+    {
+      "id": "elon-musk",
+      "revision": 1,
+      "permanentAnswerFile": "profile-audit/answers/personality/elon-musk/1.json",
+      "answered": 240,
+      "inferred": 240,
+      "sha256": "022e700815e6f8debb7cc67d3341584adf827f9bb621718beda5a9bf00bc3cf6",
+      "publicCopyIdentical": true
+    },
+    {
+      "id": "bill-gates",
+      "revision": 1,
+      "permanentAnswerFile": "profile-audit/answers/personality/bill-gates/1.json",
+      "answered": 240,
+      "inferred": 240,
+      "sha256": "58b550e1643c1dd6eae4108e2e96d25a828374ddf8ccc4277d1327046de56b7b",
+      "publicCopyIdentical": true
+    },
+    {
+      "id": "mark-zuckerberg",
+      "revision": 1,
+      "permanentAnswerFile": "profile-audit/answers/personality/mark-zuckerberg/1.json",
+      "answered": 240,
+      "inferred": 240,
+      "sha256": "51cedcd7d2d0b93b88e9b194ab407006a4a2436ef08f0e77e6946d91e100e58e",
+      "publicCopyIdentical": true
+    },
+    {
+      "id": "peter-thiel",
+      "revision": 1,
+      "permanentAnswerFile": "profile-audit/answers/personality/peter-thiel/1.json",
+      "answered": 240,
+      "inferred": 240,
+      "sha256": "c32d4e46654a61717f0bd60c960e05785a4e9b94550513190e0cc4b9427df22b",
+      "publicCopyIdentical": true
+    }
+  ],
+  "catalogue": {
+    "build": "passed",
+    "check": "passed",
+    "totalProfiles": 200,
+    "newProfiles": [
+      "jeff-bezos",
+      "elon-musk",
+      "bill-gates",
+      "mark-zuckerberg",
+      "peter-thiel"
+    ],
+    "allNewProfilesHave15Axes": true,
+    "note": "184 profiles at first build and catalogue browser verification; 200 at final check after concurrent unrelated additions. Only the five named billionaires were created by this batch."
+  },
+  "questionBank": {
+    "status": "passed",
+    "questions": 240,
+    "axes": 15
+  },
+  "unitTests": {
+    "status": "passed",
+    "passed": 88,
+    "note": "Initial system git failed because Xcode license is unaccepted; rerun with bundled fallback Git passed all tests."
+  },
+  "productionBuild": "passed",
+  "catalogueBrowserTests": {
+    "passed": 30,
+    "failed": 0,
+    "projects": [
+      "desktop",
+      "mobile",
+      "safari"
+    ]
+  },
+  "browserInspection": {
+    "status": "passed",
+    "engine": "WebKit",
+    "checks": [
+      "All five search results in Business leaders",
+      "Keyboard Enter opens each profile",
+      "All five portraits decode",
+      "All five have 15 axis articles",
+      "All five audit downloads HTTP 200 with 15 answer groups",
+      "Mobile 390px has no horizontal overflow",
+      "All five have shared image credits and birthplace flags"
+    ],
+    "screenshots": [
+      "output/playwright/billionaires-desktop.png",
+      "output/playwright/billionaires-mobile.png"
+    ]
+  },
+  "fullBrowserSuite": {
+    "initialRun": {
+      "passed": 151,
+      "failed": 32
+    },
+    "finalRun": {
+      "passed": 154,
+      "failed": 29,
+      "exitCode": 1,
+      "duration": "5.1m",
+      "failures": [
+        "[desktop] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result",
+        "[desktop] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks",
+        "[desktop] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling",
+        "[desktop] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections",
+        "[desktop] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft",
+        "[desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads",
+        "[mobile] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result",
+        "[mobile] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks",
+        "[mobile] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling",
+        "[mobile] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections",
+        "[mobile] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft",
+        "[mobile] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores",
+        "[mobile] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores",
+        "[mobile] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons",
+        "[mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads",
+        "[safari] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page",
+        "[safari] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result",
+        "[safari] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks",
+        "[safari] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz",
+        "[safari] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus",
+        "[safari] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling",
+        "[safari] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections",
+        "[safari] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft",
+        "[safari] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores",
+        "[safari] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion",
+        "[safari] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export",
+        "[safari] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit",
+        "[safari] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates",
+        "[safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads"
+      ],
+      "limitations": [
+        "Several tests expect removed homepage example/feedback controls.",
+        "Some failures report missing Playwright trace/artifact files, consistent with concurrent runs sharing test-results; cause not conclusively isolated.",
+        "Other timeouts remain unresolved; full suite is not reported as passing."
+      ]
+    }
+  },
+  "repositoryHistory": {
+    "status": "failed",
+    "base": "3dcfb90e3d9d8340098e27f62df8b0a597229920",
+    "reason": "24 existing ideology revision-1 files were modified by concurrent/unrelated work; preserved. This batch adds only new personality revision-1 archives."
+  },
+  "whitespace": {
+    "status": "failed",
+    "reason": "Unrelated frontend/src/profiles/PersonalityHeader.module.css has a new blank line at EOF; preserved."
+  },
+  "assumptionPrefixesAndReviewIds": "passed: all 1,200 inferred answers begin Educated assumption: and exactly match the review ID lists",
+  "newArchivesUnchangedSinceVerification": true
+}

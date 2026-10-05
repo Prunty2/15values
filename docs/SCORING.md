@@ -46,7 +46,7 @@ Short scores now have 17 possible placements (6.25-point unrounded steps) instea
 
 A percentage is a placement between poles, not a probability, a proportion of the population, or a confidence rating. Exact ties do not pick a dominant pole. A midpoint may represent all Neutral responses, offsetting opposing responses, or a combination. Each axis has an expandable information control with its definition, question count, neutral count and stored percentages. Entirely neutral axes are also labelled directly on the chart. These counts are descriptive, not a validated uncertainty model.
 
-The result display uses the requested centred heading and question-count subheading, a homepage-style comparison card with explicit placeholders, and a sentence panel reserved for a broad statement about the society the matched ideology envisions. The sentence must come from the ideology profile, not be assembled from axis preferences. Since ideology matching remains deferred, this panel is explicitly a placeholder. The line above the results heading is removed, and the subheading fits on one line at desktop widths while wrapping on smaller screens. Reference-style rows show the agreed endpoint names and icons, a midpoint tick, a position marker, and a tendency badge. Both poles use the same thresholds: Balanced within 10 percentage points of 50, Leaning above 10 and below 25, Strong at least 25. These labels describe placement, not confidence. The axis topic headings are navigation labels and do not replace the agreed names or definitions.
+The result display uses the requested centred heading and question-count subheading, a homepage-style comparison card with calculated ideology comparisons and personality/country placeholders, and a sentence panel reserved for a broad statement about the society the matched ideology envisions. The sentence must come from the ideology profile, not be assembled from axis preferences. Ideology matching now supplies the closest compatible profile’s statement, with separate statements for tied profiles. The line above the results heading is removed, and the subheading fits on one line at desktop widths while wrapping on smaller screens. Reference-style rows show the agreed endpoint names and icons, a midpoint tick, a position marker, and a tendency badge. Both poles use the same thresholds based on the displayed whole-percent deviation from 50: Balanced at 0–5 percentage points, “Leaning [pole]” at 6–15, “[pole]” at 16–25, and “Strongly [pole]” at 26–50. These labels describe placement, not confidence. The axis topic headings are navigation labels and do not replace the agreed names or definitions.
 
 Longer formats offer broader question coverage; they do not guarantee greater accuracy. No population calibration, reliability study or construct-validation study has been carried out for this bank. The result page discloses that the development bank includes draft wording.
 
@@ -89,10 +89,86 @@ Vitest verifies source fidelity, per-axis balance, fixed nested selection, neutr
 ## Researched catalogue profiles
 
 The authorised profile contribution tools call `scoreAnswers('comprehensive', answers)`
-with all 240 researched answers, using this same scoring version. Their generated
+with all 240 most-likely answers, using this same scoring version. The owner’s
+5 October 2026 completion rule requires researched responses where available and
+explicitly labelled educated assumptions where research leaves gaps; see the
+shared procedure. An assumed answer affects the score like any other answer,
+so its rationale and review must disclose the uncertainty. This changes assessment
+guidance, not the scoring formula or quiz answer requirements. Their generated
 catalogue data is separate from saved user results. Each assessment preserves its
 evidence, question/axis/scoring versions and bank fingerprint; older revisions are
 never overwritten. Catalogue pages expose sources and downloadable assessments.
 The diagnostic profile-similarity formula and review threshold are documented in
 [assessment tool reference](<personality assessments/README.md>). These are contributor review
 tools, not user matching, confidence estimates or empirical validation.
+
+## Personality and country ideology comparison
+
+Authorised 5 October 2026. Catalogue generation records `closestIdeology` for
+each personality and country using method `equal-axis-mae-v1`. The distance is
+the mean absolute difference between the subject’s and ideology’s left-pole
+percentages across all 15 axes. Each axis has equal weight; complementary right
+percentages are not counted again. This reuses the assessment review’s existing
+equal-axis distance. No political labels, identity, popularity or preferred
+outcome affect the comparison.
+
+Only visible, non-withdrawn ideologies with the same question-bank, axes and
+scoring versions are candidates. Withdrawn subjects and empty compatible candidate
+sets receive a null match. All minimum-distance ties (floating-point tolerance
+1e-9) are retained, ordered by ID for stable presentation. Selection uses unrounded
+distances; only the displayed average gap is rounded to one decimal place.
+The generated record includes ideology IDs, names, revisions and the distance.
+Regeneration recomputes matches when assessments or the candidate catalogue change;
+the frontend validates stored matches against the current catalogue. Immutable
+answer archives and researched classification metadata are preserved.
+
+Profile pages link to their closest ideology or tied ideologies and show the
+average gap in percentage points. This is resemblance among assessed profiles,
+not an identity claim or confidence estimate. It inherits evidence uncertainty
+and question-bank limitations. Even a distant nearest candidate is shown with
+its gap; no arbitrary acceptance threshold is imposed. User-to-ideology comparison is now authorised; automatic quiz-result personality comparisons and compass presentation remain deferred.
+
+The accuracy corrections of 5 October make the reference period and scope visible,
+show all 15 individual gaps on profile pages, and show the next distinct candidate's
+distance margin. Quiz results expose the reference scope and three largest gaps.
+Cards display the ideology name without a prefix; the filter is labelled
+Ideology. The detail page explains the numerical comparison. The margin is not a confidence interval or a
+validated threshold. Complete disagreement on one axis, with agreement on the
+other fourteen, still produces 93.3% similarity under the agreed formula; averaging
+must not be read as agreement on each issue. No score, weight, tie rule, axis or
+version was changed by these presentation corrections.
+
+The catalogue's period-specific interpretations are not interchangeable with an
+entire political tradition. For example, a profile scoped to a governing party in
+a named period supplies that reference's score, rather than certifying every form
+of the ideology. Government ownership and government planning also do not fully
+describe cooperative ownership or voluntary collective coordination. These are
+coverage limits, not grounds to reverse literal answers to obtain a desired match.
+
+## Quiz result ideology comparison
+
+Authorised 5 October 2026. Results use the same equal-axis mean absolute distance,
+compatible-version filtering and tie retention as catalogue profile comparisons.
+The closest ideology links to its assessment page and displays similarity (100 minus the average gap) to
+one decimal place, alongside its supplied perspective statement. This is score
+resemblance, not identity or confidence. Catalogue assessment assumptions and
+question-bank limitations apply. Comparisons load locally from the current published
+catalogue and are recomputed when a result is viewed; history scores and exports
+remain unchanged. Loading failures offer retry; an empty compatible catalogue,
+including older scoring versions, displays an unavailable explanation.
+
+Results also offer an owner-authorised manual Compare picker for visible, compatible
+ideology and personality profiles. Search uses case-insensitive name substrings,
+with alphabetical suggestions in a scrollable modal list and arrow/Enter selection.
+Chosen profiles add numbered dots to the user’s existing 15 axis graphics,
+with a removable legend and equal-axis percentage similarity. The closest ideology
+sets the results colour theme using its catalogue group colour; cross-group ties
+use the neutral catalogue colour. The top comparison card and quote have equal width. Selection is temporary
+and is not added to local history or exports. Escape closes the picker and restores
+focus. Automatic personality matching and country comparison remain deferred.
+
+## Profile personality similarity
+
+Authorised 5 October 2026. Personality profiles show “Similar Personality” as links to the nearest other compatible, non-withdrawn personality profiles using equally weighted mean absolute distance across all 15 axes. Self-matches are excluded; all ties within 1e-9 are retained. Matches are calculated from the current catalogue at display time. Similarity is 100 minus the mean gap. These comparisons inherit assessment uncertainty and do not imply affiliation or endorsement. Automatic quiz-result personality matching remains deferred.
+
+Political leaning labels are removed from profile detail pages and catalogue cards at the owner’s request on 5 October 2026. Catalogue browsing groups, immutable assessments and recorded metadata remain unchanged.

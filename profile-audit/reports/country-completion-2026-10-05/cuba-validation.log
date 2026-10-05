@@ -1,0 +1,146 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate country cuba
+
+{
+  "errors": [],
+  "warnings": [
+    "protectionism-free-trade: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "planning-free-market: 6/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": [
+    {
+      "id": "china",
+      "revision": 1,
+      "similarity": 90.50666666666666
+    },
+    {
+      "id": "south-korea",
+      "revision": 1,
+      "similarity": 86.14666666666666
+    },
+    {
+      "id": "taiwan",
+      "revision": 1,
+      "similarity": 85.00666666666666
+    },
+    {
+      "id": "russia",
+      "revision": 1,
+      "similarity": 84.98
+    },
+    {
+      "id": "north-korea",
+      "revision": 1,
+      "similarity": 84.06
+    }
+  ],
+  "scores": [
+    {
+      "axisId": "democracy-autocracy",
+      "leftPercent": 42.2,
+      "rightPercent": 57.8,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "authority-liberty",
+      "leftPercent": 79.7,
+      "rightPercent": 20.3,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "leftPercent": 59.4,
+      "rightPercent": 40.6,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "leftPercent": 48.4,
+      "rightPercent": 51.6,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "leftPercent": 70.3,
+      "rightPercent": 29.7,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "public-private",
+      "leftPercent": 87.5,
+      "rightPercent": 12.5,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "leftPercent": 53.1,
+      "rightPercent": 46.9,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "planning-free-market",
+      "leftPercent": 71.9,
+      "rightPercent": 28.1,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "leftPercent": 59.4,
+      "rightPercent": 40.6,
+      "answered": 16,
+      "neutral": 4
+    },
+    {
+      "axisId": "secular-religious",
+      "leftPercent": 84.4,
+      "rightPercent": 15.6,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "leftPercent": 70.3,
+      "rightPercent": 29.7,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "innovation-caution",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "central-local",
+      "leftPercent": 87.5,
+      "rightPercent": 12.5,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "culture-nature",
+      "leftPercent": 70.3,
+      "rightPercent": 29.7,
+      "answered": 16,
+      "neutral": 3
+    }
+  ]
+}
+

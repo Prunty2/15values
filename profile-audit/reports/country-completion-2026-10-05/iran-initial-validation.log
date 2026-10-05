@@ -1,0 +1,16 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate country iran
+
+{
+  "errors": [
+    "A completed evidence review is required."
+  ],
+  "warnings": [
+    "militarist-pacifist: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "public-private: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "planning-free-market: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": []
+}
+

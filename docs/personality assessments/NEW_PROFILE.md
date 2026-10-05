@@ -5,6 +5,34 @@ Use this process with the repository skills in Codex or Claude Code. Read
 and the [tool reference](README.md) first. Complete only the requested entries.
 Use the same standards of evidence and scrutiny across political positions.
 
+## Completion requirement
+
+A request to add, complete or re-audit named profiles authorises the full local
+workflow: research, all 240 answers, separate review, validation, immutable archive,
+catalogue generation and verification. Continue until every requested profile is
+complete. A readiness report, metadata, scores alone or a partially answered draft
+is not completion. Fix routine validation errors and continue through the requested
+batch rather than ending after an intermediate step.
+
+Missing exact evidence is not a reason to stop or ask for renewed permission.
+Research first, then choose the most likely of the five responses using contextual
+evidence. Mark the educated assumption as `inferred`, begin its rationale with
+`Educated assumption:`, cite actual sources and explain the choice and uncertainty.
+Flag these question IDs in chat and review without waiting for approval. Do not
+invent sources or documented positions, or automatically use Neutral. Resolve all
+null/unknown placeholders before completion.
+
+Only a concrete obstacle that cannot be resolved within the authorised workflow,
+such as unavailable required tools, inaccessible files or materially ambiguous
+identity, warrants reporting a blocker. State it accurately and continue all other
+work that can proceed. An evidence gap covered by the educated-assumption rule is
+not a blocker. Do not bypass validation or claim failed checks passed.
+
+The final response must give each profile's permanent answer-file link, 240/240
+answered-question count, revision, catalogue-generation result, educated-assumption
+IDs and actual verification results. Save answers in repository JSON. A PR requires
+a request; merging and deployment remain outside this local authorisation.
+
 ## Establish the subject
 
 Inspect the working tree and run `npm run profiles -- status` from `frontend/`.
@@ -46,7 +74,9 @@ Do not infer religion's role in government from personal faith, immigration poli
 from assimilation preferences, or Culture vs Nature from traditionalism. Read each
 axis definition independently. Historical analogies to modern questions must be
 explicit inferences supported by the subject's ideas; anachronism does not justify
-fabricating a position. If the subject has no defensible position, keep it unknown.
+claiming a documented position that was not found. Where the exact position is
+not documented, choose the most likely answer as a clearly labelled educated
+assumption using the rule below.
 
 ## Answer the 240 questions independently
 
@@ -63,10 +93,11 @@ not neighbour answers or desired scores. Otherwise perform a distinct review pas
 and record it honestly. No specific model vendor, paid API or fixed batch size is
 required. Do not launch additional subjects merely to fill a batch.
 
-All five agreement choices are legitimate. Use `0` only for a supported neutral,
-mixed or conditional response whose rationale explains why. Use `null` and `unknown`
-for missing evidence. If research cannot resolve it, report the gap and leave the
-profile as a draft; do not weaken the validator to get it published.
+All five agreement choices are legitimate. Use `0` when a neutral, mixed or
+conditional response is the most likely interpretation, with a rationale explaining
+why; uncertainty alone does not imply neutrality.
+
+Answer every question with the most likely of the five agreement choices. Research first; when evidence does not settle the exact claim, make an educated assumption, mark its basis as `inferred`, and begin its rationale with `Educated assumption:`. Cite the contextual sources actually used, explain why this choice is more likely than the alternatives, and state the evidence gap. Flag these question IDs and limitations in chat and in the separate review. Never present an assumption as a documented position or use Neutral automatically for missing evidence. Completed assessments must contain no `null` or `unknown` answers.
 
 ## Prepare display information and review
 
@@ -108,8 +139,8 @@ direction, all inferences, counter-evidence and metadata. Record the real review
 (including agent/tool identity for an AI review), review date and substantive notes.
 Run `profiles validate <catalogue> <id>`. Read every error, warning and neighbour.
 For similarity of at least 95%, investigate the evidence and record a reason for
-retaining both entries against the named neighbour revision. Correct unsupported
-answers when evidence warrants it; never change them solely to reduce similarity.
+retaining both entries against the named neighbour revision. Review every educated assumption and correct answers
+when evidence or a better-supported interpretation warrants it; never change them solely to reduce similarity.
 
 ## Archive, verify and prepare the contribution
 

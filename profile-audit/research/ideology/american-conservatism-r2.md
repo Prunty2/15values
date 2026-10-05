@@ -1,4 +1,4 @@
-# American Conservatism (Trump-era Republican programme): revision 2 research dossier
+# American Conservatism: revision 2 research dossier
 
 Research continuation: 4 October 2026. Author: Codex /root/liberal_conservative. Separate review of these additions is pending.
 

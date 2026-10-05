@@ -1,5 +1,13 @@
 // Retain credits for portraits referenced by current and historical assessments.
 export const personalityImageCredits = [
+{
+  "name": "Joh Bjelke-Petersen",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joh_Bjelke-Petersen_1968.jpg",
+  "creator": "Australian News and Information Bureau, via National Archives of Australia",
+  "license": "Public domain (expired Australian Crown copyright)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Australia",
+  "modifications": "Original Commons JPEG retained without modification; displayed with a crop by the website."
+},
   {
     "name": "Adolf Hitler",
     "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_183-H1216-0500-002,_Adolf_Hitler.jpg",
@@ -503,5 +511,558 @@ export const personalityImageCredits = [
     "license": "OGL 3",
     "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
     "modifications": "Resized to at most 1,000 pixels and JPEG compressed; no additional crop. Earlier cropping, restoration or rotation is recorded on the source page."
-  }
+  },
+{
+  "name": "Clement Attlee (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Person_attlee2.jpg",
+  "creator": "Presumably Yousuf Karsh",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Tony Blair (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tony_Blair_(2010).jpg",
+  "creator": "Pavel Golovkin",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Jeremy Corbyn (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Jeremy_Corbyn_MP,_2024_(3x4_cropped).jpg",
+  "creator": "Jessica Taylor",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Joe Biden (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joe_Biden_presidential_portrait.jpg",
+  "creator": "Adam Schultz",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Abraham Lincoln (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+  "creator": "Alexander Gardner",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "John F. Kennedy (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+  "creator": "Cecil W. Stoughton",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Richard Nixon (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Richard_Nixon_presidential_portrait_(1).jpg",
+  "creator": "Department of Defense. Department of the Army. Office of the Deputy Chief of Staff for Operations. U.S. Army Audiovisual Center. (ca. 1974 - 05/15/1984)",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Gough Whitlam (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gough_Whitlam_at_the_Lodge_1974.jpg",
+  "creator": "Work of the Australian Government",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Bob Hawke (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bob_Hawke-1983.jpg",
+  "creator": "© Commonwealth of Australia 2011",
+  "license": "CC BY-SA 3.0 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Paul Keating (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Keating_Paul_Portrait.jpg",
+  "creator": "© Commonwealth of Australia 2011",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "John Howard (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Howard_John_BANNER.jpg",
+  "creator": "© Commonwealth of Australia 2011",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Mahatma Gandhi (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahatma-Gandhi,_studio,_1931.jpg",
+  "creator": "Elliott & Fry",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Jawaharlal Nehru (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nehru_in_the_Netherlands,_1957.jpg",
+  "creator": "Harry Pot",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Narendra Modi (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_official_portrait_of_Shri_Narendra_Modi,_the_Prime_Minister_of_the_Republic_of_India.jpg",
+  "creator": "Prime Minister's Office",
+  "license": "GODL-India",
+  "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Lee Kuan Yew (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor,_1975.jpg",
+  "creator": "White House Photographic Office. 1974-1977",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Deng Xiaoping (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Deng_Xiaoping_at_the_arrival_ceremony_for_the_Vice_Premier_of_China_(cropped).jpg",
+  "creator": "Unknown photographer or artist, as recorded on Commons",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Charles de Gaulle (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:De_Gaulle-OWI_(cropped)_(c)(2).jpg",
+  "creator": "Office of War Information, Overseas Picture Division. [1] The image prefix (LC-USW3) at the Library of Congress image page matches that of pictures from the OWI collection (see prefix list here .",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Emmanuel Macron (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+  "creator": "Nebojša Tejić",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Fidel Castro (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fidel_Castro,_Prime_Minister_of_Cuba._Castro_at_the_United_Nations,_New_York_(3x4_cropped).jpg",
+  "creator": "Bernard Gotfryd",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Luiz Inácio Lula da Silva (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_(ombros)_denoise_(cropped).jpg",
+  "creator": "Ricardo Stuckert/PR",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Javier Milei (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Javier_Milei_in_pull-aside_meeting_at_the_United_Nations_Headquarters_(3x4_cropped).jpg",
+  "creator": "The White House",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Vladimir Lenin (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lenin_in_1920_(cropped).jpg",
+  "creator": "Unknown, presumably official",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Adam Smith (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Adam_Smith_The_Muir_portrait.jpg",
+  "creator": "Unknown photographer or artist, as recorded on Commons",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Mary Wollstonecraft (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Wollstonecraft_Portrait.jpg",
+  "creator": "John Opie",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Ayn Rand (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ayn_Rand_(1943_Talbot_portrait).jpg",
+  "creator": "Photo portrait credited to \"Talbot\" (though not on original dust jacket). Published by the Bobbs-Merrill Company .",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "George Washington (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+  "creator": "Gilbert Stuart",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Thomas Jefferson (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_Presidential_portrait_of_Thomas_Jefferson_(by_Rembrandt_Peale,_1800).jpg",
+  "creator": "Rembrandt Peale",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Theodore Roosevelt (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Theodore_Roosevelt_by_the_Pach_Bros_(4x5_cropped)_(2).jpg",
+  "creator": "Pach Brothers (photograph); restored by Adam Cuerden",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Lyndon B. Johnson (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg",
+  "creator": "Arnold Newman",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Jimmy Carter (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+  "creator": "Department of Defense. Department of the Navy. Naval Photographic Center",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "George W. Bush (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:George-W-Bush.jpeg",
+  "creator": "Eric Draper",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Hillary Clinton (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Former_United_States_Secretary_of_State_Hillary_Rodham_Clinton_at_the_U.S._Department_of_State_on_September_26,_2023_in_Washington,_D.C._14_(cropped).jpg",
+  "creator": "U.S. Department of State",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Rishi Sunak (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Prime_Minister_Rishi_Sunak_(cropped).jpg",
+  "creator": "Simon Walker / No. 10 Downing Street",
+  "license": "OGL 3",
+  "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Keir Starmer (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Keir_Starmer_Portrait_(cropped).jpg",
+  "creator": "Simon Dawson / No. 10 Downing Street",
+  "license": "OGL 3",
+  "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Jacinda Ardern (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_Zealand_Prime_Minister_Jacinda_Ardern_in_2018.jpg",
+  "creator": "Newzild",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Justin Trudeau (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Trudeau%27s_message_on_Christmas_2023_(0m29s)_(cropped).jpg",
+  "creator": "Justin Trudeau – Prime Minister of Canada",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Indira Gandhi (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Indira_Gandhi_official_portrait.png",
+  "creator": "Prime Minister's Office",
+  "license": "GODL-India",
+  "licenseUrl": "https://data.gov.in/sites/default/files/Gazette_Notification_OGDL.pdf",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Mikhail Gorbachev (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIAN_archive_850809_General_Secretary_of_the_CPSU_CC_M._Gorbachev_(crop).jpg",
+  "creator": "Vladimir Vyatkin / Владимир Вяткин; derivative crop by Jbarta",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Ho Chi Minh (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ho_Chi_Minh_-_1946_Portrait_(cropped).jpg",
+  "creator": "Unknown photographer or artist, as recorded on Commons",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Salvador Allende (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Allende_Gossens-.jpg",
+  "creator": "Biblioteca del Congreso Nacional de Chile",
+  "license": "CC BY 3.0 cl",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/cl/deed.en",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Augusto Pinochet (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Augusto_Pinochet_official_portrait_(3x4_cropped_b).jpg",
+  "creator": "Ministerio de Relaciones Exteriores de Chile.",
+  "license": "CC BY 2.0 cl",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/cl/deed.en",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Jean-Jacques Rousseau (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maurice_Quentin_de_La_Tour_-_Portrait_of_Jean-Jacques_Rousseau_-_adjusted.jpg",
+  "creator": "Maurice Quentin de La Tour",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Mikhail Bakunin (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mikhail_Bakunin_Nader_(3x4_cropped).jpg",
+  "creator": "Nadar",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Recep Tayyip Erdoğan (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Turkish_President_Recep_Tayyip_Erdo%C4%9Fan_in_January_2024_(cropped).jpg",
+  "creator": "Rory Arnold",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+{
+  "name": "Ruhollah Khomeini (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Ruhollah_Khomeini_By_Ali_Kaveh.jpg",
+  "creator": "Ali Kaveh",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop. Earlier cropping or restoration is recorded on the Commons source page."
+},
+
+{
+  "name": "Matt Canavan (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matt_Canavan.jpg",
+  "creator": "Pellowe Talk",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop."
+},
+{
+  "name": "Angus Taylor (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angus_Taylor_2015_b.jpg",
+  "creator": "File:Angus Taylor 2015.jpg : Crawford Forum derivative work: Georgfotoart",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed. Source derivative by Georgfotoart adjusts exposure and contrast; no additional crop."
+},
+{
+  "name": "Zohran Mamdani (revision 1)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:New_York_State_Assemblymember_Zohran_Mamdani.jpg",
+  "creator": "Karamccurdy",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "modifications": "Resized to at most 800 pixels and JPEG compressed; no additional crop."
+},
+{
+  "name": "Jeff Bezos",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeff_Bezos_2016.jpg",
+  "creator": "U.S. Department of Defense / Senior Master Sgt. Adrian Cadiz",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "modifications": "Source image saved unchanged; displayed with the site’s portrait crop. Existing source crops are described on the Commons File page."
+},
+{
+  "name": "Elon Musk",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Colorado_2022_(cropped2).jpg",
+  "creator": "U.S. Air Force / Trevor Cokley",
+  "license": "Public domain (U.S. federal government work)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Elon_Musk_Colorado_2022_(cropped2).jpg#Licensing",
+  "modifications": "Source image saved unchanged; displayed with the site’s portrait crop. Existing source crops are described on the Commons File page."
+},
+{
+  "name": "Bill Gates",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_2018.jpg",
+  "creator": "United States Department of Health and Human Services",
+  "license": "Public domain (U.S. federal government work)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Bill_Gates_2018.jpg#Licensing",
+  "modifications": "Source image saved unchanged; displayed with the site’s portrait crop. Existing source crops are described on the Commons File page."
+},
+{
+  "name": "Mark Zuckerberg",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:MarkZuckerberg.jpg",
+  "creator": "Elaine Chan and Priscilla Chan",
+  "license": "CC BY 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.5/",
+  "modifications": "Source image saved unchanged; displayed with the site’s portrait crop. Existing source crops are described on the Commons File page."
+},
+{
+  "name": "Peter Thiel",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Thiel_by_Gage_Skidmore.jpg",
+  "creator": "Gage Skidmore",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "modifications": "Commons 500-pixel thumbnail; no additional crop. Displayed with the site’s portrait crop."
+},
+{
+  "name": "Robert Menzies",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_Menzies_1950s.jpg",
+  "creator": "National Library of Australia",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Tony Abbott",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Prime_Minister_Tony_Abbott_official_portrait.jpg",
+  "creator": "Commonwealth of Australia",
+  "license": "CC BY 3.0 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Scott Morrison",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Scott_Morrison_portrait_(3x4_cropped).jpg",
+  "creator": "Department of Prime Minister and Cabinet",
+  "license": "CC BY 3.0 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Liz Truss",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Liz_Truss_(3x4_cropped_b).jpg",
+  "creator": "Prime Minister's Office",
+  "license": "OGL 3",
+  "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Theresa May",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Baroness_May_of_Maidenhead_crop_2.jpg",
+  "creator": "Roger Harris",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Harry S. Truman",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:TRUMAN_58-766-06_(cropped).jpg",
+  "creator": "National Archives and Records Administration. Office of Presidential Libraries. Harry S. Truman Library.",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Dwight D. Eisenhower",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959_(cropped)(3).jpg",
+  "creator": "White House",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Robert F. Kennedy",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_F._Kennedy.jpg",
+  "creator": "Harry Warnecke",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Nancy Pelosi",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_photo_of_Speaker_Nancy_Pelosi_in_2019.jpg",
+  "creator": "John Harrington",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Alexandria Ocasio-Cortez",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexandria_Ocasio-Cortez_Official_Portrait.jpg",
+  "creator": "Franmarie Metzler; U.S. House Office of Photography",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Volodymyr Zelenskyy",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Volodymyr_Zelensky_2022_official_portrait_(cropped).jpg",
+  "creator": "Press Service of the President of Ukraine",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Kim Jong Un",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jong-un_and_Vladimir_Putin_(2023-09-13)_12_(cropped_2).jpg",
+  "creator": "Владимир Смирнов / ТАСС",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Benjamin Netanyahu",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Benjamin_Netanyahu,_February_2023.jpg",
+  "creator": "Avi Ohayon",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Hugo Chávez",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hugo_Chavez_Portrait_(cropped).jpg",
+  "creator": "Vicepresidencia de Venezuela",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Martin Luther King Jr.",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Rev._Dr._Martin_Luther_King_Jr._Color_Portrait_(high_quality).jpg",
+  "creator": "Associated Press",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Frederick Douglass",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frederick_Douglass_(circa_1879)_(cropped).jpg",
+  "creator": "George Kendall Warren",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
 ] as const;

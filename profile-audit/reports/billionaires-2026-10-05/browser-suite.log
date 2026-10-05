@@ -1,0 +1,1036 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:79816) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 183 tests using 4 workers
+
+(node:79818) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79820) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79817) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:79819) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    4 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (367ms)
+  ✓    3 [desktop] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (394ms)
+  ✓    1 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (450ms)
+  ✓    5 [desktop] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (180ms)
+  ✓    6 [desktop] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (395ms)
+  ✓    7 [desktop] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (383ms)
+  ✓    8 [desktop] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (360ms)
+  ✓    9 [desktop] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (216ms)
+  ✓    2 [desktop] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.0s)
+  ✓   11 [desktop] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (1.1s)
+  ✓   13 [desktop] › tests/home-strip.spec.ts:39:1 › home strip uses explicit personality leaning metadata and falls back when absent (203ms)
+  ✓   15 [desktop] › tests/home-strip.spec.ts:79:1 › reduced motion allows manual scrolling without duplicate links or page overflow (532ms)
+  ✓   16 [desktop] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is empty (191ms)
+  ✓   17 [desktop] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is unavailable (187ms)
+  ✓   14 [desktop] › tests/home-strip.spec.ts:52:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.2s)
+  ✓   18 [desktop] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is invalid (185ms)
+  ✓   19 [desktop] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (763ms)
+  ✓   20 [desktop] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (733ms)
+  ✓   21 [desktop] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (721ms)
+  ✓   22 [desktop] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (693ms)
+  ✓   23 [desktop] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (718ms)
+  ✓   24 [desktop] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (781ms)
+  ✓   25 [desktop] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (337ms)
+  ✓   10 [desktop] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (7.0s)
+  ✓   28 [desktop] › tests/platform.spec.ts:49:1 › catalogue pages are intentionally empty and link to the values (281ms)
+  ✓   29 [desktop] › tests/platform.spec.ts:61:1 › quiz format selection starts a real quiz (483ms)
+  ✓   30 [desktop] › tests/platform.spec.ts:68:1 › navigation supports back, reload, current page, and keyboard focus (1.3s)
+  ✘   27 [desktop] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks (4.7s)
+  ✓   12 [desktop] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (9.8s)
+(node:79873) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   31 [desktop] › tests/platform.spec.ts:93:1 › pages do not overflow at narrow widths or with reduced motion (1.1s)
+  ✘   26 [desktop] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result (5.4s)
+  ✓   32 [desktop] › tests/platform.spec.ts:113:1 › skip link appears on keyboard focus and moves focus to the content (472ms)
+(node:79877) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   33 [desktop] › tests/platform.spec.ts:103:1 › removed and unrecognised routes offer a working return to home (613ms)
+  ✓   36 [desktop] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus (819ms)
+  ✓   34 [desktop] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz (1.6s)
+  ✓   39 [desktop] › tests/platform.spec.ts:200:1 › social preview assets resolve under the GitHub Pages subpath (195ms)
+  ✓   40 [desktop] › tests/platform.spec.ts:211:1 › landing section navigation moves focus and returns to the top on the same route (537ms)
+  ✘   38 [desktop] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft (5.2s)
+(node:79908) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   41 [desktop] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores (4.8s)
+  ✓   42 [desktop] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores (7.6s)
+  ✓   43 [desktop] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores (13.2s)
+  ✓   45 [desktop] › tests/quiz.spec.ts:76:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (3.0s)
+  ✓   44 [desktop] › tests/quiz.spec.ts:48:3 › Comprehensive: complete every question and export the expected independent scores (10.1s)
+  ✘   35 [desktop] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling (30.2s)
+(node:80044) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   37 [desktop] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections (30.6s)
+(node:80050) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   49 [desktop] › tests/quiz.spec.ts:160:1 › browser Back preserves the open session and leaving asks for confirmation (686ms)
+  ✓   50 [desktop] › tests/quiz.spec.ts:174:1 › large desktop and small mobile layouts are readable, with both fonts loaded (694ms)
+  ✓   46 [desktop] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion (22.3s)
+  ✓   47 [desktop] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export (21.4s)
+  ✓   53 [desktop] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (2.1s)
+  ✓   54 [desktop] › tests/results.spec.ts:82:1 › legacy results display and export their original method without recalculation (523ms)
+  ✓   55 [desktop] › tests/results.spec.ts:96:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (1.5s)
+  ✓   52 [desktop] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates (5.0s)
+  ✓   56 [desktop] › tests/results.spec.ts:136:1 › comparison fetch failure can be retried without losing the result (541ms)
+  ✓   57 [desktop] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons (457ms)
+  ✓   48 [desktop] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit (22.0s)
+  ✓   58 [desktop] › tests/results.spec.ts:156:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (2.0s)
+  ✓   61 [desktop] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (522ms)
+(node:80122) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   62 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (287ms)
+  ✓   63 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (209ms)
+  ✓   51 [desktop] › tests/quiz.spec.ts:195:1 › narrow results and invalid stored history stay usable without overwriting data (21.6s)
+(node:80129) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   65 [mobile] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (314ms)
+  ✓   66 [mobile] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (157ms)
+  ✓   67 [mobile] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (319ms)
+  ✓   64 [mobile] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.0s)
+  ✓   68 [mobile] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (298ms)
+  ✓   70 [mobile] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (180ms)
+  ✓   69 [mobile] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (353ms)
+  ✓   72 [mobile] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (875ms)
+  ✓   71 [mobile] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (6.3s)
+  ✓   74 [mobile] › tests/home-strip.spec.ts:39:1 › home strip uses explicit personality leaning metadata and falls back when absent (184ms)
+  ✓   75 [mobile] › tests/home-strip.spec.ts:52:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.1s)
+  ✓   76 [mobile] › tests/home-strip.spec.ts:79:1 › reduced motion allows manual scrolling without duplicate links or page overflow (535ms)
+  ✓   77 [mobile] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is empty (175ms)
+  ✓   78 [mobile] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is unavailable (170ms)
+  ✓   79 [mobile] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is invalid (168ms)
+  ✓   80 [mobile] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (701ms)
+  ✓   81 [mobile] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (694ms)
+  ✓   73 [mobile] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (9.4s)
+  ✓   82 [mobile] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (789ms)
+  ✓   83 [mobile] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (791ms)
+  ✓   84 [mobile] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (759ms)
+  ✓   85 [mobile] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (751ms)
+  ✓   86 [mobile] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (288ms)
+  ✘   88 [mobile] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks (4.7s)
+(node:80259) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   87 [mobile] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result (5.3s)
+(node:80264) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   89 [mobile] › tests/platform.spec.ts:49:1 › catalogue pages are intentionally empty and link to the values (418ms)
+  ✓   90 [mobile] › tests/platform.spec.ts:61:1 › quiz format selection starts a real quiz (536ms)
+  ✓   92 [mobile] › tests/platform.spec.ts:93:1 › pages do not overflow at narrow widths or with reduced motion (1.2s)
+  ✓   93 [mobile] › tests/platform.spec.ts:103:1 › removed and unrecognised routes offer a working return to home (517ms)
+  ✓   91 [mobile] › tests/platform.spec.ts:68:1 › navigation supports back, reload, current page, and keyboard focus (2.4s)
+  ✓   94 [mobile] › tests/platform.spec.ts:113:1 › skip link appears on keyboard focus and moves focus to the content (484ms)
+  ✓   96 [mobile] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus (599ms)
+  ✓   95 [mobile] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz (1.6s)
+  ✘   59 [desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (30.4s)
+(node:80295) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   99 [mobile] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft (5.2s)
+(node:80317) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  100 [mobile] › tests/platform.spec.ts:200:1 › social preview assets resolve under the GitHub Pages subpath (451ms)
+  ✓  101 [mobile] › tests/platform.spec.ts:211:1 › landing section navigation moves focus and returns to the top on the same route (595ms)
+  ✓   60 [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (36.5s)
+(node:80345) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  102 [mobile] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores (5.5s)
+(node:80438) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  103 [mobile] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores (7.9s)
+(node:80471) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  105 [mobile] › tests/quiz.spec.ts:48:3 › Comprehensive: complete every question and export the expected independent scores (9.5s)
+  ✘   97 [mobile] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling (30.0s)
+(node:80505) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘   98 [mobile] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections (30.0s)
+  ✓  104 [mobile] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores (13.7s)
+(node:80510) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  106 [mobile] › tests/quiz.spec.ts:76:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (2.9s)
+  ✓  110 [mobile] › tests/quiz.spec.ts:160:1 › browser Back preserves the open session and leaving asks for confirmation (643ms)
+  ✓  111 [mobile] › tests/quiz.spec.ts:174:1 › large desktop and small mobile layouts are readable, with both fonts loaded (2.0s)
+  ✓  109 [mobile] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export (21.5s)
+  ✓  108 [mobile] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit (21.9s)
+  ✓  107 [mobile] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion (22.3s)
+  ✓  114 [mobile] › tests/results.spec.ts:82:1 › legacy results display and export their original method without recalculation (542ms)
+  ✓  116 [mobile] › tests/results.spec.ts:96:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (2.6s)
+  ✓  117 [mobile] › tests/results.spec.ts:136:1 › comparison fetch failure can be retried without losing the result (565ms)
+  ✓  112 [mobile] › tests/quiz.spec.ts:195:1 › narrow results and invalid stored history stay usable without overwriting data (21.9s)
+  ✓  113 [mobile] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates (5.6s)
+  ✓  115 [mobile] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (5.5s)
+  ✓  119 [mobile] › tests/results.spec.ts:156:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (3.6s)
+  ✓  122 [mobile] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (1.3s)
+(node:80863) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  123 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (842ms)
+  ✓  124 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (452ms)
+  ✓  125 [safari] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.5s)
+  ✓  126 [safari] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (443ms)
+  ✓  127 [safari] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (358ms)
+  ✓  128 [safari] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (584ms)
+  ✓  129 [safari] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (591ms)
+  ✓  130 [safari] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (548ms)
+  ✓  131 [safari] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (395ms)
+  ✓  132 [safari] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (10.3s)
+  ✓  133 [safari] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (1.0s)
+  ✘  134 [safari] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (5.3s)
+  ✘  118 [mobile] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons (30.0s)
+(node:81205) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81206) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  135 [safari] › tests/home-strip.spec.ts:39:1 › home strip uses explicit personality leaning metadata and falls back when absent (672ms)
+  ✓  137 [safari] › tests/home-strip.spec.ts:79:1 › reduced motion allows manual scrolling without duplicate links or page overflow (686ms)
+  ✘  120 [mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (30.3s)
+  ✓  136 [safari] › tests/home-strip.spec.ts:52:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.5s)
+  ✓  138 [safari] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is empty (417ms)
+(node:81240) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  139 [safari] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is invalid (400ms)
+  ✓  140 [safari] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (982ms)
+  ✓  141 [safari] › tests/home-strip.spec.ts:95:3 › home offers catalogue links when profile data is unavailable (559ms)
+  ✓  142 [safari] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (934ms)
+  ✓  143 [safari] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (987ms)
+  ✓  144 [safari] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (946ms)
+  ✓  145 [safari] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (969ms)
+  ✓  147 [safari] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (553ms)
+  ✓  146 [safari] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (945ms)
+  ✓  150 [safari] › tests/platform.spec.ts:49:1 › catalogue pages are intentionally empty and link to the values (532ms)
+  ✓  151 [safari] › tests/platform.spec.ts:61:1 › quiz format selection starts a real quiz (628ms)
+  ✓  152 [safari] › tests/platform.spec.ts:68:1 › navigation supports back, reload, current page, and keyboard focus (726ms)
+  ✓  153 [safari] › tests/platform.spec.ts:93:1 › pages do not overflow at narrow widths or with reduced motion (679ms)
+  ✓  121 [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (36.4s)
+  ✓  154 [safari] › tests/platform.spec.ts:103:1 › removed and unrecognised routes offer a working return to home (460ms)
+(node:81289) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  156 [safari] › tests/platform.spec.ts:113:1 › skip link appears on keyboard focus and moves focus to the content (1.1s)
+  ✘  149 [safari] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks (5.0s)
+  ✘  148 [safari] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result (5.6s)
+(node:81334) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81335) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  155 [safari] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz (30.0s)
+(node:81573) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  157 [safari] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus (30.0s)
+(node:81586) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  158 [safari] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling (30.0s)
+  ✘  159 [safari] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections (30.0s)
+(node:81624) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81625) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  161 [safari] › tests/platform.spec.ts:200:1 › social preview assets resolve under the GitHub Pages subpath (716ms)
+  ✓  162 [safari] › tests/platform.spec.ts:211:1 › landing section navigation moves focus and returns to the top on the same route (947ms)
+  ✘  160 [safari] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft (5.5s)
+(node:81660) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  163 [safari] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores (7.6s)
+  ✓  164 [safari] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores (11.0s)
+  ✓  167 [safari] › tests/quiz.spec.ts:76:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (3.5s)
+  ✓  166 [safari] › tests/quiz.spec.ts:48:3 › Comprehensive: complete every question and export the expected independent scores (9.8s)
+  ✘  165 [safari] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores (22.0s)
+(node:81791) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  171 [safari] › tests/quiz.spec.ts:160:1 › browser Back preserves the open session and leaving asks for confirmation (1.5s)
+  ✓  172 [safari] › tests/quiz.spec.ts:174:1 › large desktop and small mobile layouts are readable, with both fonts loaded (1.8s)
+  ✘  169 [safari] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export (28.8s)
+  ✘  168 [safari] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion (29.3s)
+(node:81941) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81942) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  170 [safari] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit (29.4s)
+(node:81983) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  176 [safari] › tests/results.spec.ts:82:1 › legacy results display and export their original method without recalculation (1.2s)
+  ✓  175 [safari] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (5.1s)
+  ✓  178 [safari] › tests/results.spec.ts:136:1 › comparison fetch failure can be retried without losing the result (1.1s)
+  ✓  177 [safari] › tests/results.spec.ts:96:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (2.1s)
+  ✓  179 [safari] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons (798ms)
+  ✓  180 [safari] › tests/results.spec.ts:156:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (3.3s)
+  ✘  174 [safari] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates (15.0s)
+(node:82085) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  173 [safari] › tests/quiz.spec.ts:195:1 › narrow results and invalid stored history stay usable without overwriting data (29.8s)
+  ✓  183 [safari] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (1.6s)
+  ✘  181 [safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (30.3s)
+  ✓  182 [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (38.0s)
+
+
+  1) [desktop] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('region', { name: 'Example result', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('region', { name: 'Example result', exact: true }) with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+       9 |   await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
+      10 |   const example = page.getByRole('region', { name: 'Example result', exact: true });
+    > 11 |   await expect(example).toBeVisible();
+         |                         ^
+      12 |   await expect(example.getByRole('heading', { name: 'Social democracy' })).toBeVisible();
+      13 |   await expect(page.locator('#example-result-title')).toHaveText('Example result');
+      14 |   const portrait = example.getByRole('img', { name: 'Andy Burnham', exact: true });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:11:25
+
+    Error Context: test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 2
+    Received:   143.34375
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      39 |   await expect(page).toHaveURL(/#\/\?section=values$/);
+      40 |   await expect(page.locator('#values article')).toHaveCount(15);
+    > 41 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+         |                                                                                                             ^
+      42 |   await page.evaluate(() => window.scrollTo(0, 0));
+      43 |   await clickValues();
+      44 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:41:109
+
+    Error Context: test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [desktop] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+      159 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      160 |   const button = await action.boundingBox();
+    > 161 |   const example = await page.getByRole('region', { name: 'Example result', exact: true }).boundingBox();
+          |                                                                                           ^
+      162 |   expect(button!.y + button!.height).toBeLessThan(740);
+      163 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      164 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:161:91
+
+    Error Context: test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [desktop] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('link', { name: 'Privacy & your data' })
+
+
+      178 |   await expect(page.getByRole('heading', { name: 'Different questions. Different dimensions.' })).toHaveCount(0);
+      179 |   await expect(page.getByRole('heading', { name: 'From your answers to your axes.' })).toHaveCount(0);
+    > 180 |   await page.getByRole('link', { name: 'Privacy & your data' }).click();
+          |                                                                 ^
+      181 |   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your views. Your data.');
+      182 |   await page.getByRole('link', { name: 'Image credits', exact: true }).click();
+      183 |   await expect(page.getByRole('link', { name: 'CC BY 2.0 licence' })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/2.0/');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:180:65
+
+    Error Context: test-results/platform-landing-axis-card-92056-nd-replace-the-old-sections-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-landing-axis-card-92056-nd-replace-the-old-sections-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-landing-axis-card-92056-nd-replace-the-old-sections-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [desktop] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator: getByRole('button', { name: 'Download feedback' })
+    Expected: disabled
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('button', { name: 'Download feedback' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Download feedback' })
+
+
+      186 | test('feedback download works without submitting or storing the draft', async ({ page }) => {
+      187 |   await page.goto('./#/feedback');
+    > 188 |   await expect(page.getByRole('button', { name: 'Download feedback' })).toBeDisabled();
+          |                                                                         ^
+      189 |   await page.getByLabel('Your feedback', { exact: true }).fill('The values explanation is useful.');
+      190 |   const pending = page.waitForEvent('download');
+      191 |   await page.getByRole('button', { name: 'Download feedback' }).click();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:188:73
+
+    Error Context: test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true })
+
+
+       8 |   await page.getByRole('banner').getByRole('link', { name: '15 Values home', exact: true }).click();
+       9 |   expect(await page.evaluate(() => history.length)).toBe(initialLength);
+    > 10 |   await page.getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true }).click();
+         |                                                                                                   ^
+      11 |   await page.getByRole('contentinfo').getByRole('link', { name: 'Quiz formats', exact: true }).click();
+      12 |   await page.getByRole('button', { name: 'Start short quiz', exact: true }).click();
+      13 |   await page.goBack();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:10:99
+
+    Error Context: test-results/window-navigation-current--a4543--each-route-without-reloads-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-current--a4543--each-route-without-reloads-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-current--a4543--each-route-without-reloads-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('region', { name: 'Example result', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('region', { name: 'Example result', exact: true }) with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+       9 |   await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
+      10 |   const example = page.getByRole('region', { name: 'Example result', exact: true });
+    > 11 |   await expect(example).toBeVisible();
+         |                         ^
+      12 |   await expect(example.getByRole('heading', { name: 'Social democracy' })).toBeVisible();
+      13 |   await expect(page.locator('#example-result-title')).toHaveText('Example result');
+      14 |   const portrait = example.getByRole('img', { name: 'Andy Burnham', exact: true });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:11:25
+
+    Error Context: test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 2
+    Received:   413.078125
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      39 |   await expect(page).toHaveURL(/#\/\?section=values$/);
+      40 |   await expect(page.locator('#values article')).toHaveCount(15);
+    > 41 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+         |                                                                                                             ^
+      42 |   await page.evaluate(() => window.scrollTo(0, 0));
+      43 |   await clickValues();
+      44 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:41:109
+
+    Error Context: test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-12/traces/310f5d38cd89ad55ea3f-3dc047fa111336991ca5-recording11.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-12/traces/310f5d38cd89ad55ea3f-3dc047fa111336991ca5-recording11-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-12/traces/310f5d38cd89ad55ea3f-3dc047fa111336991ca5-recording10.network'
+
+    Error: locator.boundingBox: Test ended.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+      159 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      160 |   const button = await action.boundingBox();
+    > 161 |   const example = await page.getByRole('region', { name: 'Example result', exact: true }).boundingBox();
+          |                                                                                           ^
+      162 |   expect(button!.y + button!.height).toBeLessThan(740);
+      163 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      164 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:161:91
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-12/3e752855a0083f76ff45d307d7eca63c.zip'
+
+  10) [mobile] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-11/traces/310f5d38cd89ad55ea3f-a3c13b05a9a0c2189597-recording7.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-11/traces/310f5d38cd89ad55ea3f-a3c13b05a9a0c2189597-recording7-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-11/traces/310f5d38cd89ad55ea3f-a3c13b05a9a0c2189597-recording6.network'
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('link', { name: 'Privacy & your data' })
+
+
+      178 |   await expect(page.getByRole('heading', { name: 'Different questions. Different dimensions.' })).toHaveCount(0);
+      179 |   await expect(page.getByRole('heading', { name: 'From your answers to your axes.' })).toHaveCount(0);
+    > 180 |   await page.getByRole('link', { name: 'Privacy & your data' }).click();
+          |                                                                 ^
+      181 |   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your views. Your data.');
+      182 |   await page.getByRole('link', { name: 'Image credits', exact: true }).click();
+      183 |   await expect(page.getByRole('link', { name: 'CC BY 2.0 licence' })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/2.0/');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:180:65
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-11/df25ca7fb43787ff96c5a57318fea13d.zip'
+
+  11) [mobile] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator: getByRole('button', { name: 'Download feedback' })
+    Expected: disabled
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('button', { name: 'Download feedback' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Download feedback' })
+
+
+      186 | test('feedback download works without submitting or storing the draft', async ({ page }) => {
+      187 |   await page.goto('./#/feedback');
+    > 188 |   await expect(page.getByRole('button', { name: 'Download feedback' })).toBeDisabled();
+          |                                                                         ^
+      189 |   await page.getByLabel('Your feedback', { exact: true }).fill('The values explanation is useful.');
+      190 |   const pending = page.waitForEvent('download');
+      191 |   await page.getByRole('button', { name: 'Download feedback' }).click();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:188:73
+
+    Error Context: test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  12) [mobile] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-14/traces/b28a81d7079595d0160f-e404ced2fe5f91748715-recording5.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-14/f7084597f7f1c0b640caf98a425df9e5.zip'
+
+    Error Context: test-results/quiz-Short-complete-every--2247a-expected-independent-scores-mobile/error-context.md
+
+  13) [mobile] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-15/traces/b28a81d7079595d0160f-5deebb23cdb5075e58d1.trace'
+
+    Error Context: test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  14) [mobile] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.setInputFiles: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Import result history', { exact: true })
+
+
+      148 | test('legacy results keep their scores and explain incompatible comparisons', async ({ page }) => {
+      149 |   await page.goto('./#/results');
+    > 150 |   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([{ ...result, scoringVersion: '1.0.0' }])) });
+          |   ^
+      151 |   await page.getByRole('button', { name: 'View result', exact: true }).click();
+      152 |   await expect(page.getByRole('region', { name: 'Result comparisons' }).getByRole('status')).toContainText('No compatible ideology assessments');
+      153 |   await expect(page.locator('blockquote')).toHaveCount(0);
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/results.spec.ts:150:3
+
+    Error Context: test-results/results-legacy-results-kee-88403-in-incompatible-comparisons-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/results-legacy-results-kee-88403-in-incompatible-comparisons-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/results-legacy-results-kee-88403-in-incompatible-comparisons-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  15) [mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true })
+
+
+       8 |   await page.getByRole('banner').getByRole('link', { name: '15 Values home', exact: true }).click();
+       9 |   expect(await page.evaluate(() => history.length)).toBe(initialLength);
+    > 10 |   await page.getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true }).click();
+         |                                                                                                   ^
+      11 |   await page.getByRole('contentinfo').getByRole('link', { name: 'Quiz formats', exact: true }).click();
+      12 |   await page.getByRole('button', { name: 'Start short quiz', exact: true }).click();
+      13 |   await page.goBack();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:10:99
+
+    Error Context: test-results/window-navigation-current--a4543--each-route-without-reloads-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-current--a4543--each-route-without-reloads-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-current--a4543--each-route-without-reloads-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  16) [safari] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+    Expected: 155
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link') with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      11 |   const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
+      12 |   const links = strip.getByRole('link');
+    > 13 |   await expect(links).toHaveCount(profiles.length);
+         |                       ^
+      14 |   await expect(strip.getByText('Placeholder', { exact: true })).toHaveCount(0);
+      15 |   for (const profile of profiles) {
+      16 |     const route = profile.catalogue === 'ideology' ? 'ideologies' : 'personalities';
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/home-strip.spec.ts:13:23
+
+    Error Context: test-results/home-strip-home-strip-uses-de6fb-o-both-types-of-detail-page-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/home-strip-home-strip-uses-de6fb-o-both-types-of-detail-page-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/home-strip-home-strip-uses-de6fb-o-both-types-of-detail-page-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  17) [safari] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('region', { name: 'Example result', exact: true })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('region', { name: 'Example result', exact: true }) with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+       9 |   await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
+      10 |   const example = page.getByRole('region', { name: 'Example result', exact: true });
+    > 11 |   await expect(example).toBeVisible();
+         |                         ^
+      12 |   await expect(example.getByRole('heading', { name: 'Social democracy' })).toBeVisible();
+      13 |   await expect(page.locator('#example-result-title')).toHaveText('Example result');
+      14 |   const portrait = example.getByRole('img', { name: 'Andy Burnham', exact: true });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:11:25
+
+    Error Context: test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-home-loads-Clarit-32fd2-y-labels-the-example-result-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  18) [safari] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+
+    Error: expect(received).toBeLessThan(expected)
+
+    Expected: < 2
+    Received:   243.34375
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      39 |   await expect(page).toHaveURL(/#\/\?section=values$/);
+      40 |   await expect(page.locator('#values article')).toHaveCount(15);
+    > 41 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+         |                                                                                                             ^
+      42 |   await page.evaluate(() => window.scrollTo(0, 0));
+      43 |   await clickValues();
+      44 |   await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:41:109
+
+    Error Context: test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-Values-navigation-2b30c-page-and-on-repeated-clicks-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  19) [safari] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-21/traces/310f5d38cd89ad55ea3f-c6ec6a982dfd8cf7dbf4-recording23.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-21/traces/310f5d38cd89ad55ea3f-c6ec6a982dfd8cf7dbf4-recording23-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-21/traces/310f5d38cd89ad55ea3f-c6ec6a982dfd8cf7dbf4-recording22.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-21/traces/310f5d38cd89ad55ea3f-c6ec6a982dfd8cf7dbf4-recording22-pwnetcopy-1.network'
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('link', { name: 'Choose comprehensive quiz', exact: true })
+
+
+      129 |   for (const name of ['short', 'medium', 'long', 'comprehensive']) {
+      130 |     await page.goto('./');
+    > 131 |     await page.getByRole('link', { name: `Choose ${name} quiz`, exact: true }).click();
+          |                                                                                ^
+      132 |     await expect(page).toHaveURL(new RegExp(`length=${name}$`));
+      133 |     await expect(page.getByRole('radio')).toHaveCount(5);
+      134 |     await expect(page.getByRole('checkbox', { name: 'Advance on answer' })).toBeChecked();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:131:80
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-21/2bf80a427d271cef7065f8e836d98a7b.zip'
+
+  20) [safari] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-24/traces/310f5d38cd89ad55ea3f-bf10b212603a036c24ec-recording3.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-24/traces/310f5d38cd89ad55ea3f-bf10b212603a036c24ec-recording3-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-24/traces/310f5d38cd89ad55ea3f-bf10b212603a036c24ec-recording2.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-24/traces/310f5d38cd89ad55ea3f-bf10b212603a036c24ec-recording2-pwnetcopy-1.network'
+
+    Error: locator.focus: Test ended.
+    Call log:
+      - waiting for getByRole('button', { name: 'Pause scrolling' })
+
+
+      140 |   await page.emulateMedia({ reducedMotion: 'no-preference' });
+      141 |   const track = page.locator('[data-paused]');
+    > 142 |   await page.getByRole('button', { name: 'Pause scrolling' }).focus();
+          |                                                               ^
+      143 |   await page.keyboard.press('Enter');
+      144 |   await expect(track).toHaveCSS('animation-play-state', 'paused');
+      145 |   await page.getByRole('button', { name: 'Resume scrolling' }).press('Enter');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:142:63
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-24/75bff3a7550a36baadceefbb1d6d3e50.zip'
+
+  21) [safari] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-25/traces/310f5d38cd89ad55ea3f-a0f151936bbfaa622b04-recording1.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-25/traces/310f5d38cd89ad55ea3f-a0f151936bbfaa622b04-recording1-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-25/traces/310f5d38cd89ad55ea3f-a0f151936bbfaa622b04.network'
+
+    Error: locator.boundingBox: Test ended.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example result', exact: true })
+
+
+      159 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      160 |   const button = await action.boundingBox();
+    > 161 |   const example = await page.getByRole('region', { name: 'Example result', exact: true }).boundingBox();
+          |                                                                                           ^
+      162 |   expect(button!.y + button!.height).toBeLessThan(740);
+      163 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      164 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:161:91
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-25/f89988875d0d3646d96089064acb9695.zip'
+
+  22) [safari] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-26/traces/310f5d38cd89ad55ea3f-e713593f6dccbc3e9916-recording1.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-26/traces/310f5d38cd89ad55ea3f-e713593f6dccbc3e9916-recording1-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-26/traces/310f5d38cd89ad55ea3f-e713593f6dccbc3e9916.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-26/traces/310f5d38cd89ad55ea3f-e713593f6dccbc3e9916-pwnetcopy-1.network'
+
+    Error: locator.click: Test ended.
+    Call log:
+      - waiting for getByRole('link', { name: 'Privacy & your data' })
+
+
+      178 |   await expect(page.getByRole('heading', { name: 'Different questions. Different dimensions.' })).toHaveCount(0);
+      179 |   await expect(page.getByRole('heading', { name: 'From your answers to your axes.' })).toHaveCount(0);
+    > 180 |   await page.getByRole('link', { name: 'Privacy & your data' }).click();
+          |                                                                 ^
+      181 |   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your views. Your data.');
+      182 |   await page.getByRole('link', { name: 'Image credits', exact: true }).click();
+      183 |   await expect(page.getByRole('link', { name: 'CC BY 2.0 licence' })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/2.0/');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:180:65
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-26/7183d80981eb0cecc705214868daff86.zip'
+
+  23) [safari] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+
+    Error: expect(locator).toBeDisabled() failed
+
+    Locator: getByRole('button', { name: 'Download feedback' })
+    Expected: disabled
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeDisabled" getByRole('button', { name: 'Download feedback' }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'Download feedback' })
+
+
+      186 | test('feedback download works without submitting or storing the draft', async ({ page }) => {
+      187 |   await page.goto('./#/feedback');
+    > 188 |   await expect(page.getByRole('button', { name: 'Download feedback' })).toBeDisabled();
+          |                                                                         ^
+      189 |   await page.getByLabel('Your feedback', { exact: true }).fill('The values explanation is useful.');
+      190 |   const pending = page.waitForEvent('download');
+      191 |   await page.getByRole('button', { name: 'Download feedback' }).click();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:188:73
+
+    Error Context: test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-feedback-download-e002c-itting-or-storing-the-draft-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  24) [safari] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-29/traces/b28a81d7079595d0160f-5f4a1857ff773cc8abc9-recording2.trace'
+
+    Error Context: test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  25) [safari] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-28/traces/b28a81d7079595d0160f-55911f716f0a84fd621f-recording5.trace'
+
+    Error Context: test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  26) [safari] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-30/traces/b28a81d7079595d0160f-07fa5e20f15948291f07-recording4.trace'
+
+    Error Context: test-results/quiz-blocked-browser-stora-87446-revent-completion-or-export-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-blocked-browser-stora-87446-revent-completion-or-export-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-blocked-browser-stora-87446-revent-completion-or-export-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  27) [safari] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-31/traces/b28a81d7079595d0160f-4d2d85875bef1a98c130-recording2.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-31/4b295ffbe626f2f791633fcaee9ef0d0.zip'
+
+    Error Context: test-results/quiz-reviewing-answers-rec-a58a9-bmission-is-always-explicit-safari/error-context.md
+
+  28) [safari] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates 
+
+    Error: expect(locator).toBeVisible() failed
+
+    Locator: getByRole('heading', { name: 'Your perspective profile.' })
+    Expected: visible
+    Timeout: 5000ms
+    Error: element(s) not found
+
+    Call log:
+      - Expect "toBeVisible" getByRole('heading', { name: 'Your perspective profile.' }) with timeout 5000ms
+      - waiting for getByRole('heading', { name: 'Your perspective profile.' })
+
+
+      233 |   await expect(page.getByRole('button', { name: 'Saved in this browser', exact: true })).toBeDisabled();
+      234 |   await page.reload();
+    > 235 |   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
+          |                                                                                  ^
+      236 |   expect(JSON.parse((await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY))!).results).toHaveLength(1);
+      237 | });
+      238 |
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/quiz.spec.ts:235:82
+
+    Error Context: test-results/quiz-a-failed-automatic-sa-c4a2e--retried-without-duplicates-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-a-failed-automatic-sa-c4a2e--retried-without-duplicates-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-a-failed-automatic-sa-c4a2e--retried-without-duplicates-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  29) [safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.click: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true })
+
+
+       8 |   await page.getByRole('banner').getByRole('link', { name: '15 Values home', exact: true }).click();
+       9 |   expect(await page.evaluate(() => history.length)).toBe(initialLength);
+    > 10 |   await page.getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true }).click();
+         |                                                                                                   ^
+      11 |   await page.getByRole('contentinfo').getByRole('link', { name: 'Quiz formats', exact: true }).click();
+      12 |   await page.getByRole('button', { name: 'Start short quiz', exact: true }).click();
+      13 |   await page.goBack();
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:10:99
+
+    Error Context: test-results/window-navigation-current--a4543--each-route-without-reloads-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-current--a4543--each-route-without-reloads-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-current--a4543--each-route-without-reloads-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  29 failed
+    [desktop] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+    [desktop] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+    [desktop] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+    [desktop] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+    [desktop] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+    [desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+    [mobile] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+    [mobile] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+    [mobile] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+    [mobile] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+    [mobile] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+    [mobile] › tests/quiz.spec.ts:48:3 › Short: complete every question and export the expected independent scores 
+    [mobile] › tests/quiz.spec.ts:48:3 › Medium: complete every question and export the expected independent scores 
+    [mobile] › tests/results.spec.ts:148:1 › legacy results keep their scores and explain incompatible comparisons 
+    [mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+    [safari] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page 
+    [safari] › tests/platform.spec.ts:4:1 › home loads Clarity City and clearly labels the example result 
+    [safari] › tests/platform.spec.ts:32:1 › Values navigation opens the home axes section from another page and on repeated clicks 
+    [safari] › tests/platform.spec.ts:128:1 › all four home format cards start their corresponding quiz 
+    [safari] › tests/platform.spec.ts:138:1 › resuming the strip works while the control retains focus 
+    [safari] › tests/platform.spec.ts:155:1 › mobile primary action precedes the example and is visible without scrolling 
+    [safari] › tests/platform.spec.ts:166:1 › landing axis cards cover all 15 agreed axes and replace the old sections 
+    [safari] › tests/platform.spec.ts:186:1 › feedback download works without submitting or storing the draft 
+    [safari] › tests/quiz.spec.ts:48:3 › Long: complete every question and export the expected independent scores 
+    [safari] › tests/quiz.spec.ts:108:1 › history saves automatically, survives reload and supports import, deduplication and deletion 
+    [safari] › tests/quiz.spec.ts:138:1 › blocked browser storage and corrupt imports never prevent completion or export 
+    [safari] › tests/quiz.spec.ts:148:1 › reviewing answers recalculates the result and final submission is always explicit 
+    [safari] › tests/quiz.spec.ts:214:1 › a failed automatic save preserves the result and can be retried without duplicates 
+    [safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads 
+  154 passed (5.1m)

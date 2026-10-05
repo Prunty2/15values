@@ -1,0 +1,2618 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "ideology",
+  "id": "fascism",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex /root/libertarian_historical; strict re-audit of revision 1",
+  "changeNote": "Strict evidence re-audit after user-identified reliability concerns. All 240 literal questions reconsidered; unsupported representative modelling, missing doctrinal positions and permission-to-recommendation inferences withdrawn as null/unknown. Revision 1 remains immutable. Draft is not publishable until evidence gaps and independent review are resolved. Resumed primary-source research supplies additional question-specific positions; unresolved items remain unknown pending evidence and method clarification.",
+  "metadata": {
+    "name": "Fascism",
+    "description": "Italian Fascism as articulated around 1932: an authoritarian national state, corporatist economic coordination and expansionist politics. Historical description, not endorsement.",
+    "category": "Fascist",
+    "period": "Italian Fascist doctrinal settlement, 1927–1932",
+    "scope": "Gentile’s earlier educational foundations, the 1932 Mussolini/Gentile doctrine, 1927 Labour Charter and 1929 Lateran settlement, checked against historical scholarship. This specific Italian variant is not a generic label for present governments. Later 1938 racial legislation is outside scope; Nazi biological claims are not imported.  Strict revision-2 re-audit: assess only source-supported positions on the exact questions. Unsupported empirical comparisons, modern technology analogies and institutional particulars remain unknown. Absence of doctrine is not a neutral position. This draft must not be used to calculate or publish a complete profile.",
+    "phrase": "An authoritarian national state that subordinates individual and class interests to national unity, corporatist coordination and expansion."
+  },
+  "sources": [
+    {
+      "id": "doctrine",
+      "title": "Benito Mussolini: What is Fascism? 1932",
+      "url": "https://sourcebooks.fordham.edu/mod/mussolini-fascism.asp",
+      "publisher": "Fordham University Internet History Sourcebooks",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "charter",
+      "title": "La Carta del lavoro, 1927",
+      "url": "https://www.polyarchy.org/basta/documenti/carta.lavoro.1927.html",
+      "publisher": "Polyarchy, primary-text reproduction",
+      "date": "1927-04-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lateran",
+      "title": "Lateran Treaty and Concordat",
+      "url": "https://www.vatican.va/roman_curia/secretariat_state/archivio/documents/rc_seg-st_19290211_patti-lateranensi_it.html",
+      "publisher": "Holy See",
+      "date": "1929-02-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "history",
+      "title": "Fascism",
+      "url": "https://encyclopedia.ushmm.org/content/en/article/fascism-1",
+      "publisher": "United States Holocaust Memorial Museum",
+      "date": "2019-05-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gentile-education",
+      "title": "The Reform of Education, chapter IX",
+      "url": "https://www.gutenberg.org/files/36762/36762-h/36762-h.htm",
+      "publisher": "Project Gutenberg; Giovanni Gentile",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "The doctrine rejects liberal electoral sovereignty and political competition in favour of an authoritative state claiming to embody the nation. Re-audit: 7 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "The state can consult organised interests, but its recognised syndicates do not create independent worker democracy. The rejection of numerical majority rule is explicit. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The doctrine rejects government legitimacy resting on periodically counted electoral majorities.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: National governments should be chosen by a panel of experts rather than by the general electorate.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: Every adult citizen should have the right to vote, regardless of their education or intelligence.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Executive authority may supersede parliamentary opposition in the claimed interest of national unity.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A plural opposition entitled to compete equally conflicts with the authoritarian one-party conception.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Independent opposition control of spending inquiries would constrain the leadership in ways the doctrine rejects.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: Courts independent of the government should be able to overturn government decisions that violate the constitution.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The Charter recognises controlled syndicates as state organs, not independent unions entitled to choose the government.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Suppressing parties regarded as threats to national unity follows the doctrine’s explicit intolerance of liberal political competition.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "A binding popular repeal right would place numerical opinion above the state’s authoritative political judgement.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The leadership’s claim to embody the nation supports decisive concentrated policy authority.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: Elected representatives should be able to remove the head of government for serious abuse of power through a defined constitutional process.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: A national leader should be able to postpone scheduled elections without independent approval when they consider political continuity necessary.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: Voters should be able to remove an elected representative before their term ends through a defined recall vote.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The national state is not required to derive authority from elections or independent parliamentary accountability.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this specific selection, franchise or accountability mechanism. A theory limiting state powers, or rejecting the state, is not evidence for the proposed electoral design; opposition to rights violations is not opposition to every non-electoral design. Exact proposition assessed: The armed forces should be able to replace a civilian government on their own judgement that it is unfit to govern.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Individual liberty is permitted insofar as the state judges it compatible with national discipline and collective purpose. Re-audit: 14 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "This does not mean the doctrine requires every conceivable surveillance measure: techniques are conditional instruments. Charter welfare protections also acknowledge regulated interests of workers. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Adults should be allowed to make personal choices such as drug use that risk personal wellbeing when they do not directly harm others.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Authorities should be allowed to monitor private communications when a court authorises the surveillance to investigate serious crime.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Peaceful public demonstrations should be allowed even when they temporarily obstruct roads or access to businesses, provided emergency access remains available.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Offensive criticism is not protected merely because it is nonviolent when the state treats it as subversive.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: The government should be able to require adults to follow health measures intended primarily to protect those adults themselves.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Police should be allowed to keep records of people’s movements for several years, even when those people are not suspected of an offence.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Police should be allowed to stop drivers at random and test them for intoxication, even without a reason to suspect impairment.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Authorities should be able to restrict a person’s movements before they commit an offence when a court finds a serious risk that they will harm others.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Private moral choice does not override the state’s authority to control cultural expression and adult media.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: People should be allowed to use online communication services without having to verify their identity with the government.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Police should be able to stop and search people without individual suspicion when there is a credible threat of serious violence in the area.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Authorities should be able to prohibit a public gathering when there is credible evidence that it is likely to lead to serious disorder.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Police should need a court warrant to search someone’s home without their consent, except when there is an immediate threat to someone’s safety.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: People should be allowed to publish confidential government information that reveals official misconduct.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Adults should be allowed to own firearms for personal defence, subject to checks for a history of violence.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General liberty, state power, security or welfare commitments do not establish the specified policing procedure, evidentiary threshold or particular adult entitlement. A power being compatible with the doctrine is not evidence that this measure should be adopted. Exact proposition assessed: Authorities should be allowed to hold people suspected of terrorism without independent court review until they consider the threat resolved.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "National unity and a common public culture take priority over autonomous group identities. Re-audit: 14 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "The 1932 ethical-national conception is distinct from the later racial laws and from Nazi hereditary membership. Cultural priority here is inferred from national integration, not a fabricated genetic criterion. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The doctrine treats an integrated national culture as a central object of state formation.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Public services should accommodate different cultural practices, even when doing so requires additional public spending.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: People who settle permanently in a country should be expected to adopt its cultural customs.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Becoming part of the national community should not require giving up a foreign cultural identity.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Public institutions should prioritise using the national language over providing services in several foreign languages.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: National ceremonies should acknowledge Indigenous peoples within the nation, even when they make up a very small share of the population.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Government cultural funding should primarily support my country’s predominant traditions.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Preserving distinct identities cannot take precedence over integration into the state’s common national purpose.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Public institutions should organise their schedules around one common cultural calendar rather than accommodate different communities’ celebrations.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: The government should recognise several cultural traditions as part of my country’s national identity.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Integration programmes should encourage migrants to participate in the wider national community rather than live mainly within culturally separate communities.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Public signage should be written in foreign languages to accommodate migrants within their communities.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Families should give greater emphasis to a shared national identity than to a distinct community identity.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Full body coverings, such as the burqa, should remain legal even when other full body coverings are prohibited.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: My country’s national identity should include several distinct cultural ways of life.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General national unity, pluralism or individual freedom does not establish the specified cultural funding, public-service, ceremonial, family or assimilation preference. Permission for private conduct is not a positive social recommendation. Exact proposition assessed: Government integration programmes should emphasise adopting shared national customs rather than maintaining distinct community customs.",
+          "sources": [
+            "doctrine",
+            "history",
+            "lateran"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The checked sources do not establish defensible answers to this axis’s sixteen exact propositions. The previous numeric responses are withdrawn; no axis position can be inferred from these unresolved answers. Re-audit: 16 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Prior general principles or contextual examples did not answer the literal comparisons. Treating doctrinal silence, possible competing considerations or empirical non-ranking as 0 was incorrect. More specific evidence is required; no counter-position is fabricated.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Permanent immigration should be subject to a strict annual numerical limit, based on housing availability and workforce deficits.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: People should generally be allowed to settle in another country to improve their living conditions.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Only applicants with skills considered important to my country should normally qualify for permanent residence.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Partners and dependent children of immigrants who are permanently settled in my country should generally be allowed to join them.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Refugees fleeing their home countries should be allowed to settle permanently, regardless of their skills or cultural compatibility.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: People who migrate illegally should be allowed to remain in my country rather than face deportation.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Permanent immigration should be limited even when employers want to recruit more workers from abroad.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Immigration should be reduced to ease pressure on housing and public services, even when additional arrivals would bring economic benefits.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Family immigration should count towards the same annual numerical limit as other permanent immigration.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: People with a confirmed job offer should generally be allowed to move to my country for work.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Applicants for permanent settlement should need sponsorship from an employer or family member.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: Graduating from one of my country’s universities should not, by itself, provide a route to permanent residence.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: People fleeing persecution should be allowed to enter and receive protection even when ordinary immigration limits have been reached.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: The government should prioritise migrants from culturally similar countries.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: My country should allow non-citizen migrants to receive welfare benefits or live in social housing.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited doctrine and contextual state acts do not establish this precise admissions, permanence, sponsorship or eligibility rule. General solidarity, national control or property rights cannot supply the missing policy detail. Exact proposition assessed: My country should allow more migrants from diverse backgrounds because their cultures differ from our own.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "The doctrine valorises conflict, military discipline and imperial expansion, rejecting permanent peace as a supreme objective. Re-audit: 9 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "This is a doctrinal interpretation of the 1932 text, not a claim that every tactical compromise or arms agreement was impossible. Military means remain chosen by leadership. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Expansion of national power can justify force without a prior attack under the doctrine’s account of imperial vitality.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: Diplomatic measures should take priority over military action, even when they are slower to achieve my country’s aims.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Military strength warrants major sacrifices because national power is given priority over individual comfort.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: Military action should be permitted to prevent an imminent attack when there is strong evidence that the attack is being prepared.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Restricting force to retaliation contradicts the explicit endorsement of expansion and struggle.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should require male citizens to complete a period of military service to train a large, capable force and deter potential aggressors.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Concessions to avoid conflict are not preferred when they weaken prestige or the national project.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should develop AI-powered weapons that can select and attack targets without a human approving each attack if this would make military operations more efficient and improve national security.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Imperial ambition requires capacities beyond repelling attacks on existing national territory.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Avoiding war at any cost contradicts the text’s rejection of peace as the highest political good.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should maintain forces capable of prolonged combat beyond its borders.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should leave a territorial dispute unresolved rather than start a war to settle it.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should be willing to threaten military action to obtain concessions in serious international disputes.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Accepting war risk to demonstrate resolve fits the doctrine’s valuation of struggle rather than giving de-escalation categorical priority.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should use military espionage to gain an advantage over potential opponents, even when doing so risks worsening relations with them.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not settle this precise capability, escalation, threat, diplomatic trade-off or modern weapons policy. A general defence or expansion principle does not establish every means or threshold. Exact proposition assessed: My country should accept reductions in its military capabilities as part of negotiated efforts to prevent war.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "The state is the highest political authority; binding outside control is inconsistent with sovereign national power. Re-audit: 14 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Treaties and alliances can be tools of expansion. Cooperation is therefore not excluded, but has no independent authority above the national state. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National state authority is final rather than subordinate to international legislative institutions.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: International institutions should have authority to make binding decisions for my country, even when my government opposes those decisions.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: Courts in my country should have final authority when national law conflicts with an international court’s ruling.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should make long-term commitments to international alliances, even when those commitments limit its freedom to act independently.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should be able to withdraw from international commitments without needing approval from international institutions.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: International courts should have binding authority over disputes involving my government, including cases brought against its own officials.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The nation’s power and development take precedence over impartial global welfare aggregation.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: Countries should give international institutions decision-making authority over environmental problems that cross national borders.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should remain outside international blocs that require members to adopt a common foreign policy.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: International human-rights institutions should be able to require changes to my country’s laws.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should keep control of its currency rather than transfer monetary policy to a shared international authority.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should pool funding and decision-making with other countries to manage shared international problems.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should retain sole authority over entry at its borders rather than share that authority with international institutions.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should accept common trade rules negotiated with other countries rather than set all its trade rules independently.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should keep control of national policy rather than join an international political federation.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: General sovereignty, rights or international cooperation does not establish this specific allocation of final jurisdiction or binding institutional commitment. Opposition to unlimited authority does not answer a question that proposes limited binding authority. Exact proposition assessed: My country should join international efforts to enforce collectively agreed rules, even when staying neutral would better serve its immediate interests.",
+          "sources": [
+            "doctrine",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "The Labour Charter favours private initiative under state discipline and permits public intervention where private action is inadequate or political interests require it. Re-audit: 13 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Corporatist direction is not equivalent to universal public ownership. Sector examples are applications of Charter VII–IX, which leave organisational choice conditional. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Charter VII calls private initiative the most efficient normal instrument of national production, within state responsibility.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Essential utility networks in my country, such as water supply networks, should be publicly owned.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Where outcomes are genuinely equal, the Charter’s stated preference for private initiative favours private provision.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: My country should establish publicly owned businesses in competitive industries rather than leave those industries entirely to private owners.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Healthcare facilities in my country should generally be privately owned, even when treatment is publicly funded.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Passenger rail infrastructure in my country should be publicly owned.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Publicly funded services should be contracted to privately owned providers when they can offer comparable quality and access at lower cost.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: My country should have publicly owned banks alongside private banks.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: My country should sell publicly owned commercial businesses to private owners.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Public bodies should own a substantial share of rental housing in my country.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private defence suppliers fit the Charter where the state can effectively direct production toward military objectives.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Businesses extracting natural resources in my country should generally be publicly owned.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: Public bodies should contract routine services, such as waste collection, to privately owned businesses rather than operate their own providers.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: The government should retain ownership of strategic businesses even when selling them would raise substantial public revenue.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: A publicly owned business that repeatedly needs financial support should be sold to private owners rather than kept in public ownership.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not determine ownership of this sector or the exact public/private choice. Regulation, public funding, potential state intervention and service importance do not establish title or a recommendation to use that ownership form. Exact proposition assessed: My country should own a national broadcaster rather than leave broadcasting entirely to private owners.",
+          "sources": [
+            "charter"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "The checked sources do not establish defensible answers to this axis’s sixteen exact propositions. The previous numeric responses are withdrawn; no axis position can be inferred from these unresolved answers. Re-audit: 16 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Prior general principles or contextual examples did not answer the literal comparisons. Treating doctrinal silence, possible competing considerations or empirical non-ranking as 0 was incorrect. More specific evidence is required; no counter-position is fabricated.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should use import tariffs to protect domestic businesses from foreign competition.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should remove most barriers to international trade, even when some domestic businesses lose sales.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My government should favour domestic suppliers when purchasing goods, even when foreign suppliers offer lower prices.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: Businesses in my country should be free to buy goods and materials from whichever country offers the best terms.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should restrict imports of essential goods to preserve domestic production, even when imported goods cost less.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should reduce its own trade barriers even when other countries do not do the same.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should temporarily restrict imports to help new domestic industries become established, even when this raises prices for consumers.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: Foreign investors should be allowed to establish businesses on the same terms as domestic investors, even when local firms face more competition.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should restrict agricultural imports to preserve domestic farming capacity.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: Domestic businesses should adjust to foreign competition rather than receive government trade protection.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should impose tariffs in response to tariffs placed on its exports.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: Foreign and domestic products should face the same product taxes in my country.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should restrict imports from foreign firms that receive large subsidies from their governments.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: Trade agreements signed by my country should remove tariffs, even when this increases dependence on foreign suppliers.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: My country should prevent foreign investors from gaining control of strategic businesses, even when they offer more investment than domestic buyers.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular tariff, tax, procurement or foreign-investment rule. Strategic control, free cooperation or permitted intervention cannot establish each specific trade instrument. Exact proposition assessed: People in my country should be free to buy online services from foreign providers without special trade restrictions.",
+          "sources": [
+            "charter",
+            "doctrine",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Private management operates inside corporatist coordination, compulsory collective contracts and state intervention for national objectives. Re-audit: 13 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "The Charter rejects both independent class conflict and universal replacement of private initiative. It regulates wages through collective mechanisms rather than requiring one uniform numerical wage floor. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Firms organise production, but Charter VII makes management responsible to the state’s national objectives.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should set compulsory production targets for economically important industries.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: Prices in my country should generally be determined by supply and demand rather than set by government.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should direct investment towards sectors chosen in a national economic plan.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: Businesses in my country should expand or close according to consumer demand rather than government production plans.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should control the prices of essential goods, even when suppliers would prefer to charge more.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: Businesses in my country should be able to enter an industry without having to prove to the government that more production is needed.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should direct banks to lend to industries it considers national priorities.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: People and businesses should be able to move their money abroad without government approval.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should subsidise selected industries to steer economic development, even when private investors would favour other sectors.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: Privately issued currencies should be allowed to compete with government-issued money.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should set a legal minimum wage rather than leave the lowest wages entirely to negotiation between employers and workers.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Charter XII entrusts wage determination to collective agreements between employer and worker organisations, within compulsory state supervision and national-production constraints, rather than prescribing one government wage schedule.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: My government should direct central-bank lending and interest-rate policy to support its national economic plan.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this particular planning instrument, wage-setting mechanism, capital rule or monetary institution. General coordination and possible intervention are insufficient for the proposition. Exact proposition assessed: Rental prices in my country should be set by market demand rather than government rent controls.",
+          "sources": [
+            "charter"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Corporatist organs coordinate ordinary production, while private managers retain operational responsibility.",
+          "sources": [
+            "charter"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "The checked sources do not establish defensible answers to this axis’s sixteen exact propositions. The previous numeric responses are withdrawn; no axis position can be inferred from these unresolved answers. Re-audit: 16 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Prior general principles or contextual examples did not answer the literal comparisons. Treating doctrinal silence, possible competing considerations or empirical non-ranking as 0 was incorrect. More specific evidence is required; no counter-position is fabricated.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should use taxes and benefits to substantially reduce differences in disposable income.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Reducing income differences should not, by itself, justify taking more income through taxation.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should provide a stronger minimum income through benefits, even when this requires higher taxes.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Income benefits should provide a basic safety net rather than substantially narrow differences in living standards.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Higher earners in my country should pay a substantially larger share of their income in tax than lower earners.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: People in my country should retain more of their earnings, even if this leaves larger income differences between households.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should tax large inheritances to fund income support for people with fewer resources.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Income support for working-age adults who can work should have a time limit, even if some recipients still have low incomes when it ends.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should tax accumulated wealth to fund transfers to households with low incomes.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Income benefits should be kept modest so that those funding them face a lower tax burden.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: People eligible for income benefits should receive enough support to participate in ordinary social life, beyond meeting basic survival needs.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should prioritise cutting taxes over increasing cash benefits.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should provide publicly funded income supplements to low-paid workers.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Additional income earned by high earners should not face higher tax rates than additional income earned by other workers.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: My country should redistribute some large landholdings to people with little or no land, compensating owners through public funds.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular cash-benefit, tax or land-transfer preference. Welfare services are not cash redistribution; opposition to all compulsory welfare does not itself endorse the question’s specific transitional restriction. Exact proposition assessed: Cash benefits should be restricted to households unable to meet basic needs rather than extended to a wider range of low-income households.",
+          "sources": [
+            "charter",
+            "doctrine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "The Lateran settlement gives Catholicism official public standing while preserving the Fascist state’s political supremacy. Re-audit: 8 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Religious establishment is not unrestricted government by clergy. Church-state accommodation and independent clerical legislative veto are different propositions. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: My country’s laws should be justified without relying on the teachings of any particular religion.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: Religious teachings should be an official source of national law in my country.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: My government should make policy without needing approval from religious leaders.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Treaty Article 1 confirms Catholicism’s official status in the Italian state.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The Concordat gives Catholic religious teaching a privileged role rather than a wholly neutral public-school framework.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The settlement supports Catholic instruction in public education.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: My country’s state courts should apply laws enacted by civil institutions rather than rulings issued by religious authorities.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: Religious authorities should have an official role in reviewing proposed laws before my government enacts them.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: Official ceremonies held by my government should not include organised religious worship.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concordat Article 30 maintains state supplements to clerical income. This is a concrete financial commitment to religious ministry, beyond mere recognition of church institutions.",
+          "sources": [
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: Government buildings should not display symbols endorsing a particular religion.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Concordat Article 11 explicitly recognises listed Catholic feast days as public holidays. This directly supports the religious calendar proposition.",
+          "sources": [
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The evidence does not establish the specified state-religion institution or privilege. Personal belief, equal citizenship, general church accommodation or possible private arbitration does not settle this narrower official arrangement. Exact proposition assessed: Religious leaders should not hold government seats solely because of their religious office.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Concordat protects specified ecclesiastical revenues and abolishes special church-property taxes, supporting privileged fiscal treatment beyond general charitable equivalence.",
+          "sources": [
+            "lateran",
+            "doctrine"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Concordat Article 34 gives civil effect to Catholic marriages and reserves ecclesiastical matrimonial determinations. The settlement preserves religious authority in marriage rather than removing it.",
+          "sources": [
+            "lateran"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Concordat Article 34 reserves marriage-nullity matters to ecclesiastical tribunals and provides recognition through Italian civil procedures. This supports binding religious family-law decisions in a specified area.",
+          "sources": [
+            "lateran"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Family continuity and religious public morality coexist with a revolutionary project to reshape national character. Re-audit: 15 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "The 1932 doctrine is not simple preservation of every inherited institution: it rejects liberal precedents and insists the state can transform citizens. Modern identity questions are conditional institutional analogies. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Social customs in my country should be open to substantial change as people’s values change.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Preserving long-standing social traditions should take priority over adapting them to new values.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Families outside the traditional two-parent married household should receive the same social recognition as that household.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Society should continue to encourage distinct traditional roles for men and women.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Marriage in my country should be available to couples regardless of their sex.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Established marital family life is privileged as a source of social continuity and national formation.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Choosing an abortion early in pregnancy should be socially accepted.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Parents should have the final say over whether their children receive school lessons that conflict with the family’s traditional sexual values.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Same-sex couples should be as socially accepted as adoptive parents as opposite-sex couples.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Traditional expectations about modest dress should continue to guide how people dress in public.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Language conventions should change to reflect how people identify themselves, even when this departs from traditional usage.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Passing established moral customs to the next generation should take priority over encouraging new ones.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Adults who take on roles traditionally associated with the other sex should receive the same social acceptance as those who follow traditional roles.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Changes to long-standing social institutions should be gradual, even when faster change is popular.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Schools should teach pupils about different sexual orientations and gender identities, even when these differ from traditional family expectations.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this particular social acceptance or traditional-practice preference. Legal freedom is distinct from social approval; family protection or religious identity alone does not supply a detailed position on the practice. Exact proposition assessed: Long-standing customs should be preserved for their connection to earlier generations, even when their practical purpose is no longer clear.",
+          "sources": [
+            "doctrine",
+            "lateran",
+            "charter"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "The checked sources do not establish defensible answers to this axis’s sixteen exact propositions. The previous numeric responses are withdrawn; no axis position can be inferred from these unresolved answers. Re-audit: 16 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Prior general principles or contextual examples did not answer the literal comparisons. Treating doctrinal silence, possible competing considerations or empirical non-ranking as 0 was incorrect. More specific evidence is required; no counter-position is fabricated.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should allow new technologies to be widely used when early evidence suggests substantial benefits, even if long-term risks remain uncertain.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: New technologies should remain limited to small trials until there is substantial evidence about their long-term risks.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should approve major infrastructure projects when their public benefits are substantial, even if some natural habitats are permanently lost.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: New medical technologies should not become widely available until their long-term safety has been studied.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should adopt AI systems that raise workplace productivity, even if many existing jobs are replaced and workers must retrain.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: Preserving undisturbed habitats should take priority over development projects, even when the projects would bring substantial public benefits.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should support replacing some conventional meat production with cultivated meat, even before its long-term environmental effects are fully understood.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: Brain implants intended to enhance the abilities of healthy people should remain limited to research until there is strong evidence of long-term safety.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should prioritise technological solutions to climate change over reducing energy and material consumption, even when those technologies are not yet proven at large scale.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: Major construction projects should be delayed while their environmental effects remain poorly understood, even when the projects are expected to benefit the public.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: Adults should be allowed to use brain implants to enhance their mental abilities once basic safety requirements are met, even if long-term effects remain uncertain.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: AI systems used to make medical diagnoses should remain limited to supervised trials until there is strong evidence of their reliability across different patient groups.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should allow controlled trials of embryo gene editing to enhance human abilities, rather than limit gene editing to preventing disease.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: Genetically modified crops should require evidence of long-term ecosystem safety before widespread cultivation, even if early trials show higher yields.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should prioritise expanding housing and transport infrastructure over preserving undeveloped land when the two conflict.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The cited evidence does not establish this technology-specific or environment-development priority and safety threshold. General innovation, health protection, ethical review or permission is insufficient; there is no supported neutral balance for this exact proposition. Exact proposition assessed: My country should delay technologies that could cause irreversible harm until there is strong evidence that the harm is unlikely, even when early evidence suggests substantial benefits.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "The unified state takes precedence over autonomous regional authority. Re-audit: 12 question-level answers are unresolved and cannot support a complete axis placement.",
+      "counterEvidence": "Corporatist and local administration can perform delegated functions. Administrative decentralisation does not create a right to resist national political decisions. Earlier conditional or hypothetical explanations are not evidence of neutrality unless retained with specific support; withdrawn rows identify the gap.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Protected regional power against the national state conflicts with comprehensive political unity.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Final authority in territorial disputes belongs to the national state rather than independently sovereign regions.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: A state or region should be allowed to leave a country or federal union if a majority of its voters supports leaving in a referendum.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National authorities can override regional programmes when they conflict with the integrated national project.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: States and regions should be able to adopt their own constitutions defining how their governments work, within the rights protected by the national constitution.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Police forces should be directed by a single national authority rather than by separate state or regional governments.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: State and local governments should keep most of the tax revenue collected in their area rather than send it to the national government to allocate.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A common national curriculum serves the ethical state’s formation of citizens.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Regional governments should be able to raise or lower their own tax rates, even if this means people pay different rates in different parts of the country.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Employment laws should be set nationally, even if states or regions want different rules on working hours or dismissal.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Local voters should be able to change the powers and boundaries of their councils without national approval.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: The national government should decide which medical treatments public healthcare covers, even if regional governments would cover different treatments.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Indigenous communities should be able to govern local affairs within their territories through their own institutions rather than through national authorities.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: The national government should set limits on how states and regions can compete with each other through lower taxes.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: Regional governments should decide how to manage land and wildlife when the effects of those decisions stay within their region.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The source does not establish this allocation of powers, fiscal revenue or territorial consent procedure. State unity, voluntary association, local participation or protection of rights alone does not settle the question’s jurisdictional choice. Exact proposition assessed: During a disaster affecting several regions, the national government should direct the emergency response, even if regional authorities prefer their own plans.",
+          "sources": [
+            "doctrine",
+            "charter",
+            "history"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Gentile’s educational idealism supports specific acquired-character answers. His writings do not settle all sixteen modern empirical comparisons.",
+      "counterEvidence": "The newly checked primary text supports only the specific restored answers. Remaining comparisons and policy particulars remain unresolved; this evidence does not justify filling doctrinal silence with neutral answers.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: People’s behaviour is shaped more by upbringing and social surroundings than by inherited tendencies.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in IQ scores between countries can be explained more by inherited characteristics than by upbringing and education.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Where men and women behave differently, social expectations and upbringing explain more of the difference than biology does.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in people’s sensitivity to stress are explained more by biological differences than by social surroundings and experience.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in people’s interests are shaped more by experiences and opportunities than by inherited tendencies.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: People’s willingness to take risks is shaped more by inherited tendencies than by learning and experience.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Whether people develop cooperative habits depends more on their social surroundings than on inherited tendencies.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in people’s capacity for empathy are explained more by inherited characteristics than by social experience and upbringing.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in people’s ability to sustain attention are explained more by their experiences and surroundings than by inherited characteristics.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: People’s immediate reactions to what they consider right or wrong are shaped more by biological predispositions than by upbringing and culture.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Differences in what people find threatening are explained more by learning and experience than by inherited tendencies.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Gentile, chapter IX, makes acquired character the basis of temperament and expressly reverses biological determinism. His account of education supports disagreement; this records historical idealism, not established psychology.",
+          "sources": [
+            "gentile-education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: People’s preferences about physical attractiveness are shaped more by culture and personal experience than by inherited tendencies.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: Different races being more likely to commit violent acts (per capita) is better explained by biological differences than by upbringing and social surroundings.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Chapter IX describes restraint of desire and fear as learned accomplishments. Applying this educational account to self-control supports learning over inherited racial tendencies, without importing later racial doctrine.",
+          "sources": [
+            "gentile-education"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved on re-audit: The sources do not establish the comparative causal claim in this question. Normative equality, education policy, spiritual agency, broad hereditarianism or acknowledging two possible causes does not establish which explains more; absence of ranking is unknown, not neutrality. Exact proposition assessed: The gender pay gap can be attributed to differences in economic value between men and women instead of different social expectations.",
+          "sources": [
+            "doctrine",
+            "charter"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex independent peer reviewer /root/liberal_conservative",
+    "reviewedAt": "2026-10-04",
+    "notes": "Independent revision-2 review against all 240 exact questions, retained numeric claims and unresolved rows. Corrected institutional-premise substitutions and evidence overreach; source-supported nulls remain unresolved. This is a reviewed research draft, not approval to publish an incomplete placement. Question-level findings recorded in the audit report. 1 question corrections. Subsequent restored answers require fresh independent review; earlier peer review does not cover them. Restoration continuation: all 240 records compared with current wording and preceding independent review; 2 new research answers checked against primary passages. Gentile explicitly reverses temperament/character priority in chapter IX, within his actualist educational theory. Disciplined spirit and learnt restraint support qualified self-control inference. These are historical philosophical beliefs, not validated psychology; the earlier educational foundation is disclosed in scope. Incomplete evidence prevents publication; this review does not certify a complete profile.",
+    "similarity": []
+  }
+}

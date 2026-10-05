@@ -1,0 +1,3155 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "australia",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex (GPT-6), independent Australia assessment agent",
+  "changeNote": "Initial Australia assessment: all 15 briefs and 237 supported responses completed; three precise causal-evidence gaps retained as unknowns after separate evidence review. Kept as a draft for independent audit, not publication. Focused gap research on 5 October 2026 retained 3 explicit unknowns; review notes record the sources checked and limitations. Completion on 5 October 2026 resolves 3 remaining responses under the owner-authorised educated-assumption rule; the earlier unresolved draft and reviews are preserved separately.",
+  "metadata": {
+    "name": "Australia",
+    "description": "Australia’s federal parliamentary institutions and implemented policies under Anthony Albanese through 4 October 2026, including state variation. This is an interpreted assessment of government practice, not citizens’ beliefs.",
+    "category": "Federal parliamentary constitutional monarchy",
+    "period": "Contemporary institutions and implemented policy under the Albanese government, through 2026-10-04",
+    "scope": "Commonwealth institutions and implemented policy, with state and territory variation where relevant; not citizens’ beliefs or a party manifesto. Government explanatory frameworks are explicitly inferred for human-development questions. Includes provisional educated assumptions where the exact institutional response is not documented; these are labelled in the answer file and completion review.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/australia-r1.png",
+      "alt": "Australian national flag: blue ensign with Commonwealth Star and Southern Cross",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg",
+      "creator": "Original design: Ivor Evans, Leslie John Hawkins, Egbert John Nuttall, Annie Dorrington and William Stevens; vector: Ian Fieggen",
+      "license": "Public domain (expired Australian Crown copyright)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Australia"
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-2026",
+      "title": "Australia: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/australia/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pm",
+      "title": "Prime Minister of Australia: incumbent and 1 October 2026 media entries",
+      "url": "https://www.pm.gov.au/",
+      "publisher": "Department of the Prime Minister and Cabinet",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "Commonwealth of Australia Constitution Act, current consolidated constitutional text",
+      "url": "https://www.legislation.gov.au/C2004Q00685/1977-07-29/1977-07-29/text/1/epub/OEBPS/document_1/document_1.html",
+      "publisher": "Federal Register of Legislation",
+      "date": "1977-07-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hrw",
+      "title": "World Report 2026: Australia, events of 2025",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/australia",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oecd",
+      "title": "OECD Economic Surveys: Australia 2026",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-australia-2026_d22a1efd-en.html",
+      "publisher": "OECD",
+      "date": "2026-01-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "control",
+      "title": "Control orders",
+      "url": "https://www.ag.gov.au/national-security/australias-counter-terrorism-laws/control-orders",
+      "publisher": "Attorney-General's Department",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "retention",
+      "title": "Industry obligations: electronic surveillance data retention",
+      "url": "https://www.ag.gov.au/crime/electronic-surveillance/industry-obligations",
+      "publisher": "Attorney-General's Department",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "esafety",
+      "title": "Social media minimum age FAQ: government ID not compulsory",
+      "url": "https://www.esafety.gov.au/about-us/industry-regulation/social-media-age-restrictions/faqs",
+      "publisher": "eSafety Commissioner",
+      "date": "2026-09-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drugs",
+      "title": "Drug laws in Australia",
+      "url": "https://www.health.gov.au/topics/drugs/about-drugs/drug-laws-in-australia",
+      "publisher": "Department of Health, Disability and Ageing",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rbt",
+      "title": "Alcohol limits, drugs and medicines",
+      "url": "https://www.nsw.gov.au/driving-boating-and-transport/driving-nsw/roads-safety-and-rules/safe-driving/alcohol-and-drugs",
+      "publisher": "NSW Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "classification",
+      "title": "How a rating is decided",
+      "url": "https://www.classification.gov.au/classification-ratings/how-rating-decided",
+      "publisher": "Australian Classification",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "firearms",
+      "title": "Firearms: National Firearms Agreement",
+      "url": "https://www.homeaffairs.gov.au/about-us/our-portfolios/criminal-justice/firearms",
+      "publisher": "Department of Home Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "whistleblower",
+      "title": "Army whistleblower loses bid to reduce prison sentence",
+      "url": "https://apnews.com/article/1e7b44e76e645690c91874753bc87fe2",
+      "publisher": "Associated Press",
+      "date": "2025-05-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multicultural",
+      "title": "About multicultural affairs",
+      "url": "https://www.homeaffairs.gov.au/about-us/our-portfolios/multicultural-affairs/about-multicultural-affairs",
+      "publisher": "Department of Home Affairs",
+      "date": "2026-09-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multifund",
+      "title": "An Australia for all: Multicultural Framework Review and funded response",
+      "url": "https://minister.homeaffairs.gov.au/AndrewGiles/Pages/an-australia-for-all-the-multicultural-framework-review-24072024.aspx",
+      "publisher": "Minister for Immigration, Citizenship and Multicultural Affairs",
+      "date": "2024-07-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "migration",
+      "title": "Permanent Migration Program planning levels 2026–27",
+      "url": "https://immi.homeaffairs.gov.au/what-we-do/migration-program-planning-levels",
+      "publisher": "Department of Home Affairs",
+      "date": "2026-05-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "humanitarian",
+      "title": "Australia’s Humanitarian Program 2026–27",
+      "url": "https://www.homeaffairs.gov.au/reports-and-publications/submissions-and-discussion-papers/australias-humanitarian-program-2026-27",
+      "publisher": "Department of Home Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "visas",
+      "title": "Permanent work visas",
+      "url": "https://immi.homeaffairs.gov.au/work-in-australia/Pages/permanent-work-visas/permanent-work-visas.aspx",
+      "publisher": "Department of Home Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "residence",
+      "title": "Residence rules for JobSeeker Payment",
+      "url": "https://www.servicesaustralia.gov.au/residence-rules-for-jobseeker-payment?context=51411",
+      "publisher": "Services Australia",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence",
+      "title": "2026 National Defence Strategy and Integrated Investment Program",
+      "url": "https://www.defence.gov.au/about/strategic-planning/2026-national-defence-strategy-2026-integrated-investment-program",
+      "publisher": "Department of Defence",
+      "date": "2026-04-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defenceaction",
+      "title": "Preparing Australia for future strategic challenges",
+      "url": "https://www.defence.gov.au/news-events/news/2026-04-17/preparing-australia-future-strategic-challenges",
+      "publisher": "Department of Defence",
+      "date": "2026-04-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-ap",
+      "title": "Australia boosts military spending as Iran war makes global impact",
+      "url": "https://apnews.com/article/a708e6d4f03bb3619349b7f312403336",
+      "publisher": "Associated Press",
+      "date": "2026-04-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "treaties",
+      "title": "Australia’s treaty-making process",
+      "url": "https://www.dfat.gov.au/international-relations/treaties/treaty-making-process",
+      "publisher": "Department of Foreign Affairs and Trade",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fta",
+      "title": "Free trade agreements in force",
+      "url": "https://www.dfat.gov.au/trade/agreements/in-force",
+      "publisher": "Department of Foreign Affairs and Trade",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fta-policy",
+      "title": "About free trade agreements",
+      "url": "https://www.dfat.gov.au/trade/about-ftas/about-free-trade-agreements",
+      "publisher": "Department of Foreign Affairs and Trade",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "isds",
+      "title": "Investor-state dispute settlement",
+      "url": "https://www.dfat.gov.au/trade/investment/investor-state-dispute-settlement",
+      "publisher": "Department of Foreign Affairs and Trade",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gbe",
+      "title": "Government Business Enterprises",
+      "url": "https://www.finance.gov.au/government/government-business-enterprises",
+      "publisher": "Department of Finance",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nbn",
+      "title": "NBN Co Limited: public ownership",
+      "url": "https://www.finance.gov.au/government/government-business-enterprises/nbn-co-limited-nbn",
+      "publisher": "Department of Finance",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "healthsystem",
+      "title": "The Australian health system",
+      "url": "https://www.health.gov.au/topics/about-the-department/australian-health-system",
+      "publisher": "Department of Health, Disability and Ageing",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "privatehospitals",
+      "title": "Private hospitals",
+      "url": "https://www.health.gov.au/topics/hospital-care/about/private-hospitals",
+      "publisher": "Department of Health, Disability and Ageing",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "Housing assistance in Australia 2025",
+      "url": "https://www.aihw.gov.au/reports/housing-assistance/housing-assistance-in-australia-2025/contents/summary",
+      "publisher": "Australian Institute of Health and Welfare",
+      "date": "2025-06-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Commonwealth Procurement Rules, effective 17 November 2025",
+      "url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules",
+      "publisher": "Department of Finance",
+      "date": "2025-11-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procvalue",
+      "title": "Value for money: procurement rule 4",
+      "url": "https://www.finance.gov.au/government/procurement/commonwealth-procurement-rules/value-money",
+      "publisher": "Department of Finance",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "buyau",
+      "title": "Consideration of Australian businesses: implemented procurement rules",
+      "url": "https://sellingtogov.finance.gov.au/guide/australian-business",
+      "publisher": "Department of Finance",
+      "date": "2025-11-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariff-ap",
+      "title": "Australia will not retaliate against US tariffs",
+      "url": "https://apnews.com/article/fe8ad2239a20c65d42c9249c05ae9303",
+      "publisher": "Associated Press",
+      "date": "2025-03-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fmia",
+      "title": "Future Made in Australia",
+      "url": "https://treasury.gov.au/policy-topics/future-made-australia",
+      "publisher": "Australian Treasury",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rba",
+      "title": "About Monetary Policy",
+      "url": "https://www.rba.gov.au/monetary-policy/about.html",
+      "publisher": "Reserve Bank of Australia",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "Financial Innovation and the Future of CBDC in Australia",
+      "url": "https://www.rba.gov.au/speeches/2024/sp-ag-2024-09-18.html",
+      "publisher": "Reserve Bank of Australia",
+      "date": "2024-09-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fairwork",
+      "title": "Fair Work system",
+      "url": "https://www.fairwork.gov.au/about-us/legislation/the-fair-work-system/default",
+      "publisher": "Fair Work Ombudsman",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "incometax",
+      "title": "Income Tax Rates Act 1986: compilation from 1 July 2026",
+      "url": "https://www.legislation.gov.au/C2004A03348/2026-07-01/2026-07-01/text/original/epub/OEBPS/document_1/document_1.html",
+      "publisher": "Federal Register of Legislation",
+      "date": "2026-07-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "taxcuts",
+      "title": "2026 PAYG withholding tax tables: enacted income-tax changes",
+      "url": "https://softwaredevelopers.ato.gov.au/PAYGWTaxtables",
+      "publisher": "Australian Taxation Office",
+      "date": "2026-05-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "inheritance",
+      "title": "When and how to lodge returns for a deceased estate",
+      "url": "https://www.ato.gov.au/individuals-and-families/deceased-estates/doing-trust-tax-returns-for-the-deceased-estate/when-and-how-to-lodge-returns-for-a-deceased-estate",
+      "publisher": "Australian Taxation Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "benefits",
+      "title": "Income and assets tests for JobSeeker Payment",
+      "url": "https://www.servicesaustralia.gov.au/income-and-assets-tests-for-jobseeker-payment?context=51411",
+      "publisher": "Services Australia",
+      "date": "2026-07-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religiouscharity",
+      "title": "Charity subtypes: advancing religion",
+      "url": "https://www.acnc.gov.au/for-charities/start-charity/you-start-charity/charity-subtypes",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prayers",
+      "title": "Prayers in Parliament: a chronology",
+      "url": "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Chronologies/2022-23/PrayersinParliament",
+      "publisher": "Parliamentary Library",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sre",
+      "title": "Advice for schools: special religious education and ethics",
+      "url": "https://education.nsw.gov.au/teaching-and-learning/curriculum/religion-and-ethics/advice-for-schools",
+      "publisher": "NSW Department of Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Guidelines on the Marriage Act 1961 for authorised celebrants",
+      "url": "https://www.ag.gov.au/families-and-marriage/publications/guidelines-marriage-act-1961-authorised-celebrants",
+      "publisher": "Attorney-General's Department",
+      "date": "2021-09-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "style",
+      "title": "Gender and sexual diversity",
+      "url": "https://www.stylemanual.gov.au/accessible-and-inclusive-content/inclusive-language/gender-and-sexual-diversity",
+      "publisher": "Australian Government Style Manual",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "respect",
+      "title": "Generation Respect",
+      "url": "https://www.respect.gov.au/generation-respect",
+      "publisher": "Australian Government Respect campaign",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "quail",
+      "title": "A1269: cultured quail authorised for sale",
+      "url": "https://www.foodstandards.gov.au/food-standards-code/applications/A1269-Cultured-Quail-as-a-Novel-Food",
+      "publisher": "Food Standards Australia New Zealand",
+      "date": "2025-06-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "environment",
+      "title": "More efficient and robust project assessments: commenced reforms",
+      "url": "https://www.dcceew.gov.au/environment/epbc/epbc-act-reform/more-efficient-robust-epbc-act-project-assessments",
+      "publisher": "DCCEEW",
+      "date": "2026-08-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medai",
+      "title": "Artificial intelligence and medical device software regulation",
+      "url": "https://www.tga.gov.au/products/medical-devices/software-and-artificial-intelligence-ai/manufacturing/artificial-intelligence-ai-and-medical-device-software",
+      "publisher": "Therapeutic Goods Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "clinical",
+      "title": "Clinical evidence guidelines for medical devices",
+      "url": "https://www.tga.gov.au/resources/resource/reference-material/clinical-evidence-guidelines",
+      "publisher": "Therapeutic Goods Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "embryo",
+      "title": "Embryo research licensing: key terms (gene-editing section)",
+      "url": "https://www.nhmrc.gov.au/about-us/publications/embryo-research-licensing-key-terms",
+      "publisher": "National Health and Medical Research Council",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "Risk Analysis Framework (2013), current reference",
+      "url": "https://www.ogtr.gov.au/resources/publications/risk-analysis-framework-2013",
+      "publisher": "Office of the Gene Technology Regulator",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "levels",
+      "title": "Levels of government",
+      "url": "https://peo.gov.au/understand-our-parliament/how-parliament-works/three-levels-of-government/levels-of-government",
+      "publisher": "Parliamentary Education Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disaster",
+      "title": "Disaster Recovery Funding Arrangements",
+      "url": "https://www.nema.gov.au/our-work/disaster-recovery/disaster-recovery-funding-arrangements",
+      "publisher": "National Emergency Management Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "temperament",
+      "title": "Australian Temperament Project: first 30 years",
+      "url": "https://aifs.gov.au/all-research/research-reports/australian-temperament-project",
+      "publisher": "Australian Institute of Family Studies",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "development",
+      "title": "Developmental differences in children who have experienced adversity",
+      "url": "https://aifs.gov.au/resources/practice-guides/developmental-differences-children-who-have-experienced-adversity",
+      "publisher": "Australian Institute of Family Studies",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "earlyyears",
+      "title": "Early Years Strategy 2024–2034 and first action plan",
+      "url": "https://www.education.gov.au/early-childhood/about/strategy-and-evaluation/early-years-strategy",
+      "publisher": "Department of Education",
+      "date": "2024-05-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "framework",
+      "title": "Updated learning frameworks now in force",
+      "url": "https://www.education.gov.au/early-childhood/announcements/updated-learning-frameworks-now-force",
+      "publisher": "Department of Education",
+      "date": "2024-02-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bodyimage",
+      "title": "Media and Body Image",
+      "url": "https://www.cci.health.wa.gov.au/~/media/CCI/Mental-Health-Professionals/Eating-Disorders/Eating-Disorders---Information-Sheets/Eating-Disorders-Information-Sheet---Media-and-Body-Image.pdf",
+      "publisher": "Centre for Clinical Interventions, WA Health",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "violence",
+      "title": "Indigenous perpetrators of violence: prevalence and risk factors",
+      "url": "https://www.aic.gov.au/publications/rpp/rpp105",
+      "publisher": "Australian Institute of Criminology",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "paygap",
+      "title": "What is the gender pay gap?",
+      "url": "https://www.wgea.gov.au/the-gender-pay-gap",
+      "publisher": "Workplace Gender Equality Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "flag",
+      "title": "Flag of Australia.svg: File description and public-domain licence",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Australia.svg",
+      "publisher": "Wikimedia Commons",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "laws",
+      "title": "Australia statement: lethal autonomous weapons systems",
+      "url": "https://unny.mission.gov.au/unny/250512_Informal_Consultations_Lethal_Autonomous_Weapons_Systems.html",
+      "publisher": "Australian Permanent Mission to the United Nations",
+      "date": "2025-05-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conscription",
+      "title": "Conscription",
+      "url": "https://www.awm.gov.au/articles/encyclopedia/conscription",
+      "publisher": "Australian War Memorial",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "signals",
+      "title": "ASD timeline: foreign intelligence and REDSPICE",
+      "url": "https://www.asd.gov.au/about/history/asd-timeline",
+      "publisher": "Australian Signals Directorate",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "intl-law",
+      "title": "International Law",
+      "url": "https://www.dfat.gov.au/international-relations/international-organisations/un/international-law",
+      "publisher": "Department of Foreign Affairs and Trade",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "foreigninvest",
+      "title": "Australia’s foreign investment framework",
+      "url": "https://foreigninvestment.gov.au/investing-in-australia/foreign-investment-framework",
+      "publisher": "Australian Treasury",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "dumping",
+      "title": "Dumping and countervailing duties",
+      "url": "https://www.abf.gov.au/importing-exporting-and-manufacturing/importing/cost-of-importing-goods/charges/dumping-and-countervailing-duties",
+      "publisher": "Australian Border Force",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "capital",
+      "title": "Capital movements: financial liberalisation",
+      "url": "https://www.rba.gov.au/publications/rdp/1989/8908/capital-movements.html",
+      "publisher": "Reserve Bank of Australia",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gas",
+      "title": "Gas registers: administered gas-price framework",
+      "url": "https://www.accc.gov.au/public-registers/gas-registers",
+      "publisher": "Australian Competition and Consumer Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minwage",
+      "title": "Minimum wages increase from 1 July 2026",
+      "url": "https://www.fairwork.gov.au/about-us/workplace-laws/annual-wage-review/annual-wage-review-2026",
+      "publisher": "Fair Work Ombudsman",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ftb",
+      "title": "What can affect your Family Tax Benefit",
+      "url": "https://www.servicesaustralia.gov.au/what-can-affect-your-family-tax-benefit?context=22151",
+      "publisher": "Services Australia",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eiac",
+      "title": "Economic Inclusion Advisory Committee 2026 Report to Government",
+      "url": "https://www.dss.gov.au/system/files/documents/2026-04/economic-inclusion-advisory-committee-2026-report-government.pdf",
+      "publisher": "Economic Inclusion Advisory Committee",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ilsc",
+      "title": "Who we are: Indigenous Land and Sea Corporation",
+      "url": "https://www.ilsc.gov.au/ilsc/who-we-are",
+      "publisher": "Indigenous Land and Sea Corporation",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holidays",
+      "title": "Public holidays fact sheet",
+      "url": "https://www.fairwork.gov.au/tools-and-resources/fact-sheets/minimum-workplace-entitlements/public-holidays",
+      "publisher": "Fair Work Ombudsman",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "reproductive",
+      "title": "Sexual and reproductive health and young people",
+      "url": "https://www.health.gov.au/topics/sexual-health/sexual-and-reproductive-health-and-young-people",
+      "publisher": "Department of Health, Disability and Ageing",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "relationships",
+      "title": "Couple relationships in Australia today",
+      "url": "https://aifs.gov.au/all-research/research-reports/couple-relationships-australia-today",
+      "publisher": "Australian Institute of Family Studies",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sexed",
+      "title": "Sexuality and sexual health education in NSW government schools",
+      "url": "https://education.nsw.gov.au/content/dam/main-education/teaching-and-learning/curriculum/key-learning-areas/pdhpe/media/documents/pdhpe-k-12-sexuality-health-education-nsw-schools.pdf",
+      "publisher": "NSW Department of Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "Australian Curriculum: implementation responsibilities",
+      "url": "https://www.acara.edu.au/curriculum/history-of-the-australian-curriculum/development-of-australian-curriculum",
+      "publisher": "ACARA",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gst",
+      "title": "About GST distribution",
+      "url": "https://www.cgc.gov.au/about-gst-distribution",
+      "publisher": "Commonwealth Grants Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "closinggap",
+      "title": "Closing the Gap: 2025 report and 2026 implementation",
+      "url": "https://www.niaa.gov.au/our-work/closing-gap",
+      "publisher": "National Indigenous Australians Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai",
+      "title": "National AI Plan: spread the benefits",
+      "url": "https://www.industry.gov.au/publications/national-ai-plan/spread-benefits",
+      "publisher": "Department of Industry, Science and Resources",
+      "date": "2025-12-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "selfreg",
+      "title": "Element 5.2.2: self-regulation",
+      "url": "https://www.acecqa.gov.au/element-522-self-regulation",
+      "publisher": "Australian Children's Education and Care Quality Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "empathy",
+      "title": "Supporting children to regulate their own behaviour",
+      "url": "https://www.acecqa.gov.au/qa5-information-sheet-supporting-children-regulate-their-own-behaviour",
+      "publisher": "Australian Children's Education and Care Quality Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eylf",
+      "title": "Early Years Learning Framework V2.0",
+      "url": "https://www.acecqa.gov.au/sites/default/files/2023-01/EYLF-2022-V2.0.pdf",
+      "publisher": "Australian Children's Education and Care Quality Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-nsw",
+      "title": "Police powers: Your rights and responsibilities",
+      "url": "https://www.legalaid.nsw.gov.au/ways-to-get-help/publications-and-resources/police-powers",
+      "publisher": "Legal Aid NSW",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-vic",
+      "title": "Getting searched",
+      "url": "https://www.legalaid.vic.gov.au/getting-searched",
+      "publisher": "Victoria Legal Aid",
+      "date": "2026-02-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "guns-nsw",
+      "title": "About Firearms Licence: genuine reason",
+      "url": "https://firearms.police.nsw.gov.au/cssp/s/about-firearms-licence?appType=Individual",
+      "publisher": "NSW Police Force",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adoption-nsw",
+      "title": "Adopting children with special care needs",
+      "url": "https://dcj.nsw.gov.au/children-and-families/adoption/adopting-a-child/adopting-children-with-special-care-needs.html",
+      "publisher": "NSW Department of Communities and Justice",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bank-privatisation",
+      "title": "Privatisation in Australia, Bulletin December 1997",
+      "url": "https://www.rba.gov.au/publications/bulletin/1997/dec/2.html",
+      "publisher": "Reserve Bank of Australia",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mineralinvestment",
+      "title": "Critical Minerals Strategy: developing strategically important projects",
+      "url": "https://www.industry.gov.au/publications/critical-minerals-strategy-2023-2030/our-focus-areas/1-developing-strategically-important-projects",
+      "publisher": "Department of Industry, Science and Resources",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abc",
+      "title": "Who We Are",
+      "url": "https://www.abc.net.au/about/who-we-are",
+      "publisher": "Australian Broadcasting Corporation",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "completion-charity-tax",
+      "title": "Charity tax concessions: general concessions and selected FBT exemptions",
+      "url": "https://www.acnc.gov.au/tools/factsheets/charity-tax-concessions",
+      "publisher": "Australian Charities and Not-for-profits Commission",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive parliamentary elections and judicial review structure national rule; Labor was returned in 2025 and Albanese remained prime minister at the cut-off. The system is representative, with constitutional referendums rather than ordinary-law initiative or recall.",
+      "counterEvidence": "Constitutional monarchy and some franchise exclusions qualify an otherwise strong electoral system. Freedom House corroborates electoral competition while flagging unequal rights and press constraints. Those liberty issues do not imply executive power to cancel elections.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Competitive elections determine parliamentary government; the 2025 result renewed Albanese’s mandate.",
+          "sources": [
+            "freedom-2026",
+            "pm"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Experts advise; competitive electorate-based selection, rather than an expert panel, chooses the governing majority.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Broad adult suffrage rejects education tests, although legal franchise exclusions make the absolute wording too strong.",
+          "sources": [
+            "freedom-2026",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislative power belongs to Parliament; the prime minister cannot simply override a rejected bill.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Opposition parties compete openly, with a realistic ability to replace the government.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary scrutiny and anti-corruption safeguards support opposition investigation of expenditure.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Independent constitutional adjudication can invalidate unlawful executive action.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union political influence does not replace the electorate’s selection of Parliament.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Competitive pluralism contradicts discretionary exclusion of parties merely for opposing policy positions.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Section 128 provides constitutional amendment referendums, not a general voter mechanism to repeal ordinary laws.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Cabinet, Parliament and courts divide authority; national policy is not one leader’s exclusive domain.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Responsible parliamentary government makes continued leadership dependent on elected parliamentary support; removal need not await election.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional parliamentary terms constrain election timing; continuity alone cannot authorise indefinite postponement.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The federal representative system supplies elections and vacancy rules but no electorate-initiated recall vote.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "National officials remain electorally and parliamentarily accountable in the functioning system.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Military command is constitutionally subordinate to civilian institutions, not an independent power to dismiss government.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Civil expression and courts coexist with extensive preventive, surveillance and public-order powers. Current social-media age regulation permits alternatives to government ID. Drug prohibition and firearms licensing remain significant restrictions.",
+      "counterEvidence": "HRW documents restrictive protest practice; courts can nevertheless reject police applications. Broad speech protection does not amount to unrestricted classified disclosures. Federal and state policing differ, and suspicionless powers require statutory conditions.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Recreational possession remains prohibited for many drugs; regulated alcohol and jurisdictional exceptions prevent categorical strong disagreement.",
+          "sources": [
+            "drugs"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Lawful interception and judicially authorised preventive powers support surveillance for serious-crime investigations.",
+          "sources": [
+            "retention",
+            "control"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Road-disrupting protests face restrictive enforcement even without violence; successful court challenges temper this inference.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public-institution criticism remains broadly protected in a competitive democracy despite offence.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Paternalistic drug controls support some compulsory protection from self-regarding health risks; this is a policy inference.",
+          "sources": [
+            "drugs"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mandatory retention of communications metadata for at least two years supports continuing records of nonsuspects, including location-related records.",
+          "sources": [
+            "retention"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "NSW explicitly permits random alcohol and drug testing without prior suspicion of impairment.",
+          "sources": [
+            "rbt"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Court-issued control orders can limit movement to prevent terrorist harm before a new offence occurs.",
+          "sources": [
+            "control"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Adult access is an express principle, balanced against refusal categories based on community standards and harmful content.",
+          "sources": [
+            "classification"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Age assurance is required on covered platforms, but users cannot be compelled to supply government ID.",
+          "sources": [
+            "esafety"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "NSW public-disorder target areas and Victorian designated weapons-search areas permit searches without individual suspicion. Geographic, temporal and authorisation limits support qualified agreement rather than unrestricted neighbourhood-wide searches.",
+          "sources": [
+            "police-nsw",
+            "police-vic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Police seek orders prohibiting high-risk gatherings, while independent courts can refuse the application.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Victoria ordinarily requires a warrant to search a home, with consent, arrest and urgent protective exceptions; NSW likewise uses premises-search warrants. The ordinary rule supports qualified agreement.",
+          "sources": [
+            "police-vic",
+            "police-nsw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "McBride’s failed sentencing appeal demonstrates that public-interest disclosure of classified material is not generally immunised.",
+          "sources": [
+            "whistleblower"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The national licensing framework requires a genuine authorised reason; NSW expressly excludes personal protection or protection of another person as a genuine reason. This contradicts the proposed general self-defence entitlement.",
+          "sources": [
+            "firearms",
+            "guns-nsw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Time-limited, judicially issued preventive orders contradict open-ended detention at authorities’ sole discretion.",
+          "sources": [
+            "control"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Implemented language access, multicultural grants and public Indigenous acknowledgements support multiple cultural identities within common civic institutions. Multiculturalism is combined with integration and social cohesion.",
+      "counterEvidence": "English-language civic participation and common law retain coordinating importance. Funding commitments are not proof that every service accommodates every custom; the framework review itself identified uneven delivery. Neither unrestricted immigration nor priority over general law follows from cultural recognition.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Shared civic cohesion and recognition of migrant cultures coexist; neither culture receives an unconditional trump over the other.",
+          "sources": [
+            "multicultural",
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Funded language services and community-access measures accept extra expenditure to accommodate cultural differences.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration is pursued alongside maintaining cultural identity, rather than wholesale adoption of dominant customs.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The government explicitly supports communities’ ability to retain ethnic and cultural identity within Australia.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "English facilitates shared institutions, but financed translation rejects an exclusive-language service model.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Current national executive communications formally acknowledge Traditional Owners and continuing Indigenous connections.",
+          "sources": [
+            "pm"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Dedicated multicultural funding supports traditions beyond the predominant national culture.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Social cohesion remains part of the policy; distinct identities do not unconditionally override common civic expectations.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A shared institutional calendar coexists with an official cultural and religious dates resource for accommodation.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Multicultural investment recognises multiple communities as constituents of national identity.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Multicultural Council’s integration and social-cohesion remit supports participation in wider society.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Language-access funding supports locally appropriate multilingual information; signage is a qualified inference from that access principle.",
+          "sources": [
+            "multifund"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cohesion and community identity are both legitimate; the state does not direct families to erase either.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious expression is protected, but ordinary identification and safety rules can qualify covering; exemption is context-dependent.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The contemporary government explicitly retains multiculturalism as part of national identity.",
+          "sources": [
+            "multicultural"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration funding supports community organisations and language access rather than making abandonment of customs its priority.",
+          "sources": [
+            "multifund"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The operative 2026–27 permanent program retains 185,000 places, concentrates on skills and prioritises applicants already onshore. Family and separate humanitarian channels remain. Offshore deterrence and removal measures make this a controlled admission system.",
+      "counterEvidence": "Partner and child places are demand-driven indicative allocations, not a strict universal cap. Refugee resettlement and cultural diversity counter a wholly exclusionary reading. Permanent places are not the same as net overseas migration; the latter also includes temporary visas.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Annual planning and onshore prioritisation reflect capacity concerns, but demand-driven family visas mean the cap is not absolute.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Settlement requires a qualifying visa; improving one’s circumstances alone does not establish admission rights.",
+          "sources": [
+            "visas"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Skills dominate the allocation, while family and humanitarian routes mean skilled applicants are not the only normal entrants.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Partner and child migration is explicitly supported and demand-driven.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A dedicated protection route does not depend on labour-market skills, although eligibility and entry conditions constrain access.",
+          "sources": [
+            "humanitarian"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Continuing removals and offshore arrangements reject a general right for unlawful migrants to remain.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Numerical planning and category priorities constrain admissions even when individual employers seek more workers.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Onshore-focused allocations expressly reduce the program’s contribution to net arrivals, balancing economic needs and domestic capacity.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Family places enter overall planning, but partner and child allocations are indicative rather than hard capped.",
+          "sources": [
+            "migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Employer pathways permit job-based migration, but skills, eligibility and visa rules make a job offer insufficient by itself.",
+          "sources": [
+            "visas"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skilled Independent visas demonstrate that employer or family sponsorship is not universally required.",
+          "sources": [
+            "visas"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Permanent work categories require independent qualifying criteria; holding an Australian degree is not itself a permanent visa.",
+          "sources": [
+            "visas"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Protection obligations coexist with entry restrictions and offshore deterrence; access beyond ordinary quotas is conditional.",
+          "sources": [
+            "humanitarian",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skills and family eligibility, rather than cultural-country similarity, organise the general permanent system.",
+          "sources": [
+            "multicultural",
+            "visas"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Eligible permanent residents can receive income support, subject to waiting periods and other residency requirements.",
+          "sources": [
+            "residence"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cultural diversity is valued, but admission numbers are justified by skills, family and capacity rather than difference alone.",
+          "sources": [
+            "multicultural",
+            "migration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Australia maintains an expeditionary-capable force and US alliance while presenting deterrence and regional diplomacy as complementary. The adopted 2026 strategy and investment program strengthen denial, long-range strike, submarines and cyber capabilities.",
+      "counterEvidence": "The strategy seeks deterrence rather than conquest; diplomatic engagement remains important. Voluntary service and support for weapons-law accountability qualify military expansion. Autonomous systems do not automatically imply unaccountable machine killing.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Protecting interests beyond the coastline and long-range strike imply willingness to act before Australia itself is attacked.",
+          "sources": [
+            "defenceaction"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Rules-based cooperation and deterrence make diplomacy an ordinary first route, without ruling out force.",
+          "sources": [
+            "intl-law",
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The adopted decade-long investment program accepts substantial costs for a stronger military advantage and deterrent.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Denial and long-range strike imply capacity to disrupt imminent threats; this is inferred, not a stated universal pre-emption rule.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Protecting sea routes and broader interests goes beyond responding only after an attack on Australia or an ally.",
+          "sources": [
+            "defenceaction"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Universal male national service ended and has not formed the contemporary defence model; emergency contingencies are distinct.",
+          "sources": [
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Building deterrence and independent capability indicates reluctance to trade important strategic standing for peace at any price.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Autonomous capability investment coexists with retained human responsibility; neither a per-strike veto nor unconstrained machine targeting is established.",
+          "sources": [
+            "laws",
+            "defence-ap"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Denial is defensive in purpose, but achieving it requires operations and force projection beyond home territory.",
+          "sources": [
+            "defenceaction"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The continuing centrality of alliances is incompatible with avoiding military assistance at all costs.",
+          "sources": [
+            "defence-ap"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Submarines, ships, air transport and sustainment investment support sustained combat capability outside national borders.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support for international adjudication and peaceful rules supports leaving territorial disagreements unresolved rather than starting war.",
+          "sources": [
+            "intl-law"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Deterrent capability signals potential force, but coercing concessions in every serious dispute is not the strategy’s general rule.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The government treats credible military resolve as a way of reducing war risk, making the hypothetical conflict conditional.",
+          "sources": [
+            "defenceaction"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign signals intelligence and expanded offensive cyber capability are maintained despite foreseeable diplomatic sensitivities.",
+          "sources": [
+            "signals"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Participation in arms regulation supports negotiated limits where reciprocal security is preserved, rather than unilateral disarmament.",
+          "sources": [
+            "intl-law",
+            "laws"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Domestic constitutional authority coexists with binding treaties, trade rules, international adjudication and long-term alliance commitments. Internationalism here means selective consent-based cooperation, not a supranational federation.",
+      "counterEvidence": "Australia retains border and monetary sovereignty. HRW’s documented refusal to follow some human-rights findings qualifies official support for international law. Treaties may bind internationally while still requiring domestic legislation.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Treaty implementation requiring legal changes must pass domestic Parliament; sovereignty remains constitutionally located in Australian institutions.",
+          "sources": [
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Australia accepts binding rules in agreed jurisdictions, not unrestricted international authority over every opposed policy.",
+          "sources": [
+            "intl-law",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Domestic courts apply Australian law; an international ruling does not itself amend legislation.",
+          "sources": [
+            "constitution",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The enduring US alliance and AUKUS commitments deliberately constrain independent defence choices.",
+          "sources": [
+            "defence-ap"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Treaty withdrawal is a domestic executive decision, although agreed notice and international obligations still govern its legal effect.",
+          "sources": [
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Support for international courts and criminal accountability accepts adjudication, with jurisdictional limits rather than universal external review.",
+          "sources": [
+            "intl-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refugee-policy conduct shows national border objectives can prevail despite adverse international human-rights findings.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Shared environmental treaties are supported while implementation and project decisions remain domestically administered.",
+          "sources": [
+            "environment",
+            "intl-law"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Alliances coordinate policy without placing Australia under a mandatory supranational common foreign policy.",
+          "sources": [
+            "treaties",
+            "defence-ap"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Adverse refugee-rights findings have not automatically compelled domestic legislative change.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Australia retains its own dollar and national monetary-policy institution rather than a shared international currency authority.",
+          "sources": [
+            "rba"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Participation in multilateral institutions and jointly negotiated regimes supports pooled responses to shared problems.",
+          "sources": [
+            "intl-law",
+            "fta"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Australian authorities determine admission and humanitarian eligibility rather than transferring border control to an international body.",
+          "sources": [
+            "migration",
+            "humanitarian"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "WTO disciplines and numerous implemented trade agreements establish acceptance of collectively negotiated trade rules.",
+          "sources": [
+            "fta-policy"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The sovereign federal constitution and consent-based treaties support retaining national policy rather than political federation.",
+          "sources": [
+            "constitution",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "International law and alliance commitments support collective enforcement even where immediate neutrality could be easier.",
+          "sources": [
+            "intl-law",
+            "defence-ap"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "A predominantly private economy retains strategic public enterprises, public hospitals, social housing and national broadcasting. Ownership is distinct from public financing or regulation.",
+      "counterEvidence": "Private hospitals and contracting remain integral. The public-enterprise list is selective, not a programme for owning most firms. Social housing is a small share of all households and varies by jurisdiction; this limits strong public-ownership answers.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Broad private-property and business rights support private ownership as the ordinary commercial model.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public network enterprises support public ownership of essential infrastructure, though utility ownership varies between jurisdictions.",
+          "sources": [
+            "nbn",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Value-for-money contracting coexists with retained public enterprises; comparable performance does not create an automatic ownership preference.",
+          "sources": [
+            "procvalue",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public commercial enterprises operate in selected sectors alongside private competitors, without a general policy to establish them everywhere.",
+          "sources": [
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The mixed system retains a major public hospital sector rather than generally preferring privately owned facilities.",
+          "sources": [
+            "healthsystem"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Public rail infrastructure and state transport responsibilities support continuing public infrastructure ownership.",
+          "sources": [
+            "gbe",
+            "levels"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private delivery can be contracted where it provides public services effectively; ownership need not follow funding.",
+          "sources": [
+            "privatehospitals",
+            "procvalue"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The established commercial-banking model follows privatisation of the Commonwealth Bank and state banks; the public central bank has a distinct monetary role. Retained targeted public finance qualifies opposition to a general public retail bank.",
+          "sources": [
+            "bank-privatisation",
+            "rba"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Retained national broadband ownership contradicts a general instruction to sell public commercial firms.",
+          "sources": [
+            "nbn"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public housing is maintained, but a limited social-housing footprint falls short of an unqualified substantial-share ownership policy.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Security screening permits regulated private businesses while strategic defence enterprises remain publicly owned.",
+          "sources": [
+            "foreigninvest",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The critical-minerals strategy finances and de-risks private investment and named commercial mining projects. That supports commercial extraction with selective public support rather than general public ownership.",
+          "sources": [
+            "mineralinvestment",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competitive procurement permits contracting routine services where the public purchaser obtains value; this is a qualified operational inference.",
+          "sources": [
+            "procvalue"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public ownership of strategic broadband, defence and energy businesses is retained despite potential sale proceeds.",
+          "sources": [
+            "nbn",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Commercial discipline matters, but continuing public finance for strategic networks means repeated support does not automatically require sale.",
+          "sources": [
+            "nbn",
+            "procvalue"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The ABC explicitly identifies itself as publicly owned and editorially independent. Its continuing national public-service role alongside commercial broadcasting directly supports retaining a national public broadcaster.",
+          "sources": [
+            "abc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Australia implements extensive tariff-reducing agreements and opposed retaliatory tariffs in 2025. Targeted domestic procurement, investment screening and anti-dumping duties qualify openness.",
+      "counterEvidence": "Future Made in Australia is industrial support, not by itself an import ban. Biosecurity and product safety restrictions should not be misclassified as protection of farm income. Some strategic investments face approval even where ordinary foreign commerce is welcomed.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Implemented agreements prioritise tariff reduction, while limited trade remedies prevent a categorical anti-tariff position.",
+          "sources": [
+            "fta-policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The large network of operative FTAs accepts competition and lower import costs.",
+          "sources": [
+            "fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Certain procurements invite only Australian businesses; value-for-money exceptions qualify the domestic preference.",
+          "sources": [
+            "buyau"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Lower import barriers allow firms to source competitively, subject to sanctions, safety and security rules.",
+          "sources": [
+            "fta-policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Supply-chain resilience is promoted through investment; this does not amount to a general restriction on essential imports.",
+          "sources": [
+            "fta",
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Refusing retaliatory tariffs despite US barriers supports unilateral restraint, although it is not universal tariff abolition.",
+          "sources": [
+            "tariff-ap"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Support for new industries uses targeted finance and incentives rather than an ordinary infant-industry import-ban policy.",
+          "sources": [
+            "fmia",
+            "fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Foreign investment is welcomed but screening requirements mean it is not always admitted on identical terms.",
+          "sources": [
+            "foreigninvest"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Agricultural trade liberalisation is part of the agreement framework; legitimate biosecurity controls do not establish capacity protection.",
+          "sources": [
+            "fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary competitive adjustment is favoured, with exceptions for dumped or subsidised imports.",
+          "sources": [
+            "fta-policy",
+            "dumping"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The government expressly rejected retaliation against the 2025 US steel and aluminium tariffs.",
+          "sources": [
+            "tariff-ap"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Non-discriminatory trade disciplines favour equivalent treatment of domestic and imported products, with regulated exceptions.",
+          "sources": [
+            "fta-policy"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Countervailing duties address subsidised imports even from free-trade partners when legal tests are met.",
+          "sources": [
+            "dumping"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Current trade agreements deliberately remove tariffs and expand international supply relationships.",
+          "sources": [
+            "fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National-security screening can restrict strategic acquisitions irrespective of the size of an investment offer.",
+          "sources": [
+            "foreigninvest"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign online services generally enter the market; applicable safety rules regulate operation rather than generally excluding foreign providers.",
+          "sources": [
+            "fta-policy",
+            "esafety"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market entry, demand and private investment are the baseline, qualified by industrial investment, minimum wages, sectoral regulation and public purchasing. The Fair Work Commission’s July 2026 minimum-wage increase is implemented.",
+      "counterEvidence": "Future Made in Australia directs support without imposing economy-wide production quotas. Public enterprises are not equivalent to central planning. RBA monetary-policy independence and market allocation coexist with intervention in essential services.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Commercial freedom and competition make firms’ own production choices the normal arrangement.",
+          "sources": [
+            "freedom-2026",
+            "fta-policy"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Selected industrial incentives do not impose compulsory production quotas across economically important industries.",
+          "sources": [
+            "freedom-2026",
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Market pricing is the usual basis, alongside regulated essential-service prices and procurement.",
+          "sources": [
+            "rba",
+            "procvalue"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The national industrial framework deliberately steers investment toward selected strategic and clean-energy sectors.",
+          "sources": [
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competition generally governs business expansion and closure, although targeted support can alter commercial outcomes.",
+          "sources": [
+            "fta-policy",
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Gas-market intervention demonstrates willingness to restrain essential prices; it is sector-specific rather than universal price administration.",
+          "sources": [
+            "gas"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Business establishment rights imply ordinary entry without proving an economic need for additional production.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strategic public investment coexists with independently allocated commercial bank lending, not general compulsory credit allocation.",
+          "sources": [
+            "rba",
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Financial liberalisation removed ordinary capital controls; reporting and sanctions obligations are distinct from universal approval.",
+          "sources": [
+            "capital",
+            "rba"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The industrial framework intentionally supports priority production where commercial incentives alone are insufficient.",
+          "sources": [
+            "fmia"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private digital assets can exist, while monetary sovereignty and the Australian dollar retain privileged institutional roles.",
+          "sources": [
+            "crypto"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A legally enforceable national minimum wage was increased from July 2026.",
+          "sources": [
+            "minwage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Enterprise bargaining operates above legally set award and minimum-wage floors; neither unrestricted bargaining nor universal schedules describes the system.",
+          "sources": [
+            "fairwork",
+            "minwage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The Reserve Bank operates independently with consultation rather than taking routine interest-rate directions for a production plan.",
+          "sources": [
+            "rba"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Market rents dominate private housing, with income-related social rents and tenancy regulation as exceptions.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Normal production and distribution remain decentralised among businesses despite selective industrial coordination.",
+          "sources": [
+            "freedom-2026",
+            "fmia"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income taxation and means-tested benefits redistribute income, while a targeted safety net, tax cuts and no inheritance tax limit equalisation. The July 2026 tax-rate reduction is enacted and applied.",
+      "counterEvidence": "The 2026 advisory report identifies benefit inadequacy; its recommended increases are not treated as government implementation. Family assistance extends beyond destitution, while private wealth and inheritance are largely retained. Land acquisition for Indigenous communities differs from general agrarian redistribution.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Progressive taxation and income-tested payments transfer resources toward lower-income households.",
+          "sources": [
+            "incometax",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Higher marginal rates and means-tested transfers recognise redistribution as a legitimate fiscal purpose.",
+          "sources": [
+            "incometax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Targeted support coexists with implemented tax cuts and unresolved adequacy recommendations; stronger tax-funded benefits are conditional.",
+          "sources": [
+            "taxcuts",
+            "eiac"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Means testing and documented adequacy shortfalls indicate a safety-net model rather than broad equalisation of living standards.",
+          "sources": [
+            "benefits",
+            "eiac"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The progressive statutory schedule imposes a substantially higher income-tax share on high earners.",
+          "sources": [
+            "incometax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Tax reductions allow greater retention, but a progressive structure remains; neither objective is unconditional.",
+          "sources": [
+            "taxcuts",
+            "incometax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Australia has no inheritance tax, directly contradicting this proposed transfer mechanism.",
+          "sources": [
+            "inheritance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Eligibility is tied to continuing income, assets and other conditions rather than a general lifetime duration cap.",
+          "sources": [
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The observed federal system taxes income and gains rather than adopting a comprehensive recurring net-wealth transfer tax.",
+          "sources": [
+            "inheritance",
+            "incometax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The modest targeted payment system prioritises fiscal constraint despite advisory calls to improve adequacy.",
+          "sources": [
+            "benefits",
+            "eiac"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Social participation is an adequacy concern, but actual payments remain constrained; principle and implemented generosity diverge.",
+          "sources": [
+            "eiac",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Implemented tax cuts coexist with family transfers, so neither is an absolute priority over the other.",
+          "sources": [
+            "taxcuts",
+            "ftb"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Income-tested family assistance supplements qualifying working households rather than excluding everyone earning wages.",
+          "sources": [
+            "ftb"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Higher marginal rates explicitly apply to additional income in higher brackets.",
+          "sources": [
+            "incometax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Publicly supported Indigenous land acquisition coexists with secure private ownership; there is no general large-estate redistribution programme.",
+          "sources": [
+            "ilsc",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family assistance extends to income-tested households above bare survival, rather than only people unable to meet immediate basic needs.",
+          "sources": [
+            "ftb"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil legislation, non-establishment and secular courts define the legal order. Religion retains ceremonial, educational and tax privileges without an official religious veto over government.",
+      "counterEvidence": "Parliamentary prayers, Christmas and Easter holidays and religion as a charitable purpose qualify strict separation. Optional religious instruction differs among states. Religious celebrants are authorised under civil law rather than supplying binding religious family law.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil legislative authority and non-establishment support public justification independent of any religious doctrine.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The constitutional order does not designate religious teachings as a national law source.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Executive and parliamentary decisions require no approval from religious leaders.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The preamble invokes God, but section 116 bars establishment of a national religion; no particular faith is foundational law.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public education includes general learning and optional confessional instruction; practices differ by jurisdiction.",
+          "sources": [
+            "sre"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "There is no recognised state religion to inculcate, although optional instruction in particular faiths is accommodated.",
+          "sources": [
+            "sre",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State courts apply civil law; religious marriage ceremonies derive legal effect from legislation.",
+          "sources": [
+            "constitution",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious officials have no constitutionally reserved legislative-review function.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Parliament retains organised Christian prayers, contradicting a blanket exclusion from official proceedings.",
+          "sources": [
+            "prayers"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Religious activity receives institutional accommodation and tax support, but public education is not generally a faith-strengthening programme.",
+          "sources": [
+            "sre",
+            "religiouscharity"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Christian institutional symbolism coexists with non-establishment; there is no uniform removal rule across government premises.",
+          "sources": [
+            "prayers",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Christmas and Easter remain official public holidays; their practical cultural role qualifies a specifically theological interpretation.",
+          "sources": [
+            "holidays"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary seats are not allocated by religious office, and federal office has no religious test.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "ACNC distinguishes general charitable concessions from additional FBT exemptions available in some cases to charities advancing religion. This supports qualified agreement with religion-specific privileges; merely classifying religion as charitable would not establish the statement’s extra-exemption condition.",
+          "sources": [
+            "religiouscharity",
+            "completion-charity-tax"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage is available through authorised civil celebrants without religious approval.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Religious ceremonies do not grant religious courts independent binding jurisdiction over Australian family law.",
+          "sources": [
+            "marriage",
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Marriage equality, recognition of diverse families, anti-discrimination and reproductive-health policy favour changing inherited social norms. Current official language and education guidance recognise gender and sexual diversity.",
+      "counterEvidence": "Religious freedom, parental consultation, public holidays and inherited constitutional institutions retain space for tradition. Federal guidance is not every state’s school rule or proof of universal social acceptance. Institutional legal recognition is used as evidence of the state’s position, not citizens’ views.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Marriage law and official language have changed to recognise social diversity rather than freezing older conventions.",
+          "sources": [
+            "relationships",
+            "style"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Implemented recognition adapts tradition where it conflicts with equal legal treatment.",
+          "sources": [
+            "style",
+            "relationships"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "De facto and varied family relationships receive legal and benefit recognition; marriage is not the sole legitimate household.",
+          "sources": [
+            "relationships",
+            "ftb"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Government equality guidance and prevention campaigns challenge rigid gender roles.",
+          "sources": [
+            "respect",
+            "style"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Same-sex marriage has been legally recognised nationally since December 2017.",
+          "sources": [
+            "relationships"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Recognition and assistance cover unmarried and sole-parent families, weakening a general married-household preference.",
+          "sources": [
+            "relationships",
+            "ftb"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official health guidance treats abortion access as reproductive healthcare; acceptance is inferred from that public-health approach.",
+          "sources": [
+            "reproductive"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Schools deliver sexuality education within public curricula while consulting families; parental beliefs are relevant but not the only authority.",
+          "sources": [
+            "sexed"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "NSW adoption eligibility assesses both heterosexual and same-sex married or de facto relationships against stability criteria. Together with national marriage equality, this supports an inferred government norm of equal parental acceptance, without claiming uniform public attitudes.",
+          "sources": [
+            "adoption-nsw",
+            "relationships"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Personal appearance is generally free; public-decency constraints do not prescribe a traditional modest-dress code.",
+          "sources": [
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Official guidance explicitly adjusts titles and pronouns to people’s gender identity.",
+          "sources": [
+            "style"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The state encourages replacing learned gender norms linked to disrespect rather than preserving them simply because inherited.",
+          "sources": [
+            "respect"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Anti-discrimination and gender-neutral occupational language reject inferior treatment for crossing traditional sex roles.",
+          "sources": [
+            "style"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Substantive legal change coexists with deliberate parliamentary and constitutional procedures; neither speed nor gradualism is universal.",
+          "sources": [
+            "relationships",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Curriculum covers identity, gender and sexuality despite differences in family traditions, with age-appropriate delivery and consultation.",
+          "sources": [
+            "sexed"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Inherited commemorations remain while other conventions change; preservation has a place but no unconditional priority.",
+          "sources": [
+            "holidays",
+            "style"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Australia combines active technology adoption and infrastructure development with risk-based approval. Cultured quail was legally authorised in June 2025. Environmental reforms commenced in stages in 2026, including the EPA and initial standards; later scheduled provisions are not counted as operational.",
+      "counterEvidence": "Medical devices and GM releases require evidence appropriate to risk rather than proof of zero long-term uncertainty. Fossil-fuel project approvals qualify conservation rhetoric. Embryo laboratory research must be distinguished from reproductive clinical enhancement; the older NHMRC page is used only for its gene-editing section.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "AI adoption is promoted, but higher-risk medical technology requires substantive evidence; no single early-benefit permission rule applies.",
+          "sources": [
+            "ai",
+            "clinical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Approved cultivated food and widespread AI support show that all technologies are not confined to trials pending long-term certainty.",
+          "sources": [
+            "quail",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Project approvals can proceed subject to assessment despite lasting habitat effects; conservation is not an absolute veto.",
+          "sources": [
+            "environment",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Safety evidence is risk-proportionate and post-market monitoring continues; not every technology must await exhaustive long-term studies.",
+          "sources": [
+            "clinical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The AI programme supports adoption with reskilling and worker participation, accepting labour-market change while mitigating displacement.",
+          "sources": [
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Infrastructure and resource approvals demonstrate that undisturbed habitat does not always take precedence over development benefits.",
+          "sources": [
+            "environment",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Actual authorisation of cultured quail permits substitution for conventional meat following food-safety assessment without complete environmental certainty.",
+          "sources": [
+            "quail"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "High-risk implants require substantial clinical evidence; extending this to healthy-person enhancement is an explicitly cautious regulatory inference.",
+          "sources": [
+            "clinical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Clean-industry investment prioritises technological decarbonisation, while efficiency and other measures remain compatible.",
+          "sources": [
+            "fmia",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Environmental assessment precedes approval, supporting delay where material impacts cannot adequately be evaluated.",
+          "sources": [
+            "environment"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A basic-safety threshold alone does not satisfy high-risk implant clinical-evidence requirements; the enhancement application is inferred.",
+          "sources": [
+            "clinical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Diagnostic AI requires transparent evidence of safety and performance for intended use; trial restriction is inferred until adequate reliability is shown.",
+          "sources": [
+            "medai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Some laboratory embryo-editing research may be licensable, but reproductive use is prohibited; the wording spans materially different activities.",
+          "sources": [
+            "embryo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Environmental release requires risk assessment and management addressing ecosystem consequences, without demanding proof of zero long-term risk.",
+          "sources": [
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Reforms streamline assessed infrastructure development, implying conditional preference for housing and transport over preserving every undeveloped site.",
+          "sources": [
+            "environment"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Risk-proportionate approval and precautions justify withholding technologies with credible irreversible harms until risks are sufficiently addressed.",
+          "sources": [
+            "clinical",
+            "gmo"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Constitutionally protected states coexist with Commonwealth fiscal capacity and national schemes. School delivery, police, land management and emergency response retain substantial state control; labour standards and Medicare have strong national roles.",
+      "counterEvidence": "Valid federal laws prevail over inconsistent state laws, but the High Court rather than the Commonwealth executive decides constitutional competence. Territories differ from states. Indigenous shared decision-making is an implemented partnership agenda, not full territorial sovereignty.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sections 106–107 preserve state constitutions and powers despite disagreement with federal policy.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional competence is judicially adjudicated rather than finally decided by the national government alone.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The federation is constitutionally indissoluble; a regional majority vote alone does not create a right of secession.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Valid federal law displaces inconsistent state law under section 109, but must remain within federal competence.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State constitutions remain operative and amendable within the federal constitutional framework.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "State and territory police remain separate from the Australian Federal Police.",
+          "sources": [
+            "levels"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Fiscal equalisation distributes national GST revenue by assessed need rather than retaining it where collected.",
+          "sources": [
+            "gst"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A shared national curriculum coexists with state and territory implementation authority and timetables.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "States retain own-source taxes and fiscal choices; equalisation adjusts capacity rather than requiring identical rates.",
+          "sources": [
+            "gst"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Most employment is covered by national Fair Work rules, with surviving jurisdictional exceptions.",
+          "sources": [
+            "fairwork"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Councils are principally state institutions, so national approval is usually unnecessary but local voters do not alone control every boundary change.",
+          "sources": [
+            "levels",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National Medicare coverage establishes common entitlements while states retain operational and supplementary healthcare decisions.",
+          "sources": [
+            "healthsystem"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Formal partnerships and community-controlled services give Indigenous institutions a role in local decisions, within Australian law.",
+          "sources": [
+            "closinggap"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National fiscal coordination coexists with state tax discretion; there is no general prohibition on all lower-tax competition.",
+          "sources": [
+            "gst"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "States administer local land and wildlife, subject to federal intervention where national protected matters are engaged.",
+          "sources": [
+            "levels",
+            "environment"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "States retain primary disaster responsibilities while Commonwealth resources and coordination support them; multiregion impact does not automatically transfer command.",
+          "sources": [
+            "disaster"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "This axis interprets documented government service models, not a claim that a nation has answered psychological research questions. Early-years regulation and prevention programmes stress learned behaviour; AIFS explicitly retains temperament and genetic influences. Mixed answers reflect that interaction.",
+      "counterEvidence": "Interventions can work even when a trait has biological influences, so a learning programme alone does not establish exclusive or predominant social causation. Cross-country IQ, comparative causes of interests, and immediate moral intuitions remain unresolved after targeted searches. Antidiscrimination law, learning opportunities and moral instruction are insufficient by themselves for those exact comparisons. Other answers are qualified interpretations of the cited government developmental frameworks, not scientific causal estimates. Completion note: previously unresolved question-level comparisons are now provisional educated assumptions, not documented adopted positions; see each explicit rationale and the preserved starting draft.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Early-years policy treats social environments as foundational to behaviour; moderate agreement is an operational-policy inference, not denial of inheritance.",
+          "sources": [
+            "earlyyears",
+            "eylf"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The early-years framework prioritises developmental environments, while the temperament research recognises inherited individual differences. Moderate disagreement is the likelier institutional interpretation of a national inherited-first ranking; this is an extrapolation, not an adopted account of national IQ, and individual heritability does not establish group causation.",
+          "sources": [
+            "earlyyears",
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The government’s gender-prevention campaign expressly treats gender norms and respectful conduct as learned and teachable.",
+          "sources": [
+            "respect"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official research recognises inherited vulnerability and adversity-related emotional regulation; neither consistently dominates stress sensitivity.",
+          "sources": [
+            "temperament",
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The learning framework develops interests through opportunities, alongside persistent temperament. Moderate agreement is likelier than strong agreement because these interventions favour experience operationally without measuring its comparative contribution to all interests.",
+          "sources": [
+            "eylf",
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The developmental model combines early dispositions with peer and family influences on risk behaviour, not inherited predominance alone.",
+          "sources": [
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Secure educator relationships and social learning are treated as causes of cooperative competence, supporting moderate agreement.",
+          "sources": [
+            "empathy"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Official guidance links increased empathy to secure relationships and social learning, undermining an inherited-characteristics-first model.",
+          "sources": [
+            "empathy"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Persistence and attention have temperamental continuity, while adversity and learning alter executive functioning; the institutional model is interactive.",
+          "sources": [
+            "temperament",
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Respect and self-regulation guidance locates moral habits in relationships and learning. Moderate disagreement is the likelier extrapolation to immediate moral responses, but teaching conduct does not prove a biological-versus-cultural causal ranking.",
+          "sources": [
+            "respect",
+            "selfreg"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adversity-informed guidance explains altered threat processing through experience; the broader predominance claim is a moderate inference.",
+          "sources": [
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Temperament is visible early and relatively stable but modifiable through parenting; the source explicitly supports both contributions.",
+          "sources": [
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "WA health guidance links beauty ideals and appearance evaluation to cultural trends and media exposure; this supports a limited cultural inference.",
+          "sources": [
+            "bodyimage"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The official offending framework identifies social, developmental and substance-related risks rather than inherited racial propensity as its explanation.",
+          "sources": [
+            "violence"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Self-regulation is taught through relationships and learning; inherited racial tendencies are not the institutional explanatory framework.",
+          "sources": [
+            "selfreg",
+            "violence"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The statutory agency attributes the gap to social and economic structures, discrimination and care patterns rather than intrinsic sex-based economic worth.",
+          "sources": [
+            "paygap"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex (GPT-6), primary agent /root; separate completion review following retained earlier assessment review",
+    "reviewedAt": "2026-10-05",
+    "notes": "Read all 240 question mappings, rationales and counterevidence in a separate pass after drafting. Replaced weak extrapolations with specific current NSW and Victorian police-search guidance, NSW genuine-reason firearms rule, NSW adoption eligibility, ABC public-ownership statement and official mining investment evidence. Distinguished national policy from state examples, declarations and advisory recommendations from implemented measures, and 2026 environmental commencement stages from later scheduled provisions. Removed invented day-level publication precision where only a month/year was supported. The causal review withdrew interests and immediate-moral-intuition answers because teachability alone did not justify the comparative claims; national IQ remains unresolved. All remaining answers marked inferred unless expressly supported as direct. This is an AI evidence review, not a human or independent second-agent review. Flag Commons source, public-domain status and downloaded image were checked; no archive, catalogue generation, similarity acceptance or browser integration is claimed. Parent will perform independent audit and integration. Focused continuation on 2026-10-05 by primary OpenAI Codex agent /root: Reread the Australian Temperament Project and ACECQA Element 5.2.2. Searched AIFS and official education material for interests, inheritance, national intelligence and moral biology. Individual development and taught self-regulation do not rank causes of national IQ, general interests or immediate moral reactions. A consultation submission hosted by the education department is not government adoption. All 3 exact question-level gaps remain null/unknown. Existing supported answers, period and cutoff are preserved. This was a focused same-agent research and separate challenge pass, not a complete independent re-review or publication sign-off. Completion review corrected the rationale for secular-religious-14: the additional selected FBT exemption, not ordinary charitable status, supports the retained qualified agreement. Source reread on 5 October 2026. Separate completion pass on 2026-10-05: checked the 3 new educated assumptions against exact question wording, agreement direction, contextual sources and prior withdrawal reasons. These are most-likely provisional estimates, not adopted national causal theories. The distinction between individual and national/racial heredity, immediate intuition and deliberate instruction, and interventions and causal predominance is retained. Assumption IDs: culture-nature-02, culture-nature-05, culture-nature-10. Reviewed neutral-heavy axis rationales: explicit mixed institutions, competing implemented rules and interaction models justify retained neutral choices; uncertainty alone was not used as the neutral rationale. Earlier whole-assessment review is preserved; this continuation does not claim a fresh independent 240-source reread or a human review. Similarity and browser checks are recorded separately after integration.",
+    "similarity": []
+  }
+}

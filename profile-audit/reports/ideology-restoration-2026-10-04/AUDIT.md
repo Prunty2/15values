@@ -16,30 +16,30 @@ Independent reviews corrected literal source mismatches, including Christian Dem
 
 | Profile | Supported | Unresolved | Reviewed records |
 | --- | ---: | ---: | ---: |
-| American Conservatism (Trump-era Republican programme) | 77 | 163 | 240 |
-| Anarcho-capitalism (Rothbardian) | 134 | 106 | 240 |
-| Christian Democracy (German CDU social-market tradition) | 105 | 135 | 240 |
-| Civic nationalism (Scottish SNP tradition) | 97 | 143 | 240 |
-| Communism (Chinese Marxist–Leninist governing tradition) | 112 | 128 | 240 |
-| Conservative Centrism (One Nation tradition) | 30 | 210 | 240 |
-| Democratic Socialism (DSA programme tradition) | 102 | 138 | 240 |
-| Fascism (Italian doctrine, 1927–1932) | 43 | 197 | 240 |
-| Green Politics (Global Greens Charter tradition) | 110 | 130 | 240 |
-| Islamism (Iranian Khomeinist tradition) | 43 | 197 | 240 |
-| Liberal Conservatism (Australian tradition) | 84 | 156 | 240 |
-| Liberal feminism (US egalitarian tradition) | 73 | 167 | 240 |
-| Liberalism (Liberal International tradition) | 70 | 170 | 240 |
-| Libertarianism (US Libertarian Party tradition) | 155 | 85 | 240 |
-| Luxemburgism (democratic revolutionary Marxism) | 64 | 176 | 240 |
-| Marxism (classical Marx–Engels) | 68 | 172 | 240 |
-| Minarchism (Nozick, 1974) | 92 | 148 | 240 |
-| Nationalist Conservatism (2022 NatCon principles) | 84 | 156 | 240 |
-| Nazism (German National Socialism, 1920–1945) | 64 | 176 | 240 |
-| Neoconservatism (post-Cold War American school) | 45 | 195 | 240 |
-| Objectivism (Ayn Rand) | 113 | 127 | 240 |
-| Social Anarchism (contemporary anarchist-communist tradition) | 31 | 209 | 240 |
-| Social Democracy (reformist mixed-economy tradition) | 84 | 156 | 240 |
-| Social Liberalism (British New Liberalism) | 92 | 148 | 240 |
+| American Conservatism | 77 | 163 | 240 |
+| Anarcho-capitalism | 134 | 106 | 240 |
+| Christian Democracy | 105 | 135 | 240 |
+| Civic nationalism | 97 | 143 | 240 |
+| Communism | 112 | 128 | 240 |
+| Conservative Centrism | 30 | 210 | 240 |
+| Democratic Socialism | 102 | 138 | 240 |
+| Fascism | 43 | 197 | 240 |
+| Green Politics | 110 | 130 | 240 |
+| Islamism | 43 | 197 | 240 |
+| Liberal Conservatism | 84 | 156 | 240 |
+| Liberal feminism | 73 | 167 | 240 |
+| Liberalism | 70 | 170 | 240 |
+| Libertarianism | 155 | 85 | 240 |
+| Luxemburgism | 64 | 176 | 240 |
+| Marxism | 68 | 172 | 240 |
+| Minarchism | 92 | 148 | 240 |
+| Nationalist Conservatism | 84 | 156 | 240 |
+| Nazism | 64 | 176 | 240 |
+| Neoconservatism | 45 | 195 | 240 |
+| Objectivism | 113 | 127 | 240 |
+| Social Anarchism | 31 | 209 | 240 |
+| Social Democracy | 84 | 156 | 240 |
+| Social Liberalism | 92 | 148 | 240 |
 | Thatcherism | 93 | 147 | 240 |
 
 ## Verification

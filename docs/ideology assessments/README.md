@@ -7,6 +7,15 @@ For an existing assessment, use `audit-ideology` with its ID. Follow the
 The shared procedure supplies the evidence, scoring, review and archival rules;
 this guide explains how they apply to ideologies.
 
+## Completion requirement
+
+Complete the authorised profiles through the full local workflow under the shared
+procedure's completion requirement. Do not stop at a readiness report, partial
+draft or remaining evidence gaps: resolve them with disclosed most-likely educated
+assumptions, then review, validate, archive, generate and verify. Do not ask again
+for permission already given. Report permanent answer-file links and 240/240 counts.
+Report genuine technical blockers accurately while continuing other authorised work.
+
 ## Define the school of thought
 
 Specify the doctrine or variant, including its historical or regional context.
@@ -18,7 +27,8 @@ similarly named schools before creating another entry.
 Assess the ideas the school advocates. Do not equate one adherent's behaviour or
 one government's record with the entire doctrine. When a broad school leaves an
 axis open, investigate whether the request concerns a specific variant; do not
-invent a fixed position merely to fill the questionnaire.
+present an inferred position as established doctrine. If research leaves the
+exact claim open, select the most likely answer and label the educated assumption.
 
 ## Research and answer
 
@@ -28,10 +38,13 @@ URLs, publication dates and access dates. Study each of the 15 axes independentl
 including disagreements among proponents and evidence against the initial reading.
 
 Complete all 240 questions, with a rationale and source references for each answer.
-Separate direct evidence from inference. A neutral response requires support for a
-mixed, conditional or neutral position; absence of a doctrinal position is unknown,
-not automatic centrism. Keep unsupported answers `null` and leave the profile as
-a draft if research cannot resolve them.
+Separate direct evidence from inference and educated assumptions. Research first,
+then select the most likely response for every remaining gap under the shared
+procedure. Use `inferred` and an `Educated assumption:` rationale with contextual
+citations, the reason for the choice and the evidence limitation. Flag the question
+in chat and review. Neutral requires a most-likely mixed, conditional or neutral
+interpretation; absence of a stated doctrine does not imply centrism. Completed
+assessments must contain all 240 answers, with no `null` or `unknown` values.
 
 Answer the current question wording under the agreed axis definitions. Do not
 reinterpret a question to rescue an expected score, import 12Axes placements,
@@ -106,7 +119,8 @@ Check institutional fit before assigning a value. A doctrine that abolishes both
 institutions offered by a question does not thereby support the opposite pole or
 a neutral midpoint. For example, abolishing a state does not establish competitive
 elections, and rejecting government production targets does not establish a free
-market. Record the mismatch as unknown unless a source addresses the actual choice.
+market. Research the actual choice, then select the most likely response and
+explicitly describe any remaining institutional mismatch as an educated assumption.
 Likewise, distinguish a national minimum guarantee from exclusive national control,
 permission from preference, and a possible influence from a claim about which cause
 matters more. Use incumbent acts only when they are relevant to the specified school
@@ -123,5 +137,20 @@ On 4 October 2026 all 25 initial ideology placements were withdrawn. The second
 review found unsupported policy extrapolations, neutrality used for missing evidence,
 and stateless ideals incorrectly mapped onto state institutions. Revision 2 drafts
 retain question-level corrections and unknowns. Structural validation of a file is
-not a substantive certification of its evidence. Do not fill gaps merely to publish.
+not a substantive certification of its evidence. New completions must apply the
+most-likely-answer rule and disclose educated assumptions; historical findings and
+archives remain unchanged.
 See `profile-audit/reports/ideologies-2026-10-04-reaudit.json` for findings and checks.
+
+On 5 October 2026 the owner requested a complete redo and restoration of all 25
+profiles. Revision 2 replaces all 6,000 response decisions and restores the local
+catalogue placements. Every answer is conservatively labelled `inferred`, with an
+`Educated assumption:` rationale and contextual citations. This includes uncertainty
+about exact response intensity, modern applications of historical doctrines and
+questions whose institutions do not fit stateless ideals. A distinct same-agent
+review records every assumed ID and Neutral choice, and evidence-based decisions
+retain three fresh pairs above the similarity threshold. External personal review
+and empirical measurement validation are not claimed. The original archives,
+research dossiers and withdrawal records are preserved. See
+`profile-audit/reports/ideology-redo-2026-10-05/review-results.json` and the interactive
+`frontend/public/profiles/ideology-review.html` for the complete question review.

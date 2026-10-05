@@ -11,7 +11,6 @@
 .stats dd { font-size: 29px; font-weight: 750; line-height: 1.2; margin: 0; letter-spacing: -.8px; }
 .stats dt { color: var(--muted); font-size: 12px; }
 .distribution { margin-top: 37px; }
-.distribution h2 { color: var(--muted); font-size: 10px; }
 .spectrum { display: flex; gap: 4px; height: 12px; margin-top: 13px; }
 .spectrum span { border-radius: 4px; min-width: 5px; }
 .distributionLegend { display: flex; gap: 5px 18px; flex-wrap: wrap; margin-top: 12px; }
@@ -30,20 +29,10 @@
 .filters button:hover { background: var(--sage); }
 .filters button[aria-pressed='true'] { background: var(--forest); border-color: var(--forest); color: var(--on-accent); }
 .filters button[aria-pressed='true'] > span:last-child { color: inherit; }
-.guide { padding-block: 22px 15px; }
-.guide p { font-size: 12px; color: var(--muted); line-height: 1.8; }
-.guide strong { color: var(--ink); font-weight: 650; }
-.guide details { margin-top: 12px; font-size: 12px; color: var(--muted); }
-.guide summary { cursor: pointer; width: fit-content; text-underline-offset: 4px; }
-.guide summary:hover { color: var(--ink); }
-.axisLegend { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px 20px; padding-top: 20px; }
-.axisLegend > span { display: flex; align-items: center; gap: 5px; font-size: 11px; }
-.axisLegend svg { width: 14px; height: 14px; color: var(--ink); }
-.axisLegend > span > span { margin-left: 4px; }
 .resultMeta { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 12px 0 26px; font-size: 11px; color: var(--muted); }
 .resultMeta button { background: none; border: 0; padding: 6px 0; font-size: 11px; text-decoration: underline; text-underline-offset: 4px; }
 .resultMeta button span { margin-left: 6px; }
-.groups { display: grid; gap: 43px; }
+.groups { display: grid; gap: 43px; margin-top: 26px; }
 .groupHeader { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--tradition-color); padding-bottom: 17px; margin-bottom: 20px; }
 .groupHeader > div { display: flex; align-items: center; gap: 14px; }
 .groupMarker { width: 9px; height: 34px; background: var(--tradition-color); border-radius: 5px; flex-shrink: 0; }
@@ -56,17 +45,17 @@
 .cardBody { flex: 1; }
 .card h3 { font-size: 18px; line-height: 1.3; letter-spacing: -.3px; font-weight: 650; }
 .card h3 a:hover { text-decoration: underline; text-underline-offset: 4px; }
-.tradition { color: var(--muted); font-size: 10px; margin-top: 5px; line-height: 1.5; }
-.cardDescription { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; font-size: 12px; color: var(--muted); line-height: 1.65; margin-top: 11px; }
+.tradition { color: var(--ink); font-size: 10px; margin-top: 5px; line-height: 1.5; }
+.cardDescription { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; font-size: 13px; color: var(--ink); line-height: 1.65; margin-top: 11px; }
 .cardFooter { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 12px; display: flex; flex-direction: column; gap: 11px; }
-.axisStrip { display: flex; flex-wrap: wrap; gap: 3px; color: var(--tradition-color); }
+.axisStrip { min-height: 22px; display: flex; flex-wrap: wrap; gap: 3px; color: var(--tradition-color); }
 .axisPlacement { position: relative; display: inline-flex; cursor: help; border-radius: 3px; padding: 2px; }
 .axisSymbol { display: inline-flex; }
 .axisSymbol svg { width: 14px; height: 14px; stroke-width: 2; }
 .tooltip { position: absolute; z-index: 4; left: -8px; bottom: calc(100% + 9px); display: none; width: max-content; max-width: 220px; background: var(--forest); color: var(--on-accent); padding: 10px 12px; border-radius: 7px; box-shadow: 0 4px 16px #193b2d20; font-size: 10px; line-height: 1.7; pointer-events: none; }
 .tooltip strong, .tooltip small { display: block; }
 .axisPlacement:hover .tooltip, .axisPlacement:focus .tooltip { display: block; }
-.profileLink { display: inline-flex; justify-content: end; align-items: center; align-self: end; gap: 12px; font-size: 11px; font-weight: 650; color: var(--tradition-color); padding-block: 3px; }
+.profileLink { display: inline-flex; justify-content: end; align-items: center; align-self: end; gap: 12px; font-size: 11px; font-weight: 650; color: var(--forest); padding-block: 3px; }
 .profileLink:hover { text-decoration: underline; text-underline-offset: 4px; }
 .profileLink span { font-size: 17px; line-height: 1; }
 .empty { padding: 50px 0; }
@@ -74,8 +63,8 @@
 .empty p { margin-top: 12px; color: var(--muted); }
 .empty button, .empty a { display: inline-block; border: 0; background: var(--forest); color: var(--on-accent); border-radius: 24px; padding: 12px 20px; margin-top: 22px; font-size: 13px; }
 .researchNote { font-size: 12px; line-height: 1.8; color: var(--muted); border-top: 1px solid var(--line); padding-top: 22px; margin-top: 46px; max-width: 800px; }
-@media (max-width: 1000px) { .toolbar { flex-direction: column; } .search { width: min(100%, 360px); } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .axisLegend { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 600px) { .page { padding: 26px 22px 56px; } .hero { padding-top: 25px; } .hero h1 { font-size: 42px; letter-spacing: -1.7px; } .description { font-size: 15px; } .stats { gap: 26px; } .stats dd { font-size: 27px; } .distribution { margin-top: 30px; } .distributionLegend { gap: 4px 14px; } .toolbar { padding-block: 26px 20px; gap: 14px; } .search { width: 100%; } .filters { gap: 7px; } .filters button { padding: 8px 10px; } .grid { grid-template-columns: 1fr; } .groupHeader { gap: 10px; } .groupHeader > div { gap: 10px; } .groupHeader h2 { font-size: 25px; } .badge { padding: 6px 9px; font-size: 10px; } .axisLegend { grid-template-columns: 1fr; } .groups { gap: 32px; } .card { padding: 20px; } .axisSymbol svg { width: 15px; height: 15px; } .axisStrip { gap: 3px; } .tooltip { max-width: 175px; white-space: normal; } .axisPlacement:nth-child(n+9) .tooltip { left: auto; right: -8px; } }
+@media (max-width: 1000px) { .toolbar { flex-direction: column; } .search { width: min(100%, 360px); } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 600px) { .page { padding: 26px 22px 56px; } .hero { padding-top: 25px; } .hero h1 { font-size: 42px; letter-spacing: -1.7px; } .description { font-size: 15px; } .stats { gap: 26px; } .stats dd { font-size: 27px; } .distribution { margin-top: 30px; } .distributionLegend { gap: 4px 14px; } .toolbar { padding-block: 26px 20px; gap: 14px; } .search { width: 100%; } .filters { gap: 7px; } .filters button { padding: 8px 10px; } .grid { grid-template-columns: 1fr; } .groupHeader { gap: 10px; } .groupHeader > div { gap: 10px; } .groupHeader h2 { font-size: 25px; } .badge { padding: 6px 9px; font-size: 10px; } .groups { gap: 32px; } .card { padding: 20px; } .axisSymbol svg { width: 15px; height: 15px; } .axisStrip { gap: 3px; } .tooltip { max-width: 175px; white-space: normal; } .axisPlacement:nth-child(n+9) .tooltip { left: auto; right: -8px; } }
 /* Single-profile traditions share a row; larger collections keep their full grid. */
 .groups { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px 16px; align-items: stretch; }
 .group { grid-column: 1 / -1; min-width: 0; }
@@ -92,7 +81,6 @@
 .hero h1 { margin-top: 0; }
 .description { max-width: none; }
 .stats { justify-content: center; gap: 48px; text-align: center; margin-top: 28px; }
-.distribution h2 { font-size: 12px; }
 .spectrum { height: 16px; }
 .distributionLegend { gap: 8px 22px; margin-top: 14px; }
 .distributionLegend button { font-size: 14px; gap: 8px; }
@@ -106,3 +94,5 @@
   .distributionLegend button { font-size: 12px; }
   .filters button { font-size: 12px; padding: 9px 12px; }
 }
+
+.leaningTag { display: inline-block; background: var(--surface); border-radius: 20px; padding: 5px 10px; margin-bottom: 10px; font-size: 11px; font-weight: 600; }

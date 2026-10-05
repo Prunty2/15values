@@ -1,0 +1,61 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test catalogue.spec.ts
+
+[WebServer] (node:75618) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 30 tests using 4 workers
+
+(node:75622) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75619) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75621) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75620) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   4 [desktop] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (382ms)
+  ✓   1 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (394ms)
+  ✓   3 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (471ms)
+  ✓   5 [desktop] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (186ms)
+  ✓   6 [desktop] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (427ms)
+  ✓   7 [desktop] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (409ms)
+  ✓   8 [desktop] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (382ms)
+  ✓   9 [desktop] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (218ms)
+(node:75648) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:75649) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (336ms)
+  ✓   2 [desktop] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (1.9s)
+  ✓  12 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (301ms)
+  ✓  14 [mobile] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (163ms)
+(node:75659) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  15 [mobile] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (369ms)
+  ✓  16 [mobile] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (311ms)
+  ✓  17 [mobile] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (316ms)
+  ✓  19 [mobile] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (189ms)
+  ✓  18 [mobile] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (332ms)
+(node:75670) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  13 [mobile] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.0s)
+(node:75678) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  21 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (1.0s)
+  ✓  22 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (858ms)
+  ✓  24 [safari] › tests/catalogue.spec.ts:91:1 › catalogue failures can be retried and missing profiles have a way back (552ms)
+  ✓  25 [safari] › tests/catalogue.spec.ts:104:1 › malformed catalogue data is not rendered as a profile (411ms)
+  ✓  26 [safari] › tests/catalogue.spec.ts:112:1 › ideology groups combine with search and show only pronounced placements (654ms)
+  ✓  27 [safari] › tests/catalogue.spec.ts:140:1 › personality filters combine with search and clear together (764ms)
+  ✓  23 [safari] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (3.1s)
+  ✓  10 [desktop] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (7.4s)
+  ✓  29 [safari] › tests/catalogue.spec.ts:187:1 › personality card has exactly ideology, position and origin tags (487ms)
+  ✓  28 [safari] › tests/catalogue.spec.ts:168:1 › profile comparisons omit political leaning and link similar people (628ms)
+(node:75713) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  20 [mobile] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (7.3s)
+  ✓  30 [safari] › tests/catalogue.spec.ts:202:1 › every published personality has three matching filterable tags (8.0s)
+
+  30 passed (18.1s)

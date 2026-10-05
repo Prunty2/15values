@@ -1,0 +1,17 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate country mexico
+
+{
+  "errors": [
+    "Image alt text, creator and licence are required.",
+    "Image source and licence URLs must be HTTP(S).",
+    "A completed evidence review is required."
+  ],
+  "warnings": [
+    "assimilation-multiculturalism: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": []
+}
+

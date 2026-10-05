@@ -1,0 +1,3158 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "canada",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex (GPT-6 AI assessment agent, Canada independent subject context)",
+  "changeNote": "Independent assessment with 237 of 240 numerical responses; targeted evidence-fit review after parent audit removed unsupported Culture–Nature Q2, Q5 and Q10. Three precise gaps remain and block archival. Focused gap research on 5 October 2026 retained 3 explicit unknowns; review notes record the sources checked and limitations.",
+  "metadata": {
+    "name": "Canada",
+    "description": "Canada’s federal parliamentary democracy and implemented policies under Prime Minister Mark Carney, assessed through 4 October 2026, with provincial differences noted.",
+    "category": "Federal parliamentary constitutional monarchy",
+    "period": "Institutions in force through 2026-10-04; incumbent Carney government from 2025-03-14",
+    "scope": "Federal Canadian institutions and implemented policy, with constitutional provincial and Indigenous powers and material regional variation. This is an interpreted institutional assessment, not the opinions of all Canadians or a forecast based on unimplemented announcements.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/canada-r1.png",
+      "alt": "National flag of Canada: a red maple leaf on a white field between two red vertical bands",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Canada_(official_government_version).svg",
+      "creator": "George Stanley (original design); Government of Canada artwork, converted to SVG and uploaded by Skunkcrew",
+      "license": "Public domain (PD flag)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-flag"
+    }
+  },
+  "sources": [
+    {
+      "id": "constitution",
+      "title": "Constitution Acts, 1867 to 1982 (consolidation)",
+      "url": "https://laws.justice.gc.ca/eng/Const/FullText.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freedom-2026",
+      "title": "Canada: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/canada/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "immigration",
+      "title": "Supplementary Information for the 2026–2028 Immigration Levels Plan",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/corporate/mandate/corporate-initiatives/levels/supplementary-immigration-levels-2026-2028.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "c5",
+      "title": "Legislation to build One Canadian Economy receives Royal Assent",
+      "url": "https://www.canada.ca/en/intergovernmental-affairs/news/2025/06/legislation-to-build-one-canadian-economy-receives-royal-assent.html",
+      "publisher": "Government of Canada",
+      "date": "2025-06-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "incumbent",
+      "title": "Prime Minister of Canada: official videos, including 30 September 2026 remarks",
+      "url": "https://www.pm.gc.ca/en/videos",
+      "publisher": "Prime Minister of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "multiculturalism",
+      "title": "Canadian Multiculturalism Act",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-18.7/FullText.html?txthl=canada",
+      "publisher": "Government of Canada",
+      "date": "1988-07-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oecd",
+      "title": "OECD Economic Surveys: Canada 2025",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-canada-2025_28f9e02c-en.html",
+      "publisher": "OECD",
+      "date": "2025-05-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oecd-housing",
+      "title": "Improving housing affordability: OECD Economic Surveys Canada 2025",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-canada-2025_28f9e02c-en/full-report/improving-housing-affordability_3d430d2e.html",
+      "publisher": "OECD",
+      "date": "2025-05-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health-determinants",
+      "title": "What Makes Canadians Healthy or Unhealthy?",
+      "url": "https://www.canada.ca/en/public-health/services/health-promotion/population-health/what-determines-health/what-makes-canadians-healthy-unhealthy.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "temperament",
+      "title": "Behaviour: Understanding Your Child’s Temperament",
+      "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/understanding-child-temperament-nobodys-perfect.html",
+      "publisher": "Government of Canada",
+      "date": "2019-02-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gba",
+      "title": "Gender-based Analysis Plus research checklist",
+      "url": "https://www.canada.ca/en/women-gender-equality/gender-based-analysis-plus/resources/research-checklist.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gba-training",
+      "title": "Introduction to GBA Plus: sex and gender",
+      "url": "https://women-gender-equality.canada.ca/gbaplus-course-cours-acsplus/eng/mod01/mod01_02_02.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "investment",
+      "title": "First Canada Investment Summit unleashes nearly $500 billion of new investment",
+      "url": "https://www.pm.gc.ca/en/news/news-releases/2026/09/15/first-canada-investment-summit-unleashes-nearly-500-billion-new",
+      "publisher": "Prime Minister of Canada",
+      "date": "2026-09-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ap-investment",
+      "title": "Carney says Canada can wait for the right conditions in Trump trade war and emerge stronger",
+      "url": "https://apnews.com/article/2a3858e806b7da77dc744382d96228e7",
+      "publisher": "Associated Press",
+      "date": "2026-09-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "buy-canadian",
+      "title": "Buy Canadian Procurement Policy Framework",
+      "url": "https://canadabuys.canada.ca/en/buy-canadian-policy/buy-canadian-procurement-policy-framework",
+      "publisher": "Government of Canada",
+      "date": "2025-12-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "Canada announces targeted countermeasures and substantive support for workers and businesses in response to U.S. tariffs",
+      "url": "https://www.canada.ca/en/department-finance/news/2026/08/canada-announces-targeted-countermeasures-and-substantive-support-for-workers-and-businesses-in-response-to-us-tariffs.html",
+      "publisher": "Government of Canada",
+      "date": "2026-08-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "spring-budget",
+      "title": "Spring Economic Update 2026, Chapter 1: Building Canada",
+      "url": "https://budget.canada.ca/update-miseajour/2026/report-rapport/chap1-en.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "affordability",
+      "title": "Reducing costs and helping you get ahead",
+      "url": "https://www.canada.ca/en/department-finance/campaigns/affordable.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "treaties",
+      "title": "Protocol for Federal, Provincial and Territorial Consultations on Potential Adherence to International Human Rights Treaties",
+      "url": "https://www.canada.ca/en/canadian-heritage/services/about-human-rights/protocol-fpt-consultations-human-rights-treaties.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence",
+      "title": "Strong, Secure, Engaged: Articulating a New Vision for Defence",
+      "url": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/canada-defence-policy/new-vision-defence.html",
+      "publisher": "Government of Canada",
+      "date": "2019-05-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-mandate",
+      "title": "Mandate of National Defence and the Canadian Armed Forces",
+      "url": "https://www.canada.ca/en/department-national-defence/corporate/mandate.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "weapons",
+      "title": "Domestic and Continental Security: Autonomous Weapon Systems",
+      "url": "https://www.canada.ca/en/department-national-defence/corporate/reports-publications/proactive-disclosure/secd-state-of-caf-08-april-2024/domestic-continental-security.html",
+      "publisher": "Government of Canada",
+      "date": "2024-04-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "icc",
+      "title": "Crimes Against Humanity and War Crimes Act",
+      "url": "https://lois.justice.gc.ca/eng/acts/C-45.9/FullText.html",
+      "publisher": "Government of Canada",
+      "date": "2000-06-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cultivated",
+      "title": "Cellular agriculture",
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/cellular-agriculture.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-ai",
+      "title": "Pre-market guidance for machine learning-enabled medical devices",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/application-information/guidance-documents/pre-market-guidance-machine-learning-enabled-medical-devices.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gm",
+      "title": "Guidelines for the Safety Assessment of Novel Foods",
+      "url": "https://www.canada.ca/en/health-canada/services/food-nutrition/legislation-guidelines/guidance-documents/guidelines-safety-assessment-novel-foods-2006.html",
+      "publisher": "Government of Canada",
+      "date": "2006-06-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "embryos",
+      "title": "Prohibitions related to scientific research and clinical applications",
+      "url": "https://www.canada.ca/en/health-canada/services/drugs-health-products/biologics-radiopharmaceuticals-genetic-therapies/legislation-guidelines/assisted-human-reproduction/prohibitions-scientific-research-clinical-applications.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "assembly",
+      "title": "Charterpedia: Section 2(c), Freedom of peaceful assembly",
+      "url": "https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/check/art2c.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "Charterpedia: Section 2(a), Freedom of religion",
+      "url": "https://www.justice.gc.ca/eng/csj-sjc/rfc-dlc/ccrf-ccdl/check/art2a.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Civil Marriage Act",
+      "url": "https://laws.justice.gc.ca/eng/acts/C-31.5/FullText.html?wbdisable=true",
+      "publisher": "Government of Canada",
+      "date": "2005-07-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "alcohol-screening",
+      "title": "Assessment of the Initial Impact of Mandatory Alcohol Screening on Alcohol-involved Driver Fatalities in Canada",
+      "url": "https://www.justice.gc.ca/eng/rp-pr/jr/alcohol-alcool/index.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crown",
+      "title": "List of Crown corporations",
+      "url": "https://www.canada.ca/en/treasury-board-secretariat/services/guidance-crown-corporations/list-crown-corporations.html",
+      "publisher": "Government of Canada",
+      "date": "2026-07-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "healthcare",
+      "title": "How publicly funded health care coverage works",
+      "url": "https://www.canada.ca/en/health-canada/services/health-care-system/canada-health-care-system-medicare/canada-health-act/how-publicly-funded-coverage-works.html?wbdisable=true",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "central-bank",
+      "title": "Is the Bank of Canada independent from government?",
+      "url": "https://www.bankofcanada.ca/2025/02/is-bank-canada-independent-from-government/",
+      "publisher": "Bank of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "c12",
+      "title": "New immigration and asylum measures from Bill C-12 have become law",
+      "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2026/03/new-immigration-and-asylum-measures-from-bill-c-12-the-strengthening-canadas-immigration-system-and-borders-act-have-become-law.html",
+      "publisher": "Government of Canada",
+      "date": "2026-03-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade-agreements",
+      "title": "Appendix A: Trade Agreements and Financial Thresholds",
+      "url": "https://www.canada.ca/en/revenue-agency/corporate/about-canada-revenue-agency-cra/procurement-cra/procurement-policy-appendix-a-trade-agreements-financial-thresholds.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "investment-review",
+      "title": "Investment Canada Act: national security and investment framework",
+      "url": "https://ised-isde.canada.ca/site/investment-canada-act/en",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "water",
+      "title": "Wastewater Management",
+      "url": "https://www.canada.ca/en/environment-climate-change/services/wastewater/management.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "via",
+      "title": "Governance and Ethics: VIA Rail infrastructure ownership",
+      "url": "https://corpo.viarail.ca/en/company/governance-ethics",
+      "publisher": "VIA Rail",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "post",
+      "title": "Standing Committee on Government Operations and Estimates: May 5, 2026",
+      "url": "https://www.canada.ca/en/public-services-procurement/corporate/transparency/briefing-materials/standing-committee-government-operations-estimates/2026-05-05.html",
+      "publisher": "Government of Canada",
+      "date": "2026-05-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "supply",
+      "title": "Supply Management",
+      "url": "https://www.canada.ca/en/farm-products-council/services/supply-management.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "steel",
+      "title": "Canada’s tariffs: Steel and aluminum",
+      "url": "https://www.canada.ca/en/department-finance/programs/international-trade-finance-policy/canadas-tariff-responses/canadas-tariffs-steel-aluminum.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "Potential benefits and key risks of fiat-referenced cryptoassets",
+      "url": "https://www.bankofcanada.ca/2022/12/staff-analytical-note-2022-20/",
+      "publisher": "Bank of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minimum-wage",
+      "title": "Pay and minimum wage, deductions, and wage recovery",
+      "url": "https://www.canada.ca/en/services/jobs/workplace/federal-labour-standards/pay-deductions.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-rates",
+      "title": "Tax rates and income brackets: 2026",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/tax-rates-brackets.html?wbdisable=true",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "benefits",
+      "title": "Accessing your benefits and credits",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/educational-programs/accessing-benefits-credits.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "inheritance",
+      "title": "Amounts that are not reported or taxed",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/about-your-tax-return/tax-return/completing-a-tax-return/personal-income/amounts-that-taxed.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "poverty",
+      "title": "Opportunity for All: Canada’s First Poverty Reduction Strategy",
+      "url": "https://www.canada.ca/en/employment-social-development/programs/poverty-reduction/reports/strategy.html",
+      "publisher": "Government of Canada",
+      "date": "2018-08-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ei",
+      "title": "EI Regular Benefits: How much could you receive",
+      "url": "https://www.canada.ca/en/services/benefits/ei/ei-regular-benefit/benefit-amount.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ontario-works",
+      "title": "Eligibility for Ontario Works financial assistance",
+      "url": "https://www.ontario.ca/page/eligibility-ontario-works-financial-assistance",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "charity",
+      "title": "Charitable purposes",
+      "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/registering-charitable-qualified-donee-status/apply-become-registered-charity/establishing/charitable-purposes.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-arbitration",
+      "title": "Family arbitration",
+      "url": "https://www.ontario.ca/page/family-arbitration",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holidays",
+      "title": "Public holidays: 2026",
+      "url": "https://www.canada.ca/en/revenue-agency/services/tax/public-holidays.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prayer",
+      "title": "Typical Sitting Day: Our Procedure",
+      "url": "https://www.ourcommons.ca/procedure/our-procedure/TypicalSittingDay/c_g_typicalsittingday-e.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ontario-schools",
+      "title": "Responsibility for publicly funded elementary and secondary education",
+      "url": "https://www.ontario.ca/page/responsibility-publicly-funded-elementary-and-secondary-education",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abortion",
+      "title": "Improving equitable access to sexual and reproductive health services across the country",
+      "url": "https://www.canada.ca/en/health-canada/news/2026/03/improving-equitable-access-to-sexual-and-reproductive-health-services-across-the-country0.html",
+      "publisher": "Government of Canada",
+      "date": "2026-03-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "Human Development and Sexual Health education by grade",
+      "url": "https://www.ontario.ca/document/health-and-physical-education-grades-1-8/human-development-and-sexual-health-education-grade",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum-exemption",
+      "title": "Policy/Program Memorandum 162: Exemption from Human Development and Sexual Health Instruction",
+      "url": "https://www.ontario.ca/document/education-ontario-policy-and-program-direction/policyprogram-memorandum-162",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conversion",
+      "title": "Conversion therapy: Executive Summary and law in force",
+      "url": "https://justice.canada.ca/eng/rp-pr/jr/ct-tc/p1.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "devices",
+      "title": "Medical Devices Regulations: safety, effectiveness and licensing",
+      "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-98-282/FullText.html?txthl=records",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-strategy",
+      "title": "Prime Minister Carney launches Canada’s new national artificial intelligence strategy",
+      "url": "https://www.pm.gc.ca/en/videos/2026/06/04/prime-minister-carney-launches-canadas-new-national-artificial-intelligence",
+      "publisher": "Government of Canada",
+      "date": "2026-06-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "federalism",
+      "title": "The constitutional distribution of legislative powers",
+      "url": "https://www.canada.ca/en/intergovernmental-affairs/services/federation/distribution-legislative-powers.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "clarity",
+      "title": "Clarity Act, section 2",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-31.8/section-2.html",
+      "publisher": "Government of Canada",
+      "date": "2000-06-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "self-government",
+      "title": "Principles respecting the Government of Canada’s relationship with Indigenous peoples",
+      "url": "https://justice.canada.ca/eng/csj-sjc/principles-principes.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "emergency",
+      "title": "Public Safety Canada’s Role in an Emergency",
+      "url": "https://www.canada.ca/en/services/policing/emergencies/ps-role-emergency.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "body-image",
+      "title": "Healthy settings for young people in Canada: Healthy living and healthy weight",
+      "url": "https://www.canada.ca/en/public-health/services/publications/science-research-data/healthy-settings-young-people-canada/healthy-living-healthy-weight.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "attention",
+      "title": "Family Front and Centre, Book 2: Attention",
+      "url": "https://www.canada.ca/content/dam/phac-aspc/migration/phac-aspc/hp-ps/dca-dea/publications/ffc-ief/assets/pdf/ffc_attention.pdf",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "race",
+      "title": "Justice Canada’s Anti-Racism Policy",
+      "url": "https://justice.gc.ca/eng/abt-apd/policy-politique.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "black-justice",
+      "title": "Toward Transformative Change: Implementation Plan for Canada’s Black Justice Strategy",
+      "url": "https://justice.canada.ca/eng/cj-jp/cbjs-scjn/ttc-ect/pdf/CS-24-175-Implementation_Plan-EN.pdf",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "youth-risk",
+      "title": "Preventing kids and teens from smoking and vaping",
+      "url": "https://www.canada.ca/en/health-canada/services/smoking-tobacco/preventing-kids-teens.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "peace-bond",
+      "title": "Peace Bonds",
+      "url": "https://canada.justice.gc.ca/eng/cj-jp/victims-victimes/factsheets-fiches/peace-paix.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cannabis",
+      "title": "Legalizing and strictly regulating cannabis: Youth and adults",
+      "url": "https://www.canada.ca/en/services/health/campaigns/cannabis/legalizing-strictly-regulating-cannabis-youth-adults.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "firearms",
+      "title": "Classes of firearms in Canada",
+      "url": "https://rcmp.ca/en/firearms/classes-firearms/classes-firearms-canada?wbdisable=false",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "referendum",
+      "title": "Federal referendums",
+      "url": "https://www.elections.ca/content.aspx?dir=bkg&document=fedr&lang=e&section=vot",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "postpartum",
+      "title": "Family-Centred Maternity and Newborn Care: Chapter 5, Postpartum Care",
+      "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/maternity-newborn-care-guidelines-chapter-5.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "youth-development",
+      "title": "Charitable purposes and activities that benefit youth",
+      "url": "https://www.canada.ca/en/revenue-agency/services/charities-giving/charities/policies-guidance/charitable-purposes-activities-that-benefit-youth-guidance.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "seatbelts",
+      "title": "Seatbelt safety",
+      "url": "https://www.ontario.ca/page/seatbelt-safety",
+      "publisher": "Government of Ontario",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "plate-data",
+      "title": "Privacy Tech-Know Blog: Who’s Watching Where You’re Driving?",
+      "url": "https://www.priv.gc.ca/en/blog/20170613/?wbdisable=true",
+      "publisher": "Office of the Privacy Commissioner of Canada",
+      "date": "2017-06-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "interception",
+      "title": "Criminal Code, section 186: Judicial authorization of interception",
+      "url": "https://laws.justice.gc.ca/eng/acts/c-46/section-186.html/page-129.html",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disclosure",
+      "title": "Foreign Interference and Security of Information Act: public-interest defence",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/O-5/FullText.html?txthl=conduct",
+      "publisher": "Government of Canada",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "arms-control",
+      "title": "Conventional weapons: implemented arms-control and stockpile-destruction commitments",
+      "url": "https://www.international.gc.ca/world-monde/issues_development-enjeux_developpement/peace_security-paix_securite/conventional_weapons-armes_conventionnelles.aspx?lang=eng",
+      "publisher": "Global Affairs Canada",
+      "date": "2023-08-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wealth-proposal",
+      "title": "Implementing annual wealth tax: New Democratic Party election proposal costing",
+      "url": "https://www.pbo-dpb.ca/en/epc-estimates--estimations-cpe/45/EL-45-1023246-P",
+      "publisher": "Parliamentary Budget Officer",
+      "date": "2025-04-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "risk-framework",
+      "title": "PHAC policy paper: preventing substance-related harms through school communities",
+      "url": "https://www.canada.ca/en/public-health/services/publications/healthy-living/policy-paper-preventing-substance-related-harms-canadian-youth-action-school-communities.html",
+      "publisher": "Public Health Agency of Canada",
+      "date": "2021-08-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ontario-risk",
+      "title": "On My Way: decision making, impulse control and general risk-taking (archived provincial guidance)",
+      "url": "https://files.ontario.ca/books/mccss-on-my-way-guide-support-middle-years-child-development-en-2022-01-25.pdf",
+      "publisher": "Government of Ontario",
+      "date": "2022-01-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gap-drdc-moral-models",
+      "title": "DRDC CR 2005-105: contracted research on moral and ethical decision making",
+      "url": "https://publications.gc.ca/collections/collection_2012/rddc-drdc/D69-8-2005-eng.pdf",
+      "publisher": "Defence Research and Development Canada / Humansystems Incorporated",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gap-warriors-way",
+      "title": "The Warrior’s Way: authored Richard A. Gabriel treatise (2007), not proof of government adoption",
+      "url": "https://publications.gc.ca/collections/collection_2012/dn-nd/D2-206-2-2007-eng.pdf",
+      "publisher": "Canadian Defence Academy Press",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive parliamentary government, universal adult franchise, judicial review and constitutional accountability support the democratic pole. Carney remains prime minister in September 2026 official material. Representative institutions, rather than binding popular vetoes, are the federal norm.",
+      "counterEvidence": "An appointed Senate and hereditary Crown qualify popular control. The notwithstanding clause permits legislatures to override specified Charter protections temporarily, but not democratic voting rights. Neither national recall nor a general citizen-initiated binding repeal mechanism is part of federal institutions.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Charter sections 3–5 protect voting, limit parliamentary terms and require annual sittings; continued government needs parliamentary confidence.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Government formation follows elected parliamentary representation and confidence, not selection by an expert panel.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Section 3 gives citizens the vote without an education or intelligence qualification; the adult franchise implements that rule.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The prime minister cannot replace parliamentary passage with a personal lawmaking veto over Parliament. Delegated regulations still require lawful authority.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Protected electoral participation and independent assessment of competitive pluralism support equal legal campaigning rights for opposition parties.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Parliamentary accountability and public-finance scrutiny by elected representatives oppose insulating government expenditure from opposition investigation.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional supremacy and remedies empower independent courts; section 33 allows a limited legislative override, preventing an unqualified strongest answer.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Trade unions may participate politically but do not constitutionally choose the government instead of voters and the elected House.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Electoral and expressive rights prevent the governing leadership from excluding opponents merely for their political positions.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada uses parliamentary repeal; the constitutional framework gives no general federal binding citizen referendum to repeal ordinary legislation.",
+          "sources": [
+            "constitution",
+            "referendum"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federalism, parliamentary legislation and constitutional judicial review divide major national authority rather than vesting it solely in the leader.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Responsible parliamentary government makes the ministry accountable to the elected House, which can withdraw confidence and end its tenure.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Section 4 restricts extended terms to war, invasion or insurrection and parliamentary consent without opposition from more than one third; personal continuity is insufficient.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal representatives serve under the parliamentary electoral system rather than a general federal constituent recall mechanism; provincial practices do not change that federal rule.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Elected representation, periodic elections and the accountability of government are core institutional rules, corroborated by Freedom House.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The armed forces implement civilian government decisions; their mandate does not include replacing the elected government at military discretion.",
+          "sources": [
+            "defence-mandate",
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional expression, privacy, due process and assembly protections coexist with criminal regulation, court-authorized surveillance, preventive peace-bond powers and mandatory roadside screening. The assessment distinguishes constitutional liberties from unlimited permission for every activity.",
+      "counterEvidence": "Section 1 permits proportionate restrictions, section 33 can override specified protections, and policing practice can fall short of formal rights. Assembly protection does not legalize every blockade. Legal cannabis does not mean all drug possession is lawful; firearms are restricted.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legal adult cannabis and personal autonomy coexist with criminal controls on other drugs; policy supports some risky choices rather than a universal permission or universal ban.",
+          "sources": [
+            "cannabis",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Criminal Code section 186 permits a judge to authorize interception of private communications subject to legal criteria and conditions, directly supporting court-supervised serious-crime surveillance.",
+          "sources": [
+            "interception",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Peaceful assembly is protected, but traffic, property access and public order remain lawful grounds for proportionate restrictions; temporary obstruction is not categorically protected or forbidden.",
+          "sources": [
+            "assembly"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Political expression and criticism of institutions receive constitutional protection; mere widespread offence does not remove that protection.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ontario’s compulsory adult seatbelt rules provide a concrete protective measure substantially aimed at the wearer, subject to legal exceptions; the answer does not imply unlimited forced medical treatment.",
+          "sources": [
+            "seatbelts",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Privacy oversight favours prompt deletion of licence-plate non-hit data and limited retention; regional practices vary, but this weighs against a general permission for years of tracking innocent people.",
+          "sources": [
+            "plate-data",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Mandatory alcohol screening has applied since December 2018 without requiring individual suspicion of intoxication after a lawful stop.",
+          "sources": [
+            "alcohol-screening"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Criminal Code section 810 peace bonds allow courts to impose conditions to prevent reasonably feared harm before a new offence occurs, with judicial process.",
+          "sources": [
+            "peace-bond",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional expression protects access to unpopular material, although criminal limits such as obscenity and exploitation preclude an absolute answer.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Expression and privacy rights support ordinary anonymous communication without a general government identity-verification prerequisite; criminal investigation powers remain.",
+          "sources": [
+            "constitution",
+            "freedom-2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Charter privacy and freedom from arbitrary detention require a justified individualized or narrowly lawful search power; an area-wide threat alone is not general search authority.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Freedom of assembly permits justified public-order restrictions; a substantiated likelihood of serious disorder can outweigh assembly in a proportionate case.",
+          "sources": [
+            "assembly",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Home privacy receives strong section 8 protection, with urgent safety exceptions compatible with the question’s wording.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A conditional public-interest defence exists for disclosing official offences, but security duties and required reporting steps limit unrestricted publication of confidential information.",
+          "sources": [
+            "disclosure",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Restricted firearms and handguns face licensing, transfer and carry controls; protection-of-life exemptions are narrow, so violence-history checks alone do not establish a general self-defence ownership entitlement.",
+          "sources": [
+            "firearms"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Charter sections 9 and 10 protect against arbitrary detention and provide access to counsel and habeas corpus; suspicion of terrorism does not create indefinite unreviewable custody.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "The Multiculturalism Act expressly treats multiple cultural heritages as Canadian identity and directs inclusive federal institutions. Official bilingualism, integration into common institutions and Quebec-specific secular/language rules qualify accommodation.",
+      "counterEvidence": "Multiculturalism operates within shared law and official English/French language commitments. It is not blanket precedence for every cultural practice. Provincial rules differ, and the Act does not mandate translation of every public sign into every migrant language.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Act recognizes equal cultural participation and preservation instead of automatic precedence for a dominant culture, subject to common law.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal institutions are directed to adapt programs and practices to diversity; implementing accommodation can entail spending, within practical legal limits.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Permanent integration does not require surrendering inherited customs: preserving and sharing heritage is an express policy goal.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Freedom to preserve cultural heritage is explicitly integrated into Canadian identity and equitable participation.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Act protects other languages while strengthening English and French; official-language service obligations take priority over universal foreign-language provision.",
+          "sources": [
+            "multiculturalism",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional Indigenous recognition and the incumbent’s official Truth and Reconciliation ceremony support national acknowledgement irrespective of population share.",
+          "sources": [
+            "constitution",
+            "incumbent"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cultural support is intended to reflect diverse traditions rather than primarily privilege the predominant one.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Distinct identities are protected alongside equality, official languages and shared institutions; neither identity claims nor a uniform national culture receives automatic precedence.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Institutional inclusion and religious accommodation weigh against imposing a single calendar without exceptions, although common public holidays remain.",
+          "sources": [
+            "multiculturalism",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Section 3 describes multiculturalism as a fundamental characteristic of national identity and calls for appreciation of diverse cultures.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Equitable participation and interaction across communities are explicit goals; preserving heritage is compatible with participation in wider society.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Other-language preservation is supported but national and provincial official-language duties constrain signage; accommodation is context-dependent rather than a universal requirement.",
+          "sources": [
+            "multiculturalism",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state supports keeping community heritage rather than directing families to rank it below one national cultural identity.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Religious dress attracts accommodation, but safety, identification and competing rights can justify limits; it does not receive an unconditional exemption from all covering bans.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Multiple cultural ways of life are expressly part of Canadian national identity under the Multiculturalism Act.",
+          "sources": [
+            "multiculturalism"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Integration policy combines participation with preserving distinct heritage rather than replacing it with shared customs.",
+          "sources": [
+            "multiculturalism"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Canada combines planned economic, family and humanitarian admissions with tighter current intake control. The 2026–28 plan stabilizes permanent admissions at 380,000 annually, reduces temporary arrivals and adds separate protected-person transitions. Bill C-12 became law in March 2026 and limits access to ordinary asylum hearings.",
+      "counterEvidence": "Targets are ranges, not an absolute statutory ceiling; family and refugee classes remain substantial. Protected persons can receive permanent status beyond ordinary targets. Selection favours skills and French-language capacity, not a categorical preference for cultural similarity.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The current plan ties reduced, quantified arrivals to sustainable capacity and labour needs, but its ranges and humanitarian additions are not a rigid universal cap.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Improving living conditions alone is insufficient: applicants must qualify under regulated economic, family or protection channels.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Economic skills are prioritized, but the plan deliberately retains large family and refugee categories without a skills-only rule.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Spouses, partners and children have an explicit permanent-residence allocation, reflecting family reunification as a core policy.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Refugee resettlement and protected-person routes do not require economically selected skills or cultural resemblance, although recognition and admissibility rules apply.",
+          "sources": [
+            "immigration",
+            "c12"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The enforcement and asylum-admissibility framework does not give a general right to remain after illegal migration; recognized protection and exceptional routes qualify removal.",
+          "sources": [
+            "c12",
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Employer demand is balanced against overall reduced worker and permanent-residence targets rather than automatically overriding them.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The plan explicitly recalibrates arrivals to sustainable levels despite immigration’s labour-market advantages.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Family admissions are included within the overall permanent-resident target; separate protected-person additions are not a family-class exemption.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Some job-backed work routes exist, but labour-market assessments, program criteria and quotas mean a job offer is neither universally sufficient nor generally irrelevant.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal high-skilled and experience-class selection provide routes beyond compulsory employer or family sponsorship.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Post-graduation permits and experience can help applicants qualify, but the plan does not turn a university qualification alone into permanent residence.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Protection obligations and extra protected-person admissions operate beyond ordinary targets, but March 2026 restrictions and safe-entry rules make entry and adjudication conditional.",
+          "sources": [
+            "immigration",
+            "c12"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Economic, humanitarian and family categories draw globally; Francophone targets are a language/community policy rather than a general culturally similar-country rule.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public healthcare covers eligible residents, and permanent settlement is not conditioned on citizenship for ordinary social inclusion; sponsorship and temporary-status restrictions qualify access.",
+          "sources": [
+            "healthcare",
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Multicultural diversity is valued, but current volume reductions and economically targeted selection do not seek more arrivals simply because their cultures differ.",
+          "sources": [
+            "multiculturalism",
+            "immigration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Canada maintains combat-capable expeditionary forces, NATO and NORAD commitments, intelligence capabilities and a substantially increased defence effort. Diplomacy, conflict prevention, lawful collective action and arms control remain elements of policy; it is neither absolute pacifism nor unrestricted force.",
+      "counterEvidence": "A voluntary force, legal limits on force and human command of autonomous systems moderate military reliance. The 5% NATO objective is a future commitment, whereas the 2% achievement and existing forces are current evidence. Territorial disputes are pursued through peaceful institutions.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Defence doctrine authorizes deployments to advance interests and international security beyond repelling attacks on Canadian territory, subject to international law.",
+          "sources": [
+            "defence",
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The defence framework integrates military action with diplomacy, mediation and development and supports conflict prevention, indicating a qualified diplomatic preference.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current defence expansion and the reported achievement of 2% of GDP demonstrate willingness to bear major costs for credible allied deterrence.",
+          "sources": [
+            "spring-budget",
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Doctrine permits detecting and defending against threats under international law; an evidenced imminent attack supports anticipatory defence, not general preventive war.",
+          "sources": [
+            "defence",
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Expeditionary peace-support, counterterrorism and stabilization roles exceed a rule limiting all force to responding to an attack on Canada or an ally.",
+          "sources": [
+            "defence",
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada recruits a professional regular and reserve force rather than requiring all male citizens to perform compulsory service.",
+          "sources": [
+            "defence-mandate",
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Conflict prevention and mediation support compromise, but current deterrence and sovereignty policy reject concessions that surrender core security interests; the trade-off is conditional.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Official policy keeps autonomous weapons within responsible human command and control; efficiency alone does not justify unconstrained lethal targeting.",
+          "sources": [
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Defending Canada and North America is central, while the same mandate deliberately retains overseas combat and security roles.",
+          "sources": [
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: NATO collective defence and preparations to support allies contradict avoiding force at all costs when an ally is attacked.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Expeditionary operations and sustained interoperable allied contributions require forces able to operate beyond national borders.",
+          "sources": [
+            "defence",
+            "defence-mandate"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The policy anchors security in international law and conflict prevention, supporting peaceful management of territorial disagreements rather than launching territorial war.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Deterrent military signalling is part of policy, but diplomacy and legal limits constrain threats; there is no unrestricted coercive-force rule for serious disputes.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Conflict prevention and mediation coexist with a deliberate strengthening of credible deterrence; neither de-escalation nor resolve automatically prevails.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Intelligence, cyber and threat-detection capabilities are maintained to secure advantage and protect national interests, with legal oversight rather than a ban based on diplomatic friction.",
+          "sources": [
+            "defence-mandate",
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented mine and cluster-munition conventions require stockpile destruction, and Canada destroyed its cluster stocks; this supports negotiated reciprocal arms reductions. Current rearmament qualifies the inference against general or unilateral force reductions.",
+          "sources": [
+            "arms-control",
+            "spring-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Canadian policy combines sovereign domestic law, a national currency and border administration with binding treaties, ICC participation, trade rules and durable military alliances. The incumbent emphasizes sovereignty amid the US trade dispute while expanding other international partnerships.",
+      "counterEvidence": "Treaty obligations do not automatically become domestic statutes: domestic implementation and provincial powers matter. Sharing selected authority differs from joining a political federation or a common currency. Unimplemented summit ambitions are not treated as already transferred sovereignty.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional supremacy and domestic implementation of treaties preserve the final domestic legal role of Canadian institutions.",
+          "sources": [
+            "constitution",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada accepts binding treaty obligations and international criminal jurisdiction even where an individual decision could displease government; powers are conferred by consent.",
+          "sources": [
+            "treaties",
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Domestic courts apply Canadian law, but accepted international jurisdiction creates obligations beyond their preferences; the legal systems have distinct roles rather than universal priority.",
+          "sources": [
+            "treaties",
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: NATO and NORAD commitments explicitly bind defence planning and allied interoperability over the long term.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada enters treaties as a sovereign state and retains withdrawal choices subject to treaty terms; no general external authority grants permission to change all commitments.",
+          "sources": [
+            "treaties",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Rome Statute implementation accepts international criminal accountability rather than immunity for national officials, alongside domestic prosecution.",
+          "sources": [
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sovereignty and national interests are prominent, but alliance and treaty commitments also deliberately constrain independent action; policy is conditional rather than systematically rejecting common goals.",
+          "sources": [
+            "defence",
+            "treaties",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada cooperates on cross-border environmental problems but its treaty implementation retains domestic and provincial lawmaking; cooperation does not transfer a general environmental legislature.",
+          "sources": [
+            "treaties",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Existing alliances coordinate foreign policy while Canada retains national decision-making; the institutional model is not membership of a supranational common-foreign-policy government.",
+          "sources": [
+            "defence",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Human-rights treaties create obligations Canada undertakes to implement, but international recommendations do not directly amend Canadian statutes.",
+          "sources": [
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Bank of Canada independently manages a distinct national monetary framework rather than participating in a shared international currency authority.",
+          "sources": [
+            "central-bank"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Allied defence structures and multilateral programs pool resources and decisions to address collective risks.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canadian immigration law and national targets govern admission; refugee treaty obligations constrain their exercise without replacing border administration with an international body.",
+          "sources": [
+            "immigration",
+            "c12",
+            "treaties"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Trade agreements and reciprocal procurement access accept negotiated common rules while preserving sectoral exceptions and trade remedies.",
+          "sources": [
+            "buy-canadian",
+            "trade-agreements"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sovereign constitutional institutions and the incumbent’s explicit independence policy favour national control over membership in an international political federation.",
+          "sources": [
+            "constitution",
+            "tariffs",
+            "ap-investment"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: International deployments and collective defence commit Canada to enforcing common security rules even where neutrality could reduce immediate costs.",
+          "sources": [
+            "defence",
+            "spring-budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Canada is a predominantly private enterprise economy with selected Crown corporations, public utility infrastructure and mixed public/private healthcare delivery. Public finance is not treated as proof of public ownership. BDC, CBC and VIA Rail remain public, while most VIA infrastructure is owned by railway partners.",
+      "counterEvidence": "Municipal and provincial variation matters. Social housing is a small share of housing, and government development finance often funds private providers. Canada Post’s financial difficulties have led to restructuring and support rather than an automatic privatization rule; airport concessions announced in September are not completed sales.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The market enterprise structure and investment policies rely mainly on private businesses, with selected Crown entities rather than general state ownership.",
+          "sources": [
+            "oecd",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Municipal ownership and operation of most wastewater networks and public infrastructure support a public-network preference, though utilities vary regionally.",
+          "sources": [
+            "water"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Private investment and delivery coexist with retained public strategic providers; comparable performance does not trigger a universal ownership preference.",
+          "sources": [
+            "crown",
+            "healthcare"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Crown businesses operate alongside private firms in selected sectors, but the general competitive economy is not organized around establishing state competitors everywhere.",
+          "sources": [
+            "crown",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Tax-funded healthcare includes privately delivered medical services and a mix of hospital structures; neither predominantly commercial ownership nor exclusively state-owned facilities defines it.",
+          "sources": [
+            "healthcare"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: VIA is publicly owned but most infrastructure it uses belongs to railway partners; public ownership of the operator does not establish public ownership of all passenger tracks.",
+          "sources": [
+            "crown",
+            "via"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Privately delivered publicly financed healthcare and infrastructure partnerships show acceptance of contracting where quality and access are protected.",
+          "sources": [
+            "healthcare",
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Business Development Bank of Canada and other public financial corporations operate beside private banks.",
+          "sources": [
+            "crown"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada retains a substantial specific list of commercial Crown corporations; recent private-investment promotion is not a general policy to sell them all.",
+          "sources": [
+            "crown",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public and community housing support is expanding, but the small existing non-market stock and reliance on private supply make a substantial publicly owned rental share a qualified rather than established norm.",
+          "sources": [
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Investment screening and regulation protect security in a largely private business economy; sensitive activity does not automatically require public ownership.",
+          "sources": [
+            "investment-review",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Resource investment is directed through private capital and regulated projects, with selected public assets rather than general public ownership of extraction businesses.",
+          "sources": [
+            "investment",
+            "c5"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Local autonomy permits both municipal operations and contracts; documented public wastewater provision and private service delivery do not support one nationwide contracting rule.",
+          "sources": [
+            "water",
+            "healthcare",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Continued ownership of strategic financial, broadcasting and transport Crown corporations supports retention where public mandates matter.",
+          "sources": [
+            "crown"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada Post remains a Crown corporation while the government requires transformation and financial recovery; repeated support has not led to automatic sale.",
+          "sources": [
+            "post",
+            "crown"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Canadian Broadcasting Corporation remains a federal Crown corporation, directly instantiating a publicly owned national broadcaster.",
+          "sources": [
+            "crown"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Canada retains extensive trade agreements and ordinary cross-border commerce while using targeted protection for supply-managed agriculture, strategic sectors and responses to US tariffs. Buy Canadian procurement took effect in December 2025; additional September 2026 counter-tariffs strengthen the current protective tendency.",
+      "counterEvidence": "Trade diversification and negotiated tariff removal remain policy. National treatment under agreements, investment openness and sector-specific exceptions prevent interpreting retaliation as an economy-wide rejection of free trade. Announced relief and draft measures are distinguished from operative rules.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current targeted counter-tariffs and steel trade measures protect domestic producers, although broad trade-agreement access remains.",
+          "sources": [
+            "tariffs",
+            "steel"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: CETA and CPTPP reduce barriers across most covered sectors, accepting competition while retaining specified protections.",
+          "sources": [
+            "trade-agreements"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The operative Buy Canadian framework favours Canadian content through bid evaluation and material requirements even without the lowest unadjusted foreign bid.",
+          "sources": [
+            "buy-canadian"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Trade agreements generally permit sourcing internationally, but sanctions, controlled goods and current tariffs constrain an unrestricted cheapest-source rule.",
+          "sources": [
+            "trade-agreements",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Supply-managed agriculture and strategic procurement explicitly preserve domestic capacity despite cheaper import possibilities.",
+          "sources": [
+            "supply",
+            "buy-canadian"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current counter-tariffs and reciprocal procurement make liberalization substantially reciprocal rather than unilateral regardless of other states.",
+          "sources": [
+            "tariffs",
+            "buy-canadian"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Steel quotas, sector support and strategic industrial measures allow temporary protection to preserve and develop domestic capacity.",
+          "sources": [
+            "steel",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada welcomes foreign investment but subjects it to screening, national-security review and special thresholds; access is not always on identical terms.",
+          "sources": [
+            "investment-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Supply management explicitly uses import controls and tariff-rate quotas to preserve regulated domestic farming supply.",
+          "sources": [
+            "supply"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sectoral quotas and trade remedies show that businesses are not simply left to adjust without state trade protection.",
+          "sources": [
+            "supply",
+            "steel",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The August 2026 announcement establishes additional matching counter-tariffs effective September 8 in direct response to US tariffs.",
+          "sources": [
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Common trade rules generally support national treatment of covered products; tariffs are distinct border measures and treaty exceptions remain.",
+          "sources": [
+            "trade-agreements"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Steel tariffs and quotas respond to global overcapacity and subsidized competition; trade-remedy policy accepts targeted restrictions.",
+          "sources": [
+            "steel"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canada’s broad agreements remove tariffs to secure market access and trade integration despite some supply dependence.",
+          "sources": [
+            "trade-agreements"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National-security review can block or condition foreign control of sensitive businesses even when it supplies investment capital.",
+          "sources": [
+            "investment-review"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cross-border services form part of broad trade access; ordinary online purchases are not categorically prohibited, though regulated-sector and security restrictions qualify access.",
+          "sources": [
+            "trade-agreements"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Ordinary prices, entry and production are predominantly market-based. Sectoral planning includes supply management, subsidies, strategic procurement and national project prioritization. Minimum wages and rent regulation coexist with privately negotiated wages and an operationally independent central bank.",
+      "counterEvidence": "No comprehensive ordinary-time command allocation is documented. Supply management is a concrete exception to general market pricing and entry. Public investment banks do not imply instructions to all private banks; announcing investment incentives is not setting compulsory business output.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The market economy relies on firms choosing output; strategic programs guide selected investment without directing all business production.",
+          "sources": [
+            "oecd",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Supply-managed farming has quotas, but compulsory targets are not the general rule across all economically important industries.",
+          "sources": [
+            "supply",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Most prices are market-determined, with supply-managed agricultural prices, regulated services and rent controls as exceptions.",
+          "sources": [
+            "supply",
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Major-project prioritization and targeted industrial investment direct capital toward government-selected strategic sectors.",
+          "sources": [
+            "c5",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Competitive private businesses generally expand or close through demand and investment decisions, though subsidies and quotas cushion selected sectors.",
+          "sources": [
+            "oecd",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Supply management and specific banking fee caps impose selected price rules, while many essential consumer goods remain market-priced.",
+          "sources": [
+            "supply",
+            "affordability"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary market entry does not require proving a production shortage, although supply-managed agriculture is a significant regulated exception.",
+          "sources": [
+            "oecd",
+            "supply"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public development banks and targeted lending facilities steer finance, while private banking remains commercial rather than subject to general compulsory sector lending.",
+          "sources": [
+            "crown",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The investment-oriented open economy permits ordinary cross-border capital movement, subject to financial-compliance and security rules rather than general economic allocation approval.",
+          "sources": [
+            "oecd",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Targeted tariff-response support and strategic project programs intentionally redirect investment toward selected industries.",
+          "sources": [
+            "tariffs",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Privately issued crypto-assets can exist under regulation, while national currency and monetary sovereignty retain a privileged institutional role; private money does not replace the public standard.",
+          "sources": [
+            "crypto",
+            "central-bank"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Statutory federal and provincial minimum wages establish legal wage floors rather than leaving every wage to private negotiation.",
+          "sources": [
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Wages above statutory floors are normally set by employment agreements and collective bargaining; there is no general government wage schedule for private workers.",
+          "sources": [
+            "minimum-wage",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government agrees the monetary framework, but the Bank of Canada chooses operational policy independently instead of following a government production plan.",
+          "sources": [
+            "central-bank"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provincial rent regulation coexists with market rents and exemptions; the documented housing system is genuinely mixed.",
+          "sources": [
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The economy uses sectoral intervention inside a private market framework, not comprehensive national coordination of ordinary production and distribution.",
+          "sources": [
+            "oecd",
+            "supply"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income taxes and targeted child, worker, disability and elderly benefits redistribute income, but current policy also cuts the lowest income-tax rate and consumer charges. Support is means-tested or category-based, without a general wealth or inheritance tax or comprehensive land redistribution.",
+      "counterEvidence": "Implemented assistance is not proof that every household reaches an adequate standard. EI is time-limited while social assistance can continue on eligibility. A new disability benefit and retained child/worker credits coexist with tax reductions; this supports mixed answers to further expansion-versus-tax-cut choices.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Graduated taxation and income-tested transfers deliberately reduce disposable-income disparities, without equalizing all households.",
+          "sources": [
+            "tax-rates",
+            "benefits",
+            "poverty"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The poverty-reduction framework treats unequal opportunity and resources as legitimate reasons for tax-funded transfers.",
+          "sources": [
+            "poverty",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government adds disability and other supports while cutting the lowest income-tax rate; implemented policy does not consistently prefer a higher-tax minimum-income expansion.",
+          "sources": [
+            "affordability",
+            "tax-rates"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Targeted, means-tested assistance and limited EI replacement primarily provide a safety net while leaving substantial market-income differences.",
+          "sources": [
+            "ontario-works",
+            "ei"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal tax brackets impose rising marginal rates and a substantially larger income share on high earners than on low-income recipients of credits.",
+          "sources": [
+            "tax-rates",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recent tax reductions favour retention, but progressive rates and continuing targeted benefits retain an active redistribution commitment.",
+          "sources": [
+            "tax-rates",
+            "affordability"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Most inheritances are not taxed as income to recipients; estate capital-gains rules differ from a dedicated large-inheritance transfer tax.",
+          "sources": [
+            "inheritance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EI entitlement is limited in duration, whereas needs-based Ontario Works can continue while eligibility and participation conditions are met.",
+          "sources": [
+            "ei",
+            "ontario-works"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Existing transfers rely on income taxes and credits; PBO identifies an annual net-wealth tax as an NDP electoral proposal rather than the governing tax system. This supports limited disagreement with the proposed levy, not opposition to all taxation of assets.",
+          "sources": [
+            "tax-rates",
+            "benefits",
+            "oecd",
+            "wealth-proposal"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Benefits are targeted and constrained, but poverty reduction, child supports and disability payments also justify expenditure beyond minimizing the funders’ burden.",
+          "sources": [
+            "poverty",
+            "affordability",
+            "ontario-works"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The poverty strategy explicitly aims at dignity, inclusion and participation, although current benefit adequacy remains a limitation in practice.",
+          "sources": [
+            "poverty",
+            "ontario-works"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current measures combine income-tax and fee reductions with ongoing disability, child and worker support, rather than prioritizing only one side.",
+          "sources": [
+            "affordability",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Canada Workers Benefit is a refundable earnings supplement specifically directed to low-income workers.",
+          "sources": [
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Progressive federal marginal brackets explicitly tax additional income of high earners at higher rates.",
+          "sources": [
+            "tax-rates"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Housing policy expands supply, public-land development and targeted assistance inside a land market; it does not generally redistribute large private holdings among the land-poor.",
+          "sources": [
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Child and worker credits extend to a wider range of low- and middle-income households, rather than being confined to people unable to meet subsistence needs.",
+          "sources": [
+            "benefits",
+            "poverty"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil constitutional law, no clerical veto and equal religious freedom produce a predominantly secular institutional framework. Protected denominational schools, parliamentary prayer and Christian-origin public holidays are concrete exceptions to a completely religion-free public sphere.",
+      "counterEvidence": "Religious practice in the population does not determine these answers. Ontario’s public Catholic system differs from secular public boards. The Charter preamble mentions God but does not establish a particular religion. Religious charity status is not a unique tax regime outside general charitable rules.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civil constitutional standards and freedom from imposed religious dogma require public laws to have a legitimate civil basis rather than rely on one faith’s authority.",
+          "sources": [
+            "constitution",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Religious teachings are not an official source that overrides civil legislation or constitutional rights.",
+          "sources": [
+            "constitution",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: No clerical approval mechanism is required for parliamentary policymaking; religious groups participate as civil actors.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Charter’s reference to God and denominational protections acknowledge religion, but the constitution does not establish one particular faith as the state foundation.",
+          "sources": [
+            "constitution",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Secular public schools teach without doctrinal coercion, while constitutionally protected and publicly funded Catholic schools retain religious instruction.",
+          "sources": [
+            "religion",
+            "ontario-schools",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: There is no national state religion to cultivate across public education, notwithstanding denominational school systems in some provinces.",
+          "sources": [
+            "religion",
+            "ontario-schools"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Canadian courts enforce civil law and constitutional rights, not rulings binding solely through a religious authority.",
+          "sources": [
+            "constitution",
+            "family-arbitration"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The legislative structure contains no official religious reviewing chamber or clerical approval office.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State neutrality jurisprudence opposes imposed worship, but the House of Commons still opens sittings with prayer; practice is mixed.",
+          "sources": [
+            "religion",
+            "prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public Catholic schooling supports religious formation in some provinces, while general federal policy protects religious freedom without a national evangelizing mandate.",
+          "sources": [
+            "ontario-schools",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Religious neutrality weighs against government endorsement through symbols, though historical and denominational contexts require distinctions from private religious expression.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Good Friday and Christmas remain public holidays, but civil retention does not by itself make their purpose official state endorsement of Christianity.",
+          "sources": [
+            "holidays",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Government membership is not awarded ex officio to clergy; constitutional offices are civil rather than religious representation.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Advancement of religion can qualify as charity, but the tax treatment operates within charitable status rather than an additional privilege beyond charities.",
+          "sources": [
+            "charity"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civil marriage is legally available without religious permission; ministers of religion retain freedom to refuse religious ceremonies.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ontario permits religious advice but enforceable family arbitration must apply Canadian law; religious rulings have no independent overriding legal authority.",
+          "sources": [
+            "family-arbitration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Civil same-sex marriage, equality protections, conversion-practice prohibitions and funded reproductive healthcare support social change and equal treatment of diverse families and identities. The profile measures institutional policy rather than whether every citizen socially approves.",
+      "counterEvidence": "Provincial education and parental opt-out rules vary. Religious freedom protects traditional beliefs and ceremonies, and the monarchy and historic practices persist. Implemented equality reforms do not imply that all inherited customs must disappear or that every institutional reform should be immediate.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Changes to marriage law and identity protections show willingness to revise longstanding institutions as equal treatment and social expectations change.",
+          "sources": [
+            "marriage",
+            "conversion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current civil equality rules override restrictive traditional models where the two conflict, while preserving freedom of private belief.",
+          "sources": [
+            "marriage",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civil marriage equality and support for children and low-income families recognize households beyond a narrowly prescribed heterosexual married model.",
+          "sources": [
+            "marriage",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Gender-based policy explicitly examines socially assigned roles and removes barriers instead of directing men and women into traditional roles.",
+          "sources": [
+            "gba",
+            "gba-training"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Civil Marriage Act defines marriage as the union of two persons, making civil marriage available regardless of sex.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recognition of diverse families and equal civil marriage do not establish one opposite-sex married household as the uniquely preferred official model.",
+          "sources": [
+            "marriage",
+            "benefits"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: March 2026 funding explicitly supports abortion access and reducing stigma, establishing institutional acceptance rather than mere legal tolerance.",
+          "sources": [
+            "abortion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ontario provides parental exemptions from specified sexual-health instruction, while education authorities retain curricula and no uniform nationwide parental veto is established.",
+          "sources": [
+            "curriculum-exemption",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Equal civil family status and protection from sexual-orientation discrimination support equal recognition of same-sex parenting; this is an inference about institutional acceptance, not citizens’ attitudes.",
+          "sources": [
+            "marriage",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Personal liberty, gender equality and religious freedom do not impose a nationwide traditional modest-dress model on public life.",
+          "sources": [
+            "constitution",
+            "religion",
+            "gba"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Government gender-diversity analysis and conversion-practice law recognize self-described identity beyond traditional binary expectations.",
+          "sources": [
+            "gba",
+            "conversion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current equality and inclusion policies allow inherited moral expectations to be revised when they conflict with protected identity and family rights.",
+          "sources": [
+            "conversion",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The institutional commitment to equal treatment across sex and gender expression opposes penalizing adults for taking nontraditional roles.",
+          "sources": [
+            "gba",
+            "conversion",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Major equality reforms have been enacted, but constitutional procedures and federal negotiation preserve a gradual institutional process; speed is context-dependent.",
+          "sources": [
+            "marriage",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ontario’s curriculum explicitly teaches sexual orientation and gender identity; parental exemptions and provincial control qualify nationwide uniformity.",
+          "sources": [
+            "curriculum",
+            "curriculum-exemption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The monarchy, parliamentary prayer and established holidays are preserved, while equality reforms revise other customs; inherited connection is a consideration, not an absolute rule.",
+          "sources": [
+            "constitution",
+            "prayer",
+            "holidays",
+            "marriage"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "The current government prioritizes major infrastructure, energy investment and AI adoption, while medical devices, novel foods and reproductive technologies face specific safety rules. Risk-based approval permits residual uncertainty but does not treat initial benefits as sufficient for every technology.",
+      "counterEvidence": "C-5 accelerates national projects but retains environmental and Indigenous obligations. AI strategy launch and investment promises are evidence of policy orientation, not proof every promised project or job is delivered. Germline enhancement is prohibited; healthy-person neural enhancement is inferred from applicable high-risk device standards, not a claimed specific approval.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Project and AI acceleration coexist with demanding premarket evidence for high-risk products; the implemented framework is conditional on type and risk rather than one rule for all technologies.",
+          "sources": [
+            "c5",
+            "medical-ai",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Risk-based licensing allows wider use once sufficient evidence exists without requiring every long-term uncertainty to disappear; restrictions are proportionate to risk.",
+          "sources": [
+            "devices",
+            "medical-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: C-5 enables expedited national-interest infrastructure decisions while managing impacts, indicating that some habitat loss need not veto major public benefits.",
+          "sources": [
+            "c5"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Medical devices need objective safety evidence and life-cycle risk assessment, but acceptable benefit-risk tradeoffs and monitoring allow authorization without universally completed long-term studies.",
+          "sources": [
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: AI adoption and worker upskilling are central to the launched strategy and existing digital-development approach; policy accepts adaptation rather than preserving every existing job.",
+          "sources": [
+            "ai-strategy",
+            "spring-budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National-project prioritization and resource infrastructure development do not give untouched habitats an automatic veto over substantial public benefits.",
+          "sources": [
+            "c5"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cell-cultivated foods can enter through product-specific review, but ecological assessment is required; policy neither prohibits all replacement nor endorses scaling regardless of environmental risk.",
+          "sources": [
+            "cultivated"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: High-risk implant rules require evidence covering safety and useful-life performance; for enhancement without therapeutic need, this supports research-stage caution until robust evidence exists.",
+          "sources": [
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The current approach emphasizes clean investment, energy projects and technological growth, while removing the consumer fuel charge; this indicates a relative technology-led preference.",
+          "sources": [
+            "spring-budget",
+            "affordability",
+            "c5"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: C-5 expedites decisions but preserves environmental obligations; delay for evidence is a project-specific judgment rather than an unconditional rule.",
+          "sources": [
+            "c5"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Basic safety alone is insufficient for high-risk neural implants under life-cycle safety and benefit-risk requirements; adult consent does not remove those obligations.",
+          "sources": [
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Medical-AI guidance requires clinical validation and representative data across relevant groups before licensing, with supervised investigation where reliability is unproven.",
+          "sources": [
+            "medical-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Assisted-reproduction prohibitions ban heritable genome alteration and specified embryo creation, going beyond a mere preference for disease prevention over enhancement.",
+          "sources": [
+            "embryos"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Novel crop release and food use require environmental and safety assessment, but evidence is risk-based rather than a blanket requirement for exhaustive long-term ecosystem proof for every modified crop.",
+          "sources": [
+            "gm"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Current housing-supply and national infrastructure priorities permit development of additional land where justified, with environmental and regional constraints.",
+          "sources": [
+            "c5",
+            "oecd-housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Prohibitions on heritable human alteration and premarket requirements for biologically risky products support delaying potentially irreversible harm pending strong safeguards.",
+          "sources": [
+            "embryos",
+            "cultivated",
+            "devices"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Constitutionally protected provincial authority over education, local government, property, hospitals and resources makes Canada strongly federal. National criminal law, transfers, interprovincial matters and emergency coordination qualify local autonomy. Indigenous self-government is recognized but unevenly implemented.",
+      "counterEvidence": "Municipalities are provincial creations and do not have provincial constitutional autonomy. Secession requires a clear question, clear majority and negotiations, not a simple unilateral exit. Federal conditions on health funding and national-project powers create real central influence without general federal superiority over all provincial decisions.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional division protects provincial jurisdiction even when federal ministers disagree with provincial choices.",
+          "sources": [
+            "constitution",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional rules and courts resolve jurisdictional conflicts; the federal executive does not have final authority solely because it is national.",
+          "sources": [
+            "constitution",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A clear referendum mandate triggers a negotiated constitutional process under the Clarity Act, not an automatic right to leave on any bare majority.",
+          "sources": [
+            "clarity"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A national program does not erase provincial constitutional powers; federal laws prevail only within lawful authority and applicable constitutional doctrines.",
+          "sources": [
+            "constitution",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provinces can amend their own constitutional arrangements within the national amending framework and protected offices and rights.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The administration of justice and local policing is substantially provincial, alongside federal responsibilities and contracted RCMP services; police are not all commanded nationally.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provinces raise and spend substantial own-source revenue, while federal taxes and transfers redistribute across regions; neither complete fiscal localism nor central allocation is the whole system.",
+          "sources": [
+            "constitution",
+            "tax-rates"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Education is a provincial responsibility, and the federal government does not prescribe a single compulsory school curriculum.",
+          "sources": [
+            "federalism",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provincial taxing authority permits different tax rates, reflected in separate provincial and territorial income-tax schedules.",
+          "sources": [
+            "constitution",
+            "tax-rates"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Most property, civil and local employment matters belong to provinces, with federal rules for federally regulated sectors rather than one universal employment code.",
+          "sources": [
+            "federalism",
+            "minimum-wage"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National approval is generally unnecessary, but councils and their boundaries depend on provincial authority; local voters cannot independently redefine powers as a protected right.",
+          "sources": [
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National health-insurance principles condition federal support, while provinces administer plans and determine many coverage details.",
+          "sources": [
+            "healthcare",
+            "federalism"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal policy recognizes inherent Indigenous self-government and supports negotiated local institutions, while practical authority and agreements vary.",
+          "sources": [
+            "self-government",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Protected provincial taxation allows fiscal variation and competition; the national government does not generally fix provincial tax rates to prevent lower-tax competition.",
+          "sources": [
+            "constitution",
+            "tax-rates"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provincial property, natural-resource and local powers support management of internal land and wildlife, subject to Indigenous rights and valid federal responsibilities.",
+          "sources": [
+            "federalism",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Federal coordination becomes important when disasters span jurisdictions or exceed capacity, but provincial requests and responsibilities remain central rather than automatic unilateral federal command.",
+          "sources": [
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Official health, parenting and equality frameworks use social determinants and development rather than inherited racial explanations. They also explicitly recognize biology, genetics, stable temperament and neurological attention differences. Answers are domain-specific institutional inferences, not claims that the government has quantified heritability for every trait.",
+      "counterEvidence": "Culture is not environmental conservation or religious traditionalism. Public health guidance supports both biological and social pathways; supported mixed answers are used for general behaviour, stress, attention and threat perception. Educational or anti-racism policy does not prove an exact empirical causal percentage; national-IQ and general-interest inferences remain lower-confidence interpretations flagged for independent review. Targeted parent-audit follow-up leaves national IQ, general interests and immediate moral intuition unresolved: the sources do not support those comparative causal claims. Risk-taking uses an explicit biological/social interaction model, supported primarily for youth.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: PHAC lists biological endowment, development and social surroundings together; its policy model is interactive rather than a blanket ranking of all behaviour.",
+          "sources": [
+            "health-determinants",
+            "postpartum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: health and anti-racism frameworks do not establish a Canadian institutional position comparing inherited and educational causes of IQ differences between countries. Cross-national cognitive test research was found, but no adoption of the relevant causal ranking by the assessed institutions.",
+          "sources": [
+            "health-determinants",
+            "race"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: GBA Plus explicitly treats gender roles, behaviours and expectations as socially constructed while distinguishing biological sex, supporting a social explanation for many behavioural differences.",
+          "sources": [
+            "gba",
+            "gba-training"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Health guidance links stress to work, social support and experience, while postpartum guidance explicitly includes biological vulnerability; neither domain is treated as the sole dominant cause.",
+          "sources": [
+            "health-determinants",
+            "postpartum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: career and youth-development guidance supports exposing young people to opportunities and reflecting on interests, but does not compare social experience with inherited tendencies as causes of general individual differences in interests.",
+          "sources": [
+            "youth-development",
+            "gba"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: PHAC explicitly combines biological maturation and social determinants of experimentation. Ontario’s broader risk-taking guidance links puberty and reward circuitry with peer activation, learning and safer choices around cautious peers. This is a supported developmental interaction model, not a claim that genetic and learned influences are numerically equal; extrapolation beyond youth remains limited.",
+          "sources": [
+            "risk-framework",
+            "ontario-risk"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Charitable youth-development guidance explicitly treats teamwork and cooperation as skills developed through structured learning and interaction.",
+          "sources": [
+            "youth-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: PHAC parenting guidance teaches children to understand others’ feelings through discussion and being understood, supporting learned empathy rather than inherited predominance.",
+          "sources": [
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The federal Attention guide explicitly describes both environmental and biological origins of attention difficulties and offers environmental supports for both.",
+          "sources": [
+            "attention"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: youth citizenship and moral-reasoning guidance concerns deliberate learning and moral conduct, not the relative biological and cultural origins of immediate moral intuitions. Historical military ethics publications differ and do not establish current adoption of the exact causal claim.",
+          "sources": [
+            "youth-development",
+            "gap-drdc-moral-models",
+            "gap-warriors-way"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: PHAC distinguishes children’s stable fearful temperaments from the security and responses provided by caregivers; threat sensitivity reflects both disposition and experience.",
+          "sources": [
+            "temperament",
+            "postpartum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: PHAC describes temperament as a stable characteristic that neither child nor parent can simply change, while responses can be adapted; biological-development guidance supports a moderate predisposition inference.",
+          "sources": [
+            "temperament",
+            "postpartum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Official body-image guidance explicitly links ideals of slimness and attractiveness to cultural messaging and media, supporting a social influence interpretation.",
+          "sources": [
+            "body-image"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Justice policy treats race as socially constructed and the Black Justice implementation framework explains disproportionate system involvement through social conditions and discrimination rather than inherited racial violence.",
+          "sources": [
+            "race",
+            "black-justice"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Official parenting and youth-development approaches cultivate self-regulation through learning and support, while the racial-category policy rejects inherited racial essences.",
+          "sources": [
+            "attention",
+            "youth-development",
+            "race"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: GBA training explicitly links the wage gap to socially assigned caregiving roles and barriers; the policy does not treat lower pay as simply lower intrinsic economic value.",
+          "sources": [
+            "gba-training",
+            "gba"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex (GPT-6 Canada assessment agent; distinct second-pass self-review, separate parent-agent audit pending)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Distinct second pass reviewed all 240 interpretations against the exact bank and pole directions, and challenged counterevidence and mixed answers. Verified Carney via September 2026 official material; used newer 2026–28 immigration plan and enacted March 2026 C-12 eligibility restrictions, operative December 2025 procurement framework and September 2026 counter-tariffs. Added specific evidence during review for cannabis, firearms exceptions, peace bonds, judicial interception, seatbelts, movement-data retention and disclosure defences. Preserved separation of financing from ownership (especially privately owned VIA tracks), federalism from municipal autonomy, and religious heritage from clerical state authority. Culture–Nature uses explicit mixed biological/social guidance for behaviour, stress, attention and threat; no inference from religion, environmental policy or an ideology label. The national-IQ, general interests and immediate moral-reaction questions are the least direct institutional inferences and need particular scrutiny in the independent parent audit. These are not claims of government-measured heritability. Prospective project, tax and AI announcements are identified as such and do not establish completed implementation. Source dates marked undated where a reliable publication date was not established. Commons description and PD-flag terms checked; downloaded 960x480 PNG visually inspected. This is an AI self-review, not a human or separate-agent sign-off; parent will perform the requested independent audit and integration. No scores targeted or neighbour answers consulted. Parent-audit follow-up: additional official and provincial searches found no adopted framework supporting Culture–Nature Q2, Q5 or Q10; these are now unknown. Q6 changed from disagreement to supported mixed interaction on PHAC policy plus broader Ontario risk-taking guidance. Archive remains blocked pending these three gaps; no unknown was replaced by Neutral. Focused continuation on 2026-10-05 by primary OpenAI Codex agent /root: Reread the public-health determinants framework and searched official English/French material for inherited versus experiential causes of interests and national intelligence. Read relevant passages of DRDC CR 2005-105 (printed pp.31–33,51–56) and The Warrior’s Way (2007, opening matter and pp.24–25). These are a contracted research review and an authored Defence Academy treatise; publication is not proof of current adoption of a causal ranking. Intuition versus deliberation differs from biology versus upbringing. All 3 exact question-level gaps remain null/unknown. Existing supported answers, period and cutoff are preserved. This was a focused same-agent research and separate challenge pass, not a complete independent re-review or publication sign-off.",
+    "similarity": []
+  }
+}

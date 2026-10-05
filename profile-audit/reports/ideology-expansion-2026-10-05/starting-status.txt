@@ -1,0 +1,333 @@
+ M .agents/skills/audit-continue/SKILL.md
+ M .agents/skills/audit-country/SKILL.md
+ M .agents/skills/audit-ideology/SKILL.md
+ M .agents/skills/audit-personality/SKILL.md
+ M .agents/skills/new-country/SKILL.md
+ M .agents/skills/new-ideology/SKILL.md
+ M .agents/skills/new-personality/SKILL.md
+ M .claude/skills/audit-continue/SKILL.md
+ M .claude/skills/audit-country/SKILL.md
+ M .claude/skills/audit-ideology/SKILL.md
+ M .claude/skills/audit-personality/SKILL.md
+ M .claude/skills/new-country/SKILL.md
+ M .claude/skills/new-ideology/SKILL.md
+ M .claude/skills/new-personality/SKILL.md
+ M AGENTS.md
+ M CONTRIBUTING.md
+ M README.md
+ M docs/SCORING.md
+ M "docs/country assessments/README.md"
+ M "docs/ideology assessments/README.md"
+ M "docs/personality assessments/NEW_PROFILE.md"
+ M "docs/personality assessments/README.md"
+ M frontend/package-lock.json
+ M frontend/public/profiles/audits/ideology/american-conservatism/1.json
+ M frontend/public/profiles/audits/ideology/anarcho-capitalism/1.json
+ M frontend/public/profiles/audits/ideology/christian-democracy/1.json
+ M frontend/public/profiles/audits/ideology/civic-nationalism/1.json
+ M frontend/public/profiles/audits/ideology/communism/1.json
+ M frontend/public/profiles/audits/ideology/conservative-centrism/1.json
+ M frontend/public/profiles/audits/ideology/democratic-socialism/1.json
+ M frontend/public/profiles/audits/ideology/fascism/1.json
+ M frontend/public/profiles/audits/ideology/green-politics/1.json
+ M frontend/public/profiles/audits/ideology/islamism/1.json
+ M frontend/public/profiles/audits/ideology/liberal-conservatism/1.json
+ M frontend/public/profiles/audits/ideology/liberal-feminism/1.json
+ M frontend/public/profiles/audits/ideology/liberalism/1.json
+ M frontend/public/profiles/audits/ideology/libertarianism/1.json
+ M frontend/public/profiles/audits/ideology/luxemburgism/1.json
+ M frontend/public/profiles/audits/ideology/marxism/1.json
+ M frontend/public/profiles/audits/ideology/minarchism/1.json
+ M frontend/public/profiles/audits/ideology/nationalist-conservatism/1.json
+ M frontend/public/profiles/audits/ideology/nazism/1.json
+ M frontend/public/profiles/audits/ideology/neoconservatism/1.json
+ M frontend/public/profiles/audits/ideology/objectivism/1.json
+ M frontend/public/profiles/audits/ideology/social-anarchism/1.json
+ M frontend/public/profiles/audits/ideology/social-democracy/1.json
+ M frontend/public/profiles/audits/ideology/social-liberalism/1.json
+ M frontend/public/profiles/catalogue.v1.json
+ M frontend/scripts/profiles.ts
+ M frontend/src/App.tsx
+ M frontend/src/profiles/Catalogue.module.css
+ M frontend/src/profiles/Catalogue.tsx
+ M frontend/src/profiles/Ideologies.module.css
+ M frontend/src/profiles/Ideologies.tsx
+ M frontend/src/quiz/QuizFlow.tsx
+ M frontend/src/quiz/ResultProfile.tsx
+ M frontend/src/quiz/profile.test.ts
+ M frontend/src/quiz/profile.ts
+ M frontend/tests/catalogue.spec.ts
+ M profile-audit/answers/ideology/american-conservatism/1.json
+ M profile-audit/answers/ideology/anarcho-capitalism/1.json
+ M profile-audit/answers/ideology/christian-democracy/1.json
+ M profile-audit/answers/ideology/civic-nationalism/1.json
+ M profile-audit/answers/ideology/communism/1.json
+ M profile-audit/answers/ideology/conservative-centrism/1.json
+ M profile-audit/answers/ideology/democratic-socialism/1.json
+ M profile-audit/answers/ideology/fascism/1.json
+ M profile-audit/answers/ideology/green-politics/1.json
+ M profile-audit/answers/ideology/islamism/1.json
+ M profile-audit/answers/ideology/liberal-conservatism/1.json
+ M profile-audit/answers/ideology/liberal-feminism/1.json
+ M profile-audit/answers/ideology/liberalism/1.json
+ M profile-audit/answers/ideology/libertarianism/1.json
+ M profile-audit/answers/ideology/luxemburgism/1.json
+ M profile-audit/answers/ideology/marxism/1.json
+ M profile-audit/answers/ideology/minarchism/1.json
+ M profile-audit/answers/ideology/nationalist-conservatism/1.json
+ M profile-audit/answers/ideology/nazism/1.json
+ M profile-audit/answers/ideology/neoconservatism/1.json
+ M profile-audit/answers/ideology/objectivism/1.json
+ M profile-audit/answers/ideology/social-anarchism/1.json
+ M profile-audit/answers/ideology/social-democracy/1.json
+ M profile-audit/answers/ideology/social-liberalism/1.json
+ M profile-audit/drafts/country/australia.json
+ M profile-audit/drafts/country/bhutan.json
+ M profile-audit/drafts/country/canada.json
+ M profile-audit/drafts/country/china.json
+ M profile-audit/drafts/country/denmark.json
+ M profile-audit/drafts/country/france.json
+ M profile-audit/drafts/country/germany.json
+ M profile-audit/drafts/country/japan.json
+ M profile-audit/drafts/country/netherlands.json
+ M profile-audit/drafts/country/new-zealand.json
+ M profile-audit/drafts/country/north-korea.json
+ M profile-audit/drafts/country/norway.json
+ M profile-audit/drafts/country/russia.json
+ M profile-audit/drafts/country/singapore.json
+ M profile-audit/drafts/country/south-korea.json
+ M profile-audit/drafts/country/sweden.json
+ M profile-audit/drafts/country/switzerland.json
+ M profile-audit/drafts/country/taiwan.json
+ M profile-audit/drafts/country/united-kingdom.json
+ M profile-audit/drafts/country/united-states.json
+ M profile-audit/drafts/ideology/american-conservatism.json
+ M profile-audit/drafts/ideology/anarcho-capitalism.json
+ M profile-audit/drafts/ideology/christian-democracy.json
+ M profile-audit/drafts/ideology/civic-nationalism.json
+ M profile-audit/drafts/ideology/communism.json
+ M profile-audit/drafts/ideology/conservative-centrism.json
+ M profile-audit/drafts/ideology/democratic-socialism.json
+ M profile-audit/drafts/ideology/fascism.json
+ M profile-audit/drafts/ideology/green-politics.json
+ M profile-audit/drafts/ideology/islamism.json
+ M profile-audit/drafts/ideology/liberal-conservatism.json
+ M profile-audit/drafts/ideology/liberal-feminism.json
+ M profile-audit/drafts/ideology/liberalism.json
+ M profile-audit/drafts/ideology/libertarianism.json
+ M profile-audit/drafts/ideology/luxemburgism.json
+ M profile-audit/drafts/ideology/marxism.json
+ M profile-audit/drafts/ideology/minarchism.json
+ M profile-audit/drafts/ideology/nationalist-conservatism.json
+ M profile-audit/drafts/ideology/nazism.json
+ M profile-audit/drafts/ideology/neoconservatism.json
+ M profile-audit/drafts/ideology/objectivism.json
+ M profile-audit/drafts/ideology/social-anarchism.json
+ M profile-audit/drafts/ideology/social-democracy.json
+ M profile-audit/drafts/ideology/social-liberalism.json
+ M profile-audit/drafts/ideology/thatcherism.json
+ M profile-audit/drafts/personality/adolf-hitler.json
+ M profile-audit/drafts/personality/andy-burnham.json
+ M profile-audit/drafts/personality/angela-merkel.json
+ M profile-audit/drafts/personality/anthony-albanese.json
+ M profile-audit/drafts/personality/barack-obama.json
+ M profile-audit/drafts/personality/benito-mussolini.json
+ M profile-audit/drafts/personality/bernie-sanders.json
+ M profile-audit/drafts/personality/boris-johnson.json
+ M profile-audit/drafts/personality/donald-trump.json
+ M profile-audit/drafts/personality/edmund-burke.json
+ M profile-audit/drafts/personality/franklin-d-roosevelt.json
+ M profile-audit/drafts/personality/friedrich-hayek.json
+ M profile-audit/drafts/personality/jd-vance.json
+ M profile-audit/drafts/personality/john-locke.json
+ M profile-audit/drafts/personality/john-maynard-keynes.json
+ M profile-audit/drafts/personality/john-rawls.json
+ M profile-audit/drafts/personality/john-stuart-mill.json
+ M profile-audit/drafts/personality/joseph-stalin.json
+ M profile-audit/drafts/personality/julia-gillard.json
+ M profile-audit/drafts/personality/kamala-harris.json
+ M profile-audit/drafts/personality/karl-marx.json
+ M profile-audit/drafts/personality/mao-zedong.json
+ M profile-audit/drafts/personality/marco-rubio.json
+ M profile-audit/drafts/personality/margaret-thatcher.json
+ M profile-audit/drafts/personality/milton-friedman.json
+ M profile-audit/drafts/personality/nelson-mandela.json
+ M profile-audit/drafts/personality/nigel-farage.json
+ M profile-audit/drafts/personality/pauline-hanson.json
+ M profile-audit/drafts/personality/ronald-reagan.json
+ M profile-audit/drafts/personality/rosa-luxemburg.json
+ M profile-audit/drafts/personality/rupert-lowe.json
+ M profile-audit/drafts/personality/thomas-hobbes.json
+ M profile-audit/drafts/personality/vladimir-putin.json
+ M profile-audit/drafts/personality/winston-churchill.json
+ M profile-audit/drafts/personality/xi-jinping.json
+ M profile-audit/reports/ideologies-2026-10-04-reaudit.json
+ M profile-audit/reports/ideologies-2026-10-04-reaudit.md
+ M profile-audit/reports/ideologies-2026-10-04.json
+ M profile-audit/reports/ideology-restoration-2026-10-04/AUDIT.md
+ M profile-audit/reports/ideology-restoration-2026-10-04/final-validation.json
+ M profile-audit/research/ideology/american-conservatism-r2.md
+ M profile-audit/research/ideology/anarcho-capitalism-r2.md
+ M profile-audit/research/ideology/christian-democracy-r2.md
+ M profile-audit/research/ideology/civic-nationalism-r2.md
+ M profile-audit/research/ideology/conservative-centrism-r2.md
+ M profile-audit/research/ideology/democratic-socialism-r2.md
+ M profile-audit/research/ideology/fascism-r2.md
+ M profile-audit/research/ideology/green-politics-r2.md
+ M profile-audit/research/ideology/islamism-r2.md
+ M profile-audit/research/ideology/liberal-conservatism-r2.md
+ M profile-audit/research/ideology/liberalism-r2.md
+ M profile-audit/research/ideology/libertarianism-r2.md
+ M profile-audit/research/ideology/luxemburgism-r2.md
+ M profile-audit/research/ideology/marxism-r2.md
+ M profile-audit/research/ideology/minarchism-r2.md
+ M profile-audit/research/ideology/nationalist-conservatism-r2.md
+ M profile-audit/research/ideology/nazism-r2.md
+ M profile-audit/research/ideology/neoconservatism-r2.md
+ M profile-audit/research/ideology/objectivism-r2.md
+ M profile-audit/research/ideology/social-anarchism-r2.md
+ M profile-audit/research/ideology/social-democracy-r2.md
+ M profile-audit/research/ideology/social-liberalism-r2.md
+?? .playwright-cli/
+?? frontend/public/profiles/audits/country/
+?? frontend/public/profiles/audits/ideology/american-conservatism/2.json
+?? frontend/public/profiles/audits/ideology/anarcho-capitalism/2.json
+?? frontend/public/profiles/audits/ideology/christian-democracy/2.json
+?? frontend/public/profiles/audits/ideology/civic-nationalism/2.json
+?? frontend/public/profiles/audits/ideology/communism/2.json
+?? frontend/public/profiles/audits/ideology/conservative-centrism/2.json
+?? frontend/public/profiles/audits/ideology/democratic-socialism/2.json
+?? frontend/public/profiles/audits/ideology/fascism/2.json
+?? frontend/public/profiles/audits/ideology/green-politics/2.json
+?? frontend/public/profiles/audits/ideology/islamism/2.json
+?? frontend/public/profiles/audits/ideology/liberal-conservatism/2.json
+?? frontend/public/profiles/audits/ideology/liberal-feminism/2.json
+?? frontend/public/profiles/audits/ideology/liberalism/2.json
+?? frontend/public/profiles/audits/ideology/libertarianism/2.json
+?? frontend/public/profiles/audits/ideology/luxemburgism/2.json
+?? frontend/public/profiles/audits/ideology/marxism/2.json
+?? frontend/public/profiles/audits/ideology/minarchism/2.json
+?? frontend/public/profiles/audits/ideology/nationalist-conservatism/2.json
+?? frontend/public/profiles/audits/ideology/nazism/2.json
+?? frontend/public/profiles/audits/ideology/neoconservatism/2.json
+?? frontend/public/profiles/audits/ideology/objectivism/2.json
+?? frontend/public/profiles/audits/ideology/social-anarchism/2.json
+?? frontend/public/profiles/audits/ideology/social-democracy/2.json
+?? frontend/public/profiles/audits/ideology/social-liberalism/2.json
+?? frontend/public/profiles/audits/ideology/thatcherism/2.json
+?? frontend/public/profiles/audits/personality/adolf-hitler/3.json
+?? frontend/public/profiles/audits/personality/andy-burnham/3.json
+?? frontend/public/profiles/audits/personality/angela-merkel/3.json
+?? frontend/public/profiles/audits/personality/anthony-albanese/3.json
+?? frontend/public/profiles/audits/personality/barack-obama/2.json
+?? frontend/public/profiles/audits/personality/benito-mussolini/3.json
+?? frontend/public/profiles/audits/personality/bernie-sanders/3.json
+?? frontend/public/profiles/audits/personality/boris-johnson/3.json
+?? frontend/public/profiles/audits/personality/donald-trump/3.json
+?? frontend/public/profiles/audits/personality/donald-trump/4.json
+?? frontend/public/profiles/audits/personality/donald-trump/5.json
+?? frontend/public/profiles/audits/personality/edmund-burke/3.json
+?? frontend/public/profiles/audits/personality/franklin-d-roosevelt/3.json
+?? frontend/public/profiles/audits/personality/friedrich-hayek/2.json
+?? frontend/public/profiles/audits/personality/jd-vance/3.json
+?? frontend/public/profiles/audits/personality/john-locke/3.json
+?? frontend/public/profiles/audits/personality/john-maynard-keynes/3.json
+?? frontend/public/profiles/audits/personality/john-rawls/2.json
+?? frontend/public/profiles/audits/personality/john-stuart-mill/3.json
+?? frontend/public/profiles/audits/personality/joseph-stalin/3.json
+?? frontend/public/profiles/audits/personality/julia-gillard/2.json
+?? frontend/public/profiles/audits/personality/kamala-harris/2.json
+?? frontend/public/profiles/audits/personality/karl-marx/3.json
+?? frontend/public/profiles/audits/personality/mao-zedong/2.json
+?? frontend/public/profiles/audits/personality/marco-rubio/3.json
+?? frontend/public/profiles/audits/personality/margaret-thatcher/3.json
+?? frontend/public/profiles/audits/personality/milton-friedman/3.json
+?? frontend/public/profiles/audits/personality/nelson-mandela/2.json
+?? frontend/public/profiles/audits/personality/nigel-farage/3.json
+?? frontend/public/profiles/audits/personality/pauline-hanson/3.json
+?? frontend/public/profiles/audits/personality/ronald-reagan/3.json
+?? frontend/public/profiles/audits/personality/rosa-luxemburg/3.json
+?? frontend/public/profiles/audits/personality/rupert-lowe/3.json
+?? frontend/public/profiles/audits/personality/thomas-hobbes/3.json
+?? frontend/public/profiles/audits/personality/vladimir-putin/3.json
+?? frontend/public/profiles/audits/personality/winston-churchill/3.json
+?? frontend/public/profiles/audits/personality/xi-jinping/3.json
+?? frontend/public/profiles/ideology-review.html
+?? frontend/public/profiles/images/bhutan-r1.png
+?? frontend/public/profiles/images/north-korea-r1.png
+?? frontend/public/profiles/personality-review.html
+?? frontend/src/profiles/countryImageCredits.ts
+?? output/
+?? profile-audit/answers/country/
+?? profile-audit/answers/ideology/american-conservatism/2.json
+?? profile-audit/answers/ideology/anarcho-capitalism/2.json
+?? profile-audit/answers/ideology/christian-democracy/2.json
+?? profile-audit/answers/ideology/civic-nationalism/2.json
+?? profile-audit/answers/ideology/communism/2.json
+?? profile-audit/answers/ideology/conservative-centrism/2.json
+?? profile-audit/answers/ideology/democratic-socialism/2.json
+?? profile-audit/answers/ideology/fascism/2.json
+?? profile-audit/answers/ideology/green-politics/2.json
+?? profile-audit/answers/ideology/islamism/2.json
+?? profile-audit/answers/ideology/liberal-conservatism/2.json
+?? profile-audit/answers/ideology/liberal-feminism/2.json
+?? profile-audit/answers/ideology/liberalism/2.json
+?? profile-audit/answers/ideology/libertarianism/2.json
+?? profile-audit/answers/ideology/luxemburgism/2.json
+?? profile-audit/answers/ideology/marxism/2.json
+?? profile-audit/answers/ideology/minarchism/2.json
+?? profile-audit/answers/ideology/nationalist-conservatism/2.json
+?? profile-audit/answers/ideology/nazism/2.json
+?? profile-audit/answers/ideology/neoconservatism/2.json
+?? profile-audit/answers/ideology/objectivism/2.json
+?? profile-audit/answers/ideology/social-anarchism/2.json
+?? profile-audit/answers/ideology/social-democracy/2.json
+?? profile-audit/answers/ideology/social-liberalism/2.json
+?? profile-audit/answers/ideology/thatcherism/2.json
+?? profile-audit/answers/personality/adolf-hitler/3.json
+?? profile-audit/answers/personality/andy-burnham/3.json
+?? profile-audit/answers/personality/angela-merkel/3.json
+?? profile-audit/answers/personality/anthony-albanese/3.json
+?? profile-audit/answers/personality/barack-obama/2.json
+?? profile-audit/answers/personality/benito-mussolini/3.json
+?? profile-audit/answers/personality/bernie-sanders/3.json
+?? profile-audit/answers/personality/boris-johnson/3.json
+?? profile-audit/answers/personality/donald-trump/3.json
+?? profile-audit/answers/personality/donald-trump/4.json
+?? profile-audit/answers/personality/donald-trump/5.json
+?? profile-audit/answers/personality/edmund-burke/3.json
+?? profile-audit/answers/personality/franklin-d-roosevelt/3.json
+?? profile-audit/answers/personality/friedrich-hayek/2.json
+?? profile-audit/answers/personality/jd-vance/3.json
+?? profile-audit/answers/personality/john-locke/3.json
+?? profile-audit/answers/personality/john-maynard-keynes/3.json
+?? profile-audit/answers/personality/john-rawls/2.json
+?? profile-audit/answers/personality/john-stuart-mill/3.json
+?? profile-audit/answers/personality/joseph-stalin/3.json
+?? profile-audit/answers/personality/julia-gillard/2.json
+?? profile-audit/answers/personality/kamala-harris/2.json
+?? profile-audit/answers/personality/karl-marx/3.json
+?? profile-audit/answers/personality/mao-zedong/2.json
+?? profile-audit/answers/personality/marco-rubio/3.json
+?? profile-audit/answers/personality/margaret-thatcher/3.json
+?? profile-audit/answers/personality/milton-friedman/3.json
+?? profile-audit/answers/personality/nelson-mandela/2.json
+?? profile-audit/answers/personality/nigel-farage/3.json
+?? profile-audit/answers/personality/pauline-hanson/3.json
+?? profile-audit/answers/personality/ronald-reagan/3.json
+?? profile-audit/answers/personality/rosa-luxemburg/3.json
+?? profile-audit/answers/personality/rupert-lowe/3.json
+?? profile-audit/answers/personality/thomas-hobbes/3.json
+?? profile-audit/answers/personality/vladimir-putin/3.json
+?? profile-audit/answers/personality/winston-churchill/3.json
+?? profile-audit/answers/personality/xi-jinping/3.json
+?? profile-audit/catalogue-exclusions.json
+?? profile-audit/reports/country-completion-2026-10-05/
+?? profile-audit/reports/country-gaps-2026-10-05.json
+?? profile-audit/reports/country-readiness-2026-10-05.json
+?? profile-audit/reports/donald-trump-focused-2026-10-05/
+?? profile-audit/reports/donald-trump-refinement-2026-10-05/
+?? profile-audit/reports/ideology-expansion-2026-10-05/
+?? profile-audit/reports/ideology-redo-2026-10-05/
+?? profile-audit/reports/personality-completion-2026-10-05/
+?? profile-audit/reports/personality-restoration-2026-10-05/

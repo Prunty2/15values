@@ -1,0 +1,3223 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "china",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex (GPT-6 AI assessment agent; independent China assessment)",
+  "changeNote": "China-specific assessment of all 240 current questions, with individual evidence rationales, explicit unresolved gaps, contemporary implemented-policy checks and a separate same-agent evidence review; pending independent parent audit.",
+  "metadata": {
+    "name": "China",
+    "description": "China’s national institutions and implemented policies under Xi Jinping and Premier Li Qiang through 4 October 2026.",
+    "category": "Communist Party-led unitary socialist republic",
+    "period": "Contemporary institutions and implemented policy through 2026-10-04.",
+    "scope": "People’s Republic of China, primarily mainland national institutions and policy; Hong Kong and Macao exceptions noted where relevant. Does not represent citizens’ opinions or the institutions of Taiwan.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/china-r1.png",
+      "alt": "Flag of the People’s Republic of China: five yellow stars on a red field.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+      "creator": "Zeng Liansong; standard flag artwork from the National People’s Congress and Government of China, via Wikimedia Commons",
+      "license": "Public domain (PD-PRC-exempt)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-PRC-exempt"
+    }
+  },
+  "sources": [
+    {
+      "id": "incumbent",
+      "title": "National Day reception confirms current party, state and government leadership",
+      "url": "https://english.www.gov.cn/news/202609/30/content_WS6abcf464c6d00ca5f9a0d8cf.html",
+      "publisher": "State Council / Xinhua",
+      "date": "2026-09-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fh",
+      "title": "Freedom in the World 2026: China",
+      "url": "https://freedomhouse.org/country/china/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "hrw",
+      "title": "World Report 2026: China, events of 2025",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/china",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ap-current",
+      "title": "National Day celebrations and protests",
+      "url": "https://apnews.com/article/9fbb8425f2844ff0ac7533592ba97ed9",
+      "publisher": "Associated Press",
+      "date": "2026-10-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "Constitution of the People’s Republic of China as amended in 2018",
+      "url": "https://en.npc.gov.cn/2018-03/11/c_1020529.htm",
+      "publisher": "National People’s Congress",
+      "date": "2018-03-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ethnic",
+      "title": "Law Promoting Ethnic Unity and Progress; effective 1 July 2026",
+      "url": "https://www.spp.gov.cn/spp/zdgz/202603/t20260313_723904.shtml",
+      "publisher": "Supreme People’s Procuratorate",
+      "date": "2026-03-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pr",
+      "title": "Guidelines for permanent residence eligibility",
+      "url": "https://en.nia.gov.cn/n147423/n147478/n147715/c158291/content.html",
+      "publisher": "National Immigration Administration",
+      "date": "2023-03-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "entry",
+      "title": "Exit and Entry Administration Law",
+      "url": "https://www.nia.gov.cn/n741440/n741547/c757592/content.html",
+      "publisher": "National Immigration Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-entry",
+      "title": "Service guide for residence permits, including family residence",
+      "url": "https://en.nia.gov.cn/n147423/n147478/n147715/c158270/content.html",
+      "publisher": "National Immigration Administration",
+      "date": "2021-04-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "video",
+      "title": "Public security video regulations; operative April 2025",
+      "url": "https://www.mee.gov.cn/zcwj/gwywj/202502/t20250211_1102044.shtml",
+      "publisher": "Ministry of Ecology and Environment / State Council",
+      "date": "2025-02-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "video-review",
+      "title": "New camera rules and privacy safeguards",
+      "url": "https://www.loc.gov/item/global-legal-monitor/2025-05-19/china-new-regulations-on-public-security-cameras-tackle-privacy-and-personal-information-rights/",
+      "publisher": "Library of Congress",
+      "date": "2025-05-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "public-security",
+      "title": "Revised public-security administrative penalty law effective January 2026",
+      "url": "https://en.moj.gov.cn/2025-07/14/c_1184040.htm",
+      "publisher": "Ministry of Justice",
+      "date": "2025-07-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "terror",
+      "title": "Counterterrorism Law, including preventive and placement education powers",
+      "url": "https://www.npc.gov.cn/zgrdw/npc/xinwen/2015-12/28/content_1957401.htm",
+      "publisher": "National People’s Congress",
+      "date": "2015-12-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ap-surveillance",
+      "title": "Investigation into China’s surveillance systems and implementation",
+      "url": "https://apnews.com/article/a80904158b771a14d5a734947f28d71b",
+      "publisher": "Associated Press",
+      "date": "2025-09-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence-budget",
+      "title": "2026 military expenditure arrangements",
+      "url": "https://eng.mod.gov.cn/2025xb/P/16447711.html",
+      "publisher": "Ministry of National Defense",
+      "date": "2026-03-10",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution-translation",
+      "title": "PRC Constitution (2018), Wei and Hu translation",
+      "url": "https://npcobserver.com/wp-content/uploads/2023/11/PRC-Constitution-2018.pdf",
+      "publisher": "NPC Observer (translation of primary law)",
+      "date": "2025-07-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ethnic-court",
+      "title": "Ethnic Unity and Progress Promotion Law: regional court republication",
+      "url": "https://search.nxfy.gov.cn/szszjfy/szszyxwzx/szszyzdjs/202606/t20260616_5092144.html",
+      "publisher": "Shizuishan Intermediate Peoples Court",
+      "date": "2026-06-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "private-law",
+      "title": "China adopts private sector promotion law, effective May 20",
+      "url": "https://english.www.gov.cn/news/202504/30/content_WS6811c4e7c6d0868f4e8f2372.html",
+      "publisher": "State Council / Xinhua",
+      "date": "2025-04-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "childcare",
+      "title": "2026 subsidy applications; 2025 payments reached 24 million",
+      "url": "https://english.www.gov.cn/english.www.gov.cn/news/202601/05/content_WS695b7a4ec6d00ca5f9a086a5.html",
+      "publisher": "State Council / Xinhua",
+      "date": "2026-01-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "africa",
+      "title": "Zero tariff treatment for African trading partners",
+      "url": "https://english.www.gov.cn/news/202604/28/content_WS69f0a1d7c6d00ca5f9a0aad0.html",
+      "publisher": "State Council / Customs Tariff Commission",
+      "date": "2026-04-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "africa-ap",
+      "title": "China drops tariffs on African imports",
+      "url": "https://apnews.com/article/7da631f9be17069ec92e1d7f432058d7",
+      "publisher": "Associated Press",
+      "date": "2026-05-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-plus",
+      "title": "State Council issues AI Plus guideline",
+      "url": "https://english.www.gov.cn/policies/latestreleases/202508/27/content_WS68ae7976c6d0868f4e8f51a0.html",
+      "publisher": "State Council / China Daily",
+      "date": "2025-08-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bci-ethics",
+      "title": "Brain computer interface research ethics guidance",
+      "url": "https://www.ncsti.gov.cn/kjdt/kjrd/qtrd_kjrd/202402/t20240204_148663.html",
+      "publisher": "Beijing International Science and Technology Innovation Center / Science and Technology Daily",
+      "date": "2024-02-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd",
+      "title": "Mental disorders diagnosis and treatment standard: ADHD",
+      "url": "https://www.nhc.gov.cn/cms-search/downFiles/9944cdd142574ea59c541d552fe345a9.pdf",
+      "publisher": "National Health Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Application of domestic-product procurement preference in Shanghai",
+      "url": "https://www.ccgp.gov.cn/zcdt/202605/t20260511_26542927.htm",
+      "publisher": "China Government Procurement Network",
+      "date": "2026-05-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pricing",
+      "title": "Pricing Law",
+      "url": "https://english.www.gov.cn/services/doingbusiness/202102/24/content_WS6035f101c6d0719374af97b2.html",
+      "publisher": "State Council / NPC",
+      "date": "2021-02-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "assistance",
+      "title": "Interim Measures for Social Assistance",
+      "url": "https://www.beijing.gov.cn/zhengce/gwywj/201905/t20190522_57869.html",
+      "publisher": "State Council / Beijing Government",
+      "date": "2014-02-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "income-tax",
+      "title": "Individual Income Tax Law (2018 amendment)",
+      "url": "https://www.chinatax.gov.cn/n810219/n810744/n3752930/n3752974/c3970366/content.html",
+      "publisher": "State Taxation Administration",
+      "date": "2018-08-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carbon",
+      "title": "Carbon peaking and neutrality: plans and solutions",
+      "url": "https://english.www.gov.cn/archive/whitepaper/202511/08/content_WS690ee812c6d00ca5f9a076cd.html",
+      "publisher": "State Council Information Office",
+      "date": "2025-11-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "guns",
+      "title": "Firearms Administration Law",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_03a88157bf8a49c19f6b35a2e3ce5c19.html",
+      "publisher": "State Administration for Market Regulation / NPC",
+      "date": "2015-04-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "civil",
+      "title": "Civil Code",
+      "url": "https://www.stats.gov.cn/gk/tjfg/xgfxfg/202503/t20250312_1958939.html",
+      "publisher": "National Bureau of Statistics / NPC",
+      "date": "2025-03-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religion",
+      "title": "Regulations on Religious Affairs (current text)",
+      "url": "https://www.beijing.gov.cn/zhengce/gwywj/201905/t20190522_60503.html",
+      "publisher": "State Council / Beijing Government",
+      "date": "2017-08-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "foreign",
+      "title": "Law on Foreign Relations",
+      "url": "https://en.moj.gov.cn/2023-06/29/c_898506.htm",
+      "publisher": "Ministry of Justice / NPC",
+      "date": "2023-06-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cyber",
+      "title": "Cybersecurity Law: real name authentication",
+      "url": "https://www.miit.gov.cn/ztzl/rdzt/tdzzyyhlwsdrhfzjkjstggyhlwpt/zcfb/art/2020/art_41be9e94ecc5433899ca88a0339a38b6.html",
+      "publisher": "Ministry of Industry and Information Technology",
+      "date": "2016-11-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "dv",
+      "title": "Anti Domestic Violence Law",
+      "url": "https://en.npc.gov.cn.cdurl.cn/2015-12/27/c_1117124.htm",
+      "publisher": "National Peoples Congress",
+      "date": "2015-12-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "traffic",
+      "title": "Road Traffic Safety Law",
+      "url": "https://www.samr.gov.cn/zljds/zcfg/art/2023/art_18130867b0fd4e07a3d98c451497ea19.html",
+      "publisher": "State Administration for Market Regulation / NPC",
+      "date": "2021-04-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "xinjiang",
+      "title": "Xinjiang De-extremification Regulation",
+      "url": "https://www.xinjiang.gov.cn/xinjiang/xjyw/201703/f1b24351f93b45b1a427e115d53f960c.shtml",
+      "publisher": "Xinjiang Government",
+      "date": "2017-03-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holiday",
+      "title": "Revised national holiday calendar",
+      "url": "https://big5.www.gov.cn/gate/big5/www.gov.cn/zhengce/jiedu/tujie/202411/content_6986437.htm",
+      "publisher": "State Council",
+      "date": "2024-11-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "strategy",
+      "title": "China military strategy white paper",
+      "url": "https://english.www.gov.cn/archive/white_paper/2015/05/27/content_281475115610833.htm",
+      "publisher": "State Council",
+      "date": "2015-05-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "arms",
+      "title": "Arms Control, Disarmament and Nonproliferation white paper",
+      "url": "https://www.mfa.gov.cn/mfa_eng/zy/wjzc/202511/t20251127_11761656.html",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "2025-11-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "secession",
+      "title": "Anti Secession Law",
+      "url": "https://www.mfa.gov.cn/web/ziliao_674904/zt_674979/dnzt_674981/qtzt/twwt/stflgf/202206/t20220606_10699015.html",
+      "publisher": "Ministry of Foreign Affairs / NPC",
+      "date": "2005-03-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "service",
+      "title": "Military registration regulation effective January 2026",
+      "url": "https://eng.mod.gov.cn/2025xb/P/16437325.html",
+      "publisher": "Ministry of National Defense",
+      "date": "2025-12-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "award",
+      "title": "China rejects South China Sea ruling again on its tenth anniversary",
+      "url": "https://apnews.com/article/6ca48fecb19b61901b05a3f86f70be54",
+      "publisher": "Associated Press",
+      "date": "2026-07-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wto",
+      "title": "Trade policy review of China: Secretariat report",
+      "url": "https://www.wto.org/english/tratop_e/tpr_e/s458_e.pdf",
+      "publisher": "World Trade Organization",
+      "date": "2024-05-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rare-earth",
+      "title": "Operative rare earth production quota rules",
+      "url": "https://policy.mofcom.gov.cn/claw/clawContent.shtml?id=103634",
+      "publisher": "Ministry of Commerce / MIIT",
+      "date": "2025-07-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pbc",
+      "title": "Implemented technology refinancing expansion",
+      "url": "https://www.pbc.gov.cn/rmyh/3963412/3963426/2025092319241212242/index.html",
+      "publisher": "Peoples Bank of China",
+      "date": "2025-05-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "Prohibition of virtual currency business activity",
+      "url": "https://m.safe.gov.cn/safe/2021/0924/19911.html",
+      "publisher": "State Administration of Foreign Exchange / PBOC",
+      "date": "2021-09-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "capital",
+      "title": "Capital account foreign exchange guidance 2024",
+      "url": "https://www.gov.cn/zhengce/zhengceku/202404/P020240413283163235756.pdf",
+      "publisher": "State Administration of Foreign Exchange",
+      "date": "2024-04-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "labour",
+      "title": "Labour Law",
+      "url": "https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394625.html",
+      "publisher": "Ministry of Human Resources and Social Security",
+      "date": "2020-11-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rent",
+      "title": "Housing Rental Regulations, effective September 2025",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_925f3f41a36541c8b98252a660ed8467.html",
+      "publisher": "State Council / SAMR",
+      "date": "2025-07-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sasac",
+      "title": "SOE reform and strategic capital concentration",
+      "url": "https://www.sasac.gov.cn/n2588025/n2643314/c32847978/content.html",
+      "publisher": "State-owned Assets Supervision and Administration Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "services",
+      "title": "Government Purchase of Services Measures, Order 102",
+      "url": "https://www.mof.gov.cn/gp/xxgkml/tfs/202002/t20200217_3470373.htm",
+      "publisher": "Ministry of Finance",
+      "date": "2020-02-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "State enterprise purchase of existing homes for affordable housing",
+      "url": "https://lyjs.linyi.gov.cn/info/1027/75956.htm",
+      "publisher": "Linyi Housing and Urban Rural Development Bureau",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "retaliation",
+      "title": "Retaliatory tariffs implemented April 12, 2025",
+      "url": "https://www.mof.gov.cn/jrttts/202505/t20250521_3964266.htm",
+      "publisher": "Ministry of Finance / Customs Tariff Commission",
+      "date": "2025-04-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health-stats",
+      "title": "2023 national health development statistical bulletin",
+      "url": "https://www.gov.cn/lianbo/bumen/202408/P020240829729470466631.pdf",
+      "publisher": "National Health Commission",
+      "date": "2024-08-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "exit",
+      "title": "Market entity exit reform: state zombie enterprise bankruptcy",
+      "url": "https://www.sdcourt.gov.cn/dyzy/pcgk/pcglrmc/gjj70/8308173/index.html",
+      "publisher": "NDRC and Supreme Peoples Court / Shandong Courts",
+      "date": "2019-06-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "low-income",
+      "title": "Tiered assistance for low-income populations",
+      "url": "https://app.www.gov.cn/govdata/gov/202310/23/508615/article.html",
+      "publisher": "State Council",
+      "date": "2023-10-23",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "imf",
+      "title": "2025 Article IV consultation, published February 2026",
+      "url": "https://www.imf.org/-/media/files/publications/cr/2026/english/1chnea2026001-source-pdf.pdf",
+      "publisher": "International Monetary Fund",
+      "date": "2026-02-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-types",
+      "title": "Individual other taxes: China",
+      "url": "https://taxsummaries.pwc.com/peoples-republic-of-china/individual/other-taxes",
+      "publisher": "PwC",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "broadcaster",
+      "title": "State Council institutional structure: China Media Group",
+      "url": "https://www.scopsr.gov.cn/zlzx/jggk/gwyjg/index.html",
+      "publisher": "State Commission Office for Public Sector Reform",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "women-plan",
+      "title": "Women and Children Development Outlines 2021–2030",
+      "url": "https://app.www.gov.cn/govdata/gov/202109/27/476292/article.html",
+      "publisher": "State Council",
+      "date": "2021-09-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "women-law",
+      "title": "Revised Law on Protection of Womens Rights and Interests",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/202304/t20230428_3083938.html",
+      "publisher": "NPC / Beijing Government",
+      "date": "2022-10-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "morals",
+      "title": "Implementation Outline for Civic Morality in the New Era",
+      "url": "https://www.cac.gov.cn/2019-10/28/c_1573794784954404.htm",
+      "publisher": "CPC Central Committee and State Council",
+      "date": "2019-10-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "education",
+      "title": "Education Law, amended 2021",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202107/t20210730_547843.html",
+      "publisher": "Ministry of Education",
+      "date": "2021-07-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religious-tax",
+      "title": "Property tax interpretation: religious worship premises exemption",
+      "url": "https://www.beijing.gov.cn/zhengce/zhengcefagui/qtwj/201912/t20191219_1289730.html",
+      "publisher": "Ministry of Finance / Beijing Government",
+      "date": "1986-09-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "National compulsory education curriculum 2022",
+      "url": "https://www.moe.gov.cn/srcsite/A26/s8001/202204/t20220420_619921.html",
+      "publisher": "Ministry of Education",
+      "date": "2022-04-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "local-curriculum",
+      "title": "Local and school curriculum management",
+      "url": "https://app.www.gov.cn/govdata/gov/202306/11/504039/article.html",
+      "publisher": "Ministry of Education",
+      "date": "2023-06-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-sharing",
+      "title": "Central-local revenue sharing reform",
+      "url": "https://app.www.gov.cn/govdata/gov/201910/09/449317/article.html",
+      "publisher": "State Council",
+      "date": "2019-10-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "competition",
+      "title": "Fair Competition Review Regulation",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100010/c5238092/content.html",
+      "publisher": "State Council / State Taxation Administration",
+      "date": "2024-06-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "resources-tax",
+      "title": "Resource Tax Law",
+      "url": "https://etax.anhui.chinatax.gov.cn/bucket-tools/202306/19/22832efe-d3ea-4e50-a4ce-95f26d5d8a88.pdf",
+      "publisher": "NPC / State Taxation Administration",
+      "date": "2019-08-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "emergency",
+      "title": "National Overall Emergency Response Plan",
+      "url": "https://app.www.gov.cn/govdata/gov/202502/25/524896/article.html",
+      "publisher": "CPC Central Committee and State Council",
+      "date": "2025-02-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drugs-list",
+      "title": "2025 national reimbursement drug lists, effective 2026",
+      "url": "https://www.nhsa.gov.cn/art/2025/12/7/art_53_18971.html",
+      "publisher": "National Healthcare Security Administration",
+      "date": "2025-12-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "regional-drugs",
+      "title": "Gansu implementation: national list and permitted local medicines",
+      "url": "https://www.bypc.gov.cn/zfxxgk/bmdwxzjd/bmdw/qybj/fdzdgknr/zczxwdk/art/2026/art_7d803c4e5898428fb17f6aa201551aff.html",
+      "publisher": "Baiyin Pingchuan Government / Gansu Healthcare Security Bureau",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ecocode",
+      "title": "Ecological Environment Code, effective 15 August 2026",
+      "url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2026/art_e81fe47c6817477da98d33f96fdd11a3.html",
+      "publisher": "National Peoples Congress / SAMR",
+      "date": "2026-03-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "dam",
+      "title": "Yarlung Zangbo hydropower construction starts",
+      "url": "https://english.www.gov.cn/news/202507/19/content_WS687b6a8ac6d0868f4e8f4486.html",
+      "publisher": "State Council / Xinhua",
+      "date": "2025-07-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "redlines",
+      "title": "Management of ecological conservation redlines and major-project exceptions",
+      "url": "https://app.www.gov.cn/govdata/gov/202208/21/488610/article.html",
+      "publisher": "Ministry of Natural Resources and partner ministries",
+      "date": "2022-08-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-innovation",
+      "title": "NMPA measures on high-end medical device innovation",
+      "url": "https://mpa.jl.gov.cn/zxfw_84842/xwlm/gndt/202507/t20250710_9277771.html",
+      "publisher": "National Medical Products Administration / Jilin regulator",
+      "date": "2025-07-10",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-ai",
+      "title": "AI medical device registration review guideline 2022, official notice republication",
+      "url": "https://www.cncsdr.org/ggtz/ggzz/202203/t20220311_304188.html",
+      "publisher": "China Society for Drug Regulation / NMPA CMDE",
+      "date": "2022-03-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-ai-text",
+      "title": "AI device review guideline text, intended population and validation requirements",
+      "url": "https://www.hubamdi.com/321.html",
+      "publisher": "Hubei Medical Device Industry Association / NMPA CMDE",
+      "date": "2022-03-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "Genetically modified plant safety evaluation guideline",
+      "url": "https://www.moa.gov.cn/nybgb/2023/202302/202303/P020230310387297041161.pdf",
+      "publisher": "Ministry of Agriculture and Rural Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bci-full",
+      "title": "Brain computer interface ethics guideline, complete text",
+      "url": "https://www.most.gov.cn/kjbgz/202402/P020250729548085721952.pdf",
+      "publisher": "Ministry of Science and Technology",
+      "date": "2024-02-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gene-ethics",
+      "title": "Human genome editing ethical guideline, complete text",
+      "url": "https://www.most.gov.cn/kjbgz/202407/P020250729547585863693.pdf",
+      "publisher": "Ministry of Science and Technology",
+      "date": "2024-07-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "care",
+      "title": "National infant nurturing risk assessment and guidance standard",
+      "url": "https://www.nhc.gov.cn/wjw/c100378/202502/658e7e4eb5024746b13186ac0f97a27b.shtml",
+      "publisher": "National Health Commission",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "child-psych",
+      "title": "Child psychological and behavioural healthcare technical standard",
+      "url": "https://wsbz.nhc.gov.cn/wsbzw/upload/news/1688005165239.pdf",
+      "publisher": "National Health Commission",
+      "date": "2023-06-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health-action",
+      "title": "Healthy China Action 2019–2030",
+      "url": "https://www.nhc.gov.cn/guihuaxxs/c100133/201907/2a6ed52f1c264203b5351bdbbadd2da8.shtml",
+      "publisher": "Healthy China Action Promotion Committee / NHC",
+      "date": "2019-07-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "temperament-context",
+      "title": "Infant temperament: interaction of innate and acquired factors (professional guidance, not government adoption)",
+      "url": "https://www.cma.org.cn/art/2022/12/15/art_4584_48696.html",
+      "publisher": "Chinese Medical Association",
+      "date": "2022-12-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stress-research",
+      "title": "HPA genes and stress in earthquake survivors (research, not adopted policy)",
+      "url": "https://www.psych.cas.cn/jkzdsys/jkzdjqdt/202007/t20200721_5638539.html",
+      "publisher": "Chinese Academy of Sciences",
+      "date": "2020-07-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-procedure",
+      "title": "Police criminal procedure rules, 2020 revision",
+      "url": "https://gat.hunan.gov.cn/gat/ztzl2/fzyd/flfg/202008/t20200819_14732448.html",
+      "publisher": "Ministry of Public Security / Hunan Public Security",
+      "date": "2020-08-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aiib",
+      "title": "Members, capital subscriptions and voting power",
+      "url": "https://www.aiib.org/en/about-aiib/governance/members-of-bank/",
+      "publisher": "Asian Infrastructure Investment Bank",
+      "date": "2026-05-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pr-benefits",
+      "title": "Permanent resident foreign nationals rights and benefits",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207326/content.html",
+      "publisher": "Human Resources Ministry and partner departments / State Taxation Administration",
+      "date": "2012-09-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "road-checks",
+      "title": "2025 alcohol enforcement checkpoints: all vehicles checked, suspected drivers tested",
+      "url": "https://gaj.changdu.gov.cn/cdsgaj/c101471/202502/cd28f26d812c4935b603a5bef2958d46.shtml",
+      "publisher": "Changdu Public Security Bureau",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade-law",
+      "title": "Foreign Trade Law revised December 2025, effective 1 March 2026",
+      "url": "https://www.mofcom.gov.cn/zfxxgk/gkml/art/2025/art_fdc193e921ce4a298fe46e85c242b54e.html",
+      "publisher": "National People’s Congress / Ministry of Commerce",
+      "date": "2025-12-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "migrant-signs",
+      "title": "Nanjing response to proposal 0626: international communities and multilingual services",
+      "url": "https://www.nanjing.gov.cn/xxgkn/jytabljggk/2020njytabl/shizxta/202101/t20210106_2784416.html",
+      "publisher": "Nanjing Municipal Government",
+      "date": "2021-01-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "road-screening",
+      "title": "Zhoukou traffic police report routine alcohol screening of passing drivers",
+      "url": "https://gaj.zhoukou.gov.cn/sitesources/gaj/page_pc/xwdt/jwyw/articlec6a2207947e54ea9b800cec57d673aa5.html",
+      "publisher": "Zhoukou Public Security Bureau",
+      "date": "2025-07-13",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drills",
+      "title": "Government explains Justice Mission 2025 military drills and their coercive warning",
+      "url": "https://english.scio.gov.cn/pressroom/2025-12/30/content_118253194.html",
+      "publisher": "State Council Information Office / Xinhua",
+      "date": "2025-12-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "carrier-ap",
+      "title": "China seeks to project power far beyond its coast with new Fujian aircraft carrier",
+      "url": "https://halifax.citynews.ca/2025/11/07/china-commissions-new-aircraft-carrier-as-it-seeks-to-extend-power-far-from-its-coast/",
+      "publisher": "Associated Press, republished by CityNews",
+      "date": "2025-11-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "spy",
+      "title": "U.S. Navy sailor convicted by jury of spying for China",
+      "url": "https://www.justice.gov/opa/pr/us-navy-sailor-convicted-spying-china",
+      "publisher": "United States Department of Justice",
+      "date": "2025-08-21",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "migrant-integration",
+      "title": "Zhejiang provisions facilitating foreign business and travel services; operative 1 May 2025",
+      "url": "https://www.moj.gov.cn/pub/sfbgw/flfggz/flfggzdfzwgz/202511/t20251103_527447.html",
+      "publisher": "Zhejiang Provincial Government / Ministry of Justice",
+      "date": "2025-11-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religious-symbols",
+      "title": "Tangquan government-office inspection for religious symbols under Party discipline",
+      "url": "https://aqthjjjc.gov.cn/Home/Note/newsdetail?classid=29&id=5424",
+      "publisher": "Taihu County Discipline Inspection Commission and Supervisory Commission",
+      "date": "2023-05-30",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Party leadership, controlled indirect national elections and weak external checks concentrate authority. Formal congress appointment, removal and recall provisions matter and are not erased by one-party practice.",
+      "counterEvidence": "Universal adult local suffrage and statutory congress removal/recall exist; neither amounts to competitive national government selection. Military power remains subordinate to the Party.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National executive selection operates through Party-controlled congresses, without regular competitive elections for national leadership.",
+          "sources": [
+            "fh",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Party and congress hierarchy chooses government; this is not the proposed independent panel of experts, despite cadre expertise.",
+          "sources": [
+            "constitution-translation",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 34 enfranchises citizens aged eighteen regardless of education; deprivation of political rights is an exception, not an intelligence qualification.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National legislation belongs to the NPC and its Standing Committee; the premier has no general legal power to enact laws after parliamentary rejection.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Parties must accept Communist Party leadership and cannot compete to replace it on equal terms.",
+          "sources": [
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: There is no autonomous parliamentary opposition able to investigate executive spending independently.",
+          "sources": [
+            "fh",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional supervision belongs to the congress system, while courts are subordinate to Party authority rather than independent constitutional veto institutions.",
+          "sources": [
+            "constitution-translation",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government is selected through congress and Party institutions, not a panel of trade union leaders.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitution entrenches Party leadership, and political organisations opposing that monopoly are excluded.",
+          "sources": [
+            "constitution-translation",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional legislative structure provides congress legislation and supervision, not voter-initiated binding repeal referendums.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Xi dominates strategic policy, though formal decisions still pass through collective Party and state bodies, limiting the literal sole-authority claim.",
+          "sources": [
+            "fh",
+            "incumbent"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: NPC removal powers formally cover the premier and senior officials; Party control prevents an independent parliamentary accountability mechanism.",
+          "sources": [
+            "constitution-translation",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 60 requires a two-thirds Standing Committee decision to extend NPC terms in exceptional circumstances; a leader alone cannot lawfully postpone them.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constituencies and electoral units formally may recall deputies, but tightly controlled electoral practice restricts effective voter challenge.",
+          "sources": [
+            "constitution-translation",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National leadership faces no meaningful competitive voter sanction and congress oversight is subordinate to the ruling Party.",
+          "sources": [
+            "fh",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The military operates under the Party-led Central Military Commission; it has no authorised independent power to replace civilian government.",
+          "sources": [
+            "constitution-translation",
+            "incumbent"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Drug controls, censorship, compulsory identity verification and restrictions on assembly favour public order over personal autonomy. The evidentiary threshold in each question matters: surveillance capacity is not proof of a specific retention period.",
+      "counterEvidence": "Personal information rules restrict camera placement and retention, and counterterrorism law formally includes court and procuratorate procedures. Independent reports nevertheless document arbitrary detention and suppression.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Personal drug consumption remains punishable; adult consent and absence of direct harm do not remove the offence.",
+          "sources": [
+            "public-security"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Counterterrorism investigation authorises technical investigation after official approval; permission with a serious-crime court safeguard fits within the state's broader accepted surveillance powers.",
+          "sources": [
+            "terror"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Independent demonstrations face suppression and approval restrictions; keeping emergency access open does not secure a right to obstruct roads.",
+          "sources": [
+            "fh",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Criticism challenging Party institutions can be censored or prosecuted even without advocating violence.",
+          "sources": [
+            "fh",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Mandatory seatbelts and motorcycle helmets illustrate compulsory protection of adults against their own accident risks.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Large surveillance systems and a minimum thirty-day recording rule do not establish the specific permission to retain unsuspected persons' movement records for several years.",
+          "sources": [
+            "video",
+            "video-review",
+            "ap-surveillance"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Zhoukou police report testing passing drivers one by one at checkpoints, supporting routine initial alcohol screening without individual prior suspicion. Their separate suspected-driver breath confirmation is not treated as authority for every more intrusive test.",
+          "sources": [
+            "road-screening",
+            "road-checks"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Courts may issue personal protection orders for a real danger of domestic violence, including exclusion and approach restrictions before further violence occurs.",
+          "sources": [
+            "dv"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Obscenity restrictions and extensive internet blocking deny an unrestricted adult choice of morally objectionable material.",
+          "sources": [
+            "public-security",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 24 requires genuine identity information for network access and instant messaging services.",
+          "sources": [
+            "cyber"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Counterterrorism security checks and area controls permit searches affecting people without a separate individual criminal allegation.",
+          "sources": [
+            "terror"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Security authorities may prevent or disperse gatherings presenting public-order risks; this is consistent with their broader assembly controls.",
+          "sources": [
+            "terror",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 222 permits a home search with approval of a county-level or higher public-security chief; the warrant is not required to be issued by an independent court.",
+          "sources": [
+            "police-procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Secrecy and national-security enforcement penalise disclosure and reporting; no general misconduct-revelation defence protects publication.",
+          "sources": [
+            "hrw",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civilian firearm eligibility is restricted to specified uses such as sport and hunting; ordinary personal defence is not a qualifying route.",
+          "sources": [
+            "guns"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Documented arbitrary security detention supports this in practice, but formal counterterrorism placement education requires court decisions and review; that legal counterevidence limits strength.",
+          "sources": [
+            "hrw",
+            "terror"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "The 2026 ethnic unity law strengthens common Chinese identity, national language and integration. Constitutionally recognised minority cultures remain part of the national account, but cannot override unity requirements. Migrant-specific evidence comes separately from Zhejiang’s 2025 social-integration rules and Nanjing’s multilingual community services.",
+      "counterEvidence": "Ethnic autonomy, minority-language rights and local minority holidays survive formally. These are stronger evidence for domestic minorities than for foreign migrant accommodation, which is left unresolved where needed. Foreign-resident services preserve cultural exchange and foreign-language access; this review does not equate domestic minority integration with a requirement that migrants surrender their customs.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: National ethnic-unity duties primarily address China’s domestic ethnic groups. Foreign-resident integration and service rules do not establish how government resolves a conflict between national and migrant customs; national-language priority alone is insufficient.",
+          "sources": [
+            "ethnic",
+            "migrant-integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Minority cultural and language provision receives public support, but unity and national-language duties constrain accommodation.",
+          "sources": [
+            "constitution-translation",
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Zhejiang requires schools to familiarise foreign pupils with Chinese traditions and customs. Familiarisation does not establish an expectation that all permanent settlers adopt those customs; permanent-residence rules do not settle that stronger proposition.",
+          "sources": [
+            "migrant-integration",
+            "pr"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented foreign-community services accommodate language and cultural exchange while Zhejiang promotes Chinese customs and social integration. The supported position combines continued foreign cultural participation with shared community expectations, without proving a demand to abandon foreign identity.",
+          "sources": [
+            "migrant-signs",
+            "migrant-integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The unity law strengthens the standard national spoken and written language across public life and education.",
+          "sources": [
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Official national representation expressly includes all ethnic groups, including small minorities; this supports acknowledgement without importing a separate legal Indigenous classification.",
+          "sources": [
+            "constitution-translation",
+            "incumbent"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State cultural policy prioritises Chinese cultural continuity and common identity, while also incorporating minority traditions into that framework.",
+          "sources": [
+            "ethnic-court"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ethnic and cultural activities must reinforce national unity rather than take precedence over it.",
+          "sources": [
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A nationwide holiday calendar coexists with locally determined minority festivals, affirmatively combining common scheduling and accommodation.",
+          "sources": [
+            "holiday"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional account treats the cultures of all national ethnicities as contributors to China rather than recognising only Han traditions.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Zhejiang’s operative provisions establish social-integration services in areas with foreign residents and require schools to help foreign pupils integrate; Nanjing’s shared community centres connect Chinese and foreign residents. These are migrant-specific programmes, not an inference from domestic ethnic policy.",
+          "sources": [
+            "migrant-integration",
+            "migrant-signs"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Nanjing’s implemented international-community scheme provides bilingual or multilingual signs at public community offices, services and activity venues for foreign residents. This is concrete local accommodation, not a claim that every municipality must use foreign-language signs.",
+          "sources": [
+            "migrant-signs"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Families and education are enlisted in building common national consciousness, placing shared identity above exclusive community identification.",
+          "sources": [
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Xinjiang restrictions on face-covering religious clothing reject a religious exemption from the applicable public covering prohibition.",
+          "sources": [
+            "xinjiang",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Distinct minority customs and ways of life are formally part of the multiethnic state, subject to substantial unity restrictions.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Zhejiang’s integration framework expressly teaches Chinese traditions and customs to foreign pupils, while common community services support participation. This gives limited support to shared customs as an integration objective, without claiming that foreign customs are forbidden.",
+          "sources": [
+            "migrant-integration",
+            "migrant-signs"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Permanent residence is selective and category based, with investment, senior employment, special contribution and close-family pathways. It is not a general right to settle, and the published framework is not an annual housing-based quota.",
+      "counterEvidence": "Spouse and dependent-child residence routes, foreign talent recruitment and formal asylum procedures qualify restriction. Strong restrictions alone cannot establish a preference for culturally similar origins or a numerical ceiling.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The published permanent-residence system uses eligibility categories and individual approval, rather than a universal annual cap calculated from housing and labour deficits.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Improving living conditions is not itself a permanent-residence ground; applicants must satisfy specified qualifying categories.",
+          "sources": [
+            "pr",
+            "entry"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Important employment and contribution routes are selective, but investors and qualifying close relatives can also obtain permanent residence.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recognised family reunion routes cover spouses and dependent children, subject to documentary and residence conditions.",
+          "sources": [
+            "family-entry",
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The law provides an asylum-related stay mechanism, not an unconditional permanent-settlement entitlement independent of administrative acceptance.",
+          "sources": [
+            "entry",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Illegal entry, stay or work can result in removal or deportation rather than a general permission to remain.",
+          "sources": [
+            "entry"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Employer demand alone does not dispense with qualifying employment status and permanent-residence requirements.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Strict entry categories do not show that housing or public-service pressure is a reason to reduce otherwise beneficial immigration.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Family and other permanent-residence categories are specified, but the framework does not place them under a shared annual numerical quota.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A job offer alone is insufficient: foreigners also need work authorisation and a valid work-type residence status.",
+          "sources": [
+            "entry"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Investors and people making major contributions may qualify without employer or family sponsorship, so sponsorship is not universal.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A Chinese university degree alone does not satisfy a permanent-residence category.",
+          "sources": [
+            "pr"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The law permits temporary stay documentation during refugee-status consideration, but does not create the broad entry guarantee in the question.",
+          "sources": [
+            "entry"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The reviewed eligibility categories do not establish a comparative preference for culturally similar source countries.",
+          "sources": [
+            "pr",
+            "entry"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The permanent-resident benefits rules establish social insurance and provident-fund access, but the reviewed material does not resolve noncontributory welfare or social housing.",
+          "sources": [
+            "pr-benefits"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Selective admissions and national integration goals do not establish whether cultural difference itself should justify more immigration; this requires immigration-specific evidence.",
+          "sources": [
+            "pr",
+            "entry",
+            "ethnic"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "China funds force modernisation and reserves coercion over Taiwan while advocating active defence and negotiated arms control. The assessment separates those doctrines from unconditional pacifism or general approval of autonomous attacks. The November 2025 Fujian commissioning and December 2025 Taiwan drills supply implemented contemporary examples.",
+      "counterEvidence": "Official doctrine favours avoiding first attack and peaceful reunification; disarmament treaty participation and human-control language qualify militarisation. Registration is not proof that every man actually serves. AP identifies the continuing limits of overseas basing, carrier endurance and operational experience; modernisation is not proof of achieved global military superiority.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 8 reserves nonpeaceful means for secession or exhausted peaceful reunification, not only after an armed attack.",
+          "sources": [
+            "secession"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Diplomacy and peaceful reunification are preferred initially, while force remains available where the state judges those avenues exhausted.",
+          "sources": [
+            "strategy",
+            "secession"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sustained large appropriations and modernisation seek advantageous combat capabilities against potential opponents despite substantial costs.",
+          "sources": [
+            "defence-budget",
+            "carrier-ap"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Active-defence doctrine permits operational offensive action, but that does not by itself verify pre-emption of an imminent attack before it occurs; exact doctrine or action is needed.",
+          "sources": [
+            "strategy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The statutory Taiwan contingencies expressly extend beyond responding to an armed attack on China or an ally.",
+          "sources": [
+            "secession"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Compulsory registration and legal service obligations coexist with selective recruitment; the policy does not require every male citizen to complete active service.",
+          "sources": [
+            "service"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Peaceful negotiation is sought, but sovereignty and reunification are not concessions the state accepts simply to avoid war.",
+          "sources": [
+            "secession",
+            "strategy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The white paper demands human responsibility and control, but does not resolve whether a human must approve each individual attack by an AI weapon.",
+          "sources": [
+            "arms"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Defence of national territory is central, while overseas-interest protection and growing expeditionary capabilities go beyond repelling attacks alone.",
+          "sources": [
+            "strategy",
+            "carrier-ap"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Active defence and military deterrence reject avoidance of military action at any cost.",
+          "sources": [
+            "strategy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Overseas support facilities, naval endurance and expeditionary development demonstrate a capability objective beyond immediate border defence.",
+          "sources": [
+            "strategy",
+            "carrier-ap"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state legally retains nonpeaceful reunification rather than promise to leave the Taiwan dispute unresolved indefinitely.",
+          "sources": [
+            "secession"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Force contingencies and military pressure around Taiwan use the threat of action to influence choices in a serious dispute.",
+          "sources": [
+            "secession",
+            "drills"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Deterrent resolve and territorial claims can take priority over eliminating escalation risk, although doctrine also stresses managing crises.",
+          "sources": [
+            "secession",
+            "strategy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The August 2025 jury conviction documents a Chinese intelligence officer paying a U.S. Navy sailor for restricted ship and weapon information. This supports willingness to run covert foreign military collection despite diplomatic risk; it does not attribute every unproven cyber allegation to the government.",
+          "sources": [
+            "spy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Chemical weapons prohibition and arms-control commitments accept restrictions on capabilities, while China resists unilateral reductions of its modernising conventional and nuclear forces.",
+          "sources": [
+            "arms"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Foreign-relations law prioritises sovereignty and autonomous national choices, while accepting treaties, UN cooperation and negotiated trade rules. Rejection of the South China Sea award demonstrates a consequential limit on external adjudication.",
+      "counterEvidence": "WTO commitments, environmental cooperation, development institutions and UN obligations are real shared arrangements. They do not create general supranational supremacy over domestic law.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Domestic constitutional requirements and sovereignty constrain implementation of external commitments.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: China accepts selected treaty obligations but rejects external decisions it considers outside consent or sovereignty limits, as the maritime award illustrates.",
+          "sources": [
+            "foreign",
+            "award"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state rejects external rulings it regards as infringing sovereign legal authority, rather than accepting general international judicial supremacy.",
+          "sources": [
+            "foreign",
+            "award"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Independent foreign policy and nonalignment limit willingness to delegate lasting foreign-policy discretion to alliances.",
+          "sources": [
+            "foreign",
+            "strategy"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Treaty conclusion and termination are national constitutional decisions rather than requiring general approval by a supranational institution.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: No general compulsory international jurisdiction over government and officials is accepted; the maritime award rejection is practical counterevidence to binding external adjudication.",
+          "sources": [
+            "foreign",
+            "award"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National sovereignty, security and development interests are express controlling objectives in foreign relations, although common development is also endorsed.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Treaty-based environmental cooperation is accepted, but national implementation and differentiated responsibilities preserve sovereign decision-making.",
+          "sources": [
+            "carbon",
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Independent diplomatic policy is incompatible with a bloc empowered to impose a common foreign-policy line.",
+          "sources": [
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Authorities resist external human-rights demands as interference and do not authorise such institutions to require domestic legislative change.",
+          "sources": [
+            "hrw",
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Monetary policy remains with national institutions and supports domestic objectives, without a shared international currency authority.",
+          "sources": [
+            "pbc",
+            "foreign"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: China provides substantial paid-in capital and participates in shared voting at AIIB, pooling development finance and decisions while retaining especially strong voting influence.",
+          "sources": [
+            "aiib"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Admission, residence and removal are decisions of Chinese national authorities, without shared supranational border administration.",
+          "sources": [
+            "entry"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: WTO membership and preferential trade agreements accept negotiated common rules alongside unilateral tariff decisions.",
+          "sources": [
+            "wto",
+            "africa"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional state and independent foreign policy retain national authority rather than join an international political federation.",
+          "sources": [
+            "foreign",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: UN-based collective action is supported, but noninterference and national-interest conditions qualify any automatic duty to enforce rules despite domestic costs.",
+          "sources": [
+            "foreign",
+            "arms"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private firms constitute most registered enterprises, alongside constitutionally important public ownership and strategic state enterprises. Public health, rail, finance and broadcasting are assessed by provision and ownership rather than the communist label alone.",
+      "counterEvidence": "The private-sector promotion law, contracting rules and insolvency reforms support substantial private activity. Public ownership of land or mineral deposits is not by itself evidence that every operator must be state owned.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted law supports a sector comprising over ninety percent of registered enterprises; most firms by number are privately owned despite strategic state dominance.",
+          "sources": [
+            "private-law"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State capital is retained in core utility and public-service infrastructure, supporting public network ownership.",
+          "sources": [
+            "sasac",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public capital has strategic and public-service purposes beyond equivalent price and quality; equal legal treatment does not establish a default preference for private ownership.",
+          "sources": [
+            "sasac",
+            "private-law"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State capital is explicitly directed into emerging commercial industries rather than leaving competitive sectors entirely to private investment.",
+          "sources": [
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Private hospitals are numerous, but public hospitals remain the principal treatment providers and core of the public health system; a general private-facility preference is not the adopted model.",
+          "sources": [
+            "health-stats"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National rail infrastructure remains a major state enterprise responsibility, consistent with retaining public ownership of the network.",
+          "sources": [
+            "wto",
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Order 102 authorises competitive purchase of suitable public services from qualified social and business providers, with performance and efficiency requirements.",
+          "sources": [
+            "services"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Large state-owned banks coexist with private banking institutions and implement important financing functions.",
+          "sources": [
+            "wto",
+            "pbc"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Reform emphasises stronger strategic state capital and selective restructuring, not general sale of public commercial enterprises.",
+          "sources": [
+            "sasac",
+            "exit"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Affordable and public rental housing programmes use local state enterprises to acquire and hold homes, supporting a substantial public role rather than exclusive private ownership.",
+          "sources": [
+            "housing",
+            "rent"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Capital concentration in national-security industries specifically favours retained state ownership, not regulation alone.",
+          "sources": [
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State enterprises occupy central positions in strategic energy and resource extraction; private operators remain possible, limiting an absolute public monopoly inference.",
+          "sources": [
+            "sasac",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Routine services are eligible for contracting, but the rules also retain direct public provision where appropriate; there is no universal outsourcing mandate.",
+          "sources": [
+            "services"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Strategic and security functions are stated reasons to retain and concentrate public capital regardless of short-term privatisation proceeds.",
+          "sources": [
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Persistent nonviable firms can be closed, restructured or sold, while viable strategic firms remain public; repeated support does not automatically trigger privatisation.",
+          "sources": [
+            "exit",
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: China Media Group is a state public institution, so national broadcasting is explicitly retained in public ownership.",
+          "sources": [
+            "broadcaster"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Tariffs, farm quotas, domestic procurement preferences and strategic investment controls coexist with WTO commitments and wide preferential opening. The 2026 African zero-tariff policy is implemented, not merely an announcement. The revised Foreign Trade Law effective March 2026 explicitly retains infant-industry restrictions and trade remedies.",
+      "counterEvidence": "Foreign manufacturing access and trade agreements reduce barriers. Retaliatory tariffs in 2025 show willingness to retaliate; their peak rate is not represented as the rate still in force at the cutoff.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The tariff schedule and trade-remedy measures preserve protection for selected domestic sectors, rather than eliminating import duties generally.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Extensive tariff liberalisation and regional agreements coexist with protected farming, strategic sectors and procurement barriers; the adopted regime is mixed.",
+          "sources": [
+            "wto",
+            "africa"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The operative domestic-product preference discounts qualifying domestic bids by twenty percent during evaluation, accepting potentially higher actual purchase prices.",
+          "sources": [
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary international sourcing is permitted, but licences, prohibited goods and strategic trade restrictions prevent an unrestricted best-terms rule.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Tariff-rate quotas for staple crops and fertilizers preserve domestic capacity even when imports are cheaper.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The May 2026 extension of zero duties to African partners is unilateral rather than conditioned on matching tariff cuts.",
+          "sources": [
+            "africa",
+            "africa-ap"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 18(7) of the law effective March 2026 permits import restrictions to establish particular domestic industries, and Article 20 permits temporary restrictions. This supports accepting foregone cheaper import competition for infant industries, without implying a blanket tariff preference.",
+          "sources": [
+            "trade-law",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National treatment applies outside restricted sectors, but negative lists and sectoral conditions prevent entirely equal access across the economy.",
+          "sources": [
+            "private-law",
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Agricultural tariff peaks and quotas for rice, wheat, corn and cotton preserve domestic farming capacity.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state uses tariff remedies and procurement preference rather than relying only on domestic adjustment to foreign competition.",
+          "sources": [
+            "wto",
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented April 2025 counter-tariffs explicitly responded to United States tariff increases; subsequent rate changes do not erase the policy choice to retaliate.",
+          "sources": [
+            "retaliation"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Domestic and imported goods face the same general VAT and consumption-tax structure; import tariffs are a distinct instrument.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Countervailing procedures permit duties against injurious subsidised imports after investigation, rather than rejecting such restrictions categorically.",
+          "sources": [
+            "wto"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Trade agreements and preferential access remove duties on many goods, while strategic exclusions preserve selected supplies.",
+          "sources": [
+            "wto",
+            "africa"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Strategic-sector restrictions and security review can prevent foreign control despite promised investment.",
+          "sources": [
+            "wto",
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Foreign online communication and information providers face special access, licensing and blocking restrictions; unrestricted cross-border purchase is not permitted.",
+          "sources": [
+            "cyber",
+            "fh"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "The socialist market economy combines market prices and enterprise choices with industrial plans, directed finance, production quotas and capital controls. Recent private-sector protections do not abolish these coordinating instruments.",
+      "counterEvidence": "Most prices and ordinary private production remain market determined. Minimum wages and industrial subsidies must not be mistaken for universal wage schedules or output quotas.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary private enterprises choose production, but strategic sectors face direct output controls and national industrial direction.",
+          "sources": [
+            "private-law",
+            "rare-earth"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The July 2025 rules impose enforceable production ceilings for rare-earth mining and separation; this supports binding sectoral quantities, not quotas for every industry.",
+          "sources": [
+            "rare-earth"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 3 makes market formation the general rule, reserving official prices for a relatively narrow set of goods and services.",
+          "sources": [
+            "pricing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Strategic state-capital allocation and targeted refinancing deliberately channel investment into nationally selected sectors.",
+          "sources": [
+            "sasac",
+            "pbc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Private entry and commercial operation are promoted while strategic restructuring and state investment shape expansion or closure in important sectors.",
+          "sources": [
+            "private-law",
+            "sasac"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Government-guided or fixed prices cover utilities, natural monopolies and selected essential goods, with intervention powers when needed.",
+          "sources": [
+            "pricing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Negative-list access opens ordinary sectors, while controlled industries such as rare earths require specific official authorisation and quota allocation.",
+          "sources": [
+            "private-law",
+            "rare-earth"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Expanded technology refinancing and reduced policy rates explicitly steer lenders towards innovation and equipment upgrading.",
+          "sources": [
+            "pbc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Capital-account transfers remain subject to permitted channels, registration and approval requirements rather than unrestricted outward movement.",
+          "sources": [
+            "capital"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sectoral financial support and directed technology credit use public resources to influence the development pattern beyond private investment preferences.",
+          "sources": [
+            "wto",
+            "pbc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Virtual-currency exchange, issuance and related financial activities are prohibited rather than allowed to compete with legal tender.",
+          "sources": [
+            "crypto"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Labour Law establishes statutory minimum wages instead of leaving the wage floor entirely to individual bargaining.",
+          "sources": [
+            "labour"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 47 permits enterprises to determine wage distribution and levels under law, subject to the minimum wage and other standards.",
+          "sources": [
+            "labour"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Policy lending amounts and rates are deliberately adjusted to implement national industrial and economic objectives.",
+          "sources": [
+            "pbc"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary housing rents are contractually agreed, while public housing and intervention against abnormal rises qualify a wholly uncontrolled market rule.",
+          "sources": [
+            "rent",
+            "pricing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Industrial coordination, strategic state enterprise allocation and ordinary peacetime output management go beyond an emergency-only planning role.",
+          "sources": [
+            "rare-earth",
+            "sasac"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income taxation and targeted assistance coexist with relatively limited redistribution, no inheritance tax and a safety-net emphasis. The 2025 national childcare subsidy expands cash support beyond destitute households.",
+      "counterEvidence": "Common-prosperity objectives and tax progressivity should not be inflated into a large implemented redistributive welfare state. IMF recommendations are evidence about existing gaps, not policies China adopted.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Progressive tax and cash assistance redistribute, but the safety net remains limited and redistribution is not sufficient to infer a strong implemented equalisation commitment.",
+          "sources": [
+            "income-tax",
+            "assistance",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Tax progression and tiered income assistance accept reducing inequality as a legitimate fiscal aim, rather than protecting all unequal disposable incomes from that rationale.",
+          "sources": [
+            "income-tax",
+            "low-income"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Benefit expansion is documented, but acceptance of higher taxes specifically to finance a stronger minimum income is not established.",
+          "sources": [
+            "assistance",
+            "childcare"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Minimum livelihood assistance is chiefly a basic-needs floor rather than a mechanism to substantially equalise living standards.",
+          "sources": [
+            "assistance",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The statutory individual income-tax schedule rises progressively from three to forty-five percent, giving higher taxable earners a larger average share.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Tax deductions and earnings retention coexist with progressive rates and new cash support; neither side uniformly dominates the enacted package.",
+          "sources": [
+            "income-tax",
+            "childcare"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: There is no implemented inheritance or estate tax, so the specified redistributive tax is not part of current policy.",
+          "sources": [
+            "tax-types"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Means-tested minimum assistance is tied to continuing need and work duties, rather than a universal fixed lifetime or duration limit despite remaining poverty.",
+          "sources": [
+            "assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: No broad net-wealth tax finances low-income transfers; limited property-related taxes do not amount to the proposed accumulated-wealth redistribution system.",
+          "sources": [
+            "tax-types",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Benefit modesty is evident, but the specific justification of reducing taxpayers' burden rather than other fiscal and administrative constraints was not established.",
+          "sources": [
+            "assistance",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The statutory minimum-livelihood standard prioritises basic necessities; it does not promise enough income for general social participation beyond that floor.",
+          "sources": [
+            "assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recent policy combines larger child-related tax deductions with a new national cash subsidy, providing affirmative evidence for both tax relief and transfers.",
+          "sources": [
+            "childcare",
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Low-paid employed households can receive means-tested assistance, with employment-cost deductions preventing earnings from automatically eliminating eligibility.",
+          "sources": [
+            "low-income",
+            "assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Higher bands of taxable employment income face higher marginal rates, directly contradicting a uniform marginal-rate rule.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Land is state or collectively owned with household use rights; current policy is not compensated purchase of large private estates for redistribution to land-poor households.",
+          "sources": [
+            "civil",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National childcare payments and tiered assistance extend support beyond households strictly unable to meet basic survival needs.",
+          "sources": [
+            "childcare",
+            "low-income"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "The constitutional and education systems are secular and Party-led, with religious organisations subject to state regulation rather than directing it. This does not imply religious liberty: independent practice faces severe controls.",
+      "counterEvidence": "Religious property benefits and officially recognised religious organisations survive. Atheistic political ideology and funding for heritage preservation are not themselves religious worship or promotion of faith.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civil law rests on the constitutional socialist order; no particular religion supplies its legal justification.",
+          "sources": [
+            "constitution-translation",
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Religious organisations must conform to state law, not supply an authoritative competing source of national legislation.",
+          "sources": [
+            "religion",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Government regulates religious institutions without requiring religious leaders' approval of policy.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitution identifies socialism and Party leadership, not a state religion, as foundational.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Education Law separates religion from education and bars religious interference; public instruction is nonconfessional rather than aimed at conversion.",
+          "sources": [
+            "education"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public education does not cultivate faith in an officially established religion; statutory separation directly opposes that model.",
+          "sources": [
+            "education"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Civil courts apply enacted state codes rather than treating religious rulings as governing national law.",
+          "sources": [
+            "civil",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Religious bodies have no statutory veto or mandatory religious-review role over legislation.",
+          "sources": [
+            "religion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National state ceremony is organised around civic and Party institutions rather than required collective religious worship.",
+          "sources": [
+            "incumbent",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state supervises and restricts faith organisations; support for approved sites or cultural heritage does not establish a policy of strengthening religious belief itself.",
+          "sources": [
+            "religion",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A documented government-office inspection checks for religious symbols under Party rules against religious adherence. Together with the secular official state emblem this supports nonendorsement in government premises; the local inspection is not presented as a ban on all religious imagery anywhere.",
+          "sources": [
+            "religious-symbols",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National festivals and civic commemorations are maintained, but the calendar does not officially establish or endorse a predominant religion.",
+          "sources": [
+            "holiday"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public offices are constituted through state appointment and electoral institutions; a religious title does not itself confer a government seat.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Premises used for religious ceremonies and clergy residence qualify for a specific property-tax exemption, beyond merely carrying out charitable services.",
+          "sources": [
+            "religious-tax"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Marriage is constituted through civil registration; religious approval is not a legal prerequisite.",
+          "sources": [
+            "civil"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Family status and disputes fall under the Civil Code and state judicial authority rather than binding religious-court jurisdiction.",
+          "sources": [
+            "civil"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Policy combines protection of women and nonmarital children with opposite-sex marriage, preferred family continuity and state promotion of inherited moral culture. Social change is permitted within state-defined goals, not simply determined by public preference.",
+      "counterEvidence": "Employment equality, divorce, single-person adoption and modernising moral guidance qualify traditionalism. Unverified positions on modest clothing, identity language and sexual-orientation curricula remain unknown.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The morality outline expressly combines inherited virtues with adaptation to contemporary conditions, while legal gender reforms change established practice.",
+          "sources": [
+            "morals",
+            "women-law"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Traditional virtues and cultural continuity are explicit policy priorities, although the same outline calls for creative adaptation rather than freezing every custom.",
+          "sources": [
+            "morals"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Children born outside marriage receive equal rights and single people can adopt, but the law specifically promotes family virtues and marital stability.",
+          "sources": [
+            "civil"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Employment equality and anti-discrimination coexist with strong family and motherhood responsibilities; adopted policy does not uniformly assign all roles by sex.",
+          "sources": [
+            "women-law",
+            "women-plan"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Marriage is legally defined and registered between a man and a woman.",
+          "sources": [
+            "civil"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Law and family-support policy promote stable marital family life, while protecting children and permitting divorce and single parenthood.",
+          "sources": [
+            "civil",
+            "childcare"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Abortion remains within reproductive healthcare, but the adopted outline calls for reducing non-medically necessary abortions; this is mixed rather than blanket social endorsement or prohibition.",
+          "sources": [
+            "women-plan"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Compulsory national education duties do not grant families final authority to veto required lessons solely because of traditional sexual values.",
+          "sources": [
+            "curriculum",
+            "education"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Joint parental recognition through marriage is limited to opposite-sex spouses; single-person adoption is not equal recognition of a same-sex couple.",
+          "sources": [
+            "civil"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Public-decency and face-covering restrictions do not establish a general policy favouring traditional modest dress; their purposes and scope differ.",
+          "sources": [
+            "public-security",
+            "xinjiang"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Sex-equality provisions do not establish a national position on changing identity-related language conventions.",
+          "sources": [
+            "women-law"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Education and public guidance explicitly transmit established family and civic virtues to the next generation.",
+          "sources": [
+            "morals"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legal employment and education protections reject exclusion from opportunities simply because a woman takes a traditionally male role; wider social attitudes are not presumed.",
+          "sources": [
+            "women-law"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Combining continuity and adaptation does not establish the specific preference for gradual institutional change even when faster change is popular.",
+          "sources": [
+            "morals"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The reviewed curriculum and reproductive-health policies do not substantiate required teaching of different sexual orientations and gender identities despite family objections.",
+          "sources": [
+            "curriculum",
+            "women-plan"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Traditional cultural and moral inheritance is treated as valuable for historical continuity, not only for immediate practical utility.",
+          "sources": [
+            "morals"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Large infrastructure construction and the AI Plus programme coexist with ecological review, medical device regulation and restrictive genome-editing ethics. The August 2026 environmental code is operative and replaces the older EIA statute.",
+      "counterEvidence": "Risk evaluation is substantive: major projects have ecological exceptions but not a universal exemption, and medical innovation is regulated. Healthy enhancement, cultivated-meat substitution and broad irreversible-risk claims are not inferred from unrelated investment.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Broad AI deployment is actively promoted while sensitive human biotechnology remains restricted by risk-based ethics; there is no uniform early-benefit rule across technologies.",
+          "sources": [
+            "ai-plus",
+            "gene-ethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Adopted policy promotes commercial and public-sector deployment, not a general confinement of useful technology to small trials until long-term uncertainty disappears.",
+          "sources": [
+            "ai-plus",
+            "medical-innovation"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state permits major infrastructure through ecological exceptions and began a very large hydropower project; substantial benefits can justify transforming some habitats, with mitigation duties.",
+          "sources": [
+            "dam",
+            "redlines"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Medical policy combines accelerated innovation review with clinical risk assessment and monitoring rather than demanding complete long-term evidence for every technology before use.",
+          "sources": [
+            "medical-innovation",
+            "gene-ethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted AI Plus programme prioritises productivity and broad workplace integration, with human-capability development rather than a guarantee against occupational displacement.",
+          "sources": [
+            "ai-plus"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Strict ecological protection coexists with authorised major-project exceptions, so habitat preservation is important but not categorically superior to substantial public benefits.",
+          "sources": [
+            "ecocode",
+            "redlines"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General biotechnology promotion does not establish an implemented policy supporting cultivated meat as a replacement while long-term environmental effects remain uncertain.",
+          "sources": [
+            "gmo",
+            "medical-innovation"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The guidance discusses healthy enhancement, usually noninvasive, and long-term risks of restorative implants; it does not clearly specify the proposed research-only threshold for healthy-person implants.",
+          "sources": [
+            "bci-full"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Climate policy combines major clean-energy and technological investment with energy conservation and efficiency; neither technology nor consumption reduction receives an unconditional priority in every conflict.",
+          "sources": [
+            "carbon"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Article 107 bars construction before legally required ecological assessment approval; an expected public benefit does not eliminate that prior review.",
+          "sources": [
+            "ecocode"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: No verified rule establishes permission for healthy adults to receive cognitive-enhancement implants after only basic safety checks; restorative-device access cannot answer this question.",
+          "sources": [
+            "bci-full"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Registration guidance requires validation and population-relevant data for diagnostic AI; unsupported reliability is not enough for ordinary clinical deployment.",
+          "sources": [
+            "medical-ai",
+            "medical-ai-text"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The guideline prohibits nonmedical genomic alteration of research participants and using edited embryos for pregnancy; it does not authorise enhancement trials merely because they are controlled.",
+          "sources": [
+            "gene-ethics"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ecological safety assessment and staged evaluation are required before production use, rather than accepting higher yields alone as sufficient evidence.",
+          "sources": [
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Infrastructure can receive exceptional land access, while ecological redlines protect other land; the policy is a conditional balance rather than universal development priority.",
+          "sources": [
+            "redlines",
+            "dam"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Genome ethics puts participant safety above speculative knowledge gains where serious irreversible risk exists, while environmental law requires prior assessment; this supports precaution without claiming every risk is eliminated.",
+          "sources": [
+            "gene-ethics",
+            "ecocode"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "China is a unitary state with central supremacy, national legislation and Party leadership. Administrative decentralisation, ethnic autonomy and differentiated local implementation operate within that hierarchy.",
+      "counterEvidence": "Local curriculum, resource-tax bands, medical coverage exceptions and fiscal shares are real discretion. Hong Kong and Macao have distinct constitutional arrangements; this profile primarily assesses mainland institutions.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Regional autonomy exists within unified central leadership and cannot protect policy against national constitutional and legislative authority.",
+          "sources": [
+            "constitution-translation",
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The State Council and national legislative institutions have final powers over competence conflicts and inconsistent subordinate decisions.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Territorial unity is constitutional and secession prohibited; a regional majority referendum does not create a right to leave.",
+          "sources": [
+            "secession",
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Central authorities can alter or annul inappropriate local administrative decisions within the national hierarchy.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Provinces adopt subordinate regulations, not sovereign regional constitutions defining an independently protected governmental order.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public security operates through national hierarchy and local governments; the system combines central direction with territorial administration rather than only one of those structures.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: VAT is shared equally between central and local levels and other revenue assignments vary; neither complete central pooling nor keeping most locally is the general rule.",
+          "sources": [
+            "tax-sharing"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National compulsory subjects govern all schools; local and school courses supplement rather than override those requirements.",
+          "sources": [
+            "curriculum",
+            "local-curriculum"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Regions can select some tax rates within nationally legislated bands, but cannot freely change the national tax system or offer arbitrary incentives.",
+          "sources": [
+            "resources-tax",
+            "competition"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National labour legislation sets hours and dismissal protections, with regional implementation and wage-floor variation within that framework.",
+          "sources": [
+            "labour"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Administrative boundaries and government structures are determined through authorised state institutions, not a locally sovereign voter procedure.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National reimbursement lists set binding core coverage, while specified provincial authority permits some traditional medicines and local preparations.",
+          "sources": [
+            "drugs-list",
+            "regional-drugs"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ethnic autonomous organs manage designated local matters, but are part of the national hierarchy and subject to superior approval rather than independent territorial authority.",
+          "sources": [
+            "constitution-translation",
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The 2024 regulation restricts selective local tax advantages without legal authority or State Council approval to prevent fragmented regional competition.",
+          "sources": [
+            "competition"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Local governments administer land and natural resources, but must comply with national ownership, planning and ecological requirements even where effects are local.",
+          "sources": [
+            "constitution-translation"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cross-regional emergencies permit common superior Party and government command, including national direction where required, alongside joint regional response.",
+          "sources": [
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Reviewed national childcare, psychological-health, education and women-development frameworks recognise environmental intervention and, in clinical contexts, biological factors. They seldom rank these causes for the broad traits asked here.",
+      "counterEvidence": "State-funded research and professional medical commentary are not automatically government positions. Traditionalism, Marxist language, anti-discrimination duties and absence of genetic policy do not establish the requested causal comparisons. Remaining nulls are deliberate evidence gaps, not centrist answers.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Nurturing guidance recognises genetic and environmental development and moral policy uses education, but neither establishes a comparative causal ranking for behaviour generally.",
+          "sources": [
+            "care",
+            "morals"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Developmental opportunities and biology education do not explain cross-country IQ-score differences or rank inherited characteristics against education for those differences.",
+          "sources": [
+            "care",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The adopted framework challenges discriminatory expectations, but does not rank socialisation against biology as the cause of all behavioural sex differences.",
+          "sources": [
+            "women-plan",
+            "women-law"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Gene-environment stress research was found, but no adopted governmental framework ranks causes of individual stress sensitivity; funding or hosting a study is not adoption.",
+          "sources": [
+            "stress-research",
+            "health-action"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Programmes cultivate children's interests through opportunities, but intervention effectiveness is not a comparative account of inherited versus acquired interests generally.",
+          "sources": [
+            "care",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Clinical discussion of impulsivity and risky health behaviour does not establish the causes of general willingness to take risks.",
+          "sources": [
+            "child-psych",
+            "health-action"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation is cultivated through education and social example, but no verified adopted framework ranks those influences above inherited tendencies.",
+          "sources": [
+            "morals",
+            "care"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Responsive care and social-emotional learning are recognised, but the sources do not establish the comparative causes of individual empathy capacity.",
+          "sources": [
+            "care",
+            "child-psych"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The clinical ADHD standard recognises genetic susceptibility and environmental exposure; this does not settle variation in sustained attention across the general population.",
+          "sources": [
+            "adhd",
+            "child-psych"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The morality outline concerns deliberate education and habits; it does not rank biological predispositions against culture for immediate moral reactions.",
+          "sources": [
+            "morals"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Fear-learning research and anxiety guidance do not establish a government-adopted comparative explanation of what different people find threatening.",
+          "sources": [
+            "stress-research",
+            "child-psych"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Professional guidance supports an interaction account of temperament, but national-government adoption of that trait-specific account was not verified; general infant brain development is broader.",
+          "sources": [
+            "temperament-context",
+            "care"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cultural and aesthetic education does not establish a comparative explanation of personal physical-attractiveness preferences.",
+          "sources": [
+            "morals",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Ethnic equality and unity law does not supply a causal explanation for per-capita racial differences in violent acts; no biological or social ranking is inferred from it.",
+          "sources": [
+            "constitution-translation",
+            "ethnic"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Training self-discipline supports modifiability but does not itself compare learning with inherited racial tendencies as causes of self-control differences.",
+          "sources": [
+            "morals",
+            "care"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted women's development framework addresses unequal pay through employment discrimination, occupational opportunity and social expectations, resisting an explanation based simply on lower economic value of women; it does not quantify every component of the gap.",
+          "sources": [
+            "women-plan",
+            "women-law"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex (GPT-6 AI assessment agent; separate same-agent evidence review, not an independent human review)",
+    "reviewedAt": "2026-10-04",
+    "notes": "Completed a distinct same-agent evidence review after drafting all 240 questions; this is not an independent review. Confirmed 15 briefs and counterevidence sections, 240 unique individually rationaled entries, 99 source records and valid source references. Rechecked incumbent and cutoff; separated enacted 2026 environmental and trade laws from proposals, old regulations and IMF recommendations. Replaced an unusable Pentagon report link with specific documented carrier commissioning, military drills and a jury conviction. Added direct local evidence for random alcohol screening, multilingual migrant-community signage and government-office religious-symbol inspections. Narrowed migrant-cultural claims instead of treating domestic ethnic-unity policies as migrant policy. Kept military pre-emption, per-attack human approval, healthy enhancement and trait-specific causal rankings unresolved where the sources do not establish them. Reviewed the five supported mixed responses on each of Innovation/Caution and Central/Local individually; they record implemented competing priorities or divided responsibilities, not missing evidence. Final validation on 2026-10-04 reports only the 33 deliberate unknown-answer entries (66 paired error messages), two neutral-count review warnings, and no neighbours because the assessment remains incomplete. No archive, generation, build or similarity clearance claimed. Flag File page, public-domain status and local 960x640 PNG were verified, with visual inspection; file size 6013 bytes. Independent parent review remains required, especially regional-to-national inference, the Culture/Nature-16 wage explanation, education about religion versus nonconfessional schooling, and general military superiority versus specific capability investment. The draft is not archive-ready; explicit question-level gaps are retained.",
+    "similarity": []
+  }
+}

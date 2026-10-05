@@ -1,0 +1,17 @@
+.dialog { width: min(540px, calc(100% - 32px)); max-height: calc(100dvh - 40px); overflow-y: auto; border: 1px solid var(--line); padding: 24px; border-radius: 20px; background: var(--paper); color: var(--ink); box-shadow: 0 25px 90px #193b2d30; }
+.dialog::backdrop { background: #172a2380; backdrop-filter: blur(3px); }
+.dialogHeading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.dialogHeading h2 { font-size: 24px; letter-spacing: -.03em; }
+.close { width: 40px; height: 40px; font-size: 28px; border: 1px solid var(--line); border-radius: 50%; background: var(--surface); color: var(--ink); cursor: pointer; flex-shrink: 0; }
+.searchLabel { display: block; font-size: 13px; margin-top: 24px; margin-bottom: 8px; }
+.dialog input { width: 100%; min-height: 48px; padding: 12px; border: 1px solid var(--border-strong); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; }
+.suggestions { list-style: none; padding: 0; margin: 12px 0; max-height: min(320px, 42dvh); overflow-y: auto; overscroll-behavior: contain; border: 1px solid var(--line); border-radius: 10px; }
+.suggestions:empty { display: none; }
+.suggestions li { padding: 13px 14px; display: flex; align-items: center; justify-content: space-between; gap: 12px; cursor: pointer; border-bottom: 1px solid var(--line); }
+.suggestions li:last-child { border-bottom: 0; }
+.suggestions li[aria-selected="true"] { background: var(--sage); }
+.suggestions small { color: var(--muted); font-size: 11px; flex-shrink: 0; }
+.hint { font-size: 12px; color: var(--muted); line-height: 1.6; margin-top: 12px; }
+
+.suggestions li:hover { background: var(--sage); }
+@media (max-width: 600px) { .dialog { padding: 20px; } .suggestions li { align-items: flex-start; } }

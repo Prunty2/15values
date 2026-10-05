@@ -1,0 +1,13 @@
+### Result
+[{"id":"matt-canavan","filename":"matt-canavan-audit-r1.json","path":"/var/folders/hz/w64bxygn6737j0hwh56pl0cw0000gn/T/playwright-artifacts-pKn9Uh/72004e83-3956-43b4-bbd0-c43b9f116323"},{"id":"angus-taylor","filename":"angus-taylor-audit-r1.json","path":"/var/folders/hz/w64bxygn6737j0hwh56pl0cw0000gn/T/playwright-artifacts-pKn9Uh/8e05113b-92a5-409f-95ec-00f892480f58"},{"id":"zohran-mamdani","filename":"zohran-mamdani-audit-r1.json","path":"/var/folders/hz/w64bxygn6737j0hwh56pl0cw0000gn/T/playwright-artifacts-pKn9Uh/45338989-db0f-4c03-84d8-1a5bcf05b90d"}]
+### Ran Playwright code
+```js
+await (async(page)=>{const records=[];for(const id of ["matt-canavan","angus-taylor","zohran-mamdani"]){await page.goto("http://127.0.0.1:5193/political-quiz/#/personalities/"+id);await page.locator("summary").filter({hasText:"Sources and assessment"}).click();const waiting=page.waitForEvent("download");await page.getByRole("link",{name:"Download the full assessment",exact:true}).click();const d=await waiting;const path=await d.path();records.push({id,filename:d.suggestedFilename(),path});}return records;})(page);
+```
+### Events
+- Downloading file matt-canavan-audit-r1.json ...
+- Downloaded file matt-canavan-audit-r1.json to ".playwright-cli/matt-canavan-audit-r1.json"
+- Downloading file angus-taylor-audit-r1.json ...
+- Downloaded file angus-taylor-audit-r1.json to ".playwright-cli/angus-taylor-audit-r1.json"
+- Downloading file zohran-mamdani-audit-r1.json ...
+- Downloaded file zohran-mamdani-audit-r1.json to ".playwright-cli/zohran-mamdani-audit-r1.json"

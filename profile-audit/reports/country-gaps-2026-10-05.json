@@ -1,0 +1,284 @@
+{
+  "date": "2026-10-05",
+  "reviewer": "OpenAI Codex, primary agent /root; focused research and distinct same-agent gap review, not a complete independent 240-answer audit",
+  "scope": [
+    "france",
+    "germany",
+    "australia",
+    "canada",
+    "denmark",
+    "sweden",
+    "united-kingdom"
+  ],
+  "researchCutoffPreserved": "2026-10-04",
+  "resolved": 0,
+  "remaining": 22,
+  "publicationReady": [],
+  "countries": [
+    {
+      "id": "france",
+      "draft": "profile-audit/drafts/country/france.json",
+      "remaining": 2,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-10"
+      ],
+      "finding": "Reread the October 2025 SES socialisation guide, pp.1–4. It discusses unconscious acquired dispositions and moral education, but does not compare biological predispositions and culture for immediate moral intuitions or inherited versus educational causes of national IQ averages. General socialisation is insufficient for these exact rankings.",
+      "sourcesAdded": [],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "protectionism-free-trade: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "culture-nature: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "germany",
+      "draft": "profile-audit/drafts/country/germany.json",
+      "remaining": 2,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-10"
+      ],
+      "finding": "Reread BIÖG developmental guidance (18 March 2026), which describes interaction of inherited predispositions, maturation and experience. This concerns individuals, not national IQ comparisons. Read the bpb fluter issue 17 interview with Otfried Höffe, pp.20–22: the interviewee rejects innate morality, but an attributed philosophical interview is not proof of current government adoption of that explanation for immediate moral intuitions.",
+      "sourcesAdded": [
+        {
+          "id": "gap-fluter-morality",
+          "title": "fluter issue 17: attributed Otfried Höffe interview, pp.20–22; not government doctrine",
+          "url": "https://www.bpb.de/system/files/dokument_pdf/Fluter%20Nr.%2017.pdf",
+          "publisher": "Federal Agency for Civic Education",
+          "date": "undated",
+          "accessed": "2026-10-05"
+        }
+      ],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "culture-nature: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "australia",
+      "draft": "profile-audit/drafts/country/australia.json",
+      "remaining": 3,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-05",
+        "culture-nature-10"
+      ],
+      "finding": "Reread the Australian Temperament Project and ACECQA Element 5.2.2. Searched AIFS and official education material for interests, inheritance, national intelligence and moral biology. Individual development and taught self-regulation do not rank causes of national IQ, general interests or immediate moral reactions. A consultation submission hosted by the education department is not government adoption.",
+      "sourcesAdded": [],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-05: unresolved or invalid answer.",
+          "culture-nature-05: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "assimilation-multiculturalism: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "canada",
+      "draft": "profile-audit/drafts/country/canada.json",
+      "remaining": 3,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-05",
+        "culture-nature-10"
+      ],
+      "finding": "Reread the public-health determinants framework and searched official English/French material for inherited versus experiential causes of interests and national intelligence. Read relevant passages of DRDC CR 2005-105 (printed pp.31–33,51–56) and The Warrior’s Way (2007, opening matter and pp.24–25). These are a contracted research review and an authored Defence Academy treatise; publication is not proof of current adoption of a causal ranking. Intuition versus deliberation differs from biology versus upbringing.",
+      "sourcesAdded": [
+        {
+          "id": "gap-drdc-moral-models",
+          "title": "DRDC CR 2005-105: contracted research on moral and ethical decision making",
+          "url": "https://publications.gc.ca/collections/collection_2012/rddc-drdc/D69-8-2005-eng.pdf",
+          "publisher": "Defence Research and Development Canada / Humansystems Incorporated",
+          "date": "undated",
+          "accessed": "2026-10-05"
+        },
+        {
+          "id": "gap-warriors-way",
+          "title": "The Warrior’s Way: authored Richard A. Gabriel treatise (2007), not proof of government adoption",
+          "url": "https://publications.gc.ca/collections/collection_2012/dn-nd/D2-206-2-2007-eng.pdf",
+          "publisher": "Canadian Defence Academy Press",
+          "date": "undated",
+          "accessed": "2026-10-05"
+        }
+      ],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-05: unresolved or invalid answer.",
+          "culture-nature-05: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "public-private: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "innovation-caution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "central-local: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "culture-nature: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "denmark",
+      "draft": "profile-audit/drafts/country/denmark.json",
+      "remaining": 3,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-10",
+        "culture-nature-13"
+      ],
+      "finding": "Reread statutory pedagogical objectives (2018:968, personal/social-development provisions) and the Health Authority body-ideals page. Searched Health Authority and education material for national IQ, innate morality and biological/cultural attraction. Learned empathy does not rank causes of immediate moral intuitions. Body dissatisfaction and social pressure are not the relative causes of attraction preferences. No adopted ranking of national IQ causes was located.",
+      "sourcesAdded": [],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-13: unresolved or invalid answer.",
+          "culture-nature-13: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "sweden",
+      "draft": "profile-audit/drafts/country/sweden.json",
+      "remaining": 4,
+      "questionIds": [
+        "militarist-pacifist-04",
+        "culture-nature-02",
+        "culture-nature-05",
+        "culture-nature-10"
+      ],
+      "finding": "Read the current psychology syllabus (effective 1 February 2026) and reread 1177 guidance for ages 6–7. Teaching biological emotions, social factors and comparison of models does not adopt the precise causal rankings for national IQ, general interests or immediate moral intuitions. Checked the Defence University perspective of 8 March 2022, the 2010 inquiry manual and FIB 2019:1. Academic discussion and an inquiry proposal do not establish adoption of an anticipatory-force rule; FIB sets training requirements without adopting that rule. The indexed IKFN 2016 PDF failed retrieval (404), so its text/current status was not verified. Tactical or personal self-defence cannot automatically settle state anticipatory self-defence.",
+      "sourcesAdded": [
+        {
+          "id": "gap-fhs-anticipatory",
+          "title": "Academic legal perspective on Russia’s invasion; not proof of adopted doctrine",
+          "url": "https://www.fhs.se/arkiv/berattelser/2022-03-08-perspektiv-darfor-ar-den-ryska-invasionen-av-ukraina-folkrattsvidrig.html",
+          "publisher": "Swedish Defence University",
+          "date": "2022-03-08",
+          "accessed": "2026-10-05"
+        },
+        {
+          "id": "gap-fib-training",
+          "title": "FIB 2019:1: international-law training requirements",
+          "url": "https://www.forsvarsmakten.se/siteassets/2-om-forsvarsmakten/dokument/lagrum/gallande-fib/fib-2019-1.pdf",
+          "publisher": "Swedish Armed Forces",
+          "date": "2019-06-13",
+          "accessed": "2026-10-05"
+        },
+        {
+          "id": "gap-psychology-syllabus",
+          "title": "Current psychology syllabus, effective 1 February 2026",
+          "url": "https://syllabuswebb.skolverket.se/syllabuscw/jsp/subject.htm?subjectCode=PSYL&tos=gy",
+          "publisher": "Swedish National Agency for Education",
+          "date": "undated",
+          "accessed": "2026-10-05"
+        }
+      ],
+      "validation": {
+        "errors": [
+          "militarist-pacifist-04: unresolved or invalid answer.",
+          "militarist-pacifist-04: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-05: unresolved or invalid answer.",
+          "culture-nature-05: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "assimilation-multiculturalism: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "public-private: 7/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "protectionism-free-trade: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    },
+    {
+      "id": "united-kingdom",
+      "draft": "profile-audit/drafts/country/united-kingdom.json",
+      "remaining": 5,
+      "questionIds": [
+        "culture-nature-02",
+        "culture-nature-03",
+        "culture-nature-05",
+        "culture-nature-08",
+        "culture-nature-10"
+      ],
+      "finding": "Read the accessible PDF of Genomics Beyond Health, including its education discussion (pp.134–141); it explicitly states that it is not government policy. It concerns individual cognitive/educational traits, not national IQ or general interests. Targeted official-source searches located empathy genetics research and prosecutorial brain-maturation guidance, without establishing adoption of the required comparative explanation. Maturation is not inherited variation. Equality obligations and sex verification do not rank causes of general male–female behaviour. No adopted ranking for immediate moral intuition was located. The early-years HTML source was intermittently unavailable and no successful complete reread is claimed.",
+      "sourcesAdded": [
+        {
+          "id": "gap-genomics-pdf",
+          "title": "Genomics Beyond Health PDF: explicit statement that report is not government policy",
+          "url": "https://assets.publishing.service.gov.uk/media/61efd002e90e07037ba76c7b/Genomics_Beyond_Health_Final_Report_Government_Office_for_Science.pdf",
+          "publisher": "Government Office for Science",
+          "date": "undated",
+          "accessed": "2026-10-05"
+        }
+      ],
+      "validation": {
+        "errors": [
+          "culture-nature-02: unresolved or invalid answer.",
+          "culture-nature-02: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-03: unresolved or invalid answer.",
+          "culture-nature-03: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-05: unresolved or invalid answer.",
+          "culture-nature-05: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-08: unresolved or invalid answer.",
+          "culture-nature-08: unknown evidence cannot be scored as Neutral.",
+          "culture-nature-10: unresolved or invalid answer.",
+          "culture-nature-10: unknown evidence cannot be scored as Neutral."
+        ],
+        "warnings": [
+          "assimilation-multiculturalism: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "militarist-pacifist: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "protectionism-free-trade: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "innovation-caution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+          "culture-nature: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "publicationReady": false
+      }
+    }
+  ]
+}

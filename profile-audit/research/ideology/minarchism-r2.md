@@ -1,4 +1,4 @@
-# Minarchism (Nozick, 1974): revision 2 research dossier
+# Minarchism: revision 2 research dossier
 
 Research resumed 2026-10-04. Incomplete research draft; no archive or percentage publication authorised by this dossier.
 
