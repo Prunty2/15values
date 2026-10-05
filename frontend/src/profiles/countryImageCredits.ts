@@ -458,4 +458,34 @@ export const countryImageCredits = [
   "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Vietnam.svg#Licensing",
   "modifications": "Converted Commons SVG to PNG without cropping or recolouring."
 }
-]as const;
+,{
+  "name": "New Zealand",
+  "path": "profiles/images/new-zealand-r1.png",
+  "alt": "Flag of New Zealand: blue field with the Union Jack and four red stars bordered in white.",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg",
+  "creator": "Original design: Albert Hastings Markham. Vector: Zscout370, Hugh Jass and Wikimedia Commons contributors.",
+  "license": "Public domain (PD-NewZealand; US public-domain tag). PNG thumbnail saved without cropping or colour changes.",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Zealand.svg#Licensing",
+  "modifications": "Saved as a PNG raster thumbnail; no crop or colour changes."
+}
+,{
+  "name": "Switzerland",
+  "path": "profiles/images/switzerland-r1.png",
+  "alt": "Swiss flag: a white upright cross centred on a red square.",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland_(Pantone).svg",
+  "creator": "Original flag author unknown; SVG by Marc Mongenet, with contributions credited to -xfi- and Zscout370; Pantone derivative by Zscout370.",
+  "license": "Public domain (PD-shape and PD-Flag-Switzerland)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Flag-Switzerland",
+  "modifications": "Saved as a PNG raster thumbnail; no crop or colour changes."
+}
+,{
+  "name": "United States",
+  "path": "profiles/images/united-states-r1.png",
+  "alt": "United States flag with thirteen red and white stripes and fifty white stars on a blue canton.",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_States.svg",
+  "creator": "Dbenbenn and Wikimedia Commons contributors, including Zscout370, Jacobolus, Indolences, Technion, TheTaraStark and Jarekt",
+  "license": "Public domain (PD-USGov and PD-shape)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Saved as a PNG raster thumbnail; no crop or colour changes."
+}
+] as const;
