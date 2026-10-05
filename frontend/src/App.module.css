@@ -30,7 +30,7 @@
 .textLink svg { width: 18px; height: 18px; }
 .textLink:hover { color: var(--accent); }
 .examplePreview { min-width: 0; }
-.exampleResult { --result-ink: var(--accent); --result-tint: var(--sage); --result-paper: var(--paper); --result-line: var(--line); background: var(--result-paper); border: 1px solid var(--result-line); border-radius: 28px; overflow: hidden; box-shadow: 0 24px 56px -12px #29392f30, 0 6px 18px -6px #29392f14; }
+.exampleResult { --result-ink: var(--accent); --result-tint: var(--result-paper); --result-paper: var(--paper); --result-line: var(--line); background: var(--result-paper); border: 1px solid var(--result-line); border-radius: 28px; overflow: hidden; box-shadow: 0 24px 56px -12px #29392f30, 0 6px 18px -6px #29392f14; }
 .resultHeader { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 153px; padding: 22px 24px; border-bottom: 5px solid var(--result-ink); background: var(--result-tint); color: var(--result-ink); }
 .resultIdeology { min-width: 0; }
 .positionBadge { display: inline-block; padding: 7px 13px; border-radius: 30px; background: var(--result-ink); color: var(--result-paper); font-size: 14px; font-weight: 600; line-height: 1.2; }
@@ -48,7 +48,7 @@
 .personPortrait { width: 76px; height: 76px; object-fit: cover; object-position: center 35%; border-radius: 13px; border: 1px solid var(--result-line); }
 .countryFlag { width: 76px; height: 52px; object-fit: cover; background: #f00; border-radius: 13px; }
 .comparisonCopy { min-width: 0; }
-.comparisonLabel { display: inline-block; background: var(--result-tint); color: var(--result-ink); padding: 7px 14px; border-radius: 24px; font-size: 14px; font-weight: 600; line-height: 1.2; }
+.comparisonLabel { display: inline-block; background: var(--result-ink); color: var(--result-paper); padding: 7px 14px; border-radius: 24px; font-size: 14px; font-weight: 600; line-height: 1.2; }
 .comparisonCopy h3 { margin-block: 7px; font-size: 22px; letter-spacing: -.35px; line-height: 1.15; }
 .comparisonDescription { display: inline-block; background: var(--surface); padding: 7px 14px; border-radius: 24px; font-size: 14px; line-height: 1.2; }
 .pageContent { padding-block: 65px 80px; min-height: 72vh; }
