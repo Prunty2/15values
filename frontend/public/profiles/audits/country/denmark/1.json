@@ -1,0 +1,3592 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "denmark",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex (GPT-6), independent Denmark assessment agent",
+  "changeNote": "Independent assessment of all 240 questions: 237 supported responses and three precise unresolved comparative causation claims; separate review pending. Focused gap research on 5 October 2026 retained 3 explicit unknowns; review notes record the sources checked and limitations. Completion on 5 October 2026 resolves 3 remaining responses under the owner-authorised educated-assumption rule; the earlier unresolved draft and reviews are preserved separately.",
+  "metadata": {
+    "name": "Denmark",
+    "description": "Denmark’s constitutional institutions and implemented policies under Mette Frederiksen through 4 October 2026, including the new June 2026 coalition and relevant autonomous-territory arrangements. This is an assessment of institutions, not citizens’ opinions.",
+    "category": "Parliamentary constitutional monarchy",
+    "period": "Contemporary institutions and implemented policy through 2026-10-04; Mette Frederiksen III took office 2026-06-03",
+    "scope": "Denmark proper for ordinary domestic policy; Kingdom-wide constitutional, defence and foreign policy, including Greenland and Faroe Islands autonomy where relevant. Implemented inherited measures remain part of the baseline unless changed; new coalition announcements are not assumed enacted. Includes provisional educated assumptions where the exact institutional response is not documented; these are labelled in the answer file and completion review.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/denmark-r1.png",
+      "alt": "Flag of Denmark: white Nordic cross on a red field",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Denmark.svg",
+      "creator": "Madden and others",
+      "license": "Public domain (PD-shape)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-shape"
+    }
+  },
+  "sources": [
+    {
+      "id": "cabinet",
+      "title": "Mette Frederiksen III cabinet appointed",
+      "url": "https://stm.dk/presse/pressemeddelelser/2026/regeringen-mette-frederiksen-iii/",
+      "publisher": "Prime Minister’s Office",
+      "date": "2026-06-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "election",
+      "title": "Denmark: 2026 election and new coalition government",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10847/",
+      "publisher": "UK House of Commons Library",
+      "date": "2026-06-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ap-coalition",
+      "title": "Frederiksen set for third term under new coalition",
+      "url": "https://apnews.com/article/79d8ff095c88e3e7edb6c42d30fcaa1d",
+      "publisher": "Associated Press",
+      "date": "2026-06-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "The Constitutional Act of Denmark, with parliamentary explanation",
+      "url": "https://www.ft.dk/-/media/sites/ft/pdf/publikationer/the-constitutional-act-of-denmark.pdf",
+      "publisher": "Danish Parliament",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fh",
+      "title": "Denmark: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/denmark/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "coalitionplans",
+      "title": "New government programme presentation: announced measures, not enactment",
+      "url": "https://stm.dk/presse/pressemoedearkiv/2026/pressemoede-den-2-juni-2026/",
+      "publisher": "Prime Minister’s Office",
+      "date": "2026-06-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "searchzones",
+      "title": "Police search zones: random searches under section 6",
+      "url": "https://politi.dk/da/visitationszoner",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "traffic",
+      "title": "Road Traffic Act, including compulsory screening and seat belts",
+      "url": "https://www.retsinformation.dk/eli/lta/2024/1312/pdf",
+      "publisher": "Danish Ministry of Transport",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procedure",
+      "title": "Administration of Justice Act: interception and search safeguards",
+      "url": "https://www.retsinformation.dk/eli/lta/2025/1298/pdf",
+      "publisher": "Danish Ministry of Justice",
+      "date": "2025-11-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "anpr",
+      "title": "Police data use and retention periods",
+      "url": "https://politi.dk/personoplysninger.",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "restraining",
+      "title": "Prosecutorial guidance: restraining and exclusion orders",
+      "url": "https://www.retsinformation.dk/eli/retsinfo/2025/10329",
+      "publisher": "Director of Public Prosecutions",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "demonstrations",
+      "title": "Demonstrations and processions: police guidance",
+      "url": "https://politi.dk/service-og-tilladelser/offentlige-arrangementer/demonstration-og-optog",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "blockade2026",
+      "title": "Police remove Classensgade road-blocking demonstration",
+      "url": "https://politi.dk/politi-update/Details?uri=15142096",
+      "publisher": "Copenhagen Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "whistleblower",
+      "title": "Police whistleblower scheme: publication protections and limits",
+      "url": "https://politi.dk/om-politiet/virksomheden/whistleblowerordningen",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "weapons",
+      "title": "Firearms permits and licensing purposes",
+      "url": "https://politi.dk/service-og-tilladelser/vaaben/vaerd-at-vide-om-vaaben",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drugs",
+      "title": "National threat assessment: drug possession and distribution offences",
+      "url": "https://politi.dk/-/media/mediefiler/nsk/dokumenter/risikovurderingwebtilgngeligv101.pdf",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ageproposal",
+      "title": "September 2026 social-media age-limit bill: proposal, not implemented universal identity rule",
+      "url": "https://ufm.dk/aktuelt/pressemeddelelser/2026/september/nu-kommer-aldersgraense-regering-og-aftalepartier-saetter-haardt-ind-mod-sociale-medier/",
+      "publisher": "Ministry of Research Education and Digitalisation",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "integration",
+      "title": "Integration Act, consolidated April 2026 including July commencement provisions",
+      "url": "https://www.retsinformation.dk/eli/lta/2026/453/pdf",
+      "publisher": "Ministry of Immigration and Integration",
+      "date": "2026-04-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "danishcourses",
+      "title": "Danish courses: language, culture and equal civic participation",
+      "url": "https://uim.dk/arbejdsomrader/danskundervisning-og-prover-for-udlaendinge/medborgerskabsproven-1",
+      "publisher": "Ministry of Immigration and Integration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "interpreting",
+      "title": "Patient interpreting and fees after three years",
+      "url": "https://www.borger.dk/sundhed-og-sygdom/dine-rettigheder-som-patient/Tolkning-for-patienter",
+      "publisher": "Danish public service portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minorityculture",
+      "title": "Cultural appropriations including the German minority",
+      "url": "https://kum.dk/fileadmin/_kum/1_Nyheder_og_presse/2024/Prioritering_af_det_kulturelle_aktstykke_2024.pdf",
+      "publisher": "Ministry of Culture",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "greenlandapology",
+      "title": "Prime minister’s speech at official Greenland contraception apology ceremony",
+      "url": "https://stm.dk/statsministeren/taler/statsministerens-tale-til-undskyldningsarrangement-i-spiralsagen-den-24-september-2025/",
+      "publisher": "Prime Minister’s Office",
+      "date": "2025-09-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "facecover",
+      "title": "Implemented face-covering prohibition and recognised-purpose exemptions",
+      "url": "https://politi.dk/tildaekningsforbud",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "permanent",
+      "title": "Permanent residence requirements, 2026 thresholds",
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Permanent-residence-permit/Permanent-residence/",
+      "publisher": "Danish Immigration Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family",
+      "title": "Family reunification pathways",
+      "url": "https://www.nyidanmark.dk/da/Applying/Familie",
+      "publisher": "Danish Immigration Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work",
+      "title": "Positive Lists for shortage occupations",
+      "url": "https://www.nyidanmark.dk/en-GB/You-want-to-apply/Work/The-Positive-Lists",
+      "publisher": "Danish Agency for International Recruitment and Integration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "graduates",
+      "title": "Post-study job-search residence and work permission",
+      "url": "https://www.nyidanmark.dk/en-GB/Applying/Study/Study%20-%20job%20seeking",
+      "publisher": "Danish Agency for International Recruitment and Integration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "asylum",
+      "title": "Asylum eligibility and temporary protection",
+      "url": "https://www.nyidanmark.dk/de-DE/You-want-to-apply/Asyl/Voksen-asylans%C3%B8ger",
+      "publisher": "Danish Immigration Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "asylumprocess",
+      "title": "Asylum procedures, safe-country protection and appeals",
+      "url": "https://www.nyidanmark.dk/en-GB/You-are-waiting-for-an-answer/Asylum/Processing-of-an-asylum-case/",
+      "publisher": "Danish Immigration Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eumigration",
+      "title": "Nordic and EU residence routes",
+      "url": "https://www.nyidanmark.dk/de-DE/You-want-to-apply/Residence-as-a-Nordic-citizen-or-EU-or-EEA-citizen/",
+      "publisher": "Danish Immigration Service and SIRI",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cash",
+      "title": "Cash assistance: current 2026 conditions and rates",
+      "url": "https://www.borger.dk/arbejde-dagpenge-ferie/Dagpenge-kontanthjaelp-og-sygedagpenge/Kontanthjaelp/kontanthjaelp",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rejection",
+      "title": "Refusal of asylum and departure",
+      "url": "https://www.nyidanmark.dk/en-GB/You-have-received-an-answer/Asylum/No-to-asylum",
+      "publisher": "Danish Immigration Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "service",
+      "title": "Implementation of defence agreement: first 11-month cohort in February 2026",
+      "url": "https://www.fmn.dk/da/emne/status-paa-implementering/",
+      "publisher": "Ministry of Defence",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defencebudget",
+      "title": "Defence agreements and budget",
+      "url": "https://www.fmn.dk/da/arbejdsomraader/forlig-og-okonomi/",
+      "publisher": "Ministry of Defence",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "latvia",
+      "title": "Enhanced forward presence",
+      "url": "https://www.fmn.dk/da/arbejdsomraader/internationale-operationer/igangvarende-operationer/fremskudt-tilstedevarelse2/",
+      "publisher": "Ministry of Defence",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ukraine",
+      "title": "Danish military support for Ukraine",
+      "url": "https://www.fmn.dk/en/topics/operations/ongoing-operations/danish-military-support-for-ukraine/",
+      "publisher": "Ministry of Defence",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "manual",
+      "title": "Military manual for international operations, updated 2020 (publication period: 2020)",
+      "url": "https://www.forsvaret.dk/globalassets/fko---forsvaret/dokumenter/publikationer/-militarmanual-af-sept-2016-opdateret-version-2020_2-.pdf",
+      "publisher": "Danish Defence",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "laws",
+      "title": "Joint submission including Denmark on autonomous weapons",
+      "url": "https://docs-library.unoda.org/Convention_on_Certain_Conventional_Weapons_-Group_of_Governmental_Experts_on_Lethal_Autonomous_Weapons_Systems_(2024)/CCW-GGE.1-2024-WP.3.pdf",
+      "publisher": "UN Office for Disarmament Affairs / submitting states",
+      "date": "2024-03-04",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "arctic",
+      "title": "Agreement between Greenland, Denmark and United States",
+      "url": "https://english.stm.dk/press/press-releases/agreement-between-greenland-denmark-and-the-united-states/",
+      "publisher": "Prime Minister’s Office",
+      "date": "2026-09-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "intelligence",
+      "title": "Danish Defence Intelligence Service mission",
+      "url": "https://www.fe-ddis.dk/en/",
+      "publisher": "Danish Defence Intelligence Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "armscontrol",
+      "title": "Arms control, disarmament and non-proliferation",
+      "url": "https://um.dk/udenrigspolitik/sikkerhedspolitik/vaabenkontrol-nedrustning-og-ikke-spredning/",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eu",
+      "title": "Denmark’s EU membership",
+      "url": "https://eu.um.dk/info-om-dk-i-eu/danmarks-eu-medlemsskab",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "optouts",
+      "title": "Danish EU opt-outs",
+      "url": "https://um.dk/udenrigspolitik/eu-da/danmark-i-eu/de-danske-eu-forbehold",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "exchange",
+      "title": "Exchange rates and fixed exchange-rate policy",
+      "url": "https://www.nationalbanken.dk/en/what-we-do/stable-prices-monetary-policy-and-the-danish-economy/exchange-rates",
+      "publisher": "Danmarks Nationalbank",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "upr",
+      "title": "Kingdom of Denmark UPR 2026 implementation annex",
+      "url": "https://um.dk/media/sgenruls/kongeriget-danmarks-upr-2026-anneks-10-11-2025.pdf",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "2025-11-10",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ajos",
+      "title": "Supreme Court judgment in Ajos case",
+      "url": "https://www.domstol.dk/media/2udgvvvb/judgment-15-2014.pdf",
+      "publisher": "Danish Supreme Court",
+      "date": "2016-12-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "withdraw",
+      "title": "Treaty on European Union Article 50",
+      "url": "https://eur-lex.europa.eu/eli/treaty/teu_2016/art_50/oj/eng",
+      "publisher": "European Union",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "mercosur",
+      "title": "EU–Mercosur provisional trade agreement enters into force",
+      "url": "https://um.dk/brasilien/nyheder/eu-mercosur-provisoriske-frihandelsaftale-traeder-i-kraft/",
+      "publisher": "Danish Embassy in Brazil",
+      "date": "2026-04-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "companies",
+      "title": "State company ownership at 31 January 2026",
+      "url": "https://fm.dk/arbejdsomraader/statens-selskaber/organisering-af-statens-selskaber/",
+      "publisher": "Ministry of Finance",
+      "date": "2026-01-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "water",
+      "title": "Drinking-water payment and ownership",
+      "url": "https://ens.dk/forsyning-og-forbrug/betaling-drikkevand",
+      "publisher": "Danish Energy Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "healthsystem",
+      "title": "How the Danish healthcare system works",
+      "url": "https://lifeindenmark.borger.dk/healthcare/the-danish-healthcare-system/how-the-danish-healthcare-system-works",
+      "publisher": "Danish Patient Safety Authority",
+      "date": "2026-06-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rail",
+      "title": "About Banedanmark",
+      "url": "https://bane.dk/da/Om-Banedanmark",
+      "publisher": "Banedanmark",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eifo",
+      "title": "EIFO legal basis",
+      "url": "https://www.eifo.dk/om-eifo/lovgrundlag/",
+      "publisher": "Export and Investment Fund of Denmark",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "Renting a home: private landlords and housing associations",
+      "url": "https://lifeindenmark.borger.dk/housing-and-moving/rental-property/renting-a-home",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oil",
+      "title": "What is Nordsøfonden",
+      "url": "https://eng.nordsoefonden.dk/about/who-are-we",
+      "publisher": "Nordsøfonden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "orsted",
+      "title": "Completed October 2025 rights issue (publication period: 2025-10)",
+      "url": "https://orsted.com/en/investors/rightsissue",
+      "publisher": "Ørsted",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freechoice",
+      "title": "Integrated home care and free provider choice",
+      "url": "https://www.borger.dk/sundhed-og-sygdom/stoette-og-hjaelp-i-dit-sygdomsforloeb/hjaelp-i-hjemmet/hjemmehjaelp",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "waste",
+      "title": "Waste collection: municipal and private arrangements",
+      "url": "https://ens.dk/forsyning-og-forbrug/faq-affald",
+      "publisher": "Danish Energy Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "investment",
+      "title": "2024 Investment Climate Statement: Denmark (publication period: 2024)",
+      "url": "https://2021-2025.state.gov/reports/2024-investment-climate-statements/denmark/",
+      "publisher": "US Department of State",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "screening",
+      "title": "Foreign investment authorisation and notification",
+      "url": "https://businessindenmark.virk.dk/guidance/erst-activities-covered-by-the-investment-screening-act/Authorisation-or-notification-of-foreign-investment/",
+      "publisher": "Danish Business Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Procurement law guidance (publication period: 2024-12)",
+      "url": "https://kfst.dk/media/ua3fml2r/udbudsloven-vejledning-om-udbudsreglerne-a.pdf",
+      "publisher": "Danish Competition and Consumer Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade",
+      "title": "Danish trade policy",
+      "url": "https://um.dk/udenrigspolitik/handelspolitik/dansk-handelspolitisk-strategi",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defensive",
+      "title": "Defensive trade instruments",
+      "url": "https://um.dk/udenrigspolitik/handelspolitik/defensive-handelspolitiske-instrumenter/",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gsp",
+      "title": "Trade and development: unilateral preferences",
+      "url": "https://um.dk/udenrigspolitik/handelspolitik/handel-og-udvikling/",
+      "publisher": "Ministry of Foreign Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "farmsafeguard",
+      "title": "Council adopts agricultural safeguard regulation",
+      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/03/05/eu-mercosur-council-greenlights-safeguards-for-agricultural-products/",
+      "publisher": "Council of the European Union",
+      "date": "2026-03-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "taxequality",
+      "title": "TFEU Article 110: non-discriminatory product taxation",
+      "url": "https://eur-lex.europa.eu/eli/treaty/tfeu_2012/art_110/oj/eng",
+      "publisher": "European Union",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "competition",
+      "title": "Danish Competition Act 1150 of 3 November 2024",
+      "url": "https://en.kfst.dk/media/s4ybfdap/the-danish-competition-act-1150-af-03112024.pdf",
+      "publisher": "Danish Competition and Consumer Authority",
+      "date": "2024-11-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wages",
+      "title": "Labour rights and negotiated wages",
+      "url": "https://www.workindenmark.dk/labour-rights",
+      "publisher": "Danish Agency for Labour Market and Recruitment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ccs",
+      "title": "CCS procurement and awarded contracts",
+      "url": "https://ens.dk/forsyning-og-forbrug/ccs-udbud-og-anden-stoette-til-udvikling-af-ccs",
+      "publisher": "Danish Energy Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "MiCA regulation and Danish supervision",
+      "url": "https://www.finanstilsynet.dk/lovgivning/eu-lovsamling/mica",
+      "publisher": "Danish Financial Supervisory Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rent",
+      "title": "Rent-setting regimes",
+      "url": "https://www.sm.dk/arbejdsomraader/byggeri-og-boliglovgivning/private-lejeboliger/lejefastsaettelse",
+      "publisher": "Ministry of Social Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "money",
+      "title": "Monetary-policy instruments",
+      "url": "https://www.nationalbanken.dk/en/what-we-do/stable-prices-monetary-policy-and-the-danish-economy/monetary-policy-instruments",
+      "publisher": "Danmarks Nationalbank",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "income-tax",
+      "title": "2026 bottom, middle, top and additional top tax",
+      "url": "https://skat.dk/hjaelp/bundskat-mellemskat-topskat-og-toptopskat",
+      "publisher": "Danish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "inheritance",
+      "title": "Estate and inheritance taxation",
+      "url": "https://skat.dk/borger/skatter-og-afgifter-ved-doedsfald",
+      "publisher": "Danish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housingbenefit",
+      "title": "Housing benefit eligibility and 2026 limits",
+      "url": "https://www.borger.dk/bolig-og-flytning/boligstoette-oversigt/soeg-boligstoette",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "childbenefit",
+      "title": "Child and youth benefit",
+      "url": "https://www.borger.dk/oekonomi-skat-su/oekonomi-i-familien/boerne-ungeydelse",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "foodcheck",
+      "title": "2026 food-price cash payment",
+      "url": "https://cdn.borger.dk/oekonomi-skat-su/Kontante-ydelser/prisstigninger-oekonomisk-hjaelp/foedevarecheck",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "land",
+      "title": "Green tripartite land-conversion questions and answers",
+      "url": "https://sgav.dk/groen-trepart/lokale-treparter/spoergsmaal-og-svar",
+      "publisher": "Agency for Green Transition and Aquatic Environment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lemonde",
+      "title": "Frederiksen secures third term: coalition tax and welfare compromise",
+      "url": "https://www.lemonde.fr/en/international/article/2026/06/03/denmark-s-mette-frederiksen-secures-third-term-as-prime-minister_6754068_4.html",
+      "publisher": "Le Monde",
+      "date": "2026-06-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "churchfund",
+      "title": "Church of Denmark finances and state support",
+      "url": "https://www.folkekirken.dk/om-folkekirken/folkekirken-som-organisation/oekonomi",
+      "publisher": "Church of Denmark",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "schoolreligion",
+      "title": "Compulsory subjects: non-confessional Christianity studies",
+      "url": "https://uvm.dk/grundskole/folkeskolen/fag-og-indhold/fag-emner-og-tvaergaaende-temaer/faelles-maal/faelles-maal-for-folkeskolens-fag/obligatoriske-fag/",
+      "publisher": "Ministry of Children and Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "schoolchristmas",
+      "title": "Christmas traditions and exemption from religious activities",
+      "url": "https://uvm.dk/grundskole/folkeskolen/fag-og-indhold/fag-emner-og-tvaergaaende-temaer/juletraditioner/",
+      "publisher": "Ministry of Children and Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "opening",
+      "title": "Parliamentary opening ceremonies in 2025 (publication period: 2025-09)",
+      "url": "https://www.ft.dk/da/aktuelt/nyheder/2025/09/folketingets-aabning-2025",
+      "publisher": "Danish Parliament",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "churchproperty",
+      "title": "Properties exempt from valuation: places of worship",
+      "url": "https://info.skat.dk/data.aspx?oid=2296628",
+      "publisher": "Danish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Civil and religious marriage options",
+      "url": "https://cdn.borger.dk/familie-og-boern/Aegteskab-og-parforhold/Naar-I-vil-giftes",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriageconditions",
+      "title": "Legal marriage conditions and foreign recognition",
+      "url": "https://www.borger.dk/familie-og-boern/Aegteskab-og-parforhold/betingelser-for-aegteskab",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holidays",
+      "title": "Employee holidays and official public holidays",
+      "url": "https://www.borger.dk/arbejde-dagpenge-ferie/oversigt-ferie/loenmodtager-og-ferie",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "prayerday",
+      "title": "Order abolishing Great Prayer Day as public holiday from 2024 (publication period: 2023)",
+      "url": "https://www.retsinformation.dk/eli/lta/2023/270",
+      "publisher": "Danish legislation database",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "samesex",
+      "title": "Same-sex marriage and registered partnership",
+      "url": "https://www.borger.dk/familie-og-boern/Aegteskab-og-parforhold/Registreret-partnerskab",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adoption",
+      "title": "Approval as adoptive parents",
+      "url": "https://familieretshuset.dk/emner/adoption/fremmedadoption-bliv-godkendt-som-adoptant/",
+      "publisher": "Agency of Family Law",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abortion",
+      "title": "Abortion rights through 18 weeks",
+      "url": "https://www.borger.dk/sundhed-og-sygdom/barn_oversigtsside/abort",
+      "publisher": "Danish public services portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "genderid",
+      "title": "Legal gender recognition",
+      "url": "https://www.cpr.dk/borgere/kan-jeg-faa-et-nyt-personnummer/juridisk-koensskifte",
+      "publisher": "Civil Registration Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "antidiscrimination",
+      "title": "Employment discrimination protections",
+      "url": "https://www.bm.dk/arbejdsomraader/arbejdsvilkaar/forskelsbehandling/forskelsbehandlingsloven",
+      "publisher": "Ministry of Employment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "equalroles",
+      "title": "Equal treatment of men and women in employment",
+      "url": "https://www.bm.dk/arbejdsomraader/arbejdsvilkaar/ligestilling/lovgivning-om-ligestilling/ligebehandlingsloven",
+      "publisher": "Ministry of Employment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sexeducation",
+      "title": "Common objectives including compulsory health and sexuality education",
+      "url": "https://uvm.dk/folkeskolen/fag-og-indhold/fag-emner-og-tvaergaaende-temaer/faelles-maal/faelles-maal-for-folkeskolens-fag",
+      "publisher": "Ministry of Children and Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai",
+      "title": "Denmark’s active AI strategies and regulatory sandbox",
+      "url": "https://digst.dk/kunstig-intelligens/strategier-for-kunstig-intelligens/",
+      "publisher": "Agency for Digital Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aitaskforce",
+      "title": "AI taskforce mandate to release public-sector work capacity (publication period: 2025-06)",
+      "url": "https://www.digmin.dk/digitalisering/nyheder/nyhedsarkiv/2025/jun/kunstig-intelligens-skal-frigoere-mere-tid-til-det-vigtige",
+      "publisher": "Ministry of Digital Government",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "devices",
+      "title": "CE marking and clinical evaluation of medical devices",
+      "url": "https://laegemiddelstyrelsen.dk/da/udstyr/ce-maerkning?desktop-css-only=true",
+      "publisher": "Danish Medicines Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trials",
+      "title": "Clinical investigation requirements including non-medical-purpose devices",
+      "url": "https://laegemiddelstyrelsen.dk/da/udstyr/klinisk-afproevning-af-medicinsk-udstyr/",
+      "publisher": "Danish Medicines Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medicalai",
+      "title": "AI in medical devices: regulatory requirements",
+      "url": "https://laegemiddelstyrelsen.dk/da/udstyr/new-tech-nye-teknologiske-muligheder/faq-om-ai-i-medicinsk-udstyr/",
+      "publisher": "Danish Medicines Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "novelfood",
+      "title": "Novel food authorisation requirements",
+      "url": "https://foedevarestyrelsen.dk/lovstof/nye-foedevarer-novel-food-lovstof",
+      "publisher": "Danish Veterinary and Food Administration",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "femern",
+      "title": "Fehmarn tunnel project status including May 2026 immersion",
+      "url": "https://femern.com/da/tunnelen/projektstatus/",
+      "publisher": "Femern A/S",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "habitats",
+      "title": "Building with nature: compensation for unavoidable impacts",
+      "url": "https://femern.com/sustainability/building-with-nature/",
+      "publisher": "Femern A/S",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "eia",
+      "title": "Environmental assessment legislation",
+      "url": "https://www.retsinformation.dk/eli/lta/2020/973",
+      "publisher": "Danish legislation database",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "embryos",
+      "title": "Assisted reproduction act, research and genetic modification restrictions",
+      "url": "https://www.retsinformation.dk/eli/lta/2019/902",
+      "publisher": "Danish legislation database",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "GMO guidance, including environmental release requirements (publication period: 2026)",
+      "url": "https://www.retsinformation.dk/eli/retsinfo/2026/9742",
+      "publisher": "Danish legislation database",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "planningland",
+      "title": "National interests in municipal planning, October 2025 update",
+      "url": "https://www.plst.dk/landsplanlaegning/nationale-interesser",
+      "publisher": "Planning and Rural Development Agency",
+      "date": "2025-10-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "greenland",
+      "title": "Greenland self-government and access to independence",
+      "url": "https://english.stm.dk/the-prime-ministers-office/the-unity-of-the-realm/greenland/",
+      "publisher": "Prime Minister’s Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "municipal",
+      "title": "Municipal and regional governance and supervision",
+      "url": "https://admin.ism.dk/indenrigs-ressortomlagt/kommuner-og-regioners-styrelse",
+      "publisher": "Ministry responsible for Interior Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "policeorg",
+      "title": "National police organisation",
+      "url": "https://politi.dk/virksomheden/rigspolitiet/organisationen",
+      "publisher": "Danish National Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "localtax",
+      "title": "Municipal tax decisions for 2026 and national sanctions (publication period: 2025-11)",
+      "url": "https://www.ism.dk/nyheder/2025/november/kommunerne-saenker-skatten-med-357-millioner-kroner-i-2026",
+      "publisher": "Ministry responsible for Interior Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "equalisation",
+      "title": "Municipal equalisation and grants 2026 (publication period: 2026)",
+      "url": "https://www.ism.dk/Media/639039931769753840/Kommunerne_2026.pdf",
+      "publisher": "Ministry responsible for Interior Affairs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "employmentlaws",
+      "title": "National employment legislation",
+      "url": "https://www.bm.dk/arbejdsomraader/arbejdsvilkaar/arbejdsretlige-love/oversigt-over-arbejdsretlige-love",
+      "publisher": "Ministry of Employment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medicinescouncil",
+      "title": "Danish Medicines Council: regional governance",
+      "url": "https://medicinraadet.dk/om-os/organisation",
+      "publisher": "Danish Medicines Council",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "healthreform",
+      "title": "Healthcare task transfer from January 2027",
+      "url": "https://www.ism.dk/temaer/sundhedsreformen-2024/opgaveflytning",
+      "publisher": "Ministry of Health",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "disaster",
+      "title": "National crisis-management system and sector responsibility",
+      "url": "https://www.brs.dk/da/arbejdsopgaver/om-krisestyring-og-redningsberedskabet/krisestyringssystemet-i-danmark/",
+      "publisher": "Danish Emergency Management Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "development",
+      "title": "Adopted preventive-health recommendations for children and parents, especially pp.109,122 and152–154 (publication period: 2025-05)",
+      "url": "https://www.sst.dk/-/media/Udgivelser/2025/Forebyggende-sundhedsydelser-boern-og-unge/Anbefalinger-om-forebyggende-sundhedsydelser-til-boern-og-unge-og-deres-foraeldre.ashx",
+      "publisher": "Danish Health Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pedagogy",
+      "title": "Statutory pedagogical objectives, especially annexes 1–2",
+      "url": "https://www.retsinformation.dk/eli/lta/2018/968/pdf",
+      "publisher": "Ministry of Children and Social Affairs",
+      "date": "2018-06-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "teenbrain",
+      "title": "Teenage brain development: maturation, interests and social expectations",
+      "url": "https://www.sst.dk/teenageforaeldre/skaerm-rus-og-hjerne/teenagehjernen/teenagehjernens-udvikling",
+      "publisher": "Danish Health Authority",
+      "date": "2025-11-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "braincontrol",
+      "title": "Understanding adolescent executive functions",
+      "url": "https://www.sst.dk/teenageforaeldre/skaerm-rus-og-hjerne/teenagehjernen/forstaa-din-teenagers-hjerne",
+      "publisher": "Danish Health Authority",
+      "date": "2025-11-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "riskbrain",
+      "title": "Alcohol and the teenage brain’s risk-taking",
+      "url": "https://www.sst.dk/teenageforaeldre/skaerm-rus-og-hjerne/teenagehjernen/hvordan-paavirkes-teenagehjernen-af-alkohol",
+      "publisher": "Danish Health Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "druginfluences",
+      "title": "What leads people to take drugs: adopted public guidance",
+      "url": "https://www.sst.dk/alt-om-stoffer/artikler/hvad-faar-folk-til-at-tage-stoffer",
+      "publisher": "Danish Health Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD causes: inheritance and environment",
+      "url": "https://www.sundhed.dk/borger/patienthaandbogen/psyke-hos-boern/sygdomme/adhd/adhd-aarsager/",
+      "publisher": "Sundhed.dk public health portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "panic",
+      "title": "Panic anxiety: heredity, personality and life stress",
+      "url": "https://www.sundhed.dk/borger/patienthaandbogen/psyke/sygdomme/angsttilstande/panikangst-oversigt/",
+      "publisher": "Sundhed.dk public health portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "phobia",
+      "title": "Phobic anxiety: vulnerability, temperament, experience and learning",
+      "url": "https://www.sundhed.dk/borger/patienthaandbogen/psyke/sygdomme/angsttilstande/fobisk-angst/",
+      "publisher": "Sundhed.dk public health portal",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "bodyideals",
+      "title": "Self-image and body ideals",
+      "url": "https://www.sst.dk/vidensbase/seksuel-sundhed-seksualitet-og-koensidentitet/seksualitet/seksuel-trivsel/selvbillede-og-kropsidealer",
+      "publisher": "Danish Health Authority",
+      "date": "2023-02-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sexframework",
+      "title": "Official sexuality teaching guidance, with 2025 note on binding versus advisory objectives (publication period: 2021-06; applicability note updated 2025)",
+      "url": "https://emu.dk/sites/default/files/2021-06/gsk_vejledning_ssf.pdf",
+      "publisher": "Ministry of Children and Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crimemodel",
+      "title": "Official youth-crime prevention framework and risk factors",
+      "url": "https://www.sbst.dk/unge/kriminalitet/om-kriminalitet",
+      "publisher": "Danish Social and Housing Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "origincrime",
+      "title": "Immigrants in Denmark 2025: crime and social background (publication period: 2025)",
+      "url": "https://www.dst.dk/da/Statistik/udgivelser/VisPub?cid=54707",
+      "publisher": "Statistics Denmark",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "paygap",
+      "title": "Gender equality: pay differences and work/family characteristics",
+      "url": "https://www.dst.dk/da/Statistik/temaer/ligestilling",
+      "publisher": "Statistics Denmark",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "policedata",
+      "title": "Police processing of personal data: passenger records, masking and retention",
+      "url": "https://politi.dk/om-politiet/om-hjemmesiden/politiets-brug-af-personoplysninger",
+      "publisher": "Danish Police",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "anpg-order",
+      "title": "ANPG order 1080: sections 9–11 retention of hits and no-hits",
+      "url": "https://www.retsinformation.dk/eli/lta/2017/1080/pdf",
+      "publisher": "Danish Ministry of Justice",
+      "date": "2017-09-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pnr-bill-status",
+      "title": "L119 PNR amendment proposal: lapsed, not enacted",
+      "url": "https://www.folketingstidende.dk/samling/20251/lovforslag/l119/index.htm",
+      "publisher": "Folketing",
+      "date": "2026-02-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minority-2026",
+      "title": "Additional adopted German-minority language commitments",
+      "url": "https://kum.dk/aktuelt/nyheder/regeringen-forpligtiger-sig-yderligere-over-for-det-tyske-mindretal",
+      "publisher": "Ministry of Culture",
+      "date": "2026-01-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "migrant-posters",
+      "title": "Hygiene posters translated for minority-language residents",
+      "url": "https://www.sst.dk/nyheder/2020/gode-raad-til-beskyttelse-mod-coronavirus-covid-19-oversat-til-syv-sprog",
+      "publisher": "Danish Health Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "refugee-health",
+      "title": "Current refugee-health guidance linking multilingual public-health posters",
+      "url": "https://www.sst.dk/vidensbase/sundhedsvaesenets-rammer/beredskab/beredskab-og-krigen-i-ukraine/adgang-til-sundheds-vaesenet-for-flygtninge-fra-ukraine",
+      "publisher": "Danish Health Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lgbt-teaching",
+      "title": "LGBT+ teaching within compulsory sexuality education; optional teaching examples",
+      "url": "https://emu.dk/grundskole/sundheds-og-seksualundervisning-og-familiekundskab/lgbt-i-fagene",
+      "publisher": "Ministry of Children and Education / EMU",
+      "date": "2025-05-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "intelligence-powers",
+      "title": "Defence intelligence: powers to obtain secrets of foreign states and actors",
+      "url": "https://www.fe-ddis.dk/da/om-os/sarlige-vilkar/",
+      "publisher": "Danish Defence Intelligence Service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Parliamentary competition and minority-government bargaining determine executive office. The March 2026 election and June coalition formation demonstrate continuing electoral accountability, independently corroborated by international reporting.",
+      "counterEvidence": "The monarch has formal constitutional functions without independent elected executive power. Referendums on ordinary laws require parliamentary initiation and contain exclusions; citizens cannot recall individual MPs. Constitutional emergency ordinances cannot contradict the constitution and must be submitted to Parliament.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Folketing must be elected within four years, and the 2026 election determined the governing coalition.",
+          "sources": [
+            "constitution",
+            "election"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The government depends on an elected Folketing rather than appointment by an expert panel.",
+          "sources": [
+            "constitution",
+            "cabinet"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Electoral eligibility is based on citizenship, age and constitutional residence requirements, without an educational or intelligence test.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislation requires parliamentary enactment; exceptional provisional laws when Parliament cannot assemble must be submitted and cannot substitute for governing against a parliamentary majority.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Competitive multiparty elections permit opposition parties to campaign and gain office, as reflected in the changed 2026 coalition.",
+          "sources": [
+            "election",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parliamentary committees and auditors scrutinise expenditure and ministers, including through opposition participation.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Independent courts adjudicate the limits of executive authority and constitutional legality.",
+          "sources": [
+            "constitution",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Trade unions influence politics but do not constitutionally appoint the national government instead of voters.",
+          "sources": [
+            "constitution",
+            "election"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Freedom of association and judicial processes constrain party dissolution; the cabinet lacks discretionary authority to exclude political rivals.",
+          "sources": [
+            "constitution",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Section 42 permits a binding vote rejecting qualifying legislation at the request of a parliamentary minority, with exceptions and turnout thresholds.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislative, budgetary and judicial constraints prevent sole executive control over major national decisions.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "A parliamentary vote of no confidence requires ministerial resignation or an election; ministerial impeachment also addresses unlawful acts.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The four-year electoral limit is constitutionally prescribed and cannot be waived simply because the prime minister favours continuity.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The constitutional electoral framework provides fixed parliamentary mandates and elections, without a voter recall mechanism for an individual MP.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Ministers remain answerable to Parliament and cannot remain in office against an adverse confidence vote without seeking an election.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The armed forces operate under civilian constitutional authority and possess no independent constitutional replacement power.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Denmark protects speech, association and due process while enforcing drug restrictions, mandatory safety rules and designated suspicionless search zones. Police practices qualify broad formal freedoms.",
+      "counterEvidence": "Road-blocking demonstrations can be removed despite general assembly protection. Whistleblower publication has conditions. One-year telecommunications retention and limited vehicle-data storage are not blanket permission for years of movement histories. September 2026 child social-media rules remain proposed. Passenger information is retained for five years with masking, whereas ordinary ANPG no-hits have short retention; these distinct regimes are not conflated. Statutory warrant exceptions are wider than immediate danger to a person.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Possession of controlled drugs remains punishable even without proof of direct harm to others; this limits personal-risk autonomy.",
+          "sources": [
+            "drugs"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The Justice Act authorises serious-crime communications interception through judicial orders with urgency procedures and review.",
+          "sources": [
+            "procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Police accommodate peaceful processions but can remove road blockades after orders; temporary obstruction is conditionally tolerated rather than absolutely permitted.",
+          "sources": [
+            "demonstrations",
+            "blockade2026"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional speech protection and independent public debate permit strong criticism of state institutions, subject to ordinary legal liability.",
+          "sources": [
+            "constitution",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Compulsory seat-belt rules exemplify acceptance of adult self-protection mandates in limited settings.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Police guidance describes five-year retention of all covered flight-passenger records, with identifying details masked after six months. That supports qualified multi-year tracking without individual suspicion; ordinary number-plate no-hits instead have short deletion periods. The 2026 PNR amendment proposal lapsed.",
+          "sources": [
+            "policedata",
+            "anpg-order",
+            "pnr-bill-status"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Traffic law empowers breath, saliva and related roadside screening without an individual suspicion prerequisite; refusal can trigger further testing.",
+          "sources": [
+            "traffic"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Restraining and exclusion orders prevent anticipated harassment or harm under defined risk tests and legal review, without requiring a new completed offence.",
+          "sources": [
+            "restraining"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adults have broad access to expressive material; legally prohibited content remains an exception rather than a general government morality veto.",
+          "sources": [
+            "constitution",
+            "fh"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary online expression does not require universal government identity verification; the September 2026 proposal specifically addresses children and age assurance.",
+          "sources": [
+            "fh",
+            "ageproposal"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Police may create geographically and temporally bounded zones for random weapons searches based on heightened violence risk.",
+          "sources": [
+            "searchzones"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional assembly rights permit prohibition of open-air assemblies threatening public peace, and police guidance implements that exception.",
+          "sources": [
+            "constitution",
+            "demonstrations"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "A court warrant is the constitutional default, but legislation permits urgent searches for procedural reasons extending beyond immediate personal safety. The actual framework therefore combines judicial control with a wider exception than this statement allows.",
+          "sources": [
+            "constitution",
+            "procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Whistleblower rules protect necessary confidential disclosure and qualifying public publication, with good-faith and procedural safeguards.",
+          "sources": [
+            "whistleblower"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Licensing is tied to recognised purposes such as hunting and sport; absence of a violence record alone is not a general entitlement to defensive firearms.",
+          "sources": [
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional rules require an arrested person to be brought before a judge within 24 hours, precluding detention solely at executive discretion.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Integration policy prioritises Danish language, civic participation and self-support while constitutional religious freedom, Greenlandic recognition and minority cultural funding preserve distinct identities.",
+      "counterEvidence": "Denmark proper’s integration regime is distinct from Greenland and Faroe self-government. Face-covering prohibitions constrain accommodation. Funding translated access does not mean treating all migrant languages as equal official languages. January 2026 language commitments protect the historical German minority, including place names and public information; that minority settlement is not treated as a universal migrant-language entitlement.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration law and Danish courses prioritise shared civic and cultural knowledge, indicating national norms take qualified precedence in conflicts.",
+          "sources": [
+            "integration",
+            "danishcourses"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Patient interpreting is provided when needed but longer-term residents usually pay a fee; minority cultural support coexists with firm adaptation demands.",
+          "sources": [
+            "interpreting",
+            "minorityculture"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The integration curriculum explicitly teaches Danish culture and participation rather than treating residence as culturally indifferent.",
+          "sources": [
+            "danishcourses",
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Religious freedom and minority recognition permit retaining a distinct identity within Danish citizenship and shared law.",
+          "sources": [
+            "constitution",
+            "minorityculture",
+            "minority-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public language training and interpreting fees after three years strongly prioritise Danish proficiency in public-service access.",
+          "sources": [
+            "danishcourses",
+            "interpreting"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The prime minister’s official Greenland apology ceremony acknowledged Greenlandic women and historical discrimination within the Kingdom.",
+          "sources": [
+            "greenlandapology"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The cultural allocation supports national cultural institutions and traditions, with a minority allocation showing that priority is not exclusive.",
+          "sources": [
+            "minorityculture"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Integration duties and face-covering law place common public rules above incompatible community practices.",
+          "sources": [
+            "integration",
+            "facecover"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The official calendar retains shared Christian public holidays; freedom of religion permits other individual observance without establishing separate official calendars for each community.",
+          "sources": [
+            "holidays",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Kingdom recognises Greenlandic identity and supports the German minority’s institutions, qualifying any single-culture description.",
+          "sources": [
+            "greenlandapology",
+            "minorityculture",
+            "minority-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Danish-language and integration programmes expressly aim at participation in society and employment rather than enduring social separation.",
+          "sources": [
+            "danishcourses",
+            "integration"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Health Authority supplies public-health posters in migrant languages and links multilingual materials in refugee guidance, supporting selective foreign-language signage for access. This is a limited practical accommodation, not evidence of a general multilingual street-sign requirement.",
+          "sources": [
+            "migrant-posters",
+            "refugee-health",
+            "danishcourses"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Integration expectations extend to civic participation and Danish acquisition in family life, while religious and private-family freedom prevent complete identity replacement.",
+          "sources": [
+            "integration",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The public face-covering ban applies to burqas and niqabs as well as other coverings unless a recognised purpose applies.",
+          "sources": [
+            "facecover"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official Greenlandic recognition and minority cultural support incorporate distinct traditions into the Kingdom’s public identity.",
+          "sources": [
+            "greenlandapology",
+            "minorityculture",
+            "minority-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration programmes centre Danish language, employment and civic-cultural knowledge rather than maintaining separate community customs.",
+          "sources": [
+            "integration",
+            "danishcourses"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Settlement is selective and conditional, with language, work and lengthy residence requirements. EU/Nordic mobility, family and protection routes make a single hard numerical ceiling an inaccurate description.",
+      "counterEvidence": "Asylum protection does not automatically mean permanent settlement. Job-search routes after study provide a route rather than an unconditional entitlement. Residence-based welfare eligibility is restrictive but not citizenship-exclusive.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The implemented routes impose category-specific eligibility rather than one strict permanent-immigration ceiling; EU and Nordic mobility are not subordinated to an annual housing quota.",
+          "sources": [
+            "permanent",
+            "eumigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Non-EU settlement requires a recognised work, family or protection route rather than improved living standards alone.",
+          "sources": [
+            "permanent",
+            "work",
+            "family"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Skills and employment matter, but family and protection routes mean skills considered important are not the only normal basis.",
+          "sources": [
+            "permanent",
+            "family",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Partners and children can reunite through defined family routes, subject to demanding age, integration and other eligibility conditions.",
+          "sources": [
+            "family"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Refugee protection does not depend on occupational skills, but temporary permits and the separate permanent-residence conditions reject automatic permanent settlement.",
+          "sources": [
+            "asylum",
+            "permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "People without a lawful basis must depart and rejected asylum applicants enter return procedures; illegal entry alone does not prevent a protection claim.",
+          "sources": [
+            "rejection",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "An employer’s demand for workers does not waive language, years of residence and other conditions for permanent status.",
+          "sources": [
+            "work",
+            "permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing and self-support conditions constrain family and permanent settlement even where migration might bring economic benefits; this is an inference from eligibility rules, not an asserted numerical reduction target.",
+          "sources": [
+            "family",
+            "permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Family entry is governed by its own conditions, not included within a universal annual permanent-settlement cap.",
+          "sources": [
+            "family",
+            "eumigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "EU workers enjoy mobility, while non-EU workers generally need a qualifying shortage, salary or other work scheme; a job offer alone is not universally sufficient.",
+          "sources": [
+            "work",
+            "eumigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Permanent residence is a status earned through qualifying lawful residence and other conditions; refugees and EU residents need not have personal employer or family sponsorship.",
+          "sources": [
+            "permanent",
+            "eumigration",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A qualifying Danish degree gives a post-study job-search route leading to employment and potentially later permanent residence, although graduation does not itself grant permanence.",
+          "sources": [
+            "graduates",
+            "permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "A person present in Denmark may seek asylum regardless of unlawful entry, and protection is determined through asylum procedures rather than an ordinary immigration quota.",
+          "sources": [
+            "asylum",
+            "asylumprocess"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Nordic and EU nationals receive preferential mobility compared with third-country applicants; shared regional institutions rather than a racial test qualify this inference.",
+          "sources": [
+            "eumigration",
+            "work"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Non-citizens can receive cash assistance, but residence/work histories affect rates and EU rights create exceptions.",
+          "sources": [
+            "cash"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Admission rules prioritise employment, family and protection; integration programmes emphasise shared language and participation rather than adding migrants because their cultures differ.",
+          "sources": [
+            "work",
+            "family",
+            "integration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Denmark combines diplomacy and arms-control commitments with NATO deployments, substantial defence allocations, military aid and an implemented expansion of conscription. The first 11-month cohort began in February 2026.",
+      "counterEvidence": "Collective deterrence is not a claim of unilateral Danish military dominance. The September Arctic agreement is evidence of negotiated settlement, not proof of a willingness to surrender sovereignty. Autonomous-weapons policy distinguishes human control from approval of each individual engagement.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The military manual permits international operations on lawful grounds beyond responding to an attack on Denmark, including collective-security operations.",
+          "sources": [
+            "manual",
+            "latvia"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Negotiated Arctic security arrangements and arms control coexist with force deployments and substantial aid to a country at war; diplomacy is important but not categorically preferred regardless of delay.",
+          "sources": [
+            "arctic",
+            "armscontrol",
+            "ukraine"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The 2026 defence allocation and accelerated force expansion accept substantial fiscal costs to improve NATO’s military advantage and deterrence.",
+          "sources": [
+            "defencebudget",
+            "service"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The adopted military manual recognises self-defence against a sufficiently imminent attack, subject to necessity and proportionality.",
+          "sources": [
+            "manual"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The manual recognises lawful collective-security and other international operations beyond the narrow condition of an attack on Denmark or a treaty ally.",
+          "sources": [
+            "manual"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Compulsory service remains in force and was extended to 11 months, with the first cohort entering in February 2026; gender equality extends rather than abolishes the obligation.",
+          "sources": [
+            "service"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Arctic agreement shows a willingness to negotiate, while NATO reinforcement protects Denmark’s position; it does not justify unconditional acceptance of substantial weakening to avoid conflict.",
+          "sources": [
+            "arctic",
+            "latvia"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Denmark’s joint weapons-policy submission permits autonomous critical functions within human-defined limits and oversight rather than requiring approval of every attack; this supports conditional acceptance, not uncontrolled targeting.",
+          "sources": [
+            "laws"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Territorial and allied deterrence are central, but Latvia deployments and support for external operations retain an expeditionary role.",
+          "sources": [
+            "latvia",
+            "manual"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "NATO deployments and support for Ukraine reject avoiding military action at any cost when allies or partners face aggression.",
+          "sources": [
+            "latvia",
+            "ukraine"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Repeated rotational deployment of a combat battalion in Latvia and extended training support sustained combat readiness beyond Danish borders.",
+          "sources": [
+            "latvia",
+            "service"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The September Greenland agreement pursued a negotiated security arrangement rather than starting a war over territorial sovereignty.",
+          "sources": [
+            "arctic",
+            "manual"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Armed NATO forward presence provides a credible threat of force in serious security disputes, constrained by lawful defence rather than unrestricted coercion.",
+          "sources": [
+            "latvia",
+            "manual"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Arms-control diplomacy reduces conflict risk, while strengthened deterrence accepts the risks of demonstrating resolve; neither principle always prevails.",
+          "sources": [
+            "armscontrol",
+            "latvia"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The military intelligence service expressly obtains information that foreign states and actors seek to conceal. Maintaining those secret powers supports a moderate inference that intelligence advantage can justify diplomatic risk, without asserting unlimited espionage or a stated preference for damaged relations.",
+          "sources": [
+            "intelligence",
+            "intelligence-powers"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Official arms-control policy supports negotiated limits on weapons and stockpiles even while overall Danish capabilities are expanding.",
+          "sources": [
+            "armscontrol",
+            "defencebudget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "EU membership, NATO commitments, international adjudication and common commercial policy pool substantial authority. Denmark removed its EU defence opt-out in 2022 and participates in binding common rules.",
+      "counterEvidence": "Euro and justice opt-outs persist, the krone remains national although pegged, and constitutional authority-transfer limits matter. The Supreme Court’s Ajos decision demonstrates a real limit to domestic application of EU judicial principles.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "EU membership delegates binding powers, but constitutional transfer limits and the Ajos judgment retain domestic constitutional boundaries.",
+          "sources": [
+            "eu",
+            "constitution",
+            "ajos"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Within delegated EU competences Denmark accepts binding collective rules, including decisions it may oppose, with treaty opt-outs limiting the scope.",
+          "sources": [
+            "eu",
+            "optouts"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Danish courts generally apply binding international obligations, while Ajos refused direct effect of a general EU principle beyond the accession act in a private dispute.",
+          "sources": [
+            "ajos",
+            "upr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "NATO force deployments and EU membership create durable commitments restricting unilateral freedom.",
+          "sources": [
+            "latvia",
+            "eu"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Article 50 permits a member to leave through domestic constitutional choice and notice without requiring EU permission, while procedural and notice obligations remain.",
+          "sources": [
+            "withdraw",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Denmark accepts international adjudication and ICC obligations, including ratification of the aggression amendments recorded in its UPR implementation report.",
+          "sources": [
+            "upr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The state accepts common EU commitments but negotiates opt-outs protecting national policy choices; neither blanket national priority nor unconditional deference describes the framework.",
+          "sources": [
+            "eu",
+            "optouts"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "EU membership shares environmental lawmaking for cross-border problems rather than leaving all decisions exclusively national.",
+          "sources": [
+            "eu"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Denmark participates in the EU’s common foreign policy and removed the defence opt-out rather than remaining outside such a bloc.",
+          "sources": [
+            "eu",
+            "optouts"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Denmark’s UPR account accepts human-rights treaty compliance and international review that can require changes, while domestic incorporation varies.",
+          "sources": [
+            "upr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Denmark retains the krone and euro opt-out; a fixed euro exchange rate substantially constrains its practical monetary discretion.",
+          "sources": [
+            "exchange",
+            "optouts"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "EU institutions and NATO arrangements pool resources and decisions to manage common economic and security problems.",
+          "sources": [
+            "eu",
+            "latvia"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Nordic/EU mobility and Schengen cooperation share border governance, but the justice opt-out and national immigration administration preserve significant control.",
+          "sources": [
+            "optouts",
+            "eumigration"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Common EU commercial policy and the May 2026 provisional Mercosur agreement bind Denmark to negotiated trade rules.",
+          "sources": [
+            "mercosur",
+            "eu"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Selective transfers under the constitution and retained opt-outs support cooperation without joining a fully federal international state.",
+          "sources": [
+            "constitution",
+            "optouts"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Denmark implements UN/EU restrictive measures and assists Ukraine, accepting costs to enforce collective international rules.",
+          "sources": [
+            "upr",
+            "ukraine"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Ordinary commerce is predominantly private, while government retains strategic transport, energy and broadcast companies. Public hospitals and mixed municipal/consumer water ownership are distinct from private delivery paid for by the state.",
+      "counterEvidence": "The state owns only a minority of North Sea production and housing associations are not municipal ownership. Private care options coexist with public provision. The completed Ørsted recapitalisation and continued majority stake contradict a blanket privatisation rule.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Open private investment and a defined, limited state-company portfolio support private ownership as the norm for ordinary businesses.",
+          "sources": [
+            "investment",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipally owned water companies deliver most purchased water and Energinet is wholly state owned, alongside consumer-owned water networks.",
+          "sources": [
+            "water",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private provision is permitted and supported through free choice, but comparable private alternatives do not automatically displace public hospitals or strategic ownership.",
+          "sources": [
+            "freechoice",
+            "healthsystem",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The state owns competitive businesses including energy, aviation and gambling interests rather than reserving ownership solely for natural monopolies.",
+          "sources": [
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Regions operate the public hospital system; private practices and hospitals supplement rather than define general hospital ownership.",
+          "sources": [
+            "healthsystem"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Banedanmark manages state railway infrastructure, while state-owned transport entities maintain the public infrastructure model.",
+          "sources": [
+            "rail",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free-choice care permits private providers meeting public conditions, supporting contracting where cost and quality are suitable without requiring universal outsourcing.",
+          "sources": [
+            "freechoice"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "EIFO provides state-owned development finance alongside private banks; this is a qualified banking inference rather than a claim of a state retail-bank network.",
+          "sources": [
+            "eifo",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The January 2026 holdings and completed Ørsted capital support favour retaining important commercial stakes rather than general divestment.",
+          "sources": [
+            "companies",
+            "orsted"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The main social-rental model uses independent housing associations with public subsidy rather than public bodies owning the general rental stock.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Private security-sensitive businesses are regulated, while Energinet and other strategic firms remain state owned; regulation alone is not always preferred.",
+          "sources": [
+            "investment",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Nordsøfonden’s 20% participation leaves most interests with other producers, supporting mixed rather than generally public extraction ownership.",
+          "sources": [
+            "oil"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Waste rules permit municipal shared-service operators as well as private collection, so ordinary contracting is an option rather than a blanket preference.",
+          "sources": [
+            "waste"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Continued majority ownership and recapitalisation of Ørsted retain strategic control despite the option of selling shares.",
+          "sources": [
+            "companies",
+            "orsted"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Support for Ørsted and retained airline stakes show that financial difficulty need not trigger sale; commercial discipline still applies.",
+          "sources": [
+            "orsted",
+            "companies"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The government retains full ownership of TV 2 Danmark alongside other public-service broadcasting institutions.",
+          "sources": [
+            "companies"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Denmark favours open markets under common EU commercial rules. The Mercosur agreement began provisional application in May 2026, while EU safeguards, trade remedies and security screening qualify liberalisation.",
+      "counterEvidence": "Anti-subsidy duties address unfair competition rather than all foreign competition. Unilateral developing-country preferences are a real exception to reciprocity; agricultural safeguards and security conditions prevent treating trade openness as absolute.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The official trade strategy prioritises open markets and negotiated tariff removal, retaining remedies rather than general tariffs against competition.",
+          "sources": [
+            "trade",
+            "mercosur"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Implementation of the Mercosur trade agreement and continued liberalisation favour removing substantial barriers despite competitive adjustment.",
+          "sources": [
+            "mercosur",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Procurement rules prohibit nationality discrimination among covered suppliers, subject to security and treaty-coverage exceptions.",
+          "sources": [
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Open trade permits foreign sourcing on commercial terms, while sanctions, safety and security rules limit unrestricted country choice.",
+          "sources": [
+            "trade",
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Open supply chains coexist with specific safeguards and security restrictions; there is no blanket essential-goods import ban to maintain domestic production.",
+          "sources": [
+            "trade",
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "GSP and Everything But Arms preferences reduce import barriers for developing economies without demanding equivalent reciprocal opening.",
+          "sources": [
+            "gsp"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The open-market strategy and disciplined safeguard system do not provide a general infant-industry right to exclude imports simply to nurture domestic firms.",
+          "sources": [
+            "trade",
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Foreign investors generally operate on comparable terms, with mandatory screening in sensitive sectors.",
+          "sources": [
+            "investment",
+            "screening"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The March 2026 agricultural safeguard regulation permits protective intervention when specified import conditions harm farming, despite wider Mercosur liberalisation.",
+          "sources": [
+            "farmsafeguard",
+            "mercosur"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Trade policy expects firms to exploit open markets and compete, while remedies remain for unfair trade or serious injury.",
+          "sources": [
+            "trade",
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Denmark supports EU enforcement and defensive instruments responding to unfair restrictions, rather than automatically accepting foreign tariffs without possible countermeasures.",
+          "sources": [
+            "trade",
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "EU Article 110 prohibits heavier internal taxation on similar imported member-state products; customs duties are distinct from product taxes.",
+          "sources": [
+            "taxequality"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "EU anti-subsidy remedies available under Denmark’s trade framework permit duties against injurious subsidised imports after investigation.",
+          "sources": [
+            "defensive"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Mercosur tariff liberalisation accepts deeper supplier interdependence, with safeguards limiting unconditional dependence.",
+          "sources": [
+            "mercosur",
+            "farmsafeguard"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sensitive investments at a 10% ownership or voting threshold require approval and can be restricted for security despite promised capital inflows.",
+          "sources": [
+            "screening"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Open cross-border services and investment are part of the trade framework; ordinary foreign online provision is allowed subject to common regulatory requirements.",
+          "sources": [
+            "trade",
+            "investment"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Competition and private production decisions coexist with sector-specific public investment, regulated rents and utility prices. Wages are negotiated through collective bargaining rather than a statutory minimum wage.",
+      "counterEvidence": "The May 2026 CCS contract is an actual selective subsidy, not proof that national planners set ordinary production quantities. Monetary policy maintains the exchange-rate peg rather than directing an industrial plan. Regulated private crypto assets are not legal-tender equality.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private investment and competition rules leave ordinary product choices to businesses within general law.",
+          "sources": [
+            "investment",
+            "competition"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Competition-based markets and private entry provide no ordinary system of compulsory industry output quotas.",
+          "sources": [
+            "competition",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Competition law protects market price formation, while water and housing regulation create substantial exceptions.",
+          "sources": [
+            "competition",
+            "water",
+            "rent"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The awarded CCS contract directs investment toward a selected decarbonisation sector rather than leaving all allocation to unaided markets.",
+          "sources": [
+            "ccs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Ordinary firms enter, expand and exit through commercial decisions under the competition framework rather than a general production plan.",
+          "sources": [
+            "competition",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Water tariffs require municipal approval and allowable-cost rules, establishing direct limits on an essential service’s prices.",
+          "sources": [
+            "water"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The investment framework permits normal business establishment without a general test that the economy needs additional output; sensitive-sector screening has a different purpose.",
+          "sources": [
+            "investment",
+            "screening"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "EIFO channels public finance toward mandated priorities, while private banks retain lending discretion rather than receiving general industry credit quotas.",
+          "sources": [
+            "eifo",
+            "investment"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The open investment regime supports outward capital movement, subject to sanctions, reporting and other regulatory requirements.",
+          "sources": [
+            "investment",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Awarding public support for capture and storage in May 2026 deliberately steers investment into a chosen technology.",
+          "sources": [
+            "ccs"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "MiCA permits authorised private crypto and stablecoin activity, qualifying competition with national money rather than prohibiting private alternatives.",
+          "sources": [
+            "crypto"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Official labour guidance explicitly states that Denmark has no statutory minimum wage; collective agreements determine wage floors.",
+          "sources": [
+            "wages"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Collective bargaining between employer and worker organisations ordinarily determines pay and employment terms.",
+          "sources": [
+            "wages"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Nationalbank interest-rate instruments serve the krone’s fixed exchange-rate policy rather than an economic production plan.",
+          "sources": [
+            "money",
+            "exchange"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Cost-based and comparable-value rents constrain market pricing in substantial parts of the housing stock, although free-rent categories exist.",
+          "sources": [
+            "rent"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The general competition and investment framework decentralises ordinary production and distribution to firms despite targeted state intervention.",
+          "sources": [
+            "competition",
+            "investment"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive income taxes and broad cash, housing and family support substantially redistribute income. The 2026 food-price payment is implemented assistance; the January tax reform also reduced tax for some earners while adding a highest-income tier.",
+      "counterEvidence": "Work obligations and differentiated cash-assistance rates constrain benefits. The new coalition dropped a general wealth-tax proposal; this is not treated as an enacted tax. Environmental land purchases are not redistribution to land-poor households.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Progressive tax tiers fund a broad set of income-tested and family transfers, substantially compressing disposable-income differences.",
+          "sources": [
+            "income-tax",
+            "cash",
+            "housingbenefit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The enacted progressive tax and benefit structure treats distributional differences as a legitimate basis for transferring resources.",
+          "sources": [
+            "income-tax",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cash assistance and the paid 2026 food cheque support household income through public resources, with eligibility and work obligations limiting the extent.",
+          "sources": [
+            "cash",
+            "foodcheck"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Housing, child and cash benefits support living standards beyond one minimal subsistence payment, although rates remain differentiated.",
+          "sources": [
+            "housingbenefit",
+            "childbenefit",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The 2026 middle, top and additional top tax bands impose increasing marginal rates on higher incomes.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The 2026 reform offers tax relief to some earners but preserves progression and adds an additional top rate; retention and redistribution both matter.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Estate duties above allowances contribute to general revenue supporting transfers; the sources do not establish a dedicated inheritance-to-benefits earmark.",
+          "sources": [
+            "inheritance",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Means-tested cash assistance can continue while conditions are met rather than ending at a universal duration limit; work duties and sanctions remain.",
+          "sources": [
+            "cash"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The coalition excluded a general wealth tax from its programme; existing property-related taxes do not establish a general accumulated-wealth transfer policy.",
+          "sources": [
+            "lemonde",
+            "coalitionplans"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The maintained tax-funded transfer system and 2026 food payment prioritise income protection rather than keeping all benefits modest to lower payer taxes.",
+          "sources": [
+            "foodcheck",
+            "cash",
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Cash-assistance child supplements and housing benefits extend support beyond bare food survival, with conditionality preventing an unlimited entitlement.",
+          "sources": [
+            "cash",
+            "housingbenefit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Implemented 2026 tax changes and the food payment combine tax relief with cash support; neither is categorically preferred.",
+          "sources": [
+            "income-tax",
+            "foodcheck"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Low-paid workers can receive housing benefit and retain some earnings while receiving cash assistance, providing public income supplements.",
+          "sources": [
+            "housingbenefit",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The progressive 2026 schedule imposes higher marginal rates above successive income thresholds.",
+          "sources": [
+            "income-tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Green land conversion compensates owners for environmental changes, not for distributing large holdings to land-poor people; ordinary property protection remains.",
+          "sources": [
+            "land",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Child benefit extends well beyond households unable to meet basic needs and housing support assists a wider low-income population.",
+          "sources": [
+            "childbenefit",
+            "housingbenefit"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil institutions legislate and adjudicate without clerical veto, yet the constitution establishes and publicly supports the Evangelical Lutheran church. Education about religion is expressly non-confessional.",
+      "counterEvidence": "State-funded clergy, worship at parliamentary opening and recognised Christian holidays prevent describing complete church–state separation. Religious ceremonies can solemnise civil marriage but do not give religious courts independent family-law jurisdiction.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil legislation such as marriage and abortion rests on enacted public law despite the established church’s constitutional status.",
+          "sources": [
+            "marriageconditions",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The constitution establishes a church but assigns national legislation to civil constitutional institutions rather than making doctrine a general legal source.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Ministers and Parliament enact policy without a clerical approval requirement.",
+          "sources": [
+            "constitution",
+            "cabinet"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Section 4 expressly establishes and supports the Evangelical Lutheran church as the national church.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Education Ministry guidance explicitly describes Christianity studies as knowledge-based rather than confessional and includes other religions and worldviews.",
+          "sources": [
+            "schoolreligion"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The prohibition on preaching in public schooling contradicts faith-cultivating instruction, even though Christianity receives special curricular attention.",
+          "sources": [
+            "schoolreligion",
+            "schoolchristmas"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State courts exercise civil judicial authority; recognised religious wedding rites remain subject to the civil marriage statute.",
+          "sources": [
+            "constitution",
+            "marriageconditions"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Legislative passage has no designated religious-authority review or approval stage under the constitutional allocation of power.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Parliamentary opening includes an organised service in the palace church, showing that official occasions need not exclude worship.",
+          "sources": [
+            "opening"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "General state support pays clergy salaries and pensions, supporting religious ministry as well as heritage functions.",
+          "sources": [
+            "churchfund"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The parliamentary complex includes the palace church and its religious symbols, while ordinary civil institutions have no general duty to display a particular religious emblem.",
+          "sources": [
+            "opening",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The official holiday calendar retains major Christian festivals, although abolition of Great Prayer Day shows that recognition is not unconditional.",
+          "sources": [
+            "holidays",
+            "prayerday"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Seats in the Folketing are elective; bishops and other clerics do not gain seats solely by religious office.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualifying churches, mosques and temples are specifically exempt from property valuation because they are used for religious worship.",
+          "sources": [
+            "churchproperty"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil marriage is available through municipal authorities without religious approval.",
+          "sources": [
+            "marriage",
+            "marriageconditions"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Foreign marriages are assessed under civil recognition rules and religious solemnisation is legally authorised; this does not create independent binding religious-court family jurisdiction.",
+          "sources": [
+            "marriageconditions",
+            "marriage"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Same-sex marriage and adoption, legal gender recognition, compulsory sexuality education and the expanded abortion limit support substantial changes in social institutions. Equal-treatment rules reject occupational sex-role restrictions.",
+      "counterEvidence": "The monarchy, national church, holiday traditions and some recognition procedures preserve continuity. Legal equality is used as an institutional inference, not as proof of the private attitudes of every Danish citizen.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The changed abortion limit and legal recognition of same-sex marriage and gender identity demonstrate acceptance of substantial institutional change.",
+          "sources": [
+            "abortion",
+            "samesex",
+            "genderid"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Expanded reproductive and family rights show that longstanding practice does not generally outrank new values, while heritage institutions remain.",
+          "sources": [
+            "abortion",
+            "samesex",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Adoption eligibility recognises stable cohabiting couples regardless of sex, and marriage law recognises same-sex households.",
+          "sources": [
+            "adoption",
+            "samesex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Employment equal-treatment law rejects different job access and conditions based on sex rather than encouraging fixed male and female roles.",
+          "sources": [
+            "equalroles"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Same-sex couples have been able to marry under the same marriage-law framework since June 2012.",
+          "sources": [
+            "samesex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Cohabiting couples and same-sex partners can adopt, limiting any institutional preference for the married opposite-sex household.",
+          "sources": [
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The implemented right to abortion through 18 weeks supports acceptance of early reproductive choice.",
+          "sources": [
+            "abortion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Health and sexuality education is a compulsory subject; the curriculum is publicly specified rather than subject to a blanket parental veto over sexual values.",
+          "sources": [
+            "sexeducation"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Adoption rules expressly treat stable couples regardless of sex as eligible under the same framework.",
+          "sources": [
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Protection of gender expression and equal treatment favours personal presentation over fixed traditional sex-specific dress expectations; the face-covering ban is a distinct restriction.",
+          "sources": [
+            "antidiscrimination",
+            "facecover"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Legal gender recognition and protection of gender expression support adapting official treatment to identity, without establishing a universal mandatory pronoun rule.",
+          "sources": [
+            "genderid",
+            "antidiscrimination"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Compulsory sexuality education and changed family rights incorporate contemporary values rather than giving inherited moral customs overriding priority.",
+          "sources": [
+            "sexeducation",
+            "samesex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equal employment treatment and gender-expression protections support acceptance of adults in roles conventionally associated with another sex.",
+          "sources": [
+            "equalroles",
+            "antidiscrimination"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Reform of abortion and family institutions coexists with recognition procedures and retained constitutional traditions; the system combines change with procedural continuity.",
+          "sources": [
+            "abortion",
+            "genderid",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sexuality education is compulsory, and the official subject guidance includes gender and sexual diversity. Ministry-hosted examples explicitly address orientation and gender identity, while individual example activities are recommendations rather than statutory requirements.",
+          "sources": [
+            "sexeducation",
+            "sexframework",
+            "lgbt-teaching"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The retained monarchy, national church and official holiday calendar preserve historical continuity beyond purely practical purposes, though one holiday was abolished.",
+          "sources": [
+            "constitution",
+            "holidays",
+            "prayerday"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "AI deployment, the active Fehmarn construction project and awarded carbon-capture support demonstrate technological and infrastructure development. Medical devices, novel foods, GMO release and major projects remain subject to prior assessment.",
+      "counterEvidence": "Actual contracts and construction are distinguished from future projected outcomes. Non-medical brain-enhancement answers are moderate regulatory inferences, not claims that Denmark enacted a specific brain-implant policy. Environmental compensation permits some habitat loss but does not abolish protection.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "AI deployment and CCS investment proceed while regulatory sandboxes and safety assessments constrain higher-risk uses; early benefit alone is not sufficient in every field.",
+          "sources": [
+            "ai",
+            "ccs",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Approved devices and AI systems can move beyond trials with risk assessment and continuing surveillance, without waiting for all possible long-term effects to be resolved.",
+          "sources": [
+            "devices",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Fehmarn construction proceeds with acknowledged unavoidable environmental impacts and compensatory habitat measures.",
+          "sources": [
+            "femern",
+            "habitats"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Clinical evaluation must substantiate device safety and performance before normal marketing, with continuing follow-up rather than certainty about every long-term risk.",
+          "sources": [
+            "devices",
+            "trials"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The established AI taskforce seeks substantial release of work capacity and changed workflows; this supports conditional productivity adoption, not evidence that large layoffs have already occurred.",
+          "sources": [
+            "aitaskforce",
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The constructed Fehmarn link accepts some unavoidable habitat impacts with compensation rather than always allowing undisturbed habitat to override public infrastructure benefits.",
+          "sources": [
+            "habitats",
+            "femern"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Cultivated foods require novel-food authorisation before sale, a route permitting innovation after safety review rather than either a blanket meat-replacement priority or an environmental-uncertainty ban.",
+          "sources": [
+            "novelfood"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Clinical investigation and device risk evaluation support keeping unproven invasive enhancement in controlled settings; this is a cautious inference from the wider framework, not a dedicated implant statute.",
+          "sources": [
+            "trials",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The awarded CCS contract backs a large technological contribution to climate targets, while land conversion shows that technology is not the only instrument.",
+          "sources": [
+            "ccs",
+            "land"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Projects likely to have significant effects require environmental assessment and permission before starting, although completed assessments can support approval with residual impacts.",
+          "sources": [
+            "eia",
+            "habitats"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "A basic safety threshold alone is insufficient for high-risk invasive devices; clinical evidence and continuing risk management qualify access, including inferred enhancement uses.",
+          "sources": [
+            "devices",
+            "trials"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Diagnostic AI must satisfy medical-device safety and performance requirements before marketing; trial and clinical-evidence obligations support caution without an indefinite trial-only rule.",
+          "sources": [
+            "medicalai",
+            "devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Embryo research is limited to specified reproductive and health purposes and genetically modified embryos cannot be implanted, rejecting enhancement trials as a general permitted use.",
+          "sources": [
+            "embryos"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "GMO cultivation requires prior authorisation, environmental risk assessment and monitoring; early yield benefits do not waive ecosystem scrutiny.",
+          "sources": [
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Fehmarn and designated energy/infrastructure interests allow land development, while national nature interests and assessments preserve limits on where it takes priority.",
+          "sources": [
+            "planningland",
+            "femern",
+            "eia"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Prior environmental, GMO and clinical assessment supports delay where serious risks are unresolved, while authorisation remains possible without absolute certainty.",
+          "sources": [
+            "gmo",
+            "eia",
+            "devices"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Denmark proper is a unitary state with constitutionally recognised local government, municipal tax variation and substantial service responsibilities. National law, fiscal limits, policing and curriculum define its framework.",
+      "counterEvidence": "Greenland’s self-government and independence route are substantial exceptions to mainland centralism. Regional medicine decisions are not national-ministry decisions. The healthcare reorganisation taking effect in 2027 is recorded as future, not already operational at the cutoff.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Municipal self-government is constitutionally recognised within statutory supervision; Greenland has stronger devolved powers, while ordinary Danish regions lack federal sovereignty.",
+          "sources": [
+            "constitution",
+            "municipal",
+            "greenland"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National statutes determine ordinary regional and municipal powers, subject to judicial review and the distinct Greenland settlement.",
+          "sources": [
+            "municipal",
+            "constitution",
+            "greenland"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Greenland has a statutory route from a popular independence decision to negotiations and a final referendum, requiring both parliaments’ consent rather than unilateral secession for every region.",
+          "sources": [
+            "greenland"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National planning authorities can object to local plans conflicting with defined national interests, despite local support.",
+          "sources": [
+            "planningland"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Mainland local bodies operate under national governance law rather than separate constitutions; Greenland has discretion over its own institutional composition within the realm settlement.",
+          "sources": [
+            "municipal",
+            "greenland"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The national police authority directs central functions and coordinates police districts under a common national framework.",
+          "sources": [
+            "policeorg"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Municipal taxation finances local responsibilities, but equalisation and central grants redistribute resources; neither total local retention nor total national allocation applies.",
+          "sources": [
+            "localtax",
+            "equalisation"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National rules specify compulsory school subjects and common competence goals. Detailed skill and knowledge objectives became advisory in 2025, leaving local teaching flexibility within the national framework.",
+          "sources": [
+            "sexeducation",
+            "schoolreligion",
+            "sexframework"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal councils set differing income and property tax rates, although national limits and collective fiscal constraints apply; regions lack an equivalent general tax power.",
+          "sources": [
+            "localtax",
+            "equalisation"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National employment statutes establish legal protections, supplemented by collective bargaining rather than separate regional labour codes.",
+          "sources": [
+            "employmentlaws",
+            "wages"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Municipal governance and boundaries are regulated and supervised nationally rather than changed entirely by local voter choice.",
+          "sources": [
+            "municipal"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "National legislation frames healthcare rights, but regions operate hospitals and jointly establish the Medicines Council’s recommendations; planned 2027 changes are not yet current delivery rules.",
+          "sources": [
+            "healthsystem",
+            "medicinescouncil",
+            "healthreform"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Greenland’s elected institutions exercise transferred local responsibilities, expressly recognising the Greenlandic people’s right to self-determination.",
+          "sources": [
+            "greenland"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "National property-tax ceilings and tax-sanction arrangements constrain fiscal competition while preserving some local rate choice.",
+          "sources": [
+            "localtax",
+            "equalisation"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Municipal plans manage local land choices within national interests; the 2025 narrowing of national planning interests preserves meaningful local discretion.",
+          "sources": [
+            "planningland"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The crisis system coordinates nationally while retaining sector responsibility and local response functions; a multi-region event does not automatically erase all local authority.",
+          "sources": [
+            "disaster"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Adopted health guidance explicitly combines genetic, biological, family and social influences. Statutory early-childhood pedagogy describes how interaction develops empathy, cooperation and emotional regulation; official ADHD guidance gives heredity a substantial role.",
+      "counterEvidence": "These are institutional explanatory frameworks, not scientific conclusions derived from welfare spending or the private views of Danish researchers. Religion and social liberalism provide no causation evidence. National IQ differences, immediate moral intuitions and comparative physical-attraction preferences remain unsupported; they are null, not Neutral. Completion note: previously unresolved question-level comparisons are now provisional educated assumptions, not documented adopted positions; see each explicit rationale and the preserved starting draft.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Health Authority’s 2025 recommendations explicitly describe interacting genetic, biological, family and social causes of development, supporting a mixed model rather than one universally dominant cause.",
+          "sources": [
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The child-development and pedagogical frameworks emphasise environments and opportunities. Moderate disagreement is the likelier extrapolation for cross-national test differences, not a documented Danish national-IQ ranking; individual development cannot settle group causation.",
+          "sources": [
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The Ministry’s sexuality-education guidance explains gender norms and expectations through social and historical contexts and their influence on conduct. This supports a moderate social-causal inference for sex-role behaviour, not a quantified claim that biology has no influence on every male–female difference.",
+          "sources": [
+            "sexframework"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public clinical guidance combines inherited vulnerability and personality with stressful experiences and upbringing in explaining anxiety susceptibility; this supports conditional causation rather than biological dominance.",
+          "sources": [
+            "panic",
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "The Health Authority explicitly links new interests to adolescent brain development and changing external expectations, while statutory pedagogy links exploration to experience. Together these support an interactionist inference rather than a universal environmental majority.",
+          "sources": [
+            "teenbrain",
+            "pedagogy"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Health Authority guidance links risk-taking to adolescent brain maturation and alcohol effects, while explaining experimentation through adult relationships and social context. This supports a conditional biological–social model; maturation is not treated as proof of inherited differences between individuals.",
+          "sources": [
+            "riskbrain",
+            "druginfluences"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The statutory pedagogy framework expressly explains cooperation through play, negotiation, compromise and relationships, supporting a moderate social-learning emphasis.",
+          "sources": [
+            "pedagogy"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Pedagogy explains empathy through relationships, while Health Authority guidance links empathic capacity to frontal-lobe development; the documented framework is mixed rather than predominantly inherited.",
+          "sources": [
+            "pedagogy",
+            "teenbrain"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Official ADHD guidance identifies substantial inheritance, while pedagogy and clinical guidance describe environmental effects on attention and symptom severity; a mixed answer avoids generalising one disorder to all attention differences.",
+          "sources": [
+            "adhd",
+            "pedagogy"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pedagogical objectives cultivate social understanding and learned values. Moderate disagreement is the likelier extension to immediate moral reactions, but the source addresses education rather than a measured biology-versus-culture comparison.",
+          "sources": [
+            "pedagogy",
+            "sexframework"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Public guidance explicitly explains phobias through vulnerability, temperament, experience, learning and stress, supporting an interaction rather than a single dominant cause.",
+          "sources": [
+            "phobia"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2025 Health Authority guidance explicitly lists temperament as an innate factor, while requiring assessment of its interaction with family experience; this supports moderate biological emphasis, not genetic determinism.",
+          "sources": [
+            "development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health guidance explains changing body ideals through social and media pressures. Moderate agreement is the likelier extension to attractiveness preferences; self-image and attraction are distinct and the relative inherited contribution remains unmeasured.",
+          "sources": [
+            "bodyideals",
+            "sexframework"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Official crime-prevention guidance explains risk through family, school, peers and individual vulnerabilities, and national origin statistics examine social circumstances. This supports a moderate inference against racial biological primacy without claiming social controls explain all group differences.",
+          "sources": [
+            "crimemodel",
+            "origincrime"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Statutory pedagogy explains learning to handle emotions and conflicts, and health guidance describes developing executive control; neither uses inherited racial tendencies to explain self-control.",
+          "sources": [
+            "pedagogy",
+            "braincontrol"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Statistics Denmark interprets pay differences through work, experience, education and family patterns, while equal-treatment law rejects sex-based valuation of equivalent work. These support a structural inference, not a claim that all observed differences are discrimination.",
+          "sources": [
+            "paygap",
+            "equalroles"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex (GPT-6), primary agent /root; separate completion review following retained earlier assessment review",
+    "reviewedAt": "2026-10-05",
+    "notes": "Read all 240 exact bank statements, all individual rationales and 15 briefs/counter-evidence in a distinct second pass. Checked legal exceptions, causal wording, implemented-versus-proposed status, incumbent and territorial scope. Corrected movement-retention direction using five-year PNR records and short ANPG no-hit periods; verified that the 2026 PNR bill lapsed. Changed the warrant answer to conditional because exceptions exceed immediate safety. Replaced service-translation inference with actual migrant-language public-health posters; kept historical German-minority rights distinct from migrant policy. Corrected the sex-role causation rationale to the actual Ministry guidance, distinguished optional teaching examples and advisory 2025 objectives from compulsory subjects, moderated espionage inference, and repaired source IDs/dates and a broken teaching PDF. Causation Neutral answers use adopted interactionist explanations rather than absence of evidence; interests and attention remain qualified extrapolations, and brain maturation is not labelled heritability. The three genuine evidence gaps are culture-nature-02 (comparative national IQ), -10 (immediate moral intuitions), and -13 (relative causes of physical-attraction preferences). Searches of adopted education/health guidance located adjacent concepts but no defensible comparison for these three, which remain null. This draft is not publication-ready. Independent parent review, complete-answer similarity assessment, archive, generation and browser verification remain pending; no scores were targeted and no neighbouring answers copied. Focused continuation on 2026-10-05 by primary OpenAI Codex agent /root: Reread statutory pedagogical objectives (2018:968, personal/social-development provisions) and the Health Authority body-ideals page. Searched Health Authority and education material for national IQ, innate morality and biological/cultural attraction. Learned empathy does not rank causes of immediate moral intuitions. Body dissatisfaction and social pressure are not the relative causes of attraction preferences. No adopted ranking of national IQ causes was located. All 3 exact question-level gaps remain null/unknown. Existing supported answers, period and cutoff are preserved. This was a focused same-agent research and separate challenge pass, not a complete independent re-review or publication sign-off. Separate completion pass on 2026-10-05: checked the 3 new educated assumptions against exact question wording, agreement direction, contextual sources and prior withdrawal reasons. These are most-likely provisional estimates, not adopted national causal theories. The distinction between individual and national/racial heredity, immediate intuition and deliberate instruction, and interventions and causal predominance is retained. Assumption IDs: culture-nature-02, culture-nature-10, culture-nature-13. Reviewed neutral-heavy axis rationales: explicit mixed institutions, competing implemented rules and interaction models justify retained neutral choices; uncertainty alone was not used as the neutral rationale. Earlier whole-assessment review is preserved; this continuation does not claim a fresh independent 240-source reread or a human review. Similarity and browser checks are recorded separately after integration.",
+    "similarity": []
+  }
+}

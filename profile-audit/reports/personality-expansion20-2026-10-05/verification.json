@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-05",
+  "npmCi": "passed; 50 packages installed, 0 reported vulnerabilities",
+  "questionsCheck": "passed; current 240-question bank",
+  "profileValidation": {
+    "profiles": 20,
+    "errors": 0,
+    "warnings": [
+      {
+        "id": "justin-trudeau",
+        "revision": 1,
+        "warnings": [
+          "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "review": "profile-audit/reports/personality-expansion20-2026-10-05/justin-trudeau-review.md"
+      },
+      {
+        "id": "mikhail-gorbachev",
+        "revision": 2,
+        "warnings": [
+          "democracy-autocracy: 6/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "review": "profile-audit/reports/personality-expansion20-2026-10-05/mikhail-gorbachev-review.md"
+      },
+      {
+        "id": "mikhail-bakunin",
+        "revision": 1,
+        "warnings": [
+          "public-private: 8/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "review": "profile-audit/reports/personality-expansion20-2026-10-05/mikhail-bakunin-review.md"
+      },
+      {
+        "id": "recep-tayyip-erdogan",
+        "revision": 1,
+        "warnings": [
+          "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+        ],
+        "review": "profile-audit/reports/personality-expansion20-2026-10-05/recep-tayyip-erdogan-review.md"
+      }
+    ]
+  },
+  "catalogue": "169 profiles generated and checked at final generation; 80 personalities; all 20 additions present",
+  "unitTests": {
+    "passed": 85,
+    "failed": 0,
+    "log": "profile-audit/reports/personality-expansion20-2026-10-05/unit-tests-final.log"
+  },
+  "productionBuild": {
+    "status": "passed",
+    "log": "profile-audit/reports/personality-expansion20-2026-10-05/build-verified.log"
+  },
+  "focusedBrowserChecks": {
+    "profileFlows": 40,
+    "widths": [
+      1440,
+      390
+    ],
+    "credits": 20,
+    "keyboardDownloadByteIdentical": true,
+    "visualScreenshotsInspected": [
+      "output/playwright/personalities20-washington-desktop.png",
+      "output/playwright/personalities20-khomeini-mobile.png"
+    ]
+  },
+  "fullBrowserSuite": {
+    "passed": 164,
+    "failed": 7,
+    "log": "profile-audit/reports/personality-expansion20-2026-10-05/e2e-verified.log",
+    "failureExplanation": "Six existing home-strip assertions expect leaning labels that differ from current catalogue/metadata behaviour (two assertions on three browsers). One desktop save-retry assertion uses an unscoped status locator that also matches the ideology-comparison loading status. Profile-specific search/detail/portrait/axes/notice/download checks passed. The new long Commons credit filename overflow was corrected and all three platform-width tests passed on this rerun."
+  },
+  "history": {
+    "startingSnapshot": {
+      "checked": 365,
+      "unchanged": 365,
+      "changed": []
+    },
+    "headCheck": "failed",
+    "headModifiedOldArchives": 24,
+    "explanation": "HEAD comparison includes 24 pre-existing modified ideology archives. All 365 archive and image files present at the start of this request remain byte-identical to the starting snapshot. No pre-existing archive or image was edited by this batch."
+  },
+  "diffWhitespaceCheck": "passed",
+  "assessmentLimits": "All 240 responses for every profile are inferred educated assumptions; not documented questionnaire answers. Each has contextual citations and uncertainty. Separate same-agent review completed; no independent human review claimed."
+}

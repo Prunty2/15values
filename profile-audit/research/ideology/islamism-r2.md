@@ -1,4 +1,4 @@
-# Islamism (Iranian Khomeinist tradition): revision 2 research dossier
+# Islamism: revision 2 research dossier
 
 Research resumed 2026-10-04. Incomplete research draft; no archive or percentage publication authorised by this dossier.
 

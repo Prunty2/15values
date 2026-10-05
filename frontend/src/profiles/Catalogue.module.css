@@ -1,6 +1,6 @@
 .intro { margin-bottom: 40px; }
 .intro h1, .detailHeader h1 { font-size: clamp(32px, 4vw, 56px); letter-spacing: -1.5px; line-height: 1.1; margin-block: 12px 20px; }
-.intro p, .card p, .note, .detailHeader p { color: var(--muted); }
+.intro p, .card p, .detailHeader p { color: var(--muted); }
 .search { display: grid; gap: 10px; max-width: 480px; margin-bottom: 20px; font-weight: 600; }
 .search input { font: inherit; width: 100%; padding: 14px; background: var(--surface); border: 1px solid var(--line); border-radius: 8px; }
 .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px; margin-top: 24px; }
@@ -9,9 +9,10 @@
 .card h2 { margin-block: 10px; font-size: 26px; }
 .card a { text-decoration: underline; text-underline-offset: 4px; }
 .detailHeader { display: flex; align-items: center; gap: 32px; margin-block: 32px; }
-.detailHeader > div { min-width: 0; }
+.detailHeader > div { min-width: 0; width: 100%; container-type: inline-size; }
+.detailHeader h1 { white-space: nowrap; }
 .portrait { width: 160px; height: 190px; object-fit: contain; border-radius: 12px; }
-.scope, .note { max-width: 900px; margin-block: 20px; }
+.scope { max-width: 900px; margin-block: 20px; }
 .phrase { font-size: 24px; line-height: 1.5; border-left: 3px solid var(--line); padding-left: 24px; margin-block: 32px; }
 .evidence { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 28px; overflow-wrap: anywhere; }
 .evidence p, .evidence ul, .evidence details { margin-block: 16px; }
@@ -31,18 +32,54 @@
 .groupHeading { display: flex; align-items: center; gap: 14px; padding-bottom: 18px; border-bottom: 1px solid var(--line); margin-bottom: 26px; }
 .groupHeading h2 { font-size: clamp(24px, 3vw, 32px); letter-spacing: -.8px; margin: 0; }
 .groupHeading > span { color: var(--muted); font-size: 14px; border: 1px solid var(--line); padding: 3px 10px; border-radius: 30px; }
-.personalityGrid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
-.personalityCard { min-width: 0; background: var(--surface); border-radius: 18px; box-shadow: 0 5px 10px rgb(29 48 38 / 5%), 0 18px 35px -16px rgb(29 48 38 / 22%); transition: transform .2s ease, box-shadow .2s ease; }
-.personalityLink { display: block; height: 100%; border-radius: inherit; color: inherit; text-decoration: none; overflow: hidden; }
-.personalityLink:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
-.personalityImage { height: 280px; padding: 20px 20px 0; display: flex; justify-content: center; background: color-mix(in srgb, var(--surface) 78%, var(--line)); }
-.personalityImage img { display: block; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; }
-.personalityCopy { padding: 24px 26px 28px; }
-.personalityCopy h3 { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; margin: 0 0 12px; font-size: 25px; line-height: 1.2; letter-spacing: -.7px; }
-.personalityCopy h3 span { color: var(--muted); font-size: 22px; font-weight: 400; }
-.personalityCopy p { margin: 0; font-size: 15px; line-height: 1.65; color: var(--muted); }
-.personalityCopy p + p { margin-top: 14px; font-weight: 600; }
-@media (hover: hover) { .personalityCard:hover { transform: translateY(-5px); box-shadow: 0 8px 14px rgb(29 48 38 / 7%), 0 26px 45px -16px rgb(29 48 38 / 28%); } }
-@media (max-width: 1000px) { .personalityGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; } }
-@media (max-width: 600px) { .personalityGrid { grid-template-columns: minmax(0, 1fr); gap: 28px; } .personalityImage { height: 300px; } .personalityCopy { padding: 22px 24px 26px; } .personalityGroups { gap: 44px; } }
-@media (prefers-reduced-motion: reduce) { .personalityCard { transition: none; } .personalityCard:hover { transform: none; } }
+.profileGrid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; margin-top: 24px; }
+.profileCard { min-width: 0; border-radius: 12px; background: var(--paper); overflow: hidden; box-shadow: 0 3px 8px rgb(25 59 45 / 5%), 0 12px 28px -8px rgb(25 59 45 / 14%); }
+.profileLink { display: flex; flex-direction: column; height: 100%; color: inherit; text-decoration: none; }
+.profileLink:focus-visible { outline-offset: -4px; border-radius: 12px; }
+.profileBody { display: grid; grid-template-columns: 136px minmax(0, 1fr); gap: 24px; padding: 22px; flex: 1; }
+.profileImage { align-self: start; height: 180px; background: var(--sage); border-radius: 6px 6px 36px 6px; overflow: hidden; display: grid; place-items: center; }
+.profileImage img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
+.imageFallback { font-size: 38px; font-weight: 600; color: var(--accent); }
+.profileCopy { min-width: 0; overflow-wrap: anywhere; }
+.profileCategory { color: var(--muted); font-size: 12px; line-height: 1.5; margin-bottom: 8px; }
+.profileCopy h3 { font-size: clamp(23px, 2.2vw, 30px); line-height: 1.12; letter-spacing: -.8px; }
+.profileLifespan { color: var(--muted); font-size: 12px; margin-top: 7px; }
+.profileDescription { font-size: 14px; line-height: 1.65; color: var(--muted); margin-top: 14px; }
+.withdrawal { font-size: 12px; font-weight: 600; margin-top: 14px; }
+.profileFooter { display: flex; justify-content: space-between; align-items: center; gap: 16px; border-top: 1px solid var(--line); padding: 14px 22px; font-size: 12px; line-height: 1.5; color: var(--muted); }
+.profileFooter > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+.profileAction { display: inline-flex; align-items: center; gap: 8px; flex-shrink: 0; font-weight: 600; color: var(--accent); }
+.countryCard .profileImage { height: 136px; border-radius: 6px; padding: 16px; }
+.countryCard .profileImage img { object-fit: contain; object-position: center; }
+@media (hover: hover) { .profileCard:has(.profileLink:hover) { box-shadow: 0 4px 10px rgb(25 59 45 / 7%), 0 16px 32px -8px rgb(25 59 45 / 18%); } .profileLink:hover .profileAction { text-decoration: underline; text-underline-offset: 4px; } }
+@media (max-width: 1000px) { .profileBody { grid-template-columns: 110px minmax(0, 1fr); gap: 18px; padding: 18px; } .profileImage { height: 150px; } .profileFooter { padding-inline: 18px; } }
+@media (max-width: 760px) { .profileGrid { grid-template-columns: minmax(0, 1fr); } .personalityGroups { gap: 44px; } }
+@media (max-width: 380px) { .profileBody { grid-template-columns: 82px minmax(0, 1fr); gap: 14px; padding: 16px; } .profileImage { height: 120px; } .countryCard .profileImage { height: 90px; padding: 10px; } .profileFooter { padding-inline: 16px; gap: 12px; } .profileCopy h3 { font-size: 23px; } }
+.profileTags { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; list-style: none; margin: 0; padding: 0; }
+.profileTags li { border-radius: 22px; padding: 7px 14px; color: #fff; background: var(--tag-color); font-size: 12px; font-weight: 650; line-height: 1.3; }
+@media (max-width: 600px) { .profileFooter { align-items: flex-start; } .profileAction { padding-top: 4px; } }
+.visuallyHidden { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.browseToolbar { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 24px; }
+.browseToolbar .search { display: block; flex: 1 1 260px; max-width: none; margin: 0; }
+.browseToolbar .search input { height: 46px; padding: 12px 18px; background: var(--paper); border-radius: 24px; font-size: 14px; }
+.filterToolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.filterLabel { display: block; min-width: 0; }
+.filterLabel select { height: 46px; max-width: 220px; font: inherit; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--surface); border: 0; border-radius: 24px; padding: 0 32px 0 16px; cursor: pointer; }
+.clearFilters { background: var(--forest); color: var(--on-accent); border: 0; border-radius: 24px; font-size: 13px; height: 46px; padding: 0 18px; }
+@media (max-width: 700px) { .browseToolbar .search { flex-basis: 100%; } .filterToolbar { width: 100%; } .filterLabel { flex: 1 1 140px; } .filterLabel select { width: 100%; max-width: none; } }
+.countryCard .profileBody { grid-template-columns: minmax(0, 1fr); grid-template-rows: 120px 1fr; align-content: start; gap: 0; padding: 0; }
+.countryCard .profileImage { width: 100%; height: 120px; min-height: 0; padding: 8px; border-radius: 0; background: var(--paper); }
+.countryCard .profileImage img { width: 100%; height: 100%; min-height: 0; object-fit: contain; object-position: center; }
+.countryGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
+.countryCard .profileCopy { align-self: start; padding: 14px 16px 16px; }
+.countryCard .profileCategory { font-size: 11px; margin-bottom: 6px; }
+.countryCard .profileCopy h3 { font-size: 22px; }
+.countryCard .profileDescription { font-size: 12px; line-height: 1.55; margin-top: 8px; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; }
+.countryCard .profileFooter { padding: 10px 14px; gap: 8px; font-size: 11px; }
+.countryCard .profileTags li { padding: 5px 9px; font-size: 10px; }
+@media (max-width: 1150px) { .countryGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 850px) { .countryGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .countryGrid { grid-template-columns: minmax(0, 1fr); } }
+.profileTags .flagTag { display: flex; align-items: center; justify-content: center; padding: 4px 10px; font-size: 19px; line-height: 1; }
+
+.profileCard:not(.countryCard) { border-top: 4px solid var(--profile-color, #59676d); }

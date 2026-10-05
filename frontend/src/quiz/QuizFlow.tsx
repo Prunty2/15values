@@ -1,11 +1,13 @@
 import { navigate } from '../navigation';
 import { useEffect, useRef, useState } from 'react';
-import type { ReactNode } from 'react';
+import type { CSSProperties, ReactNode } from 'react';
 import { answerOptions, axes, AXES_VERSION, formats, getFormat, isQuizLength, QUESTION_BANK_VERSION, SCORING_VERSION, scoreAnswers, selectQuestions, topics } from './model';
 import type { Answer, Answers, QuizLength, QuizResult } from './model';
 import { clearHistory, downloadResults, mergeHistory, parseHistory, readHistory, writeHistory } from './history';
 import type { HistoryState } from './history';
-import { ProfileOverview, ResultAxes } from './ResultProfile';
+import ResultComparison from './ResultComparison';
+import type { Profile } from '../profiles/types';
+import { ProfileOverview, ResultAxes, resultColour, useResultCatalogue } from './ResultProfile';
 import { EmptyHistory, ResultHistory } from './ResultHistory';
 import a from '../App.module.css';
 import s from './QuizFlow.module.css';
@@ -113,6 +115,10 @@ function Results({ currentResult, resultId, saveError, onView, canReview, onRevi
   const importInput = useRef<HTMLInputElement>(null);
   const resultHeading = useRef<HTMLHeadingElement>(null);
   const result = resultId ? history.results.find(item => item.id === resultId) ?? (currentResult?.id === resultId ? currentResult : null) : null;
+  const catalogue = useResultCatalogue(Boolean(result));
+  const [compared, setCompared] = useState<Profile[]>([]);
+  useEffect(() => setCompared([]), [result?.id]);
+  const colour = result ? resultColour(result, catalogue.profiles) : undefined;
   const saved = result !== null && history.results.some(item => item.id === result.id);
   useEffect(() => { resultHeading.current?.focus({ preventScroll: true }); }, [result?.id]);
   useEffect(() => {
@@ -155,16 +161,16 @@ function Results({ currentResult, resultId, saveError, onView, canReview, onRevi
       setMessage(error instanceof SyntaxError ? 'This file is not valid JSON. No saved results have been changed.' : error instanceof Error ? error.message : 'The file could not be imported.');
     } finally { if (importInput.current) importInput.current.value = ''; }
   };
-  return <div className={s.resultsPage}>
+  return <div className={s.resultsPage} style={colour ? { '--result-color': colour, '--accent': colour, '--accent-hover': `color-mix(in srgb, ${colour} 85%, black)`, '--forest': colour, '--sage': `color-mix(in srgb, ${colour} 15%, var(--paper))` } as CSSProperties : undefined}>
     <div className={s.resultsIntro}><div><h1 ref={resultHeading} tabIndex={-1}>{result ? 'Your perspective profile.' : 'Saved results.'}</h1><p>{result ? `Analysis based on your responses to ${getFormat(result.length).questions} questions based on 15 dimensions of political ideology.` : 'Your political perspectives, ready to revisit.'}</p></div>{!result && history.results.length ? <a className={s.secondary} href="#/quiz">Take a new quiz <Arrow /></a> : null}</div>
     {result ? <>
       <button className={s.backToHistory} onClick={() => onView(null)}><Arrow back /> All saved results</button>
-      <ProfileOverview />
+      <ProfileOverview result={result} state={catalogue} />
       <div className={s.resultToolbar}><div className={s.resultMeta}><span>{getFormat(result.length).name} quiz</span><span>{getFormat(result.length).questions} questions</span><time dateTime={result.completedAt}>{new Date(result.completedAt).toLocaleDateString(undefined, { day: 'numeric', month: 'long', year: 'numeric' })}</time></div><div className={s.resultActions}><button className={s.primary} disabled={saved || Boolean(history.error)} onClick={save}>{saved ? 'Saved in this browser' : 'Save in this browser'}</button><button className={s.secondary} onClick={() => downloadResults([result], '15-values-result.json')}>Export result</button>{canReview ? <button className={s.textButton} onClick={onReview}>Review answers</button> : null}<a className={s.textButton} href="#/quiz">Take a new quiz <Arrow /></a></div></div>
       <div className={s.readingNote}><span aria-hidden="true">↔</span><p>Percentages show your position between two poles. A 50/50 score can come from neutral answers or a mix of opposing views. It is not a confidence rating.</p></div>
     </> : null}
     <p className={s.status} role="status">{message}</p>{history.error ? <p className={s.storageError} role="alert">{history.error}</p> : null}
-    {result ? <><ResultAxes result={result} /><details className={s.method}><summary>How these scores are calculated <span aria-hidden="true">+</span></summary><p>{result.scoringVersion === '1.0.0' ? 'This saved result uses the original scoring method: every question has equal weight. Shorter formats can tilt towards the pole with more agreement statements. Its original scores have been preserved.' : 'Questions supporting agreement with each pole form two groups. We average responses within each group, reverse the direction of the opposing group, then give each group half the score. This prevents the extra statement in an odd-length set from creating a tilt through blanket agreement. Questions have equal weight within their group; each question in the smaller group has more influence.'} Strongly agree, agree, neutral, disagree and strongly disagree correspond to 100, 75, 50, 25 and 0 toward the pole supported by the statement. Each answer affects only its own axis.</p><p>The two displayed percentages add to 100. The chart rounds to whole percentages; open an axis’s question mark for the stored scores and response counts. Balanced means within 10 points of the midpoint, Leaning means more than 10 but less than 25 points, and Strong means at least 25 points. These describe distance, not confidence. Neutral is a midpoint response, not a skipped question. Short results still have limited resolution because each axis uses just three responses. More questions give broader coverage, but do not guarantee accuracy. This development question bank still includes draft wording and has not been empirically validated. A score describes responses to these statements, not a diagnosis or a probability.</p><p>Question bank {result.questionBankVersion} · Scoring {result.scoringVersion} · Axes {result.axesVersion}</p></details></> : null}
+    {result ? <><ResultAxes result={result} comparisons={compared} onRemove={profile => setCompared(items => items.filter(item => item.id !== profile.id || item.catalogue !== profile.catalogue))} picker={<ResultComparison result={result} profiles={catalogue.profiles} error={catalogue.error} onRetry={catalogue.retry} onSelect={profile => setCompared(items => items.some(item => item.id === profile.id && item.catalogue === profile.catalogue) ? items : [...items, profile])} />} /><details className={s.method}><summary>How these scores are calculated <span aria-hidden="true">+</span></summary><p>{result.scoringVersion === '1.0.0' ? 'This saved result uses the original scoring method: every question has equal weight. Shorter formats can tilt towards the pole with more agreement statements. Its original scores have been preserved.' : 'Questions supporting agreement with each pole form two groups. We average responses within each group, reverse the direction of the opposing group, then give each group half the score. This prevents the extra statement in an odd-length set from creating a tilt through blanket agreement. Questions have equal weight within their group; each question in the smaller group has more influence.'} Strongly agree, agree, neutral, disagree and strongly disagree correspond to 100, 75, 50, 25 and 0 toward the pole supported by the statement. Each answer affects only its own axis.</p><p>The two displayed percentages add to 100. The chart rounds to whole percentages; open an axis’s question mark for the stored scores and response counts. Labels use the displayed whole-percent deviation from the midpoint: Balanced at 0–5 points, Leaning towards a pole at 6–15 points, the pole name alone at 16–25 points, and Strongly towards a pole at 26–50 points. These describe distance, not confidence. Neutral is a midpoint response, not a skipped question. Short results still have limited resolution because each axis uses just three responses. More questions give broader coverage, but do not guarantee accuracy. This development question bank still includes draft wording and has not been empirically validated. A score describes responses to these statements, not a diagnosis or a probability.</p><p>Question bank {result.questionBankVersion} · Scoring {result.scoringVersion} · Axes {result.axesVersion}</p></details></> : null}
     <section className={s.history} aria-labelledby="history-title">
       <div className={s.historyHeading}><h2 id="history-title">Saved in this browser</h2><span className={s.historyCount}>{history.results.length} {history.results.length === 1 ? 'result' : 'results'}</span></div>
       {resultId && !result ? <p className={s.storageError} role="alert">This result is no longer saved in this browser.</p> : null}

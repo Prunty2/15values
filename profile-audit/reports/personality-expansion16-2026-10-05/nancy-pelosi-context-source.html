@@ -1,0 +1,3029 @@
+<!DOCTYPE HTML>
+
+
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+<title>Democrats agree to North America trade pact: What&#39;s in it?</title>
+
+<meta charset="utf-8"/>
+<meta http-equiv="x-ua-compatible" content="ie=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<meta name="tp:preferredRuntimes" content="HTML5,Flash"/>
+<meta name="tp:PreferredFormats" content="MPEG4"/>
+<meta name="x-client-id" content="ny1.com"/>
+
+
+
+
+<!--Preconnect and DNS-Prefetch to improve page load time.-->
+<link rel="preconnect" href="//roadrunner.tt.omtrdc.net"/>
+<link rel="preconnect" href="//metrics.timewarnercable.com"/>
+
+<link rel="dns-prefetch" href="//roadrunner.tt.omtrdc.net"/>
+<link rel="dns-prefetch" href="//metrics.timewarnercable.com"/>
+
+
+<!--/Preconnect and DNS-Prefetch-->
+<!--Data Layer to enable rich data collection and targeting-->
+<script type="text/javascript">
+
+    var template = "";
+    var pageType, region, parentRegion, vodAuth = "", articleStorage = "";
+
+    switch (template) {
+        case '/apps/news/templates/article':
+            template = 'Article Template';
+            pageType = 'Article';
+            articleStorage = 'live'
+            break;
+        case '/apps/news/templates/full-width-page':
+            template = 'Standard Full Width Template';
+            pageType = 'Home';
+            break;
+        case '/apps/news/templates/event':
+            template = 'Calendar Event Template';
+            pageType = 'Event';
+        case '/apps/news/templates/archive':
+            template = 'Archive Article Template';
+            pageType = 'Archive';
+            articleStorage = 'archived';
+        default:
+            template = 'Standard Full Width Template';
+            pageType = 'Home';
+    }
+
+    // Initialize variables to store page region and title values
+    let pageRegionValue, pageTitleValue = '';
+    // Define the page name 
+    let pageNameValue = "200";
+    // Check if the page name includes 'splash'
+    if (pageNameValue === 'splash') {
+        // Set page region to 'All Regions' and page title to 'Spectrum News Market Map' for splash pages
+        pageRegionValue = 'All Regions';
+        pageTitleValue = 'Spectrum News Market Map';
+    } else {
+        //set page region and title for non-splash pages
+        pageRegionValue = "All Regions";
+        pageTitleValue = "200 \u002D Archive Result";
+    }
+
+    window.digitalData = window.digitalData || {
+        event: {
+            eventName: "pageView",
+            adobeEventName: ''
+
+        },
+        user: {
+            isAuthenticated: localStorage.getItem('authenticatedV2') && localStorage.getItem('authenticatedV2') === 'true'  ? 'Yes' : 'No',
+            isAuthorized: localStorage.getItem('authenticatedV2') && localStorage.getItem('authenticatedV2') === 'true' ? 'true' : 'false',
+            mvpd: "",
+            hhid: "",
+            legacyMVPD: ""
+        },
+        page: {
+            adsOnPage: "",
+            appID: "AEM 6.4", // hardcoded
+            domain: window.location.hostname,
+            flow: "",
+            // Determine page language based on 'spectrumnoticias' domain and HTML lang attribute
+            language: window.location.host.includes('spectrumnoticias') ? 'es' : document.getElementsByTagName('html')[0].getAttribute('lang'),
+            pageID: "\/content\/news\/200",
+            pageName: pageNameValue,
+            pageRegion: pageRegionValue,
+            pageRegionParent: "",
+            pageTemplate: template,
+            pageTitle: pageTitleValue,
+            pageFunction: pageType,
+            platformName: "web", // hardcoded
+            previousLink: "",
+            siteSection: "",
+            siteSubsection: "",
+            sourceMarketTag: "",
+            tags: "",
+            url: window.location.href,
+            uxStyle: "empire",
+            contentAccessLevel: "",
+            mktgCampaignShown: "no",
+            mktgCampaignName: ""
+        },
+        content: {
+            Article: {
+                articleGUID: "",
+                articleHeadline: "",
+                articleTitle: "",
+                author: "",
+                publicationDate: "0",
+                articleViewedAge: "",
+                canonicalRegion: "",
+                articleSource: "",
+                articleStorage: articleStorage,
+                liveToggleOn:""
+            },
+            Page: {
+                pageContentNetwork: "",
+                pageContentShow: ""
+            },
+            Video: {
+                epgsDescription: "",
+                epgsTitle: "",
+                tmsProgramId: "",
+                tmsSeriesId: "",
+                videoBrand: "",
+                videoNetwork: "",
+                programType: ""
+            }
+        },
+        visit: {
+            visitId: "",
+            ab: "",
+            behindModem: "",
+            homeFlag: ""
+        },
+        errors: {
+            cmRuleName: "",
+            cmDisplayText: "",
+            errorType: "",
+            errorDescription: ""
+        },
+        search: {
+            searchNumResults: "",
+            searchResultsPages: "",
+            searchType: "",
+            searchKeyword: ""
+        },
+        siteTool: {
+            shareMethod: ""
+        }
+
+    }
+
+      window.addEventListener('userStatus', function (event) {
+        if (event.detail.usrAuth ) {
+            window.digitalData.user.isAuthorized = 'true';
+            window.digitalData.user.isAuthenticated = 'Yes';
+        }else{
+            window.digitalData.user.isAuthorized = 'false';
+             window.digitalData.user.isAuthenticated = 'No';
+        }
+    });
+
+    window.addEventListener("userInteraction", function (event) {
+        if (event.detail.action === "loginSuccess") {
+            window.digitalData.user.hhid = event.detail.hhid;
+            window.digitalData.user.mvpd = event.detail.mvpd;
+            window.digitalData.user.legacyMVPD = event.detail.legacyMVPD;
+            window.analyticsDataLayer.hhid = event.detail.hhid;
+            let autoAuth = localStorage.getItem("autoAuth");
+            if (autoAuth && autoAuth === 'true') {
+                News.App.QuantumAnalytics.autoLoginSuccess(event.detail.hhid, event.detail.mvpd);
+            } else {
+                News.App.QuantumAnalytics.firesQuantumLoginStopSuccess(event.detail.hhid, event.detail.mvpd);
+            }
+        }
+    });
+
+    function updateDigitalData(newCampaignElements){
+        window.digitalData.page.mktgCampaignShown = 'yes';
+        newCampaignElements.forEach(newElement => {
+            let newCampaignName;
+            let newCampaignContent = newElement.querySelector('.campaign__content');
+            if (newCampaignContent) newCampaignName = newCampaignContent.dataset.campaignName; 
+            if (newCampaignName && window.digitalData.page.mktgCampaignName) {
+                window.digitalData.page.mktgCampaignName = window.digitalData.page.mktgCampaignName + "," + newCampaignName;
+            } else if (newCampaignName) {
+                window.digitalData.page.mktgCampaignName = newCampaignName;
+            }
+        })
+    }
+
+    function findNewMatchingElements(nodes) {
+        const matches = [];
+        nodes.forEach(node => {
+            if (!(node instanceof Element)) return;
+            if (node.classList.contains('campaign--container')) {
+                matches.push(node);
+            }
+            // check descendants
+            const descendant = node.querySelector('.campaign--container');
+            if (descendant && descendant.length) matches.push(descendant);
+        })
+        return matches;
+    }
+
+    const campaignObserver = new MutationObserver((mutationsList) => {
+        for (const mutation of mutationsList) {
+            if (mutation.type === 'childList' && mutation.addedNodes.length) {
+                const newCampaignElements = findNewMatchingElements(Array.from(mutation.addedNodes));
+                if (newCampaignElements.length) updateDigitalData(newCampaignElements);
+            }
+        }
+    })
+
+    campaignObserver.observe(document.documentElement || document.body, {
+        childList: true,
+        subtree: true,
+    });
+
+    // Initial handler in case some campaign elements already exist in DOM
+    findNewMatchingElements(Array.from(document.querySelectorAll('.campaign--container')));
+    
+    document.addEventListener("DOMContentLoaded", () => {
+        digitalData.event.adobeEventName = document.getElementById('analyticsDataLayer').getAttribute('data-content-type') === 'article' ? "pageview, contentView, articleView" : '';
+        campaignObserver.disconnect();
+    });
+
+    /**
+     * workaround to get the hhid that is coming in late
+     * NEWS-1055
+     **/
+    var _interval = setInterval(fetchLateHHID, 3000);
+
+    function fetchLateHHID() {
+        try {
+            const authState = News.App.Pinxt.AuthState;
+            if (authState.isAuthenticated) {
+                const hhid = authState.hhid || Cookies.get('player-hhid');
+                const mvpd = authState.mvpd;
+                if (window.digitalData.user.hhid !== "" && window.analyticsDataLayer.hhid !== "") {
+                    clearInterval(_interval);
+                } else if (hhid) {
+                    $('#analyticsDataLayer').attr('data-hhid', hhid);
+                    window.analyticsDataLayer.hhid = hhid;
+                    window.analyticsDataLayer.mvpd = mvpd;
+                    window.digitalData.user.hhid = hhid;
+                    window.digitalData.user.isAuthenticated = 'Yes';
+                    window.digitalData.user.mvpd = mvpd;
+                    window.digitalData.user.legacyMVPD = authState.legacyMVPD;
+                }
+            } else {
+                clearInterval(_interval);
+            }
+        } catch (e) {
+        }
+    }
+
+</script>
+<!--/Data Layer-->
+<!--jQuery or other helper libraries go here-->
+<script src="https://www.google.com/recaptcha/api.js?query=nocache" async defer></script>
+<!--  Helix -->
+<script>
+    // use the following to check for the events
+    // https://cdn.pi-charter.net/SpectrumLocal/Web/1.146.json
+
+    // Update packageReleaseVersion here when releasing AEM package deploys between full releases. Ex: 1, 2, 3
+    // Value should be a blank string for full releases.
+    var packageReleaseVersion = "0";
+
+    var appReleaseVersion = "9.5.0.SNAPSHOT";
+    appReleaseVersion = appReleaseVersion.replace('.SNAPSHOT', '');
+    appReleaseVersion = appReleaseVersion + (packageReleaseVersion ? '.' + packageReleaseVersion : '');
+
+    var helixSetting = {
+        domain: "video",
+        appName: "SpectrumLocal",
+        appVersion: appReleaseVersion,
+        requirementsVersion: "2.829",
+        msgTriggeredBy: "user",
+        startSession: "SpectrumLocal_Web_startSession",
+        logLevel: "critical",
+        endpoint: "video_prod",
+        appEnvName: "prod",
+        drmEnabled: true,
+        cwvVerbose: true,
+        cwvEnabled: true
+    };
+
+    localStorage.setItem(
+        "helix-library-settings",
+        JSON.stringify(helixSetting)
+    );
+</script>
+
+<!--prehiding snippet for Adobe Target with asynchronous Launch deployment-->
+<script>(function (g, b, d, f) {
+    (function (a, c, d) {
+        if (a) {
+            var e = b.createElement("style");
+            e.id = c;
+            e.innerHTML = d;
+            a.appendChild(e)
+        }
+    })(b.getElementsByTagName("head")[0], "at-body-style", d);
+    setTimeout(function () {
+        var a = b.getElementsByTagName("head")[0];
+        if (a) {
+            var c = b.getElementById("at-body-style");
+            c && a.removeChild(c)
+        }
+    }, f)
+})(window, document, "body {opacity: 0 !important}", 3E3);
+</script>
+<!--/prehiding snippet for Adobe Target with asynchronous Launch deployment-->
+<script>
+    var metaTitleEn = "200 \u002D Archive Result";
+    var metaTitleEs = "";
+    // NEWS-7559 - Add WebSite schema for default home pages on spectrumnews1, spectrumlocalnews, baynews9, ny1, mynews13, spectruminfocus
+     (function(){
+        const regionalHomepageRegEx = /^\/[^\/]+\/[^\/]+[a-zA-Z0-9]$/;
+        const isRegionalHomepage = regionalHomepageRegEx.test(location.pathname);
+        let siteInfo;
+        if (location.pathname === '/splash') {
+            let newCanonical;
+            if (location.hostname.includes('spectrumnews1.com')) {
+                siteInfo = {name: metaTitleEn || 'Spectrum News 1', url: 'https://spectrumnews1.com'}
+            } else if (location.hostname.includes('spectrumlocalnews.com')) {
+                siteInfo = {name: metaTitleEn || 'Spectrum News', url: 'https://spectrumlocalnews.com'}
+            } else if (location.hostname.includes('spectrumnoticias.com')) {
+                siteInfo = {name: metaTitleEs || 'Spectrum Noticias', url: 'https://spectrumnoticias.com'}
+                document.addEventListener('DOMContentLoaded', function() {
+                    // NEWS-8611 - Point to root of domain as /splash page canonical
+                    document.querySelector('link[rel="canonical"]')?.setAttribute('href', siteInfo.url);
+                    document.querySelector('meta[name="description"]')?.setAttribute('content', "Spectrum Noticias es el único canal de noticias en español las 24 horas del día, en todo el país.");
+                });
+            } else if (location.hostname.includes('spectrumnewsnecn.com')) {
+                siteInfo = {name: 'Spectrum News NECN', url: 'https://spectrumnewsnecn.com'}
+            }
+            
+
+        } else if (isRegionalHomepage) {
+            // add schema only if page is the default home page for the domain 
+            if (location.hostname.includes('baynews9.com') && location.pathname === '/fl/tampa') {
+                siteInfo = {name: 'Spectrum Bay News 9', url: 'https://baynews9.com'}
+            } else if (location.hostname.includes('ny1.com') && location.pathname === '/nyc/all-boroughs') {
+                siteInfo = {name: 'Spectrum News NY1', url: 'https://ny1.com' }
+            } else if (location.hostname.includes('mynews13.com') && location.pathname === '/fl/orlando') {
+                siteInfo = {name: 'Spectrum News 13', url: 'https://mynews13.com'}
+            } else if (location.hostname.includes('spectruminfocus.com') && location.pathname === '/section/in-focus') {
+                siteInfo = {name: 'Spectrum News In Focus', url: 'https://spectruminfocus.com'}
+            } else if (location.hostname.includes('spectrumnoticias.com') && location.pathname === '/us/noticias') {
+                siteInfo = {name: 'Spectrum Noticias', url: 'https://spectrumnoticias.com'}
+            } else if (location.hostname.includes('spectrumlocalnews.com') && location.pathname === '/us/snplus') {
+                siteInfo = {name: 'Spectrum News', url: 'https://spectrumlocalnews.com'}
+            }
+        }
+        if (!siteInfo) return;
+        let structuredDataText = '{"@context": "https://schema.org", "name": "' + siteInfo.name +'", "alternateName": "' + siteInfo.name + '", "url": "' + siteInfo.url + '","@type": "WebSite"}';
+        const script = document.createElement('script');
+        script.setAttribute('type', 'application/ld+json');
+        script.textContent = structuredDataText;
+        document.head.appendChild(script);
+
+        // Update document.title and add a meta tag for og:site_name
+        document.title = siteInfo.name;
+        const meta = document.createElement('meta');
+        meta.setAttribute('property', 'og:site_name');
+        meta.setAttribute('content', siteInfo.name);
+        document.head.appendChild(meta)
+     })();
+
+     (function(){
+        // Fire pageview event when userStatus has been resolved
+        window.addEventListener('userStatus', function() {
+            if (!window.helixPageViewFiredOnce){
+                News.App.QuantumAnalytics.trackHelixPageviewEvents(window.digitalData);
+                window.helixPageViewFiredOnce = true;
+            }
+        });
+
+        // Set quantum visitId when the Helix library fires the event indicating it has been set
+        document.addEventListener('quantumVisitIdSet', function() {
+            window.digitalData.visit.visitId = window.Helix.get("visitId");
+            window.digitalData.visit.uuid = localStorage.getItem('deviceUUID') || "";
+            window.digitalData.visit.appVersion = appReleaseVersion;
+            helixSetting.appIdentifier = window.digitalData.page.domain;
+            helixSetting.deviceUuid = window.digitalData.visit.uuid;
+            helixSetting.referrerAppVisitId = window.digitalData.visit.visitId;
+         })
+     })();
+</script>
+
+
+<script>
+    window.addEventListener("beforeunload", function (e) {
+        if (typeof News !== 'undefined' && News.App.Pinxt.AuthState.isAuthenticated) {
+            News.App.QuantumAnalytics.setQuantumLoginResumeCookie();
+        }
+    });
+</script>
+
+
+
+
+
+
+
+
+<script src="//assets.adobedtm.com/c19d5759b404/bd5aea4c4170/launch-ccc23cfc1556.min.js" async></script>
+
+
+
+
+    
+<script>CQURLInfo={"requestPath":"/content/news/200","extension":"html","suffix":"/ap-online/2019/12/10/democrats-agree-to-north-america-trade-pact-whats-in-it.html","selectors":[],"systemId":"0244d7ea-7dde-487f-9a44-f19648bc4563","runModes":"prod,s7connect,crx3,production,nosamplecontent,publish,aem65,crx3tar"};</script>
+<script src="/etc/clientlibs/news/vendor/jquery-3-6-1.min.ACSHASH88b7ada45d73ce1600d55453fc301b3d.js"></script>
+
+
+
+
+
+
+
+
+    <meta property="og:title" content="Democrats agree to North America trade pact: What&#39;s in it?"/>
+
+
+    <meta name="twitter:title" content="Democrats agree to North America trade pact: What&#39;s in it?"/>
+
+
+<meta property="og:type" content="article"/>
+
+
+    <meta name="description" content="House Democrats agreed to President Donald Trump&amp;#39;s revamped North America trade deal after prying some concessions from the administration"/>
+    <meta property="og:description" content="House Democrats agreed to President Donald Trump&amp;#39;s revamped North America trade deal after prying some concessions from the administration"/>
+    <meta name="twitter:description" content="House Democrats agreed to President Donald Trump&amp;#39;s revamped North America trade deal after prying some concessions from the administration"/>
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://baynews9.com/ap-online/2019/12/10/democrats-agree-to-north-america-trade-pact-whats-in-it.html"/>
+
+
+
+<meta property="og:url" content="https://ny1.com/nyc/brooklyn/ap-online/2019/12/10/democrats-agree-to-north-america-trade-pact-whats-in-it"/>
+<meta name="twitter:url" content="https://ny1.com/nyc/brooklyn/ap-online/2019/12/10/democrats-agree-to-north-america-trade-pact-whats-in-it"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+
+<meta name="story:headline" content="Democrats agree to North America trade pact: What&#39;s in it?"/>
+<meta name="story:description" content="House Democrats agreed to President Donald Trump&#39;s revamped North America trade deal after prying some concessions from the administration"/>
+
+
+
+<link rel="icon" type="image/svg+xml" href="/etc/designs/news/clientlibs/css/images/favicon-latest/favicon.svg"/>
+<link rel="alternate icon" type="image/vnd.microsoft.icon" href="https://images.spectrumnews1.com/is/image/TWCNews/news-favicon"/>
+
+<!-- Loads Helix Library -->
+
+    <script async="true" src='https://cdn.pi.spectrum.net/tools/video/HelixVideo4.50.0.js' charset="UTF-8" type="application/javascript" onload="window.setCwvConfigInterval = setInterval(() => {
+            if (window.Helix.set) {
+                window.Helix.set('visitIdFormat', 'extended');
+                window.Helix.set(`cwvVerbose`, true);
+                window.Helix.set(`cwvEnabled`, true);
+                clearInterval(window.setCwvConfigInterval)
+            }
+       }, 100)"></script>
+
+<!--  END Helix -->
+
+
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "legalName": "Spectrum News NY1",
+  "url": "https://ny1.com",
+  "logo": {
+    "url": "https://s7d2.scene7.com/is/image/TWCNews/NY1_112x112?wid=112&fmt=png",
+    "@type": "ImageObject"
+  },
+  "sameAs": [
+    "https://facebook.com/ny1news",
+    "https://twitter.com/ny1",
+    "https://www.instagram.com/ny1/"
+  ],
+  "@type": "Organization"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@type": "StructuredDataType"
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+<!-- Load empire CSS library -->
+
+    
+<script>CQURLInfo={"requestPath":"/content/news/200","extension":"html","suffix":"/ap-online/2019/12/10/democrats-agree-to-north-america-trade-pact-whats-in-it.html","selectors":[],"systemId":"0244d7ea-7dde-487f-9a44-f19648bc4563","runModes":"prod,s7connect,crx3,production,nosamplecontent,publish,aem65,crx3tar"};</script>
+<link rel="stylesheet" href="/etc/designs/bootstrap-css/clientlibs/news-empire.min.ACSHASHe8ffd41ce253478b40265ffa7e1314fd.css" type="text/css">
+<link rel="stylesheet" href="/etc/designs/news-empire/clientlibs/css.min.ACSHASH00cbe302676790e86bdfa4bd2bf90204.css" type="text/css">
+
+
+
+
+
+<!-- Manually include shared icons dependency before SSI -->
+
+    
+<link rel="stylesheet" href="/etc/designs/news/clientlibs/icons.min.ACSHASH509d9393e688a116162693111569d29d.css" type="text/css">
+
+
+
+
+<!-- Load empire icons library -->
+
+    
+<link rel="stylesheet" href="/etc/designs/news-empire/clientlibs/icons.min.ACSHASHe0213322783b2eafc86272f29f1d3db8.css" type="text/css">
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<script src="/etc/designs/news/clientlibs/js/head-scripts.min.ACSHASH38103575e4264967e44b98314682cdbc.js"></script>
+<script src="/etc/designs/news/clientlibs/js/ads.min.ACSHASHb21b82ad3b35139f992e66b9c4204b51.js"></script>
+<script src="/etc/clientlibs/news/vendor/simple-namespace-0-2-1.min.ACSHASH07f4ab70fa2c1e52b28c6ee763ff5a1f.js"></script>
+
+
+
+
+
+
+<!-- This code handles smartlink redirect logic to navigate user based on device -->
+<script type="text/javascript">
+    var smartRedirectLocations = {};
+
+        smartRedirectLocations.desktopLocation="",
+        smartRedirectLocations.iOSOutsideAppLocation="",
+        smartRedirectLocations.androidOutsideAppLocation="",
+        smartRedirectLocations.inAppLocation=""
+
+</script>
+
+    
+<script src="/etc/designs/news/clientlibs/js/smart-redirect.min.ACSHASH56dbcd932f4b442cbf01a8f74e63f5c8.js"></script>
+
+
+
+
+
+
+<!-- Adding critical css used by components above the fold for optimizing the Core Web Vitals-->
+<style type="text/css">
+    .image img{width: 100%;}
+    .aspect-ratio-container::before {content: ""; width: 1px; margin-left: -1px; float: left; height: 0; padding-bottom: 56.25%;}
+    .aspect-ratio-container::after {content: "";display: table;clear: both;}/* to clear float */
+    .aspect-ratio-container img {max-width: 100%;width: 100%; /* scale with content width */height: auto; /* compute a height that preserves the aspect ratio */}
+    .gallery-slide .img-responsive{width: auto;height: auto;}
+    .site-header header:not([data-ad-enable="true"]) .article-header .articleAdWrapper, .site-header .site-header-inner:not([data-ad-enable="true"]) .article-header .articleAdWrapper{display:none;}
+    .dfp-ad-tags-wrapper[data-position="x30"]{width:100%; min-height:107px;}
+    .dfp-ad-tags-wrapper > .dfp-ad-tags{ min-height:calc(100% - 17px);}
+    .articleAdWrapper{width:340px; min-height:290px}
+    .icon-advertisement {height: 5px; margin: 2px auto 10px;}
+    @media (max-width: 767px){
+        .dfp-ad-tags-wrapper[data-position="x30"]{min-height: 70px; }
+        .dfp-ad-tags[data-hidemobilead="true"],.dfp-ad-tags[data-hidemobilead="true"] + .icon-advertisement, .dfp-ad-tags-wrapper[data-hidemobilead="true"] {display: none}
+    }
+    .widemode #wxHourlyWeather { min-height: 120px;}
+    .content-list-layout--hero .article__details { min-height: 75px;}
+    @media (min-width: 768px) {
+        .widemode #wxHourlyWeather { min-height: 80px;}
+        .content-list-layout--hero .article__details { min-height: 150px;}
+    }
+    .linear-stream-promo, .mini-live-player .mini-player.unauthenticated { min-height: 160px;}
+    .wxAlertBar { display: none; }
+    .sf_mobile { min-height: 65px; }
+    .content-list-layout--1x1:not([data-limit="0"]):not(.content-list__mode--) .articles-container:not(.content-list__hide-image--true) { min-height: 270px;}
+    .content-list-layout--4x1-single-column-mobile:not([data-limit="0"]):not(.content-list__mode--) { min-height: 150px;}
+    .wx-current-weekly-combo { min-height: 590px;}
+    .wx-sunrise-sunset { min-height: 300px;}
+    @media (max-width: 767px) {
+	    .wx-current-weekly-combo { min-height: 835px;}
+    }
+</style>
+
+
+
+</head>
+<body class="has-fixed-navbar design--empire" data-stationcode="All Regions" data-timezone-offset="-14400000" data-ravenid="634ae4959e476c0008cb20d7" data-requestid="SPECTRUMNEWS" data-mediaanalyticsapi="https://twctsg.hb-api.omtrdc.net" data-softwarestatement="eyJhbGciOiJSUzI1NiJ9.eyJzdWIiOiIxZjYyNmUxOS0xZDhlLTRlODgtOTAxMi02NzY2YzUyZTNiYTciLCJuYmYiOjE2NTI3MjMzNTQsImlzcyI6ImF1dGguYWRvYmUuY29tIiwiaWF0IjoxNjUyNzIzMzU0fQ.Ob_grAySSYrMM-zuiW_4pLXFB30E73IHRxqn1I3ClioDngQ--PZtT5jGlJDklizczh3H0Y4CparDhnhbKgxoUCIZ4t9qipPVvz1kiUGxOt4EBEmBikEvBJFVQjXyF_NsAQEUM_2B6Af3JqSN5CUCvGZVHLRS0rG2zjyI90wlMY93occ02buK54rwcH0eftGsbbXCxoa7QAbGUFv9EWkXr5jpZYds5aPJ5Kbpy8Cyn_VvZCDQh7tLMvFXddHvhOKARPOrvTNfnj-13akz6ZS2UnXuYhF8SCuF4fbxDoemicKYyRvIlmcjzV-QwM8CRgTnfVr4mYleB5oqtRtKdam9Cg" data-adobe-endpoint="https://sp.auth.adobe.com" data-pinxtendpoint="https://apis.spectrum.net" data-userprofileapi="https://apis.spectrum.net/userprofsvc/userprofileservice/subgraphs/query" data-userprofileswitch="true" data-ipvs-v5-switch="true" data-channel-finder-v2="true" data-cox-auto-auth-switch="false" data-ravenapi="https://content.raven.news" data-hdcpenabler="true" data-onplantapi="https://apis.spectrum.net/id/services/v1/on-plant">
+
+
+    <span id="analyticsDataLayer" data-byline="Associated Press" data-content-type="article" data-headline="Democrats agree to North America trade pact: What&#39;s in it?" data-hhid="" data-is-internal="true" data-is-authenticated="false" data-language="en" data-page-category="ap-online" data-publication-date="1576084949000" data-region="All Regions" data-tags="ap-online-top-business-headlines^ap-top-news^ap-online-other-us-government-news^ap-top-news-politics^associated-press^ap-online^ap-top-news---l-twc-regions^ap-online-top-political-headlines^ap-top-news^ap-top-news-national" data-is-archived="true"></span>
+
+
+
+
+
+
+
+
+    
+        
+        
+        <div class="site-header">
+
+
+<header class="header-ele" data-ad-preroll-disable="true">
+    <div class="header_logo">
+        <a href="/nyc/all-boroughs" class="header_logo__icon icon-NY1_Logo"></a>
+    </div>
+    <div class="navbar-default">
+        <div class="header_weather">
+            <a class="wx-icon" href="/nyc/all-boroughs/weather"></a>
+            <a class="tempF" href="/nyc/all-boroughs/weather"></a>
+        </div>
+        <button type="button" class="navbar-toggle collapsed open-menu" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="close"></span>
+        </button>
+    </div>
+    <div class="header_region-time-weather">
+        
+<span class="header_region">
+    <a href="//spectrumlocalnews.com/splash.html#nyc">Brooklyn</a>
+</span>
+        <span class="header_date"></span>
+<span class="header_time"></span>
+        <div>
+            <div class="header_weather">
+                <a class="wx-icon" href="/nyc/all-boroughs/weather"></a>
+                <a class="tempF" href="/nyc/all-boroughs/weather"></a>
+                <a class="city" href="/nyc/all-boroughs/weather"></a>
+                <a class="edit" href="javascript:void(0)">EDIT</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="header_social-media-login__wrapper">
+
+        <div class="header_login-watch">
+            <a id="header-watch-live" data-watch-live-url="/content/news/nyc/all-boroughs/live-video/watch_spectrum_news_live.html" data-watch-live-label="Watch Live" class="btn header_watch hidden-xs" href="/nyc/all-boroughs/live-video/watch_spectrum_news_live.html">
+                Watch Live
+            </a>
+            
+            <nav class="empire-nav-wrapper">
+                <ul class="empire-nav-item-list header-profile-icon">
+                    <li class="profile-icon-separator" style="font-size:16px;line-height:normal;padding: 14px 0;">|</li>
+                    <li class="recent-activity-list">
+                        <a data-root=".empire-nav" href="#" class="profile-icon-container">
+                        <img class="profile-icon" alt="profile icon" src="/etc/designs/news/clientlibs/css/images/ki-accountSignOut-icon.png" style="width:32px;height:32px;flex-grow:0;object-fit:contain;"/></a>
+                        <div class="empire-link-list list parbase ">
+                            <ul class="recent-activity-dropdown">
+                                
+                                <li>
+                                    <a id="logout-button" data-logout-text="Log Out" data-login-text="Log In" href="#" class="recent-activity-list-span">Log Out</a>
+                                    <span class="menu-item-divider"></span>
+                                </li>
+                            </ul>
+                            <ul class="sign-in-dropdown">
+                                
+                                <li>
+                                    <a id="login-button" class="sign-in-list-span" href="/nyc/all-boroughs/live-video/login" data-login-text="Log In" data-logout-text="Log Out">Log In</a>
+                                    <span class="menu-item-divider"></span>
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="searchNav">
+        
+            <input name="search" placeholder="Search" type="text" class="empire-header-search icon-search-gray empire-header-search-field" data-url="/nyc/all-boroughs/search"/>
+        
+        <nav class="empire-nav-wrapper">
+            
+    
+    <ul class="empire-nav-item-list">
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-22360dab-0087-e70e-47aa-d8f599f7456b" href="#">
+            Latest News
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-22360dab-0087-e70e-47aa-d8f599f7456b">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news">
+            Headlines
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/public-safety">
+            Public Safety
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/education">
+            Education
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/health-and-medicine">
+            Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/in-the-papers">
+            In The Papers
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/mornings-on-1">
+            Mornings On 1
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/news-all-day">
+            News All Day
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/the-rush-hour">
+            The Rush Hour
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/new-york-tonight">
+            New York Tonight
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/weekends-on-ny1">
+            Weekends On NY1
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/in-focus/regions/nyc">
+            In Focus with Cheryl Wills
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/health-and-medicine/exploring-your-health">
+            Exploring Your Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/your-mental-health">
+            Your Mental Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/in-the-neighborhood">
+            In the Neighborhood
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/in-the-dark-new-yorks-child-welfare-deaths">
+            In The Dark: New York's Child Welfare Deaths
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/prison-series">
+            Behind the Walls: Investigating New York's Prison System
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/9-11-25th-anniversary">
+            Remembering September 11th: 25 Years, 25 Stories
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-621a14e5-283c-8cf0-a5a6-ec7780e3392a" href="#">
+            Weather
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-621a14e5-283c-8cf0-a5a6-ec7780e3392a">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather">
+            NYC Weather
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/7-day-forecast">
+            7 Day Forecast
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/interactive-radar">
+            Interactive Radar
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/watches-warnings">
+            Watches and Warnings
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/weather-blogs">
+            Weather Blog
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-24a18f70-faf3-fb53-7c90-30c2ee94d8b4" href="#">
+            Transit
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-24a18f70-faf3-fb53-7c90-30c2ee94d8b4">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/transit">
+            Transit News
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/traffic-map">
+            Interactive Traffic Map
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-150e7ff8-9453-5ca8-1738-9fd920dc6360" href="#">
+            Politics
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-150e7ff8-9453-5ca8-1738-9fd920dc6360">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics">
+            New York Politics
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/inside-city-hall">
+            Inside City Hall
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/the-big-deal" target="_blank">
+            The Big Deal with Errol Louis
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/ny1-political-buzz">
+            NY1 Political Buzz
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/Washington-DC-bureau">
+            Washington DC Bureau
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="http://www.nystateofpolitics.com" target="_blank">
+            NY State of Politics Blog
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-55653754-9798-3557-f3cb-647acfac14ca" href="#">
+            Arts+Culture
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-55653754-9798-3557-f3cb-647acfac14ca">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/arts">
+            Arts
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/fashion">
+            Style
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/on-stage">
+            On Stage
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/authors-week">
+            Mornings On 1 Authors Week
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-0fd4e812-e7b9-8569-64cf-6eda6a9881f8" href="#">
+            Community+Neighborhoods
+        </a>
+        
+    
+
+            
+                <div id="site-header-megamenu-0fd4e812-e7b9-8569-64cf-6eda6a9881f8">
+                        
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/manhattan">
+            Manhattan
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/brooklyn">
+            Brooklyn
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/bronx">
+            The Bronx
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/queens">
+            Queens
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/staten-island">
+            Staten Island
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/human-interest">
+            Human Interest
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/calendar">
+            Community Calendar
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/new-yorker-of-the-week">
+            New Yorker of the Week
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/scholar-athlete">
+            Scholar Athlete
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                </div>
+            
+        </li>
+    
+        <li>
+           
+    
+    
+        <a href="/nyc/all-boroughs/about-us/staff-profiles">
+            Our Journalists
+        </a>
+        
+    
+
+            
+        </li>
+    </ul>
+    
+<div class="empire-full-mobile-menu">
+        
+                <input name="search" placeholder="Search" type="text" class="icon-search-gray mobile-search empire-header-search-field" data-url="/nyc/all-boroughs/search"/>
+        
+        <ul class="empire-mobile-item-list mobile-recent-activity-dropdown">
+             <li><a id="empire-watch-live_loggedIn" class="empire-watch-live" href="#"></a>
+             <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+            </li>
+            <li>
+                <a href="#" data-root=".empire-nav" class="my-account">ACCOUNT</a>
+                <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                <div class="empire-link-list list parbase">
+                    <ul style="flex-direction: column;">
+                        <li>
+                            <a id="sign-out-btn" class="sing-out-mobile sign-in-label" href="#">Log Out</a>
+                            <span class="menu-item-divider"></span>
+                        </li>
+                        <li style="padding: 0;" class="signed-in-recent-activity">
+                            <a href="" class="recent-activity-mobile">Recent Activity</a>
+                            <span class="menu-item-divider"></span>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+            </li>
+
+        </ul>
+        <ul class="empire-mobile-item-list mobile-sign-in-dropdown">
+            <li><a id="empire-watch-live_loggedOut" class="empire-watch-live" href="#"></a>
+             <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+            </li>
+            <li>
+                <a href="#" data-root=".empire-nav" class="my-account">ACCOUNT</a>
+                <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                <div class="empire-link-list list parbase">
+                    <ul style="flex-direction: column;">
+                        <li>
+                            <a id="sign-in-btn" class="sign-in-mobile sign-in-label" href="">Log In</a>
+                            <span class="menu-item-divider"></span>
+                        </li>
+                        <li style="padding: 0;" class="sign-out-recent-activity">
+                            <a href="" class="recent-activity-mobile">Recent Activity</a>
+                            <span class="menu-item-divider"></span>
+                        </li>
+                    </ul>
+    
+                </div>
+    
+            </li>
+
+        </ul>
+        <ul class="empire-mobile-item-list">
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-22360dab-0087-e70e-47aa-d8f599f7456b" href="#">
+            Latest News
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-22360dab-0087-e70e-47aa-d8f599f7456b">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news">
+            Headlines
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/public-safety">
+            Public Safety
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/education">
+            Education
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/health-and-medicine">
+            Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/in-the-papers">
+            In The Papers
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/mornings-on-1">
+            Mornings On 1
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/news-all-day">
+            News All Day
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/the-rush-hour">
+            The Rush Hour
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/new-york-tonight">
+            New York Tonight
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/weekends-on-ny1">
+            Weekends On NY1
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/in-focus/regions/nyc">
+            In Focus with Cheryl Wills
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/health-and-medicine/exploring-your-health">
+            Exploring Your Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/your-mental-health">
+            Your Mental Health
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/in-the-neighborhood">
+            In the Neighborhood
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/in-the-dark-new-yorks-child-welfare-deaths">
+            In The Dark: New York's Child Welfare Deaths
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/special-reports/prison-series">
+            Behind the Walls: Investigating New York's Prison System
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/9-11-25th-anniversary">
+            Remembering September 11th: 25 Years, 25 Stories
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-621a14e5-283c-8cf0-a5a6-ec7780e3392a" href="#">
+            Weather
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-621a14e5-283c-8cf0-a5a6-ec7780e3392a">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather">
+            NYC Weather
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/7-day-forecast">
+            7 Day Forecast
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/interactive-radar">
+            Interactive Radar
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/watches-warnings">
+            Watches and Warnings
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/weather-blogs">
+            Weather Blog
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-24a18f70-faf3-fb53-7c90-30c2ee94d8b4" href="#">
+            Transit
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-24a18f70-faf3-fb53-7c90-30c2ee94d8b4">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/transit">
+            Transit News
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/weather/traffic-map">
+            Interactive Traffic Map
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-150e7ff8-9453-5ca8-1738-9fd920dc6360" href="#">
+            Politics
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-150e7ff8-9453-5ca8-1738-9fd920dc6360">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics">
+            New York Politics
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/inside-city-hall">
+            Inside City Hall
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/section/the-big-deal" target="_blank">
+            The Big Deal with Errol Louis
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/ny1-political-buzz">
+            NY1 Political Buzz
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/politics/Washington-DC-bureau">
+            Washington DC Bureau
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="http://www.nystateofpolitics.com" target="_blank">
+            NY State of Politics Blog
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-55653754-9798-3557-f3cb-647acfac14ca" href="#">
+            Arts+Culture
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-55653754-9798-3557-f3cb-647acfac14ca">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/arts">
+            Arts
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/fashion">
+            Style
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/shows/on-stage">
+            On Stage
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/lifestyles/authors-week">
+            Mornings On 1 Authors Week
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a data-root=".empire-nav" data-target="#site-header-megamenu-0fd4e812-e7b9-8569-64cf-6eda6a9881f8" href="#">
+            Community+Neighborhoods
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-megamenu-bar"></div>
+                    
+                        <div id="mobile-site-header-megamenu-0fd4e812-e7b9-8569-64cf-6eda6a9881f8">
+                                
+
+
+
+
+    
+    
+    <div class="empire-link-list list parbase">
+
+<ul>
+    <li>
+        
+    
+    
+        <a href="/nyc/manhattan">
+            Manhattan
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/brooklyn">
+            Brooklyn
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/bronx">
+            The Bronx
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/queens">
+            Queens
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/staten-island">
+            Staten Island
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/human-interest">
+            Human Interest
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/calendar">
+            Community Calendar
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/new-yorker-of-the-week">
+            New Yorker of the Week
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+
+    <li>
+        
+    
+    
+        <a href="/nyc/all-boroughs/news/scholar-athlete">
+            Scholar Athlete
+        </a>
+        
+    
+
+        <span class="menu-item-divider"></span>
+    </li>
+</ul>
+
+
+</div>
+
+
+
+                        </div>
+                    
+            </li>
+        
+        
+            <li>
+                
+    
+    
+        <a href="/nyc/all-boroughs/about-us/staff-profiles">
+            Our Journalists
+        </a>
+        
+    
+
+                    <div class="empire-mobile-divider empire-type-clickthrough-bar"></div>
+                    
+            </li>
+        </ul>
+</div>
+
+<!-- Getting the value from site-header.html to empire-nav.html -->
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const headerLink = document.querySelector('#header-watch-live');
+        const loggedInNavLink = document.querySelector('#empire-watch-live_loggedIn');
+        const loggedOutNavLink = document.querySelector('#empire-watch-live_loggedOut');
+
+        if (headerLink) {
+            const url = headerLink.dataset.watchLiveUrl?.trim();
+            const label = headerLink.dataset.watchLiveLabel?.trim();
+
+            // If either url or label is missing or empty hide parent <li> elements
+            if (!url || !label) {
+                [loggedInNavLink, loggedOutNavLink].forEach(link => {
+                    if (link && link.closest('li')) {
+                        link.closest('li').style.display = 'none';
+                    }
+                });
+                return; // stop further execution
+            }
+
+            // Otherwise populate the links normally
+            [loggedInNavLink, loggedOutNavLink].forEach(link => {
+                if (link) {
+                    link.href = url;
+                    link.textContent = label;
+                    link.hidden = false;
+                }
+            });
+        } else {
+            // If no #header-watch-live found, also hide both <li>
+            [loggedInNavLink, loggedOutNavLink].forEach(link => {
+                if (link && link.closest('li')) {
+                    link.closest('li').style.display = 'none';
+                }
+            });
+        }
+    });
+</script>
+
+
+
+
+        </nav>
+    </div>
+    <div id="edit-location-modal" class="location-modal">
+        <div class="modal-content">
+            <span class="edit-location-modal-close">&times;</span>
+            <span class="modal-title-text">Set Weather Location</span>
+            <p class="modal-desc-text">Get hyperlocal forecasts, radar and weather alerts.</p>
+            <input id="edit-location-zip" name="zip" type="text" maxlength="5" placeholder="Enter a 5-digit ZIP code" pattern="[0-9]+"/>
+            <p class="zip-error-message">Please enter a valid zipcode.</p>
+            <div class="edit-location-save">
+                <p class="save-button-text">Save</p>
+            </div>
+        </div>
+    </div>
+    
+<!-- regionalization modal -->
+ 
+    <div class="ip-regionalization-modal" style="display:none">
+        <div class="ip-regional">
+            <img alt="close" aria-label="close" role='button' src="/etc/designs/news/clientlibs/css/images/ki-x-alt.png" class="ip-modal-close"/>
+            <div class="ip-regional-modal-content">
+                
+                    <span class="ip-modal-heading">Confirm Your Location</span> 
+                
+                
+               
+                <span class="ip-modal-text"></span>
+                <img alt="region image" class="region-img"/>
+                <span class="ip-location"></span>
+                
+                
+                
+                    <button class="confirm-button-container"><span class="confirm-text">Confirm</span></button>
+                    <a href="" class="change-button-container"><span class="button-text">Change Location</span></a>
+                    <span class="info-footer">You can change your news source and language at any time.</span>
+                
+                
+               
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--source selector modal-->
+
+    <div class="ip-regionalization-modal source-selector-modal" style="display:none">
+        <div class="ip-regional">
+            <img alt="close" aria-label="close" role='button' src="/etc/designs/news/clientlibs/css/images/ki-x-alt.png" class="source-selector-modal-close"/>
+            <div class="ip-regional-modal-content">
+                
+                
+                    <span class="ip-modal-heading">Choose News Source &amp; Language</span>
+                
+                
+                <span class="ip-modal-text"></span>
+             <div class="language-selector" role="radiogroup">
+             </div>
+             
+                
+                    <a class="selector-continue-button"><span class="confirm-text">Continue</span></a>
+                    <span class="info-footer">You can change your news source and language at any time.</span>
+                
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- show  ip-modal if source-selector-switch is on -->
+
+    <!--regionalisation user notification popup-->
+    <div class="notification-popup" style="display:none">
+        <div class="pointer"></div>
+        <div class="notification-container">
+            <div class="description-container">
+                <span class="notification-title">Change Location</span>
+                <span class="notification-description">You can change your news source or language here at any time</span>
+            </div>
+            <img tabindex="0" role="button" aria-label="close" alt="close" class="ip-notification-close" src="/etc/designs/news/clientlibs/css/images/ki-x.png"/>
+        </div>
+       
+    </div>
+
+ <!--returning user EN  popup-->
+    
+
+<!--returning user ES  popup-->
+    
+
+</header>
+<div class="region-data" data-ravenid="5589656877b897b23ea09dd4" data-organization-name="Spectrum News NY1" data-outoffreeviews="Stay connected to your community. Log in for unlimited access to Spectrum News NY1 video content.">
+</div>
+</div>
+
+    
+        
+        
+        <div class="wxAlertBar">
+<div class="alert-bar">
+    <div class="alert-bar__displayed-alerts">
+        
+
+        
+    </div>
+</div>
+
+<div>
+    <div class="alert-bar__raven-alerts">
+        
+    <div class="ticker-item alert-bar__li alert-bar__li--weather" style="display: none; position: absolute">
+        <a href="/nyc/all-boroughs/weather/watches-warnings">
+            <div>
+                <span class="alert-bar__text-box"><span class="alert-bar__title">WEATHER ALERT</span><span class="alert-bar__text">View full list of weather alerts</span></span>
+            </div>
+        </a>
+    </div>
+
+        
+    <div class="ticker-item alert-bar__li alert-bar__li--closings" style="display: none; position: absolute">
+        <a href="/nyc/all-boroughs/weather/closings">
+            <div>
+                <span class="alert-bar__text-box"><span class="alert-bar__title">CLOSINGS ALERT</span><span class="alert-bar__text">View full list of closures</span></span>
+            </div>
+        </a>
+    </div>
+
+    </div>
+</div>
+
+<script>
+    ns("News.App").tickerConfig = {
+        effect : "slideUp",
+        interval : 6000,
+        duration : 800
+    }
+</script>
+
+    
+<script>CQURLInfo={"requestPath":"/content/news/nyc/brooklyn/jcr:content/main-website-header/wx_alert_bar","extension":"html","selectors":[],"systemId":"0244d7ea-7dde-487f-9a44-f19648bc4563","runModes":"prod,s7connect,crx3,production,nosamplecontent,publish,aem65,crx3tar"};</script>
+<script src="/etc/designs/news/clientlibs/js/weather/alertBar.min.ACSHASH6b8cdd84145071930d987c4519b12dcd.js"></script>
+
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+<div class="header-player">
+    
+</div>
+
+
+<div class="container body-container">
+    <div class="row">
+        <div class="col-sm-12">
+            <article>
+            
+                
+                
+            
+            
+                <div class="article-header">
+                    <div class="row">
+                        <div class="col-xs-12 clearfix">
+                            <h1 class="article-headline">Democrats agree to North America trade pact: What&#39;s in it?</h1>
+                            <div class="article-subheader small">
+                                <div class="article-information">
+                                    <div class="article-byline-information">
+                                        <span>BY </span>
+                                        <span class="article-byline-reporter-list">
+                                            
+                                                
+                                                <span>Associated Press</span>
+                                                
+                                            
+                                        </span>
+                                        
+                                        <span class="article-location">Washington, D.C.</span>
+                                    </div>
+                                    <div class="article-date-information">
+                                        <span class="article-date-publish empire-visible empire-byline noUpdatedDate">PUBLISHED 12:22 PM ET Dec. 11, 2019</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="share-text-article pull-left">SHARE</div>
+                            <div class="share-bar-container">
+    <button class="share-bar-link icon-share-facebook desktop-uri mobile-uri" title="Share with Facebook" aria-label="Share with Facebook" href="https://www.facebook.com/sharer/sharer.php?u=URL_TO_SHARE?cid=share_fb" target="_blank" data-empire-order="10"></button>
+    <button class="share-bar-link icon-share-twitter desktop-uri mobile-uri" title="Share with Twitter" aria-label="Share with Twitter" href="https://twitter.com/intent/tweet?text=HEADLINE&url=URL_TO_SHARE?cid=share_twitter" target="_blank" data-empire-order="20"></button>
+    <!-- SMS for mobile only-->
+    <button class="share-bar-link icon-share-message mobile-uri os-not-ios" title="Share with SMS" aria-label="Share with SMS" href="sms:?body=URL_TO_SHARE?cid=share_sms" data-empire-order="25"></button>
+    <!-- Dedicated iOS button b/c URI syntax varies from what's used by Desktop and Android -->
+    <button class="share-bar-link icon-share-message mobile-uri os-ios" title="Share with SMS" aria-label="Share with SMS" href="sms:&body=URL_TO_SHARE%3Fcid%3Dshare_sms" data-urlencode="true" data-empire-order="25"></button>
+    <button class="share-bar-link icon-share-reddit" title="Share with Reddit" aria-label="Share with Reddit" href="https://www.reddit.com/submit/?title=HEADLINE&url=URL_TO_SHARE?cid=share_reddit" target="_blank" data-empire-order="0"></button>
+    <!-- messenger button start -->
+    <button class="share-bar-link icon-share-messenger desktop-uri" title="Share with Facebook Messenger" aria-label="Share with Facebook Messenger" href="https://www.facebook.com/dialog/send?app_id=FB_APP_ID&link=URL_TO_SHARE?cid=share_fbmsg&redirect_uri=REDIRECT_URL?cid=share_fbmsg" target="_blank" data-empire-order="60"></button>
+    <!-- messenger button has a mobile app URI -->
+    <button class="share-bar-link icon-share-messenger mobile-uri" title="Share with Facebook Messenger" aria-label="Share with Facebook Messenger" href="fb-messenger://share?link=URL_TO_SHARE%3Fcid%3Dshare_fbmsg&app_id=FB_APP_ID" data-urlencode="true" data-empire-order="60"></button>
+    <!-- messenger button end -->
+    <!-- whatsapp button start -->
+    <!-- URL encode the share url. Note that the CID for the share url is url encoded. -->
+    <button class="share-bar-link icon-share-whatsapp desktop-uri" title="Share with Whatsapp" aria-label="Share with Whatsapp" href="https://web.whatsapp.com/send?text=URL_TO_SHARE%3Fcid%3Dshare_whatsapp" target="_blank" data-urlencode="true" data-empire-order="50"></button>
+    <!-- whatsapp button has a mobile app URI -->
+    <button class="share-bar-link icon-share-whatsapp mobile-uri" title="Share with Whatsapp" aria-label="Share with Whatsapp" href="whatsapp://send?text=URL_TO_SHARE?cid=share_whatsapp" data-empire-order="50"></button>
+    <!-- whatsapp button end -->
+    <button class="share-bar-link icon-share-linkedin desktop-uri mobile-uri" title="Share with LinkedIn" aria-label="Share with LinkedIn" href="https://www.linkedin.com/shareArticle?mini=true&url=URL_TO_SHARE?share_linkedin&title=HEADLINE&source=WEBSITE_URL&summary=DESCRIPTION" target="_blank" data-empire-order="0"></button>
+    <button class="share-bar-link icon-share-email desktop-uri mobile-uri" title="Share with Email" aria-label="Share with Email" href="mailto:?subject=HEADLINE&body=URL_TO_SHARE?cid=share_email" data-empire-order="30"></button>
+    <!-- Copy to clipboard start -->
+    <!-- success icon shows for 5 sec. Shows on opposite side for mobile. -->
+    <div class="share-bar-link icon-clipboard-copied-mobile"></div>
+    <!-- this is a button not an anchor tag because anchor tag (link) will set the window.location to the href -->
+    <button class="share-bar-link icon-share-link desktop-uri mobile-uri" title="Copy article link" aria-label="Copy article link" href="URL_TO_SHARE?cid=share_clip" data-empire-order="40"></button>
+    <div class="share-bar-link icon-clipboard-copied-desktop"></div>
+    <!-- Copy to clipboard end -->
+</div>
+                        </div>
+
+                        <div class="col-xs-12">
+                            <div class="article-body">
+                                <div class="parbase text" style="display: block;">
+                                    <p>WASHINGTON (AP) — After months of political wrangling, House Democrats agreed Tuesday to President Donald Trump’s revamped version of a 25-year-old North American free trade agreement. But they pried some concessions out of the Trump administration before saying they’d go along.</p>
+<p>Tuesday’s announcement by House Speaker Nancy Pelosi probably clears the way for congressional approval of Trump’s U.S.-Mexico-Canada Agreement, though pockets of resistance remain and powerful business lobbies said they still needed to study the details of the latest version.</p>
+<p>With characteristic brio, the president took to Twitter to declare: “It will be the best and most important trade deal ever made by the USA.’’</p>
+<p>More than anything, though, USMCA would just restore certainty to $1.4 trillion worth of annual trade between the three countries more than two years after Trump began contentious negotiations on a new regional trade pact.</p>
+<p>Some questions and answers about new agreement:</p>
+<p>WHAT IS USMCA?</p>
+<p>The pact is Trump’s replacement for the North American Free Trade Agreement, which took effect in 1994. NAFTA slashed tariffs and tore down most trade barriers between the United States, Canada and Mexico, unleashing a burst of trade between the three countries.</p>
+<p>U.S. farmers especially enjoyed increased access to their neighbors’ large markets. But NAFTA also encouraged U.S. manufacturers to move factories south of the border to take advantage of low-wage Mexican labor. Trump and other critics called NAFTA a job killer.</p>
+<p>Supporters of the deal said it created a powerful regional bloc — a competitive counter to Europe and East Asia — with each NAFTA country taking advantage of its strengths: low-cost manufacturing in Mexico; and high-skilled labor and proximity to cutting-edge research and to customers in the United States and Canada.</p>
+<p>Trump insisted on a revamped deal and threatened to withdraw from NAFTA if he couldn’t get one he liked. Negotiations on a replacement began in August 2017. The three countries signed USMCA a year ago. Now Congress must ratify the deal.</p>
+<p>HOW DOES USMCA CHANGE TRADE BETWEEN THE THREE COUNTRIES?</p>
+<p>Trump’s version mostly continues to allow the free flow of trade across North American borders of the three countries. But it updates the pact to reflect the rise of e-commerce and other aspects of the digital economy that didn’t exist when NAFTA was negotiated.</p>
+<p>For instance, USMCA allows U.S. companies to transfer data across borders without encountering discriminatory barriers. Jason Oxman, president of the tech trade group ITI, said the pact’s digital provisions set “a new and important precedent for modern trade rules.’’</p>
+<p>DOES USMCA DO ANYTHING TO PROTECT U.S. MANUFACTURING JOBS?</p>
+<p>Yes. To qualify for USMCA’s duty-free benefits, carmakers must get 75% of their automotive content from within North America — up from 62.5% under NAFTA. That means more content would have to be homegrown in higher-wage North America, not imported more cheaply from China and elsewhere.</p>
+<p>At least 40% of vehicles would also have to originate in places where workers earn at least $16 an hour. That would benefit the United States or Canada — not Mexico, where auto assembly workers are paid a fraction of that amount. The wage requirement is likely to push up the cost of cars built in North America.</p>
+<p>Under USMCA, Mexico was required to formally authorize workers to form independent unions. Mexican unions had traditionally been co-opted by employers and the government and done little for workers. Laborers have been fired for trying to bargain on their own for better pay and working conditions. That is one reason Mexican wages remained so low -- and attractive to U.S. manufacturers aiming to cut costs.</p>
+<p>WHAT CHANGES DID DEMOCRATS GET?</p>
+<p>Democrats complained that the deal with Trump’s team shared a defect with the treaty it was supposed to replace and improve upon: It would be hard to enforce. In negotiations with Trump’s top trade official, Robert Lighthizer, the Democrats successfully pushed to strike language allowing countries or companies to avoid sanctions simply by refusing to participate in dispute-settlement panels.</p>
+<p>They also insisted on closing loopholes that would have made it hard to enforce provisions protecting workers from intimidation and violence and on a committee that will monitor Mexico’s labor reforms.</p>
+<p>The Democrats also won a significant concession from the administration on drug prices. Gone is what Democrats considered a giveaway to the pharmaceutical industry: a provision that offered expensive biologic drugs — which are made from living cells — 10 years of protection from cheaper knockoff competition.</p>
+<p>“If you go back and look at trade agreements over the last 20 years, most of the verbiage deals with protection for pharmaceuticals,” said Rep. Earl Blumenauer, the Democratic chairman of the House trade subcommittee. “They have been the big winners and they got shut out in this agreement.”</p>
+<p>WHAT WILL USMCA MEAN TO THE U.S. ECONOMY?</p>
+<p>Probably not much. Trade is a relatively small part of the U.S. economy and trade with Mexico and Canada is smaller still. In an April analysis, the independent International Trade Commission calculated that USMCA would add 0.35% or $68 billion, to economic growth and generate 176,000 jobs over six years — blips in a $22 trillion economy with 152 million nonfarm jobs.</p>
+<p>Gregory Daco, chief U.S. economist at Oxford Economics, dismissed USMCA’s economic benefits as “negligible.’’</p>
+<p>“The intrinsic importance of the deal is not what it does to modernize NAFTA but rather what it prevents: a potentially disastrous breakdown of trade between the U.S. and its most important trading partners,’’ Daco wrote in a research note Tuesday.</p>
+<p>IS EVERYBODY HAPPY WITH THE NEW AGREEMENT?</p>
+<p>No. But USMCA still probably has enough support to clear Congress. In an unusual move, the top U.S. labor group — the AFL-CIO, which routinely opposes trade pacts — came out in favor of the worked-over USMCA.</p>
+<p>But business groups want to take a closer look at the text. And some Republicans may balk at the concessions the administration made to win Democratic support.</p>
+<p>“There are serious problems with this agreement,’’ Pennsylvania Republican Sen. Pat Toomey told reporters Tuesday.</p>
+<p>Among other things, he objects to a so-called sunset provision that would end USMCA after 16 years unless the three countries agree to continue it and to the removal of the protection for biologic drugs.</p>
+<p>Daniel Ujczo, a trade attorney with Dickinson Wright PLLC in Columbus, Ohio, said the concessions made to Democrats are likely to dampen the enthusiasm that businesses expressed while lobbying for the pact. “The business ‘wins’ that have been championed for the last year are now just a ‘whew’ we have relative certainty in North America,” Ujczo said.</p>
+<p>___</p>
+<p>AP Writer Kevin Freking and Matthew Daly in Washington contributed to this story.</p>
+<p>__</p>
+<p>Tagline: This story was first published on Dec. 10, 2019. It was updated on Dec. 11, 2019, to correct the value of goods traded in the U.S.-Mexico-Canada trade pact. The value is $1.4 trillion, not $1.4 billion.</p><p>Copyright 2019 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    
+        
+        
+        <div class="site-footer">
+
+<footer class="news-empire">
+    <div class="social-gradient"></div>
+    <div id="footerLinks" class="container main-footer__body">
+        <div class="row">
+            <div class="col-xs-12">
+                
+                    <div class="footer-branding">
+                        <a href="/nyc/all-boroughs">
+                            <div class="logo icon-NY1_Logo-black"></div>
+                        </a>
+                    </div>
+                
+                <div class="footer__links text-uppercase ">
+
+<ul class="list-inline list-unstyled">
+    <li>
+    
+    
+        <a href="/splash">
+            Spectrum News
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="/nyc/all-boroughs/about-us/contact-us">
+            CONTACT
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="/nyc/all-boroughs/about-us">
+            ABOUT
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="/nyc/all-boroughs/rss">
+            RSS
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="/nyc/all-boroughs/about-us/faq">
+            FAQ
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="http://www.ny1.com/sitemap.xml" target="_blank">
+            SITEMAP
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://jobs.spectrum.com/content-media-news" target="_blank">
+            CAREERS
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://go2.spectrumreach.com/bigapple_spectrumnews_tv" target="_blank">
+            ADVERTISE WITH US
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://www.spectrum.com/policies/residential-terms.html" target="_blank">
+            TERMS
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://www.spectrum.com/policies/your-privacy-rights" target="_blank">
+            Your Privacy Rights
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://www.spectrum.com/policies/california" target="_blank">
+            California Consumer Privacy Rights
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://www.spectrum.com/policies/your-privacy-rights-opt-out" target="_blank">
+            California Consumer Limit the Use of My Sensitive Personal Information
+        </a>
+        
+    
+</li>
+
+    <li>
+    
+    
+        <a href="https://spectrum.com/policies/your-privacy-rights-opt-out" target="_blank">
+            Do Not Sell or Share My Personal Information/Opt-Out of Targeted Advertising
+        </a>
+        
+    
+</li>
+</ul>
+
+
+</div>
+                
+            </div>
+        </div>
+    <div class="legal-copy ">
+© 2024, Charter Communications, all rights reserved.</div>
+    </div>
+</footer>
+</div>
+
+    
+        
+        
+        <div class="newpar new section">
+
+</div>
+
+    
+        
+        
+        <div class="par iparys_inherited">
+
+    
+    
+    
+    
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Manually include shared clientlib dependencies outside of the SSI directives. -->
+
+
+    
+<script src="/etc/clientlibs/news/vendor/bowser.min.ACSHASH66fb5ded26b5d86decaa5cc59ba79320.js"></script>
+<script src="/etc/designs/news/clientlibs/js/pinxt-authentication.min.ACSHASH2d93fd4744161ae11a8e69e411d2f55a.js"></script>
+<script src="/etc/designs/news/clientlibs/js.min.ACSHASH7b03e7fbfa607f63001bceceaa5ed9cb.js"></script>
+
+
+
+
+
+    
+<script src="/etc/designs/news/clientlibs/js/article-app-prompt.min.ACSHASHce40a79fa9e435394e8ada2c37b9c036.js"></script>
+
+
+
+
+
+
+
+
+
+<!-- Import design specific JS within SSI includes -->
+
+<!-- Load empire JS library -->
+
+    
+<script src="/etc/designs/news-empire/clientlibs/js.min.ACSHASH06084e7ec22830adba7f6546612bcb11.js"></script>
+
+
+
+
+
+
+
+
+
+<script src="https://documentservices.adobe.com/view-sdk/viewer.js"></script>
+
+
+
+
+
+
+<!--Open in App Component -->
+
+    
+
+
+
+
+    
+<script src="/etc/designs/news/clientlibs/js/footer-year.min.ACSHASH3d09f78678547bd9e7d0c2c3f7c19348.js"></script>
+
+
+
+
+
+
+
+    
+
+        
+        
+
+        
+
+        
+        
+
+        
+        
+            
+    
+<script src="/etc/designs/news/clientlibs/js/article.min.ACSHASHcd75149b2e581dc4fc3c5e88a895f5e2.js"></script>
+
+
+
+        
+
+    
+
+        
+        
+
+        
+
+        
+        
+
+        
+        
+            
+    
+<script src="/etc/designs/news/clientlibs/js/user-profile.min.ACSHASH2394c0f7636a409669d7e244599581d8.js"></script>
+
+
+
+        
+
+    
+
+        
+        
+            <script type="text/javascript">
+(function($) {
+    if (!isMobile.any) {
+        /* By default the panels should be only be expanded on a desktop */
+        $('footer .panel-collapse.collapse').addClass('in');
+        /* Remove collapse functionality on desktop */
+        $('footer .panel-title').removeAttr('data-toggle');
+    }
+    if (isMobile.any) {
+        /* Only display the + sign on a mobile device */
+        $('footer .expand-control').removeClass('hidden');
+        /* BUGFIX: Include an empty onclick function on footer accordions to fix an iOS device bug with bootstrap collapse.
+        Sometimes iOS does not seem to treat divs as clickable elements, but adding a blank on-click handler allows
+        the rest of bootstrap collapse to function without side effects. */
+        $('footer .panel-title').on('click', function(){})
+    }
+})(jQuery);
+</script>
+        
+
+        
+
+        
+        
+
+        
+        
+
+    
+
+
+
+
+
+
+
+<script>
+    /**
+     * sets the  quantum visitId in the 'digitalData'
+     * layer at: window.digitalData.visit.visitId
+     *
+     **/
+    var timeit = window.setInterval(setVisitId, 2000);
+
+    function setVisitId() {
+        if (window && window.Helix && window.Helix.track) {
+            window.digitalData.visit.visitId = window.Helix.get("visitId");
+        }
+        if (window.digitalData.visit.visitId && typeof window.digitalData.visit.visitId !== 'undefined') {
+            clearInterval(timeit);
+        }
+    }
+</script>
+
+
+
+
+<script type="text/javascript">
+    window.addEventListener("load", function (e) {
+        var auth = localStorage.getItem('authenticatedV2')
+        var docClicked = Cookies.get('clicked-resumed')
+        if ((auth && auth === "true") && (!docClicked)) {
+            News.App.QuantumAnalytics.checkQuantumLoginResume();
+        } else if ((auth && auth === "true") && docClicked) {
+            Cookies.remove('clicked-resumed')
+        }
+    });
+
+    $(document).ready(function () {
+        $(document).on('click', function (e) {
+            var auth = localStorage.getItem('authenticatedV2')
+            if (auth && auth === "true") {
+                News.App.QuantumAnalytics.cookieGeneral("clicked-resumed");
+            }
+        });
+    });
+</script>
+
+</body>
+</html>

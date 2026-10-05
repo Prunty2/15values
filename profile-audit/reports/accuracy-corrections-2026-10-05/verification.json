@@ -1,0 +1,71 @@
+{
+  "questionBankCheck": {
+    "passed": true,
+    "questions": 240,
+    "axes": 15
+  },
+  "unitTests": {
+    "passed": true,
+    "tests": 86,
+    "note": "System Git initially failed because of the Xcode license; reran successfully using the already bundled fallback Git on PATH."
+  },
+  "profileValidationAndGeneration": {
+    "passed": true,
+    "profilesAtCorrectionBuild": 171,
+    "profilesAtSubsequentCheck": 172,
+    "note": "Pakistan was added by unrelated country work in the shared checkout. No subjects added by these corrections."
+  },
+  "build": {
+    "passed": true
+  },
+  "browserChecks": {
+    "initialFullRun": {
+      "passed": 165,
+      "failed": 6,
+      "reason": "Homepage strip assigned political leaning from numerical matches; corrected the label to recorded metadata."
+    },
+    "afterFix": {
+      "passed": 60,
+      "projects": [
+        "desktop",
+        "mobile",
+        "safari"
+      ],
+      "suites": [
+        "catalogue",
+        "home-strip",
+        "results"
+      ]
+    },
+    "afterFinalLargestGapDisplay": {
+      "passed": 39,
+      "suites": [
+        "catalogue",
+        "results"
+      ],
+      "projects": [
+        "desktop",
+        "mobile",
+        "safari"
+      ]
+    }
+  },
+  "actualPageInspection": {
+    "browser": "WebKit",
+    "profiles": [
+      "salvador-allende",
+      "ayn-rand"
+    ],
+    "axisRows": 15,
+    "portraitsLoaded": true,
+    "phoneWidth": 390,
+    "noHorizontalOverflow": true,
+    "allendeGap": "43.7 points on Democracy vs Autocracy",
+    "credits": "Followed the Image credits footer link and verified the reused Ayn Rand portrait entry and source/public-domain links."
+  },
+  "history": {
+    "method": "SHA-256 of every pre-existing source archive and image at the start of this correction pass",
+    "changed": []
+  },
+  "limitations": "52 targeted answer corrections, not a fresh substantive certification of all 19,200 personality responses. All 240 answers in each amended profile remain inferred; full IDs are in the per-profile review and all-personalities.json."
+}

@@ -18,10 +18,21 @@ Check for an existing entry and draft before creating an ID. Do not populate any
 
 Define the country or regime and period. Assess institutions and implemented policies, not the views of every citizen. Find a period-appropriate flag on Wikimedia Commons. Record its Commons File page, creator and licence, and add its reference to the footer-linked Image credits list, following the shared procedure and existing Andy Burnham credit format.
 
-Carry the authorised profile through research, all 240 evidence-backed answers,
+Carry the authorised profile through research, all 240 most-likely answers,
 separate review, validation, immutable archive, generation and browser checks.
-Use the project's existing scorer. Unknown evidence stays unresolved; do not
-substitute Neutral, copy another profile, or tune answers to avoid similarity.
-Record the actual review and verification. If research remains insufficient,
-keep a draft and explain the specific gap. Prepare a scoped contribution; open a
+Use the project's existing scorer. Answer every question. After research, resolve evidence gaps to the most likely
+choice as an educated assumption under the shared procedure: use `inferred`, an
+`Educated assumption:` rationale, contextual citations and explicit uncertainty.
+Flag these questions in chat and review; completed records must have no
+null/unknown answers. Do not automatically substitute Neutral, copy another
+profile, or tune answers to avoid similarity.
+Record the actual review and verification. Resolve remaining research gaps using
+the disclosed educated-assumption rule and continue through completion. Prepare a scoped contribution; open a
 PR only when requested, and never auto-merge or deploy.
+
+Complete the authorised profiles through the full local workflow under the shared
+procedure's completion requirement. Do not stop at a readiness report, partial
+draft or remaining evidence gaps: resolve them with disclosed most-likely educated
+assumptions, then review, validate, archive, generate and verify. Do not ask again
+for permission already given. Report permanent answer-file links and 240/240 counts.
+Report genuine technical blockers accurately while continuing other authorised work.

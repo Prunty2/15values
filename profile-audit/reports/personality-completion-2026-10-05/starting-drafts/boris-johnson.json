@@ -1,0 +1,2269 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "personality",
+  "id": "boris-johnson",
+  "revision": 3,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "OpenAI Codex /root/other_audit",
+  "changeNote": "Independent evidence audit using original 240 questions. Unsupported precise attributions remain unresolved; this draft is not approved for publication.",
+  "metadata": {
+    "name": "Boris Johnson",
+    "description": "UK prime minister combining Brexit sovereignty, free-trade advocacy and unionism with public-service commitments, emergency spending and a strong defence and technology agenda.",
+    "category": "Political leader",
+    "period": "2019–2022",
+    "scope": "Personal positions and governing conduct during 2019–2022. Coalition measures are attributed cautiously. Modern hypothetical policies are labelled inferred, not claimed as direct statements. Research cutoff 4 October 2026; later views do not overwrite a former governing period.",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "Born 1964",
+    "image": {
+      "path": "profiles/images/boris-johnson-r2.jpg",
+      "alt": "Boris Johnson portrait",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Boris_Johnson_official_portrait_(cropped).jpg",
+      "creator": "Ben Shread / Cabinet Office",
+      "license": "OGL 3",
+      "licenseUrl": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3"
+    }
+  },
+  "sources": [
+    {
+      "id": "johnson-trade",
+      "title": "PM speech in Greenwich",
+      "url": "https://www.gov.uk/government/speeches/pm-speech-in-greenwich-3-february-2020",
+      "publisher": "UK Government",
+      "date": "2020-02-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "johnson-institutions",
+      "title": "The end of Boris Johnson’s premiership",
+      "url": "https://www.instituteforgovernment.org.uk/comment/boris-johnson-premiership",
+      "publisher": "Institute for Government",
+      "date": "2022-09-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "johnson-migration",
+      "title": "PM speech on action to tackle illegal migration",
+      "url": "https://www.gov.uk/government/speeches/pm-speech-on-action-to-tackle-illegal-migration-14-april-2022",
+      "publisher": "UK Government",
+      "date": "2022-04-14",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "johnson-ai",
+      "title": "Defence Artificial Intelligence Strategy",
+      "url": "https://www.gov.uk/government/publications/defence-artificial-intelligence-strategy/defence-artificial-intelligence-strategy",
+      "publisher": "UK Ministry of Defence",
+      "date": "2022-06-15",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "johnson-health-primary",
+      "title": "Health and social care press statement",
+      "url": "https://www.gov.uk/government/speeches/pm-statement-at-press-conference-on-health-and-social-care-7-september-2021",
+      "publisher": "UK Government",
+      "date": "2021-09-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "johnson-health-context",
+      "title": "Health and Social Care Levy Act 2021",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-9310/",
+      "publisher": "House of Commons Library",
+      "date": "2022-10-06",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Electoral leadership and parliamentary replacement coexisted with unlawful prorogation and repeated institutional conflict.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: competitive election requirement.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: expert appointment replacing voters.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: universal adult franchise.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: legislation against parliamentary rejection.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: equal opposition campaigning.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: opposition financial scrutiny.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: constitutional judicial review.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: union appointment replacing voters.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving political exclusion of parties.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving binding law-repeal referendum.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: sole leader control of policy.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: constitutional removal for abuse.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: unapproved election postponement.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving recall before term expiry.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: absence of electoral/representative accountability.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Constitutional inference is qualified by his actual conduct; it is not an unqualified clean-governance claim. Specific application: military replacement of civilians.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving drug use without harm to others.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving court-authorised serious-crime surveillance.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving peaceful temporary traffic obstruction.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving offensive criticism of public institutions.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving compulsory measures primarily protecting the adult themselves.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving multi-year tracking of nonsuspects.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving random intoxication checks.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving court-ordered preoffence movement restriction.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving access to morally objectionable media.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving online service use without governmental identity verification.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving area-wide stop/search without individual suspicion.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving credible-disorder gathering prohibition.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving home-warrant rule with emergency exception.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving publication of confidential evidence of official wrongdoing.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving checked personal-defence firearm ownership.",
+          "sources": []
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving terrorism detention without independent courts.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national-culture priority on conflict.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving costly cultural accommodations in services.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving adoption of cultural customs.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving retention of foreign identity.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national-language service priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving Indigenous ceremonial acknowledgment.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving predominant-tradition funding priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving distinct-identity priority in conflict.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving single cultural calendar.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving several traditions in national identity.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving wider-community participation.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving foreign-language public signage.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving family national-identity priority.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving burqa exception to other covering bans.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving several cultural ways of life.",
+          "sources": []
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving custom adoption priority in programmes.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Welcomed designated legal refugee schemes, including uncapped Ukrainians, but rejected uncontrolled entry and sought removal of irregular arrivals.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving strict housing/workforce annual cap.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: general settlement to improve conditions.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving skills-exclusive permanent residence.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving dependant family reunion.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: permanent refuge independent of skills/culture.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: remaining after illegal entry.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving limits despite employer demand.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: reduction despite economic gains to relieve services.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving family quota inclusion.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving job offer generally sufficient for entry.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving required employer/family sponsorship.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving graduation alone and permanent-residence route.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: persecution protection after quotas.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified distinction between safe-route protection and general permission to settle or remain. Specific application: cultural-similarity preference.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving noncitizen welfare/social housing.",
+          "sources": [
+            "johnson-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving difference in culture as reason for more arrivals.",
+          "sources": [
+            "johnson-migration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Defence AI strategy pursues operational advantage and national security while retaining political accountability.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving force for national interests without prior attack.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving diplomacy priority despite delay.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Limited capability inference; supporting defence AI alone does not settle automatic lethal target selection. Specific application: costly military superiority.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving strong-evidence imminent-attack prevention.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving force only after actual attack on nation/ally.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving compulsory male military training.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving substantial concessions avoiding war.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving autonomous attacks without human approval of each target.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving defence rather than foreign campaigns.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Limited capability inference; supporting defence AI alone does not settle automatic lethal target selection. Specific application: avoiding war even if an ally is attacked.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving prolonged foreign combat capability.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving leaving territory disputed rather than starting war.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving military threats for concessions.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving war-risk reduction over resolve.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving risky military espionage.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving negotiated capability reductions.",
+          "sources": [
+            "johnson-ai"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Brexit prioritised independent laws, borders and monetary control; supported alliances and reciprocal trade agreements.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: final domestic institutional authority.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: binding international decision despite government opposition.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: domestic court priority over international ruling.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: constraining long-term alliances.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: withdrawal without international permission.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving binding international court over own officials.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: national interest priority over international goals.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving delegated cross-border environmental authority.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving outside common-foreign-policy blocs.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving required domestic human-rights law changes.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: national rather than shared currency authority.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving pooled international funds/decisions.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: sole border authority.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: common negotiated trade rules.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Question-specific sovereignty assessment preserves his willingness to accept negotiated trade obligations. Specific application: outside political federation.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving collective rule enforcement despite immediate national interest.",
+          "sources": [
+            "johnson-trade",
+            "johnson-migration",
+            "johnson-institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Greenwich speech favours enterprise and explicitly excludes the NHS from trade bargaining.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified private-business preference does not imply privatisation of healthcare facilities. Specific application: private ownership of most businesses.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public utility networks.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving private ownership on comparable provision.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public competitive enterprises.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified private-business preference does not imply privatisation of healthcare facilities. Specific application: private facilities with public healthcare funding.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public passenger rail infrastructure.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving lower-cost private service contracts.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public alongside private banks.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving sale of public commercial enterprises.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving substantial public rental housing.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving regulated private security-important businesses.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public resource extraction.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving routine-service private contracting.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving retained strategic ownership despite sale revenue.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving sale of repeatedly subsidized public enterprises.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public national broadcaster.",
+          "sources": [
+            "johnson-trade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Champions open trade and competition, with retained domestic standards and negotiating autonomy.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified trade-opening inference; this does not settle unilateral tariff removal or security exceptions. Specific application: protective import tariffs.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade-opening inference; this does not settle unilateral tariff removal or security exceptions. Specific application: most trade barriers removed despite domestic losses.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving domestic procurement despite higher prices.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade-opening inference; this does not settle unilateral tariff removal or security exceptions. Specific application: best-terms international sourcing.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving essential imports restricted to maintain domestic output.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving unilateral trade liberalisation.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving temporary infant-industry protection.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade-opening inference; this does not settle unilateral tariff removal or security exceptions. Specific application: equal foreign-investor establishment terms.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving protected farming capacity.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving domestic adjustment over protection.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving retaliatory tariffs.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving equal product taxes.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving restrictions on foreign-subsidized imports.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified trade-opening inference; this does not settle unilateral tariff removal or security exceptions. Specific application: tariff-removing trade deals despite dependence.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving foreign control prevented in strategic firms.",
+          "sources": [
+            "johnson-trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving foreign online services without special trade barriers.",
+          "sources": [
+            "johnson-trade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Enterprise-led economy coexisted with extraordinary furlough subsidies during the pandemic.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: business production choice.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: compulsory important-industry targets.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: supply-demand prices.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national-plan directed investment.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: consumer-demand expansion/closure.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving essential-price controls.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: entry without proving need.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving priority-sector bank lending directions.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving unapproved outward capital movement.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving selected-industry development subsidies.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving competing private currencies.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving statutory minimum wage.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving negotiated wages over state schedules.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving central-bank support for national plan.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving market rents.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Ordinary-conditions question is distinguished from emergency intervention. Specific application: ordinary national production/distribution coordination.",
+          "sources": [
+            "johnson-trade",
+            "johnson-institutions"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Temporary Universal Credit uplift and announced NHS tax increase complicate a uniform tax-cut priority. Publicly endorsed progressive contributions with exempt low earners and heavier burden on higher earners, while acknowledging broken no-tax-rise pledge.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving substantial disposable-income equalisation.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving inequality alone insufficient for tax.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Neutral is limited to evidenced competing policy priorities, not absence of a researched position. Specific application: higher-tax stronger minimum income.",
+          "sources": [
+            "johnson-institutions"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving basic safety net rather than narrowing living standards.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified effective/marginal tax assessment does not equate a proportional levy component with abolishing graduated income-tax brackets. Specific application: substantially higher average tax share for high earners.",
+          "sources": [
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving greater income retention despite unequal households.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving inheritance tax funding income support.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving expiry for able-to-work low-income recipients.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving wealth tax funding income transfers.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving modest benefits for lower tax burden.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving support for ordinary social participation.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving tax cuts ahead of cash benefits.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public supplements for low-paid work.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Qualified effective/marginal tax assessment does not equate a proportional levy component with abolishing graduated income-tax brackets. Specific application: no higher marginal rates on high earners.",
+          "sources": [
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving compensated redistribution of large landholdings.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving benefits limited to basic-needs inability.",
+          "sources": [
+            "johnson-institutions",
+            "johnson-health-primary",
+            "johnson-health-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving nonreligious justification of laws.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving religious teaching as official law source.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving policy without clerical approval.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving particular religion constitutional foundation.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving nonproselytising public-school religion teaching.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving faith-forming instruction in recognised state religion.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving civil rather than clerical court law.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving official clerical review of legislation.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving no official ceremonial worship.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving public funding to strengthen belief.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving no endorsing governmental religious symbols.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving official predominant-religion festival holidays.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving no ex-officio religious governmental seats.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving special religious tax exemption.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving no religious marriage approval requirements.",
+          "sources": []
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving binding religious family courts.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving substantial custom change with new values.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving tradition priority over new values.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving equal recognition of nontraditional households.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving distinct traditional sex roles.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving marriage irrespective of sex.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving preferred married two-parent model.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving social acceptance of early abortion.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving parental final say on sexual-value lessons.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving equal social acceptance of same-sex adoption.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving traditional modest dress.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving identity-responsive language change.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving transmitting old morals before new ones.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving equal acceptance across traditional sex roles.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving gradual social-institution change despite popularity.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving school sexual-orientation/gender-identity lessons.",
+          "sources": []
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving custom preservation despite unclear purpose.",
+          "sources": []
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "AI adoption was tied to workforce training and operational productivity.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving wide technology use with uncertain long-term risks. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving small trials until substantial long-term risk evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving infrastructure despite permanent habitat loss. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving long-term medical safety before wide access. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Qualified modern-workplace inference retains the strategy’s reskilling requirement. Specific application: productive AI despite displacement/retraining.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving habitat preservation over beneficial development. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving cultivated meat before environmental effects understood. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving research-only healthy enhancement implants until strong long-term safety. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving unproven technological climate priority over lower consumption. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving construction delay with poorly understood environment effects. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving enhancement implants after basic safety despite long-term uncertainty. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving clinical AI trials until reliable across patient groups. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving embryo enhancement trials beyond disease prevention. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving long-term ecosystem evidence before widespread GM crops. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving infrastructure over undeveloped land. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving delay possible irreversible harm until strong contrary evidence. General scientific enthusiasm, informed consent or public-development policy does not establish this particular safety/effect threshold.",
+          "sources": [
+            "johnson-ai"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "UK-wide levy and central allocation across devolved nations constrained independent regional tax choices for this national programme.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving protected regional affairs despite central disagreement.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Limited tax-jurisdiction inference addresses this national framework, not every possible local-authority dispute. Specific application: central final jurisdictional say.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving referendum secession.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving central overriding popular regional obstruction.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving regional constitutions within national rights.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving single national police authority.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving most local tax retained.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national compulsory school curriculum.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving regional tax-rate variation.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national employment rules.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving local boundary/power changes without central approval.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving national treatment coverage.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving Indigenous territorial institutions.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Limited tax-jurisdiction inference addresses this national framework, not every possible local-authority dispute. Specific application: central tax-competition limits.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving local-only land/wildlife management.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving central multi-region disaster direction.",
+          "sources": [
+            "johnson-health-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Dedicated axis search completed; no sufficient question-level personal evidence established in the sources read.",
+      "counterEvidence": "The stated period and personal position take priority over general ideology, current law, adviser opinions or coalition action. Unsupported qualifiers remain unresolved.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving upbringing greater than inherited general behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving inherited national IQ differences greater than education. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving social causes greater than biological sex behaviour. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving biological stress susceptibility greater than experience. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving experienced interests greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving inherited risk-taking greater than learning. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving social cooperation greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving inherited empathy greater than upbringing. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving experienced attention greater than inherited characteristics. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving biological immediate moral response greater than culture. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving learned threat perceptions greater than inherited tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving biological temperament greater than environment. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving cultural attraction preferences greater than inheritance. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving biological racial violence greater than surroundings. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving learned self-control greater than inherited racial tendencies. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Missing personal evidence within 2019–2022 resolving economic-value pay gap rather than social expectations. Normative equality, schooling policy, learned conventions or recognition that genes and environment interact do not establish the comparative causal claim.",
+          "sources": []
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "/root/current_audit independent peer; /root targeted coordinator review",
+    "reviewedAt": "2026-10-04",
+    "notes": "Separate-context peer review completed across all 240 exact question conditions; see profile-audit/reports/personalities-2026-10-04/current-reviews-other.json. Selected actual primary-source passages were read independently and 22 concrete concerns resolved. This is not exhaustive independent full-source certification. Unresolved answers still prohibit publication, and similarity clearance remains pending.",
+    "similarity": []
+  }
+}

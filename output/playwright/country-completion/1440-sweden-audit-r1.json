@@ -1,0 +1,3551 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "sweden",
+  "revision": 1,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex (GPT-6 AI assessment agent; independent Sweden subject assessment)",
+  "changeNote": "Sweden-specific 240-question assessment through 2026-10-04: 236 supported responses, four precise unknowns retained; distinct same-agent evidence review completed, independent parent audit pending. Focused gap research on 5 October 2026 retained 4 explicit unknowns; review notes record the sources checked and limitations. Completion on 5 October 2026 resolves 4 remaining responses under the owner-authorised educated-assumption rule; the earlier unresolved draft and reviews are preserved separately.",
+  "metadata": {
+    "name": "Sweden",
+    "description": "Swedish institutions and implemented policies through 4 October 2026, with Ulf Kristersson leading a caretaker government after the September election.",
+    "category": "Unitary parliamentary constitutional monarchy",
+    "period": "Contemporary institutions through 2026-10-04; Kristersson government, caretaker from 2026-09-17.",
+    "scope": "Swedish national and relevant local institutions, implemented laws and EU obligations; not citizens’ personal views or future coalition pledges. Includes provisional educated assumptions where the exact institutional response is not documented; these are labelled in the answer file and completion review.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/sweden-r1.png",
+      "alt": "Flag of Sweden: a yellow Nordic cross on a blue field",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+      "creator": "Jon Harald Søby and other Wikimedia Commons contributors",
+      "license": "Public domain (PD-shape)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-shape"
+    }
+  },
+  "sources": [
+    {
+      "id": "caretaker",
+      "title": "Prime Minister to lead caretaker government",
+      "url": "https://www.government.se/articles/2026/09/prime-minister-to-lead-caretaker-government/",
+      "publisher": "Government Offices",
+      "date": "2026-09-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "incumbent",
+      "title": "Ulf Kristersson: current caretaker Prime Minister",
+      "url": "https://government.se/government-of-sweden/prime-ministers-office/ulf-kristersson/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "election",
+      "title": "Prime minister resigns after opposition wins narrow majority",
+      "url": "https://apnews.com/article/bf88ef9771cdd4f435a1568b98a11790",
+      "publisher": "Associated Press",
+      "date": "2026-09-17",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "Instrument of Government, current consolidated law",
+      "url": "https://data.riksdagen.se/dokument/sfs-1974-152.html",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution-en",
+      "title": "The Constitution of Sweden and Riksdag Act (2023 edition)",
+      "url": "https://www.riksdagen.se/globalassets/03.-dokument-och-lagar/bestall-och-ladda-ner/other-languages/grundlagar-2023-engelsk-web.pdf",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "freedom",
+      "title": "Freedom in the World 2026: Sweden",
+      "url": "https://freedomhouse.org/country/sweden/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "acts-2026",
+      "title": "Key acts and ordinances entering into force late 2025 and early 2026",
+      "url": "https://www.government.se/contentassets/d0515b0b0bf246aea7fd9d08fc6b9373/key-acts-and-ordinances-entering-into-force-in-late-2025early-2026/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "zones",
+      "title": "Security zones: search powers and appeals",
+      "url": "https://polisen.se/fit/lakia-ja-maarayksia/general-information-about-security-zones/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work-2026",
+      "title": "New rules for labour immigration from 1 June",
+      "url": "https://www.migrationsverket.se/en/news-archive/news/2026-06-01-new-rules-for-labour-immigration-from-1-june.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "2026-06-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "amnesty",
+      "title": "Sweden: Amnesty International annual report 2025/26",
+      "url": "https://www.amnesty.org/en/location/europe-and-central-asia/western-central-and-south-eastern-europe/sweden/report-sweden/",
+      "publisher": "Amnesty International",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "security",
+      "title": "National security strategy",
+      "url": "https://www.government.se/globalassets/government/national-security-strategy.pdf",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "asylum-2026",
+      "title": "July 12 changes remove permanent asylum-related permits and implement EU pact",
+      "url": "https://www.migrationsverket.se/nyhetsarkiv/nyhetsarkiv/2026-07-09-flera-lagandringar-inom-migrationsomradet-fran-12-juli.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "2026-07-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "demonstrations",
+      "title": "Demonstrations, expression, order and religious face-covering exemption",
+      "url": "https://polisen.se/en/the-swedish-police/demonstrations---questions-and-answers/",
+      "publisher": "Swedish Police Authority",
+      "date": "2024-12-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "breath",
+      "title": "Alcohol breath testing without criminal suspicion",
+      "url": "https://polisen.se/siteassets/dokument/forensik/alkoholutandningsprov---information.pdf",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "search",
+      "title": "Who can authorize a house search",
+      "url": "https://www.aklagare.se/ordlista/h/husrannsakan/",
+      "publisher": "Swedish Prosecution Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "custody",
+      "title": "Arrest, remand and house-search safeguards",
+      "url": "https://polisen.se/lagar-och-regler/gripen-anhallen-eller-haktad/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "exclusion",
+      "title": "Parliament adopts preventive exclusion orders",
+      "url": "https://www.riksdagen.se/en/news/articles/2024/jan/24/new-law-on-preventive-exclusion-orders_cms16aed2f8-066f-46b0-8591-0605c2ea1f4den/",
+      "publisher": "Riksdag",
+      "date": "2024-01-24",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "minorities",
+      "title": "Sweden sixth report under Framework Convention for National Minorities",
+      "url": "https://www.regeringen.se/globalassets/regeringen/dokument/kulturdepartementet/se-6th-report-fcnm-english.pdf",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "canon",
+      "title": "Culture canon and independent reporting of political disagreement",
+      "url": "https://www.sverigesradio.se/artikel/opposition-still-critical-of-culture-canon-a-smokescreen",
+      "publisher": "Sveriges Radio",
+      "date": "2025-09-03",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work-routes",
+      "title": "Employee and self-employed migration routes",
+      "url": "https://www.migrationsverket.se/en/you-want-to-apply/work/employee-or-self-employed.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "work-permanent",
+      "title": "Work-permit extensions and permanent settlement conditions",
+      "url": "https://www.migrationsverket.se/en/you-want-to-extend/work/employee-or-self-employed/employees.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-camera",
+      "title": "Police camera and ANPR retention rules",
+      "url": "https://polisen.se/lagar-och-regler/behandling-av-personuppgifter/kamerabevakning/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "weapons",
+      "title": "Weapon licence requirements",
+      "url": "https://polisen.se/en/laws-and-regulations/firearms/weapon-licence/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "seatbelt",
+      "title": "Compulsory seat-belt rules",
+      "url": "https://www.transportstyrelsen.se/sv/vagtrafik/trafikregler-och-vagmarken/trafikregler/i-fordonet/baltesregler/",
+      "publisher": "Swedish Transport Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sim",
+      "title": "Mandatory prepaid SIM registration",
+      "url": "https://www.pts.se/internet-och-telefoni/sakerhet-och-skydd-av-uppgifter/kontantkort/",
+      "publisher": "PTS",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "drugs",
+      "title": "Narcotic Drugs Punishments Act, consolidated law",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/narkotikastrafflag-196864_sfs-1968-64/",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "whistle",
+      "title": "Public access and confidentiality: freedom to communicate and exceptions",
+      "url": "https://medarbetare.su.se/en/support-and-service/legal/public-access-to-information-and-confidentiality",
+      "publisher": "Stockholm University",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "criminal-procedure",
+      "title": "Code of Judicial Procedure: surveillance and searches",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/rattegangsbalk-1942740_sfs-1942-740framtagen/",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ownership",
+      "title": "Adopted State Ownership Policy 2025",
+      "url": "https://www.government.se/contentassets/9c0ce65139ce4255b3a8f8bcd720113d/state-ownership-policy-2025_.pdf",
+      "publisher": "Government Offices",
+      "date": "2025-02-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "oecd",
+      "title": "Economic Surveys: Sweden 2025",
+      "url": "https://www.oecd.org/en/publications/oecd-economic-surveys-sweden-2025_75e94b2f-en.html",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rent",
+      "title": "Observed rent controls and housing-market structure",
+      "url": "https://www.oecd.org/en/publications/2025/06/oecd-economic-surveys-sweden-2025_70cad22e/full-report/matching-housing-supply-and-demand_137c5aa2.html",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nato",
+      "title": "Sweden’s operational role in NATO",
+      "url": "https://www.government.se/government-policy/sweden-in-nato/swedens-role-in-nato/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "foreign-2026",
+      "title": "Statement of Foreign Policy 2026",
+      "url": "https://www.government.se/speeches/2026/02/statement-of-foreign-policy-2026/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade",
+      "title": "Strategy for Sweden’s trade, investment and global competitiveness",
+      "url": "https://www.government.se/contentassets/cc8b5c6c15724583855273c16111662b/strategy-for-swedens-trade-investment-and-global-competitiveness.pdf",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "weapons-2026",
+      "title": "New firearms legislation effective 1 June 2026",
+      "url": "https://polisen.se/tjanster-tillstand/vapen-regler-och-tillstand/nyheter-i-vapenlagstiftningen-fran-1-juni-2026/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "weapons-act",
+      "title": "Firearms Act SFS 2026:408",
+      "url": "https://www.svenskforfattningssamling.se/sites/default/files/sfs/2026-04/SFS2026-408.pdf",
+      "publisher": "Swedish Code of Statutes",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "language",
+      "title": "Language Act 2009:600, current provisions",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/spraklag-2009600_sfs-2009-600/",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sami-day",
+      "title": "Sami national day observed by the national county administration",
+      "url": "https://www.lansstyrelsen.se/sodermanland/om-oss/nyheter-och-press/nyheter---sodermanland/2026-02-06-samernas-nationaldag-6-februari.html",
+      "publisher": "County Administrative Board Södermanland",
+      "date": "2026-02-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "graduate",
+      "title": "Residence to seek work after completing Swedish studies",
+      "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "conscription",
+      "title": "Gender-neutral total defence duty and conscription",
+      "url": "https://www.pliktverket.se/om-myndigheten/in-english",
+      "publisher": "Swedish Defence Conscription and Assessment Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "defence",
+      "title": "Implemented Defence Resolution 2025–2030",
+      "url": "https://www.government.se/government-policy/total-defence/defence-resolution-2025-20302/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "force-objectives",
+      "title": "Military defence objectives",
+      "url": "https://www.government.se/government-policy/military-defence/objectives/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family",
+      "title": "Residence permits for partner and dependent children",
+      "url": "https://www.migrationsverket.se/en/you-want-to-apply/live-with-someone/live-with-a-partner-child-or-other-relative/live-with-a-partner.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-maintenance",
+      "title": "Family maintenance and housing requirements",
+      "url": "https://www.migrationsverket.se/en/word-explanations/maintenance-requirement-for-reference-persons.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "family-october",
+      "title": "New family-member requirements effective 1 October",
+      "url": "https://www.migrationsverket.se/nyheter/news-archive/2026-10-01-new-rules-for-family-members-accompanying-employees.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "2026-10-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "insurance",
+      "title": "Moving to Sweden: residence and work-based insurance benefits",
+      "url": "https://www.forsakringskassan.se/english/moving-to-working-studying-or-newly-arrived-in-sweden/move-to-sweden",
+      "publisher": "Försäkringskassan",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cyber-law",
+      "title": "Sweden position on international law in cyberspace",
+      "url": "https://www.government.se/contentassets/3c2cb6febd0e4ab0bd542f653283b140/swedens-position-paper-on-the-application-of-international-law-in-cyberspace.pdf",
+      "publisher": "Government Offices",
+      "date": "2022-07-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aws-policy",
+      "title": "Parliamentary examination of national security strategy and autonomous weapons",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/nationell-sakerhetsstrategi_hc01uu6/html/",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aws-critique",
+      "title": "Independent criticism of Swedish autonomous-weapons policy",
+      "url": "https://www.hrw.org/news/2025/04/28/sweden-should-oppose-killer-robots-its-too-late",
+      "publisher": "Human Rights Watch",
+      "date": "2025-04-28",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sbab",
+      "title": "Publicly owned SBAB Bank and services",
+      "url": "https://www.sbab.se/1/in_english/about_sbab.html",
+      "publisher": "SBAB",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "broadcast",
+      "title": "SVT ownership by independent trust",
+      "url": "https://www.government.se/government-agencies/swedish-television-svt/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "return",
+      "title": "Rejected asylum applications and return duties",
+      "url": "https://www.migrationsverket.se/en/you-have-received-a-decision/international-protection-asylum/your-application-has-been-rejected.html",
+      "publisher": "Swedish Migration Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "riksbank",
+      "title": "Central-bank tasks, kronor and independence",
+      "url": "https://www.riksbank.se/en-gb/about-the-riksbank/the-tasks-of-the-riksbank/",
+      "publisher": "Sveriges Riksbank",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "icc",
+      "title": "Cooperation with International Criminal Court Act",
+      "url": "https://government.se/government-policy/judicial-system/cooperation-with-the-international-criminal-court-act/",
+      "publisher": "Government Offices",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tribunal",
+      "title": "Sweden joins Ukraine special tribunal and claims commission",
+      "url": "https://www.government.se/press-releases/2026/06/sweden-joins-special-tribunal-and-international-claims-commission-for-ukraine/",
+      "publisher": "Government Offices",
+      "date": "2026-06-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fra",
+      "title": "English summary: defence signals intelligence",
+      "url": "https://fra.se/system/engelska/english.4.55af049f184e92956c42ca2.html",
+      "publisher": "National Defence Radio Establishment",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "arms-control",
+      "title": "Defence Commission interim report June 2026",
+      "url": "https://www.government.se/contentassets/999b43e37fc84384827d09156be6a65f/report-the-swedish-defence-commissions-interim-report-on-the-current-state-of-swedens-total-defence-and-the-security-situation-june-2026.pdf",
+      "publisher": "Government of Sweden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "procurement",
+      "title": "Fundamental procurement principles",
+      "url": "https://www.upphandlingsmyndigheten.se/regler-och-lagstiftning/de-grundlaggande-upphandlingsprinciperna",
+      "publisher": "Swedish Public Procurement Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "fdi",
+      "title": "Foreign investment screening case process",
+      "url": "https://www.isp.se/eng/foreign-direct-investment/the-case-management-process",
+      "publisher": "Inspectorate of Strategic Products",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "water",
+      "title": "Public water services municipal control",
+      "url": "https://www.svensktvatten.se/vara-sakomraden/juridik/vattentjanstlagen/inledande-bestammelser-1-5/",
+      "publisher": "Svenskt Vatten",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing",
+      "title": "Public Housing Sweden",
+      "url": "https://www.sverigesallmannytta.se/in-english/",
+      "publisher": "Public Housing Sweden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "health",
+      "title": "Sweden Country Health Profile 2025",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/12/country-health-profile-2025-country-notes_7e72146d/sweden_89cbfa25/a77d5bfa-en.pdf",
+      "publisher": "OECD and European Observatory",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rail",
+      "title": "Network Statement 2026",
+      "url": "https://bransch.trafikverket.se/en/startpage/operations/Operations-railway/Network-Statement/network-statement-2026/",
+      "publisher": "Trafikverket",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "lkab",
+      "title": "Our organisation",
+      "url": "https://lkab.com/en/who-we-are/our-organisation/",
+      "publisher": "LKAB",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "svt",
+      "title": "About SVT ownership and remit",
+      "url": "https://omoss.svt.se/about-svt.html",
+      "publisher": "Sveriges Television",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "Prime Minister response to US tariffs",
+      "url": "https://www.government.se/statements/2025/04/statement-from-the-prime-minister-in-response-to-us-tariffs/",
+      "publisher": "Government of Sweden",
+      "date": "2025-04-02",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "wages",
+      "title": "Minimum wages and collective agreements",
+      "url": "https://www.mi.se/forhandling-avtal/lagstaloner/",
+      "publisher": "Swedish National Mediation Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crypto",
+      "title": "Cryptoasset services authorisation",
+      "url": "https://fi.se/en/payments/apply-for-authorisation/crypto-assets-and-crypto-asset-services/cryptoasset-services/",
+      "publisher": "Finansinspektionen",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "social-assistance",
+      "title": "Financial assistance and reasonable living standards",
+      "url": "https://www.socialstyrelsen.se/kunskapsstod-och-regler/omraden/ekonomiskt-bistand/",
+      "publisher": "National Board of Health and Welfare",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "norm-2026",
+      "title": "National assistance standard 2006–2026",
+      "url": "https://www.socialstyrelsen.se/contentassets/91f34c410a90484ca2fb1ed0807626d7/2026-1-10012.pdf",
+      "publisher": "National Board of Health and Welfare",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-2026",
+      "title": "2026 income tax rates and thresholds",
+      "url": "https://www.skatteverket.se/privat/skatter/beloppochprocent/2026.html",
+      "publisher": "Swedish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tax-history",
+      "title": "Taxes in Sweden: abolition of wealth and inheritance taxes",
+      "url": "https://www.skatteverket.se/download/18.d5e04db14b6fef2c8610d/1708607390124/taxes-in-sweden-skv104-utgava15.pdf",
+      "publisher": "Swedish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nuclear",
+      "title": "Implemented nuclear financing framework and June 2026 shareholder agreement",
+      "url": "https://www.government.se/government-policy/nuclear-financing/",
+      "publisher": "Government of Sweden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medicine-prices",
+      "title": "International price comparison 2025",
+      "url": "https://www.tlv.se/download/18.7da0ebe919bd8d1ee904a4de/1769772234825/international_price_comparison_2025.pdf",
+      "publisher": "Dental and Pharmaceutical Benefits Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "unemployment",
+      "title": "Unemployment Insurance Act 2024:506, effective October 2025",
+      "url": "https://iaf.se/globalassets/dokument/engelska_oversattningar/lag-2024_506-om-arbetsloshetsforsakring_engelska.pdf",
+      "publisher": "Swedish Unemployment Insurance Inspectorate",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "housing-benefit",
+      "title": "Housing allowance for families with children",
+      "url": "https://www.forsakringskassan.se/english/parents/housing-allowance-for-families-with-children",
+      "publisher": "Swedish Social Insurance Agency",
+      "date": "2025-04-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "trade-remedies",
+      "title": "Anti-dumping and countervailing duties",
+      "url": "https://www.tullverket.se/en/startpage/business/internationalbusiness/importinggoods/aboutcustomsduties/antidumpingdutyandcountervailingduty.4.4776b304199f1ed58cc8cd90.html",
+      "publisher": "Swedish Customs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "import-charges",
+      "title": "Import charges and import VAT",
+      "url": "https://www.tullverket.se/eng/business/importinggoodstoswedenfromcountriesoutsidetheeu/importcharges.4.7df61c5915510cfe9e75e5d.html",
+      "publisher": "Swedish Customs",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "cohabitation",
+      "title": "Cohabitee relationships",
+      "url": "https://www.government.se/government-policy/family-law/cohabitee-relationships/",
+      "publisher": "Government of Sweden",
+      "date": "2025-04-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "marriage",
+      "title": "Marriage and civil ceremony",
+      "url": "https://www.government.se/government-policy/family-law/marriage/",
+      "publisher": "Government of Sweden",
+      "date": "2025-04-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adoption",
+      "title": "Adoption rules",
+      "url": "https://www.government.se/government-policy/family-law/adoption/",
+      "publisher": "Government of Sweden",
+      "date": "2025-04-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religious-grants",
+      "title": "Grants for eligible faith communities",
+      "url": "https://www.mucf.se/bidrag/organisationsbidrag/organisationsbidrag-statsbidragsberattigade-trossamfund",
+      "publisher": "Swedish Agency for Youth and Civil Society",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "curriculum",
+      "title": "National compulsory school curriculum Lgr22",
+      "url": "https://syllabuswebb.skolverket.se/compulsorycw/jsp/curriculum.htm?cur=LGR22&tos=gr",
+      "publisher": "Swedish National Agency for Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "sexuality",
+      "title": "Sexuality consent and relationships curriculum guidance",
+      "url": "https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/sexualitet-samtycke-och-relationer",
+      "publisher": "Swedish National Agency for Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "holidays",
+      "title": "Public Holidays Act 1989:253",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1989253-om-allmanna-helgdagar_sfs-1989-253/",
+      "publisher": "Riksdag",
+      "date": "1989-05-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "religious-tax",
+      "title": "Tax treatment of nonprofit associations and faith communities",
+      "url": "https://www.skatteverket.se/foreningar/deklarera/deklareraochbetalaskattienideellforeningelleretttrossamfund.4.1927c51b15e7ee438721ff8.html",
+      "publisher": "Swedish Tax Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gender-law",
+      "title": "Changing legal gender under the July 2025 law",
+      "url": "https://www.socialstyrelsen.se/ansok-och-anmal/ansok/att-andra-juridiskt-kon/att-andra-juridiskt-kon/",
+      "publisher": "National Board of Health and Welfare",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "opening",
+      "title": "Opening of parliament: church and secular ceremonies",
+      "url": "https://www.riksdagen.se/sv/aktuellt/riksmotets-oppnande/",
+      "publisher": "Riksdag",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "abortion",
+      "title": "Abortion Act and choice through 18 weeks",
+      "url": "https://www.1177.se/sa-fungerar-varden/lagar-och-bestammelser/lagar-i-varden/abortlagen/",
+      "publisher": "1177 public regional health service",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "school-attendance",
+      "title": "Compulsory attendance and exceptional lesson exemptions",
+      "url": "https://www.skolverket.se/styrning-och-ansvar/regler-och-ansvar/ansvar-i-skolfragor/skolplikt-och-ratt-till-utbildning",
+      "publisher": "Swedish National Agency for Education",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pronouns",
+      "title": "Inclusive language in public writing",
+      "url": "https://www.isof.se/svenska-spraket/klarsprak/klarsprakshjalpen/skriv-klarsprak/tank-pa-dina-lasare/fordjupning-tank-pa-dina-lasare/anvand-inkluderande-sprak",
+      "publisher": "Institute for Language and Folklore",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pronouns-identity",
+      "title": "Hen and respecting a person’s chosen pronoun",
+      "url": "https://www.isof.se/download/18.6c2fff4b176840dc2a41c6a0/1608639129394/2015-1-klarsprak.pdf",
+      "publisher": "Institute for Language and Folklore",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "local",
+      "title": "Municipalities and regions constitutional self-government",
+      "url": "https://www.government.se/government-policy/municipalities-and-regions/",
+      "publisher": "Government of Sweden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "planning",
+      "title": "Municipal physical planning and public-interest balancing",
+      "url": "https://www.boverket.se/en/start/laws-and-regulations/planning-process2/",
+      "publisher": "Boverket",
+      "date": "2023-09-26",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "planning-roles",
+      "title": "State supervision and municipal planning roles",
+      "url": "https://www.boverket.se/en/start/laws-and-regulations/roles-and-responsibilities/",
+      "publisher": "Boverket",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "boundaries",
+      "title": "Municipal and regional boundary decisions",
+      "url": "https://www.kammarkollegiet.se/om-oss/kammarkollegiets-uppgifter/kommun--och-regiongranser",
+      "publisher": "Kammarkollegiet",
+      "date": "2025-07-09",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "police-organisation",
+      "title": "National Police Authority organisation",
+      "url": "https://polisen.se/en/the-swedish-police/the-swedish-police-authority/",
+      "publisher": "Swedish Police Authority",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "local-tax",
+      "title": "Local rate-setting and proposed incentives",
+      "url": "https://regeringen.se/pressmeddelanden/2025/09/incitament-for-lagre-skatter-i-kommunsektorn/",
+      "publisher": "Government of Sweden",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "rescue-takeover",
+      "title": "Regulation MSBFS 2021:4 on state takeover of municipal rescue services",
+      "url": "https://www.mcf.se/siteassets/dokument/regler/forfattningar/msbfs-2021-4-foreskrifter-och-allmanna-rad-om-ledning-av-kommunal-raddningstjanst.pdf",
+      "publisher": "Swedish Civil Defence Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "crisis",
+      "title": "National incident plan and responsibility proximity principles",
+      "url": "https://www.msb.se/siteassets/dokument/publikationer/english-publications/handling-serious-it-incidents.pdf",
+      "publisher": "Swedish Civil Contingencies Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai",
+      "title": "Sweden’s adopted AI Strategy in five minutes",
+      "url": "https://www.government.se/articles/2026/02/swedens-ai-strategy-in-five-minutes/",
+      "publisher": "Government of Sweden",
+      "date": "2026-02-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai-actions",
+      "title": "AI Strategy action plan adopted and planned measures",
+      "url": "https://www.government.se/contentassets/4e6b2d34f81048d688c35c831065395f/action-plan-for-swedens-ai-strategy.pdf",
+      "publisher": "Government of Sweden",
+      "date": "2026-02-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "nonmedical-devices",
+      "title": "Aesthetic and non-medical brain stimulation products under MDR",
+      "url": "https://www.lakemedelsverket.se/en/medical-devices/which-rules-apply-to-me/aesthetic-products/",
+      "publisher": "Swedish Medical Products Agency",
+      "date": "2026-01-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "novel-food",
+      "title": "Novel foods including cultivated meat approval requirements",
+      "url": "https://kontrollwiki.livsmedelsverket.se/artikel/695/nya-livsmedel",
+      "publisher": "Swedish Food Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "genetic-integrity",
+      "title": "Genetic Integrity Act 2006:351",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-2006351-om-genetisk-integritet-m-m_sfs-2006-351/",
+      "publisher": "Riksdag",
+      "date": "2006-05-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "precaution",
+      "title": "Precautionary principle under Environmental Code chapter 2",
+      "url": "https://www.naturvardsverket.se/vagledning-och-stod/miljobalken/hansynsreglerna--kapitel-2-miljobalken/forsiktighetsprincipen-2-kap.-3-/",
+      "publisher": "Swedish Environmental Protection Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gmo",
+      "title": "Commercial GMO use and environmental risk assessment",
+      "url": "https://jordbruksverket.se/vaxter/odling/gmo-genetiskt-modifierade-organismer/soka-tillstand-for-gmo/kommersiell-anvandning",
+      "publisher": "Swedish Board of Agriculture",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-ai",
+      "title": "Use of AI in Swedish health care",
+      "url": "https://www.lakemedelsverket.se/sv/medicinteknik/anvanda/anvandning-av-ai-i-sjukvarden",
+      "publisher": "Swedish Medical Products Agency",
+      "date": "2026-04-07",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "medical-software",
+      "title": "Medical device software clinical and performance requirements",
+      "url": "https://www.lakemedelsverket.se/en/medical-devices/which-rules-apply-to-me/medical-device-software",
+      "publisher": "Swedish Medical Products Agency",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "environment-code",
+      "title": "Environmental Code 1998:808",
+      "url": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/miljobalk-1998808_sfs-1998-808/",
+      "publisher": "Riksdag",
+      "date": "1998-06-11",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "neuroethics",
+      "title": "Neuroenhancement in healthy individuals ethics commentary",
+      "url": "https://smer.se/en/2014/12/01/smer-comments-neuroenhancement-cognitive-enhancement-in-healthy-individuals/",
+      "publisher": "Swedish National Council on Medical Ethics",
+      "date": "2014-12-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ccs",
+      "title": "20 billion kronor awarded for carbon capture and storage",
+      "url": "https://www.energimyndigheten.se/nyhetsarkiv/2025/energimyndigheten-ger-20-miljarder-i-stod-for-att-lagra-over-11-miljoner-ton-koldioxid/",
+      "publisher": "Swedish Energy Agency",
+      "date": "2025-01-27",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "socioemotion",
+      "title": "Typical socioemotional development: national child health programme",
+      "url": "https://www.rikshandboken-bhv.se/halsobesok/utvecklingsuppfoljning/socioemotionell-utveckling/typisk-socioemotionell-utveckling/",
+      "publisher": "Rikshandboken i barnhälsovård",
+      "date": "2024-12-12",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "socioemotion-support",
+      "title": "Promoting socioemotional development",
+      "url": "https://www.rikshandboken-bhv.se/halsobesok/utvecklingsuppfoljning/socioemotionell-utveckling/framja-socioemotionell-utveckling/",
+      "publisher": "Rikshandboken i barnhälsovård",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "behaviour-development",
+      "title": "Opposition and independence development",
+      "url": "https://www.rikshandboken-bhv.se/halsobesok/utvecklingsuppfoljning/socioemotionell-utveckling/trots-och-sjalvstandighetsutveckling/",
+      "publisher": "Rikshandboken i barnhälsovård",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "temperament",
+      "title": "Understanding your child's temperament",
+      "url": "https://www.vgregion.se/f/regionhalsan/foraldraskap-i-vardagen/lar-kanna-ditt-barns-temperament/",
+      "publisher": "Västra Götaland Regional Health Service",
+      "date": "2026-06-30",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "child-guidance",
+      "title": "National guidance for child health care (temperament discussion p81)",
+      "url": "https://www.socialstyrelsen.se/contentassets/093cadca5119416bbb1bd6168a75f600/2014-4-5.pdf",
+      "publisher": "National Board of Health and Welfare",
+      "date": "2014-01-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "teen-risk",
+      "title": "Teenagers 13–18: risk taking, brain development and peers",
+      "url": "https://www.1177.se/barn--gravid/sa-vaxer-och-utvecklas-barn/barnets-utveckling/tonaringar-13-18-ar/",
+      "publisher": "1177 (Swedish regional health services)",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "anxiety",
+      "title": "Worry and anxiety: temperament and experiences",
+      "url": "https://www.1177.se/Jonkopings-lan/liv--halsa/psykisk-halsa/rad-till-dig-som-ar-ung/om-du-oroar-dig-mycket-eller-kanner-angest/",
+      "publisher": "1177 (Swedish regional health services)",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "stress",
+      "title": "How stress works",
+      "url": "https://www.umo.se/ma-bra/aterhamtning-och-stress/stresssa-funkar-det/",
+      "publisher": "UMO (Swedish regional health services)",
+      "date": "2024-12-06",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD: causes and environmental influences",
+      "url": "https://www.1177.se/Vasterbotten/sjukdomar--besvar/hjarna-och-nerver/neuropsykiatriska-funktionsnedsattningar/adhd/",
+      "publisher": "1177 (Swedish regional health services)",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "body-ideals",
+      "title": "Body and appearance: varying ideals",
+      "url": "https://www.umo.se/kroppen/utseende/kropp-och-utseende/",
+      "publisher": "UMO (Swedish regional health services)",
+      "date": "2024-01-29",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "origin-crime",
+      "title": "Registered offending among persons of native and non-native background",
+      "url": "https://bra.se/english/publications/archive/2021-08-25-registered-offending-among-persons-of-native-and-non-native-background",
+      "publisher": "Swedish National Council for Crime Prevention",
+      "date": "2021-08-25",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "pay-gap",
+      "title": "Pay differences between women and men 2025",
+      "url": "https://www.mi.se/publikationer/loneskillnaden-mellan-kvinnor-och-man-2025/",
+      "publisher": "Swedish National Mediation Office",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "equal-work",
+      "title": "Gender equality agency results report 2025 (p37 comparable work valuation)",
+      "url": "https://jamstalldhetsmyndigheten.se/media/cwrkzvd0/rapport-2025-15-resultatrapporten-2025-04-16.pdf",
+      "publisher": "Swedish Gender Equality Agency",
+      "date": "2025-04-16",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "interests-development",
+      "title": "Child development aged 6–7",
+      "url": "https://www.1177.se/barn--gravid/sa-vaxer-och-utvecklas-barn/barnets-utveckling/barnets-utveckling-6-7-ar/",
+      "publisher": "1177 (Swedish regional health services)",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "moral-research",
+      "title": "Moral compass reflected in election: academic research, not adopted government causal policy",
+      "url": "https://www.uu.se/nyheter/2026/2026-05-19-manniskors-moraliska-kompass-avspeglas-i-riksdagsvalet",
+      "publisher": "Uppsala University",
+      "date": "2026-05-19",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "flag",
+      "title": "File:Flag of Sweden.svg — author and public-domain status",
+      "url": "https://commons.wikimedia.org/wiki/File:Flag_of_Sweden.svg",
+      "publisher": "Wikimedia Commons",
+      "date": "2024-06-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "self-defence-manual",
+      "title": "State inquiry humanitarian-law manual, section 103 (adoption not established)",
+      "url": "https://www.regeringen.se/contentassets/b173d09e4c594af293d6d8e858e61d22/svensk-manual-i-humanitar-ratt-bilaga.-sou-201072",
+      "publisher": "Government of Sweden (SOU inquiry)",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "arms-policy",
+      "title": "Disarmament, non-proliferation and export controls",
+      "url": "https://www.regeringen.se/regeringens-politik/utrikes--och-sakerhetspolitik/nedrustning--ickespridning-och-exportkontroll/",
+      "publisher": "Government of Sweden",
+      "date": "2025-07-22",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "neuroethics-full",
+      "title": "Cognitive enhancement: Swedish ethics council's commentary (pp4–5)",
+      "url": "https://smer.se/wp-content/uploads/2020/06/smer-kommenterar-hjacc88rndoping.pdf",
+      "publisher": "Swedish National Council on Medical Ethics",
+      "date": "2014-12-01",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "gap-fhs-anticipatory",
+      "title": "Academic legal perspective on Russia’s invasion; not proof of adopted doctrine",
+      "url": "https://www.fhs.se/arkiv/berattelser/2022-03-08-perspektiv-darfor-ar-den-ryska-invasionen-av-ukraina-folkrattsvidrig.html",
+      "publisher": "Swedish Defence University",
+      "date": "2022-03-08",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gap-fib-training",
+      "title": "FIB 2019:1: international-law training requirements",
+      "url": "https://www.forsvarsmakten.se/siteassets/2-om-forsvarsmakten/dokument/lagrum/gallande-fib/fib-2019-1.pdf",
+      "publisher": "Swedish Armed Forces",
+      "date": "2019-06-13",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gap-psychology-syllabus",
+      "title": "Current psychology syllabus, effective 1 February 2026",
+      "url": "https://syllabuswebb.skolverket.se/syllabuscw/jsp/subject.htm?subjectCode=PSYL&tos=gy",
+      "publisher": "Swedish National Agency for Education",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Parliamentary government rests on competitive proportional elections, legislative scrutiny and independent courts. The 2026 transition to caretaker government after electoral defeat demonstrates accountability in operation.",
+      "counterEvidence": "The monarch is hereditary but does not govern. National ordinary referendums are consultative; binding constitutional-rejection referendums are narrower than a general citizen power to repeal laws. Constitutional safeguards should not be confused with an elected official recall procedure.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The governing majority depends on regular competitive Riksdag elections; the 2026 result prompted the incumbent’s resignation.",
+          "sources": [
+            "constitution",
+            "freedom",
+            "election"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Speaker proposes a prime minister subject to elected parliamentary acceptance, rather than an expert panel selecting the government.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Adult Swedish citizens have national voting rights without education or intelligence qualifications.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National statutes require parliamentary enactment; government ordinances exercise legally allocated powers rather than overriding a parliamentary rejection.",
+          "sources": [
+            "constitution",
+            "acts-2026"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Multiparty electoral competition legally and practically permits opposition campaigns under the ordinary electoral framework.",
+          "sources": [
+            "freedom",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Parliamentary committees, including constitutional scrutiny and public audit, can investigate ministers and expenditure.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Courts independently examine legality and may refuse application of provisions conflicting with fundamental law; ministers cannot direct individual judgments.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Trade unions negotiate labour matters but do not constitutionally appoint the national government.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Political disagreement does not give ministers discretionary power to exclude opposition parties from elections.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary national referendums are advisory; a defined binding vote can reject a pending constitutional amendment. This is a limited mixed framework rather than a general repeal power.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legislation, appropriations and accountability are divided between government, parliament and independent institutions.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A parliamentary no-confidence procedure can remove the prime minister or an individual minister; the 2026 resignation also illustrates parliamentary dependence.",
+          "sources": [
+            "constitution",
+            "caretaker"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Election timing is constitutionally regulated; a leader’s preference for continuity is not a unilateral postponement power.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Representative mandates have defined terms and no general voter-initiated recall ballot.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ministers are accountable to the Riksdag and electoral outcomes, including when governing in a caretaker capacity.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Armed forces remain under constitutional civilian authority and have no power to replace a government on their own judgment.",
+          "sources": [
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional expression and media protections coexist with preventive security zones, exclusion orders, surveillance and criminal prohibitions on personal drug use.",
+      "counterEvidence": "Police powers remain reviewable and detention has judicial deadlines. The June 2026 firearms law permits protection as a purpose but retains needs and suitability requirements; the outdated English licence summary was not treated as the final current rule.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Possession and use of controlled drugs remain offences even without direct injury to another person.",
+          "sources": [
+            "drugs"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Courts can authorize interception in serious criminal investigations under statutory requirements.",
+          "sources": [
+            "criminal-procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Police must facilitate demonstrations, including practical space and traffic arrangements; serious traffic disturbance can justify intervention, qualifying the tolerance of obstruction.",
+          "sources": [
+            "demonstrations"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Criticism of institutions and religion is protected even if offensive; threats and agitation against protected groups are distinct offences.",
+          "sources": [
+            "demonstrations",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Adult occupants must use available seat belts, a compulsory measure principally protecting their own safety.",
+          "sources": [
+            "seatbelt"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The stated ANPR development dataset has a six-month retention period; unrelated ordinary movement data are not generally retained for years under this rule.",
+          "sources": [
+            "police-camera"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Police screening breath tests are expressly permitted without suspicion of a criminal offence.",
+          "sources": [
+            "breath"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Preventive exclusion orders can restrict presence in specified places based on risks of criminal activity, with access to judicial review before any new offence occurs.",
+          "sources": [
+            "exclusion"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Freedom of print and expression protects access to controversial media; criminal content exceptions prevent treating the freedom as unlimited.",
+          "sources": [
+            "constitution-en",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Online expression does not carry a general government identity-verification rule; registered prepaid mobile subscriptions are a narrower counterexample.",
+          "sources": [
+            "constitution-en",
+            "sim"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Security-zone searches can occur without individualized suspicion when the statutory serious-violence risk threshold is met.",
+          "sources": [
+            "zones"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Police may intervene against serious disorder and impose necessary conditions, balancing this against their duty to enable assembly.",
+          "sources": [
+            "demonstrations"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Search authorization can come from the prosecutor or police investigation leader, not only a court; exceptions are broader than immediate danger to safety.",
+          "sources": [
+            "search",
+            "criminal-procedure"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutional freedom to communicate information supports public-interest disclosure, while specified secrecy offences and release of secret documents remain limits.",
+          "sources": [
+            "whistle",
+            "constitution-en"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Protection is a lawful licensing purpose, but a demonstrated legitimate need and suitability are required; a clean violence record alone does not establish a general defensive ownership entitlement.",
+          "sources": [
+            "weapons-2026",
+            "weapons-act"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Continued remand requires court involvement and statutory procedures; terrorism suspicion does not authorize detention until police alone decide the danger has passed.",
+          "sources": [
+            "custody",
+            "criminal-procedure"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Swedish language, employment and shared civic participation are central to integration, alongside constitutional protection of minority cultures and funded national-minority language services.",
+      "counterEvidence": "Indigenous and national-minority rights are not identical to all migrant accommodations. The new cultural canon coexists with minority support; face-covering rules explicitly preserve a religious exception in demonstrations.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Shared language and civic rules take institutional priority in public life, while private migrant cultures remain protected.",
+          "sources": [
+            "language",
+            "security"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Publicly supported minority-language elder care and language centres demonstrate willingness to spend on distinct cultural needs, with eligibility and practical limits.",
+          "sources": [
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Swedish access and participation are expected, while the constitution encourages minority cultural life; participation is not complete replacement of private customs.",
+          "sources": [
+            "language",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ethnic, linguistic and religious minorities may maintain and develop cultural life within national membership.",
+          "sources": [
+            "constitution",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Swedish is the principal language of public institutions, qualified by minority-language and interpretation obligations.",
+          "sources": [
+            "language"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State county authorities officially mark Sami national day and recognize Indigenous culture; recognition is affirmative but does not prove a uniform ceremony protocol.",
+          "sources": [
+            "sami-day",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The national canon promotes shared inherited culture, while earmarked minority support maintains distinct traditions; neither exclusively governs cultural funding.",
+          "sources": [
+            "canon",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cultural rights coexist with common democratic law; parallel systems do not receive priority when they conflict with general rights and rules.",
+          "sources": [
+            "constitution",
+            "security"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Common public arrangements coexist with minority-service rights and religious freedom, supporting qualified accommodation rather than a single compulsory cultural pattern.",
+          "sources": [
+            "minorities",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Five national minorities and Sami Indigenous identity are expressly recognized in the nation’s cultural framework.",
+          "sources": [
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Language education and work-based integration aim at wider participation and countering parallel social structures.",
+          "sources": [
+            "security",
+            "acts-2026"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Swedish public-language priority coexists with protected minority languages and public place-name visibility; these are differentiated duties rather than universal migrant-language signage.",
+          "sources": [
+            "language",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Common civic belonging is promoted while minority family culture is constitutionally protected; neither identity is required to erase the other in private life.",
+          "sources": [
+            "constitution",
+            "language"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The ban on face coverings during disorderly demonstrations expressly excludes coverings worn on religious grounds.",
+          "sources": [
+            "demonstrations"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional and policy framework recognizes distinct minority cultures as continuing parts of Sweden.",
+          "sources": [
+            "constitution",
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Integration emphasizes common language and participation; the inference is moderate because private customs and recognized minority traditions remain supported.",
+          "sources": [
+            "language",
+            "security"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Implemented policy tightened labour migration in June, removed new asylum-related permanent permits in July and strengthened family maintenance requirements on 1 October 2026.",
+      "counterEvidence": "EU mobility, family routes, research and self-employment remain distinct from asylum. Temporary protection is not permanent settlement; existing permanent permits survive the July reform. Resettlement quotas are not an all-category annual immigration ceiling.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The operative system uses separate eligibility categories and EU rights rather than one strict housing-and-shortage-linked ceiling on all permanent arrivals.",
+          "sources": [
+            "work-routes",
+            "family",
+            "asylum-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU residence rights permit mobility under specified conditions, while non-EU applicants generally need a qualifying route; improving living conditions alone is insufficient.",
+          "sources": [
+            "family",
+            "work-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Family and self-employment pathways are not restricted solely to applicants holding designated shortage skills, although maintenance and conduct tests apply.",
+          "sources": [
+            "family",
+            "work-permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Partners and minor children have legal joining routes, now with stronger continuing maintenance conditions rather than an unconditional admission right.",
+          "sources": [
+            "family",
+            "family-october"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: From 12 July, asylum-related permits no longer provide a route to new permanent residence; protection may be extended temporarily regardless of shortage skills.",
+          "sources": [
+            "asylum-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: An enforceable refusal entails departure or appeal, not a general right for irregular entrants to remain.",
+          "sources": [
+            "return"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Salary and eligibility requirements constrain employers’ access to foreign recruitment even when a business wants the worker.",
+          "sources": [
+            "work-2026",
+            "work-permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The implemented tightening and emphasis on integration capacity support limiting arrivals despite some economic benefits; this is qualified because talent routes remain open.",
+          "sources": [
+            "asylum-2026",
+            "security"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Family eligibility is assessed separately rather than deducted from a general all-category annual permanent-immigration cap.",
+          "sources": [
+            "family",
+            "asylum-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A qualifying job enables a route, but salary, employer and permit conditions apply; EU workers have broader mobility rights.",
+          "sources": [
+            "work-2026",
+            "family"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Self-employed applicants can qualify through their own business, so employer or family sponsorship is not universally required.",
+          "sources": [
+            "work-routes",
+            "work-permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Graduation supports a temporary search period; permanent settlement requires additional qualifying residence and maintenance conditions rather than the degree alone.",
+          "sources": [
+            "graduate",
+            "work-permanent"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Individual protection duties remain within the EU asylum framework even though new permanent permits were removed; an ordinary economic quota does not extinguish protection claims.",
+          "sources": [
+            "asylum-2026",
+            "return"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU citizenship brings treaty-based preferences, while non-EU admission is mainly legal-category and individual-eligibility based rather than a general cultural-origin ranking.",
+          "sources": [
+            "family",
+            "work-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Insured non-citizen residents can receive child and housing allowances; nationality is not an absolute eligibility bar.",
+          "sources": [
+            "insurance"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Reduced asylum-related settlement and integration conditions do not use cultural difference itself as a reason to expand admission; cultural rights for residents are a separate issue.",
+          "sources": [
+            "security",
+            "asylum-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "NATO membership, expanded defence spending, conscription and deployed allied deterrence anchor a force-capable defence policy. International law, collective security and diplomacy qualify the willingness to use force.",
+      "counterEvidence": "The adopted defence expansion is not authority for preventive war or unrestricted autonomous weapons. Sweden supports regulated autonomous functions while opposing systems outside effective human control. Conditional arms control coexists with rapid rearmament. The imminent-attack answer remains unknown: a general armed-attack trigger cannot by itself exclude anticipatory self-defence, and the located inquiry manual has uncertain adoption status. Completion note: previously unresolved question-level comparisons are now provisional educated assumptions, not documented adopted positions; see each explicit rationale and the preserved starting draft.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Collective defence and internationally authorised operations permit force beyond a response to an attack on Sweden itself, within legal mandates.",
+          "sources": [
+            "nato",
+            "force-objectives",
+            "cyber-law"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Peaceful settlement and negotiated solutions are preferred, but diplomatic delay does not remove collective-defence obligations.",
+          "sources": [
+            "cyber-law",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The funded defence expansion accepts substantial costs to strengthen allied deterrence and combat advantage against potential attackers.",
+          "sources": [
+            "defence",
+            "nato"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Section 103 of the inquiry manual recognises defence against an imminent armed attack, while current doctrine requires necessity and proportionality. Conditional agreement is the likelier estimate for strongly evidenced imminence; current adoption of that specific inquiry formulation was not verified, so this is not presented as settled Swedish doctrine.",
+          "sources": [
+            "cyber-law",
+            "self-defence-manual",
+            "gap-fhs-anticipatory",
+            "gap-fib-training"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Collective self-defence is central, but Security Council authorised operations provide a further lawful ground, so the proposed exclusive rule is too narrow.",
+          "sources": [
+            "force-objectives",
+            "cyber-law"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Selected citizens must undertake military service under a gender-neutral conscription system; obligatory training supports the principle but is not universal service for every male citizen.",
+          "sources": [
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Backing Ukraine and refusing compromises over neighbours’ territorial integrity put limits on concessions even when confrontation is costly.",
+          "sources": [
+            "foreign-2026",
+            "nato"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden distinguishes prohibited systems outside human control from permissible regulated autonomous functions; effective command accountability matters more than a categorical human approval for every attack.",
+          "sources": [
+            "aws-policy",
+            "aws-critique"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Defence of Sweden and allies is the primary military task, with international operations retained as a secondary capability.",
+          "sources": [
+            "force-objectives",
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: NATO collective defence commits Sweden to assisting an attacked ally and rejects avoidance at any cost.",
+          "sources": [
+            "nato"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Allied deployments and expanded operational capacity require forces able to fight outside Sweden, although territorial collective defence shapes that capability.",
+          "sources": [
+            "nato",
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The prohibition of aggressive force and support for negotiated territorial settlements weigh against starting a war merely to resolve a dispute.",
+          "sources": [
+            "cyber-law",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Diplomacy, sanctions and lawful defence are the stated tools; the general prohibition of threatening unlawful force weighs against military coercion simply to extract concessions.",
+          "sources": [
+            "cyber-law",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Expanded deterrent deployments deliberately demonstrate resolve despite escalation risk; risk management remains a constraint rather than an overriding veto.",
+          "sources": [
+            "defence",
+            "nato"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Defence intelligence and signals interception are maintained to reveal foreign threats, accepting the diplomatic friction inherent in intelligence collection.",
+          "sources": [
+            "fra",
+            "security"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government accepts treaty-based constraints on weapon categories, including non-acquisition commitments under the NPT, and supports negotiated arms control. This supports limited reciprocal capability restraint, while current rearmament weighs against general or unilateral reductions.",
+          "sources": [
+            "arms-control",
+            "security",
+            "arms-policy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "EU law, European human-rights commitments, NATO and international courts bind Swedish institutions. The state nevertheless retains the krona, democratic limits on transferred powers and treaty withdrawal procedures.",
+      "counterEvidence": "Sovereignty is shared in specified fields rather than abandoned: the constitution limits delegation, Sweden has not adopted the euro, and membership does not turn the EU into a federation.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Constitutionally authorised EU membership gives common rules priority in transferred fields, while national institutions retain the untransferred powers.",
+          "sources": [
+            "constitution",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Binding EU decisions apply within treaty competence even where Sweden loses a vote; the government also favours broader qualified-majority foreign-policy decisions.",
+          "sources": [
+            "constitution",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU and Convention obligations constrain domestic law and courts; constitutional transfer safeguards qualify rather than erase international authority.",
+          "sources": [
+            "constitution",
+            "icc"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: NATO membership and integrated defence are durable commitments which limit wholly independent security choices.",
+          "sources": [
+            "nato"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Treaty withdrawal is governed by domestic decisions and treaty notice procedures, rather than a general external institution’s discretionary permission to leave.",
+          "sources": [
+            "constitution",
+            "nato"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented ICC cooperation and joining the Ukraine accountability mechanisms endorse binding international judicial processes involving state officials.",
+          "sources": [
+            "icc",
+            "tribunal"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National security and prosperity guide policy, but are pursued through binding EU and international commitments rather than a general national-interest exemption.",
+          "sources": [
+            "security",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU environmental legislation and collective climate finance delegate real cross-border environmental authority.",
+          "sources": [
+            "foreign-2026",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden remains in the EU common foreign-policy framework and actively seeks stronger joint decisions.",
+          "sources": [
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The European Convention is incorporated into Swedish law and constrains national legislation; adverse human-rights judgments require compliance.",
+          "sources": [
+            "constitution",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden retains the krona and its own independent central bank instead of transferring monetary policy to the euro area.",
+          "sources": [
+            "riksbank"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Joint defence, EU programmes and international climate finance pool resources and institutional decisions.",
+          "sources": [
+            "foreign-2026",
+            "nato"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Schengen and the implemented European asylum framework share border and admission rules, while Sweden retains national enforcement and treaty-permitted controls.",
+          "sources": [
+            "asylum-2026",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU commercial policy and the rules-based multilateral trade system constrain unilateral Swedish tariff setting.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Treaty-limited delegation preserves Sweden as a sovereign constitutional state; membership does not enact a general international political federation.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sanctions, allied defence and international accountability commitments demonstrate participation in collective enforcement despite immediate economic or security costs.",
+          "sources": [
+            "foreign-2026",
+            "nato",
+            "tribunal"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Sweden combines predominantly market enterprise with substantial public ownership of infrastructure, housing, banking and strategic industry. Its 2025 ownership policy requires commercial discipline but expressly permits strategic and public-service ownership.",
+      "counterEvidence": "Private providers operate in health care, contracted services and industry. Public-service broadcasting is foundation-owned, not a ministry-owned broadcaster; funding alone is not counted as state ownership. Ownership decisions are conditional rather than blanket nationalisation or privatisation.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Competitive private enterprise is the normal business model; retained state enterprises are justified by specified national or market interests.",
+          "sources": [
+            "oecd",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The public water-service framework requires municipal control of public water facilities rather than relying on privately owned network monopolies.",
+          "sources": [
+            "water"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The 2025 policy requires reasons for continued state ownership, implying private ownership where comparable provision removes the public-policy or strategic justification.",
+          "sources": [
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The state retains commercial competitors such as SBAB, but requires a particular public or market rationale rather than routinely creating a state entrant in every industry.",
+          "sources": [
+            "ownership",
+            "sbab"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Most hospital provision remains regional public provision alongside private providers, so the system does not generally prefer privately owned facilities.",
+          "sources": [
+            "health"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The principal national railway infrastructure is state-owned and managed by Trafikverket.",
+          "sources": [
+            "rail"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Competitive procurement and private health provision permit lower-cost qualified providers; retained public provision prevents a universal outsourcing rule.",
+          "sources": [
+            "procurement",
+            "health"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: SBAB remains a state-owned banking competitor alongside private banks.",
+          "sources": [
+            "sbab"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State shareholdings are reviewed and may be sold, but strategic assets and public assignments expressly justify continued ownership.",
+          "sources": [
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Municipally owned housing companies provide a substantial share of rental homes alongside private landlords.",
+          "sources": [
+            "housing"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Private strategic businesses may operate under security screening, while the state explicitly retains ownership where strategic national interest warrants it.",
+          "sources": [
+            "ownership",
+            "fdi"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: LKAB embodies major public resource ownership, but a strategic-asset rationale does not establish compulsory public ownership of the whole extraction sector.",
+          "sources": [
+            "lkab",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public bodies use competitive contractors and their own providers; procurement disciplines contracted services without requiring every routine operation to be outsourced.",
+          "sources": [
+            "procurement",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The 2025 policy expressly recognises strategic resources, infrastructure and defence functions as reasons to retain state ownership despite potential sale proceeds.",
+          "sources": [
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Commercial viability is required and capital injections face market rules, but public assignments or inability to obtain commercial sale terms can justify retention rather than automatic sale.",
+          "sources": [
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: SVT is owned by an independent foundation and publicly financed; this sustains national public-service broadcasting without straightforward government ownership or an entirely commercial broadcasting system.",
+          "sources": [
+            "svt"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "The government strongly backs open trade, EU trade agreements and competitive procurement. Actual policy nevertheless includes the EU external tariff, trade remedies, sanctions and strategic investment screening.",
+      "counterEvidence": "Swedish advocacy of liberalisation is not evidence that existing EU tariffs have disappeared. Security screening and anti-subsidy measures are narrower than ordinary protection of local firms from competition.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden seeks freer trade but applies the EU tariff and defensive duties; implemented policy combines openness with targeted protection.",
+          "sources": [
+            "trade",
+            "import-charges",
+            "trade-remedies"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted trade strategy and support for broad EU agreements favour market opening and competition rather than shielding every domestic seller.",
+          "sources": [
+            "trade",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Procurement rules expressly prohibit nationality discrimination and preference for local suppliers.",
+          "sources": [
+            "procurement"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: International sourcing is normally permitted; sanctions and security restrictions qualify freedom to choose any country solely on price.",
+          "sources": [
+            "trade",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Supply resilience and reduced strategic dependencies are priorities, but the trade strategy also treats diversified imports as a source of security; there is no general essential-goods import ban.",
+          "sources": [
+            "security",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Liberalisation is strongly supported, but pursued through EU negotiations and coordinated responses rather than an unconditional unilateral removal of barriers.",
+          "sources": [
+            "trade",
+            "tariffs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Competition and market access underpin industrial development; targeted investment support does not amount to an infant-industry import restriction policy.",
+          "sources": [
+            "trade",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Foreign establishment is welcomed on competitive terms, with additional scrutiny for protection-worthy activities rather than restrictions merely because local firms face competition.",
+          "sources": [
+            "fdi",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: EU agricultural tariff rules remain applicable, while support for Mercosur and wider liberalisation weighs against an overriding farming-protection rule.",
+          "sources": [
+            "import-charges",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The general strategy emphasises competitiveness and adjustment, with specific recourse against dumping and subsidised competition.",
+          "sources": [
+            "trade",
+            "trade-remedies"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden rejects a damaging tariff spiral while maintaining a united EU response; retaliation is conditional rather than automatic or categorically forbidden.",
+          "sources": [
+            "tariffs",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Import VAT applies alongside domestic VAT under the product tax schedule; customs duties are separate trade measures rather than a higher ordinary tax rate solely for foreign products.",
+          "sources": [
+            "import-charges",
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented countervailing duties target harmful foreign subsidies after the relevant trade-remedy process.",
+          "sources": [
+            "trade-remedies"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government backs tariff-removing agreements and wider commercial ties despite dependency concerns, which it addresses through diversification.",
+          "sources": [
+            "trade",
+            "foreign-2026"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Investment screening permits prohibition or conditions where foreign control threatens security or public order, even if the capital would otherwise be welcome.",
+          "sources": [
+            "fdi"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cross-border digital services operate within common-market and regulatory frameworks, including recognised authorised financial services, rather than a general domestic-provider preference.",
+          "sources": [
+            "trade",
+            "crypto"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market decisions, enterprise competition and wage bargaining dominate ordinary economic allocation. Nuclear financing, innovation support, regulated medicines and negotiated rent constraints provide important selective intervention.",
+      "counterEvidence": "State ownership is not itself economy-wide planning. Sweden has no statutory minimum wage and protects central-bank independence; nuclear state loans do not establish a general power to order commercial-bank lending.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Even state firms ordinarily operate commercially with management responsible for operations, supporting enterprise choice over ordinary production.",
+          "sources": [
+            "ownership",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The commercial and competitive operating framework does not impose compulsory economy-wide industrial output targets; strategic public assignments are narrower exceptions.",
+          "sources": [
+            "ownership",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Ordinary product prices emerge in markets, while medicines and some essential services have administered or negotiated limits.",
+          "sources": [
+            "oecd",
+            "medicine-prices"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented nuclear financing and strategic public investments steer capital towards selected national priorities without a comprehensive production plan.",
+          "sources": [
+            "nuclear",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Demand and commercial viability generally determine expansion or closure, qualified by strategic public assignments and targeted state support.",
+          "sources": [
+            "ownership",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public reimbursement prices constrain medicines, but ordinary essentials are largely market priced; controls are sector-specific rather than a general essential-goods rule.",
+          "sources": [
+            "medicine-prices",
+            "oecd"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Competitive entry, including accredited private service providers, rests on regulatory standards rather than proving a general shortage of production.",
+          "sources": [
+            "oecd",
+            "health"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Banks operate commercially; government lends directly for selected nuclear projects, which is distinct from ordering banks to allocate their ordinary lending by plan.",
+          "sources": [
+            "sbab",
+            "ownership",
+            "nuclear"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cross-border capital is normally free under the single-market framework, qualified by sanctions and security screening rather than routine approval for all outward transfers.",
+          "sources": [
+            "trade",
+            "fdi"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The enacted nuclear support mechanism uses state finance and risk sharing to induce investments private investors would otherwise hesitate to undertake.",
+          "sources": [
+            "nuclear"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Authorised cryptoasset services are lawful under MiCA, allowing private digital monetary instruments under prudential rules without giving them sovereign legal-tender status.",
+          "sources": [
+            "crypto"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Sweden expressly leaves minimum pay to collective agreements and has no statutory minimum wage.",
+          "sources": [
+            "wages"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Employers and trade unions, rather than national wage schedules, carry responsibility for wage formation.",
+          "sources": [
+            "wages"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The central bank has an independent monetary-policy mandate rather than ministerial direction to implement an economic production plan.",
+          "sources": [
+            "riksbank",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Negotiated utility-value rents and legal review constrain market rents, although private landlords and some more flexible arrangements remain.",
+          "sources": [
+            "rent",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Commercial enterprise decisions allocate ordinary production and distribution; public programmes steer selected fields without centrally coordinating the entire economy.",
+          "sources": [
+            "ownership",
+            "oecd"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive labour-income taxes and extensive cash benefits redistribute income, while abolished inheritance and net-wealth taxes remain absent. Implemented 2026 tax cuts and stricter unemployment rules show the incumbent’s emphasis on work incentives.",
+      "counterEvidence": "The existing welfare state remains broader than basic destitution relief. Future 2027 benefit-cap changes are not scored as in force at the cutoff; social assistance and universal family benefits qualify conclusions drawn from time-limited unemployment insurance.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Progressive income taxation and household transfers substantially redistribute resources, although the incumbent has reduced some taxes.",
+          "sources": [
+            "tax-2026",
+            "social-assistance",
+            "housing-benefit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The retained progressive and means-tested system recognises distributive purposes alongside work incentives rather than excluding inequality reduction as a justification.",
+          "sources": [
+            "tax-2026",
+            "social-assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Minimum living standards and improved housing support coexist with tax reductions and benefit restraint; the enacted package does not clearly prioritise higher taxes for a stronger general minimum.",
+          "sources": [
+            "acts-2026",
+            "social-assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Means-tested assistance is a safety net, while income-related insurance and family support preserve living standards above bare subsistence.",
+          "sources": [
+            "social-assistance",
+            "unemployment"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: An additional national 20 percent tax above the threshold, alongside municipal income taxes and allowances, imposes a substantially greater average burden on high labour incomes.",
+          "sources": [
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The implemented earned-income tax reductions explicitly increase take-home pay while the progressive structure remains in place.",
+          "sources": [
+            "acts-2026",
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Inheritance taxation was abolished and has not been restored in the current tax system.",
+          "sources": [
+            "tax-history",
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Unemployment-insurance periods are time-limited and payments taper, but needs-tested social assistance remains available rather than all working-age income support expiring.",
+          "sources": [
+            "unemployment",
+            "social-assistance"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The general net-wealth tax remains abolished; capital-income and property taxes are not a broad accumulated-wealth transfer tax.",
+          "sources": [
+            "tax-history",
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Work incentives and tax relief favour restraint, but the national assistance standard still funds a defined reasonable living level; modest benefits solely to lower taxpayers’ burdens are not the whole framework.",
+          "sources": [
+            "acts-2026",
+            "norm-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The national standard includes recreation, play and communications as well as food and clothing, supporting ordinary social participation.",
+          "sources": [
+            "norm-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The enacted package gives prominence to earned-income, pension and other tax reductions, even though selected housing and other supports also rise.",
+          "sources": [
+            "acts-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Income-tested housing allowances can supplement earnings for qualifying low-paid households rather than requiring complete unemployment.",
+          "sources": [
+            "housing-benefit"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The additional national income-tax band means high earners face a higher marginal rate than workers below that threshold.",
+          "sources": [
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Protected property rights and a strategic public-ownership framework support acquisition for public purposes, not redistributing large holdings as a general egalitarian land programme.",
+          "sources": [
+            "constitution",
+            "ownership"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Housing, family and social-insurance payments extend beyond households unable to meet basic survival needs.",
+          "sources": [
+            "housing-benefit",
+            "insurance"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil legislation, secular courts and non-confessional public schooling govern Sweden. Lutheran royal succession, Christian holidays, religious grants and ceremonial worship remain limited institutional religious connections.",
+      "counterEvidence": "Freedom of religion and public support for multiple faiths do not make religious doctrine a source of law. Church participation in ceremonies is accompanied by a secular alternative; nonprofit tax relief is not an exclusive religious exemption.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legislation derives from elected civil institutions and equal rights, including gender-neutral marriage, rather than the authority of a particular theology.",
+          "sources": [
+            "constitution",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The legislative framework gives religious doctrine no official status as a source binding Parliament or courts.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cabinet and parliamentary decisions do not require clerical approval.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The succession fundamental law retains an evangelical-faith qualification for the royal house, while democratic government and general rights are not founded on a compulsory national religion.",
+          "sources": [
+            "constitution-en"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public schooling is non-confessional and teaches religions and other worldviews as objects of knowledge.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The curriculum requires non-confessional education rather than formation in the state’s preferred faith.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: State courts apply civil enactments, including civil family law, rather than ecclesiastical rulings.",
+          "sources": [
+            "constitution",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legislative scrutiny belongs to parliamentary and legal institutions; religious organisations have no privileged doctrinal approval office.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The parliamentary opening includes an associated church service and a secular ceremony, allowing worship without making it the sole official ceremonial form.",
+          "sources": [
+            "opening"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The grant framework explicitly supports continuing religious activities and the ability to practise religion, subject to eligibility and democratic conditions.",
+          "sources": [
+            "religious-grants"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The constitutional requirement of impartial public administration weighs against displaying a symbol as official endorsement of one faith; this is a principle-based inference, not a claimed nationwide ban on historical religious art.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The statutory calendar expressly retains Christmas, Easter and other Christian festivals, while also including secular holidays.",
+          "sources": [
+            "holidays"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Parliamentary seats and ministerial posts have no clerical ex officio entitlement.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Faith communities receive exemptions under the public-benefit nonprofit framework, rather than a general extra exemption unavailable to comparable charitable bodies.",
+          "sources": [
+            "religious-tax"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: A civil wedding is fully valid and requires no religious approval; an authorised religious ceremony is an optional route.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legally binding marriage and divorce operate under civil law and state institutions, not a separate religious-court family jurisdiction.",
+          "sources": [
+            "marriage",
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Gender-neutral marriage, adoption, reproductive choice and inclusive schooling sustain substantial social reform. Simplified legal gender recognition took effect in July 2025. Heritage, royal continuity and the cultural canon provide countervailing preservation commitments.",
+      "counterEvidence": "Civil recognition does not mean every resident shares the state’s social positions. Cohabitation and marriage retain legal differences, and some reforms use safeguards and staged implementation rather than unrestricted change.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Implemented changes to legal gender and gender-neutral marriage show that inherited conventions can change with contemporary recognition and rights.",
+          "sources": [
+            "gender-law",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Equal treatment and revised identity rules permit substantial departures from inherited norms, while cultural heritage remains valued.",
+          "sources": [
+            "gender-law",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cohabiting and single-parent families receive legal protection and family support, though cohabitation is not legally identical to marriage.",
+          "sources": [
+            "cohabitation",
+            "housing-benefit"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Schools must counter restrictive gender patterns and defence obligations are gender-neutral rather than built around traditional male and female roles.",
+          "sources": [
+            "curriculum",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Marriage law has been gender-neutral since 2009 and remains so at the cutoff.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recognition of cohabitation, single parents and varied adoptive households weighs against making the married two-parent household the exclusive preferred model.",
+          "sources": [
+            "cohabitation",
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Public health guidance affirms an early abortion as the pregnant person’s decision and says the decision should not be questioned.",
+          "sources": [
+            "abortion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Compulsory lessons include sexuality and relationships; only exceptional individual exemptions are possible, not a parental veto based on traditional values.",
+          "sources": [
+            "school-attendance",
+            "sexuality"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Same-sex couples are legally eligible to adopt under the same domestic suitability framework; foreign-origin restrictions are separately acknowledged.",
+          "sources": [
+            "adoption",
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Individual expression and education challenging restrictive gender and honour norms weigh against state endorsement of traditional modesty expectations in ordinary public life.",
+          "sources": [
+            "constitution",
+            "sexuality"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Official language guidance accepts gender-neutral hen and specifically recommends respecting the pronoun a person wishes others to use.",
+          "sources": [
+            "pronouns",
+            "pronouns-identity"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Schools transmit democratic ethics but also require critical examination of norms, preventing inherited moral customs from automatically taking priority.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Equal opportunity and opposition to restrictive gender roles support equal acceptance of adults in occupations or roles traditionally linked to the other sex.",
+          "sources": [
+            "curriculum",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Legal gender reform makes substantive change, while consultation, conditions and heritage policy retain gradual and preservative elements; neither speed nor tradition categorically governs reform.",
+          "sources": [
+            "gender-law",
+            "canon"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National schooling includes sexual orientation, identity and critical discussion of gender expectations independently of traditional household preferences.",
+          "sources": [
+            "sexuality",
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The cultural canon and retained ceremonial calendar support preserving inherited connections even when their value is cultural continuity rather than immediate utility.",
+          "sources": [
+            "canon",
+            "holidays"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "The implemented programme backs AI deployment, nuclear investment and carbon capture while retaining risk-based medical, environmental and biotechnology safeguards. Development is actively promoted, but early benefits do not remove sector-specific evidence requirements.",
+      "counterEvidence": "The new AI strategy includes both adopted and future actions, which are distinguished here. Existing environmental assessment and inherited-genetic-change restrictions remain binding. Non-medical brain stimulation rules are not treated as proof that an invasive enhancement implant has already been approved.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The government promotes adoption and investment, but environmental and health safeguards require risk management; early promise alone does not automatically justify wide use.",
+          "sources": [
+            "ai",
+            "precaution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted AI programme supports practical deployment under controls rather than a blanket restriction of every new technology to small trials until long-term certainty.",
+          "sources": [
+            "ai",
+            "medical-ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Planning law balances development against environmental interests, and recent permitting reforms favour development; some habitat loss can be authorised rather than preservation always prevailing.",
+          "sources": [
+            "planning",
+            "environment-code",
+            "acts-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Medical device evaluation requires clinical evidence and lifecycle risk management, supporting safety scrutiny before wide use without demanding that every long-term uncertainty be eliminated.",
+          "sources": [
+            "medical-software",
+            "nonmedical-devices"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The adopted strategy prioritises productivity and skills adjustment as AI changes work, rather than protecting every existing task from replacement.",
+          "sources": [
+            "ai",
+            "ai-actions"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The planning and permitting system weighs substantial public benefits and allows justified development; it does not give all undisturbed land an absolute priority.",
+          "sources": [
+            "planning",
+            "environment-code"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cultivated meat is subject to prior novel-food authorisation and was identified as not yet approved; this weighs against immediate replacement of conventional production before the applicable evidence review.",
+          "sources": [
+            "novel-food"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Risk classification, clinical evaluation and the ethics council’s concern about weak enhancement evidence support a cautious pathway for invasive enhancement; this is a regulatory inference, not a claimed implant-specific statutory trial-only rule.",
+          "sources": [
+            "nonmedical-devices",
+            "neuroethics",
+            "neuroethics-full"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Actual large carbon-capture support and nuclear risk sharing commit resources to technological decarbonisation, including first-of-kind scale-up, rather than relying mainly on consumption reduction.",
+          "sources": [
+            "ccs",
+            "nuclear"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Significant projects need adequate environmental knowledge and assessment before permission, even when their expected public benefit is high.",
+          "sources": [
+            "environment-code",
+            "precaution"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The applicable high-protection and clinical-evidence approach weighs against treating basic safety alone as sufficient for an invasive healthy-person enhancement implant with unresolved long-term risks.",
+          "sources": [
+            "nonmedical-devices",
+            "neuroethics",
+            "neuroethics-full"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Clinical claims require evidence and risk-based evaluation before routine deployment; guidance supports systematic implementation rather than unvalidated diagnostic use across patient groups.",
+          "sources": [
+            "medical-ai",
+            "medical-software"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Research or treatment causing heritable human genetic changes is prohibited, and embryo selection is limited to serious inherited disease rather than enhancement.",
+          "sources": [
+            "genetic-integrity"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Commercial cultivation requires an environmental risk assessment covering spread, other organisms and ecosystem effects; higher yield alone is insufficient.",
+          "sources": [
+            "gmo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Recent permit simplification and a framework permitting land conversion for public development favour expansion where safeguards can be met, though protected land is not freely disposable.",
+          "sources": [
+            "planning",
+            "acts-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The precautionary framework requires action on plausible serious risks before certainty, and heritable genetic interventions face hard limits despite possible benefits.",
+          "sources": [
+            "precaution",
+            "genetic-integrity"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Sweden is unitary but constitutionally protects local self-government and local taxation. Municipal planning and regional healthcare coexist with national law, curricula, policing and fiscal equalisation.",
+      "counterEvidence": "State county administrative boards are not the same as elected regional councils. Emergency response normally retains local responsibilities, with state takeover powers when capacity or coordination fails. Sami consultation does not establish territorial sovereign government.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Local self-government is constitutionally protected and restrictions must be proportionate, although national statutes define its scope.",
+          "sources": [
+            "constitution",
+            "local"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Parliamentary law ultimately allocates municipal and regional powers within constitutional protections, rather than equal sovereign governments settling their own competences.",
+          "sources": [
+            "constitution",
+            "local"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The unitary constitutional order gives regions no unilateral referendum-based power to secede.",
+          "sources": [
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National legislation and state supervision can constrain local policy for national interests, subject to law and proportionality rather than mere ministerial dislike.",
+          "sources": [
+            "local",
+            "planning-roles"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Councils organise their affairs within national local-government law, not separately adopted regional constitutions.",
+          "sources": [
+            "constitution",
+            "local"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: All police regions form one national authority with national operational direction.",
+          "sources": [
+            "police-organisation"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Local income taxes finance local responsibilities, but national taxes and redistribution mean councils do not simply retain most taxes geographically collected.",
+          "sources": [
+            "local",
+            "tax-2026"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The national curriculum sets compulsory learning requirements across the country despite local delivery.",
+          "sources": [
+            "curriculum"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Municipalities and regions set their own income-tax rates, producing geographic differences; proposed tax incentives are not scored as an enacted uniform rate.",
+          "sources": [
+            "local",
+            "local-tax"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National labour-law rules govern employment protections, while bargaining varies contractually rather than through regional employment statutes.",
+          "sources": [
+            "wages",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Boundary changes generally require a government or authorised state-agency decision, even when local residents initiate the application.",
+          "sources": [
+            "boundaries"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: National entitlements, standards and medicine reimbursement coexist with regional responsibility for organising and delivering care; neither level controls every treatment decision alone.",
+          "sources": [
+            "health",
+            "medicine-prices"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The Sami Parliament and consultation rights provide cultural influence, but do not transfer general territorial administration from national and municipal institutions.",
+          "sources": [
+            "minorities"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Local rate-setting remains protected and the incumbent’s reviewed proposal encourages lower rates; equalisation is not a general prohibition on lower-tax competition.",
+          "sources": [
+            "local",
+            "local-tax"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Municipal land-use decisions are primary, subject to national environmental and state-interest supervision; local effects strengthen the case for local decisions.",
+          "sources": [
+            "planning",
+            "planning-roles"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Proximity and existing responsibilities remain the default, but the state can take over rescue operations when multiple areas cannot coordinate or cope adequately.",
+          "sources": [
+            "crisis",
+            "rescue-takeover"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Public child-health guidance explicitly combines innate temperament and brain development with relationships and experience. Temperament itself is described as predominantly biological; gender and body-ideal guidance stresses learned norms. Three broader causal rankings remain unsupported.",
+      "counterEvidence": "These are inferences from adopted institutional guidance, not claims that ministers endorse a scientific theory. Individual heredity is not racial heredity; ADHD cannot stand for all attention, crime statistics do not identify genetic causes, and unexplained pay differences do not prove discrimination or productivity. National IQ, general interests and immediate moral reactions lack a sufficiently attributable comparative position. Completion note: previously unresolved question-level comparisons are now provisional educated assumptions, not documented adopted positions; see each explicit rationale and the preserved starting draft.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Guidance explains ordinary behaviour through innate temperament interacting with caregiving and circumstances; it neither makes upbringing alone dominant nor denies developmental change. This supports a mixed account.",
+          "sources": [
+            "behaviour-development",
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: School and child-development frameworks combine individual biology with social opportunities. Moderate disagreement with inherited national predominance is the likelier estimate; no adopted national-IQ comparison was located, and individual inheritance does not determine differences between countries.",
+          "sources": [
+            "curriculum",
+            "child-guidance",
+            "gap-psychology-syllabus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The curriculum directs schools to address gender patterns that constrain behaviour and opportunities and to examine how expectations shape girls and boys. This supports a qualified social explanation, without ruling out biological differences.",
+          "sources": [
+            "curriculum",
+            "sexuality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Emotional sensitivity has a biological temperamental component, while public stress guidance describes lasting sensitivity after prolonged strain and anxiety guidance identifies experience. The institutional account is interactive rather than biological predominance across people.",
+          "sources": [
+            "child-guidance",
+            "stress",
+            "anxiety"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Child guidance describes changing interests through experiences and expanding school opportunities. Moderate agreement is the likelier operational estimate; the framework does not quantify relative inheritance across all interests, so strong agreement would overstate it.",
+          "sources": [
+            "interests-development",
+            "curriculum",
+            "gap-psychology-syllabus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Health guidance attributes teenagers’ greater risk taking both to reward/control brain development and to heightened peer influence and learning. This is a supported biological-social interaction, not proof that inherited traits generally outweigh learning.",
+          "sources": [
+            "teen-risk"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Cooperation develops from early social capacities through reciprocal relationships, adult guidance and practice. The guidance explicitly combines starting dispositions with learning rather than giving either universal primacy.",
+          "sources": [
+            "socioemotion",
+            "behaviour-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The national programme treats empathy as developing through both innate capacities and social interaction; caregiving supports understanding others. This supports a mixed developmental account of capacity, not inherited predominance.",
+          "sources": [
+            "socioemotion",
+            "socioemotion-support"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Typical attention develops through interacting maturation and experience. ADHD guidance adds a specific heritable component and contextual variation; neither source makes environment dominant across all attention differences.",
+          "sources": [
+            "socioemotion",
+            "adhd"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Curricular moral learning gives upbringing and social experience practical explanatory weight. Moderate disagreement is the likelier extrapolation to immediate intuitions, while neither the curriculum nor university research establishes an adopted comparative causal theory.",
+          "sources": [
+            "moral-research",
+            "curriculum",
+            "gap-psychology-syllabus"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Guidance connects fear responses with temperamental sensitivity and with frightening experiences or observing others’ fear. It therefore supports both predisposition and learned threat responses rather than a general learning-first rule.",
+          "sources": [
+            "anxiety",
+            "child-guidance"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Regional guidance explicitly presents temperament as innate and lasting, not created by parents; the national child-health guide describes its basic dimensions as predominantly biological and relatively stable. Parenting affects expression and adjustment.",
+          "sources": [
+            "temperament",
+            "child-guidance"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Regional youth guidance describes appearance ideals changing across societies and time and being shaped by media. That supports a qualified cultural explanation of attractiveness preferences, without asserting that all attraction is learned.",
+          "sources": [
+            "body-ideals"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The crime-prevention agency discusses resources, socialisation, neighbourhoods and other social mechanisms in explaining origin-group offending patterns. A qualified rejection of racial biological predominance is inferred from that causal framework; remaining statistical differences are not evidence of genetic causation.",
+          "sources": [
+            "origin-crime"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: Child-health practice treats regulation and cooperative conduct as skills strengthened through relationships and learning, while recognising individual temperament. This supports learning over the question’s inherited racial explanation, not a denial of individual biological variation.",
+          "sources": [
+            "socioemotion-support",
+            "behaviour-development"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Institutional inference: The mediation office identifies occupational segregation and working patterns; the equality agency identifies lower valuation of comparable female-dominated work. This supports rejecting a mainly economic-value explanation. The 4.4% adjusted residual is not itself proof of discrimination.",
+          "sources": [
+            "pay-gap",
+            "equal-work"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "OpenAI Codex (GPT-6), primary agent /root; separate completion review following retained earlier assessment review",
+    "reviewedAt": "2026-10-05",
+    "notes": "Re-read all 240 response rationales against their individual question wording, agreement directions and cited institutional scope in a distinct pass. Verified Kristersson caretaker status after 17 September 2026; future coalition pledges and the 2027 benefit cap are not enacted-policy evidence. Reviewed June 2026 firearms changes, July asylum changes and October family rules, distinguishing current entitlements and transitional rules. Corrected the tariffs source date field. Rechecked public-service foundation ownership, non-confessional schooling versus ceremonial religion, minimum wages versus collective bargaining, and local taxes versus national equalisation. Trait-specific health guidance supports mixed causation where it expressly combines biological development and social experience. Kept Culture/Nature Q2 national IQ, Q5 general interests and Q10 immediate moral reactions unknown rather than treating related programmes as comparative causal evidence. Military Q4 was changed from a weak disagreement inference to unknown after finding an inquiry manual allowing imminent-attack defence without establishing its current adoption. Strengthened arms-control and enhancement citations; brain-implant answers remain qualified regulatory/ethics inferences, not claims of an implant-specific trial-only statute. Government-building symbols Q11 is an impartiality-principle inference, not a claimed nationwide art ban. Flag File page, named authorship and PD-shape status verified; local 960×600 PNG visually inspected. No target scores or neighbouring answers used. Independent parent audit, archive, shared credits and browser integration remain pending. Validation results recorded after running the repository validator. Initial validation found one duplicate Freedom House URL and a year-only date; these were corrected. The final validator blocks archive on the four explicitly null answers and warns about supported mixed/conditional answers in assimilation, ownership, trade and causation. These warnings were individually reviewed; no unknown was converted to Neutral. No similarity neighbours are returned for the incomplete draft. Focused continuation on 2026-10-05 by primary OpenAI Codex agent /root: Read the current psychology syllabus (effective 1 February 2026) and reread 1177 guidance for ages 6–7. Teaching biological emotions, social factors and comparison of models does not adopt the precise causal rankings for national IQ, general interests or immediate moral intuitions. Checked the Defence University perspective of 8 March 2022, the 2010 inquiry manual and FIB 2019:1. Academic discussion and an inquiry proposal do not establish adoption of an anticipatory-force rule; FIB sets training requirements without adopting that rule. The indexed IKFN 2016 PDF failed retrieval (404), so its text/current status was not verified. Tactical or personal self-defence cannot automatically settle state anticipatory self-defence. All 4 exact question-level gaps remain null/unknown. Existing supported answers, period and cutoff are preserved. This was a focused same-agent research and separate challenge pass, not a complete independent re-review or publication sign-off. Separate completion pass on 2026-10-05: checked the 4 new educated assumptions against exact question wording, agreement direction, contextual sources and prior withdrawal reasons. These are most-likely provisional estimates, not adopted national causal theories. The distinction between individual and national/racial heredity, immediate intuition and deliberate instruction, and interventions and causal predominance is retained. Assumption IDs: culture-nature-02, culture-nature-05, culture-nature-10, militarist-pacifist-04. Reviewed neutral-heavy axis rationales: explicit mixed institutions, competing implemented rules and interaction models justify retained neutral choices; uncertainty alone was not used as the neutral rationale. Earlier whole-assessment review is preserved; this continuation does not claim a fresh independent 240-source reread or a human review. Similarity and browser checks are recorded separately after integration.",
+    "similarity": []
+  }
+}

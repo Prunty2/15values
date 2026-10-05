@@ -56,7 +56,7 @@ for (const format of formats) {
     await start(page, format.id);
     const answers = await finish(page, format.id, true, format.id === 'comprehensive' ? name => testInfo.outputPath(name) : undefined, format.id === 'comprehensive');
     await expect(page.locator('article')).toHaveCount(15);
-    await expect(page.getByRole('region', { name: 'Comparison placeholders' })).toBeVisible();
+    await expect(page.getByRole('region', { name: 'Result comparisons' })).toBeVisible();
     await expect(page.getByText('Personality placeholder', { exact: true })).toBeVisible();
     await expect(page.getByText(`Analysis based on your responses to ${format.questions} questions based on 15 dimensions of political ideology.`, { exact: true })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

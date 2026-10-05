@@ -1,6 +1,7 @@
 import { useState, type CSSProperties } from 'react';
 import ValueIcon from '../components/ValueIcon';
 import { axes, topics } from '../quiz/model';
+import { tendency, wholePercent } from '../quiz/profile';
 import type { Profile } from './types';
 import s from './Ideologies.module.css';
 import { browseGroups, groupFor } from './ideologyGroups';
@@ -10,16 +11,17 @@ const profileCount = (count: number) => `${count} ${count === 1 ? 'profile' : 'p
 
 function AxisStrip({ profile }: { profile: Profile }) {
   if (profile.withdrawal) return <p>Placements withdrawn · Evidence review required</p>;
-  return <div className={s.axisStrip} aria-label={`${profile.metadata.name}: 15 axis placements`}>
+  return <div className={s.axisStrip} aria-label={`${profile.metadata.name}: pronounced axis placements`}>
     {axes.map(axis => {
       const score = profile.scores.find(score => score.axisId === axis.id)!;
-      const balanced = Math.abs(score.leftPercent - 50) < 0.5;
+      const label = tendency(score);
+      if (label === 'Balanced' || label === 'Leaning') return null;
       const pole = score.leftPercent >= 50 ? axis.left : axis.right;
-      const leftPercent = Math.round(score.leftPercent);
+      const leftPercent = wholePercent(score.leftPercent);
       const placement = `${axis.left} ${leftPercent}% · ${axis.right} ${100 - leftPercent}%`;
       return <span key={axis.id} className={s.axisPlacement} tabIndex={0} aria-label={placement}>
-        <span className={s.axisSymbol} style={{ opacity: 0.4 + Math.abs(score.leftPercent - 50) / 50 * 0.6 }}><ValueIcon value={pole} /></span>
-        <span className={s.tooltip} role="tooltip"><strong>{topics[axis.id]}</strong>{placement}{balanced ? <small>Balanced placement</small> : null}</span>
+        <span className={s.axisSymbol}><ValueIcon value={pole} /></span>
+        <span className={s.tooltip} role="tooltip"><strong>{topics[axis.id]}</strong>{placement}</span>
       </span>;
     })}
   </div>;
@@ -42,8 +44,7 @@ export default function Ideologies({ profiles }: { profiles: Profile[] }) {
     </header>
 
     {profiles.length ? <>
-      <section className={s.distribution} aria-labelledby="distribution-title">
-        <h2 id="distribution-title" className={s.eyebrow}>Distribution across the groups</h2>
+      <section className={s.distribution} aria-label="Distribution across the groups">
         <div className={s.spectrum} aria-hidden="true">{traditions.filter(group => group.profiles.length).map(group => <span key={group.name} style={{ background: group.color, flex: group.profiles.length }} />)}</div>
         <div className={s.distributionLegend}>{traditions.map(group => <button key={group.name} onClick={() => setSelected(selected === group.name ? null : group.name)} aria-pressed={selected === group.name} style={tint(group.color)}><span className={s.dot} /><span>{group.name}</span><span className={s.count}>{group.profiles.length}</span></button>)}</div>
       </section>
@@ -53,11 +54,7 @@ export default function Ideologies({ profiles }: { profiles: Profile[] }) {
         <div className={s.filters} aria-label="Filter by group"><button aria-pressed={selected === null} onClick={() => setSelected(null)}>All groups <span>{profiles.length}</span></button>{traditions.map(group => <button key={group.name} style={tint(group.color)} aria-pressed={selected === group.name} onClick={() => setSelected(selected === group.name ? null : group.name)}><span className={s.dot} />{group.name}<span>{group.profiles.length}</span></button>)}</div>
       </section>
 
-      <section className={s.guide} aria-label="Reading the profiles">
-        <p><strong>15 values, at a glance.</strong> Each icon shows the pole a profile leans towards. A stronger colour means a stronger leaning. Hover, focus or tap an icon to see both percentages.</p>
-        <details><summary>Explore the 15 axes</summary><div className={s.axisLegend}>{axes.map(axis => <span key={axis.id}><ValueIcon value={axis.left} /><ValueIcon value={axis.right} /><span>{axis.name}</span></span>)}</div></details>
-      </section>
-      <div className={s.resultMeta}><p role="status">Showing {profileCount(shown)}{selected ? ` · ${selected}` : ''}</p>{selected || query ? <button onClick={() => { setSelected(null); setQuery(''); }}>Clear filters <span aria-hidden="true">×</span></button> : null}</div>
+      {selected || query ? <div className={s.resultMeta}><button onClick={() => { setSelected(null); setQuery(''); }}>Clear filters <span aria-hidden="true">×</span></button></div> : null}
       <div className={s.groups}>{groups.map((group, index) => <section key={group.name} className={`${s.group} ${group.profiles.length === 1 ? s.smallGroup : ''}`} style={tint(group.color)} aria-labelledby={`tradition-${index}`}>
         <header className={s.groupHeader}><div><span className={s.groupMarker} /><h2 id={`tradition-${index}`}>{group.name}</h2></div><span className={s.badge}>{profileCount(group.profiles.length)}</span></header>
         <div className={s.grid}>{group.profiles.map(profile => {

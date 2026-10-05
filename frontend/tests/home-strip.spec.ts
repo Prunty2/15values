@@ -1,5 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
+import { profileFixture } from './fixtures/profile';
 
 const catalogue = JSON.parse(readFileSync(new URL('../public/profiles/catalogue.v1.json', import.meta.url), 'utf8'));
 const profiles = catalogue.profiles.filter((profile: { catalogue: string }) => ['ideology', 'personality'].includes(profile.catalogue));
@@ -16,18 +17,36 @@ test('home strip uses published profiles and links to both types of detail page'
     const card = strip.locator(`a[href="#/${route}/${profile.id}"]`).first();
     await expect(card.locator('small')).toHaveCount(2);
     await expect(card.locator('small').first()).toHaveText(profile.catalogue === 'ideology' ? 'Ideology' : profile.metadata.category);
+    if (profile.catalogue === 'personality') {
+      const leaning = profile.metadata.politicalLeaning?.replace('-', ' ').toLowerCase();
+      const label = ['Far-Left', 'Left', 'Centre', 'Right', 'Far-Right', 'Libertarian', 'Religious', 'Other']
+        .find(label => label.replace('-', ' ').toLowerCase() === leaning) ?? 'Unclassified';
+      await expect(card.locator('small').last()).toHaveText(label);
+    }
     await expect(card.locator('span').last()).toHaveText(profile.metadata.name.replace(/\s*\(.*\)$/, '').trim());
     await expect(card).toHaveAttribute('href', `#/${route}/${profile.id}`);
   }
   await expect(strip.locator('a[href="#/ideologies/american-conservatism"]').first().locator('small').last()).toHaveText('Right');
   await expect(strip.locator('a[href="#/ideologies/communism"]').first().locator('small').last()).toHaveText('Far-Left');
-  await expect(strip.locator('a[href="#/personalities/adolf-hitler"]').first().locator('small').last()).toHaveText('Far-Right');
   for (const type of ['ideology', 'personality']) {
     const profile = profiles.filter((profile: { catalogue: string }) => profile.catalogue === type).sort((a: { metadata: { name: string } }, b: { metadata: { name: string } }) => a.metadata.name.localeCompare(b.metadata.name))[0];
     await strip.locator(`a[href="#/${type === 'ideology' ? 'ideologies' : 'personalities'}/${profile.id}"]`).first().click();
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(profile.metadata.name);
     await page.goto('./');
   }
+});
+
+test('home strip uses explicit personality leaning metadata and falls back when absent', async ({ page }) => {
+  const labelled = profileFixture('personality', 'labelled');
+  labelled.metadata.politicalLeaning = 'Far right';
+  const unclassified = profileFixture('personality', 'unclassified');
+  delete unclassified.metadata.politicalLeaning;
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles: [labelled, unclassified] } }));
+  await page.emulateMedia({ reducedMotion: 'reduce' });
+  await page.goto('./');
+  const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
+  await expect(strip.locator('a[href="#/personalities/labelled"]').first().locator('small').last()).toHaveText('Far-Right');
+  await expect(strip.locator('a[href="#/personalities/unclassified"]').first().locator('small').last()).toHaveText('Unclassified');
 });
 
 test('strip loops evenly, pauses, resumes and stops for keyboard interaction', async ({ page }) => {

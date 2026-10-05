@@ -1,0 +1,585 @@
+{
+  "id": "frederick-douglass",
+  "revision": 1,
+  "reviewer": "Codex (GPT-6; same-agent distinct evidence review pass)",
+  "reviewedAt": "2026-10-05",
+  "period": "1845–1895",
+  "answered": 240,
+  "inferredQuestionIds": [
+    "democracy-autocracy-01",
+    "democracy-autocracy-02",
+    "democracy-autocracy-03",
+    "democracy-autocracy-04",
+    "democracy-autocracy-05",
+    "democracy-autocracy-06",
+    "democracy-autocracy-07",
+    "democracy-autocracy-08",
+    "democracy-autocracy-09",
+    "democracy-autocracy-10",
+    "democracy-autocracy-11",
+    "democracy-autocracy-12",
+    "democracy-autocracy-13",
+    "democracy-autocracy-14",
+    "democracy-autocracy-15",
+    "democracy-autocracy-16",
+    "authority-liberty-01",
+    "authority-liberty-02",
+    "authority-liberty-03",
+    "authority-liberty-04",
+    "authority-liberty-05",
+    "authority-liberty-06",
+    "authority-liberty-07",
+    "authority-liberty-08",
+    "authority-liberty-09",
+    "authority-liberty-10",
+    "authority-liberty-11",
+    "authority-liberty-12",
+    "authority-liberty-13",
+    "authority-liberty-14",
+    "authority-liberty-15",
+    "authority-liberty-16",
+    "assimilation-multiculturalism-01",
+    "assimilation-multiculturalism-02",
+    "assimilation-multiculturalism-03",
+    "assimilation-multiculturalism-04",
+    "assimilation-multiculturalism-05",
+    "assimilation-multiculturalism-06",
+    "assimilation-multiculturalism-07",
+    "assimilation-multiculturalism-08",
+    "assimilation-multiculturalism-09",
+    "assimilation-multiculturalism-10",
+    "assimilation-multiculturalism-11",
+    "assimilation-multiculturalism-12",
+    "assimilation-multiculturalism-13",
+    "assimilation-multiculturalism-14",
+    "assimilation-multiculturalism-15",
+    "assimilation-multiculturalism-16",
+    "restricted-immigration-open-immigration-01",
+    "restricted-immigration-open-immigration-02",
+    "restricted-immigration-open-immigration-03",
+    "restricted-immigration-open-immigration-04",
+    "restricted-immigration-open-immigration-05",
+    "restricted-immigration-open-immigration-06",
+    "restricted-immigration-open-immigration-07",
+    "restricted-immigration-open-immigration-08",
+    "restricted-immigration-open-immigration-09",
+    "restricted-immigration-open-immigration-10",
+    "restricted-immigration-open-immigration-11",
+    "restricted-immigration-open-immigration-12",
+    "restricted-immigration-open-immigration-13",
+    "restricted-immigration-open-immigration-14",
+    "restricted-immigration-open-immigration-15",
+    "restricted-immigration-open-immigration-16",
+    "militarist-pacifist-01",
+    "militarist-pacifist-02",
+    "militarist-pacifist-03",
+    "militarist-pacifist-04",
+    "militarist-pacifist-05",
+    "militarist-pacifist-06",
+    "militarist-pacifist-07",
+    "militarist-pacifist-08",
+    "militarist-pacifist-09",
+    "militarist-pacifist-10",
+    "militarist-pacifist-11",
+    "militarist-pacifist-12",
+    "militarist-pacifist-13",
+    "militarist-pacifist-14",
+    "militarist-pacifist-15",
+    "militarist-pacifist-16",
+    "nationalism-internationalism-01",
+    "nationalism-internationalism-02",
+    "nationalism-internationalism-03",
+    "nationalism-internationalism-04",
+    "nationalism-internationalism-05",
+    "nationalism-internationalism-06",
+    "nationalism-internationalism-07",
+    "nationalism-internationalism-08",
+    "nationalism-internationalism-09",
+    "nationalism-internationalism-10",
+    "nationalism-internationalism-11",
+    "nationalism-internationalism-12",
+    "nationalism-internationalism-13",
+    "nationalism-internationalism-14",
+    "nationalism-internationalism-15",
+    "nationalism-internationalism-16",
+    "public-private-01",
+    "public-private-02",
+    "public-private-03",
+    "public-private-04",
+    "public-private-05",
+    "public-private-06",
+    "public-private-07",
+    "public-private-08",
+    "public-private-09",
+    "public-private-10",
+    "public-private-11",
+    "public-private-12",
+    "public-private-13",
+    "public-private-14",
+    "public-private-15",
+    "public-private-16",
+    "protectionism-free-trade-01",
+    "protectionism-free-trade-02",
+    "protectionism-free-trade-03",
+    "protectionism-free-trade-04",
+    "protectionism-free-trade-05",
+    "protectionism-free-trade-06",
+    "protectionism-free-trade-07",
+    "protectionism-free-trade-08",
+    "protectionism-free-trade-09",
+    "protectionism-free-trade-10",
+    "protectionism-free-trade-11",
+    "protectionism-free-trade-12",
+    "protectionism-free-trade-13",
+    "protectionism-free-trade-14",
+    "protectionism-free-trade-15",
+    "protectionism-free-trade-16",
+    "planning-free-market-01",
+    "planning-free-market-02",
+    "planning-free-market-03",
+    "planning-free-market-04",
+    "planning-free-market-05",
+    "planning-free-market-06",
+    "planning-free-market-07",
+    "planning-free-market-08",
+    "planning-free-market-09",
+    "planning-free-market-10",
+    "planning-free-market-11",
+    "planning-free-market-12",
+    "planning-free-market-13",
+    "planning-free-market-14",
+    "planning-free-market-15",
+    "planning-free-market-16",
+    "high-redistribution-low-redistribution-01",
+    "high-redistribution-low-redistribution-02",
+    "high-redistribution-low-redistribution-03",
+    "high-redistribution-low-redistribution-04",
+    "high-redistribution-low-redistribution-05",
+    "high-redistribution-low-redistribution-06",
+    "high-redistribution-low-redistribution-07",
+    "high-redistribution-low-redistribution-08",
+    "high-redistribution-low-redistribution-09",
+    "high-redistribution-low-redistribution-10",
+    "high-redistribution-low-redistribution-11",
+    "high-redistribution-low-redistribution-12",
+    "high-redistribution-low-redistribution-13",
+    "high-redistribution-low-redistribution-14",
+    "high-redistribution-low-redistribution-15",
+    "high-redistribution-low-redistribution-16",
+    "secular-religious-01",
+    "secular-religious-02",
+    "secular-religious-03",
+    "secular-religious-04",
+    "secular-religious-05",
+    "secular-religious-06",
+    "secular-religious-07",
+    "secular-religious-08",
+    "secular-religious-09",
+    "secular-religious-10",
+    "secular-religious-11",
+    "secular-religious-12",
+    "secular-religious-13",
+    "secular-religious-14",
+    "secular-religious-15",
+    "secular-religious-16",
+    "progressive-traditionalist-01",
+    "progressive-traditionalist-02",
+    "progressive-traditionalist-03",
+    "progressive-traditionalist-04",
+    "progressive-traditionalist-05",
+    "progressive-traditionalist-06",
+    "progressive-traditionalist-07",
+    "progressive-traditionalist-08",
+    "progressive-traditionalist-09",
+    "progressive-traditionalist-10",
+    "progressive-traditionalist-11",
+    "progressive-traditionalist-12",
+    "progressive-traditionalist-13",
+    "progressive-traditionalist-14",
+    "progressive-traditionalist-15",
+    "progressive-traditionalist-16",
+    "innovation-caution-01",
+    "innovation-caution-02",
+    "innovation-caution-03",
+    "innovation-caution-04",
+    "innovation-caution-05",
+    "innovation-caution-06",
+    "innovation-caution-07",
+    "innovation-caution-08",
+    "innovation-caution-09",
+    "innovation-caution-10",
+    "innovation-caution-11",
+    "innovation-caution-12",
+    "innovation-caution-13",
+    "innovation-caution-14",
+    "innovation-caution-15",
+    "innovation-caution-16",
+    "central-local-01",
+    "central-local-02",
+    "central-local-03",
+    "central-local-04",
+    "central-local-05",
+    "central-local-06",
+    "central-local-07",
+    "central-local-08",
+    "central-local-09",
+    "central-local-10",
+    "central-local-11",
+    "central-local-12",
+    "central-local-13",
+    "central-local-14",
+    "central-local-15",
+    "central-local-16",
+    "culture-nature-01",
+    "culture-nature-02",
+    "culture-nature-03",
+    "culture-nature-04",
+    "culture-nature-05",
+    "culture-nature-06",
+    "culture-nature-07",
+    "culture-nature-08",
+    "culture-nature-09",
+    "culture-nature-10",
+    "culture-nature-11",
+    "culture-nature-12",
+    "culture-nature-13",
+    "culture-nature-14",
+    "culture-nature-15",
+    "culture-nature-16"
+  ],
+  "neutralQuestionIds": [
+    "authority-liberty-01",
+    "authority-liberty-05",
+    "authority-liberty-07",
+    "authority-liberty-08",
+    "assimilation-multiculturalism-05",
+    "assimilation-multiculturalism-09",
+    "militarist-pacifist-07",
+    "militarist-pacifist-13",
+    "nationalism-internationalism-03",
+    "nationalism-internationalism-07",
+    "nationalism-internationalism-09",
+    "nationalism-internationalism-13",
+    "public-private-10",
+    "public-private-15",
+    "public-private-16",
+    "protectionism-free-trade-01",
+    "protectionism-free-trade-06",
+    "protectionism-free-trade-07",
+    "protectionism-free-trade-11",
+    "planning-free-market-04",
+    "planning-free-market-06",
+    "planning-free-market-10",
+    "planning-free-market-11",
+    "high-redistribution-low-redistribution-01",
+    "high-redistribution-low-redistribution-07",
+    "high-redistribution-low-redistribution-08",
+    "high-redistribution-low-redistribution-10",
+    "high-redistribution-low-redistribution-15",
+    "secular-religious-10",
+    "secular-religious-14",
+    "progressive-traditionalist-06",
+    "progressive-traditionalist-07",
+    "progressive-traditionalist-08",
+    "progressive-traditionalist-10",
+    "progressive-traditionalist-11",
+    "progressive-traditionalist-12",
+    "progressive-traditionalist-14",
+    "progressive-traditionalist-15",
+    "progressive-traditionalist-16",
+    "innovation-caution-06",
+    "innovation-caution-07",
+    "innovation-caution-11",
+    "central-local-08",
+    "culture-nature-12"
+  ],
+  "axisReviews": [
+    {
+      "axisId": "democracy-autocracy",
+      "evidence": "Universal suffrage and government by the consent of the governed underpin his public argument.",
+      "counterEvidence": "Prioritising Black male voting during Reconstruction did not cancel his longstanding advocacy of women’s voting rights."
+    },
+    {
+      "axisId": "authority-liberty",
+      "evidence": "Free speech, resistance to slavery and protection from arbitrary coercion favour liberty.",
+      "counterEvidence": "He accepted armed self-defence and federal enforcement of emancipation; temperance advocacy does not establish blanket approval of drugs."
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "evidence": "The composite-nation speech explicitly includes multiple races and immigrant communities.",
+      "counterEvidence": "Shared citizenship and integration remain fundamental; diversity is not a demand for separate identities to override national rights."
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "evidence": "His composite-nation argument defends Chinese immigration and rejects racial limits on migration.",
+      "counterEvidence": "Modern welfare eligibility, sponsorship and university visas have no exact historical equivalent; these are extensions of his inclusive principle."
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "evidence": "He backed the Union’s armed struggle against slavery and Black military service while opposing domination and annexation.",
+      "counterEvidence": "Emancipatory war is not universal pacifism or a preference for perpetual foreign conquest; modern autonomous weapons are inferred cautiously."
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "evidence": "Universal human rights coexist with a strong commitment to a reformed American republic.",
+      "counterEvidence": "His diplomacy and anti-annexation stance qualify a nationalist label, but he did not supply a blueprint for modern supranational economic institutions."
+    },
+    {
+      "axisId": "public-private",
+      "evidence": "Free labour, property rights and personal initiative coexist with public education and national protection of rights.",
+      "counterEvidence": "Abolition of ownership of people is not a proposal for abolition of ordinary private business; modern public-service ownership is an analogy."
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "evidence": "Opportunity and free labour in an internationally connected republic favour exchange with some public safeguards.",
+      "counterEvidence": "No comprehensive tariff doctrine was found; Republican affiliation is insufficient to assign protectionism automatically."
+    },
+    {
+      "axisId": "planning-free-market",
+      "evidence": "Self-directed labour and initiative favour market decisions over compulsory production direction.",
+      "counterEvidence": "Public education and protection against exploitation remain; modern minimum-wage and private-currency items are tentative institutional translations."
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "evidence": "Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence.",
+      "counterEvidence": "He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer."
+    },
+    {
+      "axisId": "secular-religious",
+      "evidence": "He condemned churches legitimising slavery and defended equal citizenship over sectarian domination.",
+      "counterEvidence": "Christian moral argument remained central, but invoking faith does not create religious courts or a clergy veto on civil legislation."
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "evidence": "Women’s rights and his interracial marriage challenged inherited discriminatory social conventions.",
+      "counterEvidence": "No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism."
+    },
+    {
+      "axisId": "innovation-caution",
+      "evidence": "Education, communication and material progress are opportunities for emancipation when used with human safeguards.",
+      "counterEvidence": "Modern AI, neural implants and embryo enhancement have no historical counterpart; irreversible interventions are cautiously inferred rather than asserted as documented beliefs."
+    },
+    {
+      "axisId": "central-local",
+      "evidence": "National protection of citizenship and Reconstruction rights override local permission for slavery or disenfranchisement.",
+      "counterEvidence": "Local agency and free institutions remain; federal enforcement of equal rights is not evidence for national command of every service."
+    },
+    {
+      "axisId": "culture-nature",
+      "evidence": "Literacy, slavery’s social damage and opportunity are powerful causes of human development in his argument.",
+      "counterEvidence": "He acknowledged native capacities and personal effort; equality of rights is not itself a precise claim about all inherited psychological variation."
+    }
+  ],
+  "corrections": {},
+  "notes": "Separate review checked the 240 literal claims against the current bank, agreement directions, period, actual institutional conduct and counter-evidence. No target scores or neighbour responses were used to choose answers. All 240 answers are labelled inferred conservatively: these are contextual predictions, not answers supplied by the subject. Exact inferred IDs are democracy-autocracy-01, democracy-autocracy-02, democracy-autocracy-03, democracy-autocracy-04, democracy-autocracy-05, democracy-autocracy-06, democracy-autocracy-07, democracy-autocracy-08, democracy-autocracy-09, democracy-autocracy-10, democracy-autocracy-11, democracy-autocracy-12, democracy-autocracy-13, democracy-autocracy-14, democracy-autocracy-15, democracy-autocracy-16, authority-liberty-01, authority-liberty-02, authority-liberty-03, authority-liberty-04, authority-liberty-05, authority-liberty-06, authority-liberty-07, authority-liberty-08, authority-liberty-09, authority-liberty-10, authority-liberty-11, authority-liberty-12, authority-liberty-13, authority-liberty-14, authority-liberty-15, authority-liberty-16, assimilation-multiculturalism-01, assimilation-multiculturalism-02, assimilation-multiculturalism-03, assimilation-multiculturalism-04, assimilation-multiculturalism-05, assimilation-multiculturalism-06, assimilation-multiculturalism-07, assimilation-multiculturalism-08, assimilation-multiculturalism-09, assimilation-multiculturalism-10, assimilation-multiculturalism-11, assimilation-multiculturalism-12, assimilation-multiculturalism-13, assimilation-multiculturalism-14, assimilation-multiculturalism-15, assimilation-multiculturalism-16, restricted-immigration-open-immigration-01, restricted-immigration-open-immigration-02, restricted-immigration-open-immigration-03, restricted-immigration-open-immigration-04, restricted-immigration-open-immigration-05, restricted-immigration-open-immigration-06, restricted-immigration-open-immigration-07, restricted-immigration-open-immigration-08, restricted-immigration-open-immigration-09, restricted-immigration-open-immigration-10, restricted-immigration-open-immigration-11, restricted-immigration-open-immigration-12, restricted-immigration-open-immigration-13, restricted-immigration-open-immigration-14, restricted-immigration-open-immigration-15, restricted-immigration-open-immigration-16, militarist-pacifist-01, militarist-pacifist-02, militarist-pacifist-03, militarist-pacifist-04, militarist-pacifist-05, militarist-pacifist-06, militarist-pacifist-07, militarist-pacifist-08, militarist-pacifist-09, militarist-pacifist-10, militarist-pacifist-11, militarist-pacifist-12, militarist-pacifist-13, militarist-pacifist-14, militarist-pacifist-15, militarist-pacifist-16, nationalism-internationalism-01, nationalism-internationalism-02, nationalism-internationalism-03, nationalism-internationalism-04, nationalism-internationalism-05, nationalism-internationalism-06, nationalism-internationalism-07, nationalism-internationalism-08, nationalism-internationalism-09, nationalism-internationalism-10, nationalism-internationalism-11, nationalism-internationalism-12, nationalism-internationalism-13, nationalism-internationalism-14, nationalism-internationalism-15, nationalism-internationalism-16, public-private-01, public-private-02, public-private-03, public-private-04, public-private-05, public-private-06, public-private-07, public-private-08, public-private-09, public-private-10, public-private-11, public-private-12, public-private-13, public-private-14, public-private-15, public-private-16, protectionism-free-trade-01, protectionism-free-trade-02, protectionism-free-trade-03, protectionism-free-trade-04, protectionism-free-trade-05, protectionism-free-trade-06, protectionism-free-trade-07, protectionism-free-trade-08, protectionism-free-trade-09, protectionism-free-trade-10, protectionism-free-trade-11, protectionism-free-trade-12, protectionism-free-trade-13, protectionism-free-trade-14, protectionism-free-trade-15, protectionism-free-trade-16, planning-free-market-01, planning-free-market-02, planning-free-market-03, planning-free-market-04, planning-free-market-05, planning-free-market-06, planning-free-market-07, planning-free-market-08, planning-free-market-09, planning-free-market-10, planning-free-market-11, planning-free-market-12, planning-free-market-13, planning-free-market-14, planning-free-market-15, planning-free-market-16, high-redistribution-low-redistribution-01, high-redistribution-low-redistribution-02, high-redistribution-low-redistribution-03, high-redistribution-low-redistribution-04, high-redistribution-low-redistribution-05, high-redistribution-low-redistribution-06, high-redistribution-low-redistribution-07, high-redistribution-low-redistribution-08, high-redistribution-low-redistribution-09, high-redistribution-low-redistribution-10, high-redistribution-low-redistribution-11, high-redistribution-low-redistribution-12, high-redistribution-low-redistribution-13, high-redistribution-low-redistribution-14, high-redistribution-low-redistribution-15, high-redistribution-low-redistribution-16, secular-religious-01, secular-religious-02, secular-religious-03, secular-religious-04, secular-religious-05, secular-religious-06, secular-religious-07, secular-religious-08, secular-religious-09, secular-religious-10, secular-religious-11, secular-religious-12, secular-religious-13, secular-religious-14, secular-religious-15, secular-religious-16, progressive-traditionalist-01, progressive-traditionalist-02, progressive-traditionalist-03, progressive-traditionalist-04, progressive-traditionalist-05, progressive-traditionalist-06, progressive-traditionalist-07, progressive-traditionalist-08, progressive-traditionalist-09, progressive-traditionalist-10, progressive-traditionalist-11, progressive-traditionalist-12, progressive-traditionalist-13, progressive-traditionalist-14, progressive-traditionalist-15, progressive-traditionalist-16, innovation-caution-01, innovation-caution-02, innovation-caution-03, innovation-caution-04, innovation-caution-05, innovation-caution-06, innovation-caution-07, innovation-caution-08, innovation-caution-09, innovation-caution-10, innovation-caution-11, innovation-caution-12, innovation-caution-13, innovation-caution-14, innovation-caution-15, innovation-caution-16, central-local-01, central-local-02, central-local-03, central-local-04, central-local-05, central-local-06, central-local-07, central-local-08, central-local-09, central-local-10, central-local-11, central-local-12, central-local-13, central-local-14, central-local-15, central-local-16, culture-nature-01, culture-nature-02, culture-nature-03, culture-nature-04, culture-nature-05, culture-nature-06, culture-nature-07, culture-nature-08, culture-nature-09, culture-nature-10, culture-nature-11, culture-nature-12, culture-nature-13, culture-nature-14, culture-nature-15, culture-nature-16. Neutral answers were reviewed as conditional positions rather than automatic defaults. Modern technology and specific institutional mechanisms have particularly indirect support; Culture vs Nature is a causal assessment, not environmental policy or an inference from party/religion alone. Personal faith was separated from religious government, ownership from spending, assimilation from migration volume, and wartime measures from ordinary powers.  Publisher labels do not guarantee independent evidence: duplicated RFK speech transcriptions count as one primary document; contextual biography supplies a cross-check. Some sites restrict direct download; accessible browser text/search excerpts and saved access records identify those limitations. Similarity review is diagnostic and does not adjust evidence-supported answers. Validation warnings reviewed: high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence. progressive-traditionalist: 9/16 neutral answers; check that these express a supported position, not missing evidence.. Every Neutral rationale includes an item-specific or axis-specific statement of competing substantive commitments. Warnings are retained; absence of a precise statement was never treated as an automatic Neutral response. All local portraits were visually inspected together and matched their Commons identities; JPEGs are within the 1 MB limit.",
+  "neighbours": [
+    {
+      "id": "nancy-pelosi",
+      "revision": 1,
+      "similarity": 91.24666666666667
+    },
+    {
+      "id": "nelson-mandela",
+      "revision": 2,
+      "similarity": 89.68666666666667
+    },
+    {
+      "id": "barack-obama",
+      "revision": 2,
+      "similarity": 89.08
+    },
+    {
+      "id": "kamala-harris",
+      "revision": 2,
+      "similarity": 88.84666666666666
+    },
+    {
+      "id": "hillary-clinton",
+      "revision": 1,
+      "similarity": 88.83333333333333
+    }
+  ],
+  "similarityDecisions": [],
+  "warnings": [
+    "high-redistribution-low-redistribution: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "progressive-traditionalist: 9/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neutralReview": [
+    {
+      "questionId": "authority-liberty-01",
+      "rationale": "Educated assumption: Free speech, resistance to slavery and protection from arbitrary coercion favour liberty. Applying that record to the exact claim “Adults should be allowed to make personal choices such as drug use that risk personal wellbeing when they do not directly harm others.”, Neutral is a substantive mixed/conditional judgement on self-regarding drug choices: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He accepted armed self-defence and federal enforcement of emancipation; temperance advocacy does not establish blanket approval of drugs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Personal agency weighs toward freedom, while health, addiction and duties to others weigh toward restrictions on this specific self-risking choice."
+    },
+    {
+      "questionId": "authority-liberty-05",
+      "rationale": "Educated assumption: Free speech, resistance to slavery and protection from arbitrary coercion favour liberty. Applying that record to the exact claim “The government should be able to require adults to follow health measures intended primarily to protect those adults themselves.”, Neutral is a substantive mixed/conditional judgement on primarily self-protective health mandates: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He accepted armed self-defence and federal enforcement of emancipation; temperance advocacy does not establish blanket approval of drugs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Protection of health is balanced against compelling an adult primarily for that adult’s own benefit, rather than preventing harm to others."
+    },
+    {
+      "questionId": "authority-liberty-07",
+      "rationale": "Educated assumption: Free speech, resistance to slavery and protection from arbitrary coercion favour liberty. Applying that record to the exact claim “Police should be allowed to stop drivers at random and test them for intoxication, even without a reason to suspect impairment.”, Neutral is a substantive mixed/conditional judgement on random intoxication checks: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He accepted armed self-defence and federal enforcement of emancipation; temperance advocacy does not establish blanket approval of drugs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Prevention of danger on public roads supports checks; the absence of individual grounds weighs toward a narrower police power."
+    },
+    {
+      "questionId": "authority-liberty-08",
+      "rationale": "Educated assumption: Free speech, resistance to slavery and protection from arbitrary coercion favour liberty. Applying that record to the exact claim “Authorities should be able to restrict a person’s movements before they commit an offence when a court finds a serious risk that they will harm others.”, Neutral is a substantive mixed/conditional judgement on court-supervised preventive movement limits: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He accepted armed self-defence and federal enforcement of emancipation; temperance advocacy does not establish blanket approval of drugs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: A court finding and harm prevention weigh toward intervention, while restricting someone before an offence weighs toward liberty."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-05",
+      "rationale": "Educated assumption: The composite-nation speech explicitly includes multiple races and immigrant communities. Applying that record to the exact claim “Public institutions should prioritise using the national language over providing services in several foreign languages.”, Neutral is a substantive mixed/conditional judgement on national-language priority: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Shared citizenship and integration remain fundamental; diversity is not a demand for separate identities to override national rights. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: The inclusive citizenship or accommodation evidence is balanced against common civic customs and institutions. Neither cultural priority in every conflict nor unconditional priority for every separate practice follows."
+    },
+    {
+      "questionId": "assimilation-multiculturalism-09",
+      "rationale": "Educated assumption: The composite-nation speech explicitly includes multiple races and immigrant communities. Applying that record to the exact claim “Public institutions should organise their schedules around one common cultural calendar rather than accommodate different communities’ celebrations.”, Neutral is a substantive mixed/conditional judgement on one common calendar: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Shared citizenship and integration remain fundamental; diversity is not a demand for separate identities to override national rights. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: The inclusive citizenship or accommodation evidence is balanced against common civic customs and institutions. Neither cultural priority in every conflict nor unconditional priority for every separate practice follows."
+    },
+    {
+      "questionId": "militarist-pacifist-07",
+      "rationale": "Educated assumption: He backed the Union’s armed struggle against slavery and Black military service while opposing domination and annexation. Applying that record to the exact claim “My country should accept substantial diplomatic concessions to prevent a war, even when doing so weakens its international position.”, Neutral is a substantive mixed/conditional judgement on substantial peace concessions: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Emancipatory war is not universal pacifism or a preference for perpetual foreign conquest; modern autonomous weapons are inferred cautiously. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Defence and allied security duties are balanced against negotiated peace and limits on escalation. The specific mechanism is stronger than either a general security commitment or a general preference for diplomacy."
+    },
+    {
+      "questionId": "militarist-pacifist-13",
+      "rationale": "Educated assumption: He backed the Union’s armed struggle against slavery and Black military service while opposing domination and annexation. Applying that record to the exact claim “My country should be willing to threaten military action to obtain concessions in serious international disputes.”, Neutral is a substantive mixed/conditional judgement on coercive military threats: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Emancipatory war is not universal pacifism or a preference for perpetual foreign conquest; modern autonomous weapons are inferred cautiously. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Defence and allied security duties are balanced against negotiated peace and limits on escalation. The specific mechanism is stronger than either a general security commitment or a general preference for diplomacy."
+    },
+    {
+      "questionId": "nationalism-internationalism-03",
+      "rationale": "Educated assumption: Universal human rights coexist with a strong commitment to a reformed American republic. Applying that record to the exact claim “Courts in my country should have final authority when national law conflicts with an international court’s ruling.”, Neutral is a substantive mixed/conditional judgement on national versus international courts: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. His diplomacy and anti-annexation stance qualify a nationalist label, but he did not supply a blueprint for modern supranational economic institutions. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Actual cooperative commitments are balanced against retained domestic constitutional authority. Accepting an alliance does not entail approving every further transfer of sovereignty."
+    },
+    {
+      "questionId": "nationalism-internationalism-07",
+      "rationale": "Educated assumption: Universal human rights coexist with a strong commitment to a reformed American republic. Applying that record to the exact claim “My country should prioritise its own interests when they conflict with goals set by international institutions.”, Neutral is a substantive mixed/conditional judgement on national-interest priority: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. His diplomacy and anti-annexation stance qualify a nationalist label, but he did not supply a blueprint for modern supranational economic institutions. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Actual cooperative commitments are balanced against retained domestic constitutional authority. Accepting an alliance does not entail approving every further transfer of sovereignty."
+    },
+    {
+      "questionId": "nationalism-internationalism-09",
+      "rationale": "Educated assumption: Universal human rights coexist with a strong commitment to a reformed American republic. Applying that record to the exact claim “My country should remain outside international blocs that require members to adopt a common foreign policy.”, Neutral is a substantive mixed/conditional judgement on common foreign-policy blocs: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. His diplomacy and anti-annexation stance qualify a nationalist label, but he did not supply a blueprint for modern supranational economic institutions. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Actual cooperative commitments are balanced against retained domestic constitutional authority. Accepting an alliance does not entail approving every further transfer of sovereignty."
+    },
+    {
+      "questionId": "nationalism-internationalism-13",
+      "rationale": "Educated assumption: Universal human rights coexist with a strong commitment to a reformed American republic. Applying that record to the exact claim “My country should retain sole authority over entry at its borders rather than share that authority with international institutions.”, Neutral is a substantive mixed/conditional judgement on sole border-entry authority: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. His diplomacy and anti-annexation stance qualify a nationalist label, but he did not supply a blueprint for modern supranational economic institutions. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Actual cooperative commitments are balanced against retained domestic constitutional authority. Accepting an alliance does not entail approving every further transfer of sovereignty."
+    },
+    {
+      "questionId": "public-private-10",
+      "rationale": "Educated assumption: Free labour, property rights and personal initiative coexist with public education and national protection of rights. Applying that record to the exact claim “Public bodies should own a substantial share of rental housing in my country.”, Neutral is a substantive mixed/conditional judgement on substantial public rental housing: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Abolition of ownership of people is not a proposal for abolition of ordinary private business; modern public-service ownership is an analogy. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Private enterprise and the potential use of private providers are balanced against public services, strategic ownership or public investment. Funding a service and owning its provider are distinct choices."
+    },
+    {
+      "questionId": "public-private-15",
+      "rationale": "Educated assumption: Free labour, property rights and personal initiative coexist with public education and national protection of rights. Applying that record to the exact claim “A publicly owned business that repeatedly needs financial support should be sold to private owners rather than kept in public ownership.”, Neutral is a substantive mixed/conditional judgement on sale of persistently subsidised firms: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Abolition of ownership of people is not a proposal for abolition of ordinary private business; modern public-service ownership is an analogy. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Private enterprise and the potential use of private providers are balanced against public services, strategic ownership or public investment. Funding a service and owning its provider are distinct choices."
+    },
+    {
+      "questionId": "public-private-16",
+      "rationale": "Educated assumption: Free labour, property rights and personal initiative coexist with public education and national protection of rights. Applying that record to the exact claim “My country should own a national broadcaster rather than leave broadcasting entirely to private owners.”, Neutral is a substantive mixed/conditional judgement on a publicly owned broadcaster: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Abolition of ownership of people is not a proposal for abolition of ordinary private business; modern public-service ownership is an analogy. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Private enterprise and the potential use of private providers are balanced against public services, strategic ownership or public investment. Funding a service and owning its provider are distinct choices."
+    },
+    {
+      "questionId": "protectionism-free-trade-01",
+      "rationale": "Educated assumption: Opportunity and free labour in an internationally connected republic favour exchange with some public safeguards. Applying that record to the exact claim “My country should use import tariffs to protect domestic businesses from foreign competition.”, Neutral is a substantive mixed/conditional judgement on protective import tariffs: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No comprehensive tariff doctrine was found; Republican affiliation is insufficient to assign protectionism automatically. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Access to trade and lower-cost imports are balanced against domestic employment, security or development safeguards. Neither economy-wide exclusion nor unconditional opening fits the mixed evidence."
+    },
+    {
+      "questionId": "protectionism-free-trade-06",
+      "rationale": "Educated assumption: Opportunity and free labour in an internationally connected republic favour exchange with some public safeguards. Applying that record to the exact claim “My country should reduce its own trade barriers even when other countries do not do the same.”, Neutral is a substantive mixed/conditional judgement on unilateral barrier reductions: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No comprehensive tariff doctrine was found; Republican affiliation is insufficient to assign protectionism automatically. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Access to trade and lower-cost imports are balanced against domestic employment, security or development safeguards. Neither economy-wide exclusion nor unconditional opening fits the mixed evidence."
+    },
+    {
+      "questionId": "protectionism-free-trade-07",
+      "rationale": "Educated assumption: Opportunity and free labour in an internationally connected republic favour exchange with some public safeguards. Applying that record to the exact claim “My country should temporarily restrict imports to help new domestic industries become established, even when this raises prices for consumers.”, Neutral is a substantive mixed/conditional judgement on temporary infant-industry protection: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No comprehensive tariff doctrine was found; Republican affiliation is insufficient to assign protectionism automatically. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Access to trade and lower-cost imports are balanced against domestic employment, security or development safeguards. Neither economy-wide exclusion nor unconditional opening fits the mixed evidence."
+    },
+    {
+      "questionId": "protectionism-free-trade-11",
+      "rationale": "Educated assumption: Opportunity and free labour in an internationally connected republic favour exchange with some public safeguards. Applying that record to the exact claim “My country should impose tariffs in response to tariffs placed on its exports.”, Neutral is a substantive mixed/conditional judgement on retaliatory tariffs: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No comprehensive tariff doctrine was found; Republican affiliation is insufficient to assign protectionism automatically. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Access to trade and lower-cost imports are balanced against domestic employment, security or development safeguards. Neither economy-wide exclusion nor unconditional opening fits the mixed evidence."
+    },
+    {
+      "questionId": "planning-free-market-04",
+      "rationale": "Educated assumption: Self-directed labour and initiative favour market decisions over compulsory production direction. Applying that record to the exact claim “My government should direct investment towards sectors chosen in a national economic plan.”, Neutral is a substantive mixed/conditional judgement on planned sectoral investment: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Public education and protection against exploitation remain; modern minimum-wage and private-currency items are tentative institutional translations. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Market allocation and business agency are balanced against price, wage, investment or crisis interventions. The precise scope of compulsion in the claim matters."
+    },
+    {
+      "questionId": "planning-free-market-06",
+      "rationale": "Educated assumption: Self-directed labour and initiative favour market decisions over compulsory production direction. Applying that record to the exact claim “My government should control the prices of essential goods, even when suppliers would prefer to charge more.”, Neutral is a substantive mixed/conditional judgement on essential-goods price controls: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Public education and protection against exploitation remain; modern minimum-wage and private-currency items are tentative institutional translations. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Market allocation and business agency are balanced against price, wage, investment or crisis interventions. The precise scope of compulsion in the claim matters."
+    },
+    {
+      "questionId": "planning-free-market-10",
+      "rationale": "Educated assumption: Self-directed labour and initiative favour market decisions over compulsory production direction. Applying that record to the exact claim “My government should subsidise selected industries to steer economic development, even when private investors would favour other sectors.”, Neutral is a substantive mixed/conditional judgement on development subsidies: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Public education and protection against exploitation remain; modern minimum-wage and private-currency items are tentative institutional translations. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Market allocation and business agency are balanced against price, wage, investment or crisis interventions. The precise scope of compulsion in the claim matters."
+    },
+    {
+      "questionId": "planning-free-market-11",
+      "rationale": "Educated assumption: Self-directed labour and initiative favour market decisions over compulsory production direction. Applying that record to the exact claim “Privately issued currencies should be allowed to compete with government-issued money.”, Neutral is a substantive mixed/conditional judgement on competing private currencies: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Public education and protection against exploitation remain; modern minimum-wage and private-currency items are tentative institutional translations. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Market allocation and business agency are balanced against price, wage, investment or crisis interventions. The precise scope of compulsion in the claim matters."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-01",
+      "rationale": "Educated assumption: Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence. Applying that record to the exact claim “My country should use taxes and benefits to substantially reduce differences in disposable income.”, Neutral is a substantive mixed/conditional judgement on substantial disposable-income equalisation: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Material security is balanced against incentives, fiscal limits or the subject’s institutional distribution system. This exact tax/benefit mechanism is not identical to all public services."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-07",
+      "rationale": "Educated assumption: Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence. Applying that record to the exact claim “My country should tax large inheritances to fund income support for people with fewer resources.”, Neutral is a substantive mixed/conditional judgement on inheritance-funded support: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Material security is balanced against incentives, fiscal limits or the subject’s institutional distribution system. This exact tax/benefit mechanism is not identical to all public services."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-08",
+      "rationale": "Educated assumption: Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence. Applying that record to the exact claim “Income support for working-age adults who can work should have a time limit, even if some recipients still have low incomes when it ends.”, Neutral is a substantive mixed/conditional judgement on time-limited working-age support: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Material security is balanced against incentives, fiscal limits or the subject’s institutional distribution system. This exact tax/benefit mechanism is not identical to all public services."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-10",
+      "rationale": "Educated assumption: Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence. Applying that record to the exact claim “Income benefits should be kept modest so that those funding them face a lower tax burden.”, Neutral is a substantive mixed/conditional judgement on modest benefits for lower taxes: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Material security is balanced against incentives, fiscal limits or the subject’s institutional distribution system. This exact tax/benefit mechanism is not identical to all public services."
+    },
+    {
+      "questionId": "high-redistribution-low-redistribution-15",
+      "rationale": "Educated assumption: Fair opportunity and assistance for emancipation coexist with strong emphasis on self-directed labour and earned independence. Applying that record to the exact claim “My country should redistribute some large landholdings to people with little or no land, compensating owners through public funds.”, Neutral is a substantive mixed/conditional judgement on compensated land redistribution: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He recognised dependence on others and structural injustice; self-help is not evidence against every public transfer. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Material security is balanced against incentives, fiscal limits or the subject’s institutional distribution system. This exact tax/benefit mechanism is not identical to all public services."
+    },
+    {
+      "questionId": "secular-religious-10",
+      "rationale": "Educated assumption: He condemned churches legitimising slavery and defended equal citizenship over sectarian domination. Applying that record to the exact claim “My government should use public funds for activities intended to strengthen religious belief.”, Neutral is a substantive mixed/conditional judgement on belief-strengthening public expenditure: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Christian moral argument remained central, but invoking faith does not create religious courts or a clergy veto on civil legislation. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Civil constitutional authority and religious freedom are balanced against retained ceremonial, educational or charitable accommodation. Symbolic religious participation does not itself establish clerical control."
+    },
+    {
+      "questionId": "secular-religious-14",
+      "rationale": "Educated assumption: He condemned churches legitimising slavery and defended equal citizenship over sectarian domination. Applying that record to the exact claim “Religious organisations should receive tax exemptions specifically for their religious activities, beyond exemptions available for charitable work.”, Neutral is a substantive mixed/conditional judgement on religion-specific tax exemptions: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Christian moral argument remained central, but invoking faith does not create religious courts or a clergy veto on civil legislation. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Civil constitutional authority and religious freedom are balanced against retained ceremonial, educational or charitable accommodation. Symbolic religious participation does not itself establish clerical control."
+    },
+    {
+      "questionId": "progressive-traditionalist-06",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Society should continue to favour the two-parent married household as its preferred family model.”, Neutral is a substantive mixed/conditional judgement on preferred married-parent families: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-07",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Choosing an abortion early in pregnancy should be socially accepted.”, Neutral is a substantive mixed/conditional judgement on early-abortion social acceptance: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-08",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Parents should have the final say over whether their children receive school lessons that conflict with the family’s traditional sexual values.”, Neutral is a substantive mixed/conditional judgement on parental sexual-curriculum vetoes: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-10",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Traditional expectations about modest dress should continue to guide how people dress in public.”, Neutral is a substantive mixed/conditional judgement on traditional public modesty: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-11",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Language conventions should change to reflect how people identify themselves, even when this departs from traditional usage.”, Neutral is a substantive mixed/conditional judgement on identity-responsive language: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-12",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Passing established moral customs to the next generation should take priority over encouraging new ones.”, Neutral is a substantive mixed/conditional judgement on inherited morals before new customs: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-14",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Changes to long-standing social institutions should be gradual, even when faster change is popular.”, Neutral is a substantive mixed/conditional judgement on gradual institutional change: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-15",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Schools should teach pupils about different sexual orientations and gender identities, even when these differ from traditional family expectations.”, Neutral is a substantive mixed/conditional judgement on orientation and identity education: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "progressive-traditionalist-16",
+      "rationale": "Educated assumption: Women’s rights and his interracial marriage challenged inherited discriminatory social conventions. Applying that record to the exact claim “Long-standing customs should be preserved for their connection to earlier generations, even when their practical purpose is no longer clear.”, Neutral is a substantive mixed/conditional judgement on ancestral customs without clear utility: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. No modern abortion or gender-identity programme was found; equal rights coexist with period-specific family assumptions rather than universal modern progressivism. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Equal civic treatment and adaptation are balanced against the selected period’s family and moral conventions. Legal equality and acceptance of every current social convention are distinct claims."
+    },
+    {
+      "questionId": "innovation-caution-06",
+      "rationale": "Educated assumption: Education, communication and material progress are opportunities for emancipation when used with human safeguards. Applying that record to the exact claim “Preserving undisturbed habitats should take priority over development projects, even when the projects would bring substantial public benefits.”, Neutral is a substantive mixed/conditional judgement on undisturbed habitat before public development: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Modern AI, neural implants and embryo enhancement have no historical counterpart; irreversible interventions are cautiously inferred rather than asserted as documented beliefs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: The supported institutional commitments favour accountability but also continuity and prescribed constitutional procedures; this particular mechanism has competing implications."
+    },
+    {
+      "questionId": "innovation-caution-07",
+      "rationale": "Educated assumption: Education, communication and material progress are opportunities for emancipation when used with human safeguards. Applying that record to the exact claim “My country should support replacing some conventional meat production with cultivated meat, even before its long-term environmental effects are fully understood.”, Neutral is a substantive mixed/conditional judgement on early cultivated-meat substitution: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Modern AI, neural implants and embryo enhancement have no historical counterpart; irreversible interventions are cautiously inferred rather than asserted as documented beliefs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Potential production efficiency competes with food and environmental safety; biotechnology substitution is narrower than general support for science."
+    },
+    {
+      "questionId": "innovation-caution-11",
+      "rationale": "Educated assumption: Education, communication and material progress are opportunities for emancipation when used with human safeguards. Applying that record to the exact claim “Adults should be allowed to use brain implants to enhance their mental abilities once basic safety requirements are met, even if long-term effects remain uncertain.”, Neutral is a substantive mixed/conditional judgement on basic-safety enhancement implants: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Modern AI, neural implants and embryo enhancement have no historical counterpart; irreversible interventions are cautiously inferred rather than asserted as documented beliefs. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Adult agency and useful technical progress compete with irreversible effects beyond basic short-term safety."
+    },
+    {
+      "questionId": "central-local-08",
+      "rationale": "Educated assumption: National protection of citizenship and Reconstruction rights override local permission for slavery or disenfranchisement. Applying that record to the exact claim “The national government should decide what all school pupils must study, even if regions want different compulsory subjects.”, Neutral is a substantive mixed/conditional judgement on national compulsory curriculum: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. Local agency and free institutions remain; federal enforcement of equal rights is not evidence for national command of every service. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Protected local agency is balanced against national coordination and enforceable common rights. Operational delegation alone does not prove constitutionally protected regional authority."
+    },
+    {
+      "questionId": "culture-nature-12",
+      "rationale": "Educated assumption: Literacy, slavery’s social damage and opportunity are powerful causes of human development in his argument. Applying that record to the exact claim “Differences in people’s temperament are explained more by biological predispositions than by upbringing and social surroundings.”, Neutral is a substantive mixed/conditional judgement on biological temperament: the supported commitments above pull in different directions when applied to this specific mechanism. It is not a missing-evidence placeholder. He acknowledged native capacities and personal effort; equality of rights is not itself a precise claim about all inherited psychological variation. The sources support the context, not a personal answer to this questionnaire; the precise strength and any contemporary institutional translation remain uncertain. Neutral-specific review: Educational and social formation are balanced against recognition of individual dispositions and capacities. This comparative claim about a particular trait is stronger than either recognition of biology or support for equal legal rights."
+    }
+  ]
+}

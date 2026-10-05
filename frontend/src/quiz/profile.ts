@@ -5,7 +5,7 @@ export const wholePercent = (percent: number) => 50 + Math.sign(percent - 50) * 
 
 // Both poles use the same thresholds. These describe distance, never confidence.
 export function tendency(score: AxisScore) {
-  const distance = Math.abs(score.leftPercent - 50);
-  return distance <= 10 ? 'Balanced' : distance >= 25 ? 'Strong' : 'Leaning';
+  const distance = Math.abs(wholePercent(score.leftPercent) - 50);
+  return distance <= 5 ? 'Balanced' : distance <= 15 ? 'Leaning' : distance <= 25 ? '' : 'Strongly';
 }
 

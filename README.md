@@ -66,25 +66,46 @@ navigation link opens the home page’s 15 axes section; there is no separate
 Values page.
 
 Ideologies, Personalities, and Countries have dedicated pages. The Ideologies
-catalogue contains 25 requested profiles, each scoped to a specified tradition.
-Their revision 1 placements were withdrawn after the 4 October 2026 evidence
-re-audit found unsupported policy inferences and false neutral answers. Revision 2
-drafts record corrections and unresolved questions; they are not validated replacement
-scores. Original assessments remain available with a withdrawal warning.
+catalogue contains 53 requested profiles, each scoped to a specified tradition.
+The original 25 profiles' revision 1 placements were withdrawn after the 4 October 2026 evidence
+re-audit found unsupported policy inferences and false neutral answers. On 5 October,
+the owner requested a complete redo and restoration. All 25 revision 2 assessments
+now contain 240 fresh responses each (6,000 total), and catalogue generation restores
+their placements. Every response is conservatively labelled as an inferred assessment
+with an educated-assumption rationale, contextual citations and evidence limits.
+A distinct same-agent review records neutral choices, institutional mismatches and
+three close-profile pairs; external personal review remains pending. The
+[interactive ideology review](frontend/public/profiles/ideology-review.html) links to
+each permanent full assessment. See the
+[separate review](profile-audit/reports/ideology-redo-2026-10-05/review-results.json)
+for all assumption IDs and similarity decisions. Original archives and withdrawal
+records remain unchanged.
+On 5 October 2026, a further owner-requested batch added 30 revision 1 profiles
+with 240 answers each. Marxism's existing revision 2 was retained and the duplicate
+Zionism request was consolidated. The existing Civic Nationalism catalogue exclusion
+remains in effect. Christian Accelerationism uses the owner's supplied definition;
+Peter Thiel is contextual evidence, not an exact representative of that variant.
+All 7,200 new responses are disclosed educated assumptions. Separate same-agent
+reviews, source-access limitations, neutral-choice reasoning and similarity decisions
+are recorded in [the expansion reports](profile-audit/reports/ideology-expansion-2026-10-05/).
 The Personalities catalogue contains 35 requested public figures with defined
-periods and credited portraits. All 35 current assessments had their placements
-withdrawn after the 4 October 2026 review of all 8,400 question-level answers found
-unsupported causal and biomedical inferences. The next-revision drafts retain
-supported answers and explicit unknowns; none is a complete validated replacement.
-Separate assessment contexts and independent peer reviews record their actual
-research boundaries. Original archives and portraits remain unchanged. See the
-[personality audit report](profile-audit/reports/personalities-2026-10-04/summary.txt)
-for findings, unresolved evidence and verification. Countries remain unpopulated.
+periods and credited portraits. Their earlier placements were withdrawn after
+the 4 October 2026 evidence review. On 5 October, the owner requested best-effort
+completion of every question, using broader evidence where direct answers were
+unavailable. New revisions provide all 8,400 responses and restore placements;
+formerly unresolved responses are explicitly labelled provisional educated
+assumptions. These are estimates awaiting the owner's personal review, not a
+claim that all evidence gaps have been resolved. A distinct same-agent review
+and structural validation are recorded honestly. Original archives and portraits
+remain unchanged. The [interactive answer review](frontend/public/profiles/personality-review.html)
+shows every question, answer, rationale and contextual source. See the
+[completion review](profile-audit/reports/personality-completion-2026-10-05/review-results.json)
+for assumed question IDs, corrections and similarity decisions. The Countries catalogue now contains all 47 requested country profiles, each with 240 answered questions, a credited flag and an immutable assessment revision. The [country completion report](profile-audit/reports/country-completion-2026-10-05/completion.md) lists permanent answer files, revisions, all educated-assumption IDs and actual verification. These are sourced institutional assessments with disclosed estimates, not a claim that every response is a documented position; distinct same-agent reviews are recorded.
 
 The quiz flow is implemented for all four formats, with five responses from
 Strongly agree to Strongly disagree, including Neutral. It scores all 15 axes
 in the browser and automatically saves local result history with deletion and JSON
-export/import. The results page includes an ideology-sentence placeholder and reference-style rows for all 15 axes. Ideology, personality and country comparisons remain explicitly labelled placeholders. Scoring version 2 balances agreement-direction groups to remove the extra-statement tilt in shorter formats; original saved scores are preserved under their original scoring version.
+export/import. The results page shows the closest compatible catalogue ideology (including ties), its supplied perspective statement and its percentage similarity across 15 equally weighted axes, with the ideology’s catalogue colour used for the results theme. A Compare button opens a searchable, scrollable ideology and personality picker with keyboard suggestions. Chosen profiles add numbered dots to the existing axis graphics and a removable legend. Automatic personality and country matches remain placeholders. Scoring version 2 balances agreement-direction groups to remove the extra-statement tilt in shorter formats; original saved scores are preserved under their original scoring version.
 
 The versioned question bank preserves the existing source documents in
 `docs/questions/`, including draft wording. The bank has not been empirically
@@ -98,13 +119,23 @@ Use Codex or Claude Code with the repository's `new-ideology`, `new-country`,
 all 240 sourced answers, review, validation and a permanent assessment archive.
 The tools calculate scores with the quiz's existing function, populate catalogue
 pages and generate downloadable assessments. New catalogue entries require an
-owner request. The first 25 ideology assessments and all 35 current personality
+owner request. The first 25 ideology assessments and the earlier 35 personality
 assessments failed substantive re-audit despite passing structural validation.
-Their scores are withheld through revision-specific withdrawal records; missing
-evidence cannot be replaced with Neutral. See
+Historical unreliable revisions retain revision-specific withdrawal records; missing
+evidence must now be resolved to the most likely response, with educated
+assumptions explicitly labelled, cited and reviewed; it is not automatically
+Neutral. This owner-authorised rule of 5 October 2026 applies to future completions
+and does not retrospectively certify old assessments. See
 [CONTRIBUTING.md](CONTRIBUTING.md) for skill invocations and
 [assessment tool reference](<docs/personality assessments/README.md>) for commands and the adapted
-12Axes method. User-to-profile matching remains deferred.
+12Axes method. Personality and country profile pages now show their closest catalogue ideology using equal-weight mean absolute distance across all 15 axes, retaining ties and displaying the average score gap. Matches are regenerated with the catalogue; see docs/SCORING.md. Quiz results now compare with compatible ideology profiles; manual personality comparison is available; automatic personality and country matching remain deferred.
+
+Complete the authorised profiles through the full local workflow under the shared
+procedure's completion requirement. Do not stop at a readiness report, partial
+draft or remaining evidence gaps: resolve them with disclosed most-likely educated
+assumptions, then review, validate, archive, generate and verify. Do not ask again
+for permission already given. Report permanent answer-file links and 240/240 counts.
+Report genuine technical blockers accurately while continuing other authorised work.
 
 ## Frontend Development
 
@@ -138,8 +169,23 @@ answers still remain only in memory.
 
 The static build uses relative assets and hash-based navigation to support
 GitHub Pages project subdirectories without server rewrite rules. Publish
-the contents of `frontend/dist/` when deployment is authorised; the site
-has not been deployed by this implementation.
+the contents of `frontend/dist/` through the publishing workflow described below.
+
+### Automatic publishing
+
+The `Validate and publish website` GitHub Actions workflow validates questions and
+profiles, runs unit tests, builds the site and runs desktop, mobile and Safari
+browser checks. After those checks pass, every push to `main` publishes the
+verified build to GitHub Pages. Pull requests run the checks without publishing.
+Local commits publish only after they are pushed to GitHub. The workflow can also
+be run manually from the Actions tab on `main`.
+
+One-time setup: in the GitHub repository, open **Settings → Pages** and select
+**GitHub Actions** as the build and deployment source. Push the workflow to `main`
+or run it manually to publish. The expected site address is
+https://prunty2.github.io/15values/; the deployment's environment link confirms
+the actual address. The workflow uses the Pages URL for social-preview metadata.
+Failed checks prevent publishing and leave the previous website available.
 
 The versioned axis data is in `frontend/src/data/axes.v1.json`, with names
 and descriptions copied from `docs/AXES.md`. The documentation remains the
@@ -200,7 +246,7 @@ is accessible.
 - Review and final approval of draft question wording and priorities.
 - Empirical validation of question coverage, response behaviour and scoring.
 - A validated way to describe uncertainty beyond question and neutral counts.
-- Eventual comparisons and compass presentation.
+- User-to-personality/country comparisons and compass presentation.
 - Whether a later version should retain raw answers with explicit consent.
 - Migration rules when published question or scoring versions change.
 

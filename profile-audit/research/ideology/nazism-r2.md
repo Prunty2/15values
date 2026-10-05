@@ -1,4 +1,4 @@
-# Nazism (German National Socialism, 1920–1945): revision 2 research dossier
+# Nazism: revision 2 research dossier
 
 Research resumed 2026-10-04. Incomplete research draft; no archive or percentage publication authorised by this dossier.
 

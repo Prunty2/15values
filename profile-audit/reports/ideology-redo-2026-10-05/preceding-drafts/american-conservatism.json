@@ -1,0 +1,2475 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "ideology",
+  "id": "american-conservatism",
+  "revision": 2,
+  "questionBankVersion": "1.0.0",
+  "axesVersion": "1.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e17284ab2e5c52abc744d4f410069705fd116fe8cc8faebf99df2e9082d889f3",
+  "researchedAt": "2026-10-04",
+  "author": "Codex /root/liberal_conservative strict evidence re-audit (AI-assisted)",
+  "changeNote": "Revision 2 continues the strict audit with additional primary research and explicit inferential reasoning. Preserve historical revision 1; independent review required before publication.",
+  "metadata": {
+    "name": "American Conservatism",
+    "description": "The Trump-era Republican programme, with implemented 2025 border and tariff measures used to check its restrictionist and protectionist direction.",
+    "category": "Conservative",
+    "period": "United States: 2024 Republican programme, with 2025 executive-order implementation checks",
+    "scope": "The 2024 Republican platform as a representative contemporary American conservative variant; January and September 2025 executive acts and independent reporting check implementation in immigration and trade. It is not all American conservatism, a complete incumbent-government assessment or an endorsement of programme factual claims. Revision2 is an incomplete evidence audit of this specified school. Unsupported modern applications and empirical causal comparisons are null/unknown. Neither agreement nor neutrality is inferred from silence. Historical or programme sources are not a complete contemporary incumbent-government record.",
+    "phrase": "A society emphasising national sovereignty, border enforcement, private enterprise and traditional institutions under the American constitutional order."
+  },
+  "sources": [
+    {
+      "id": "gop",
+      "title": "2024 Republican Party Platform",
+      "url": "https://www.presidency.ucsb.edu/documents/2024-republican-party-platform",
+      "publisher": "The American Presidency Project",
+      "date": "2024-07-08",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "borders",
+      "title": "Securing Our Borders (executive order)",
+      "url": "https://www.whitehouse.gov/presidential-actions/2025/01/securing-our-borders/",
+      "publisher": "The White House",
+      "date": "2025-01-20",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "aptrade",
+      "title": "Trump signs order imposing new tariffs on trading partners",
+      "url": "https://apnews.com/article/trump-tariffs-mexico-3b03b98296424e59c7dc19a865d21969",
+      "publisher": "Associated Press",
+      "date": "2025-07-31",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "tariffs",
+      "title": "President Donald J. Trump Modifies the Scope of Reciprocal Tariffs and Establishes Procedures for Implementing Trade Deals",
+      "url": "https://www.whitehouse.gov/fact-sheets/2025/09/fact-sheet-president-donald-j-trump-modifies-the-scope-of-reciprocal-tariffs-and-establishes-procedures-for-implementing-trade-deals/",
+      "publisher": "The White House",
+      "date": "2025-09-05",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "con",
+      "title": "Conservatism",
+      "url": "https://plato.stanford.edu/entries/conservatism/",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "date": "2025-07-18",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "ai2025",
+      "title": "America’s AI Action Plan",
+      "url": "https://www.whitehouse.gov/wp-content/uploads/2025/07/Americas-AI-Action-Plan.pdf",
+      "publisher": "The White House",
+      "date": "2025-07-23",
+      "accessed": "2026-10-04"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "The 2024 Republican programme claims constitutional elections and separated powers; implementation favours assertive executive action. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "This is a programme-centred assessment, not endorsement of claims about election fraud or a comprehensive democracy audit of the incumbent administration. Strict re-audit leaves 2/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 2/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The programme explicitly centres electoral government and election procedures.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Expert appointment contradicts its popular constitutional mandate.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Adult citizen suffrage is accepted with citizenship-verification restrictions.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Strong execution is favoured, but enacted law still needs constitutional authority.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The platform formally accepts multiparty constitutional competition.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Investigations are endorsed as tools against governmental misuse.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Constitution-respecting judges are explicitly defended.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Union selection conflicts with electoral representation and anti-bureaucratic politics.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Political disagreement alone lacks a constitutional exclusion power.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Representative accountability does not by itself settle this specific mechanism of direct voting or office removal. Evidence still needed for the exact proposition: “Voters should be able to repeal a law through a binding referendum.”",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Presidential leadership remains formally subject to constitutional institutions.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The constitutional order includes defined removal for serious abuse.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Continuity alone cannot constitutionally justify postponing elections.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Representative accountability does not by itself settle this specific mechanism of direct voting or office removal. Evidence still needed for the exact proposition: “Voters should be able to remove an elected representative before their term ends through a defined recall vote.”",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The programme explicitly promises accountability to the American people.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Civilian constitutional rule is incompatible with autonomous military replacement.",
+          "sources": [
+            "gop",
+            "borders",
+            "aptrade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Free-speech and gun-rights commitments coexist with aggressive policing and immigration enforcement. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Programme privacy pledges are selective; border orders increase detention while specifying applicable-law limits. Strict re-audit leaves 13/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 13/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Adults should be allowed to make personal choices such as drug use that risk personal wellbeing when they do not directly harm others.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Authorities should be allowed to monitor private communications when a court authorises the surveillance to investigate serious crime.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Peaceful public demonstrations should be allowed even when they temporarily obstruct roads or access to businesses, provided emergency access remains available.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Free-speech commitments protect criticism, despite tensions in implementation.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “The government should be able to require adults to follow health measures intended primarily to protect those adults themselves.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Police should be allowed to keep records of people’s movements for several years, even when those people are not suspected of an offence.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Police should be allowed to stop drivers at random and test them for intoxication, even without a reason to suspect impairment.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Authorities should be able to restrict a person’s movements before they commit an offence when a court finds a serious risk that they will harm others.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Adults should be allowed to access books, films, and websites that the government considers morally objectionable.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “People should be allowed to use online communication services without having to verify their identity with the government.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Police should be able to stop and search people without individual suspicion when there is a credible threat of serious violence in the area.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Authorities should be able to prohibit a public gathering when there is credible evidence that it is likely to lead to serious disorder.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “Police should need a court warrant to search someone’s home without their consent, except when there is an immediate threat to someone’s safety.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A general appeal to liberty, order or legal safeguards does not establish the specific police power, threshold or exception in this statement. Evidence still needed for the exact proposition: “People should be allowed to publish confidential government information that reveals official misconduct.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Defending firearm ownership is an explicit constitutional commitment.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Security detention is favoured, but indefinite absence of court review exceeds stated legality.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Patriotic education, national heritage and integration dominate the cultural programme. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Equal treatment and religious liberty coexist with cultural-majority priorities; immigration restriction is assessed separately. Strict re-audit leaves 10/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 10/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "American civic traditions take precedence in the stated programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Public services should accommodate different cultural practices, even when doing so requires additional public spending.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “People who settle permanently in a country should be expected to adopt its cultural customs.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Becoming part of the national community should not require giving up a foreign cultural identity.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Public institutions should prioritise using the national language over providing services in several foreign languages.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “National ceremonies should acknowledge Indigenous peoples within the nation, even when they make up a very small share of the population.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Public monuments and national heritage receive explicit priority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Group identity must not supersede the shared national community.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Public institutions should organise their schedules around one common cultural calendar rather than accommodate different communities’ celebrations.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “The government should recognise several cultural traditions as part of my country’s national identity.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Integration into American civic life is a clear priority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Public signage should be written in foreign languages to accommodate migrants within their communities.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Patriotic identity is central to family and school socialisation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “Full body coverings, such as the burqa, should remain legal even when other full body coverings are prohibited.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General inclusion or national cohesion does not establish the specific accommodation, priority or institutional practice asked here. Evidence still needed for the exact proposition: “My country’s national identity should include several distinct cultural ways of life.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Shared national customs take precedence in integration programmes.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Merit selection, deterrence, deportation and lower irregular entry define the programme and January 2025 border order. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "The order directs action within existing law; it does not prove every proposed measure was implemented or judicially upheld. Strict re-audit leaves 12/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 13/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Domestic-capacity rhetoric does not establish a strict annual numerical limit tied to both housing availability and workforce deficits. Evidence still needed for the exact proposition: “Permanent immigration should be subject to a strict annual numerical limit, based on housing availability and workforce deficits.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “People should generally be allowed to settle in another country to improve their living conditions.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: A preference for merit-based admission does not establish that only important-skilled applicants should normally qualify; the exclusivity in this question was not evidenced. Evidence still needed for the exact proposition: “Only applicants with skills considered important to my country should normally qualify for permanent residence.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “Partners and dependent children of immigrants who are permanently settled in my country should generally be allowed to join them.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “Refugees fleeing their home countries should be allowed to settle permanently, regardless of their skills or cultural compatibility.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The border order expressly prioritises removal after unlawful entry or stay.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic-worker priority can override employer recruitment demand.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and service pressures are explicit arguments for tighter migration.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “Family immigration should count towards the same annual numerical limit as other permanent immigration.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “People with a confirmed job offer should generally be allowed to move to my country for work.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “Applicants for permanent settlement should need sponsorship from an employer or family member.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “Graduating from one of my country’s universities should not, by itself, provide a route to permanent residence.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “People fleeing persecution should be allowed to enter and receive protection even when ordinary immigration limits have been reached.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “The government should prioritise migrants from culturally similar countries.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The cited doctrine does not settle this precise admission, residence, sponsorship, quota or benefit condition; general freedom or controlled migration is insufficient. Evidence still needed for the exact proposition: “My country should allow non-citizen migrants to receive welfare benefits or live in social housing.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent review: The programme prioritises national integration, but not making diversity an admission objective is not equivalent to opposing the precise proposal to encourage culturally different settlement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Peace through strength combines military superiority with selective use in national interests. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "The programme criticises prolonged foreign wars but retains intervention, deterrence and overseas capability. Strict re-audit leaves 14/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 14/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should be willing to use military force to secure national interests, even when it has not been attacked.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “Diplomatic measures should take priority over military action, even when they are slower to achieve my country’s aims.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "The world's strongest armed forces are an explicit goal.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “Military action should be permitted to prevent an imminent attack when there is strong evidence that the attack is being prepared.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should use armed force only to respond to an armed attack against itself or an ally.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should require male citizens to complete a period of military service to train a large, capable force and deter potential aggressors.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should accept substantial diplomatic concessions to prevent a war, even when doing so weakens its international position.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should develop AI-powered weapons that can select and attack targets without a human approving each attack if this would make military operations more efficient and improve national security.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “Defence policy should focus on repelling attacks rather than conducting military campaigns abroad.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Total abstention conflicts with protecting allies and national security.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should maintain forces capable of prolonged combat beyond its borders.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should leave a territorial dispute unresolved rather than start a war to settle it.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should be willing to threaten military action to obtain concessions in serious international disputes.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “When the two conflict, reducing the risk of war should take priority over demonstrating military resolve.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should use military espionage to gain an advantage over potential opponents, even when doing so risks worsening relations with them.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General defence, peace or deterrence commitments do not establish the particular trigger, sacrifice or capability required here. Evidence still needed for the exact proposition: “My country should accept reductions in its military capabilities as part of negotiated efforts to prevent war.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "America First reserves authority to national institutions and uses international bargains instrumentally. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Alliances and agreements remain useful where they support national objectives; this is not isolationism. Strict re-audit leaves 8/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 8/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Domestic constitutional institutions retain ultimate sovereign authority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "External bodies should not dictate against national decisions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National constitutional law takes priority over external judgments.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “My country should make long-term commitments to international alliances, even when those commitments limit its freedom to act independently.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National consent must include the ability to withdraw.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “International courts should have binding authority over disputes involving my government, including cases brought against its own officials.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "National interests explicitly govern international participation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “Countries should give international institutions decision-making authority over environmental problems that cross national borders.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “My country should remain outside international blocs that require members to adopt a common foreign policy.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “International human-rights institutions should be able to require changes to my country’s laws.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Preserving the dollar's position entails national monetary control.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “My country should pool funding and decision-making with other countries to manage shared international problems.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Sole national border authority is fundamental to the platform.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “My country should accept common trade rules negotiated with other countries rather than set all its trade rules independently.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Political federation conflicts with American national sovereignty.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Cooperation or sovereignty in general does not determine the specified delegation of authority or binding institutional arrangement. Evidence still needed for the exact proposition: “My country should join international efforts to enforce collectively agreed rules, even when staying neutral would better serve its immediate interests.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private enterprise and competitive services dominate, with public infrastructure and protected social programmes. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Medicare funding is not the same as public hospital ownership; the two must not be conflated. Strict re-audit leaves 12/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 12/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private enterprise is the principal engine of prosperity.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Essential utility networks in my country, such as water supply networks, should be publicly owned.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Equivalent provision favours private initiative over public bureaucracy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Government competition with ordinary business conflicts with deregulation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Healthcare choice and public funding do not determine whether most healthcare facilities should be privately owned. Evidence still needed for the exact proposition: “Healthcare facilities in my country should generally be privately owned, even when treatment is publicly funded.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Passenger rail infrastructure in my country should be publicly owned.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Publicly funded services should be contracted to privately owned providers when they can offer comparable quality and access at lower cost.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “My country should have publicly owned banks alongside private banks.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “My country should sell publicly owned commercial businesses to private owners.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Public bodies should own a substantial share of rental housing in my country.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Businesses important to national security should remain privately owned when government regulation can protect security interests.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Energy expansion favours private producers, not general nationalisation.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “Public bodies should contract routine services, such as waste collection, to privately owned businesses rather than operate their own providers.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “The government should retain ownership of strategic businesses even when selling them would raise substantial public revenue.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “A publicly owned business that repeatedly needs financial support should be sold to private owners rather than kept in public ownership.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish this particular ownership choice; policy goals, funding or current institutional arrangements are not ownership doctrine. Evidence still needed for the exact proposition: “My country should own a national broadcaster rather than leave broadcasting entirely to private owners.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Protective and reciprocal tariffs are explicit doctrine and were implemented through 2025 orders. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Rates and exemptions changed; the profile records protectionist direction, not a claim that any particular rate persists today. Strict re-audit leaves 4/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 4/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Baseline tariffs are expressly supported to protect domestic production.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Removing most barriers conflicts with the protective manufacturing agenda.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Buy American procurement is explicitly preferred.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Sourcing freedom is qualified by strategic and tariff policy.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Essential supply chains should return to domestic production.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Unreciprocated liberalisation conflicts with bargaining for reciprocity.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Temporary protection fits rebuilding manufacturing capacity.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General openness or strategic protection does not settle the specified trade instrument and its stated cost or exception. Evidence still needed for the exact proposition: “Foreign investors should be allowed to establish businesses on the same terms as domestic investors, even when local firms face more competition.”",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General openness or strategic protection does not settle the specified trade instrument and its stated cost or exception. Evidence still needed for the exact proposition: “My country should restrict agricultural imports to preserve domestic farming capacity.”",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Protection is preferred over requiring exposed firms simply to adjust.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Reciprocal retaliation is central to stated trade policy.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Import tariffs and preferences are not evidence for unequal domestic product taxes; the earlier answer conflated distinct instruments. Evidence still needed for the exact proposition: “Foreign and domestic products should face the same product taxes in my country.”",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Foreign subsidies are treated as unfair competition needing action.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Dependence reduction can outweigh tariff removal.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strategic foreign control is explicitly resisted, particularly concerning China.",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General openness or strategic protection does not settle the specified trade instrument and its stated cost or exception. Evidence still needed for the exact proposition: “People in my country should be free to buy online services from foreign providers without special trade restrictions.”",
+          "sources": [
+            "gop",
+            "tariffs",
+            "aptrade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Deregulated private production coexists with national industrial priorities and protected strategic sectors. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Protectionism and industrial steering prevent treating this as pure laissez-faire. Strict re-audit leaves 6/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 8/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Private businesses should normally decide their output.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “My government should set compulsory production targets for economically important industries.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Market competition is preferred for ordinary prices.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent review: Tariffs and restoring manufacturing capacity are not an economy-wide investment plan directing private capital. The platform does not specify the proposed planning instrument.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Consumer demand matters except where strategic capacity is prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “My government should control the prices of essential goods, even when suppliers would prefer to charge more.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Removing unnecessary entry restrictions is a central commitment.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “My government should direct banks to lend to industries it considers national priorities.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “People and businesses should be able to move their money abroad without government approval.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent review: Tariff protection and deregulation do not by themselves establish subsidies to selected industries against private investors’ preferences.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private digital assets are explicitly defended against government restriction.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “My government should set a legal minimum wage rather than leave the lowest wages entirely to negotiation between employers and workers.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Private wage negotiation fits the general market programme.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General enterprise or social responsibility does not establish the specified planning instrument, price rule or monetary arrangement. Evidence still needed for the exact proposition: “My government should direct central-bank lending and interest-rate policy to support its national economic plan.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Housing supply and deregulation are preferred to broad rent caps.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Comprehensive production control conflicts with private enterprise.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Tax reduction and private earnings coexist with promises to preserve Social Security and Medicare. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Protecting contributory retirement programmes does not amount to equalising incomes generally. Strict re-audit leaves 14/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 14/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should use taxes and benefits to substantially reduce differences in disposable income.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Reducing income differences should not, by itself, justify taking more income through taxation.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should provide a stronger minimum income through benefits, even when this requires higher taxes.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Income benefits should provide a basic safety net rather than substantially narrow differences in living standards.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Higher earners in my country should pay a substantially larger share of their income in tax than lower earners.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Retaining earnings is central to promised tax cuts.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should tax large inheritances to fund income support for people with fewer resources.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Income support for working-age adults who can work should have a time limit, even if some recipients still have low incomes when it ends.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should tax accumulated wealth to fund transfers to households with low incomes.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Income benefits should be kept modest so that those funding them face a lower tax burden.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “People eligible for income benefits should receive enough support to participate in ordinary social life, beyond meeting basic survival needs.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Tax reductions are explicitly prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should provide publicly funded income supplements to low-paid workers.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Additional income earned by high earners should not face higher tax rates than additional income earned by other workers.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “My country should redistribute some large landholdings to people with little or no land, compensating owners through public funds.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not establish the specific tax instrument, transfer condition or income-equalisation trade-off; a safety-net or family commitment is insufficient. Evidence still needed for the exact proposition: “Cash benefits should be restricted to households unable to meet basic needs rather than extended to a wider range of low-income households.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Religious liberty and public Christian recognition coexist with constitutional civil authority. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Prayer rights do not necessarily mean compulsory worship or a clerical legislature. Strict re-audit leaves 12/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 12/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “My country’s laws should be justified without relying on the teachings of any particular religion.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Religious teachings should be an official source of national law in my country.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Civil officials govern without needing approval from clergy.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “My country’s constitution should recognise a particular religion as a foundation of the state.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Public schools in my country should teach about religions without trying to persuade pupils to adopt one.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Public schools in my country should include instruction intended to cultivate faith in the state’s recognised religion.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Constitutional civil courts retain legal authority.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Religious authorities should have an official role in reviewing proposed laws before my government enacts them.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Official ceremonies held by my government should not include organised religious worship.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “My government should use public funds for activities intended to strengthen religious belief.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Government buildings should not display symbols endorsing a particular religion.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “My country should keep national public holidays marking the predominant religion’s major festivals as an official recognition of that religion.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Clerical office alone does not confer federal governmental seats.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “Religious organisations should receive tax exemptions specifically for their religious activities, beyond exemptions available for charitable work.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Civil marriage remains possible without religious approval.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Private faith, inherited ceremony or religious freedom does not settle the particular official religious role or funding purpose in this statement. Evidence still needed for the exact proposition: “My country should recognise decisions made by religious courts as legally binding in some areas of family law.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Family traditionalism, parental control and opposition to gender-policy change define the social programme. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "Birth control and IVF are supported; the 2024 text leaves abortion principally to states rather than one comprehensive national rule. Strict re-audit leaves 9/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 11/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Social customs in my country should be open to substantial change as people’s values change.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Preserving long-standing social traditions should take priority over adapting them to new values.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Families outside the traditional two-parent married household should receive the same social recognition as that household.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Society should continue to encourage distinct traditional roles for men and women.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Marriage in my country should be available to couples regardless of their sex.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Strengthening marriage and family institutions is explicit.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent review: The 2024 platform explicitly opposes late-term abortion and supports state decision-making; neither establishes its position on social acceptance of early-pregnancy abortion in this question.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Parental control over conflicting sexual teaching is a major pledge.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Same-sex couples should be as socially accepted as adoptive parents as opposite-sex couples.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Traditional expectations about modest dress should continue to guide how people dress in public.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "The programme expressly resists new gender-identity conventions.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Passing established American moral traditions is prioritised.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Adults who take on roles traditionally associated with the other sex should receive the same social acceptance as those who follow traditional roles.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: General personal liberty or respect for family tradition does not establish the precise social-acceptance judgement asked here. Evidence still needed for the exact proposition: “Changes to long-standing social institutions should be gradual, even when faster change is popular.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "The platform prioritises parental control and rejects school content it labels gender ideology. This supports resisting identity lessons against family expectations, but opposition to advocacy is not evidence of rejecting every neutral lesson about orientations or identities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent review: Celebrating national heritage does not establish preserving a custom even after its practical purpose becomes unclear. The stated qualifying trade-off is not addressed.",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "General statements about development, science, welfare or prudence were reviewed separately from each technology and risk threshold. Only specifically supported trade-offs can receive numeric answers.",
+      "counterEvidence": "Modern AI targeting, brain enhancement, cultivated meat, embryo editing and comparative diagnostic-risk thresholds cannot be reconstructed from broad historical principles. Unresolved answers are not evidence of a middle position. Independent review 2026-10-04: current unresolved count is 14/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “My country should allow new technologies to be widely used when early evidence suggests substantial benefits, even if long-term risks remain uncertain.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “New technologies should remain limited to small trials until there is substantial evidence about their long-term risks.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent source review: The AI Action Plan promotes infrastructure and expedited permits but does not settle accepting permanent natural-habitat loss in this proposition. Its NEPA categorical exclusions concern activities normally without significant environmental effects.",
+          "sources": [
+            "gop",
+            "ai2025"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “New medical technologies should not become widely available until their long-term safety has been studied.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "The 2025 plan supports productivity-enhancing AI while explicitly funding retraining for displacement. This corroborates platform innovation policy; recommended actions are not all completed.",
+          "sources": [
+            "gop",
+            "ai2025"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “Preserving undisturbed habitats should take priority over development projects, even when the projects would bring substantial public benefits.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “My country should support replacing some conventional meat production with cultivated meat, even before its long-term environmental effects are fully understood.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “Brain implants intended to enhance the abilities of healthy people should remain limited to research until there is strong evidence of long-term safety.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “My country should prioritise technological solutions to climate change over reducing energy and material consumption, even when those technologies are not yet proven at large scale.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved after independent source review: Faster permitting and improved environmental review do not establish approving construction while its environmental effects remain poorly understood.",
+          "sources": [
+            "gop",
+            "ai2025"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “Adults should be allowed to use brain implants to enhance their mental abilities once basic safety requirements are met, even if long-term effects remain uncertain.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “AI systems used to make medical diagnoses should remain limited to supervised trials until there is strong evidence of their reliability across different patient groups.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “My country should allow controlled trials of embryo gene editing to enhance human abilities, rather than limit gene editing to preventing disease.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “Genetically modified crops should require evidence of long-term ecosystem safety before widespread cultivation, even if early trials show higher yields.”",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Housing and infrastructure expansion are clear programme priorities.",
+          "sources": [
+            "gop"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish this particular technology or development trade-off and evidential threshold; generic innovation, prudence or welfare principles cannot supply an answer. Evidence still needed for the exact proposition: “My country should delay technologies that could cause irreversible harm until there is strong evidence that the harm is unlikely, even when early evidence suggests substantial benefits.”",
+          "sources": [
+            "gop"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "State education and abortion powers coexist with forceful federal enforcement on immigration and national priorities. Revision2 evidence limit: only the retained numeric items are supported at this question-level resolution; broad principles do not settle the remaining details.",
+      "counterEvidence": "This is selective federalism, not a consistent presumption for either level in every domain. Strict re-audit leaves 12/16 items unresolved where the earlier answer projected a general principle onto an unevidenced mechanism. Neutral permission was not permission to impute a position. Independent review 2026-10-04: current unresolved count is 12/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "States have substantial constitutional authority in the platform.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “The national government should have the final say when regional and national governments disagree over who has authority to make a decision.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “A state or region should be allowed to leave a country or federal union if a majority of its voters supports leaving in a referendum.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Sanctuary policy is opposed where it obstructs federal enforcement.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "State constitutions fit the American federal framework.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Police forces should be directed by a single national authority rather than by separate state or regional governments.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “State and local governments should keep most of the tax revenue collected in their area rather than send it to the national government to allocate.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Closing the federal education department rejects uniform national curricular control.",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Regional governments should be able to raise or lower their own tax rates, even if this means people pay different rates in different parts of the country.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Employment laws should be set nationally, even if states or regions want different rules on working hours or dismissal.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Local voters should be able to change the powers and boundaries of their councils without national approval.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “The national government should decide which medical treatments public healthcare covers, even if regional governments would cover different treatments.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Indigenous communities should be able to govern local affairs within their territories through their own institutions rather than through national authorities.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “The national government should set limits on how states and regions can compete with each other through lower taxes.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “Regional governments should decide how to manage land and wildlife when the effects of those decisions stay within their region.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The evidence does not settle allocation of this particular power; generic decentralisation, parliamentary sovereignty or national coordination is insufficient. Evidence still needed for the exact proposition: “During a disaster affecting several regions, the national government should direct the emergency response, even if regional authorities prefer their own plans.”",
+          "sources": [
+            "gop",
+            "borders"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "The scoped sources discuss human agency, institutions and social formation, but do not establish the bank’s item-specific comparisons of causal influence. All16 comparative trait answers remain unresolved; no mixed-causation position is invented from silence.",
+      "counterEvidence": "Earlier answers confused normative commitments and acknowledgement of multiple influences with evidence about which cause explains more. Such statements do not entail agreement, disagreement or neutrality on the precise comparisons. Equal dignity is not an empirical causal claim. Independent review 2026-10-04: current unresolved count is 16/16; this supersedes any earlier count in this brief.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “People’s behaviour is shaped more by upbringing and social surroundings than by inherited tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in IQ scores between countries can be explained more by inherited characteristics than by upbringing and education.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: Recognition of biological sex does not establish comparative causal shares in behavioural differences. Evidence still needed for the exact proposition: “Where men and women behave differently, social expectations and upbringing explain more of the difference than biology does.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in people’s sensitivity to stress are explained more by biological differences than by social surroundings and experience.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in people’s interests are shaped more by experiences and opportunities than by inherited tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “People’s willingness to take risks is shaped more by inherited tendencies than by learning and experience.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Whether people develop cooperative habits depends more on their social surroundings than on inherited tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in people’s capacity for empathy are explained more by inherited characteristics than by social experience and upbringing.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in people’s ability to sustain attention are explained more by their experiences and surroundings than by inherited characteristics.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “People’s immediate reactions to what they consider right or wrong are shaped more by biological predispositions than by upbringing and culture.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in what people find threatening are explained more by learning and experience than by inherited tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Differences in people’s temperament are explained more by biological predispositions than by upbringing and social surroundings.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “People’s preferences about physical attractiveness are shaped more by culture and personal experience than by inherited tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “Different races being more likely to commit violent acts (per capita) is better explained by biological differences than by upbringing and social surroundings.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “People’s habits of self-control are shaped more by learning and experience than by inherited racial tendencies.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": null,
+          "basis": "unknown",
+          "rationale": "Unresolved: The sources do not establish the causal comparison in this statement. Educational policy, moral equality, family formation and acknowledgement of multiple influences do not establish a comparative causal ranking or a supported neutral position. Evidence still needed for the exact proposition: “The gender pay gap can be attributed to differences in economic value between men and women instead of different social expectations.”",
+          "sources": [
+            "gop",
+            "con"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex /root/socialist_green — independent source and literal-question review",
+    "reviewedAt": "2026-10-04",
+    "notes": "Reviewed the 240-question record and numeric rationales, with targeted primary-source rereading of the resumed research. Corrected 2 rows (including rationale/strength changes). 77/240 numeric; 163 unresolved. Retained warranted normative inferences and documented mixed positions; did not convert absent doctrine to neutral. No percentage or similarity targets consulted. This is a completed review, not approval to publish an incomplete assessment. Detailed dispositions and limits are in the restoration peer report.",
+    "similarity": []
+  }
+}

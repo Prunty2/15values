@@ -15,6 +15,15 @@ Catalogue-specific guidance is also available for
 [countries and historical regimes](<../country assessments/README.md>) and
 [ideologies](<../ideology assessments/README.md>).
 
+## Completion requirement
+
+Complete the authorised profiles through the full local workflow under the shared
+procedure's completion requirement. Do not stop at a readiness report, partial
+draft or remaining evidence gaps: resolve them with disclosed most-likely educated
+assumptions, then review, validate, archive, generate and verify. Do not ask again
+for permission already given. Report permanent answer-file links and 240/240 counts.
+Report genuine technical blockers accurately while continuing other authorised work.
+
 ## What is retained and what is adapted
 
 Like 12Axes, research each subject independently, answer the entire questionnaire,
@@ -24,9 +33,12 @@ responses are **-2, -1, 0, 1, 2**, and the calculation calls the same TypeScript
 function as the browser quiz. There are no extra archetype questions, religious
 filters, copied vectors, cross-axis adjustments, or backend service.
 
-Unlike a quota on neutral answers, this workflow distinguishes unknown evidence
-from an evidenced neutral position. Unknowns block publication; many genuine
-neutral answers trigger review warnings without forcing invented opinions.
+Every completed assessment must choose the most likely response for all 240
+questions. Research gaps require disclosed educated assumptions under
+[NEW_PROFILE.md](NEW_PROFILE.md), recorded as `inferred` with an
+`Educated assumption:` rationale, contextual citations and limitations. Neutral
+is a substantive choice, never an automatic replacement for missing evidence.
+Many neutral answers still trigger review warnings.
 The 95% similarity review threshold is a project diagnostic, not an empirical
 measure of validity and not an instruction to make profiles numerically distinct.
 
@@ -80,7 +92,10 @@ Do not run archive/build mutations concurrently in the same checkout.
 `frontend/src/profiles/types.ts` defines the record shapes. `init` creates the exact
 editable structure. The executable validator is `frontend/src/profiles/audit.ts`.
 Each answer contains its question ID, numeric value or null, `basis` (`direct`,
-`inferred`, `unknown`), a rationale, and source IDs. Each axis has a brief and
+`inferred`, `unknown`), a rationale, and source IDs. Null/unknown values are
+temporary initial-draft placeholders only; resolve them to most-likely numeric
+answers before completion. Educated assumptions use `inferred` and the explicit
+rationale prefix described in the shared procedure. Each axis has a brief and
 counter-evidence review. Each source includes title, URL, publisher, publication
 date (or `undated`), and access date. Dates use YYYY-MM-DD.
 
@@ -97,8 +112,9 @@ supports the answers. The reviewer must check those facts. There is no automatic
 claim that a URL was visited or that a nonempty rationale is correct.
 
 Published assessments require all 240 answers and all 15 axis reviews. Missing,
-duplicate, misplaced and invalid responses fail validation. Unknowns remain null
-and cannot be archived. The record pins question-bank, axis and scoring versions,
+duplicate, misplaced and invalid responses fail validation. Resolve all initial
+null/unknown placeholders through research or disclosed educated assumptions
+before archiving. The record pins question-bank, axis and scoring versions,
 plus a SHA-256 fingerprint of the axes, questions and scoring version. Never
 change a fingerprint just to bypass stale-data errors. A scoring implementation
 change must bump its version, even if the question bank is unchanged.

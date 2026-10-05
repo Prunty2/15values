@@ -7,6 +7,15 @@ and [tool reference](<../personality assessments/README.md>) alongside this guid
 The shared procedure supplies the evidence, scoring, review and archival rules;
 this guide explains how they apply to countries.
 
+## Completion requirement
+
+Complete the authorised profiles through the full local workflow under the shared
+procedure's completion requirement. Do not stop at a readiness report, partial
+draft or remaining evidence gaps: resolve them with disclosed most-likely educated
+assumptions, then review, validate, archive, generate and verify. Do not ask again
+for permission already given. Report permanent answer-file links and 240/240 counts.
+Report genuine technical blockers accurately while continuing other authorised work.
+
 ## Define the country and period
 
 Specify the territory, institutions or regime being assessed and the period they
@@ -33,12 +42,17 @@ Explain differences between law and practice, changes during the period, and
 regional variation in the relevant axis brief and counter-evidence notes. Do not
 infer Culture vs Nature from environmental policy, or support for religious law
 from the population's private faith. Where the evidence cannot support a response,
-leave it unknown rather than inventing a national position.
+choose the most likely response as a clearly labelled educated assumption,
+following the shared procedure. Explain the contextual evidence and its limits;
+do not describe the assumption as an adopted national position.
 
 Complete the same 240 questions as every other profile: 16 per axis, using the
 existing five agreement choices. Give every answer its own rationale and source
-references. Mark documented inference explicitly. Unknown answers remain `null`
-and prevent archiving; Neutral is a substantive, evidence-supported response.
+references. Mark inference explicitly. Every completed assessment must have 240 numeric
+answers, including a most-likely choice for gaps remaining after research. Record
+these as `inferred` with an `Educated assumption:` rationale, contextual citations
+and the evidence limitation. Flag them in chat and review. Neutral is appropriate
+only when it is the most likely mixed, conditional or neutral response.
 Do not copy another country, import 12Axes scores or select a target placement.
 
 ## Metadata and flag
@@ -82,8 +96,8 @@ npm run profiles -- build
 
 Read validation warnings and the calculated neighbours. A similarity of at least
 95% requires an evidence-based review decision for the named neighbour revision,
-not altered answers to make the country look different. Keep incomplete research
-in drafts. Re-audits append a revision and preserve earlier assessments and images.
+not altered answers to make the country look different. Drafts are temporary working records; resolve research gaps using
+the educated-assumption rule and continue through completion. Re-audits append a revision and preserve earlier assessments and images.
 
 Run the [contribution checks](../../CONTRIBUTING.md), including archive history
 against the actual PR base. Inspect `#/countries`, search, the detail page, all

@@ -27,7 +27,7 @@ scoring assessment and results interface. All four lengths are implemented
 using the existing 240-question bank, preserving its wording and recorded
 agreement directions. Some source question files remain drafts. The current
 direction-balanced scoring and known measurement concerns are in docs/SCORING.md.
-Results show the 15 axes, an ideology-sentence placeholder, and automatically saved local history. The sentence will be a broad statement supplied by the matched ideology profile, not generated from axis scores. The results comparison card uses placeholders; calculated comparisons remain deferred. Scoring version 2 gives each agreement-direction group half the axis weight and equal question weights within groups; version 1 saved results retain their original scores.
+Results show the 15 axes, the closest compatible ideology’s supplied perspective statement, and automatically saved local history. The sentence will be a broad statement supplied by the matched ideology profile, not generated from axis scores. The results comparison card calculates closest ideology comparisons across 15 equally weighted axes, retaining ties and displaying percentage similarity; automatic personality and country matches remain placeholders. Scoring version 2 gives each agreement-direction group half the axis weight and equal question weights within groups; version 1 saved results retain their original scores.
 
 Frontend development and services needed to verify it are authorised.
 Do not introduce dependencies outside the selected stack or populate
@@ -39,10 +39,49 @@ contents before creating or modifying the files.
 The owner has authorised the profile contribution infrastructure: sourced audits,
 validation, immutable revisions, generated catalogue browsing and Codex/Claude Code
 skills. Use CONTRIBUTING.md and docs/personality assessments/NEW_PROFILE.md for additions or
-re-audits. The catalogue contents still require a request for the named subjects;
-user matching and compass presentation remain deferred.
+re-audits. Profile assessments must answer all 240 questions. Research first, then choose
+the most likely agreement response for any remaining evidence gap. Record an
+educated assumption as `inferred`, begin its rationale with `Educated assumption:`,
+cite the contextual sources actually used, explain the choice and uncertainty,
+and flag the question in chat and the separate review. Do not leave null/unknown
+answers in a completed assessment or use Neutral automatically for uncertainty.
+Do not present assumptions as documented positions. Apply this rule equally to
+countries, ideologies and personalities; preserve historical archives and reviews.
+
+The catalogue contents still require a request for the named subjects.
+The owner has authorised closest-ideology comparisons for personality and country
+profiles using equally weighted scores across all 15 axes; see docs/SCORING.md.
+The owner has authorised quiz-result ideology comparisons using the same equal-axis distance and compatible-version rules. User-to-personality/country matching and compass presentation remain deferred.
 
 Later explicit requests can authorise implementation work.
+
+## Completion requirement
+
+A request to add, complete or re-audit named profiles authorises the full local
+workflow: research, all 240 answers, separate review, validation, immutable archive,
+catalogue generation and verification. Continue until every requested profile is
+complete. A readiness report, metadata, scores alone or a partially answered draft
+is not completion. Fix routine validation errors and continue through the requested
+batch rather than ending after an intermediate step.
+
+Missing exact evidence is not a reason to stop or ask for renewed permission.
+Research first, then choose the most likely of the five responses using contextual
+evidence. Mark the educated assumption as `inferred`, begin its rationale with
+`Educated assumption:`, cite actual sources and explain the choice and uncertainty.
+Flag these question IDs in chat and review without waiting for approval. Do not
+invent sources or documented positions, or automatically use Neutral. Resolve all
+null/unknown placeholders before completion.
+
+Only a concrete obstacle that cannot be resolved within the authorised workflow,
+such as unavailable required tools, inaccessible files or materially ambiguous
+identity, warrants reporting a blocker. State it accurately and continue all other
+work that can proceed. An evidence gap covered by the educated-assumption rule is
+not a blocker. Do not bypass validation or claim failed checks passed.
+
+The final response must give each profile's permanent answer-file link, 240/240
+answered-question count, revision, catalogue-generation result, educated-assumption
+IDs and actual verification results. Save answers in repository JSON. A PR requires
+a request; merging and deployment remain outside this local authorisation.
 
 ## Agreed Requirements
 
@@ -77,7 +116,7 @@ Later explicit requests can authorise implementation work.
   and question-bank and scoring versions. Raw-answer retention is undecided.
 - Handle unavailable storage and invalid saved/imported data gracefully.
 - Keep results descriptive and preserve the documented axis definitions.
-  User-to-profile matching and the political compass presentation are deferred.
+  User-to-personality/country matching and the political compass presentation are deferred.
 
 Do not rename, remove, merge, or add axes without the owner's
 agreement.
@@ -133,3 +172,12 @@ technology stack and present them as agreed requirements.
 - Verify changes appropriately and report what was actually checked.
 - Update project documentation when an authorised change alters
   an agreed requirement.
+
+The owner has authorised manual quiz-result comparisons with ideology and personality
+profiles through a searchable, scrollable picker. Compare the unchanged scores on all
+15 axes using equal weights and compatible versions; retain the documented evidence
+limitations. Automatic personality matching and country comparison remain deferred.
+
+Manual comparisons add numbered profile dots to the existing axis graphics with a
+removable legend, rather than a separate results section. Results use their closest
+ideology’s catalogue colour and show similarity as 100 minus equal-axis average gap.

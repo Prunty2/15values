@@ -1,0 +1,23 @@
+
+> 15-values-quiz@0.0.0 build
+> npm run profiles:check && tsc --noEmit && vite build
+
+
+> 15-values-quiz@0.0.0 profiles:check
+> npm run profiles -- check
+
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts check
+
+202 profiles with placements; 0 withdrawn; check passed.
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 52 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.72 kB │ gzip:   0.62 kB
+dist/assets/index-DRNUMnZu.css   97.80 kB │ gzip:  18.59 kB
+dist/assets/index-fFathjJU.js   471.32 kB │ gzip: 127.73 kB
+
+✓ built in 841ms

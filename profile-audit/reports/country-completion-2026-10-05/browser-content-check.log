@@ -1,0 +1,67 @@
+### Ran Playwright code
+```js
+await (async (page) => {
+ await page.goto('http://127.0.0.1:4186/#/countries');
+ const links=await page.locator('main a[href^="#/countries/"]').evaluateAll(es=>es.map(e=>({name:e.textContent.trim(),href:e.getAttribute('href')})));
+ const results=[];
+ for(const viewport of [{width:1440,height:1000},{width:390,height:844}]){
+  await page.setViewportSize(viewport);
+  for(const link of links){
+   await page.goto('http://127.0.0.1:4186/'+link.href);
+   await page.getByRole('heading',{level:1,name:link.name,exact:true}).waitFor();
+   await page.locator('main article').last().waitFor();
+   const axes=await page.locator('main article').count();
+   const image=await page.locator('main img').evaluate(async img=>{await img.decode();return {src:img.getAttribute('src'),loaded:img.complete&&img.naturalWidth>0,width:img.naturalWidth}});
+   const overflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+   const downloadLink=await page.getByRole('link',{name:'Download the full assessment'}).getAttribute('href');
+   const response=await page.request.get(new URL(downloadLink,page.url()).href);const audit=await response.json();
+   results.push({country:link.name,viewport,axes,image,overflow,downloadStatus:response.status(),answerCount:audit.axes.flatMap(a=>a.answers).filter(a=>a.value!==null).length});
+  }
+ }
+ await page.getByRole('link',{name:'Image credits',exact:true}).click();
+ const credits=[];for(const link of links){const section=page.locator('section').filter({has:page.getByRole('heading',{name:link.name+' flag',exact:true})});credits.push({country:link.name,found:await section.count(),source:await section.getByRole('link',{name:'Wikimedia Commons source',exact:true}).getAttribute('href'),license:await section.getByRole('link',{name:'Licence or public-domain status',exact:true}).getAttribute('href')})}
+ console.log(JSON.stringify({results,credits}));
+})(page);
+```
+### Page
+- Page URL: http://127.0.0.1:4186/#/credits
+- Page Title: Image credits — 15 Values
+### Events
+- Downloading file australia-audit-r1.json ...
+- Downloaded file australia-audit-r1.json to ".playwright-cli/australia-audit-r1.json"
+- Downloading file canada-audit-r1.json ...
+- Downloaded file canada-audit-r1.json to ".playwright-cli/canada-audit-r1.json"
+- Downloading file denmark-audit-r1.json ...
+- Downloaded file denmark-audit-r1.json to ".playwright-cli/denmark-audit-r1.json"
+- Downloading file france-audit-r1.json ...
+- Downloaded file france-audit-r1.json to ".playwright-cli/france-audit-r1.json"
+- Downloading file germany-audit-r1.json ...
+- Downloaded file germany-audit-r1.json to ".playwright-cli/germany-audit-r1.json"
+- Downloading file japan-audit-r1.json ...
+- Downloaded file japan-audit-r1.json to ".playwright-cli/japan-audit-r1.json"
+- Downloading file netherlands-audit-r1.json ...
+- Downloaded file netherlands-audit-r1.json to ".playwright-cli/netherlands-audit-r1.json"
+- Downloading file norway-audit-r1.json ...
+- Downloaded file norway-audit-r1.json to ".playwright-cli/norway-audit-r1.json"
+- Downloading file sweden-audit-r1.json ...
+- Downloaded file sweden-audit-r1.json to ".playwright-cli/sweden-audit-r1.json"
+- Downloading file united-kingdom-audit-r1.json ...
+- Downloaded file united-kingdom-audit-r1.json to ".playwright-cli/united-kingdom-audit-r1.json"
+- Downloading file australia-audit-r1.json ...
+- Downloaded file australia-audit-r1.json to ".playwright-cli/australia-audit-r1.json"
+- Downloading file canada-audit-r1.json ...
+- Downloaded file canada-audit-r1.json to ".playwright-cli/canada-audit-r1.json"
+- Downloading file denmark-audit-r1.json ...
+- Downloaded file denmark-audit-r1.json to ".playwright-cli/denmark-audit-r1.json"
+- Downloading file france-audit-r1.json ...
+- Downloaded file france-audit-r1.json to ".playwright-cli/france-audit-r1.json"
+- Downloading file germany-audit-r1.json ...
+- Downloaded file germany-audit-r1.json to ".playwright-cli/germany-audit-r1.json"
+- Downloading file japan-audit-r1.json ...
+- Downloaded file japan-audit-r1.json to ".playwright-cli/japan-audit-r1.json"
+- Downloading file netherlands-audit-r1.json ...
+- Downloaded file netherlands-audit-r1.json to ".playwright-cli/netherlands-audit-r1.json"
+- Downloading file norway-audit-r1.json ...
+- Downloaded file norway-audit-r1.json to ".playwright-cli/norway-audit-r1.json"
+- Downloading file sweden-audit-r1.json ...
+- Downloaded file sweden-audit-r1.json to ".playwright-cli/sweden-audit-r1.json"

@@ -13,8 +13,11 @@ describe('descriptive result profile', () => {
     expect(wholePercent(37.5)).toBe(37);
   });
   it('uses the same tendency thresholds for both poles', () => {
-    for (const [leftPercent, label] of [[40, 'Balanced'], [60, 'Balanced'], [39.9, 'Leaning'], [60.1, 'Leaning'], [25, 'Strong'], [75, 'Strong']] as const) {
-      expect(tendency({ ...neutral[0], leftPercent, rightPercent: 100 - leftPercent })).toBe(label);
+    for (const [distance, label] of [[0, 'Balanced'], [5, 'Balanced'], [5.4, 'Balanced'], [5.5, 'Leaning'], [6, 'Leaning'], [15, 'Leaning'], [15.4, 'Leaning'], [15.5, ''], [16, ''], [25, ''], [25.4, ''], [25.5, 'Strongly'], [26, 'Strongly'], [50, 'Strongly']] as const) {
+      for (const direction of [-1, 1]) {
+        const leftPercent = 50 + direction * distance;
+        expect(tendency({ ...neutral[0], leftPercent, rightPercent: 100 - leftPercent })).toBe(label);
+      }
     }
   });
 });

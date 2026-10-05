@@ -1,0 +1,71 @@
+### Page
+- Page URL: http://127.0.0.1:5193/political-quiz/#/personalities/angus-taylor
+- Page Title: Personalities — 15 Values
+- Console: 1 errors, 0 warnings
+### Snapshot
+```yaml
+- generic [ref=f1e2]:
+  - link "Skip to content":
+    - /url: "#main-content"
+  - banner [ref=f1e3]:
+    - generic [ref=f1e4]:
+      - link "15 Values home" [ref=f1e5]:
+        - /url: "#/"
+        - generic [ref=f1e11]: 15Values
+      - button "Open navigation" [ref=f1e546] [cursor=pointer]
+  - main [active] [ref=f1e549]:
+    - generic [ref=f1e550]:
+      - heading "Personalities" [level=1] [ref=f1e551]
+      - alert [ref=f1e552]: The profiles could not be loaded. Please try again.
+      - button "Try again" [ref=f1e553] [cursor=pointer]
+  - region [ref=f1e498]:
+    - generic [ref=f1e499]:
+      - generic [ref=f1e500]:
+        - heading "15 Values on GitHub Help improve 15 Values" [level=2] [ref=f1e501]:
+          - link "15 Values on GitHub" [ref=f1e502]:
+            - /url: https://github.com/Prunty2/15values
+          - generic [ref=f1e505]: Help improve 15 Values
+        - paragraph [ref=f1e506]: Report a bug, suggest an improvement or contribute code on GitHub.
+      - generic [ref=f1e507]:
+        - link "Issue or Suggestion" [ref=f1e508]:
+          - /url: https://github.com/Prunty2/15values/issues/new
+        - link "Submit a PR" [ref=f1e511]:
+          - /url: https://github.com/Prunty2/15values/compare
+  - contentinfo [ref=f1e514]:
+    - generic [ref=f1e515]:
+      - generic [ref=f1e516]:
+        - link "15 Values home" [ref=f1e517]:
+          - /url: "#/"
+          - generic [ref=f1e523]: 15Values
+        - paragraph [ref=f1e524]: Your views deservemore than a label.
+        - generic [ref=f1e525]: A political quiz built around 15 independent axes. Designed to describe your views, not change them.
+      - navigation "Explore" [ref=f1e526]:
+        - heading "Explore" [level=2] [ref=f1e527]
+        - link "Quiz formats" [ref=f1e528]:
+          - /url: "#/quiz"
+        - link "The 15 values" [ref=f1e529]:
+          - /url: "#/?section=values"
+      - navigation "Catalogues" [ref=f1e530]:
+        - heading "Catalogues" [level=2] [ref=f1e531]
+        - link "Ideologies" [ref=f1e532]:
+          - /url: "#/ideologies"
+        - link "Personalities" [ref=f1e533]:
+          - /url: "#/personalities"
+        - link "Countries" [ref=f1e534]:
+          - /url: "#/countries"
+      - navigation "Project" [ref=f1e535]:
+        - heading "The project" [level=2] [ref=f1e536]
+        - link "Submit feedback" [ref=f1e537]:
+          - /url: https://github.com/Prunty2/15values/issues/new
+        - link "GitHub repository" [ref=f1e538]:
+          - /url: https://github.com/Prunty2/15values
+        - link "Image credits" [ref=f1e539]:
+          - /url: "#/credits"
+      - generic [ref=f1e540]:
+        - generic [ref=f1e541]: 15 Values · In development
+        - paragraph [ref=f1e542]: No account needed. Quiz answers and saved results stay in your browser.
+        - link "Back to home" [ref=f1e543]:
+          - /url: "#/"
+```
+### Events
+- New console entries: .playwright-cli/console-2026-10-05T11-06-44-826Z.log#L1

@@ -1,0 +1,9 @@
+### Result
+{"width":320,"scrollWidth":320,"overflow":false}
+### Ran Playwright code
+```js
+await (async(page)=>{await page.setViewportSize({width:320,height:740});await page.goto('http://127.0.0.1:5192/#/credits');await page.getByRole('heading',{name:'Image credits.',exact:true}).waitFor();return await page.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,overflow:document.documentElement.scrollWidth>innerWidth}));})(page);
+```
+### Page
+- Page URL: http://127.0.0.1:5192/#/credits
+- Page Title: Image credits — 15 Values

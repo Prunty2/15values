@@ -1,0 +1,147 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate personality angus-taylor
+
+{
+  "errors": [],
+  "warnings": [
+    "protectionism-free-trade: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "progressive-traditionalist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "culture-nature: 7/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": [
+    {
+      "id": "nigel-farage",
+      "revision": 3,
+      "similarity": 90.94
+    },
+    {
+      "id": "ronald-reagan",
+      "revision": 3,
+      "similarity": 90.82666666666667
+    },
+    {
+      "id": "rishi-sunak",
+      "revision": 1,
+      "similarity": 90.43333333333334
+    },
+    {
+      "id": "john-howard",
+      "revision": 2,
+      "similarity": 89.48666666666666
+    },
+    {
+      "id": "margaret-thatcher",
+      "revision": 3,
+      "similarity": 89.26
+    }
+  ],
+  "scores": [
+    {
+      "axisId": "democracy-autocracy",
+      "leftPercent": 93.8,
+      "rightPercent": 6.2,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "authority-liberty",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "leftPercent": 70.3,
+      "rightPercent": 29.7,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "leftPercent": 76.6,
+      "rightPercent": 23.4,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "leftPercent": 59.4,
+      "rightPercent": 40.6,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "leftPercent": 59.4,
+      "rightPercent": 40.6,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "public-private",
+      "leftPercent": 26.6,
+      "rightPercent": 73.4,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "leftPercent": 40.6,
+      "rightPercent": 59.4,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "planning-free-market",
+      "leftPercent": 20.3,
+      "rightPercent": 79.7,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "leftPercent": 29.7,
+      "rightPercent": 70.3,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "secular-religious",
+      "leftPercent": 76.6,
+      "rightPercent": 23.4,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "leftPercent": 46.9,
+      "rightPercent": 53.1,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "innovation-caution",
+      "leftPercent": 57.8,
+      "rightPercent": 42.2,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "central-local",
+      "leftPercent": 42.2,
+      "rightPercent": 57.8,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "culture-nature",
+      "leftPercent": 57.8,
+      "rightPercent": 42.2,
+      "answered": 16,
+      "neutral": 7
+    }
+  ]
+}
+

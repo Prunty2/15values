@@ -1,4 +1,4 @@
-# Democratic Socialism (DSA programme tradition) — revision 2 research dossier
+# Democratic Socialism — revision 2 research dossier
 
 Research date: 4 October 2026. This is an incomplete research record, not a publication or successful audit claim.
 

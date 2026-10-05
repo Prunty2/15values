@@ -1,0 +1,16 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate country hungary
+
+{
+  "errors": [
+    "A completed evidence review is required."
+  ],
+  "warnings": [
+    "public-private: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "protectionism-free-trade: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "culture-nature: 5/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": []
+}
+

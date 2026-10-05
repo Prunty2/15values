@@ -4,6 +4,8 @@ import { parseCatalogue } from './catalogueData';
 import Ideologies from './Ideologies';
 import IdeologyHeader from './IdeologyHeader';
 import PersonalityHeader from './PersonalityHeader';
+import ProfileCard from './ProfileCard';
+import { profileTagsForKind, type ProfileTagKind } from './profileTags';
 import { personalityImageCredits } from './personalityImageCredits';
 import type { Catalogue as CatalogueKind, Profile } from './types';
 import a from '../App.module.css';
@@ -13,20 +15,24 @@ export const catalogueRoutes = { ideologies: 'ideology', countries: 'country', p
 export type CatalogueRoute = keyof typeof catalogueRoutes;
 const descriptions: Record<CatalogueKind, string> = {
   ideology: 'Explore political ideas through the same 15 values.',
-  country: 'Explore the institutions and policies of countries during a defined period.',
-  personality: 'Explore the documented political positions of public figures.',
+  country: '',
+  personality: '',
 };
 const personalityGroups = [
   { name: 'Politicians', ids: null },
-  { name: 'Political Theorists', ids: ['john-locke', 'john-stuart-mill', 'edmund-burke', 'thomas-hobbes', 'john-rawls', 'karl-marx', 'rosa-luxemburg'] },
-  { name: 'Economists', ids: ['john-maynard-keynes', 'friedrich-hayek', 'milton-friedman'] },
+  { name: 'Business leaders', ids: ['jeff-bezos', 'elon-musk', 'bill-gates', 'mark-zuckerberg', 'peter-thiel'] },
+  { name: 'Political Theorists', ids: ['john-locke', 'john-stuart-mill', 'edmund-burke', 'thomas-hobbes', 'john-rawls', 'karl-marx', 'rosa-luxemburg', 'mary-wollstonecraft', 'ayn-rand', 'jean-jacques-rousseau', 'mikhail-bakunin'] },
+  { name: 'Economists', ids: ['john-maynard-keynes', 'friedrich-hayek', 'milton-friedman', 'adam-smith'] },
 ] as const;
 const personalityGroup = (profile: Profile) => personalityGroups.find(group => group.ids?.some(id => id === profile.id))?.name ?? 'Politicians';
+const familyNames: Record<string, string> = { 'mao-zedong': 'Mao', 'xi-jinping': 'Xi' };
+const lastName = (profile: Profile) => familyNames[profile.id] ?? profile.metadata.name.trim().split(/\s+/).at(-1) ?? profile.metadata.name;
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
 export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: string }) {
   const [state, setState] = useState<{ profiles?: Profile[]; error?: string }>({});
   const [query, setQuery] = useState('');
+  const [filters, setFilters] = useState<Record<ProfileTagKind, string>>({ leaning: '', ideology: '', position: '', country: '' });
   const [attempt, setAttempt] = useState(0);
   useEffect(() => {
     const controller = new AbortController();
@@ -48,21 +54,19 @@ export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: s
   if (!profiles) return <div className={`${a.container} ${a.pageContent}`}><h1>{heading}</h1><p role="status">Loading profiles…</p></div>;
   if (id && !profile) return <div className={`${a.container} ${a.pageContent}`}><h1>Profile not found</h1><p>This profile is not in the published catalogue.</p><a href={`#/${route}`}>Back to {heading.toLowerCase()}</a></div>;
   if (profile) return <div className={`${a.container} ${a.pageContent} ${profile.catalogue === 'ideology' ? s.ideologyDetail : profile.catalogue === 'personality' ? s.personalityDetail : ''}`}>
-    {profile.catalogue === 'ideology' ? <IdeologyHeader profile={profile} /> : profile.catalogue === 'personality' ? <PersonalityHeader profile={profile} /> : <>
+    {profile.catalogue === 'ideology' ? <IdeologyHeader profile={profile} /> : profile.catalogue === 'personality' ? <PersonalityHeader profile={profile} profiles={state.profiles!} /> : <>
     <a href={`#/${route}`}>← All {heading.toLowerCase()}</a>
     <header className={s.detailHeader}>
       {profile.metadata.image ? <img src={asset(profile.metadata.image.path)} alt={profile.metadata.image.alt} className={s.portrait} /> : null}
-      <div><p>{profile.metadata.category} · {profile.metadata.period}</p><h1>{profile.metadata.name}</h1><p>{profile.metadata.description}</p>
+      <div><p>{profile.metadata.category} · {profile.metadata.period}</p><h1 style={{ fontSize: `min(40px, ${140 / profile.metadata.name.length}cqi)` }}>{profile.metadata.name}</h1><p>{profile.metadata.description}</p>
         {profile.metadata.role ? <p>{profile.metadata.role} · {profile.metadata.lifespan}</p> : null}
       </div>
     </header>
     </>}
-    {profile.catalogue !== 'ideology' ? <p className={s.scope}>{profile.metadata.scope}</p> : null}
     {profile.metadata.phrase && profile.catalogue !== 'ideology' ? <blockquote className={s.phrase}>{profile.metadata.phrase}</blockquote> : null}
-    {profile.catalogue !== 'ideology' ? <p className={s.note}>Research as of {profile.researchedAt}. The assessment interprets documented evidence; the subject did not submit these answers. The question bank is still in development.</p> : null}
     {profile.withdrawal ? <section className={s.scope} aria-label="Assessment withdrawn"><h2>Placements withdrawn</h2><p>{profile.withdrawal.reason}</p><p>The earlier percentages are not reliable. A new assessment must pass the evidence review before placements return.</p></section> : <ResultAxes result={{ scores: profile.scores }} compact={profile.catalogue === 'ideology'} />}
-    <details className={s.evidence} open={profile.catalogue !== 'ideology'}><summary className={s.evidenceToggle}>Sources and assessment</summary>
-      <p>{profile.withdrawal ? 'The download preserves the withdrawn assessment for transparency. It is not a validated current placement.' : 'Review the evidence and the reasoning behind all 240 answers.'}{profile.catalogue === 'ideology' ? ` Research as of ${profile.researchedAt}.` : ''}</p>
+    <details className={s.evidence}><summary className={s.evidenceToggle}>Sources and assessment</summary>
+      <p>{profile.withdrawal ? 'The download preserves the withdrawn assessment for transparency. It is not a validated current placement.' : 'Review the evidence and the reasoning behind all 240 answers.'}</p>
       <a href={asset(profile.auditPath)} download={`${profile.id}-audit-r${profile.revision}.json`}>{profile.withdrawal ? 'Download the withdrawn assessment' : 'Download the full assessment'}</a>
       <ul>{profile.sources.map(source => <li key={source.id}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a> · {source.publisher}</li>)}</ul>
       <details><summary>Assessment versions</summary><p>Revision {profile.revision} · Questions {profile.questionBankVersion} · Scoring {profile.scoringVersion} · Axes {profile.axesVersion}</p></details>
@@ -70,29 +74,36 @@ export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: s
     </details>
   </div>;
   if (route === 'ideologies') return <Ideologies profiles={profiles} />;
-  const filtered = profiles.filter(profile => `${profile.metadata.name} ${profile.metadata.category} ${profile.metadata.description}`.toLowerCase().includes(query.toLowerCase().trim()));
+  const filterLabels = { leaning: 'Political leaning', ideology: 'Closest ideology', position: 'Position', country: 'Country of origin' };
+  const filterKinds: ProfileTagKind[] = ['ideology', 'position', 'country'];
+  const availableTags = (kind: ProfileTagKind) => [...new Set(profiles.flatMap(profile => profileTagsForKind(profile, kind)))].sort((left, right) => left.localeCompare(right));
+  const filtered = profiles.filter(profile => (route !== 'personalities' || filterKinds.every(kind => !filters[kind] || profileTagsForKind(profile, kind).includes(filters[kind]))) && `${profile.metadata.name} ${profile.metadata.category} ${profile.metadata.description}`.toLowerCase().includes(query.toLowerCase().trim()));
   return <div className={`${a.container} ${a.pageContent}`}>
-    <div className={s.intro}><h1>{heading}</h1><p>{descriptions[catalogueRoutes[route]]}</p></div>
+    <div className={s.intro}><h1>{heading}</h1>{descriptions[catalogueRoutes[route]] ? <p>{descriptions[catalogueRoutes[route]]}</p> : null}</div>
     {profiles.length === 0 ? <div className={a.catalogueEmpty}><h2>No {route} added yet.</h2><p>There are no {catalogueRoutes[route]} profiles to explore here yet. In the meantime, get to know the values that underpin the site.</p><a className={a.primaryButton} href="#/?section=values">Explore the 15 values</a></div> : <>
-      <label className={s.search}>Search {heading.toLowerCase()}<input type="search" value={query} onChange={event => setQuery(event.target.value)} /></label>
+      <div className={route === 'personalities' ? s.browseToolbar : undefined}>
+      <label className={s.search}><span className={route === 'personalities' ? s.visuallyHidden : undefined}>Search {heading.toLowerCase()}</span><input type="search" placeholder={`Search ${heading.toLowerCase()}`} value={query} onChange={event => setQuery(event.target.value)} /></label>
+      {route === 'personalities' ? <div className={s.filterToolbar}>
+        {filterKinds.map(kind => <label key={kind} className={s.filterLabel}><span className={s.visuallyHidden}>{filterLabels[kind]}</span>
+          <select value={filters[kind]} onChange={event => setFilters(current => ({ ...current, [kind]: event.target.value }))}>
+            <option value="">{kind === 'country' ? 'All countries' : kind === 'ideology' ? 'All ideologies' : 'All positions'}</option>
+            {availableTags(kind).map(tag => <option key={tag} value={tag}>{tag}</option>)}
+          </select>
+        </label>)}
+        {query || filterKinds.some(kind => filters[kind]) ? <button className={s.clearFilters} onClick={() => { setQuery(''); setFilters({ leaning: '', ideology: '', position: '', country: '' }); }}>Clear filters</button> : null}
+      </div> : null}
+      </div>
       <p role="status">{filtered.length} {filtered.length === 1 ? 'profile' : 'profiles'}</p>
       {route === 'personalities' ? <div className={s.personalityGroups}>{personalityGroups.map(group => {
         const members = filtered.filter(profile => personalityGroup(profile) === group.name)
-          .sort((left, right) => left.metadata.name.localeCompare(right.metadata.name));
+          .sort((left, right) => lastName(left).localeCompare(lastName(right), 'en')
+            || left.metadata.name.localeCompare(right.metadata.name, 'en'));
         return members.length ? <section key={group.name} className={s.personalityGroup} aria-label={group.name}>
           <div className={s.groupHeading}><h2>{group.name}</h2><span>{members.length}</span></div>
-          <div className={s.personalityGrid}>{members.map(profile => <article key={profile.id} className={s.personalityCard}>
-            <a className={s.personalityLink} href={`#/${route}/${profile.id}`} aria-label={profile.metadata.name}>
-              <div className={s.personalityImage}>{profile.metadata.image ? <img src={asset(profile.metadata.image.path)} alt={profile.metadata.image.alt} loading="lazy" width="400" height="400" /> : null}</div>
-              <div className={s.personalityCopy}><h3>{profile.metadata.name}<span aria-hidden="true">↗</span></h3><p>{profile.metadata.description}</p>{profile.withdrawal ? <p>Placements withdrawn · Evidence review required</p> : null}</div>
-            </a>
-          </article>)}</div>
+          <div className={s.profileGrid}>{members.map(profile => <ProfileCard key={profile.id} profile={profile} route="personalities" />)}</div>
         </section> : null;
-      })}</div> : <div className={s.grid}>{filtered.map(profile => <article key={profile.id} className={s.card}>
-        {profile.metadata.image ? <img src={asset(profile.metadata.image.path)} alt={profile.metadata.image.alt} loading="lazy" width="96" height="96" /> : null}
-        <p>{profile.metadata.category} · {profile.metadata.period}</p><h2><a href={`#/${route}/${profile.id}`}>{profile.metadata.name}</a></h2><p>{profile.metadata.description}</p>
-      </article>)}</div>}
-      {!filtered.length ? <p>No profiles match your search.</p> : null}
+      })}</div> : <div className={`${s.profileGrid} ${s.countryGrid}`}>{filtered.map(profile => <ProfileCard key={profile.id} profile={profile} route="countries" />)}</div>}
+      {!filtered.length ? <p>{route === 'personalities' && filterKinds.some(kind => filters[kind]) ? 'No profiles match your filters. Try another selection or clear filters.' : 'No profiles match your search.'}</p> : null}
     </>}
   </div>;
 }
