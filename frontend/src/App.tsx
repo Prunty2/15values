@@ -109,11 +109,11 @@ function ExampleResult() {
     return () => controller.abort();
   }, []);
   return <div className={s.examplePreview}>
-    <p className={s.exampleCaption} id="example-result-title">Example profile comparison</p>
+    <p className={s.exampleCaption} id="example-result-title">Example comparison</p>
     <section className={s.exampleResult} aria-labelledby="example-result-title" style={example ? { '--result-ink': ideologyGroup(example.ideology).color, '--match-percentage': example.percentage + ' 100' } as CSSProperties : undefined}>
     {example ? <>
       <div className={s.resultHeader}>
-        <div className={s.resultIdeology}><span className={s.positionBadge}>{ideologyGroup(example.ideology).name}</span><h2>{stripName(example.ideology)}</h2></div>
+        <div className={s.resultIdeology}><span className={s.positionBadge}>{ideologyGroup(example.ideology).name}</span><h2><a href={'#/ideologies/' + example.ideology.id}>{stripName(example.ideology)}</a></h2></div>
         <div className={s.matchRing} role="img" aria-label={example.percentage + '% similarity across 15 axes'}>
           <svg viewBox="0 0 104 104" aria-hidden="true"><circle className={s.ringTrack} cx="52" cy="52" r="47" /><circle className={s.ringFill} cx="52" cy="52" r="47" pathLength="100" /></svg>
           <div><strong>{example.percentage}%</strong><span>Similarity</span></div>
@@ -121,9 +121,8 @@ function ExampleResult() {
       </div>
       <div className={s.comparisonRow}>
         {example.person.metadata.image ? <img className={s.personPortrait} src={import.meta.env.BASE_URL + example.person.metadata.image.path} alt={example.person.metadata.image.alt} width="76" height="76" decoding="async" /> : <Icon name="people" />}
-        <div className={s.comparisonCopy}><span className={s.comparisonLabel}>Random personality example</span><h3><a href={'#/personalities/' + example.person.id}>{stripName(example.person)}</a></h3><span className={s.comparisonDescription}>{example.person.metadata.role ?? example.person.metadata.category}</span></div>
+        <div className={s.comparisonCopy}><span className={s.comparisonLabel}>Personality</span><h3><a href={'#/personalities/' + example.person.id}>{stripName(example.person)}</a></h3></div>
       </div>
-      <div className={s.comparisonRow}><div className={s.comparisonCopy}><span className={s.comparisonLabel}>Closest assessed ideology</span><h3><a href={'#/ideologies/' + example.ideology.id}>{stripName(example.ideology)}</a></h3><span className={s.comparisonDescription}>Similarity across 15 equally weighted axes. Assessment estimates affect the match.{example.person.closestIdeology!.ideologies.length > 1 ? ' One of the tied closest ideologies.' : ''}</span></div></div>
     </> : <div className={s.comparisonRow}><p role="status">{loading ? 'Loading example…' : 'Profile example unavailable.'}</p></div>}
     </section>
   </div>;

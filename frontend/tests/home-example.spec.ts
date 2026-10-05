@@ -9,7 +9,7 @@ test('refresh draws another assessed personality with a calculated ideology matc
   await page.goto('./');
   await page.evaluate(() => document.fonts.ready);
   expect(await page.evaluate(() => document.fonts.check('700 16px "Clarity City"'))).toBe(true);
-  const example = page.getByRole('region', { name: 'Example profile comparison' });
+  const example = page.getByRole('region', { name: 'Example comparison' });
   const person = example.locator('a[href^="#/personalities/"]');
   await expect(person).toBeVisible();
   const first = await person.getAttribute('href');
