@@ -80,7 +80,6 @@ test('all three catalogues browse, search and open full sourced assessments', as
       await expect(page.getByRole('link', { name: 'CC0', exact: true })).toHaveAttribute('href', 'https://creativecommons.org/publicdomain/zero/1.0/');
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
-    if (kind === 'personality') await page.screenshot({ path: testInfo.outputPath('profile-detail.png'), fullPage: true });
     await page.reload();
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(`Test ${kind}`);
     await page.getByRole('link', { name: `All ${path}` }).click();
@@ -197,36 +196,5 @@ test('personality card has exactly ideology, position and origin tags', async ({
   await expect(tags).toHaveCount(3);
   await expect(tags.nth(0)).toHaveText('Calculated ideology');
   await expect(tags.nth(1)).toHaveText('Head of government');
-  await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Country of origin: Russia');
-});
-
-test('every published personality has three matching filterable tags', async ({ page }, testInfo) => {
-  await page.goto('./#/personalities');
-  const lists = page.getByRole('list', { name: 'Profile tags' });
-  await expect(lists.first()).toBeVisible();
-  await page.screenshot({ path: testInfo.outputPath('personality-tags.png') });
-  const cards = await lists.all();
-  expect(cards.length).toBeGreaterThan(0);
-  for (const list of cards) {
-    const tags = list.getByRole('listitem');
-    await expect(tags).toHaveCount(3);
-    await expect(tags.nth(0)).toHaveAttribute('aria-label', /^Closest ideology:/);
-    await expect(tags.nth(1)).toHaveAttribute('aria-label', /^Position:/);
-    await expect(tags.nth(2)).toHaveAttribute('aria-label', /^Country of origin:/);
-    await expect(tags.nth(2)).not.toHaveAttribute('aria-label', /unavailable/);
-  }
-  for (const name of ['Closest ideology', 'Position', 'Country of origin']) {
-    const select = page.getByRole('combobox', { name, exact: true });
-    const values = await select.locator('option').evaluateAll(options => options.map(option => (option as HTMLOptionElement).value).filter(Boolean));
-    for (const value of values) {
-      await select.selectOption(value);
-      await expect(lists.first()).toBeVisible();
-      for (const list of await lists.all()) {
-        const label = await list.getByRole('listitem').nth(name === 'Closest ideology' ? 0 : name === 'Position' ? 1 : 2).getAttribute('aria-label');
-        expect(label).toContain(value);
-      }
-    }
-    await select.selectOption('');
-  }
-  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
 });

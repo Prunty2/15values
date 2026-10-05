@@ -7,18 +7,18 @@ test('current-page links do not add history and Back/Forward restores each route
   const initialLength = await page.evaluate(() => history.length);
   await page.getByRole('banner').getByRole('link', { name: '15 Values home', exact: true }).click();
   expect(await page.evaluate(() => history.length)).toBe(initialLength);
-  await page.getByRole('contentinfo').getByRole('link', { name: 'About 15 Values', exact: true }).click();
+  await page.getByRole('contentinfo').getByRole('link', { name: 'Image credits', exact: true }).click();
   await page.getByRole('contentinfo').getByRole('link', { name: 'Quiz formats', exact: true }).click();
   await page.getByRole('button', { name: 'Start short quiz', exact: true }).click();
   await page.goBack();
   await expect(page.getByRole('button', { name: 'Start short quiz', exact: true })).toBeVisible();
   await page.goBack();
-  await expect(page).toHaveURL(/#\/about$/);
+  await expect(page).toHaveURL(/#\/credits$/);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await page.goBack();
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
   await page.goForward();
-  await expect(page).toHaveURL(/#\/about$/);
+  await expect(page).toHaveURL(/#\/credits$/);
   expect(await page.evaluate(() => (window as unknown as { navigationDocument: string }).navigationDocument)).toBe('original');
 });
 
@@ -36,9 +36,11 @@ test('default auto advance completes a quiz and leaves the final submission expl
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
 });
 
-test('all question wordings fit laptop, phone and landscape windows without scrolling or clipping', async ({ page }, testInfo) => {
+test('all question wordings fit laptop, phone and landscape windows without scrolling or clipping', async ({ page }) => {
   await page.goto('./#/quiz/run?length=comprehensive');
   await page.evaluate(() => document.fonts.ready);
+  const fonts = await page.evaluate(() => [...document.fonts].map(font => ({ family: font.family, status: font.status })));
+  expect(fonts).toEqual(expect.arrayContaining([expect.objectContaining({ family: 'Clarity City', status: 'loaded' }), expect.objectContaining({ family: 'Bitcount Ink', status: 'loaded' })]));
   for (const size of [{ width: 1200, height: 630 }, { width: 1366, height: 650 }, { width: 1920, height: 1080 }, { width: 320, height: 640 }, { width: 390, height: 700 }, { width: 844, height: 390 }]) {
     await page.setViewportSize(size);
     // Exercise every source wording in the actual question layout, without altering answers.
@@ -52,6 +54,5 @@ test('all question wordings fit laptop, phone and landscape windows without scro
       });
     }, selectQuestions('comprehensive').map(question => question.text));
     expect(overflow, `${size.width} × ${size.height}`).toEqual([]);
-    await page.screenshot({ path: testInfo.outputPath(`quiz-${size.width}.png`) });
   }
 });

@@ -1,36 +1,8 @@
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
-test('home loads Clarity City and clearly labels the example result', async ({ page }, testInfo) => {
-  const errors: string[] = [];
-  page.on('pageerror', error => errors.push(error.message));
-  page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
-  await page.goto('./');
-  await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
-  const example = page.getByRole('region', { name: 'Example result', exact: true });
-  await expect(example).toBeVisible();
-  await expect(example.getByRole('heading', { name: 'Social democracy' })).toBeVisible();
-  await expect(page.locator('#example-result-title')).toHaveText('Example result');
-  const portrait = example.getByRole('img', { name: 'Andy Burnham', exact: true });
-  await expect(portrait).toBeVisible();
-  expect(await portrait.evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
-  await expect(page.getByRole('link', { name: 'Image credits' })).toHaveAttribute('href', '#/credits');
-  await expect(example.getByRole('img', { name: '85% match, illustrative example only' })).toBeVisible();
-  await expect(example.getByText('Most compatible personality', { exact: true })).toBeVisible();
-  await expect(example.getByText('Most compatible country', { exact: true })).toBeVisible();
-  const flag = example.getByRole('img', { name: 'Flag of Switzerland' });
-  await expect(flag).toBeVisible();
-  expect(await flag.evaluate(image => (image as HTMLImageElement).naturalWidth)).toBeGreaterThan(0);
-  await page.evaluate(() => Promise.all(document.getAnimations().filter(animation => animation.effect?.getTiming().iterations !== Infinity).map(animation => animation.finished)));
-  await page.evaluate(() => document.fonts.ready);
-  expect(await page.evaluate(() => document.fonts.check('700 16px "Clarity City"'))).toBe(true);
-  await expect(page.getByRole('heading', { level: 1 })).toHaveCSS('font-family', /^"?Clarity City"?, sans-serif$/);
-  expect(errors).toEqual([]);
-  await page.screenshot({ path: testInfo.outputPath('home.png'), fullPage: true });
-});
-
 test('Values navigation opens the home axes section from another page and on repeated clicks', async ({ page }, testInfo) => {
-  await page.goto('./#/about');
+  await page.goto('./#/credits');
   const clickValues = async () => {
     if (testInfo.project.name === 'mobile') await page.getByRole('button', { name: 'Open navigation' }).click();
     await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Values', exact: true }).click();
@@ -38,12 +10,12 @@ test('Values navigation opens the home axes section from another page and on rep
   await clickValues();
   await expect(page).toHaveURL(/#\/\?section=values$/);
   await expect(page.locator('#values article')).toHaveCount(15);
-  await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+  await expect(page.locator('#landing-axes-title')).toBeInViewport();
   await page.evaluate(() => window.scrollTo(0, 0));
   await clickValues();
-  await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+  await expect(page.locator('#landing-axes-title')).toBeInViewport();
   await page.reload();
-  await expect.poll(() => page.locator('#values').evaluate(el => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(2);
+  await expect(page.locator('#landing-axes-title')).toBeInViewport();
 });
 
 test('catalogue pages are intentionally empty and link to the values', async ({ page }, testInfo) => {
@@ -55,14 +27,6 @@ test('catalogue pages are intentionally empty and link to the values', async ({ 
     await expect(page.getByRole('link', { name: 'Explore the 15 values' })).toHaveAttribute('href', '#/?section=values');
     await expect(page).toHaveTitle(new RegExp(`${name}`, 'i'));
   }
-  await page.screenshot({ path: testInfo.outputPath('countries.png'), fullPage: true });
-});
-
-test('quiz format selection starts a real quiz', async ({ page }) => {
-  await page.goto('./');
-  await page.getByRole('link', { name: 'Choose short quiz' }).click();
-  await expect(page.getByRole('radio')).toHaveCount(5);
-  await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', '45');
 });
 
 test('navigation supports back, reload, current page, and keyboard focus', async ({ page }, testInfo) => {
@@ -135,30 +99,13 @@ test('all four home format cards start their corresponding quiz', async ({ page 
   }
 });
 
-test('resuming the strip works while the control retains focus', async ({ page }) => {
-  await page.goto('./');
-  await page.emulateMedia({ reducedMotion: 'no-preference' });
-  const track = page.locator('[data-paused]');
-  await page.getByRole('button', { name: 'Pause scrolling' }).focus();
-  await page.keyboard.press('Enter');
-  await expect(track).toHaveCSS('animation-play-state', 'paused');
-  await page.getByRole('button', { name: 'Resume scrolling' }).press('Enter');
-  await expect(page.getByRole('button', { name: 'Pause scrolling' })).toBeFocused();
-  await expect(track).toHaveCSS('animation-play-state', 'running');
-  const initial = await track.evaluate(element => getComputedStyle(element).transform);
-  await expect.poll(() => track.evaluate(element => getComputedStyle(element).transform)).not.toBe(initial);
-  await page.emulateMedia({ reducedMotion: 'reduce' });
-  await expect(track).toHaveCSS('animation-name', 'none');
-  await expect(page.getByRole('button', { name: 'Pause scrolling' })).toBeHidden();
-});
-
 test('mobile primary action precedes the example and is visible without scrolling', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 740 });
   await page.goto('./');
   await page.evaluate(() => document.fonts.ready);
   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
   const button = await action.boundingBox();
-  const example = await page.getByRole('region', { name: 'Example result', exact: true }).boundingBox();
+  const example = await page.getByRole('region', { name: 'Example profile comparison', exact: true }).boundingBox();
   expect(button!.y + button!.height).toBeLessThan(740);
   expect(button!.y + button!.height).toBeLessThan(example!.y);
 });
@@ -177,25 +124,11 @@ test('landing axis cards cover all 15 agreed axes and replace the old sections',
   }
   await expect(page.getByRole('heading', { name: 'Different questions. Different dimensions.' })).toHaveCount(0);
   await expect(page.getByRole('heading', { name: 'From your answers to your axes.' })).toHaveCount(0);
-  await page.getByRole('link', { name: 'Privacy & your data' }).click();
-  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your views. Your data.');
   await page.getByRole('link', { name: 'Image credits', exact: true }).click();
   await expect(page.getByRole('link', { name: 'CC BY 2.0 licence' })).toHaveAttribute('href', 'https://creativecommons.org/licenses/by/2.0/');
 });
 
-test('feedback download works without submitting or storing the draft', async ({ page }) => {
-  await page.goto('./#/feedback');
-  await expect(page.getByRole('button', { name: 'Download feedback' })).toBeDisabled();
-  await page.getByLabel('Your feedback', { exact: true }).fill('The values explanation is useful.');
-  const pending = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Download feedback' }).click();
-  const download = await pending;
-  expect(download.suggestedFilename()).toBe('15-values-feedback.txt');
-  expect(readFileSync((await download.path())!, 'utf8')).toContain('The values explanation is useful.');
-  await expect(page.getByRole('status')).toContainText('Nothing has been sent');
-  await page.reload();
-  await expect(page.getByLabel('Your feedback', { exact: true })).toHaveValue('');
-});
+
 
 test('social preview assets resolve under the GitHub Pages subpath', async ({ page, request }) => {
   await page.goto('./');

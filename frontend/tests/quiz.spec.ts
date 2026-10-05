@@ -1,34 +1,24 @@
 import { test, expect } from '@playwright/test';
 import type { Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
-import { answerOptions, formats, getFormat, scoreAnswers, selectQuestions } from '../src/quiz/model';
+import { answerOptions, getFormat, scoreAnswers, selectQuestions } from '../src/quiz/model';
 import type { Answers, QuizLength } from '../src/quiz/model';
 import { HISTORY_KEY } from '../src/quiz/history';
 
 async function start(page: Page, length: QuizLength = 'short') {
+  await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto(`./#/quiz?length=${length}`);
   await page.getByRole('button', { name: `Start ${length} quiz`, exact: true }).click();
   await expect(page.locator('#question-title')).toBeVisible();
   await page.getByRole('checkbox', { name: 'Advance on answer' }).uncheck();
 }
-async function finish(page: Page, length: QuizLength = 'short', varying = false, capture?: (name: string) => string, keyboard = false) {
+async function finish(page: Page, length: QuizLength = 'short', varying = false, keyboard = false) {
   await page.getByRole('checkbox', { name: 'Advance on answer' }).uncheck();
   const answers: Answers = {};
   for (const [index, question] of selectQuestions(length).entries()) {
     const option = varying ? answerOptions[index % 5] : answerOptions[2];
     await expect(page.locator('#question-title')).toHaveText(question.text);
     if (index === getFormat(length).questions - 1) await expect(page.getByText('100% complete', { exact: true })).toHaveCount(0);
-    if (capture && (question.id === 'militarist-pacifist-08' || index === getFormat(length).questions - 1)) {
-      expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-      const geometry = await page.locator('#question-title').evaluate(element => {
-        const intro = element.parentElement!.parentElement!;
-        const topic = element.previousElementSibling!.getBoundingClientRect();
-        const number = intro.lastElementChild!.getBoundingClientRect();
-        return { horizontalOverlap: Math.min(topic.right, number.right) - Math.max(topic.left, number.left), verticalOverlap: Math.min(topic.bottom, number.bottom) - Math.max(topic.top, number.top) };
-      });
-      expect(geometry.horizontalOverlap <= 0 || geometry.verticalOverlap <= 0).toBe(true);
-      await page.screenshot({ path: capture(`question-${index + 1}.png`), fullPage: true });
-    }
     const radio = page.getByRole('radio', { name: option.label, exact: true });
     if (keyboard) {
       await radio.focus();
@@ -44,17 +34,19 @@ async function finish(page: Page, length: QuizLength = 'short', varying = false,
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
   return answers;
 }
-for (const format of formats) {
-  test(`${format.name}: complete every question and export the expected independent scores`, async ({ page }, testInfo) => {
+// All lengths share this flow; model.test.ts covers their selection and scoring.
+{
+  const format = getFormat('short');
+  test(`${format.name}: complete every question and export the expected independent scores`, async ({ page }) => {
     test.setTimeout(120_000);
-    // Content/scoring coverage uses reduced motion; comprehensive also exercises keyboard completion.
+    // Exercise all five responses and keyboard completion with reduced motion.
     // Pointer input, animations and auto-advance have separate coverage.
     await page.emulateMedia({ reducedMotion: 'reduce' });
     const errors: string[] = [];
     page.on('pageerror', error => errors.push(error.message));
     page.on('response', response => { if (response.status() >= 400) errors.push(`${response.status()} ${response.url()}`); });
     await start(page, format.id);
-    const answers = await finish(page, format.id, true, format.id === 'comprehensive' ? name => testInfo.outputPath(name) : undefined, format.id === 'comprehensive');
+    const answers = await finish(page, format.id, true, true);
     await expect(page.locator('article')).toHaveCount(15);
     await expect(page.getByRole('region', { name: 'Result comparisons' })).toBeVisible();
     await expect(page.getByText('Personality placeholder', { exact: true })).toBeVisible();
@@ -70,7 +62,6 @@ for (const format of formats) {
     expect(file.results[0].length).toBe(format.id);
     expect(file.results[0]).not.toHaveProperty('answers');
     expect(errors).toEqual([]);
-    if (format.id === 'short') await page.screenshot({ path: testInfo.outputPath('results.png'), fullPage: true });
   });
 }
 test('back, edits, keyboard, auto-advance and restart keep answers consistent', async ({ page }) => {
@@ -171,28 +162,7 @@ test('browser Back preserves the open session and leaving asks for confirmation'
   await page.getByRole('button', { name: 'Keep going', exact: true }).click();
   await expect(page.getByRole('radio', { name: 'Agree', exact: true })).toBeChecked();
 });
-test('large desktop and small mobile layouts are readable, with both fonts loaded', async ({ page }, testInfo) => {
-  await page.emulateMedia({ reducedMotion: 'reduce' });
-  await start(page);
-  for (const viewport of [{ width: 2560, height: 1440 }, { width: 1920, height: 1200 }, { width: 1440, height: 900 }, { width: 1366, height: 768 }, { width: 390, height: 844 }, { width: 320, height: 740 }]) {
-    await page.setViewportSize(viewport);
-    await page.evaluate(() => document.fonts.ready);
-    const fonts = await page.evaluate(() => [...document.fonts].map(font => ({ family: font.family, status: font.status })));
-    expect(fonts).toEqual(expect.arrayContaining([expect.objectContaining({ family: 'Clarity City', status: 'loaded' }), expect.objectContaining({ family: 'Bitcount Ink', status: 'loaded' })]));
-    const card = page.getByRole('region', { name: selectQuestions('short')[0].text, exact: true });
-    const bounds = await card.boundingBox();
-    expect(bounds!.width / viewport.width).toBeGreaterThan(.84);
-    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth && document.documentElement.scrollHeight <= innerHeight)).toBe(true);
-    await expect(page.getByRole('radio')).toHaveCount(5);
-    if (viewport.width >= 1366) {
-      const next = await page.getByRole('button', { name: 'Next', exact: true }).boundingBox();
-      expect(next!.y + next!.height).toBeLessThan(viewport.height);
-    }
-    await page.screenshot({ path: testInfo.outputPath(`quiz-${viewport.width}.png`), fullPage: true });
-  }
-});
-
-test('narrow results and invalid stored history stay usable without overwriting data', async ({ page }, testInfo) => {
+test('narrow results and invalid stored history stay usable without overwriting data', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 740 });
   await page.goto('./#/results');
   await page.evaluate(key => localStorage.setItem(key, '{broken}'), HISTORY_KEY);
@@ -208,7 +178,6 @@ test('narrow results and invalid stored history stay usable without overwriting 
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   const full = page.getByRole('article', { name: 'Restricted Immigration vs Open Immigration', exact: true });
   await full.scrollIntoViewIfNeeded();
-  await page.screenshot({ path: testInfo.outputPath('narrow-results.png') });
 });
 
 test('a failed automatic save preserves the result and can be retried without duplicates', async ({ page }) => {

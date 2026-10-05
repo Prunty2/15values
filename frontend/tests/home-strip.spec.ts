@@ -67,6 +67,7 @@ test('strip loops evenly, pauses, resumes and stops for keyboard interaction', a
   await page.waitForTimeout(150);
   expect(await transform()).toBe(paused);
   await strip.getByRole('button', { name: 'Resume scrolling' }).press('Enter');
+  await expect(strip.getByRole('button', { name: 'Pause scrolling' })).toBeFocused();
   await expect(track).toHaveCSS('animation-play-state', 'running');
   await expect.poll(transform).not.toBe(paused);
   await strip.getByRole('link').first().focus();

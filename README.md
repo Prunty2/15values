@@ -174,9 +174,10 @@ the contents of `frontend/dist/` through the publishing workflow described below
 ### Automatic publishing
 
 The `Validate and publish website` GitHub Actions workflow validates questions and
-profiles, runs unit tests, builds the site and runs desktop, mobile and Safari
-browser checks. After those checks pass, every push to `main` publishes the
-verified build to GitHub Pages. Pull requests run the checks without publishing.
+profiles and builds the site. Pull requests and pushes to `dev` also run unit tests
+and desktop, mobile and Safari browser checks. Deployments from `main` skip the
+test suites and browser installation; after validation and the build pass, every
+push to `main` publishes to GitHub Pages. Pull requests do not publish.
 Local commits publish only after they are pushed to GitHub. The workflow can also
 be run manually from the Actions tab on `main`.
 

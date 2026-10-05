@@ -19,7 +19,7 @@ const result: QuizResult = {
   scores: scoreAnswers('short', answers),
 };
 
-test('profile layout, all endpoints, help controls and complementary percentages work at every width', async ({ page }, testInfo) => {
+test('profile layout, all endpoints, help controls and complementary percentages work at every width', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('./#/results');
@@ -33,7 +33,6 @@ test('profile layout, all endpoints, help controls and complementary percentages
   const comparisons = page.getByRole('region', { name: 'Result comparisons' });
   await expect(comparisons).toBeVisible();
   await expect.poll(() => comparisons.evaluate(element => getComputedStyle(element).getPropertyValue('--result-color').trim())).toBe(expectedColour);
-  await expect(comparisons).toBeVisible();
   const quote = page.getByRole('region', { name: 'The closest ideology’s perspective' });
   expect(Math.abs((await comparisons.boundingBox())!.width - (await quote.boundingBox())!.width)).toBeLessThan(1);
   for (const ideology of match.ideologies) {
@@ -65,7 +64,6 @@ test('profile layout, all endpoints, help controls and complementary percentages
       });
       expect(lines).toBe(1);
       await page.evaluate(() => window.scrollTo(0, 0));
-      await page.screenshot({ path: testInfo.outputPath('profile-heading.png') });
     }
     const culture = page.getByRole('article', { name: 'Culture vs Nature', exact: true });
     await culture.getByText('?', { exact: true }).click();
@@ -74,7 +72,6 @@ test('profile layout, all endpoints, help controls and complementary percentages
     expect(popover!.x).toBeGreaterThanOrEqual(0);
     expect(popover!.x + popover!.width).toBeLessThanOrEqual(width);
     await culture.getByText('?', { exact: true }).click();
-    await page.screenshot({ path: testInfo.outputPath(`profile-${width}.png`), fullPage: true });
   }
   expect(errors).toEqual([]);
 });
@@ -85,6 +82,8 @@ test('legacy results display and export their original method without recalculat
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([legacy])) });
   await expect(page.getByText('Original scoring', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'View result', exact: true }).click();
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).getByRole('status')).toContainText('No compatible ideology assessments');
+  await expect(page.locator('blockquote')).toHaveCount(0);
   await page.getByText('How these scores are calculated', { exact: false }).click();
   await expect(page.getByText(/This saved result uses the original scoring method/)).toBeVisible();
   const download = page.waitForEvent('download');
@@ -93,7 +92,7 @@ test('legacy results display and export their original method without recalculat
   expect(file.results).toEqual([legacy]);
 });
 
-test('empty history and saved cards are responsive, and saved profiles reopen after reload', async ({ page }, testInfo) => {
+test('empty history and saved cards are responsive, and saved profiles reopen after reload', async ({ page }) => {
   const errors: string[] = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('./#/results');
@@ -102,7 +101,6 @@ test('empty history and saved cards are responsive, and saved profiles reopen af
   await expect(page.getByText('Your browser · Your history')).toHaveCount(0);
   for (const width of [1440, 390, 320]) {
     await page.setViewportSize({ width, height: 950 });
-    await page.screenshot({ path: testInfo.outputPath(`empty-history-${width}.png`), fullPage: true });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
   const older = { ...result, id: 'older-result', completedAt: '2026-10-03T01:00:00.000Z' };
@@ -113,7 +111,6 @@ test('empty history and saved cards are responsive, and saved profiles reopen af
   await page.getByText('Manage history', { exact: true }).click();
   for (const width of [1440, 768, 390, 320]) {
     await page.setViewportSize({ width, height: 950 });
-    await page.screenshot({ path: testInfo.outputPath(`saved-cards-${width}.png`), fullPage: true });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
   await page.getByRole('button', { name: 'View result', exact: true }).first().click();
@@ -145,15 +142,7 @@ test('comparison fetch failure can be retried without losing the result', async 
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your perspective profile.');
 });
 
-test('legacy results keep their scores and explain incompatible comparisons', async ({ page }) => {
-  await page.goto('./#/results');
-  await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([{ ...result, scoringVersion: '1.0.0' }])) });
-  await page.getByRole('button', { name: 'View result', exact: true }).click();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).getByRole('status')).toContainText('No compatible ideology assessments');
-  await expect(page.locator('blockquote')).toHaveCount(0);
-});
-
-test('searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities', async ({ page }, testInfo) => {
+test('searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities', async ({ page }) => {
   const profiles = parseCatalogue(JSON.parse(readFileSync('public/profiles/catalogue.v1.json', 'utf8')));
   const ideology = profiles.find(profile => profile.catalogue === 'ideology' && !profile.withdrawal)!;
   const personality = profiles.find(profile => profile.catalogue === 'personality' && !profile.withdrawal)!;
@@ -197,14 +186,12 @@ test('searchable comparison picker scrolls, supports keyboard selection and comp
   await search.press('Enter');
   await expect(page.locator('article span[title]')).toHaveCount(30);
   await page.getByRole('article', { name: axes[0].name, exact: true }).scrollIntoViewIfNeeded();
-  await page.screenshot({ path: testInfo.outputPath('comparison-dots.png') });
   await expect(legend.getByRole('link', { name: personality.metadata.name })).toHaveAttribute('href', '#/personalities/' + personality.id);
   for (const width of [1440, 390, 320]) {
     await page.setViewportSize({ width, height: 900 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     await button.click();
     await expect(search).toBeFocused();
-    await page.screenshot({ path: testInfo.outputPath('comparison-search-' + width + '.png') });
     await search.press('Escape');
     await expect(dialog).not.toBeVisible();
     await expect(button).toBeFocused();

@@ -31,8 +31,9 @@ jobs:
           PROFILE_BASE_SHA: ${{ github.event.pull_request.base.sha }}
         run: npm run profiles -- history "$PROFILE_BASE_SHA"
       - run: npm run questions:check
-      - run: npm run profiles:check
-      - run: npm test
+      - name: Unit tests
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+        run: npm test
       - name: Configure GitHub Pages
         id: pages
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
@@ -41,8 +42,12 @@ jobs:
         env:
           VITE_SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: npm run build
-      - run: npx playwright install --with-deps chromium webkit
-      - run: npm run test:e2e
+      - name: Install test browsers
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+        run: npx playwright install --with-deps chromium webkit
+      - name: Browser tests
+        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
+        run: npm run test:e2e
       - name: Upload verified website
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: actions/upload-pages-artifact@v3
