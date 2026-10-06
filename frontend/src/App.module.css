@@ -458,17 +458,17 @@
 @media (max-width: 1100px) { .choiceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .choiceCount strong { font-size: 60px; } .formatPage { padding-top: 72px; } }
 @media (max-width: 600px) { .choiceHeader > div { padding-inline: 24px; } .choiceHeader .brand { font-size: 22px; } .choiceBack { font-size: 12px; gap: 6px; } .formatPage { padding: 52px 24px; } .formatIntro h1 { font-size: 42px; } .formatIntro > p:last-child { font-size: 16px; } .choiceGrid { grid-template-columns: 1fr; gap: 20px; margin-top: 30px; } .choiceCard { padding: 26px; } .choiceTop h2 { font-size: 12px; } .choiceTop > span { font-size: 11px; } .choiceCard > p { min-height: 0; } .choicePreview { flex-direction: column; align-items: flex-start; } }
 
-.footerContribute { background: #000; color: #fff; }
+.footerContribute { background: var(--sage); color: var(--ink); border-block: 1px solid var(--line); }
 .contributeInner { display: flex; align-items: center; gap: 28px; padding-block: 48px; }
-.githubLogo { display: flex; flex-shrink: 0; color: #fff; border-radius: 50%; }
+.githubLogo { display: flex; flex-shrink: 0; color: var(--accent); border-radius: 50%; }
 .githubLogo svg { width: 36px; height: 36px; }
 .contributeCopy { flex: 1; min-width: 0; }
 .footerContribute h2 { display: flex; align-items: center; gap: 16px; font-size: 24px; letter-spacing: -.025em; }
-.footerContribute p { color: #ddd; font-size: 15px; line-height: 1.7; margin-top: 10px; }
+.footerContribute p { color: var(--muted); font-size: 15px; line-height: 1.7; margin-top: 10px; }
 .footerContributeLinks { display: flex; flex-wrap: wrap; gap: 12px; flex-shrink: 0; }
-.footerContributeLinks a { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 48px; padding: 12px 18px; border: 1px solid #666; border-radius: 28px; color: #fff; font-size: 14px; }
-.footerContributeLinks a:hover { background: #222; border-color: #fff; }
-.footerContribute a:focus-visible { outline: 2px solid #fff; outline-offset: 4px; }
+.footerContributeLinks a { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 48px; padding: 12px 18px; border: 1px solid var(--border-strong); border-radius: 28px; color: var(--ink); font-size: 14px; }
+.footerContributeLinks a:hover { background: var(--surface-hover); border-color: var(--accent); }
+.footerContribute a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
 .footerContributeLinks svg { width: 18px; height: 18px; }
 @media (max-width: 1100px) { .contributeInner { flex-wrap: wrap; } .footerContributeLinks { width: 100%; padding-left: 0; } }
 @media (max-width: 600px) { .contributeInner { gap: 20px; padding-block: 36px; } .githubLogo svg { width: 32px; height: 32px; } .footerContribute h2 { font-size: 21px; } .footerContributeLinks { padding-left: 0; flex-shrink: 1; } }

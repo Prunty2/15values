@@ -4,7 +4,7 @@
 .breadcrumb > span:last-child { color: var(--profile-ink); }
 .hero { display: grid; grid-template-columns: minmax(0, 2.54fr) minmax(250px, 1fr); background: var(--card-paper); border: 1px solid var(--profile-line); border-top: 5px solid var(--profile-color); border-radius: 28px; overflow: hidden; }
 .intro { padding: 36px; display: flex; flex-direction: column; min-width: 0; }
-.badges { display: flex; flex-wrap: wrap; gap: 8px; align-items: start; margin-bottom: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 8px; align-items: start; margin-bottom: 13px; text-transform: capitalize; }
 .badges > span { border-radius: 22px; background: var(--profile-badge); padding: 7px 14px; font-size: 13px; line-height: 1.3; }
 .badges > .role { background: var(--profile-color); color: #fff; font-weight: 650; }
 .intro h1 { font-size: clamp(44px, 5.6vw, 68px); line-height: 1.08; letter-spacing: -2px; white-space: nowrap; min-width: 0; }

@@ -45,7 +45,7 @@ test('profile layout, all endpoints, help controls and complementary percentages
     for (const profile of match.profiles) {
       await expect(row.getByRole('link', { name: profile.metadata.name, exact: true })).toHaveAttribute('href', '#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id);
     }
-    await expect(row.getByText((100 - match.meanAbsoluteDistance).toFixed(1) + '% similarity', { exact: true })).toBeVisible();
+    await expect(row.getByRole('img', { name: (100 - match.meanAbsoluteDistance).toFixed(1) + '% similarity across 15 axes', exact: true })).toBeVisible();
   }
   await expect(page.locator('blockquote')).toHaveText(match.ideologies.map(ideology => profiles.find(profile => profile.catalogue === 'ideology' && profile.id === ideology.id)!.metadata.phrase!));
   await expect(page.getByText('Your results · 15 independent axes', { exact: true })).toHaveCount(0);
@@ -63,7 +63,7 @@ test('profile layout, all endpoints, help controls and complementary percentages
     await page.evaluate(() => document.fonts.ready);
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     const heading = await page.getByRole('heading', { level: 1 }).boundingBox();
-    expect(Math.abs(heading!.x + heading!.width / 2 - width / 2)).toBeLessThan(2);
+    expect(Math.abs(heading!.x + heading!.width / 2 - (await page.evaluate(() => document.documentElement.clientWidth)) / 2)).toBeLessThan(2);
     if (width >= 1440) {
       const lines = await page.getByText(/^Analysis based on your responses to/).evaluate(element => {
         const range = document.createRange();
@@ -72,6 +72,11 @@ test('profile layout, all endpoints, help controls and complementary percentages
       });
       expect(lines).toBe(1);
       await page.evaluate(() => window.scrollTo(0, 0));
+    }
+    for (const title of await comparisons.locator('h2 a').all()) {
+      const dimensions = await title.evaluate(element => ({ width: element.getBoundingClientRect().width, available: element.parentElement!.clientWidth, height: element.parentElement!.getBoundingClientRect().height, lineHeight: parseFloat(getComputedStyle(element.parentElement!).lineHeight) }));
+      expect(dimensions.width).toBeLessThanOrEqual(dimensions.available + 1);
+      expect(dimensions.height).toBeLessThanOrEqual(dimensions.lineHeight + 1);
     }
     const culture = page.getByRole('article', { name: 'Culture vs Nature', exact: true });
     await culture.getByText('?', { exact: true }).click();
@@ -93,7 +98,7 @@ test('legacy results display and export their original method without recalculat
   await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('status')).toContainText('No compatible ideology assessments');
   await expect(page.locator('blockquote')).toHaveCount(0);
   const download = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export result', exact: true }).click();
+  await page.getByRole('button', { name: 'Export history', exact: true }).click();
   const file = JSON.parse(readFileSync((await (await download).path())!, 'utf8'));
   expect(file.results).toEqual([legacy]);
 });
@@ -122,6 +127,7 @@ test('empty history and saved cards are responsive, and saved profiles reopen af
   await expect(page).toHaveURL(/id=results-visual-check/);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
+  await expect(page.getByText('Loading ideology comparisons…', { exact: true })).toHaveCount(0);
   await page.getByRole('button', { name: 'All saved results', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Saved results.', exact: true })).toBeVisible();
   await page.goBack();
@@ -141,11 +147,35 @@ test('comparison fetch failure can be retried without losing the result', async 
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'profile.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([result])) });
   await page.getByRole('button', { name: 'View result', exact: true }).click();
   await expect(page.getByRole('alert').first()).toHaveText('Profile comparisons could not be loaded.');
+  await page.getByRole('button', { name: 'Compare', exact: true }).click();
+  await expect(page.getByRole('dialog').getByRole('alert').getByRole('paragraph')).toHaveText('Profile comparisons could not be loaded.');
+  await page.getByRole('button', { name: 'Close comparison search' }).click();
   await page.unroute('**/profiles/catalogue.v1.json');
   await page.getByRole('button', { name: 'Try again', exact: true }).first().click();
   await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link')).not.toHaveCount(0);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your perspective profile.');
 });
+
+for (const failure of ['network', 'malformed'] as const) {
+  test(`a ${failure} historical catalogue failure preserves current comparisons and can be retried`, async ({ page }) => {
+    const historical: QuizResult = { ...result, id: 'historical-result', questionBankVersion: '3.0.0' };
+    const historicalUrl = '**/profiles/result-catalogues/3.0.0-2.0.0-2.0.0.v1.json';
+    await page.route(historicalUrl, route => failure === 'network' ? route.abort() : route.fulfill({ json: { invalid: true } }));
+    await page.goto('./#/results');
+    await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'mixed-history.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([result, historical])) });
+    const comparisons = page.getByRole('region', { name: 'Result comparisons' });
+    const current = comparisons.filter({ hasNot: page.getByRole('alert') });
+    await expect(page.getByRole('alert')).toHaveText('Profile comparisons could not be loaded.');
+    await expect(current).toHaveCount(1);
+    await expect(current.getByRole('link')).not.toHaveCount(0);
+    await expect(current.getByRole('button', { name: 'Try again' })).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'View result', exact: true })).toHaveCount(2);
+    await page.unroute(historicalUrl);
+    await page.getByRole('button', { name: 'Try again', exact: true }).click();
+    await expect(page.getByRole('alert')).toHaveCount(0);
+    for (const comparison of await comparisons.all()) await expect(comparison.getByRole('link')).not.toHaveCount(0);
+  });
+}
 
 test('searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities', async ({ page }) => {
   const profiles = parseCatalogue(JSON.parse(readFileSync('public/profiles/catalogue.v1.json', 'utf8')));
@@ -155,6 +185,7 @@ test('searchable comparison picker scrolls, supports keyboard selection and comp
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'profile.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([result])) });
   await page.getByRole('button', { name: 'View result', exact: true }).click();
   const button = page.getByRole('button', { name: 'Compare', exact: true });
+  await expect(page.getByText('Loading ideology comparisons…', { exact: true })).toHaveCount(0);
   await button.click();
   const dialog = page.getByRole('dialog', { name: 'Compare with a profile' });
   const search = dialog.getByRole('combobox');
@@ -206,4 +237,22 @@ test('searchable comparison picker scrolls, supports keyboard selection and comp
   await legend.getByRole('button', { name: 'Remove ' + personality.metadata.name + ' comparison' }).click();
   await expect(page.locator('article span[title]')).toHaveCount(0);
   await expect(legend).toHaveCount(0);
+});
+
+test('long ideology names fit one line and short names stay larger', async ({ page }) => {
+  const catalogue = JSON.parse(readFileSync('public/profiles/catalogue.v1.json', 'utf8'));
+  const profiles = catalogue.profiles.filter((profile: { id: string }) => ['christian-accelerationism', 'liberalism'].includes(profile.id)).map((profile: { scores: unknown; closestIdeology?: unknown }) => ({ ...profile, closestIdeology: undefined, scores: result.scores.map(score => ({ ...score, answered: 16 })) }));
+  expect(profiles).toHaveLength(2);
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles } }));
+  await page.goto('./#/results');
+  await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'profile.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([{ ...result, religiousIdentity: 'christian' }])) });
+  await page.getByRole('button', { name: 'View result', exact: true }).click();
+  const card = page.getByRole('region', { name: 'Result comparisons' }).first();
+  await expect(card.getByRole('link', { name: 'Christian Accelerationism', exact: true })).toBeVisible();
+  for (const width of [1440, 768, 390, 320]) {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.evaluate(() => document.fonts.ready);
+    await expect.poll(() => card.locator('h2').evaluateAll(headings => headings.every(heading => heading.firstElementChild!.getBoundingClientRect().width <= heading.clientWidth + 1))).toBe(true);
+    await expect.poll(() => card.locator('h2').evaluateAll(headings => { const sizes = Object.fromEntries(headings.map(heading => [heading.textContent, parseFloat(getComputedStyle(heading).fontSize)])); return sizes.Liberalism > sizes['Christian Accelerationism']; })).toBe(true);
+  }
 });

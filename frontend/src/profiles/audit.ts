@@ -27,7 +27,7 @@ export function similarity(a: Profile['scores'], b: Profile['scores']) {
 }
 
 /** Validate untrusted JSON before scoring. Evidence quality still requires source review. */
-export function validateAudit(input: unknown, bankHash: string): { errors: string[]; warnings: string[]; profile?: Profile } {
+export function validateAudit(input: unknown, bankHash: string, context = { questions, questionBankVersion: QUESTION_BANK_VERSION, axesVersion: AXES_VERSION }): { errors: string[]; warnings: string[]; profile?: Profile } {
   const errors: string[] = [], warnings: string[] = [];
   const require = (condition: unknown, message: string) => { if (!condition) errors.push(message); };
   if (!object(input)) return { errors: ['Audit must be an object.'], warnings };
@@ -37,7 +37,7 @@ export function validateAudit(input: unknown, bankHash: string): { errors: strin
   require(catalogues.includes(input.catalogue as never), 'Unknown catalogue.');
   require(isSlug(input.id), 'ID must be a lowercase hyphenated slug.');
   require(Number.isSafeInteger(input.revision) && Number(input.revision) > 0, 'Revision must be a positive integer.');
-  require(input.questionBankVersion === QUESTION_BANK_VERSION && input.axesVersion === AXES_VERSION && input.scoringVersion === SCORING_VERSION && input.bankHash === bankHash, 'Stale bank, axes or scoring version: re-audit against the current bank.');
+  require(input.questionBankVersion === context.questionBankVersion && input.axesVersion === context.axesVersion && input.scoringVersion === SCORING_VERSION && input.bankHash === bankHash, 'Stale bank, axes or scoring version: re-audit against the current bank.');
   require(date(input.researchedAt), 'Research date must be YYYY-MM-DD.');
   require(text(input.author) && text(input.changeNote), 'Author and change note are required.');
   const m = object(input.metadata) ? input.metadata : {};
@@ -86,7 +86,7 @@ export function validateAudit(input: unknown, bankHash: string): { errors: strin
     for (const answer of Array.isArray(item.answers) ? item.answers : []) {
       if (!object(answer)) { errors.push(`${axisId}: invalid answer.`); continue; }
       const id = String(answer.questionId);
-      require(questions.some(question => question.id === id && question.axisId === axisId) && !seenQuestions.has(id), `Unknown, misplaced or duplicate question: ${id}.`);
+      require(context.questions.some(question => question.id === id && question.axisId === axisId) && !seenQuestions.has(id), `Unknown, misplaced or duplicate question: ${id}.`);
       seenQuestions.add(id);
       require(typeof answer.value === 'number' && [-2, -1, 0, 1, 2].includes(answer.value), `${id}: unresolved or invalid answer.`);
       require(['direct', 'inferred'].includes(String(answer.basis)), `${id}: unknown evidence cannot be scored as Neutral.`);
@@ -100,7 +100,7 @@ export function validateAudit(input: unknown, bankHash: string): { errors: strin
   if (text(m.description) && m.description.length > 450) warnings.push('Description is long; keep catalogue copy concise.');
   if (errors.length) return { errors, warnings };
   const audit = input as unknown as Audit;
-  const scores = scoreAnswers('comprehensive', answers);
+  const scores = scoreAnswers('comprehensive', answers, context.questions);
   return { errors, warnings, profile: {
     catalogue: audit.catalogue, id: audit.id, revision: audit.revision, metadata: audit.metadata,
     researchedAt: audit.researchedAt, questionBankVersion: audit.questionBankVersion,

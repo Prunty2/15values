@@ -1,6 +1,319 @@
 // Retain credits for portraits referenced by current and historical assessments.
 export const personalityImageCredits = [
 {
+  "name": "Woodrow Wilson — Photographic portrait of Woodrow Wilson",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Woodrow_Wilson-H%26E.jpg",
+  "creator": "Harris & Ewing",
+  "license": "Public domain (Harris & Ewing collection, no known copyright restrictions)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Harris-Ewing",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "George H. W. Bush — Presidential photographic portrait of George H. W. Bush",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:George_H._W._Bush_presidential_portrait_(cropped)_(2).jpg",
+  "creator": "David Valdez",
+  "license": "Public domain (US federal government work)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Oliver Cromwell — Painted portrait of Oliver Cromwell, after the 1656 original",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oliver_Cromwell_by_Samuel_Cooper.jpg",
+  "creator": "After Samuel Cooper",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Napoleon Bonaparte — Napoleon depicted in The Emperor Napoleon in His Study at the Tuileries",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg",
+  "creator": "Jacques-Louis David",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Giuseppe Garibaldi — Photographic portrait of Giuseppe Garibaldi, 1866",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Garibaldi_(1866).jpg",
+  "creator": "Fratelli Alinari",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Kim Il-sung — Photographic portrait of Kim Il-sung, 1950",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Il-sung_in_1950.jpg",
+  "creator": "Unknown photographer",
+  "license": "Public domain (Commons PD-North Korea and URAA assessment)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-North_Korea",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. Commons records a third-party Getty claim alongside its public-domain assessment. No endorsement implied."
+},
+{
+  "name": "John Curtin — Photographic portrait of John Curtin",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:JohnCurtin.jpg",
+  "creator": "National Library of Australia (photographer not identified)",
+  "license": "Public domain (expired Australian copyright)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Australia",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Malcolm Fraser — Photographic portrait of Malcolm Fraser, 1977",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malcolm_Fraser_1977_portrait_2_(cropped).jpg",
+  "creator": "© Commonwealth of Australia (National Archives of Australia), 1977",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Pedro Sánchez — Official photographic portrait of Pedro Sánchez, 11 February 2026",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pedro_Sánchez_2026_Portrait_(3x4_cropped).jpg",
+  "creator": "Pool Moncloa / Carlos Spottorno de las Morenas; Ministry of the Presidency, Government of Spain",
+  "license": "La Moncloa attribution licence",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:Attribution-La_Moncloa",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. Source: La Moncloa, 11 February 2026. No endorsement implied."
+},
+{
+  "name": "Mohammed bin Salman — Official photographic portrait of Mohammed bin Salman",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:الصورة_الرسمية_للأمير_محمد_بن_سلمان_بن_عبدالعزيز_آل_سعود_(مقصوصة).jpg",
+  "creator": "Saudi Press Agency (SPA)",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Greta Thunberg — Photographic portrait of Greta Thunberg, May 2026",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_in_May_2026_(cropped_3x4).jpg",
+  "creator": "Kushal Das",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Alexander the Great — Alexander the Great depicted in the later Alexander Mosaic from Pompeii",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Mosaic_detail_of_Alexander_the_Great_(3x4_cropped).jpg",
+  "creator": "Unknown ancient mosaic artist",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Julius Caesar — Photograph of the Tusculum bust identified as Julius Caesar",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_Julio_César_(26724093101)_(cropped).jpg",
+  "creator": "Ángel M. Felicísimo",
+  "license": "CC BY 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Augustus — Photograph of the Augustus of Prima Porta statue",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Augustus_of_Prima_Porta.jpg",
+  "creator": "Justin Benttinen",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Genghis Khan — Later painted depiction of Genghis Khan from the Album of Yuan Emperor Portraits",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:YuanEmperorAlbumGenghisPortrait.jpg",
+  "creator": "Unknown 14th-century artist; digitised by National Palace Museum, Taipei",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Hannibal Barca — Historical photograph of the Capua bust traditionally identified as Hannibal Barca",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hannibal_Barca_bust_from_Capua_photo.jpg",
+  "creator": "Fratelli Alinari",
+  "license": "Public domain (ancient sculpture; photograph PD-old-assumed)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-old-assumed",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. Bust identification is traditional, not a verified lifetime likeness; photograph licence uses PD-old-assumed. No endorsement implied."
+},
+{
+  "name": "Saladin — Coin depiction associated with Saladin, dated 1190–1191; not a verified facial likeness",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Al-Nasir_I_Salah_al-Din_Yusuf_(Saladin)._AH_564-589_(1169-1193_CE)_Æ_Dirham_(30.1mm,_13.28_g,_6h)._Without_mint-name._Dated_AH_586_(AD_1190-91)._Sultan_sitting_facing,_cross-legged,_on_high-backed_throne_(obverse).jpg",
+  "creator": "Classical Numismatic Group, Inc. (www.cngcoins.com)",
+  "license": "CC BY-SA 2.5",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Charlemagne — Charlemagne depicted on a denier attributed to Mainz, 812–814",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charlemagne_denier_Mayence_812_814.jpg",
+  "creator": "Unknown mint artist; Bibliothèque nationale de France",
+  "license": "Public domain (Commons PD-France)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-France",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Peter the Great — Painted portrait of Peter the Great, attributed to Jean-Marc Nattier",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inconnu_d'après_J.-M._Nattier,_Portrait_de_Pierre_Ier_(musée_de_l’Ermitage).jpg",
+  "creator": "Attributed to Jean-Marc Nattier",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Frederick the Great — Painted portrait of Frederick the Great by Johann Georg Ziesenis",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Friedrich_der_Große_-_Johann_Georg_Ziesenis_-_Google_Cultural_Institute_(cropped_2).jpg",
+  "creator": "Johann Georg Ziesenis; reproduction via Google Cultural Institute",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Simón Bolívar — Later painted depiction of Simón Bolívar, 1922",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simón_Bolívar._Toro_Moreno,_Luis._1922,_Legislative_Palace,_La_Paz.png",
+  "creator": "Luis Enrique Toro Moreno",
+  "license": "Public domain (expired copyright; Commons PD-Art where applicable)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to at most 960 pixels and JPEG compressed. Source-page crops retained; website may crop for display. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Robert_Mugabe_in_Moscow,_May_2015.jpg",
+  "creator": "Press Service of the President of Russia / Kremlin.ru",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "name": "Robert Mugabe",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ludwig_von_Mises.jpg",
+  "creator": "Ludwig von Mises Institute",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "name": "Ludwig von Mises",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helen_Zille_in_Mpumalanga_(cropped).jpg",
+  "creator": "The Democratic Alliance",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "name": "Helen Zille",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Constand_Viljoen_c._1985.png",
+  "creator": "Karsten buffalo",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "name": "Constand Viljoen",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jmaistre.jpg",
+  "creator": "Carl Christian Vogel von Vogelstein",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Joseph de Maistre",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Francisco_Franco_posed_portrait_photograph.jpg",
+  "creator": "Unknown photographer",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "Francisco Franco",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Engelbert_Dollfuss.jpg",
+  "creator": "Max Fenichel",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Engelbert Dollfuss",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:FOTOGRAFIA_DE_JOSE_ANTONIO_PRIMO_DE_RIVERA_2.jpg",
+  "creator": "Unknown photographer",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "name": "José Antonio Primo de Rivera",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:António_de_Oliveira_Salazar_portrait_(by_Manuel_Alves_San_Payo)_–_Lisboa.jpg",
+  "creator": "Manuel Alves de San Payo",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "António de Oliveira Salazar",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Gentile_sgr.jpg",
+  "creator": "Unknown photographer",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Giovanni Gentile",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mosley.jpg",
+  "creator": "Uncredited photographer; Liverpool Daily Post, 23 October 1934",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Oswald Mosley",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Colonel_Eric_Campbell,_1931.jpg",
+  "creator": "Unknown photographer",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Eric Campbell",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Rousseau.jpg",
+  "creator": "Penguinsix",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "name": "Thomas Rousseau",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giorgia_Meloni_Official_2024_(cropped).jpg",
+  "creator": "Governo Italiano",
+  "license": "CC BY 3.0 it",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/it/deed.en",
+  "name": "Giorgia Meloni",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+{
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ernst_Röhm_(1887-1934)_München,_Germany_(Weimar_Republic)_1924_Hauptmann_Bund_Freikorps_Epp_uniform_Iron_cross_etc_242-HF-0377_001_Unrestricted_No_known_copyright_(cropped)(2).jpg",
+  "creator": "Uncredited photographer; National Archives and Records Administration, record 162122137",
+  "license": "Public domain",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "name": "Ernst Röhm",
+  "modifications": "Resized and JPEG compressed from the Commons version; website may crop for display. Existing source crops and retouching are recorded on the linked File page. No endorsement implied."
+},
+
+{
+  "name": "David Shoebridge",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:David_Shoebridge_2022_party_portrait.jpg",
+  "creator": "Australian Greens",
+  "license": "CC BY-SA 2.5 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/au/deed.en",
+  "modifications": "Original Commons JPEG retained without modification; website may crop for display. Capture date not asserted because Commons metadata differs. No endorsement implied."
+},
+{
+  "name": "Rupert Murdoch (2012)",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_-_Flickr_-_Eva_Rinaldi_Celebrity_and_Live_Music_Photographer.jpg",
+  "creator": "Eva Rinaldi",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "modifications": "Commons version includes rotation and a 3:4 crop by Materialscientist. Downloaded JPEG retained without further modification; website may crop for display. No endorsement implied."
+},
+{
+  "name": "Rupert Murdoch",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch.jpg",
+  "creator": "World Economic Forum",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "modifications": "Original 610 × 438 Commons JPEG retained without modification; website displays it with a crop. No endorsement implied."
+},
+{
   "name": "Joh Bjelke-Petersen",
   "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joh_Bjelke-Petersen_1968.jpg",
   "creator": "Australian News and Information Bureau, via National Archives of Australia",
@@ -1064,5 +1377,157 @@ export const personalityImageCredits = [
   "license": "Public domain",
   "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
   "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Kevin Rudd",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kevin_Michael_Rudd_HOM_2023_Portrait_(3x4_cropped).jpg",
+  "creator": "Department of Foreign Affairs and Trade",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Malcolm Turnbull",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malcolm_Turnbull_Portrait_(3x4_cropped).jpg",
+  "creator": "Commonwealth of Australia",
+  "license": "CC BY 3.0 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0/au/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Olaf Scholz",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olaf_Scholz_September_2024.jpg",
+  "creator": "Lula Oficial",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Mark Carney",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mark_Carney_Argentina_v_Spain_19_July_2026-303_(3x4_close_up_cropped).jpg",
+  "creator": "Bryan Berlin",
+  "license": "CC BY-SA 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Dominik Tarczyński",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:MEP_Dominik_Tarczy%C5%84ski.jpg",
+  "creator": "© European Union 2019 – Source: European Parliament",
+  "license": "European Parliament",
+  "licenseUrl": "https://www.europarl.europa.eu/legal-notice/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Leon Trotsky",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leon_Trotsky_1918_(3x4_rotated_cropped_b).jpg",
+  "creator": "Rijksmuseum",
+  "license": "CC0",
+  "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Julius Malema",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julius_Malema,_November_2024_(cropped).png",
+  "creator": "Economic Freedom Fighters / Economic Freedom Fighters' Offical Youtube Channel",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Josip Broz Tito",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Josip_Broz_Tito_uniform_portrait.jpg",
+  "creator": "Unknown author Unknown author",
+  "license": "Public domain (expired Yugoslav photographic copyright; PD-Slovenia)",
+  "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-Slovenia",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Adam Bandt",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:AdamBandt.jpg",
+  "creator": "Australian Greens",
+  "license": "CC BY-SA 2.5 au",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5/au/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Friedrich Ebert",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bundesarchiv_Bild_102-00015,_Friedrich_Ebert(cropped).jpg",
+  "creator": "Unknown author Unknown author or not provided",
+  "license": "CC BY-SA 3.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Allegra Spender",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Allegra_Spender_Unearthed_Entrepreneurs_2018_(cropped).png",
+  "creator": "Penshurst Girls Campus, Georges River College, State of New South Wales (Department of Education)",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Zali Steggall",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zali_Steggall_official_campaign_image.jpg",
+  "creator": "Zali Steggall",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Charlie Kirk",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Charlie_Kirk_(53952923573)_(headshot_cropped).jpg",
+  "creator": "Gage Skidmore from Surprise, AZ, United States of America",
+  "license": "CC BY-SA 2.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Otto von Bismarck",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Otto_von_Bismarck_1885_(cropped).jpg",
+  "creator": "Unknown author Unknown author",
+  "license": "Public domain (Commons PD-old-assumed and pre-1931 US publication)",
+  "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Alice Weidel",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_Weidel_at_CPAC_Hungary.jpg",
+  "creator": "Elekes Andor",
+  "license": "CC BY 4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Ian Smith",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ian_Smith_1975.jpg",
+  "creator": "Colin Weyer, photographer",
+  "license": "CC BY-SA 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Heinrich Himmler",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Heinrich_Himmler_(3x4_cropped)_(2).jpg",
+  "creator": "Friedrich Franz Bauer",
+  "license": "CC BY-SA 3.0 de",
+  "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Thomas Sewell",
+  "sourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Sewell_2018.png",
+  "creator": "\"The Unshackled\" Youtube Channel",
+  "license": "CC BY 3.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/3.0",
+  "modifications": "Resized to a maximum 800-pixel dimension and JPEG compressed. Existing source cropping is recorded on the Commons File page."
+},
+{
+  "name": "Thomas Sewell",
+  "sourceUrl": "https://www.theguardian.com/",
+  "creator": "The Guardian (source supplied by owner; photographer unspecified)",
+  "license": "Copyright; reuse licence not supplied",
+  "licenseUrl": "https://www.theguardian.com/help/terms-of-service",
+  "modifications": "Owner-supplied image retained without modification; displayed with a crop. Exact article and photographer not supplied."
 },
 ] as const;

@@ -4,10 +4,12 @@ import { ideologyGroup } from './ideologyGroups';
 import { IdeologyMatchCard } from './PersonalityHeader';
 import comparisonStyles from './PersonalityHeader.module.css';
 import s from './CountryHeader.module.css';
+import { historicalIdeologyComparison } from './historicalContext';
 
 export default function CountryHeader({ profile, profiles }: { profile: Profile; profiles: Profile[] }) {
   const { metadata } = profile;
-  const ideology = profiles.find(candidate => candidate.catalogue === 'ideology' && candidate.id === profile.closestIdeology?.ideologies[0]?.id);
+  const historical = historicalIdeologyComparison(profile, profiles);
+  const ideology = historical?.ideology ?? profiles.find(candidate => candidate.catalogue === 'ideology' && candidate.id === profile.closestIdeology?.ideologies[0]?.id);
   return <div className={s.graphic} style={{ '--profile-color': ideology ? ideologyGroup(ideology).color : 'var(--accent)' } as CSSProperties}>
     <nav className={s.breadcrumb} aria-label="Breadcrumb">
       <a href="#/">Home</a><span aria-hidden="true">/</span>
@@ -19,9 +21,14 @@ export default function CountryHeader({ profile, profiles }: { profile: Profile;
         <p className={s.category}>{metadata.category}</p>
         <h1>{metadata.name}</h1>
         <p className={s.description}>{metadata.description}</p>
-        <section className={comparisonStyles.comparisons} aria-label="Closest ideology">
-          <h2 className={comparisonStyles.comparisonHeading}>Similar</h2>
-          <dl aria-label="Profile comparisons"><IdeologyMatchCard profile={profile} /></dl>
+        {profile.historicalContext ? <section className={s.historicalContext} aria-label="Historical political context">
+          <h2>{profile.historicalContext.label}</h2>
+          <p>{profile.historicalContext.rationale}</p>
+        </section> : null}
+        <section className={comparisonStyles.comparisons} aria-label={historical ? 'Historical ideology comparison' : 'Closest ideology'}>
+          <h2 className={comparisonStyles.comparisonHeading}>{historical ? 'Historical ideology' : profile.historicalContext ? 'Closest ideology by quiz scores' : 'Similar'}</h2>
+          <dl aria-label="Profile comparisons"><IdeologyMatchCard profile={profile} match={historical ? { method: 'equal-axis-mae-v1', meanAbsoluteDistance: 100 - historical.similarity, ideologies: [{ id: historical.ideology.id, revision: historical.ideology.revision, name: historical.ideology.metadata.name }] } : profile.closestIdeology} /></dl>
+          {historical ? <p className={s.comparisonNote}>{historical.similarity.toFixed(1)}% similarity across the 15 quiz axes. Selected from historical evidence; this need not be the closest score match.</p> : null}
         </section>
       </div>
       {metadata.image ? <figure className={s.flag}>

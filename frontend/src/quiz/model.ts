@@ -1,3 +1,4 @@
+import type { SelectionAnswers } from './selection';
 import type { ReligiousIdentity } from './religion';
 import axisData from '../data/axes.v2.json' with { type: 'json' };
 import legacyAxisData from '../data/axes.v1.json' with { type: 'json' };
@@ -56,14 +57,15 @@ export function selectQuestions(length: QuizLength): Question[] {
 export type AxisScore = { axisId: string; leftPercent: number; rightPercent: number; answered: number; neutral: number };
 export type QuizResult = {
   religiousIdentity?: ReligiousIdentity;
+  selection?: SelectionAnswers;
   id: string; completedAt: string; length: QuizLength;
   questionBankVersion: string; scoringVersion: string; axesVersion: string; scores: AxisScore[];
 };
 const round = (value: number) => Math.round(value * 10) / 10;
 
 /** Each agreement-direction group supplies half the axis evidence; equal weights within groups. */
-export function scoreAnswers(length: QuizLength, answers: Answers): AxisScore[] {
-  const selected = selectQuestions(length);
+export function scoreAnswers(length: QuizLength, answers: Answers, bank: Question[] = questions): AxisScore[] {
+  const selected = bank.filter(question => question.priority <= getFormat(length).perAxis);
   const allowed = new Set(selected.map(question => question.id));
   if (Object.keys(answers).length !== selected.length || Object.keys(answers).some(id => !allowed.has(id))) {
     throw new Error('A result requires exactly the questions in the chosen quiz.');

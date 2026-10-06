@@ -1,3 +1,4 @@
+import { selectionQuestions } from '../src/quiz/selection';
 import { test, expect } from '@playwright/test';
 import type { Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
@@ -31,7 +32,15 @@ async function finish(page: Page, length: QuizLength = 'short', varying = false,
     if (keyboard) await next.press('Enter');
     else await next.click();
   }
+  for (const question of selectionQuestions) {
+    await expect(page.getByText('Ideology Matching', { exact: true })).toBeVisible();
+    await expect(page.locator('#question-title')).toHaveText(question.text);
+    await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+    await page.getByRole('button', { name: 'Next', exact: true }).click();
+  }
   await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
+  await expect(page.getByText('Ideology Matching', { exact: true })).toBeVisible();
+  await expect(page.getByText('Ideology Matching · 5 of 5', { exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeDisabled();
   await page.getByRole('radio', { name: 'No religion', exact: true }).check();
   await page.getByRole('button', { name: 'See my results', exact: true }).click();
@@ -57,13 +66,14 @@ for (const format of formats) {
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect(JSON.parse((await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY))!).results).toHaveLength(1);
     const downloadPromise = page.waitForEvent('download');
-    await page.getByRole('button', { name: 'Export result', exact: true }).click();
+    await page.getByRole('button', { name: 'Export history', exact: true }).click();
     const download = await downloadPromise;
     const file = JSON.parse(readFileSync((await download.path())!, 'utf8'));
     expect(file.results).toHaveLength(1);
     expect(file.results[0].scores).toEqual(scoreAnswers(format.id, answers));
     expect(file.results[0].length).toBe(format.id);
     expect(file.results[0].religiousIdentity).toBe('none');
+    expect(file.results[0].selection).toEqual({ version: '3.0.0', answers: Object.fromEntries(selectionQuestions.map(question => [question.id, 1])) });
     expect(file.results[0]).not.toHaveProperty('answers');
     expect(errors).toEqual([]);
   });
@@ -107,12 +117,15 @@ test('history saves automatically, survives reload and supports import, deduplic
   await expect(page.getByRole('heading', { name: 'Centrism', exact: true }).first()).toBeVisible();
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Centrism', exact: true }).first()).toBeVisible();
+  // Both comparison requests must settle before scrolling to controls below them.
+  await expect(page.getByRole('heading', { name: 'No close match', exact: true })).toHaveCount(4);
   await expect(page.getByRole('button', { name: 'Saved in this browser', exact: true })).toHaveCount(0);
   const downloadPromise = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export history', exact: true }).click();
   const path = (await (await downloadPromise).path())!;
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.', exact: true })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'No close match', exact: true })).toHaveCount(4);
   await page.getByRole('button', { name: 'All saved results' }).click();
   await expect(page.getByRole('heading', { name: 'Saved results.', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'View result', exact: true })).toHaveCount(1);

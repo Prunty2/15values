@@ -81,16 +81,11 @@
   .compact .pole { padding: 5px 8px; }
 }
 
-.gap { flex-shrink: 0; text-align: center; color: var(--forest); }
-.gap strong { display: block; font-size: 32px; font-variant-numeric: tabular-nums; }
-.gap span { font-size: 11px; line-height: 1.5; }
 .comparison h2 a { color: inherit; text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }
 .comparison p { font-size: 13px; margin-top: 12px; }
 .quote h3 { margin: 20px 0 10px; }
 @media (max-width: 400px) {
   .comparison > div:first-child { flex-direction: column; align-items: flex-start; }
-  .gap { display: flex; align-items: center; gap: 10px; text-align: left; }
-  .gap strong { font-size: 26px; }
 }
 
 .sectionHeading { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 0 20px; align-items: center; }
@@ -112,6 +107,47 @@
 .savedOverview .comparison > div:first-child { min-height: 120px; padding: 20px; }
 .savedOverview .comparison h2 { font-size: 28px; letter-spacing: -.035em; overflow-wrap: anywhere; }
 .savedOverview .comparison h3 { font-size: 20px; overflow-wrap: anywhere; }
-.savedOverview .comparison > div:not(:first-child) { min-height: 100px; grid-template-columns: 48px minmax(0, 1fr); gap: 14px; padding: 16px 20px; }
+.savedOverview .comparison > div:not(:first-child) { min-height: 100px; grid-template-columns: 48px minmax(0, 1fr) 76px; gap: 14px; padding: 16px 20px; }
 .savedOverview .placeholderIcon { width: 48px; height: 48px; border-style: solid; }
-.savedOverview .gap strong { font-size: 24px; }
+.ideologyCopy { flex: 1; width: 100%; }
+.comparison .fittedHeading { white-space: nowrap; }
+.fittedHeading a { display: inline-block; white-space: nowrap; }
+.comparison .profileRow { grid-template-columns: 76px minmax(0, 1fr) 88px; gap: 16px; }
+.profileRing { width: 88px; height: 88px; flex-basis: 88px; color: var(--result-ink); }
+.profileRing strong { font-size: 20px; }
+.profileRing span { font-size: 7px; }
+.savedOverview .profileRow { grid-template-columns: 48px minmax(0, 1fr) 76px; }
+.savedOverview .profileRing { width: 76px; height: 76px; }
+@media (max-width: 600px) {
+  .comparison .profileRow, .savedOverview .comparison > .profileRow { grid-template-columns: 48px minmax(0, 1fr) 70px; gap: 10px; padding: 16px; }
+  .profileRow .placeholderIcon { width: 48px; height: 48px; }
+  .profileRow .profileRing { width: 70px; height: 70px; }
+  .profileRing strong { font-size: 16px; }
+  .profileRing span { font-size: 6px; letter-spacing: .5px; }
+  .profileRow .comparisonLabel { font-size: 10px; padding: 5px 8px; }
+  .profileRow h3 { font-size: 18px; }
+}
+
+/* Size comparison content from its card, including saved cards in a wide grid. */
+.comparison { container-type: inline-size; }
+.comparison .profileRing { width: 88px; height: 88px; container-type: inline-size; }
+.savedOverview .comparison .profileRing { width: 76px; height: 76px; }
+.comparison .profileRing strong { font-size: clamp(12px, 20cqi, 20px); white-space: nowrap; }
+.comparison .profileRing span { font-size: clamp(6px, 8cqi, 7px); letter-spacing: .7px; }
+.comparison .profileRow > div:nth-child(2) > span:first-child { max-width: 100%; white-space: normal; overflow-wrap: anywhere; }
+@container (max-width: 440px) {
+  .comparison .profileRow, .savedOverview .comparison > .profileRow { grid-template-columns: 48px minmax(0, 1fr) 70px; gap: 10px; padding: 16px; }
+  .comparison .profileRow .profileRing { width: 70px; height: 70px; }
+  .comparison .profileRow > div:nth-child(2) > span:first-child { font-size: 11px; padding: 6px 9px; }
+  .comparison .profileRow h3 { font-size: 18px; }
+}
+@container (max-width: 300px) {
+  .comparison .profileRow, .savedOverview .comparison > .profileRow { grid-template-columns: 48px minmax(0, 1fr); }
+  .comparison .profileRow .profileRing { grid-column: 2; justify-self: start; }
+}
+
+.comparison .noMatchRow, .savedOverview .comparison > .noMatchRow { grid-template-columns: 76px minmax(0, 1fr); }
+.savedOverview .comparison > .noMatchRow { grid-template-columns: 48px minmax(0, 1fr); }
+@container (max-width: 440px) {
+  .comparison .noMatchRow, .savedOverview .comparison > .noMatchRow { grid-template-columns: 48px minmax(0, 1fr); }
+}

@@ -1,3 +1,4 @@
+import type { SelectionAssessment } from '../quiz/selection';
 import type { ReligionAssessment, CountryReligionAssessment } from '../quiz/religion';
 import type { Answer, AxisScore } from '../quiz/model';
 
@@ -24,6 +25,9 @@ export type IdeologyMatch = {
   ideologies: { id: string; revision: number; name: string }[];
 };
 export type Profile = {
+  matchingPolicyVersion?: 'selection-v1' | 'selection-v2' | 'selection-v3';
+  selection?: SelectionAssessment;
+  historicalContext?: { revision: number; assessmentRevision: number; period: string; label: string; rationale: string; sources: Source[]; ideology?: { id: string; revision: number; name: string; rationale: string } };
   countryReligion?: CountryReligionAssessment;
   religion?: ReligionAssessment;
   religionRevision?: number;

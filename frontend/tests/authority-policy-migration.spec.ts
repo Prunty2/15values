@@ -17,7 +17,7 @@ test('bank 3 results preserve scores through import, reload and export without n
   await expect(page).toHaveURL(/#\/results\?id=/);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).first()).toContainText('No compatible ideology assessments');
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link').first()).toBeVisible();
   await expect(page.getByRole('article', { name: axes.find(a => a.id === 'authority-liberty')!.name, exact: true })).toBeVisible();
   const waiting = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export history', exact: true }).click();

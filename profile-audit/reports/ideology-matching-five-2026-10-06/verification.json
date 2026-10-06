@@ -1,0 +1,55 @@
+{
+  "completedAt": "2026-10-06T11:53:02.534Z",
+  "questions": 5,
+  "label": "Ideology matching",
+  "version": "2.0.0",
+  "totalPrompts": [
+    51,
+    81,
+    141,
+    246
+  ],
+  "checks": {
+    "unitTests": {
+      "passed": 570,
+      "failed": 0
+    },
+    "browserTests": {
+      "passed": 48,
+      "failed": 0,
+      "projects": [
+        "desktop",
+        "mobile",
+        "safari"
+      ],
+      "coverage": [
+        "All four quiz lengths",
+        "Five matching questions and exports",
+        "One fringe contradiction blocks perfect axis match",
+        "Meritocracy support and opposition",
+        "Harris alternative match",
+        "Back, keyboard, auto-advance and restart",
+        "History reload/import/delete and failed storage",
+        "Every question wording across six window sizes"
+      ]
+    },
+    "catalogue": {
+      "profiles": 288,
+      "result": "passed"
+    },
+    "build": "passed with bundle-size advisory",
+    "scoredQuestionBank": "240/15 verified unchanged",
+    "archiveHistory": "HEAD check passed",
+    "preservedHashes": "all matched"
+  },
+  "profileSupplementRevision": 3,
+  "educatedAssumptionIds": [
+    "east-germany/matching-ownership",
+    "east-germany/matching-party"
+  ],
+  "harrisLegacyEvidence": "preserved without mapping into the new combined item",
+  "limitations": [
+    "Evidence gaps exclude templates with defining prerequisites rather than infer endorsement.",
+    "Numerical similarity is based on the unchanged axes and is not empirical confirmation of ideological membership."
+  ]
+}

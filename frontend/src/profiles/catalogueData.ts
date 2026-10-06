@@ -1,6 +1,8 @@
+import { isSelectionAssessment } from '../quiz/selection';
 import { isReligiousIdentity, isCountryReligionAssessment } from '../quiz/religion';
 import { axes, AXES_VERSION, QUESTION_BANK_VERSION, SCORING_VERSION } from '../quiz/model';
 import { withIdeologyMatches } from './ideologyMatching';
+import { historicalIdeologyComparison, validHistoricalContext } from './historicalContext';
 import { catalogues } from './types';
 import type { Profile } from './types';
 
@@ -26,8 +28,11 @@ export function parseCatalogue(value: unknown): Profile[] {
         : profile.scores.length !== axes.length || axes.some(axis => profile.scores.filter(score => score?.axisId === axis.id).length !== 1)) ||
       profile.scores.some(score => !Number.isFinite(score.leftPercent) || !Number.isFinite(score.rightPercent) || score.leftPercent < 0 || score.leftPercent > 100 || Math.abs(score.leftPercent + score.rightPercent - 100) > 0.0001 || score.answered !== 16 || !Number.isInteger(score.neutral) || score.neutral < 0 || score.neutral > 16) ||
       !Array.isArray(profile.sources) || profile.sources.some(source => !source || !string(source.title) || !string(source.publisher) || !url(source.url))) throw new Error('Invalid profile data.');
+    if (profile.matchingPolicyVersion !== undefined && !['selection-v1', 'selection-v2', 'selection-v3'].includes(profile.matchingPolicyVersion)) throw new Error('Unsupported matching policy.');
+    if (profile.selection !== undefined && !isSelectionAssessment(profile.selection)) throw new Error('Invalid selection assessment.');
     if (profile.religion && (!isReligiousIdentity(profile.religion.value) || !['direct', 'inferred', 'undisclosed'].includes(profile.religion.basis) || !string(profile.religion.rationale) || !Array.isArray(profile.religion.sources) || profile.religion.sources.some(source => !string(source.title) || !url(source.url)))) throw new Error('Invalid religion assessment.');
     if (profile.countryReligion !== undefined && (profile.catalogue !== 'country' || !isCountryReligionAssessment(profile.countryReligion))) throw new Error('Invalid country religion assessment.');
+    if (profile.historicalContext !== undefined && !validHistoricalContext(profile.historicalContext, profile)) throw new Error('Invalid historical political context.');
     if (profile.religionRevision !== undefined && (!Number.isSafeInteger(profile.religionRevision) || profile.religionRevision < 1)) throw new Error('Invalid religion revision.');
     if (profile.representativePersonalityId !== undefined && !/^[a-z0-9-]+$/.test(profile.representativePersonalityId)) throw new Error('Invalid representative.');
     if (profile.catalogue === 'ideology' && !string(profile.metadata.phrase)) throw new Error('Missing ideology phrase.');
@@ -40,9 +45,10 @@ export function parseCatalogue(value: unknown): Profile[] {
     seen.add(key);
   }
   const profiles = data.profiles as Profile[];
+  for (const profile of profiles) if (profile.historicalContext?.ideology && !historicalIdeologyComparison(profile, profiles)) throw new Error('Invalid historical ideology reference.');
   const calculated = withIdeologyMatches(profiles);
   profiles.forEach((profile, index) => {
-    if (profile.closestIdeology !== undefined && JSON.stringify(profile.closestIdeology) !== JSON.stringify(calculated[index].closestIdeology)) throw new Error('Invalid or stale ideology match.');
+    if (profile.matchingPolicyVersion === 'selection-v3' && profile.closestIdeology !== undefined && JSON.stringify(profile.closestIdeology) !== JSON.stringify(calculated[index].closestIdeology)) throw new Error('Invalid or stale ideology match.');
   });
   return calculated;
 }

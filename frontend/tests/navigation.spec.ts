@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test';
+import { selectionQuestions } from '../src/quiz/selection';
 
 test('quiz navigation never replaces the page with a loading screen', async ({ page }) => {
   await page.route(/\/(?:src\/quiz\/QuizFlow\.tsx|assets\/QuizFlow-[^/]+\.js)(?:\?|$)/, async route => {
@@ -13,10 +14,15 @@ test('quiz navigation never replaces the page with a loading screen', async ({ p
     }).observe(document, { childList: true, subtree: true });
   });
   await page.goto('./');
+  await expect(page.getByText('Loading example…', { exact: true })).toHaveCount(0);
+  await expect(page.getByText('Loading profiles…', { exact: true })).toHaveCount(0);
   await page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Start short quiz', exact: true })).toBeVisible();
   expect(await page.evaluate(() => (window as unknown as { navigationScreens: string[] }).navigationScreens)).toEqual([]);
   await page.getByRole('link', { name: 'Back to home', exact: true }).click();
+  await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
+  await expect(page.getByText('Loading example…', { exact: true })).toHaveCount(0);
+  await expect(page.getByText('Loading profiles…', { exact: true })).toHaveCount(0);
   await page.getByRole('contentinfo').getByRole('link', { name: 'Quiz formats', exact: true }).click();
   await expect(page.getByRole('button', { name: 'Start short quiz', exact: true })).toBeVisible();
   expect(await page.evaluate(() => (window as unknown as { navigationScreens: string[] }).navigationScreens)).toEqual([]);
@@ -28,7 +34,7 @@ for (const [length, count] of [['short', 45], ['medium', 75], ['long', 135], ['c
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(`./#/quiz/run?length=${length}`);
     await expect(page.getByRole('radio')).toHaveCount(5);
-    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(count + 1));
+    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(count + selectionQuestions.length + 1));
     await expect(page.getByRole('checkbox', { name: 'Advance on answer' })).toBeChecked();
     await page.getByRole('checkbox', { name: 'Advance on answer' }).uncheck();
     await page.getByRole('radio', { name: 'Agree', exact: true }).check();

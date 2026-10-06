@@ -34,10 +34,10 @@ function MatchName({ children }: { children: string }) {
   return <span ref={ref} className={s.matchName}>{children}</span>;
 }
 
-export function IdeologyMatchCard({ profile }: { profile: Profile }) {
+export function IdeologyMatchCard({ profile, match = profile.closestIdeology }: { profile: Profile; match?: Profile['closestIdeology'] }) {
   return <div className={s.matchCard}>
               <dt className={s.srOnly}>Ideology</dt>
-              <dd>{profile.closestIdeology ? profile.closestIdeology.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={`#/ideologies/${ideology.id}`}>
+              <dd>{match ? match.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={`#/ideologies/${ideology.id}`}>
                 <span className={s.matchIcon} aria-hidden="true">{ideology.id === 'christian-accelerationism' ? <svg data-ideology-icon="cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"><path d="M10 3h4v5h5v4h-5v9h-4v-9H5V8h5Z" /></svg> : <ValueIcon value="Democracy" />}</span>
                 <MatchName>{ideology.name}</MatchName>
               </a>) : profile.withdrawal ? 'Unavailable' : 'No match available'}</dd>
@@ -80,7 +80,7 @@ export default function PersonalityHeader({ profile, profiles }: { profile: Prof
         </div>
       </div>
       {image ? <figure className={s.portrait}>
-        <img src={`${import.meta.env.BASE_URL}${image.path}`} alt={image.alt} />
+        <img src={`${import.meta.env.BASE_URL}${image.path}`} alt={image.alt} style={profile.id === 'thomas-sewell' ? { objectPosition: '75% 25%' } : undefined} />
         <figcaption><a href={image.sourceUrl} target="_blank" rel="noreferrer">Wikimedia Commons · Source</a></figcaption>
       </figure> : null}
     </header>
