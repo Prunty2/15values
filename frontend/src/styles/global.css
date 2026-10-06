@@ -91,43 +91,45 @@
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
-    --accent: #aec7a4;
-    --accent-hover: #c4dabd;
-    --ink: #e5eadf;
-    --muted: #b3bfae;
-    --forest: #c4dabd;
-    --canvas: #151c17;
-    --paper: #1c261f;
-    --surface: #263129;
-    --sage: #2a382b;
-    --surface-hover: #364735;
-    --surface-selected: #2b3b2d;
-    --line: #3c493d;
-    --border-strong: #74866d;
-    --on-accent: #17231a;
-    --brand-light: #8ba77d;
-    --brand-medium: #6b8960;
+    --accent: #a9c5e8;
+    --accent-hover: #c4daf4;
+    --ink: #edf0f5;
+    --muted: #b5bfce;
+    --forest: #c4daf4;
+    --canvas: #14171c;
+    --paper: #1e232b;
+    --surface: #292f39;
+    --sage: #2c3542;
+    --surface-hover: #38465a;
+    --surface-selected: #303e51;
+    --line: #3d4654;
+    --border-strong: #78889e;
+    --on-accent: #152234;
+    --brand-light: #a9c5e8;
+    --brand-medium: #758fab;
     --profile-color-weight: 50%;
     --accent-hover-target: var(--ink);
-    --inverse-surface: #1d3528;
+    --inverse-muted: #c3cfdf;
+    --inverse-line: #53647a;
+    --inverse-surface: #202c3b;
     --card-paper: var(--paper);
     --card-line: var(--line);
     --card-muted: var(--muted);
     --pole-ink: var(--ink);
-    --pole-left-surface: #2c3d2d;
-    --pole-left-ink: #c0d5b7;
-    --pole-right-surface: #3b372b;
-    --pole-right-ink: #d8cfb3;
+    --pole-left-surface: #293b50;
+    --pole-left-ink: #bfd4ef;
+    --pole-right-surface: #40392d;
+    --pole-right-ink: #e0d1b4;
     --card-description: var(--muted);
     --profile-ink: var(--ink);
     --profile-muted: var(--muted);
     --profile-line: var(--line);
     --profile-badge: var(--surface);
-    --track: #414c40;
-    --midpoint: #a0ad99;
-    --answer-ink: #c7ccbd;
-    --answer-surface: #30372d;
-    --answer-line: #79816f;
+    --track: #455060;
+    --midpoint: #a8b4c5;
+    --answer-ink: #d0d6e0;
+    --answer-surface: #2c323d;
+    --answer-line: #79869b;
     --agree-ink: #b0dbbd;
     --agree-surface: #233d2d;
     --agree-line: #6e9c7a;
@@ -140,7 +142,7 @@
 @font-palette-values --quiz-number-dark {
   font-family: 'Bitcount Ink';
   base-palette: 0;
-  override-colors: 0 #aec7a4, 1 #aec7a4, 2 #aec7a4, 3 #aec7a4, 4 #aec7a4, 5 #aec7a4, 6 #aec7a4, 7 #aec7a4, 8 #aec7a4, 9 #aec7a4, 10 #aec7a4, 11 #aec7a4, 12 #aec7a4, 13 #aec7a4, 14 #aec7a4, 15 #aec7a4, 16 #aec7a4, 17 #aec7a4, 18 #aec7a4, 19 #aec7a4, 20 #aec7a4, 21 #aec7a4, 22 #aec7a4, 23 #aec7a4, 24 #aec7a4, 25 #aec7a4, 26 #aec7a4, 27 #aec7a4, 28 #aec7a4;
+  override-colors: 0 #a9c5e8, 1 #a9c5e8, 2 #a9c5e8, 3 #a9c5e8, 4 #a9c5e8, 5 #a9c5e8, 6 #a9c5e8, 7 #a9c5e8, 8 #a9c5e8, 9 #a9c5e8, 10 #a9c5e8, 11 #a9c5e8, 12 #a9c5e8, 13 #a9c5e8, 14 #a9c5e8, 15 #a9c5e8, 16 #a9c5e8, 17 #a9c5e8, 18 #a9c5e8, 19 #a9c5e8, 20 #a9c5e8, 21 #a9c5e8, 22 #a9c5e8, 23 #a9c5e8, 24 #a9c5e8, 25 #a9c5e8, 26 #a9c5e8, 27 #a9c5e8, 28 #a9c5e8;
 }
 * { box-sizing: border-box; }
 html { scrollbar-gutter: stable; }

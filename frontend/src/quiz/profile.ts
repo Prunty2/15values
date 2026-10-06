@@ -1,4 +1,4 @@
-import { axes, type AxisScore } from './model';
+import { axes, type AxisScore } from './model.ts';
 
 // Round distance from 50 so half-point ties treat the two poles symmetrically.
 export const wholePercent = (percent: number) => 50 + Math.sign(percent - 50) * Math.round(Math.abs(percent - 50));

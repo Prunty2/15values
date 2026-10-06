@@ -12,19 +12,24 @@ test('home strip uses published profiles and links to both types of detail page'
   const links = strip.getByRole('link');
   await expect(links).toHaveCount(profiles.length);
   await expect(strip.getByText('Placeholder', { exact: true })).toHaveCount(0);
+  // Read the whole strip once; hundreds of protocol round trips exceeded CI's timeout.
+  const cards = await links.evaluateAll(elements => elements.map(element => ({
+    href: element.getAttribute('href'),
+    labels: Array.from(element.querySelectorAll('small'), label => label.textContent),
+    name: Array.from(element.querySelectorAll('span')).at(-1)?.textContent,
+  })));
   for (const profile of profiles) {
     const route = profile.catalogue === 'ideology' ? 'ideologies' : 'personalities';
-    const card = strip.locator(`a[href="#/${route}/${profile.id}"]`).first();
-    await expect(card.locator('small')).toHaveCount(2);
-    await expect(card.locator('small').first()).toHaveText(profile.catalogue === 'ideology' ? 'Ideology' : profile.metadata.category);
+    const card = cards.find(card => card.href === '#/' + route + '/' + profile.id)!;
+    expect(card.labels).toHaveLength(2);
+    expect(card.labels[0]).toBe(profile.catalogue === 'ideology' ? 'Ideology' : profile.metadata.category);
     if (profile.catalogue === 'personality') {
       const leaning = profile.metadata.politicalLeaning?.replace('-', ' ').toLowerCase();
       const label = ['Far-Left', 'Left', 'Centre', 'Right', 'Far-Right', 'Libertarian', 'Religious', 'Other']
         .find(label => label.replace('-', ' ').toLowerCase() === leaning) ?? 'Unclassified';
-      await expect(card.locator('small').last()).toHaveText(label);
+      expect(card.labels[1]).toBe(label);
     }
-    await expect(card.locator('span').last()).toHaveText(profile.metadata.name.replace(/\s*\(.*\)$/, '').trim());
-    await expect(card).toHaveAttribute('href', `#/${route}/${profile.id}`);
+    expect(card.name).toBe(profile.metadata.name.replace(/\s*\(.*\)$/, '').trim());
   }
   await expect(strip.locator('a[href="#/ideologies/american-conservatism"]').first().locator('small').last()).toHaveText('Right');
   await expect(strip.locator('a[href="#/ideologies/communism"]').first().locator('small').last()).toHaveText('Far-Left');

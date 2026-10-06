@@ -1,3 +1,5 @@
+import { selectionQuestions } from './selection';
+import type { SelectionAnswers } from './selection';
 import Arrow from '../components/Arrow';
 import { religionOptions } from './religion';
 import type { ReligiousIdentity } from './religion';
@@ -15,7 +17,7 @@ import { EmptyHistory, ResultHistory } from './ResultHistory';
 import a from '../App.module.css';
 import s from './QuizFlow.module.css';
 
-type Session = { length: QuizLength; index: number; answers: Answers; religiousIdentity?: ReligiousIdentity };
+type Session = { length: QuizLength; index: number; answers: Answers; selection?: SelectionAnswers; religiousIdentity?: ReligiousIdentity };
 function ConfirmDialog({ title, description, action, onConfirm, onCancel }: { title: string; description: string; action: string; onConfirm: () => void; onCancel: () => void }) {
   const ref = useRef<HTMLDialogElement>(null);
   useEffect(() => { ref.current?.showModal(); }, []);
@@ -34,15 +36,17 @@ function FormatSelection({ selected, session, onStart, onContinue }: { selected:
       <div className={a.choiceMeta}><span>{format.perAxis} per axis</span><span>Depth <span className={a.choiceDepth} aria-label={`${index + 1} of 4`}>{[1, 2, 3, 4].map(bar => <i key={bar} data-filled={bar <= index + 1} />)}</span></span></div>
       <button className={a.choiceButton} onClick={() => onStart(format.id)}>Start {format.name.toLowerCase()} quiz <Arrow /></button>
     </article>)}</div>
-    <div className={s.beforeStart}><p>Answers stay in this open tab. Completed results save automatically in this browser. Political statement answers are not saved. Each format ends with one additional, unscored religion question; its answer is saved with the result.</p></div>
+    <div className={s.beforeStart}><p>Answers stay in this open tab. Completed results save automatically in this browser. Scored statement answers are not saved. Each format also asks five unscored Ideology Matching questions, including religious identity. These additional answers are saved with your result to check match eligibility.</p></div>
     <div className={s.formatFooter}><a href="#/results">Saved results <Arrow /></a></div>
   </div>;
 }
-function Questions({ session, setSession, onComplete }: { session: Session; setSession: (session: Session) => void; onComplete: (answers: Answers, religion: ReligiousIdentity) => void }) {
+function Questions({ session, setSession, onComplete }: { session: Session; setSession: (session: Session) => void; onComplete: (answers: Answers, religion: ReligiousIdentity, selection: SelectionAnswers) => void }) {
   const selected = selectQuestions(session.length);
-  const identityStep = session.index === selected.length;
-  const question = selected[session.index] ?? selected[selected.length - 1];
-  const answer = session.answers[question.id];
+  const selectionStep = session.index >= selected.length && session.index < selected.length + selectionQuestions.length;
+  const identityStep = session.index === selected.length + selectionQuestions.length;
+  const extra = selectionQuestions[session.index - selected.length];
+  const question = selectionStep ? { ...extra, axisId: 'selection' } : selected[session.index] ?? selected[selected.length - 1];
+  const answer = selectionStep ? session.selection?.answers[question.id] : session.answers[question.id];
   const [autoAdvance, setAutoAdvance] = useState(true);
   const [pending, setPending] = useState(false);
   const [leaving, setLeaving] = useState(false);
@@ -50,8 +54,8 @@ function Questions({ session, setSession, onComplete }: { session: Session; setS
   const pendingRef = useRef(false);
   const timer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const heading = useRef<HTMLHeadingElement>(null);
-  const answered = Object.keys(session.answers).length;
-  const totalQuestions = selected.length + 1;
+  const answered = Object.keys(session.answers).length + Object.keys(session.selection?.answers ?? {}).length;
+  const totalQuestions = selected.length + selectionQuestions.length + 1;
   useEffect(() => {
     heading.current?.focus({ preventScroll: true });
     window.scrollTo({ top: 0, behavior: 'instant' });
@@ -72,33 +76,34 @@ function Questions({ session, setSession, onComplete }: { session: Session; setS
   };
   const choose = (value: Answer, advance: boolean) => {
     if (pendingRef.current) return;
-    const answers = { ...session.answers, [question.id]: value };
-    setSession({ ...session, answers });
+    const answers = selectionStep ? session.answers : { ...session.answers, [question.id]: value };
+    const selection: SelectionAnswers | undefined = selectionStep ? { version: '3.0.0', answers: { ...session.selection?.answers, [question.id]: value } } : session.selection;
+    setSession({ ...session, answers, selection });
     // Final submission stays explicit even when advance-on-answer is enabled.
     if (autoAdvance && advance) {
       pendingRef.current = true;
       setPending(true);
       timer.current = setTimeout(() => {
-        moveTo({ ...session, answers, index: session.index + 1 });
+        moveTo({ ...session, answers, selection, index: session.index + 1 });
       }, 280);
     }
   };
   const percentage = Math.min(99, Math.round(answered / totalQuestions * 100));
   if (identityStep) return <div className={`${s.quizPage} ${s.identityPage}`}>
-    <div className={s.progressInfo}><p>Final question · Religious identity</p><span>{session.religiousIdentity ? 100 : percentage}% complete</span></div>
+    <div className={s.progressInfo}><p>Ideology Matching · 5 of 5</p><span>{session.religiousIdentity ? 100 : percentage}% complete</span></div>
     <div className={s.progressTrack} role="progressbar" aria-label="Quiz completion" aria-valuemin={0} aria-valuemax={totalQuestions} aria-valuenow={answered + (session.religiousIdentity ? 1 : 0)}><span style={{ width: `${(answered + (session.religiousIdentity ? 1 : 0)) / totalQuestions * 100}%` }} /></div>
     <section className={s.questionCard} aria-labelledby="question-title">
-      <div className={s.questionIntro}><div className={s.questionCopy}><span className={s.topic}>About you · Unscored</span><h1 ref={heading} id="question-title" tabIndex={-1}>What religion do you identify with?</h1><p>This answer does not change your political scores. Faith-specific ideologies require a matching religious identity; general ideologies remain available to everyone. Your choice is saved locally with your result and included in exports.</p></div></div>
+      <div className={s.questionIntro}><div className={s.questionCopy}><span className={s.topic}>Ideology Matching</span><h1 ref={heading} id="question-title" tabIndex={-1}>What religion do you identify with?</h1><p>This answer does not change your political scores. Faith-specific ideologies require a matching religious identity. Other matching requirements apply independently. Your choice is saved locally with your result and included in exports.</p></div></div>
       <fieldset className={s.answers}><legend className={s.srOnly}>Religious identity</legend>{religionOptions.map(option => <label className={`${s.answer} ${session.religiousIdentity === option.value ? s.selectedAnswer : ''}`} key={option.value}><input type="radio" name="religious-identity" checked={session.religiousIdentity === option.value} onChange={() => setSession({ ...session, religiousIdentity: option.value })} /><span>{option.label}</span></label>)}</fieldset>
     </section>
-    <div className={s.questionControls}><button className={s.secondary} disabled={pending} onClick={() => moveTo({ ...session, index: session.index - 1 })}><Arrow back /> Back</button><button className={s.primary} disabled={!session.religiousIdentity || pending} onClick={() => { if (session.religiousIdentity) onComplete(session.answers, session.religiousIdentity); }}>See my results <Arrow /></button></div>
+    <div className={s.questionControls}><button className={s.secondary} disabled={pending} onClick={() => moveTo({ ...session, index: session.index - 1 })}><Arrow back /> Back</button><button className={s.primary} disabled={!session.religiousIdentity || pending} onClick={() => { if (session.religiousIdentity) onComplete(session.answers, session.religiousIdentity, session.selection!); }}>See my results <Arrow /></button></div>
   </div>;
   return <div className={s.quizPage}>
-    <div className={s.progressInfo}><p>Question <strong>{session.index + 1}</strong><span> / {totalQuestions}</span></p><span>{percentage}% complete</span></div>
+    <div className={s.progressInfo}><p>{selectionStep ? <>Ideology Matching · <strong>{session.index - selected.length + 1}</strong> of 5</> : <>Question <strong>{session.index + 1}</strong><span> / {totalQuestions}</span></>}</p><span>{percentage}% complete</span></div>
     <div className={s.progressTrack} role="progressbar" aria-label="Quiz completion" aria-valuemin={0} aria-valuemax={totalQuestions} aria-valuenow={answered} aria-valuetext={`${answered} of ${totalQuestions} questions answered`}><span style={{ width: `${answered / totalQuestions * 100}%` }} /></div>
     <section key={question.id} className={s.questionCard} data-direction={direction} data-leaving={leaving} aria-labelledby="question-title">
       <div className={s.questionIntro}>
-        <div className={s.questionCopy}><span className={s.topic}><span aria-hidden="true" />{topics[question.axisId]}</span><h1 ref={heading} id="question-title" tabIndex={-1}>{question.text}</h1></div>
+        <div className={s.questionCopy}><span className={s.topic}><span aria-hidden="true" />{selectionStep ? 'Ideology Matching' : topics[question.axisId]}</span><h1 ref={heading} id="question-title" tabIndex={-1}>{question.text}</h1></div>
         <span className={s.questionNumber} aria-hidden="true">{String(session.index + 1).padStart(2, '0')}</span>
       </div>
       <fieldset className={s.answers} disabled={pending} aria-labelledby="question-title"><legend className={s.srOnly}>How much do you agree?</legend>
@@ -125,7 +130,7 @@ function Results({ currentResult, resultId, saveError, onView }: { currentResult
   const importInput = useRef<HTMLInputElement>(null);
   const resultHeading = useRef<HTMLHeadingElement>(null);
   const result = resultId ? history.results.find(item => item.id === resultId) ?? (currentResult?.id === resultId ? currentResult : null) : null;
-  const catalogue = useResultCatalogue(Boolean(result));
+  const catalogue = useResultCatalogue(Boolean(result), result ? [result] : []);
   const [compared, setCompared] = useState<Profile[]>([]);
   useEffect(() => setCompared([]), [result?.id]);
   const colour = result ? resultColour(result, catalogue.profiles) : undefined;
@@ -210,10 +215,10 @@ export default function QuizFlow({ location, brand }: { location: string; brand:
     if (inProgress && target === '/') setConfirmation({ title: 'Leave this quiz?', description: 'Your unfinished answers will be lost. They have not been saved in this browser.', action: 'Leave quiz', run });
     else run();
   };
-  const complete = (answers: Answers, religiousIdentity: ReligiousIdentity) => {
+  const complete = (answers: Answers, religiousIdentity: ReligiousIdentity, selection: SelectionAnswers) => {
     if (!session) return;
     const id = crypto.randomUUID?.() ?? Array.from(crypto.getRandomValues(new Uint8Array(16)), byte => byte.toString(16).padStart(2, '0')).join('');
-    const next: QuizResult = { religiousIdentity, id, completedAt: new Date().toISOString(), length: session.length, questionBankVersion: QUESTION_BANK_VERSION, scoringVersion: SCORING_VERSION, axesVersion: AXES_VERSION, scores: scoreAnswers(session.length, answers) };
+    const next: QuizResult = { religiousIdentity, selection, id, completedAt: new Date().toISOString(), length: session.length, questionBankVersion: QUESTION_BANK_VERSION, scoringVersion: SCORING_VERSION, axesVersion: AXES_VERSION, scores: scoreAnswers(session.length, answers) };
     const current = readHistory();
     let error = current.error;
     if (!error) {

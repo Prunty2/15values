@@ -1,0 +1,99 @@
+{
+  "reviewedAt": "2026-10-06",
+  "reviewer": "Codex distinct question and matching review",
+  "questions": {
+    "version": "2.0.0",
+    "label": "Ideology matching",
+    "questions": [
+      {
+        "id": "matching-merit",
+        "text": "Selection for jobs or college places should use individual ability and achievement, without preference because of race or sex."
+      },
+      {
+        "id": "selection-access",
+        "text": "Institutions should help disadvantaged applicants develop the skills needed to compete on equal terms."
+      },
+      {
+        "id": "matching-ownership",
+        "text": "Major businesses should be owned and controlled by workers or the public rather than private investors."
+      },
+      {
+        "id": "matching-state",
+        "text": "The state should be replaced by voluntary associations, including for courts and public safety."
+      },
+      {
+        "id": "matching-party",
+        "text": "Political power should belong to a single governing party rather than competing parties."
+      }
+    ],
+    "requirements": {
+      "meritocracy": [
+        "matching-merit",
+        "selection-access"
+      ],
+      "socialism": [
+        "matching-ownership"
+      ],
+      "democratic-socialism": [
+        "matching-ownership"
+      ],
+      "social-anarchism": [
+        "matching-ownership",
+        "matching-state"
+      ],
+      "anarcho-capitalism": [
+        "matching-state"
+      ],
+      "marxism-leninism": [
+        "matching-ownership",
+        "matching-party"
+      ]
+    }
+  },
+  "sources": [
+    {
+      "title": "Socialism, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/archives/fall2024/entries/socialism/"
+    },
+    {
+      "title": "Anarchism, Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/anarchism/"
+    },
+    {
+      "title": "Stalin, Concerning Questions of Leninism, 1926",
+      "url": "https://www.marxists.org/reference/archive/stalin/works/1926/01/25.htm"
+    }
+  ],
+  "notes": [
+    "Retained skill-development support, combined hiring and admissions, added three distinct institutional topics.",
+    "Each question describes a policy without praise or blame; no preferred score targets.",
+    "Social/worker ownership is not identical to state ownership. Stateless voluntary provision does not imply private or collective economic ownership. One-party requirement is scoped to orthodox Marxism–Leninism, not general socialism.",
+    "All five items affect defining prerequisites; remaining compatible candidates rank on equal-weight 15-axis distance. No sixth axis or score weighting introduced.",
+    "Neutral, missing and opposing answers do not establish prerequisites. Profiles lack new evidence and are excluded from affected templates until assessed, without inventing responses.",
+    "This is construct review and regression testing, not empirical psychometric calibration.",
+    "Preserved existing historical East Germany reference through separately sourced inferred supplement answers. Revision 3 adds the complete constitution source for Articles 9–12; the GHI excerpt covers Article 1. All 240 country answers remain unchanged.",
+    "Supplement evidence revisions 1–3 are generated to public downloads; revision 3 is current. No new personality or country scored assessments were created. The broader policy deliberately fails closed on unassessed prerequisites."
+  ],
+  "educatedAssumptionIds": [
+    "east-germany/matching-ownership",
+    "east-germany/matching-party"
+  ],
+  "preserved": [
+    {
+      "path": "frontend/src/data/selection.v1.json",
+      "sha256": "f3a5bdb2764fe5de97d06c35a064718f83b3d2d197898e5b2dbcf1880c865832"
+    },
+    {
+      "path": "profile-audit/selection-assessments/1.json",
+      "sha256": "b145011bb6f8f274dec641f089368f45b86406dff71db21d48dfb9a041084f05"
+    },
+    {
+      "path": "frontend/src/data/questions.v4.json",
+      "sha256": "335a33ec0c1259e91a2636f8d2da56d4fafefd67f9fe0d2ce22ced218af55a75"
+    },
+    {
+      "path": "profile-audit/answers/personality/kamala-harris/6.json",
+      "sha256": "bd0a8f10d57c9fe1a72e7fd4eaad7a57eadc6d94470e994b51a039fe30520c3c"
+    }
+  ]
+}

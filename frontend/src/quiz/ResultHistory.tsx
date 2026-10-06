@@ -6,7 +6,7 @@ import type { QuizResult } from './model';
 import s from './ResultHistory.module.css';
 
 export function ResultHistory({ results, activeId, onView, onDelete }: { results: QuizResult[]; activeId?: string; onView: (result: QuizResult) => void; onDelete: (id: string) => void }) {
-  const catalogue = useResultCatalogue(results.length > 0);
+  const catalogue = useResultCatalogue(results.length > 0, results);
   return <ul className={s.grid}>{results.map((result, index) => {
     const format = getFormat(result.length);
     const date = new Date(result.completedAt);

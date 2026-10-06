@@ -1,0 +1,59 @@
+# Requested profile additions completed
+
+18 personalities and seven associated ideologies added; eight existing people and Trotskyism verified. Every entry below has 240/240 answered questions for bank 4.0.0, axes/scoring 2.0.0. New assessments were archived as revision 1. Thomas Sewell is now revision 2 following a separate owner-requested portrait change; all 240 answers were preserved.
+
+| Profile | Catalogue | Revision | Answers | Educated assumptions |
+| --- | --- | --- | --- | --- |
+| [Kevin Rudd](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/kevin-rudd/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/kevin-rudd-review.json) |
+| [Malcolm Turnbull](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/malcolm-turnbull/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/malcolm-turnbull-review.json) |
+| [Olaf Scholz](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/olaf-scholz/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/olaf-scholz-review.json) |
+| [Mark Carney](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/mark-carney/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/mark-carney-review.json) |
+| [Dominik Tarczyński](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/dominik-tarczynski/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/dominik-tarczynski-review.json) |
+| [Leon Trotsky](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/leon-trotsky/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/leon-trotsky-review.json) |
+| [Julius Malema](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/julius-malema/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/julius-malema-review.json) |
+| [Josip Broz Tito](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/josip-broz-tito/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/josip-broz-tito-review.json) |
+| [Adam Bandt](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/adam-bandt/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/adam-bandt-review.json) |
+| [Friedrich Ebert](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/friedrich-ebert/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/friedrich-ebert-review.json) |
+| [Allegra Spender](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/allegra-spender/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/allegra-spender-review.json) |
+| [Zali Steggall](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/zali-steggall/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/zali-steggall-review.json) |
+| [Charlie Kirk](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/charlie-kirk/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/charlie-kirk-review.json) |
+| [Otto von Bismarck](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/otto-von-bismarck/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/otto-von-bismarck-review.json) |
+| [Alice Weidel](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/alice-weidel/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/alice-weidel-review.json) |
+| [Ian Smith](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/ian-smith/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/ian-smith-review.json) |
+| [Heinrich Himmler](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/heinrich-himmler/1.json) | personality | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/heinrich-himmler-review.json) |
+| [Thomas Sewell](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/thomas-sewell/2.json) | personality | 2 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/thomas-sewell/2.json) |
+| [Capitalism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/capitalism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/capitalism-review.json) |
+| [Leninism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/leninism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/leninism-review.json) |
+| [Titoism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/titoism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/titoism-review.json) |
+| [Neo-Nazism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/neo-nazism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/neo-nazism-review.json) |
+| [Marxism–Leninism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/marxism-leninism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/marxism-leninism-review.json) |
+| [Fanonism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/fanonism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/fanonism-review.json) |
+| [Christian nationalism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/christian-nationalism/1.json) | ideology | 1 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/reports/personality-additions-2026-10-06/christian-nationalism-review.json) |
+| [Vladimir Lenin](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/vladimir-lenin/5.json) | personality | 5 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/vladimir-lenin/5.json) |
+| [Ho Chi Minh](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/ho-chi-minh/7.json) | personality | 7 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/ho-chi-minh/7.json) |
+| [Clement Attlee](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/clement-attlee/4.json) | personality | 4 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/clement-attlee/4.json) |
+| [Bernie Sanders](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/bernie-sanders/6.json) | personality | 6 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/bernie-sanders/6.json) |
+| [Keir Starmer](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/keir-starmer/4.json) | personality | 4 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/keir-starmer/4.json) |
+| [Javier Milei](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/javier-milei/4.json) | personality | 4 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/javier-milei/4.json) |
+| [John Locke](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/john-locke/6.json) | personality | 6 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/john-locke/6.json) |
+| [Robert Menzies](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/robert-menzies/4.json) | personality | 4 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/personality/robert-menzies/4.json) |
+| [Trotskyism](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/trotskyism/5.json) | ideology | 5 | 240/240 | 240; [exact IDs and limitations](/Users/liam/Documents/GitHub/15values/profile-audit/answers/ideology/trotskyism/5.json) |
+
+All 240 responses in each new record are conservatively classified as inferred contextual estimates. They are not claims that the subject personally completed this questionnaire. The exact IDs are retained per profile in completion.json and the separate reviews. Historical and otherwise undocumented modern mechanisms have explicit uncertainty. Neutral mechanisms, personal religion, agreement direction, counter-evidence and close neighbours were reviewed in a distinct Codex self-review, not an independent human review.
+
+Validation and immutable archiving passed for all 25 additions. Catalogue generation passed; the initial generated catalogue had 228 entries and the final check has 229, including a concurrent Rupert Murdoch addition outside this batch. Religion supplement revision 2 preserves all previous answers. The history check passed against the recorded Git base.
+
+539 unit tests passed, the production build passed, and direct desktop/mobile browser checks passed for all 34 requested or associated entries. All 68 downloaded files are identical to their permanent repository assessments. See browser-results.json and the verification logs for actual results.
+
+Browser suite results:
+
+```text
+1 failed
+2 skipped
+213 passed (4.1m)
+
+Targeted rerun:
+1 passed (1.6s)
+```
+
+The earlier shared runs encountered transient missing downloads and test artifacts. The final suite used a copied application/test workspace and a separate server. No earlier failure is represented as a pass. Local catalogue changes are complete; no deployment, merge or PR was performed.

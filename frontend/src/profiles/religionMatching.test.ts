@@ -8,6 +8,22 @@ import { profileFixture } from '../../tests/fixtures/profile';
 import { parseCatalogue } from './catalogueData';
 const faith = (kind: Profile['catalogue'], id: string, value: ReligiousIdentity, percent = 50): Profile => ({ ...profileFixture(kind, id), religion: { value, basis: 'direct', rationale: 'Test identity', sources: [{ title: 'Evidence', url: 'https://example.org/identity' }] }, scores: profileFixture(kind, id).scores.map(s => ({ ...s, leftPercent: percent, rightPercent: 100 - percent })) });
 describe('religion eligibility without changing distance', () => {
+  it('filters result countries by displayed ideology, rather than the respondent’s identity', () => {
+    const person = faith('personality', 'subject', 'christian');
+    const result = { scores: person.scores, axesVersion: person.axesVersion, questionBankVersion: person.questionBankVersion, scoringVersion: person.scoringVersion, religiousIdentity: 'christian' as const };
+    const country = (id: string, value: ReligiousIdentity, percent: number) => ({ ...faith('country', id, 'none', percent), countryReligion: { eligibleReligions: [value], populationShares: { [value]: 60 }, sourceYear: 2020, rationale: 'Country context', sources: [{ title: 'Evidence', url: 'https://example.org' }] } });
+    const india = country('india', 'hindu', 50);
+    const christianCountry = country('christian-country', 'christian', 60);
+    const religious = faith('ideology', 'christian-accelerationism', 'christian');
+    const general = faith('ideology', 'conservatism', 'none');
+    const countries = [india, christianCountry, profileFixture('country', 'missing')];
+    expect(matchResultProfiles(result, countries, 'country', [religious])?.profiles.map(p => p.id)).toEqual(['christian-country']);
+    expect(matchResultProfiles(result, countries, 'country', [general])?.profiles.map(p => p.id)).toContain('india');
+    expect(matchResultProfiles(result, countries, 'country', [general, religious])?.profiles.map(p => p.id)).toEqual(['christian-country']);
+    expect(matchResultProfiles(result, [india], 'country', [religious])).toBeNull();
+    expect(matchResultProfiles(result, countries, 'country', [religious])?.meanAbsoluteDistance).toBe(10);
+    expect(result.scores.every(s => s.leftPercent === 50)).toBe(true);
+  });
   it.each(['hindu', 'muslim', 'christian'] as const)('requires matching identity for %s ideologies, and never forces a match', value => {
     const religious = faith('ideology', 'religious', value), general = faith('ideology', 'general', 'none', 55);
     for (const option of religionOptions) {

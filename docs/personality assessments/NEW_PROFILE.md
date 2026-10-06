@@ -107,6 +107,35 @@ ridicule. It is supplied by the profile, never assembled from axis percentages.
 Representative countries/people are not mandatory links: do not invent examples
 to satisfy a mapping. These three catalogues can grow independently.
 
+### Personality tags and filters
+
+Follow existing personality cards: calculated closest ideology, concise role tags,
+and the best-known country flag. Keep the full office, organisation, historical
+period and qualifications in metadata and the description, rather than making
+those phrases new tags or dropdown options. Never derive roles from axis scores.
+
+Reuse the shared categories in `frontend/src/profiles/profileTags.ts`: Prime
+minister, President, Vice President, Chancellor, Premier, Mayor, MP, MEP,
+Senator, Representative, Secretary of state, Economist, Philosopher, Political
+theorist, Activist, Founder, Leader, Military leader, Monarch and Politician.
+Preserve documented additional MP, Dictator and Political Party Leaders browse
+membership where applicable. For example, Helen Zille uses Premier; Thomas
+Rousseau uses Founder; Ernst Röhm uses Military leader; a named king uses Monarch.
+Organisation names and country-qualified offices do not create separate filters.
+
+A new category is exceptional: add one only for a notable, distinct role or a
+clear outlier that cannot accurately fit an existing category. Explain that
+reason in the contribution/review and implement the shared mapping explicitly.
+A unique job title, party name, long biography or missing regex match is not a
+reason. Unrecognised political roles use Politician until reviewed; do not expose
+raw role metadata as a filter. Apply the same standard across political groups.
+Do not add ideology filters from a personality's self-description: use the existing
+calculated compatible ideology match and country mapping.
+
+Verify the new person appears under the intended existing filters on desktop and
+mobile, their role tags are concise, and unrelated new dropdown options were not
+introduced. Keep immutable answer archives unchanged for display-only corrections.
+
 Find the image on **Wikimedia Commons** (`commons.wikimedia.org`): an authentic
 portrait for a personality, or a flag appropriate to the represented period for
 a country. Follow the existing Andy Burnham photograph as the sourcing and credit

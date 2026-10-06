@@ -1,0 +1,31 @@
+{
+  "subject": "David Shoebridge",
+  "revision": 1,
+  "answered": 240,
+  "permanentAnswers": "profile-audit/answers/personality/david-shoebridge/1.json",
+  "versions": {
+    "bank": "4.0.0",
+    "axes": "2.0.0",
+    "scoring": "2.0.0"
+  },
+  "catalogueGeneration": {
+    "passed": true,
+    "profiles": 230,
+    "addedOnly": [
+      "personality/david-shoebridge"
+    ]
+  },
+  "assumptionIds": "All 240 scored IDs enumerated in evidence-review.json; religious-identity separately inferred in religion-review.json.",
+  "checks": {
+    "questions": "passed: 240 across 15 axes",
+    "profiles": "passed: 230 profiles",
+    "build": "passed after final role/flag changes",
+    "unitTests": "539 passed; bundled Git used, 20-second timeout for CLI lifecycle tests. Initial runs encountered system Git Xcode licence and then timeout; no test source changed.",
+    "history": "passed against HEAD; archive/image history preserved",
+    "preservation": "Prior archive hashes and religion revision 3 answers preserved; only named subject added",
+    "browser": "Desktop 1440x1000 and mobile 390x844: 15 axes, image loaded, no horizontal overflow, search card, leader tag, Australia flag, footer credits and source/licence URLs verified. Download returned HTTP 200, revision 1 and 240 answers. Screenshots visually reviewed.",
+    "fullE2E": "215 passed, 2 skipped, 5 failed. Three existing Lenin fixture role expectations expect Head of government but existing tag logic yields Dictator; one mobile font-loading failure; one assessment test failed during trace cleanup with ENOENT.",
+    "downloadRecheck": "All 230 assessment downloads passed isolated desktop recheck (1 test)."
+  },
+  "limitations": "AI assessment and separate self-review, not independent human review. All exact responses conservatively inferred; Culture\u2013Nature evidence particularly weak. Religious identity undisclosed. No PR, merge or deployment."
+}

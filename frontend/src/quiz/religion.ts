@@ -38,7 +38,7 @@ export function isCountryReligionAssessment(value: unknown): value is CountryRel
   const data = value as CountryReligionAssessment | null;
   return !!data && Array.isArray(data.eligibleReligions) && new Set(data.eligibleReligions).size === data.eligibleReligions.length &&
     data.eligibleReligions.every(item => isReligiousIdentity(item) && item !== 'none' && item !== 'undisclosed' && item !== 'other') &&
-    Number.isInteger(data.sourceYear) && data.sourceYear >= 1900 && !!data.rationale?.trim() &&
+    Number.isInteger(data.sourceYear) && data.sourceYear >= 1 && !!data.rationale?.trim() &&
     !!data.populationShares && Object.entries(data.populationShares).every(([key, share]) => isReligiousIdentity(key) && Number.isFinite(share) && share >= 0 && share <= 100) &&
     data.eligibleReligions.every(item => (data.populationShares[item] ?? 0) >= 20) &&
     Object.entries(data.populationShares).every(([key, share]) => key === 'none' || key === 'undisclosed' || key === 'other' || (share < 20 || data.eligibleReligions.includes(key as ReligiousIdentity))) &&

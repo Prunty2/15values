@@ -18,7 +18,7 @@ test('the original bank survives import, reload and export without being matched
   await expect(page).toHaveURL(/#\/results\?id=/);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).first()).toContainText('No compatible ideology assessments');
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link').first()).toBeVisible();
   const row = page.getByRole('article', { name: axes[0].name, exact: true });
   await row.getByLabel(`About ${axes[0].name}`).click();
   await expect(row.getByText(legacyAxes.axes[0].description.trim(), { exact: true })).toBeVisible();

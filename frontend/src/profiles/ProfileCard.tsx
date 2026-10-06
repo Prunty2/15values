@@ -10,11 +10,12 @@ export default function ProfileCard({ profile, route }: { profile: Profile; rout
   const country = profile.catalogue === 'country';
   const ideologyTags = profileTagsForKind(profile, 'ideology');
   const ideologyTagColor = (tag: string) => {
+    if (profile.historicalContext?.ideology?.name === tag) return matchedIdeologyGroup(profile.historicalContext.ideology.id).color;
     const match = profile.closestIdeology?.ideologies.find(ideology => ideology.name === tag);
     return match ? matchedIdeologyGroup(match.id).color : profileTagColor(tag);
   };
   const classificationTags = <>
-    {ideologyTags.map(tag => <li key={tag} aria-label={`${profile.closestIdeology ? 'Closest ideology' : 'Recorded ideology'}: ${tag}`} style={{ '--tag-color': ideologyTagColor(tag) } as CSSProperties}>{tag}</li>)}
+    {ideologyTags.map(tag => <li key={tag} aria-label={`${profile.historicalContext?.ideology ? 'Historical ideology' : profile.closestIdeology ? 'Closest ideology' : 'Recorded ideology'}: ${tag}`} style={{ '--tag-color': ideologyTagColor(tag) } as CSSProperties}>{tag}</li>)}
     {!ideologyTags.length ? <li>{profile.withdrawal ? 'Match unavailable' : 'Ideology not assessed'}</li> : null}
   </>;
   const flag = country ? undefined : personalityFlag(profile.id);
@@ -22,7 +23,7 @@ export default function ProfileCard({ profile, route }: { profile: Profile; rout
     <a className={s.profileLink} href={`#/${route}/${profile.id}`} aria-label={metadata.name}>
       <div className={s.profileBody}>
         <div className={s.profileImage}>
-          {metadata.image ? <img src={`${import.meta.env.BASE_URL}${metadata.image.path}`} alt={metadata.image.alt} loading="lazy" width="240" height="300" /> : <span className={s.imageFallback} aria-hidden="true">{metadata.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('')}</span>}
+          {metadata.image ? <img src={`${import.meta.env.BASE_URL}${metadata.image.path}`} alt={metadata.image.alt} style={profile.id === 'thomas-sewell' ? { objectPosition: '75% 25%' } : undefined} loading="lazy" width="240" height="300" /> : <span className={s.imageFallback} aria-hidden="true">{metadata.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('')}</span>}
         </div>
         <div className={s.profileCopy}>
           {!country ? <p className={s.profileCategory}>{profileTags(profile)[0]}</p> : null}

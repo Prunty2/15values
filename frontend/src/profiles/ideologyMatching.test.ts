@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { closestIdeology, ideologyComparisonDetails, matchResultIdeology, matchResultProfiles, withIdeologyMatches } from './ideologyMatching';
+import { matchCentristProfiles, closestIdeology, ideologyComparisonDetails, matchResultIdeology, matchResultProfiles, withIdeologyMatches } from './ideologyMatching';
 import { parseCatalogue } from './catalogueData';
 import { profileFixture } from '../../tests/fixtures/profile';
 
@@ -79,4 +79,21 @@ it.each(['personality', 'country'] as const)('matches quiz results to %s with ti
   expect(matchResultProfiles(subject, [a, b], kind)?.profiles.map(item => item.id)).toEqual(['b']);
   expect(matchResultProfiles({ ...subject, scoringVersion: 'old' }, [a, b], kind)).toBeNull();
   expect(matchResultProfiles(subject, [], kind)).toBeNull();
+});
+
+it.each(['personality', 'country'] as const)('does not let average similarity conceal a material midpoint disagreement for %s', kind => {
+  const subject = profile('personality', 'subject', 50);
+  const nearAverage = profile(kind, 'near-average', 50);
+  nearAverage.scores[0] = { ...nearAverage.scores[0], leftPercent: 68.8, rightPercent: 31.2 };
+  const consistentlyNear = profile(kind, 'consistently-near', 60);
+  expect(matchCentristProfiles(subject, [nearAverage, consistentlyNear], kind)?.profiles.map(p => p.id)).toEqual(['consistently-near']);
+  expect(matchCentristProfiles(subject, [nearAverage], kind)).toBeNull();
+  nearAverage.scores[0] = { ...nearAverage.scores[0], leftPercent: 31.2, rightPercent: 68.8 };
+  expect(matchCentristProfiles(subject, [nearAverage, consistentlyNear], kind)?.profiles.map(p => p.id)).toEqual(['consistently-near']);
+  const tied = profile(kind, 'tied', 40);
+  expect(matchCentristProfiles(subject, [tied, consistentlyNear], kind)?.profiles.map(p => p.id)).toEqual(['consistently-near', 'tied']);
+  const boundary = profile(kind, 'boundary', 65);
+  expect(matchCentristProfiles(subject, [boundary], kind)?.profiles[0].id).toBe('boundary');
+  boundary.scores[0] = { ...boundary.scores[0], leftPercent: 65.1, rightPercent: 34.9 };
+  expect(matchCentristProfiles(subject, [boundary], kind)).toBeNull();
 });

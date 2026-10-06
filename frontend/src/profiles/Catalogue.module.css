@@ -65,8 +65,10 @@
 .browseToolbar .search { display: block; flex: 1 1 260px; max-width: none; margin: 0; }
 .browseToolbar .search input { height: 46px; padding: 12px 18px; background: var(--paper); border-radius: 24px; font-size: 14px; }
 .filterToolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
-.filterLabel { display: block; min-width: 0; }
-.filterLabel select { height: 46px; max-width: 220px; font: inherit; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--surface); border: 0; border-radius: 24px; padding: 0 32px 0 16px; cursor: pointer; }
+.filterLabel { display: block; min-width: 0; position: relative; }
+.filterLabel::after { content: ''; position: absolute; right: 17px; top: 18px; width: 7px; height: 7px; border-right: 2px solid var(--ink); border-bottom: 2px solid var(--ink); transform: rotate(45deg); pointer-events: none; }
+.profileTags, .profileCategory, .filterLabel, .clearFilters { text-transform: capitalize; }
+.filterLabel select { appearance: none; -webkit-appearance: none; height: 46px; max-width: 220px; font: inherit; font-size: 13px; font-weight: 600; color: var(--ink); background: var(--surface); border: 0; border-radius: 999px; padding: 0 38px 0 16px; cursor: pointer; }
 .clearFilters { background: var(--forest); color: var(--on-accent); border: 0; border-radius: 24px; font-size: 13px; height: 46px; padding: 0 18px; }
 @media (max-width: 700px) { .browseToolbar .search { flex-basis: 100%; } .filterToolbar { width: 100%; } .filterLabel { flex: 1 1 140px; } .filterLabel select { width: 100%; max-width: none; } }
 .countryCard .profileBody { grid-template-columns: minmax(0, 1fr); grid-template-rows: 120px 1fr; align-content: start; gap: 0; padding: 0; }

@@ -1,3 +1,4 @@
+import { selectionQuestions } from '../src/quiz/selection';
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { QUESTION_BANK_VERSION, axes, scoreAnswers, selectQuestions, answerOptions, formats } from '../src/quiz/model';
@@ -18,7 +19,7 @@ test('bank 2 results preserve scores through import, reload and export without n
   await expect(page).toHaveURL(/#\/results\?id=/);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).first()).toContainText('No compatible ideology assessments');
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link').first()).toBeVisible();
   await expect(page.getByRole('article', { name: axes.find(a => a.id === 'authority-liberty')!.name, exact: true })).toBeVisible();
   const waiting = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export history', exact: true }).click();
@@ -65,7 +66,7 @@ for (const format of formats) {
     await page.emulateMedia({ reducedMotion: 'reduce' });
     await page.goto(`./#/quiz/run?length=${format.id}`);
     await page.getByRole('checkbox', { name: 'Advance on answer' }).uncheck();
-    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(format.questions + 1));
+    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(format.questions + 5));
     const answers: Answers = {};
     for (const [index, question] of selectQuestions(format.id).entries()) {
       await expect(page.locator('#question-title')).toHaveText(question.text);
@@ -74,7 +75,12 @@ for (const format of formats) {
       await page.getByRole('radio', { name: option.label, exact: true }).check();
       await page.getByRole('button', { name: 'Next', exact: true }).click();
     }
-    await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
+    for (const question of selectionQuestions) {
+    await expect(page.locator('#question-title')).toHaveText(question.text);
+    await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+    await page.getByRole('button', { name: 'Next', exact: true }).click();
+  }
+  await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
     await page.getByRole('radio', { name: 'No religion', exact: true }).check();
     await page.getByRole('button', { name: 'See my results', exact: true }).click();
     await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();

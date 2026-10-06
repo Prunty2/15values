@@ -175,6 +175,8 @@ Political leaning labels are removed from profile detail pages and catalogue car
 
 ## Quiz result personality and country comparisons
 
+Authorised 6 October 2026. When results display a faith-specific closest ideology, the country candidates must qualify for that ideology’s faith under the existing sourced 20% population-share rule. If closest ideologies tie, countries must meet every displayed faith prerequisite. General ideologies impose no religious restriction, even when the respondent identifies with a religion. Countries are still ranked against the respondent’s unchanged 15-axis scores, rather than the ideology’s scores. Missing qualifying candidates show comparison unavailable. This applies when viewing both new and saved results.
+
 Authorised 5 October 2026. Results show the closest compatible, non-withdrawn personality and country assessments, retaining all ties within 1e-9. Each of the 15 axes has equal weight; similarity is 100 minus mean absolute score distance, displayed to one decimal place. Matches link to catalogue profiles and are recomputed when viewed. Loading failures, empty catalogues and incompatible versions show unavailable explanations. These estimates inherit assessment and question-bank limitations and do not imply identity, affiliation or endorsement. Saved scores, exports, ideology colours and perspective statements are unchanged.
 
 ## Ideology profile person and country comparisons
@@ -279,3 +281,112 @@ The complete batch and per-subject answer links are recorded in
 `profile-audit/reports/authority-liberty-policy-2026-10-06/`. Saved versions 1,
 2 and 3 retain their recorded scores. Current profile matching requires exact
 compatible versions; old results are not silently recalculated.
+
+### Selection eligibility supplement (6 October 2026)
+
+The owner chose to retain all 15 axes and add separate selection questions for
+match eligibility. Every format now asks three additional five-point statements
+before the existing final religious-identity question. The scored lengths remain
+45, 75, 135 and 240; total prompts are 49, 79, 139 and 244. These questions measure
+identity-neutral hiring, identity-neutral admissions, and support for helping
+applicants develop skills. They are versioned in `frontend/src/data/selection.v1.json`.
+Their answers are saved/exported as a separate supplement; they do not affect any
+axis, question-bank version, scoring version, or equal-axis distance.
+
+The Meritocracy catalogue template requires affirmative agreement with both
+identity-neutral selection statements. Disagreement, neutrality, missing answers,
+or an unsupported supplement version does not establish eligibility. Support for
+removing barriers or developing skills does not itself disqualify a match. The rule
+applies to quiz results, personality/country ideology matches, and comparisons from
+Meritocracy to personalities/countries. Manual axis comparisons remain available
+as numerical comparisons. This does not define all DEI policies as anti-merit or
+claim that meritocracy has a universally agreed definition.
+
+Profile evidence is stored separately in
+`profile-audit/selection-assessments/1.json`; unassessed profiles are not presumed
+to endorse these selection principles. Harris's admissions answer is inferred
+from her 29 June 2023 opposition to the ruling against race-conscious admissions,
+with the uncertainty recorded in the supplement. Her other two positions remain
+unassessed here. The supplement does not change her 240 scored answers or revision.
+
+Generated profiles mark the matching policy as `selection-v1`. Historical catalogue
+snapshots lacking that marker remain readable, and their matches are recalculated
+under the current eligibility policy without changing historical scores or source
+archives. Older saved results without selection answers remain valid, but cannot
+establish eligibility for Meritocracy. A numerical similarity is still proximity
+on the measured axes, not proof of membership in an ideology.
+
+### Midpoint personality and country comparisons
+
+Following the owner's 6 October 2026 request to prevent a midpoint result from
+being described as compatible with a substantially one-sided profile, automatic
+personality and country comparisons for results at exactly 50% / 50% on all
+15 axes require every candidate axis to be within 15 percentage points of the
+midpoint. This uses the existing leaning-range boundary as a conservative
+eligibility policy; it is not an empirically validated compatibility threshold.
+Eligible candidates still rank by equally weighted mean absolute distance,
+retaining ties and exact version requirements. No eligible assessment produces
+“No close match”, with the limit explained. This rule applies symmetrically to
+both poles and all named profiles, without changing profile evidence, saved
+scores, scoring 2.0.0, non-midpoint matching or manual comparisons.
+
+### Five-topic ideology matching (6 October 2026)
+
+The owner requested five broadly varied questions labelled **Ideology matching**.
+Current supplement `selection.v2.json` replaces the two overlapping hiring and
+admissions items with one combined selection statement, retains opportunity/skill
+support, and adds social ownership, replacing the state, and one-party government.
+The five statements appear together after all scored questions and before religion.
+Total prompts are now 51, 81, 141 and 246. The 240-question scored bank, 15 axes,
+scoring formula and equal-axis distances remain unchanged.
+
+Affirmative agreement is required only for defining commitments of the scoped
+catalogue templates: Meritocracy (individual selection plus equal opportunity),
+Socialism and Democratic Socialism (social ownership), Social Anarchism (social
+ownership and replacing the state), Anarcho-capitalism (replacing the state), and
+Marxism–Leninism (social ownership and one-party rule). Agreement establishes
+eligibility, not a match by itself; eligible candidates still rank by all 15 axes.
+Other ideologies are not presumed to hold the opposite view. Missing or neutral
+answers do not establish a defining commitment. This prevents an incompatible
+fringe position from being averaged away by agreement on unrelated dimensions.
+
+Sources for the construct review include the Stanford Encyclopedia of Philosophy
+entries on Socialism and Anarchism, Stalin's 1926 *Concerning Questions of Leninism*,
+and each template's existing sourced scope. The ownership statement concerns major
+businesses, not every small firm. The stateless statement covers both private market
+provision and communal voluntary provision; it does not assume that all anarchists
+agree about economic ownership. One-party rule is applied to the orthodox
+Marxism–Leninism template, not to all socialist traditions or to all Leninist interpretations.
+
+The original `selection.v1.json`, its evidence supplement and saved answers are
+preserved. Version 1 Meritocracy evidence retains its original two requirements;
+those answers are never relabelled as responses to the combined version 2 item.
+New fringe requirements cannot be established from an old three-question supplement.
+Current generated matches use policy marker `selection-v2`. Old results and snapshots
+remain readable; numerical scores and immutable assessments do not change. Profiles
+without supplemental evidence may have fewer eligible ideology comparisons, rather
+than fabricated answers. Harris's earlier inferred `selection-admissions` answer
+remains preserved and does not establish a response to the new combined statement.
+
+### Approved five-question Ideology Matching section (6 October 2026)
+
+Current supplement `selection.v3.json` uses the owner's approved, explicit preference
+statement: “When applicants are equally qualified, employers and colleges should
+be allowed to favour an applicant because their racial or sex group is underrepresented.”
+Agreement supports that preference; disagreement opposes it. Current Meritocracy
+eligibility requires Disagree or Strongly disagree. The skill-development question
+has been removed and does not determine current eligibility.
+
+The section now has exactly five prompts: (1) the preference statement, (2) major
+business ownership, (3) replacing the state, (4) one-party government, and (5) religious
+identity. The four statements use five-point agreement responses. Religion retains
+its existing identity choices, including no religion and prefer not to say, and
+its existing faith-specific matching rules. All five are labelled **Ideology Matching**
+and remain unscored. Total prompts are 50, 80, 140 and 245 respectively.
+
+New results retain statement answers as supplement 3.0.0 and religion separately.
+Versions 1 and 2 and all archived evidence remain readable and retain their original
+question meanings and Meritocracy requirements. No response is automatically transferred
+into the new preference statement. Other defining requirements remain unchanged.
+Generated comparisons use `selection-v3`. All 240 scored questions, 15 axes, scores
+and scoring versions are unchanged.

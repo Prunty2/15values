@@ -1,3 +1,4 @@
+import { selectionQuestions } from '../src/quiz/selection';
 import { test, expect } from '@playwright/test';
 import { selectQuestions } from '../src/quiz/model';
 
@@ -31,6 +32,10 @@ test('default auto advance completes a quiz and leaves the final submission expl
     await expect(page.locator('#question-title')).toHaveText(question.text);
     await page.getByRole('radio', { name: 'Agree', exact: true }).click();
   }
+  for (const question of selectionQuestions) {
+    await expect(page.locator('#question-title')).toHaveText(question.text);
+    await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+  }
   await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeDisabled();
   await page.getByRole('radio', { name: 'No religion', exact: true }).check();
@@ -55,7 +60,7 @@ test('all question wordings fit laptop, phone and landscape windows without scro
         const answers = document.querySelector('fieldset')!.getBoundingClientRect();
         return document.documentElement.scrollHeight > innerHeight || document.documentElement.scrollWidth > innerWidth || (titleBox.bottom > answers.top && titleBox.right > answers.left);
       });
-    }, selectQuestions('comprehensive').map(question => question.text));
+    }, [...selectQuestions('comprehensive'), ...selectionQuestions].map(question => question.text));
     expect(overflow, `${size.width} × ${size.height}`).toEqual([]);
   }
 });

@@ -181,9 +181,13 @@ describe('profile lifecycle', () => {
     const git = (args: string[]) => execFileSync('git', args, { cwd: base, stdio: 'pipe' });
     git(['init']); git(['config', 'user.name', 'Test']); git(['config', 'user.email', 'test@example.org']);
     const path = join(base, 'profile-audit/answers/ideology/example/1.json'); save(path, fixture());
+    const contextPath = join(base, 'profile-audit/country-classifications/1.json'); save(contextPath, { schemaVersion: 1 });
     git(['add', '.']); git(['commit', '-m', 'Test base']);
     run(['history', 'HEAD'], base); writeFileSync(path, '{}');
     expect(() => run(['history', 'HEAD'], base)).toThrow(/immutable/);
+    git(['checkout', '--', path]);
+    writeFileSync(contextPath, '{}');
+    expect(() => run(['history', 'HEAD'], base)).toThrow(/country-classifications/);
     expect(() => run(['history', '--help'], base)).toThrow(/Usage/);
   });
 });

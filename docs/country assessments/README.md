@@ -1,5 +1,20 @@
 # Adding countries and historical regimes
 
+Historical profiles also have a sourced, unscored political-context description in
+`profile-audit/country-classifications/`. The supplement binds each description to
+the country assessment revision and period. The generator publishes it with the
+catalogue; append a supplement revision when changing published descriptions.
+Country headers show this historical context alongside an ideology comparison.
+For the five historical accuracy corrections authorised on 6 October 2026,
+the supplement also selects a sourced, revision-bound doctrine reference.
+Cards, search and filters use that reference, and the header labels it **Historical
+ideology**, showing similarity calculated across the unchanged 15 equally weighted
+axes. The reference must resolve to a current compatible and eligible ideology;
+stale or missing references fail generation and catalogue validation.
+The automatically calculated closest-score match remains separate in the data
+and quiz matching. Other countries retain that numerical comparison. Do not tune
+answers or override generated scores to make a historical label the nearest.
+
 Use `$new-country <name and period>` in Codex or `/new-country <name and period>`
 in Claude Code. For an existing assessment, use `audit-country` with its ID.
 Follow the [shared assessment procedure](<../personality assessments/NEW_PROFILE.md>)

@@ -25,7 +25,11 @@ describe('complete bounded-policy Authority–Liberty reassessment', () => {
     const contexts = read(report + 'retained-context.json') as { catalogue: string; id: string }[];
     expect(completion.profiles).toHaveLength(209);
     expect(completion.profiles.map(p => p.catalogue + '/' + p.id).sort()).toEqual(contexts.map(p => p.catalogue + '/' + p.id).sort());
-    expect(catalogue).toHaveLength(completion.profiles.filter(p => !p.excluded).length);
+    // The migration covers its original cohort; later additions are independent assessments.
+    const exclusions = new Set((read('profile-audit/catalogue-exclusions.json') as { catalogue: string; id: string }[]).map(p => p.catalogue + '/' + p.id));
+    const migratedIds = new Set(completion.profiles.map(p => p.catalogue + '/' + p.id));
+    expect(catalogue.filter(p => migratedIds.has(p.catalogue + '/' + p.id)))
+      .toHaveLength(completion.profiles.filter(p => !exclusions.has(p.catalogue + '/' + p.id)).length);
     for (const change of changes) {
       expect(change.previousText).toBe(oldBank.find(q => q.id === change.id)!.text);
       expect(change.text).toBe(questions.find(q => q.id === change.id)!.text);
@@ -60,14 +64,20 @@ describe('complete bounded-policy Authority–Liberty reassessment', () => {
     const previousScores = scoreAnswers('comprehensive', Object.fromEntries(oldAnswers.map(a => [a.questionId, a.value])) as Answers);
     expect(scores.filter(s => s.axisId !== 'authority-liberty')).toEqual(previousScores.filter(s => s.axisId !== 'authority-liberty'));
     const current = catalogue.find(p => p.catalogue === entry.catalogue && p.id === entry.id);
-    expect(Boolean(current)).toBe(!entry.excluded);
+    const exclusions = read('profile-audit/catalogue-exclusions.json') as { catalogue: string; id: string }[];
+    expect(Boolean(current)).toBe(!exclusions.some(p => p.catalogue === entry.catalogue && p.id === entry.id));
     if (current) {
-      expect(current.scores).toEqual(scores);
-      expect(current.revision).toBe(audit.revision);
+      // Later owner-authorised audits can supersede the migration revision.
+      // Verify the migration archive and the current catalogue independently.
+      expect(current.revision).toBeGreaterThanOrEqual(audit.revision);
+      const latest = read(`profile-audit/answers/${entry.catalogue}/${entry.id}/${current.revision}.json`) as Audit;
+      const latestAnswers = latest.axes.flatMap(a => a.answers);
+      expect(current.scores).toEqual(scoreAnswers('comprehensive', Object.fromEntries(latestAnswers.map(a => [a.questionId, a.value])) as Answers));
       const old = oldCatalogue.find(p => p.catalogue === entry.catalogue && p.id === entry.id)!;
       if (!entry.concurrentReassessment) expect(scores.filter(s => s.axisId !== 'authority-liberty')).toEqual(old.scores.filter(s => s.axisId !== 'authority-liberty'));
       const download = read(`frontend/public/${current.auditPath}`) as Audit;
-      expect(download).toEqual(audit);
+      expect(download).toEqual(latest);
+      expect(read(`frontend/public/profiles/audits/${entry.catalogue}/${entry.id}/${audit.revision}.json`)).toEqual(audit);
     }
   });
 });

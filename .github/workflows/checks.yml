@@ -32,7 +32,6 @@ jobs:
         run: npm run profiles -- history "$PROFILE_BASE_SHA"
       - run: npm run questions:check
       - name: Unit tests
-        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
         run: npm test
       - name: Configure GitHub Pages
         id: pages
@@ -43,10 +42,8 @@ jobs:
           VITE_SITE_URL: ${{ steps.pages.outputs.base_url }}
         run: npm run build
       - name: Install test browsers
-        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
         run: npx playwright install --with-deps chromium webkit
       - name: Browser tests
-        if: github.event_name == 'pull_request' || github.ref != 'refs/heads/main'
         run: npm run test:e2e
       - name: Upload verified website
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

@@ -34,7 +34,7 @@ test('navigation supports back, reload, current page, and keyboard focus', async
   if (testInfo.project.name === 'desktop') {
     const nav = page.getByRole('navigation', { name: 'Main navigation' });
     const bounds = await nav.boundingBox();
-    expect(Math.abs(bounds!.x + bounds!.width / 2 - page.viewportSize()!.width / 2)).toBeLessThan(1);
+    expect(Math.abs(bounds!.x + bounds!.width / 2 - (await page.evaluate(() => document.documentElement.clientWidth)) / 2)).toBeLessThan(1);
     await expect(nav).toHaveCSS('font-size', '17px');
   }
   if (testInfo.project.name === 'mobile') await page.getByRole('button', { name: 'Open navigation' }).click();
@@ -105,7 +105,7 @@ test('mobile primary action precedes the example and is visible without scrollin
   await page.evaluate(() => document.fonts.ready);
   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
   const button = await action.boundingBox();
-  const example = await page.getByRole('region', { name: 'Example profile comparison', exact: true }).boundingBox();
+  const example = await page.getByRole('region', { name: 'Example comparison', exact: true }).boundingBox();
   expect(button!.y + button!.height).toBeLessThan(740);
   expect(button!.y + button!.height).toBeLessThan(example!.y);
 });

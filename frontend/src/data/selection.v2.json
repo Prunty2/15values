@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "label": "Ideology matching",
+  "questions": [
+    {
+      "id": "matching-merit",
+      "text": "Selection for jobs or college places should use individual ability and achievement, without preference because of race or sex."
+    },
+    {
+      "id": "selection-access",
+      "text": "Institutions should help disadvantaged applicants develop the skills needed to compete on equal terms."
+    },
+    {
+      "id": "matching-ownership",
+      "text": "Major businesses should be owned and controlled by workers or the public rather than private investors."
+    },
+    {
+      "id": "matching-state",
+      "text": "The state should be replaced by voluntary associations, including for courts and public safety."
+    },
+    {
+      "id": "matching-party",
+      "text": "Political power should belong to a single governing party rather than competing parties."
+    }
+  ],
+  "requirements": {
+    "meritocracy": [
+      "matching-merit",
+      "selection-access"
+    ],
+    "socialism": [
+      "matching-ownership"
+    ],
+    "democratic-socialism": [
+      "matching-ownership"
+    ],
+    "social-anarchism": [
+      "matching-ownership",
+      "matching-state"
+    ],
+    "anarcho-capitalism": [
+      "matching-state"
+    ],
+    "marxism-leninism": [
+      "matching-ownership",
+      "matching-party"
+    ]
+  }
+}

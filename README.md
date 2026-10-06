@@ -14,15 +14,17 @@ A political quiz that describes your views across 15 axes.
 | Comprehensive | 240 |
 
 Every format covers all 15 axes using fixed, nested question sets.
-A final, unscored religion question determines eligibility for faith-specific
-ideology matches.
+Five additional, unscored Ideology Matching questions check defining commitments.
+The fifth asks religious identity for faith-specific ideology eligibility.
+There are five additional prompts in every format.
 
 Results show your axis scores and closest compatible ideology, personality
 and country profiles. You can also compare scores manually with ideologies
 and personalities.
 
 Scoring runs in your browser. Completed results save locally, with deletion
-and JSON export/import. Political statement answers are not saved.
+and JSON export/import. Scored statement answers are not saved. Selection and religion answers are saved
+with the result to check match eligibility.
 There are no accounts, database or backend API.
 The site automatically follows your system’s light or dark theme.
 

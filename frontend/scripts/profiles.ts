@@ -1,3 +1,5 @@
+import { isSelectionAssessment } from '../src/quiz/selection.ts';
+import type { SelectionAssessment } from '../src/quiz/selection.ts';
 import { isReligiousIdentity, isCountryReligionAssessment } from '../src/quiz/religion.ts';
 import type { ReligionAssessment, CountryReligionAssessment } from '../src/quiz/religion.ts';
 import { createHash } from 'node:crypto';
@@ -7,8 +9,10 @@ import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { axes, questions, answerOptions, QUESTION_BANK_VERSION, AXES_VERSION, SCORING_VERSION } from '../src/quiz/model.ts';
 import { isSlug, neighbourReview, validateAudit } from '../src/profiles/audit.ts';
+import { historicalIdeologyComparison, validHistoricalContext } from '../src/profiles/historicalContext.ts';
 import { withIdeologyMatches } from '../src/profiles/ideologyMatching.ts';
 import { catalogues } from '../src/profiles/types.ts';
+import type { Question } from '../src/quiz/model.ts';
 import type { Audit, Catalogue, Profile } from '../src/profiles/types.ts';
 
 export const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
@@ -176,6 +180,19 @@ export function buildCatalogue(base: string, check: boolean) {
       phrases.add(phrase);
     }
   }
+  const selectionPaths = files(join(base, 'profile-audit/selection-assessments')).sort((a, b) => Number(a.split('/').pop()!.replace('.json', '')) - Number(b.split('/').pop()!.replace('.json', '')));
+  const selectionPath = selectionPaths.at(-1);
+  const selectionFile = selectionPath ? read(selectionPath) as { schemaVersion: number; revision: number; entries: { catalogue: string; id: string; assessment: SelectionAssessment }[] } : null;
+  if (!selectionFile && resolve(base) === root) fail('A sourced selection supplement is required.');
+  const selections = new Map<string, SelectionAssessment>();
+  if (selectionFile) {
+    if (selectionFile.schemaVersion !== 1 || selectionFile.revision !== selectionPaths.length || selectionPaths.some((path, index) => !path.endsWith('/' + (index + 1) + '.json')) || !Array.isArray(selectionFile.entries)) fail('Invalid selection supplement.');
+    for (const entry of selectionFile.entries) {
+      const key = entry.catalogue + '/' + entry.id;
+      if (selections.has(key) || !profiles.some(profile => profile.catalogue === entry.catalogue && profile.id === entry.id) || !isSelectionAssessment(entry.assessment)) fail('Invalid selection assessment: ' + key);
+      selections.set(key, entry.assessment);
+    }
+  }
   const religionPaths = files(join(base, 'profile-audit/religion-assessments')).sort((a, b) => Number(a.split('/').pop()!.replace('.json', '')) - Number(b.split('/').pop()!.replace('.json', '')));
   const religionPath = religionPaths.at(-1);
   const religionFile = religionPath ? read(religionPath) as { schemaVersion: number; revision: number; answers: { catalogue: string; id: string; answer: ReligionAssessment; representativePersonalityId?: string }[] } : null;
@@ -199,12 +216,29 @@ export function buildCatalogue(base: string, check: boolean) {
     if (countryReligions.has(entry.id) || !profiles.some(profile => profile.catalogue === 'country' && profile.id === entry.id) || !isCountryReligionAssessment(entry.assessment)) fail('Invalid country religion assessment: ' + entry.id);
     countryReligions.set(entry.id, entry.assessment);
   }
+  const contextPaths = files(join(base, 'profile-audit/country-classifications')).sort((a, b) => Number(a.split('/').pop()!.replace('.json', '')) - Number(b.split('/').pop()!.replace('.json', '')));
+  const contextPath = contextPaths.at(-1);
+  const contextFile = contextPath ? read(contextPath) as { schemaVersion: number; revision: number; reviewedAt: string; reviewer: string; policy: string; entries: (NonNullable<Profile['historicalContext']> & { id: string })[] } : null;
+  if (contextFile && (contextFile.schemaVersion !== 1 || contextFile.revision !== contextPaths.length || contextPaths.some((path, index) => !path.endsWith('/' + (index + 1) + '.json')) || !/^\d{4}-\d{2}-\d{2}$/.test(contextFile.reviewedAt) || !contextFile.reviewer?.trim() || !contextFile.policy?.trim() || !Array.isArray(contextFile.entries))) fail('Invalid historical classification supplement.');
+  const contexts = new Map<string, NonNullable<Profile['historicalContext']>>();
+  for (const entry of contextFile?.entries ?? []) {
+    const profile = profiles.find(profile => profile.catalogue === 'country' && profile.id === entry.id);
+    const { id, ...fields } = entry;
+    const context = { ...fields, revision: contextFile!.revision };
+    if (!profile || contexts.has(id) || !validHistoricalContext(context, profile)) fail('Invalid historical classification: ' + id);
+    contexts.set(id, context);
+  }
   const visibleProfiles = withIdeologyMatches(profiles.filter(profile => !exclusions.has(`${profile.catalogue}/${profile.id}`)).map(profile => {
     if (profile.catalogue === 'country') {
       const countryReligion = countryReligions.get(profile.id);
       if (countryReligionFile && !countryReligion) fail('Missing country religion assessment: ' + profile.id);
       if (countryReligion) profile = { ...profile, countryReligion };
+      const historicalContext = contexts.get(profile.id);
+      if (contextFile && profile.metadata.historical && !historicalContext) fail('Missing historical classification: ' + profile.id);
+      if (historicalContext) profile = { ...profile, historicalContext };
     }
+    const selection = selections.get(profile.catalogue + '/' + profile.id);
+    if (selection) profile = { ...profile, selection };
     const religion = religions.get(profile.catalogue + '/' + profile.id);
     if (religionFile && profile.catalogue !== 'country' && !religion) fail('Missing religion answer: ' + profile.catalogue + '/' + profile.id);
     if (religion) profile = { ...profile, religion: religion.answer, religionRevision: religionFile!.revision, ...(religion.representativePersonalityId ? { representativePersonalityId: religion.representativePersonalityId } : {}) };
@@ -213,7 +247,41 @@ export function buildCatalogue(base: string, check: boolean) {
     const withdrawal = withdrawals.get(`${profile.catalogue}/${profile.id}/${profile.revision}`);
     return withdrawal ? { ...profile, scores: [], withdrawal } : profile;
   }));
+  for (const profile of visibleProfiles) if (profile.historicalContext?.ideology && !historicalIdeologyComparison(profile, visibleProfiles)) fail('Invalid historical ideology reference: ' + profile.id);
   const outputs = new Map<string, string>([[join(base, 'frontend/public/profiles/catalogue.v1.json'), json({ schemaVersion: 1, profiles: visibleProfiles })]]);
+  // One latest assessment per subject and exact version tuple for saved results.
+  const historical = new Map<string, Profile>();
+  for (const { audit } of all) {
+    if (audit.questionBankVersion === QUESTION_BANK_VERSION || exclusions.has(audit.catalogue + '/' + audit.id)) continue;
+    const version = Number(audit.questionBankVersion.split('.')[0]);
+    if (![1, 2, 3].includes(version) || audit.scoringVersion !== SCORING_VERSION) continue;
+    const bank = read(join(root, 'frontend/src/data/questions.v' + version + '.json')) as { version: string; questions: Question[] };
+    const axisData = read(join(root, 'frontend/src/data/axes.v' + (version === 1 ? 1 : 2) + '.json')) as { version: string; axes: typeof axes };
+    const historicalHash = createHash('sha256').update(JSON.stringify({ axes: axisData.axes, questions: bank.questions, SCORING_VERSION })).digest('hex');
+    const result = validateAudit(audit, historicalHash, { questions: bank.questions, questionBankVersion: bank.version, axesVersion: axisData.version });
+    if (!result.profile) fail('Invalid archived assessment ' + audit.catalogue + '/' + audit.id + '/' + audit.revision + ': ' + result.errors.join('\n'));
+    const current = visibleProfiles.find(profile => profile.catalogue === audit.catalogue && profile.id === audit.id);
+    if (!current || current.withdrawal) continue;
+    const { historicalContext: _context, closestIdeology: _match, ...supplements } = current;
+    let profile = { ...supplements, ...result.profile };
+    const name = names.get(profile.catalogue + '/' + profile.id);
+    if (name) profile = { ...profile, metadata: { ...profile.metadata, name } };
+    const withdrawal = withdrawals.get(profile.catalogue + '/' + profile.id + '/' + profile.revision);
+    if (withdrawal) profile = { ...profile, scores: [], withdrawal };
+    const key = [profile.questionBankVersion, profile.axesVersion, profile.scoringVersion, profile.catalogue, profile.id].join('/');
+    if (!historical.has(key) || historical.get(key)!.revision < profile.revision) historical.set(key, profile);
+  }
+  const groups = new Map<string, Profile[]>();
+  for (const profile of [...visibleProfiles, ...historical.values()]) {
+    const key = [profile.questionBankVersion, profile.axesVersion, profile.scoringVersion].join('/');
+    groups.set(key, [...(groups.get(key) ?? []), profile]);
+  }
+  for (const [key, profiles] of groups) {
+    if (key === [QUESTION_BANK_VERSION, AXES_VERSION, SCORING_VERSION].join('/')) continue;
+    outputs.set(join(base, 'frontend/public/profiles/result-catalogues', key.replaceAll('/', '-') + '.v1.json'), json({ schemaVersion: 1, profiles: withIdeologyMatches(profiles) }));
+  }
+  for (const path of selectionPaths) outputs.set(join(base, 'frontend/public/profiles/selection-assessments', path.split('/').pop()!), json(read(path)));
+  for (const path of contextPaths) outputs.set(join(base, 'frontend/public/profiles/country-classifications', path.split('/').pop()!), json(read(path)));
   for (const path of countryReligionPaths) outputs.set(join(base, 'frontend/public/profiles/country-religion-assessments', path.split('/').pop()!), json(read(path)));
   for (const path of religionPaths) outputs.set(join(base, 'frontend/public/profiles/religion-assessments', path.split('/').pop()!), json(read(path)));
   for (const { audit } of all) outputs.set(join(base, 'frontend/public/profiles/audits', audit.catalogue, audit.id, `${audit.revision}.json`), json(audit));
@@ -247,7 +315,7 @@ export function run(args: string[], base = root) {
   if (command === 'history') {
     if (args.length !== 2 || !catalogue || catalogue.startsWith('-')) fail('Usage: npm run profiles -- history <base-ref>');
     const reference = execFileSync('git', ['rev-parse', '--verify', `${catalogue}^{commit}`], { cwd: base, encoding: 'utf8' }).trim();
-    const changed = execFileSync('git', ['diff', '--name-status', '--no-renames', reference, '--', 'profile-audit/answers', 'profile-audit/religion-assessments', 'profile-audit/country-religion-assessments', 'frontend/public/profiles/images'], { cwd: base, encoding: 'utf8' });
+    const changed = execFileSync('git', ['diff', '--name-status', '--no-renames', reference, '--', 'profile-audit/answers', 'profile-audit/selection-assessments', 'profile-audit/religion-assessments', 'profile-audit/country-religion-assessments', 'profile-audit/country-classifications', 'frontend/public/profiles/images'], { cwd: base, encoding: 'utf8' });
     const edits = changed.split('\n').filter(line => line && !line.startsWith('A\t'));
     if (edits.length) fail(`Archived assessments and existing profile images are immutable. Add a new revision instead:\n${edits.join('\n')}`);
     console.log('Archive and image history preserved.');

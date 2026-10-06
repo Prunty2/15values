@@ -16,6 +16,13 @@ Check for an existing entry and draft before creating an ID. Do not populate any
 
 Define the public figure and period. Verify dated positions and actions, including changes and contradictions. Find an authentic portrait on Wikimedia Commons, following Andy Burnham's existing image. Record its Commons File page, creator and licence, and add its reference to the footer-linked Image credits list as required by the shared procedure.
 
+Follow the shared procedure's personality tags and filters section. Reuse the
+existing concise role categories in `frontend/src/profiles/profileTags.ts`; keep
+detailed offices and organisations in metadata, never as automatic filter options.
+Only introduce a category for a notable distinct role or clear outlier that cannot
+fit an existing one, with a recorded reason and explicit shared mapping. Verify
+role tags and existing-filter membership on desktop and mobile.
+
 Carry the authorised profile through research, all 240 most-likely answers,
 separate review, validation, immutable archive, generation and browser checks.
 Use the project's existing scorer. Answer every question. After research, resolve evidence gaps to the most likely

@@ -146,6 +146,38 @@ test('ideology groups combine with search and show only pronounced placements', 
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
+test('personality filter options follow the other selections and search', async ({ page }) => {
+  const profiles = [profileFixture('personality', 'anthony-albanese'), profileFixture('personality', 'donald-trump')];
+  profiles[0].metadata.name = 'Test Australian PM';
+  profiles[0].metadata.role = 'Prime minister';
+  profiles[1].metadata.name = 'Test US President';
+  profiles[1].metadata.role = 'President';
+  const ideologies = [profileFixture('ideology', 'social-democracy'), profileFixture('ideology', 'conservatism')];
+  ideologies[0].metadata.name = 'Social democracy';
+  ideologies[1].metadata.name = 'Conservatism';
+  profiles.forEach((profile, index) => {
+    profile.scores = profile.scores.map(score => ({ ...score, leftPercent: index ? 0 : 100, rightPercent: index ? 100 : 0 }));
+    ideologies[index].scores = profile.scores.map(score => ({ ...score }));
+  });
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles: [...profiles, ...ideologies] } }));
+  await page.goto('./#/personalities');
+  const position = page.getByRole('combobox', { name: 'Position', exact: true });
+  const ideology = page.getByRole('combobox', { name: 'Closest ideology', exact: true });
+  const country = page.getByRole('combobox', { name: 'Country of origin' });
+  await position.selectOption('Prime minister');
+  await expect(ideology.locator('option')).toHaveText(['All Ideologies', 'Social Democracy']);
+  await expect(country.locator('option')).toHaveText(['All Countries', 'Australia']);
+  await ideology.selectOption('Social democracy');
+  await expect(position.locator('option[value="President"]')).toHaveCount(0);
+  await expect(page.locator('main article')).toHaveCount(1);
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(ideology.locator('option')).toHaveCount(3);
+  await expect(country.locator('option')).toHaveCount(3);
+  await page.getByRole('searchbox').fill('US President');
+  await expect(ideology.locator('option')).toHaveText(['All Ideologies', 'Conservatism']);
+  await expect(country.locator('option')).toHaveText(['All Countries', 'United States']);
+});
+
 test('personality filters combine with search and clear together', async ({ page }) => {
   const profiles = [profileFixture('personality', 'andy-burnham'), profileFixture('personality', 'donald-trump')];
   profiles[0].metadata.name = 'Andy Burnham';
@@ -174,6 +206,37 @@ test('personality filters combine with search and clear together', async ({ page
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
 });
 
+test('Political Party Leaders includes different countries and primary offices', async ({ page }) => {
+  const profiles = [
+    profileFixture('personality', 'anthony-albanese'),
+    profileFixture('personality', 'alice-weidel'),
+    profileFixture('personality', 'kim-jong-un'),
+    profileFixture('personality', 'adam-bandt'),
+    profileFixture('personality', 'elon-musk'),
+  ];
+  const names = ['Anthony Albanese', 'Alice Weidel', 'Kim Jong Un', 'Adam Bandt', 'Elon Musk'];
+  profiles.forEach((profile, index) => { profile.metadata.name = names[index]; });
+  profiles[0].metadata.role = 'Prime minister';
+  profiles[1].metadata.role = 'Co-leader of Alternative for Germany';
+  profiles[2].metadata.role = 'North Korean leader';
+  profiles[3].metadata.role = 'Australian Greens leader (2020–2025)';
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles } }));
+  await page.goto('./#/personalities');
+  await page.getByRole('combobox', { name: 'Position', exact: true }).selectOption('Political Party Leaders');
+  await expect(page.locator('main article')).toHaveCount(4);
+  for (const name of names.slice(0, 4)) await expect(page.getByRole('heading', { name, exact: true })).toBeVisible();
+  await expect(page.getByRole('combobox', { name: 'Position', exact: true }).locator('option', { hasText: 'Former Leader' })).toHaveCount(0);
+  await page.getByRole('combobox', { name: 'Position', exact: true }).selectOption('Leader');
+  await expect(page.getByRole('heading', { name: 'Adam Bandt', exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Adam Bandt', exact: true }).getByRole('listitem', { name: 'Position: Leader', exact: true })).toBeVisible();
+  await page.getByRole('combobox', { name: 'Position', exact: true }).selectOption('Political Party Leaders');
+  await page.getByRole('combobox', { name: 'Country of origin' }).selectOption('Germany');
+  await expect(page.locator('main article')).toHaveCount(1);
+  await expect(page.getByRole('heading', { name: 'Alice Weidel', exact: true })).toBeVisible();
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(page.locator('main article')).toHaveCount(5);
+});
+
 test('profile comparisons omit political leaning and link similar people', async ({ page }) => {
   const subject = profileFixture('personality', 'subject');
   const neighbour = profileFixture('personality', 'neighbour');
@@ -199,13 +262,17 @@ test('personality card has exactly ideology, position and origin tags', async ({
   profiles[0].metadata.role = 'Revolutionary and Soviet head of government';
   profiles[0].metadata.category = 'Bolshevism / Marxism–Leninism';
   profiles[0].metadata.politicalLeaning = 'Far left';
+  profiles[0].selection = {
+    version: '3.0.0', answers: { 'matching-ownership': 1 },
+    evidence: [{ questionId: 'matching-ownership', basis: 'direct', rationale: 'Synthetic ownership commitment for the matching fixture.', sources: [{ title: 'Synthetic fixture evidence', url: 'https://example.org/ownership' }] }],
+  };
   profiles[1].metadata.name = 'Calculated ideology';
   await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles } }));
   await page.goto('./#/personalities');
   const tags = page.getByRole('list', { name: 'Profile tags' }).getByRole('listitem');
   await expect(tags).toHaveCount(3);
   await expect(tags.nth(0)).toHaveText('Calculated ideology');
-  await expect(tags.nth(1)).toHaveText('Head of government');
+  await expect(tags.nth(1)).toHaveText('Dictator');
   await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
 });
 
@@ -234,4 +301,30 @@ test('Hindu nationalism shows Right, Modi and sourced Hindu eligibility', async 
   await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Hinduism');
   await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Educated assumption:');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
+
+test('country filters combine with search and clear together', async ({ page }) => {
+  const profiles = [profileFixture('country', 'test-republic'), profileFixture('country', 'test-monarchy')];
+  profiles[0].metadata.name = 'Test republic';
+  profiles[0].metadata.category = 'Republic';
+  profiles[1].metadata.name = 'Test monarchy';
+  profiles[1].metadata.category = 'Monarchy';
+  profiles[0].metadata.ideology = 'Liberalism';
+  profiles[1].metadata.ideology = 'Conservatism';
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles } }));
+  await page.goto('./#/countries');
+  await expect(page.locator('main article')).toHaveCount(2);
+  await page.getByRole('combobox', { name: 'Category', exact: true }).selectOption('Republic');
+  await expect(page.locator('main article')).toHaveCount(1);
+  await expect(page.getByRole('combobox', { name: 'Ideology comparison' }).locator('option')).toHaveText(['All Ideologies', 'Liberalism']);
+  await page.getByRole('combobox', { name: 'Ideology comparison' }).selectOption('Liberalism');
+  await page.getByRole('searchbox').fill('no such country');
+  await expect(page.locator('main article')).toHaveCount(0);
+  await expect(page.getByText('No profiles match your filters.', { exact: false })).toBeVisible();
+  await expect(page.getByRole('combobox', { name: 'Category', exact: true })).toHaveValue('Republic');
+  await page.getByRole('button', { name: 'Clear filters' }).click();
+  await expect(page.locator('main article')).toHaveCount(2);
+  await expect(page.getByRole('searchbox')).toHaveValue('');
+  await expect(page.getByRole('combobox', { name: 'Category', exact: true })).toHaveValue('');
+  await expect(page.getByRole('combobox', { name: 'Ideology comparison' })).toHaveValue('');
 });

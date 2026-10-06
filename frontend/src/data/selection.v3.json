@@ -1,0 +1,72 @@
+{
+  "version": "3.0.0",
+  "label": "Ideology Matching",
+  "questions": [
+    {
+      "id": "matching-preference",
+      "text": "When applicants are equally qualified, employers and colleges should be allowed to favour an applicant because their racial or sex group is underrepresented."
+    },
+    {
+      "id": "matching-ownership",
+      "text": "Major businesses should be owned and controlled by workers or the public rather than private investors."
+    },
+    {
+      "id": "matching-state",
+      "text": "The state should be replaced by voluntary associations, including for courts and public safety."
+    },
+    {
+      "id": "matching-party",
+      "text": "Political power should belong to a single governing party rather than competing parties."
+    }
+  ],
+  "religionQuestion": {
+    "position": 5,
+    "text": "What religion do you identify with?"
+  },
+  "requirements": {
+    "meritocracy": [
+      {
+        "questionId": "matching-preference",
+        "agree": -1
+      }
+    ],
+    "socialism": [
+      {
+        "questionId": "matching-ownership",
+        "agree": 1
+      }
+    ],
+    "democratic-socialism": [
+      {
+        "questionId": "matching-ownership",
+        "agree": 1
+      }
+    ],
+    "social-anarchism": [
+      {
+        "questionId": "matching-ownership",
+        "agree": 1
+      },
+      {
+        "questionId": "matching-state",
+        "agree": 1
+      }
+    ],
+    "anarcho-capitalism": [
+      {
+        "questionId": "matching-state",
+        "agree": 1
+      }
+    ],
+    "marxism-leninism": [
+      {
+        "questionId": "matching-ownership",
+        "agree": 1
+      },
+      {
+        "questionId": "matching-party",
+        "agree": 1
+      }
+    ]
+  }
+}

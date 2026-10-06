@@ -1,13 +1,15 @@
+import { selectionEligible } from '../quiz/selection';
 import type { CSSProperties } from 'react';
 import ValueIcon from '../components/ValueIcon';
 import { matchResultProfiles } from './ideologyMatching';
-import { ideologyGroup, secondaryLeaningFor } from './ideologyGroups';
+import { browseGroups, ideologyGroup, secondaryLeaningFor } from './ideologyGroups';
 import type { Profile } from './types';
 import s from './PersonalityHeader.module.css';
 import i from './IdeologyHeader.module.css';
 
 export default function IdeologyHeader({ profile, profiles }: { profile: Profile; profiles: Profile[] }) {
   const group = ideologyGroup(profile);
+  const leaning = browseGroups.find(candidate => candidate.name === secondaryLeaningFor(profile));
   const summary = profile.id === 'american-conservatism'
     ? 'Platform of the Republican Party, combining border security and deportations, tariffs and industrial protectionism, tax cuts and deregulation, gun rights, Christian values and returning abortion to the states.'
     : profile.metadata.description;
@@ -16,14 +18,15 @@ export default function IdeologyHeader({ profile, profiles }: { profile: Profile
     <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/ideologies" aria-label="All ideologies">Ideologies</a><span aria-hidden="true">/</span><span aria-current="page">{name?.[1] ?? profile.metadata.name}</span></nav>
     <header className={s.hero + ' ' + s.withoutPortrait}>
       <div className={s.intro}>
-        <div className={s.badges}><span className={s.role}>{group.name}</span>{secondaryLeaningFor(profile) ? <span>{secondaryLeaningFor(profile)}</span> : null}<span>Ideology</span></div>
+        <div className={s.badges}><span className={s.role}>{group.name}</span>{leaning ? <span className={s.role} style={{ '--profile-color': leaning.color } as CSSProperties}>{leaning.name}</span> : null}<span>Ideology</span></div>
         <h1 className={i.title}>{name ? <>{name[1]} <span className={i.variant}>({name[2]})</span></> : profile.metadata.name}</h1>
         <p className={s.description}>{summary}</p>
+        {profile.id === 'meritocracy' ? <p>For current quizzes, automatic matches require disagreement with giving an equally qualified applicant preference because their racial or sex group is underrepresented. Earlier saved answers retain their original question meanings. Profiles without evidence on these questions are not eligible.</p> : null}
         <section className={s.comparisons} aria-label="Most similar profiles">
           <h2 className={s.comparisonHeading}>Similar</h2>
           <dl aria-label="Profile comparisons">
             {(['personality', 'country'] as const).map(kind => {
-              const representative = kind === 'personality' && profile.representativePersonalityId ? profiles.find(candidate => candidate.catalogue === 'personality' && candidate.id === profile.representativePersonalityId && !candidate.withdrawal) : undefined;
+              const representative = kind === 'personality' && profile.representativePersonalityId ? profiles.find(candidate => candidate.catalogue === 'personality' && candidate.id === profile.representativePersonalityId && !candidate.withdrawal && selectionEligible(profile.id, candidate.selection)) : undefined;
               const match = profile.withdrawal ? null : representative ? { profiles: [representative] } : matchResultProfiles(profile, profiles, kind);
               return <div className={s.matchCard} key={kind}>
                 <dt className={s.srOnly}>{kind === 'personality' ? 'Person' : 'Country'}</dt>

@@ -1,3 +1,4 @@
+import SimilarityRing from './components/SimilarityRing';
 import Arrow from './components/Arrow';
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties, ReactNode } from 'react';
@@ -116,10 +117,7 @@ function ExampleResult() {
     {example ? <>
       <div className={s.resultHeader}>
         <div className={s.resultIdeology}><span className={s.positionBadge}>{ideologyGroup(example.ideology).name}</span><h2><a href={'#/ideologies/' + example.ideology.id}>{stripName(example.ideology)}</a></h2></div>
-        <div className={s.matchRing} role="img" aria-label={example.percentage + '% similarity across 15 axes'}>
-          <svg viewBox="0 0 104 104" aria-hidden="true"><circle className={s.ringTrack} cx="52" cy="52" r="47" /><circle className={s.ringFill} cx="52" cy="52" r="47" pathLength="100" /></svg>
-          <div><strong>{example.percentage}%</strong><span>Similarity</span></div>
-        </div>
+        <SimilarityRing percentage={example.percentage} decimals={0} />
       </div>
       <div className={s.comparisonRow}>
         {example.person.metadata.image ? <img className={s.personPortrait} src={import.meta.env.BASE_URL + example.person.metadata.image.path} alt={example.person.metadata.image.alt} width="76" height="76" decoding="async" /> : <Icon name="people" />}
@@ -268,7 +266,7 @@ function PageIntro({ title, description }: { title: string; description: string 
 
 function Credits() {
   return <div className={`${s.container} ${s.pageContent} ${s.infoPage}`}><PageIntro title="Image credits." description="The people and resources behind the visuals on 15 Values." />
-    {personalityImageCredits.map(credit => <section key={credit.sourceUrl}><h2>{credit.name} portrait</h2><p>{credit.creator}. {credit.license}. {credit.modifications}</p><div className={s.creditLinks}><a href={credit.sourceUrl}>Wikimedia Commons source</a><a href={credit.licenseUrl}>Licence or public-domain status</a></div></section>)}
+    {personalityImageCredits.map(credit => <section key={credit.sourceUrl}><h2>{credit.name} portrait</h2><p>{credit.creator}. {credit.license}. {credit.modifications}</p><div className={s.creditLinks}><a href={credit.sourceUrl}>Image source</a><a href={credit.licenseUrl}>Licence or public-domain status</a></div></section>)}
     {countryImageCredits.map(credit => <section key={credit.sourceUrl}><h2>{credit.name} flag</h2><p>{credit.creator}. {credit.license}. {credit.modifications}</p><div className={s.creditLinks}><a href={credit.sourceUrl}>Wikimedia Commons source</a><a href={credit.licenseUrl}>Licence or public-domain status</a></div></section>)}
     <section><h2>Andy Burnham photograph</h2><p>“Andy Burnham on 13 August 2024 (cropped 2)” by the Scottish Government. Used under Creative Commons Attribution 2.0. The Wikimedia thumbnail is displayed smaller and cropped to a square. Its use in the example does not imply endorsement.</p><div className={s.creditLinks}><a href="https://commons.wikimedia.org/wiki/File:Andy_Burnham_on_13_August_2024_(cropped_2).jpg">Wikimedia Commons source</a><a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 licence</a></div></section>
     <section><h2>Swiss flag</h2><p>Public-domain Swiss flag artwork by Marc Mongenet, with credits to -xfi- and Zscout370. Displayed in a rectangular crop.</p><a className={s.textLink} href="https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg">Wikimedia Commons source <Icon name="arrow" /></a></section>
