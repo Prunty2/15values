@@ -1,6 +1,7 @@
+import Arrow from './components/Arrow';
 import { useEffect, useRef, useState } from 'react';
 import type { CSSProperties, ReactNode } from 'react';
-import axisData from './data/axes.v1.json';
+import axisData from './data/axes.v2.json';
 import s from './App.module.css';
 import ValueIcon from './components/ValueIcon';
 import QuizFlow from './quiz/QuizFlow';
@@ -16,6 +17,7 @@ import { personalityGroup } from './profiles/personalityGroups';
 
 type IconName = 'arrow' | 'layers' | 'balance' | 'globe' | 'people' | 'spark' | 'lock' | 'search' | 'check' | 'close' | 'menu' | 'chevron' | 'pause' | 'play' | 'clock';
 function Icon({ name, className }: { name: IconName; className?: string }) {
+  if (name === 'arrow') return <Arrow className={className} />;
   const paths: Record<IconName, ReactNode> = {
     clock: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
     pause: <path d="M9 5v14M15 5v14" />,

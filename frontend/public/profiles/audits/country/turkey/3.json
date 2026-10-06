@@ -1,0 +1,3621 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "turkey",
+  "revision": 3,
+  "questionBankVersion": "2.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "ff5cd074c33d338b62aafc9c7e9cb7ff3afdbac91cafe5905f16de43f2e585f7",
+  "researchedAt": "2026-10-06",
+  "author": "Codex: focused Democracy–Autocracy reassessment",
+  "changeNote": "Owner-authorised focused migration to bank 2.0.0 and axes 2.0.0. Independently reassessed democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13 using retained period-specific sourced research and the explicitly recorded supplemental references. All other 234 question-level answer objects are preserved verbatim from revision 2. No other axis was reassessed, no target score or population remapping was applied, and earlier archives remain unchanged. Six new educated assumptions are provisional; retained evidence limitations still apply.",
+  "metadata": {
+    "name": "Turkey",
+    "description": "Turkey’s national institutions and implemented policies through 4 October 2026, including formal constitutional safeguards and actual enforcement.",
+    "category": "Unitary presidential republic",
+    "period": "Contemporary institutions and implemented policy; intended cut-off 2026-10-04",
+    "scope": "Nationalinstitutionsandimplementedpolicythrough2026-10-04, notcitizenattitudes; constitutionalexecutivedecreelimits/electoraloversight, actualoppositionrepression, conditionalindefiniteresidenceversustemporaryprotection, publicstrategictitle/privatemarkets andcivilsecularlaw/publicfaithcultivationmeasuredseparately.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/turkey-r1.png",
+      "alt": "Flag of Turkey with a white crescent and five-pointed star on red",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+      "creator": "David Benbennick; Wikimedia Commons contributors",
+      "license": "Public domain (PD-Turkey / simple geometry)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg#Licensing"
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-context",
+      "title": "Turkey: Freedom House country overview (2026)",
+      "url": "https://freedomhouse.org/country/turkey/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "constitution",
+      "title": "FullConstitutionalCourtEnglishconstitutionPDF extractedread: post2017presidentialsystem, Art104decreelimits/105criminalremoval/116snap elections/127tutelage/90treaties/24religion/136Diyanet",
+      "url": "https://www.anayasa.gov.tr/media/7258/anayasa_eng.pdf",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rights",
+      "title": "FullHRWWorldReport2026actual2025events: opposition/judiciary repression, peacefulassembly censorship, gender/familycircular and migrantreturns; notindexscorecopied",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/turkiye",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rights-current",
+      "title": "HRWcurrentcountryportalSeptember2026LGBTassociationraidsandoppositionpractice; leaked2025draftnotautomaticallyenacted",
+      "url": "https://www.hrw.org/europe/central-asia/turkey",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "imf",
+      "title": "ActualFebruary13 2026ArticleIVrelease: fiscalconsolidation/tightmoney/SOEs/PPPs; IMFrecommendations distinguishedgovernmentimplementedpolicy andforecastsnotannualactual",
+      "url": "https://www.imf.org/en/news/articles/2026/02/13/pr-26047-turkiye-imf-executive-board-concludes-2025-article-iv-consultation",
+      "publisher": "International Monetary Fund",
+      "date": "2026-02-13",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "residence",
+      "title": "FullMigrationManagementcurrenttypes: indefinite8yearlongtermstatus, studentshalf-time,3yearnoaidrequirement; refugee/temporaryprotectionexcluded, family3yeartempnotautomaticperma",
+      "url": "https://en.goc.gov.tr/residence-permit-types",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cohesion",
+      "title": "Actual2026interculturalstudentmeetingharmonization/foreignidentityandlanguagepartnership; singlestudenteventnotallnationalintegrationinventory",
+      "url": "https://en.goc.gov.tr/intercultural-meeting-event-held-bringing-together-turkish-and-international-students",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cash",
+      "title": "Fullcurrentministrycashprogramme table2026: birth/child, widow/disability/oldage, meansneed 9358.50percapitathreshold, employmentstartcash; food/services/loansnotincomecash",
+      "url": "https://www.aile.gov.tr/sygm/programlarimiz/sosyal-yardim-programlarimiz/",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "birth-cash",
+      "title": "FullnewbirthassistanceFAQ: citizenresidentnewborn2025+,5000oneofffirst/1500monthlysecond/5000thirdthroughage5, notmeans-testedallcashrestrictedneed",
+      "url": "https://www.aile.gov.tr/sss/sosyal-yardimlar-genel-mudurlugu/yeni-dogum-yardimi/",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "birth-actual",
+      "title": "ActualFebruary26 2026birthcashpayments confirmsongoingimplementation notonlyannouncedbudget",
+      "url": "https://aile.gov.tr/ankara/haberler/subat-ayi-dogum-yardimi-odemeleri-annelerin-hesaplarina-yatirildi/",
+      "publisher": "Turkiye national government",
+      "date": "2026-02-26",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "wage",
+      "title": "Current2026labourministry wage schedulegross33030/net28075.50Jan1-Dec31, employercontributions notextraemployeeincome",
+      "url": "https://csgb.gov.tr/tr/poco-pages/asgari-ucret/",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "pit",
+      "title": "CurrentGIB2026taxguidetieredsalary/businessrates15–40, calendar2026incomevs2025returnsdue2026distinguished",
+      "url": "https://intvrg.gib.gov.tr/hazirbeyan/assets/pdf/DUYURU_UNIVERSAL_2026_Diger_Kazanc_ve_Iratlar_2026.pdf",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "inheritance",
+      "title": "CurrentGIBinheritance/giftAct2026exemptions andJune4 special1%case; inheritance/gifttax notblankethouseholdnetwealthlevy",
+      "url": "https://www.gib.gov.tr/mevzuat/kanun/440",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bank-title",
+      "title": "CurrentTWFportfolio3largeststatebanksZiraat/Halk/Vakif, alongsideprivatebanks; publicinvestmentportfolio notcentralbankonly",
+      "url": "https://www.tvf.com.tr/en/our-portfolio/financial-services",
+      "publisher": "Turkiye Wealth Fund",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "energy-title",
+      "title": "CurrentTWFenergyportfolioBOTAŞ/TPAOstateownership, notallenergy/mines100%public",
+      "url": "https://www.tvf.com.tr/en/our-portfolio/energy",
+      "publisher": "Turkiye Wealth Fund",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rail",
+      "title": "2026TCDDnetworkstatement annexinfrastructureprojectregister; trainoperatingliberalizationnotrailtrackprivatization; currentcompletealltitleinventoryunread",
+      "url": "https://static.tcdd.gov.tr/webfiles/userfiles/files/sebekebildirimi/2026/ing/3710.pdf",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "housing",
+      "title": "ActualApril2026TOKIsocialhomebeneficiarydraws500kproject, homeownerpurchaseprogramme notcompletedpublicrentalstock/15kfutureIstanbulrentals",
+      "url": "https://www.toki.gov.tr/haber/yuzyilin-konut-projesinde-hak-sahipleri-belirlendi",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "trade",
+      "title": "ActualApril17 2026 inwardprocessingrule permits dutyfreeexportinputs unavailabledomesticallyatprice/quality; notallimportsbarrierfree",
+      "url": "https://www.ticaret.gov.tr/ihracat/mevzuat/dahilde-isleme-rejimi",
+      "publisher": "Turkiye national government",
+      "date": "2026-04-17",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "conscription",
+      "title": "CurrentMSB7179recruitmentsystemmaleobligation, serviceoptions/fee/exemptions; universalidenticaltermnotclaimed",
+      "url": "https://www.msb.gov.tr/Askeralma/icerik/yeni-askeralma-sistemi",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "foreign-policy",
+      "title": "CurrentMFAindependentnationalforeignpolicyandNATOoperations/diplomacy; portalSyrianpopulationfigurestalecomparedcurrentrightsnotcopied",
+      "url": "https://www.mfa.gov.tr/synopsis-of-the-turkish-foreign-policy.en.mfa",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "nato",
+      "title": "ActualMarch5 2026NATOcollectiveIranianmissileinterceptionnearTurkey; notautomaticTurkishdeclarationofwar",
+      "url": "https://nato.int/en/news-and-events/articles/news/2026/03/05/nato-is-well-postured-to-defend-allied-populations-against-ballistic-threats",
+      "publisher": "NATO",
+      "date": "2026-03-05",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "international-rights",
+      "title": "CurrentofficialMFAECHR/ECtHRmembership/rightsreformclaims checkedagainstHRWactualnoncompliance",
+      "url": "https://www.mfa.gov.tr/humanrights_.en.mfa",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "education",
+      "title": "ActualMaarifmodelnationalcurriculum virtues,learning,socialemotionaldevelopment,family/cultural/spiritualvalues notuniversaltraitgenetictheory",
+      "url": "https://tymm.meb.gov.tr/genel-bakis",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "religious-courses",
+      "title": "CurrentDiyanet2026Islamfaith/Quraninstructionprogrammes publicauthorityactualfaithcultivation notmerelyheritagecharity",
+      "url": "https://egitimhizmetleri.diyanet.gov.tr/sayfa/985",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "religious-early",
+      "title": "ActualApril10 2026Diyanet4–6ageQurancourselearningmaterials meeting, notallchildrencompulsoryQuranclass",
+      "url": "https://egitimhizmetleri.diyanet.gov.tr/Detay/1174/4-6-ya%C5%9F-grubu-kur%E2%80%99an-kurslar%C4%B1-tamamlay%C4%B1c%C4%B1-kazan%C4%B1mlar-alan%C4%B1na-y%C3%B6nelik-materyal-geli%C5%9Ftirme-komisyon-toplant%C4%B1s%C4%B1-ger%C3%A7ekle%C5%9Ftirildi",
+      "publisher": "Turkiye national government",
+      "date": "2026-04-10",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "technology",
+      "title": "Currentofficialstrategyindexactual2026–2030AIActionPlan/2030industrystrategy; targetsdistinguishedactualdeployment",
+      "url": "https://www.sanayi.gov.tr/plan-program-raporlar-ve-yayinlar/strateji-belgeleri",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ai-actual",
+      "title": "ActualSeptember2026ministerGITEXAIroadmapannouncementindexed; fullrequestrejectedso noexactallpolicyclausesclaimed",
+      "url": "https://www.sanayi.gov.tr/medya/haber/bakan-kacir-gitex-aida-konustu",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "clinical",
+      "title": "CurrentofficialstatehospitalclinicalethicsapplicationwithTITCKdrug/deviceguidelines; noclaimaccesscontrolledemptyqueryprovedactualtrialresult",
+      "url": "https://kosuyolueah.saglik.gov.tr/TR-143131/klinik-arastirmalar-etik-kurulu-bilgi-ve-basvuru.html",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "biosafety",
+      "title": "CurrentofficialBiosafetycontrols5977/approvedfeedGMlist; feedimportsnotdomesticcropcultivationpermission orcultivatedmeatlaw",
+      "url": "https://www.tarimorman.gov.tr/Konu/2231/Biyog%C3%BCvenlik-kontrolleri?TermId=7e512200-e098-4d93-a140-bc1c2aad1413&TermSetId=2d27772a-6e08-4899-8453-5694a9eb6e6e&TermStoreId=368e785b-af33-487d-a98d-c11d5495130b&UrlSuffix=2231%2FBiyog%C3%BCvenlik-kontrolleri",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "crypto",
+      "title": "ActualCBRT2021regulationprohibitscryptoaspayments butnotalltrading/possession; fullofficialregulationcurrentlegalframework",
+      "url": "https://www.tcmb.gov.tr/wps/wcm/connect/c241af16-e730-45b5-bb0d-31d3af28884e/Regulation%2Bon%2Bthe%2BDisuse%2Bof%2BCrypto%2BAssets%2Bin%2BPayments.pdf?CACHE=NONE&CONTENTCACHE=NONE&MOD=AJPERES",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "weapons",
+      "title": "ActualeGovernmentregisteredfirearmlicencequeryconfirmslawfullicensedpossession, notuniversalviolence-onlyqualification",
+      "url": "https://www.turkiye.gov.tr/icisleri-adima-tescilli-silah-ruhsati-sorgulama?index=1&silah=detayi",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "customs",
+      "title": "FullofficialTradeMinistryEUcustomsunionindustrialtariffremoval/commonexternalrules, agriculture/steel separate; page2021tradefiguresnot2026totals",
+      "url": "https://trade.gov.tr/turkiye-and-eu/turkiye-and-the-eu",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "tariffs-crosscheck",
+      "title": "CurrentUSITAcommercialguide February2026agriculturalprotection/industrialEUtarifffree; primarygovernmentcrosschecknotcopiedindexscore",
+      "url": "https://www.trade.gov/country-commercial-guides/turkey-import-tariffs",
+      "publisher": "US Department of Commerce",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rental-actual",
+      "title": "ActualSeptember26 2026Istanbulrentalapplicationscomplete;1071unitsdraw/deliveryscheduledOctober, notalready15kdelivered; marriedcitizenresident/incomelimits",
+      "url": "https://www.toki.gov.tr/haber/istanbul-kiralik-sosyal-konut-projesinin-basvurulari-tamamlandi",
+      "publisher": "Turkiye national government",
+      "date": "2026-09-26",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "care-barriers",
+      "title": "ActualDecember14 2025adopted2026ministrybudgetstatement:569familycentrechildcare/playroomsalreadyprovided, expandedchildcarefuturetarget notalreadyallimplemented",
+      "url": "https://www.aile.gov.tr/haberler/aile-ve-sosyal-hizmetler-bakanliginin-2026-yili-butcesi-tbmm-genel-kurulunda-kabul-edildi/",
+      "publisher": "Turkiye national government",
+      "date": "2025-12-14",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "official-prayer",
+      "title": "Actual2026/27fisheriesseasonopeningwithprovincialgovernor/protocolandmuftiorganizedprayer, indexedprimaryDiyanet; exactdaynotgiven",
+      "url": "https://sinop.diyanet.gov.tr/sayfalar/contentdetail.aspx?ContentId=3743&MenuCategory=Kurumsal",
+      "publisher": "Turkiye national government",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks.\nFocused six-question reassessment: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister.",
+      "counterEvidence": "Article104 law-over-decree limits, Article105 criminal removal and elections are retained; snap elections are not unilateral postponement and political prosecutions are not a fabricated exclusive presidential ballot veto.\nThe owner-defined broader axis includes lawful delegation and direct public control; a lower numerical placement is not a regime classification. Six exact responses and response strengths remain inferred. Retained source access dates are not refreshed unless a source was actually revisited. Unchanged answers and other axes were not re-audited. A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regular national elections and actual opposition electoral wins remain, qualified by serious campaign/repression inequalities. Agreement reflects continuing electoral selection, not full competitive fairness.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Neutral is the most likely response to the revised claim “Important national policy decisions should be delegated to independent experts who do not need approval from elected representatives for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. This is delegation of policy decisions to independent specialists, not replacement of the electorate or a claim that all expertise is political sovereignty. A legislative mandate, appointment process and later review can coexist with not voting on every operational decision.  This is a substantive conditional judgement: the described case for functioning government or collective continuity competes with the described limits on independent discretion or public consent. Neither unqualified permission nor unqualified prohibition best represents that tension. It is not a default for absent evidence. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Adult franchise is independent of intelligence/education, with defined legal exceptions. Qualified agreement; candidacy degree qualification is not voter education and all exceptions not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “During a serious emergency, the head of government should be able to put temporary laws into effect before parliament votes, with those laws expiring if parliament rejects them.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. This permits temporary lawmaking before a vote but expressly retains parliamentary rejection and expiry. It is not the previous permission to override an actual parliamentary rejection; primary legislation and delegated emergency instruments can differ.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual opposition participation persists but prosecutions, censorship and removal seriously undermine same campaign conditions.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “Citizens should be able to put proposed national laws to a binding public vote by collecting enough signatures.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. The revised claim gives citizens an independent signature-triggered route to a binding national law vote. A petition, advisory consultation, parliamentary bill proposal or government-called referendum does not by itself establish that mechanism. Constitutional initiatives can provide qualified, narrower support.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional review exists and sometimes protects rights, while actual domestic decisions are ignored and judiciary controlled. Mixed reversal capacity/implementation, not zero from missing evidence.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “The governing party or coalition should be able to choose a new head of government between elections without holding a new public vote.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. This concerns replacing the head of government between elections. Parliamentary confidence or governing-party selection differs from choosing an entirely new legislature. A personally elected presidency has different succession rules, and a prime minister must not be confused with a separate ceremonial or executive head of state.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual politically targeted candidacy/prosecution/exclusion and party restrictions favor some leadership ability to exclude. Qualified agreement; formal party-closure decisions require courts, not invented presidential sole ballot power.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional-amendment referendums do not establish voter-initiated ordinary-law repeal. Qualified disagreement; every statutory referendum remedy not inventoried.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “An elected head of government should be able to make major policy decisions within existing law without obtaining parliament’s approval for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. The revised claim permits executive policy implementation within existing law without a separate parliamentary vote on each decision. It does not permit overriding legislation, spending authority, courts, or an explicit parliamentary rejection; collegial executives require additional qualification.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Article105 defines Assembly investigation/referral and criminal-tribunal conviction ending mandate, with high thresholds; not ordinary parliamentary no-confidence dismissal.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “Parliament should be able to postpone a scheduled national election during a serious emergency, for a limited period specified in law.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Electoral presidential/Assembly selection continues under concentrated executive power, opposition prosecution and weak implementation of judicial constraints. Formal opposition committee membership is assessed against actual obstruction of oversight, and concentrated leadership policy powers against effective independent checks. Focused interpretation: A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. This concerns a legally limited emergency postponement authorised by Parliament, not a leader cancelling elections for political convenience. Constitutional term limits, emergency exceptions and actual independent parliamentary control must be considered separately.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Party/ministerial local removal and judicial mandates are not a defined constituent recall vote. Qualified disagreement; all municipal electoral instruments not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual executive impunity/dominance weakens accountability, but electoral and Assembly constitutional constraints persist. Moderate disagreement rather than no democratic account whatsoever.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitution117 civilian command and actual anti-coup governance reject soldiers’ unilateral civilian-government replacement.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "freedom-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Court-based formal privacy/detention rights coexist with extensive security discretion, political speech prosecutions and actual assembly/media restrictions.",
+      "counterEvidence": "Weak review is not proof of no courts, surveillance not exact movement-retention duration, firearmlicensing not universal entitlement and online government services not universal platformID.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nonviolent drugs remain prohibited within personal conduct regulation, while other private adult choices are allowed. Qualified disagreement; no blanket all self-regarding acts banned claim.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional judicial communication-search controls and investigative powers favor court-authorized serious-crime surveillance. Qualified agreement; exact current all interception statutes/procedures not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual peaceful opposition/Pride demonstrations face bans and arrests, so broad obstruction-tolerant assembly is not reliably allowed.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual peaceful government/judiciary criticism prosecutions and moral censorship restrict expression even absent incitement.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State public-health/personal safety regulation makes some compulsory primarily-self-protection likely. Qualified agreement; infectious disease restrictions alone not proof and exact current self-only measures unverified.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Extensive security/surveillance practices favor some nonsuspect movement record retention. Qualified agreement; no precise multiyear movement law found, broad monitoring not direct duration evidence.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National traffic/security checkpoints favor some random-driver intoxication testing. Qualified agreement; exact suspicion-free breath/blood powers not fully retrieved.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Judicial travel bans and preventive security practice favor pre-offence serious-risk restrictions. Qualified agreement; exact every court risk threshold not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual streaming/media obscenity and public-morality sanctions restrict access to officially objectionable content, though many ordinary adult works remain.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary communication platforms are accessible without universal government login, alongside SIM regulation/contentblocking. Qualified agreement; government-service eID is not all communication-app identification.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security area/checkpoint practice favors some searches without individualized suspicion under threat. Qualified agreement; constitutional judicial safeguards/urgent exceptions remain and exact all area-power triggers unread.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual administrative public-gathering bans go beyond substantiated serious disorder, demonstrating broad restriction power; no approval of its fairness implied.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitution21 allows judge decisions and written competent-authority urgent exceptions beyond immediate safety. Moderate disagreement with exclusive safety-only warrant exception; exact current all implementing categories not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual journalist/prosecution/confidentiality repression makes general public disclosure of misconduct secrets inadequately protected, qualified by some investigative journalism/remedies.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official firearm-licence system confirms legal possession, favoring some personal defence access subject licensing/fitness. Qualified agreement; not all adults violence-check-only entitlement and exact purpose/eligibility not consolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual arbitrary terrorism detention and weak judicial independence erode review, but formal courts/trials still operate. Moderate disagreement with completely no independent court review until threat resolved; no invented unlimited statutory detention rule.",
+          "sources": [
+            "constitution",
+            "rights",
+            "rights-current",
+            "weapons"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Turkish official national identity and shared cultural/spiritual education coexist with regional heritage, private foreign identity and intercultural harmonization initiatives.",
+      "counterEvidence": "Minority restrictions qualify pluralism; a student cultural event is not comprehensive integration policy, and minority ethnicity is not automatically Indigenous ceremony recognition.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional Turkish national/language identity and minority/migrant constraints favor national-cultural priority. Qualified agreement; private foreign identities and cohesion events still exist.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Intercultural/public cohesion initiatives and some migrant-language support coexist with Turkish institutional priority and service limits. Mixed accommodation/spending rather than invented all-culture accommodation duty.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National language/values education and cohesion practices imply some shared customary integration expectation. Qualified agreement; no comprehensive permanent-migrant cultural adoption test retrieved.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual intercultural student programmes permit foreign identity alongside national participation. Qualified agreement because minority repression qualifies public pluralism, and event not every legal nationality rule.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitution3 Turkish official language and42education-language limits prioritize national language; translations do not establish equal foreign public-service status.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Formal Turkish national identity and minority treatment do not establish mandatory Indigenous acknowledgement at ceremonies. Qualified disagreement; Kurdish/other minority is not automatically Indigenous legal category and all ceremonies not inventoried.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National/spiritual heritage curriculum and cultural institutional priorities favor national predominant traditions. Qualified agreement; complete budget share unmeasured and some regional/foreign art supported.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Shared national/constitutional identity and minority restraints make separate cultural expectations unlikely to supersede national identity. Qualified disagreement allows private practices; every legal conflict not researched.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common national/Islamic festival calendar and public education norms favor shared schedule. Qualified agreement; alternative private observance exists and every accommodation not consolidated.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional Anatolian heritage/intercultural activity recognizes some multiple cultural traditions within national identity. Qualified agreement; not full equal minority political/linguistic recognition.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government social harmonization/intercultural programmes favor wider participation. Qualified agreement; exact all permanent-migrant programme emphasis not inventoried.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign-language information/cohesion access coexists with Turkish-first national institutions. Mixed response; no comprehensive migrant-neighbourhood foreign-sign duty found.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National/spiritual values and family curriculum favor shared national belonging. Qualified agreement; retained private community identity possible and exact family identity hierarchy unmeasured.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious freedom and lawful Islamic dress make full religious coverings likely permitted with security identification. Qualified agreement; exact comparative general-covering ban exemption not retrieved.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional traditions and actual intercultural programmes permit several cultural expressions of national life. Qualified agreement; single national identity and minority restrictions limit broad plural recognition.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National values/Turkish language and participation programmes favor some common customs. Qualified agreement; intercultural dialogue also retains distinct customs and exact comparative all-programme spending unmeasured.",
+          "sources": [
+            "constitution",
+            "education",
+            "cohesion",
+            "rights",
+            "residence"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Indefinite eight-year lawful residence exists with income/insurance/no-recent-aid conditions, while family entry and refugee protection remain different statuses.",
+      "counterEvidence": "Refugee and temporary protection do not transfer to ordinary long-term residence; family permits are initially temporary, student years count half and actual forced-return practice qualifies formal safeguards.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term residence conditions do not show a strict universal annual housing/workforce numerical ceiling. Qualified disagreement; local registration exclusions differ from national permanent annual quotas and all administrative ceilings unmeasured.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Eight-year lawful residence/income/insurance/no-recent-aid requirements constrain settlement simply for better living. Qualified disagreement permits several lawful entry/status routes.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Long-term residence can follow ordinary lawful residence, stable income and insurance without exclusive essential-skills eligibility.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Family residence permits allow spouse/dependent children of lawful residents/refugees under sponsor conditions, initially renewable maximumthree years rather than automatically permanent.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Current official rules exclude refugee/conditional/subsidiary/temporary-protection holders from transfer to ordinary long-term residence, notwithstanding continued protection or separate citizenship routes.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual deportations/return pressure and lawful-status enforcement favor removal of unauthorized migrants, qualified by protection/humanitarian exceptions.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Permanent eight-year/income/no-aid conditions persist despite employer interest. Qualified agreement; work authorization is not permanent numerical cap and exact demand-based exemptions unread.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual efforts to reduce refugee population/local registration and service-pressure controls favor restricting additional arrivals. Qualified agreement; not a verified blanket economic-benefit-overridden annual admission decree.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family permit eligibility is separate and no common annual numerical permanent ceiling established. Qualified disagreement; administrative processing delay not lawful quota.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employment can support regulated work authorization subject employer/occupation checks. Qualified agreement; job offer alone not unconditional entry and not automatic permanent residence.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term status rests on residence/income/insurance conditions rather than required employer/family sponsorship for every applicant. Qualified disagreement; family initial entry has sponsors and all long-term documents unread.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Student residence counts half toward eight years, so graduation alone is not immediate permanent-status qualification. Qualified agreement; it may contribute to an eventual route with other conditions.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Formal protection/humanitarian routes coexist with actual forced-return/access failures and geographic status distinctions. Mixed response; large temporary hosted population not permanent/open admission at every limit.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National cultural/language ties and selective citizenship/harmonization context favor some culturally close preference. Qualified agreement; exact every nationality preference not consolidated and refugee hosting not cultural-policy proof by itself.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual targeted refugee/migrant support and some long-term citizenlike rights allow eligible noncitizen welfare. Qualified agreement; eight-year status requires no socialaid precedingthree years and not all migrants generalcasheligible.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective/control-oriented admission policy lacks verified expansion chiefly because cultures differ, despite intercultural activities. Qualified disagreement; cultural dialogue is not admission preference and exact quota motives unread.",
+          "sources": [
+            "residence",
+            "rights",
+            "cash",
+            "cohesion"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Conscription, regionaloperations andNATOcommitments coexistwithpeace-negotiation/mediation andciviliancommand.",
+      "counterEvidence": "MilitarydronesarenotproofautonomouslethalAIpermission; NATOmissileinterceptionisnotTurkeydeclarationofwar, peacebrandingnotall-costpacifism andbudgetinvestmentnotmeasureduniversal superiority.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual Syria/Iraq regional operations and external deployments favor force without prior homeland attack. Qualified agreement; asserted counterterrorism/defensive purposes qualify not unlimited conquest.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Active regional military operations and negotiations/mediation coexist. Mixed priority rather than assuming peace motto always outweighs force or every aim reached militarily.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual defence-industry/capability investment and deterrence priorities favor substantial military spending. Qualified agreement; measured all-opponent superiority/cost commitment not established.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security/cross-border preventive operations favor willingness against evidenced imminent threats. Qualified agreement; precise every pre-emption doctrine threshold unverified.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: External operations extend beyond only responding to an armed attack on itself/ally. Qualified disagreement; government often invokes counterterrorism/self-defence so not all missions offensive.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current7179male-service obligation operates with exemptions, paid/term options; not identical service for every eligible man.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: PKK negotiations/diplomatic mediation and continued regional military leverage coexist. Mixed response on substantial concession tradeoff, not just presence of diplomacy.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Advanceddrone/AIdefence capability investment coexists with civiliancommand/accountability. Mixed response; no verified fullyautonomouslethalhuman-approval doctrine, droneuse notautomaticallyAIautonomy.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sustained outside-territory deployments/cross-borderoperations give defencepolicy foreigncampaignweight alongside territorialdefence. Qualified disagreement; not all resources foreignoffensive.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual forceuse andNATOdefence commitments reject avoidingallmilitaryaction evenwhenallyattacked.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: SustainedregionalmilitarypresenceandNATOcontribution favor prolongedbeyond-bordercapability. Qualified agreement; precisecombatreadinessstockandlogisticsnot measured.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Territorial/regionalsecurityassertionsanddiplomaticconflictmanagement coexist. Mixed response on unresolvedterritoryversusinitiatingwar; noexactallcontingencyrulefound.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regionaldeterrentpresenceandsecurityleverage favor some militarythreatstoobtainconcessions. Qualified agreement; exactallpublicthreats/ultimatumsunmeasured.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiationsandde-escalationcoexistwithassertiveregionalforce anddefenceresolve. Mixed tradeoff weighs bothactualpractices ratherthanautomaticpacifismfrompeacemotto.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defence/intelligence andexternalsecurityoperations favor some espionage despite diplomaticrisk. Qualified agreement; specificcovertoperation/legalitynotinvented.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sovereignmilitarydevelopment/retainedregionaldeployments favor rejecting significant negotiatedcapabilityreductions. Qualified disagreement; exactallarmscontrolcommitmentsnotinventoried.",
+          "sources": [
+            "constitution",
+            "foreign-policy",
+            "conscription",
+            "nato",
+            "rights"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Nationalsovereignty/liraauthority andindependentforeignpolicy coexistwithNATO,ECHR andtradecommitments.",
+      "counterEvidence": "FormalArticle90rights-treatyprecedence isqualifiedbyactualignoredECtHRorders; NATOcommondefence isnotallcommonforeignpolicy, ICCjurisdictionnotassumed andmembershipnotinternationalfederation.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalsovereigntypolicyandactualinternationalcourtresistancefavornationalauthority, qualifiedbyArticle90rightstreatyprecedence. Moderateagreementnotabsenceofacceptedobligations.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: AcceptedNATO/ECHR/treatyobligationscoexistwithactualresistancetoopposedinternationaljudgments. Mixeddelegationimplementation, notallinternationalsupraauthorityorcompleterejection.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActualnoncompliancewithbindingECtHRjudgments givesdomesticinstitutionspracticalfinalcontrol, qualifiedbyArticle90formalrightstreatyprecedence. Moderateeducatedagreementdistinguishesrule/practice.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "ActualNATOmembership/durablejointdefence andMarch2026collectiveinterceptionshowrealcommitmentslimitingunilateraldefenceaction, notallforeignpolicydelegation.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationaltreatyexitpractice includingIstanbulConvention withdrawal favors domesticallyinitiatedwithdrawalunderagreedterms. Qualified agreement; noexacteveryinternationalapprovalprocedureconsolidated.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ECHR/ECtHRacceptedbindingjudgmentsandactualignoredorders coexist; ICCnonmembership differsfromECtHRpersonalrightsreview. Mixedstate/officialinternationalcourtaccountability.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: OfficialindependentnationalforeignpolicyandactualECtHRresistancefavor someowninterestpriority. Qualified agreement; multilateralcooperationandacceptedrightsremain.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Environmentalagreements/climateparticipationandnationaldevelopmentsovereignty coexist. Mixedsharedauthority; treatyreportingnotautomaticallyinternationaldirectdecisionveto.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: NATOcoordination coexistswithindependentforeignpolicy andnon-EUmembership, favoringoutsideblocs requiring universalcommonforeignpolicy. Qualified agreement; alliancecommondefence notallforeignpolicyidentity.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: FormalArticle90/ECHRdutiesandactualnoncompliance coexist. Mixedresponseonrequiredlegalchanges; membershipnotproofeveryremedyimplemented.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Lira/CBRTnationalmonetaryauthority isnotpooledinternationalcurrency/centralbank despite internationalcoordination.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActualNATObudget/operationsandregionalhumanitariancooperation favorpoolingresources/decisions. Qualified agreement; exactallprogrammeveto/shareunmeasured.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalmigrationmanagement administersentry/residence whileEUmigrationcooperationandrefugeedutiesqualifydiscretion. Moderateagreement; bordercooperationnotjointadmissionauthoritybydefault.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: EUcustomsunion/commontradecommitmentsandmultilateralschedules favornegotiatedsharedrules. Qualified agreement; existingadditionaltariffs/nationalmeasures andexactallcurrentscopeunread.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf",
+            "customs"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutionalunitarynationalrepublicandactualseparateforeignpolicyrejectmembershipininternationalpoliticalfederation; NATO/CoEnotfederation.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: CollectiveNATOdefence/peaceoperationscoexistwithindependentregionalbalancingandselectiveinternationalcompliance. Mixedenforcement/immediateinteresttradeoff, notunconditionalcollectiveruleenforcement.",
+          "sources": [
+            "constitution",
+            "international-rights",
+            "rights",
+            "foreign-policy",
+            "nato",
+            "imf"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Privateordinarybusiness/PPPs coexistwithTWFstatebanks/energy, publicrail andTRT.",
+      "counterEvidence": "PPPoperationnotfacility/networktitle; TOKIhomepurchasesnotpublicrentalstock, futureIstanbulrentalsnotalreadydelivered andresourcecustodianshipnotminingcompanytitle.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privateordinaryproduction/consumptioncoexistswithstatebanks/strategicenterprises. Qualifiedagreementfavoringprivateordinarybusiness; noexhaustiveownershipcensusretrieved.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: StateBOTAŞ/strategicnetworkandmunicipalpublicservicecontext favors somepublicessentialnetworks. Qualifiedagreement; distributioncompanies/privategenerationdifferfromallnetworktitle andallutilityregisterunread.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privateenterprise/PPPparticipation andstrategicpublictitlecoexist. Mixedequal-costownershipchoice; noallsectorsprivatepreferenceestablished.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Statebanks/TWFcompetitiveindustryholdingsfavoursomepubliccommercialparticipation. Qualified agreement; publicminorityinvestmentnotallbusinessfullystateowned.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: PublichospitalserviceandprivatePPPhospitalbuildingscoexist, makinggenerallyprivatefacilitytitleunlikely. Qualified disagreement; insurerfinance/PPPoperatornotallassettitle andcomplete2026inventoryunmeasured.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: TCDDstateinfrastructurefunction/currentnetworkregister favorpublictracktitle despiteoperatingcompetition. Qualified agreement; completeallcurrenttrackassettitleunread.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActualPPPservicesfavor efficientprivatedeliverywithpublicaccessconditions. Qualified agreement; exactalllower-costprocurementruleunverifiedandprivateoperationnotownership.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "ActualTWFZiraat/Halk/Vakifstatebanksoperatealongsideprivatebanks, notcentralbankalone.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privatization/privateparticipation andstrategicTWFretention coexist. Mixedsale/retention ratherthanuniversalstatecommercialsale.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: CurrentTOKIlargeprogrammeprincipallyhomepurchase, whileannouncedIstanbulrentalsnotalreadycompletedlargepublicstock. Qualified disagreementwithsubstantialpublicrentalshare; allmunicipalexistingrentaltitleunmeasured. ActualSeptember26applicationscompletewith1071firstunitsdraw/deliveryplannedOctober; that doesnotestablish substantialcurrentnationwiderentalstock.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights",
+            "rental-actual"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State-supportedstrategicsecurityindustry ownershipsuggestssomepublictitlefavored despiteprivatefirms/regulation. Qualified disagreement; exactall2026securitycompanytitlenotconsolidated.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: StateTPAOandotherstrategicresources coexistwithprivatemining/extraction. Mixedgenerallypublicpreference; resourcecustodianshipnotallcompanytitleandindustry-widefractionunmeasured.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: MunicipalcontractingandPPPframeworkfavoursomeprivatewaste/routinedelivery. Qualified agreement; actualallmunicipalityproviderpreferenceunmeasured.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Statebank/energystrategicretentionfavorskeepingownershipdespitesalerevenue. Qualified agreement; noexactallcostedprivatizationscenariofound.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: SOEsupport/restructuringandprivatizationchannelscoexist. Mixed response; noautomaticeveryrepeatedlysubsidizedfirmretentionorsale rule.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "ActualnationalpublicbroadcasterTRToperatesalongsideprivatebroadcasting, despiteeditorialcontroldistinctownership.",
+          "sources": [
+            "imf",
+            "bank-title",
+            "energy-title",
+            "rail",
+            "housing",
+            "rights"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Exportworld-priceinputaccess/customsagreements coexistwithlocalindustrialpriorities,selectiveimportprotectionanddigitalserviceregulation.",
+      "counterEvidence": "Biosafetynotfarmprotectionbydefault, corporatetaxnotproducttax and contentcensorshipnotautomaticallyanimporttariff; exactunretrieved2026tariffremedyexamplesnotinvented.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalindustrialpolicyandselectivetariff/importconditions favourdomesticprotection. Qualified agreement; exactall2026tariffproductpurposesnotretrieved.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "tariffs-crosscheck"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Customsunion/exportinputliberalizationcoexistswithindustrialtradeprotection. Mixedmost-barrierremoval ratherthanclaimallimportsfree.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "customs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationaltechnology/localproductionprioritiesfavorsomepublicprocurementdomesticpreferences. Qualified agreement; currentallprice-premiumstatutesnotconsolidated.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actualinwardprocessingpermitsexportinputpurchasesatworldpriceswhere domesticprice/qualityinsufficient, withinregulatedconditions; notallgoodsunrestricted.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Supplyresilience/localindustryandimport-reliantessentialinputs coexist. Mixedresponse; noallcheaperessentialgoodsbanclaimed.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reciprocalcustoms/tradeagreementsandretainednationalbarriers favourlessunilateralopening. Qualified disagreement; exacteveryunilateralreductionnotinventoried.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "customs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationaltechnology/industrialdevelopment supports selectiveinfant-sectorprotection. Qualified agreement; subsidyinvestmentnotdirecttemporaryimportban andexactallconsumerpricecostsnotmeasured.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private/foreigninvestmentandPPPspermit broadentrywithstrategicconditions. Qualified agreement; exactallnationalityequaltreatmentexceptionsnotconsolidated.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalagricultural/industrialresiliencefavorsomefarmimportprotection. Qualified agreement; biosafetycontrolsnotautomaticallyprotectiveduty andalltariffsunread.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "tariffs-crosscheck"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Exportcompetition/worldpricedinputs andprotectedlocalindustrialpriorities coexist. Mixedadjustment/tradeassistance ratherthanallfirmsmustadjustunsupported.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "tariffs-crosscheck"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiatedtradeopeningandnationalremedialcapacitycoexist. Mixedretaliationpreference; exactallactual2026retaliatorytariffsnotretrieved andnoautomaticresponseinvented.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: GeneralproductVAT/exciseframework favours broadlyparalleldomestic/foreignproducttaxes. Qualified agreement; customsnotproducttaxandallcurrentexemptionsnotconsolidated.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Industrialtradeprotection/remedies favourselectiverestrictionsonsubsidizedforeigncompetition. Qualified agreement; exactallcountervailingproductinvestigationsunreadnotblanketsubsidyban.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiatedcustomsunion/tradeagreements remove sometariffswhileallowingimportdependency. Qualified agreement; notallagriculture/servicescoveredandexactcurrentphase-downnotfullyread.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology",
+            "customs"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: StrategicTWF/securityretentionfavoursomeforeign-controlscreening. Qualified agreement; exactallnationalitypurchaseceilingsnotretrievedandpublicstakealone notblanketforeigninvestmentban.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreignonlineservicesremainavailable butdigitalcontentblocking/regulatoryrequirements areextensive. Mixedcross-borderserviceaccess; moralcensorshipnotpuretarifftradebarrierbutrealaccessqualifier.",
+          "sources": [
+            "trade",
+            "imf",
+            "foreign-policy",
+            "technology"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Ordinarymarkets andindustrialincentives coexistwithstatebanksteering, regulatedessentials, wagefloor andcryptopaymentban.",
+      "counterEvidence": "Developmenttargetsnotcompulsoryallprivateoutputs; currenttightmonetarypolicynotautomaticnationalplancommand, crypto-tradingnotpaymentfreedom andexpired25%rentcapnotcurrentrule.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinaryprivatebusinessproduction decisionscoexistwithnationalindustrypriorities. Qualified agreement; exactalloutputshare/mandatesnotmeasured.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Developmenttargets/incentivesdonotgenerallyestablishcompulsoryprivateproductionquotas. Qualified disagreement; exactallstrategicsectorcompulsionnotinventoried.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marketpricesformostordinarygoodscoexistwithregulatedenergyandotheressentials. Qualified agreement; inflationitselfnotproofgovernmentpricefixingandfullbasketshareunmeasured.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Implementednationalindustry/technologystrategyandpublicpriorityinvestment steerchosen sectors; notcommandeveryprivateallocation.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinaryprivateentry/exit andmarketconsumerdemandfavourbusinesschoice. Qualified agreement; permits/publicprocurement/subsidiesaffectoutcomes.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualenergypricesubsidy/regulationcontextfavoursomeessentialpricecontrols. Qualified agreement; notallessentialsfixedandexactlatestallschedulesunread.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinaryprivatebusinessentrynotgenerallysubjecttoa governmentneed-for-outputtest. Qualified agreement; licensedstrategicsectorsandexactallcapacitycriteriaunread.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Statebanks/prioritycreditandindustrialsteering favoursomegovernmentsectorlendingdirection. Qualified agreement; publicbankmandatenotallprivatebanksmandatoryloanquotas.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinaryforeignexchange/capitaltransactions arepermittedwithreporting/financialchecks. Qualified agreement; exactcurrentallcapitalapprovalrestrictionsunread, noabsoluteunrestrictedexitclaim.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Technology/developmentincentives andpublicpriorityinvestmentsfavorindustrialsteering. Qualified agreement; exacteveryincentiveexecutedamountnotinvented.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "ActualCBRTcrypto-paymentprohibitionpreventsprivatecryptocompetingasmeansofpayment, whiletrading/custodyisnotallbanned.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual2026statutorymonthlyminimumwagegross33030/net28075.50setsfloor ratherthanallnegotiatedminimum.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinarynegotiatedpayabovefloor/publiccollectiveagreements favourwagenegotiation. Qualified agreement; publicwageschedules/floorremain andallpay-settingfractionsunmeasured.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Currenttightdisinflation/data-dependentmoney andexecutiveinfluenceoverCBRTleadershipcoexist. Mixednational-plancommand; IMFindependencerecommendationnotimplementedindependenceproof orautomaticallbankratecommand.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiatedinitialrents andstatutoryrenewalincreasecontrols coexist; expiredtemporary25%capnotclaimed2026current. Mixedrentformation; exacteverycommercial/residentialexceptionunread. ActualtargetedTOKIfirststagepricedrentalprogrammecoexistsprivatemarket; deliveryscheduledOctobernotalreadycomplete.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing",
+            "rental-actual"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinarymarketbusinessproduction andincentiveledindustrystrategymakeeconomywidecompulsoryproduction/distributioncoordinationunlikely. Qualified disagreement; statebank/strategicsectorinfluenceandplansremain.",
+          "sources": [
+            "imf",
+            "technology",
+            "wage",
+            "crypto",
+            "bank-title",
+            "housing"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "ProgressivePIT/estate-gift taxation andtargetedcash coexistwithnewbroaderbirthpayments,fiscalconsolidation andinflationadequacyconcerns.",
+      "counterEvidence": "Employer subsidies,wagefloors,food/services andhousingloansarenotincomesupplements; inheritance/propertytaxnotgeneralnetwealth,programmeexpiry notallrecipientcutoff andbirthcashnotdestitution-only.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ProgressivePITandtargetedcashsupport reduceincomeinequality, qualifiedbyinflationandmodestcoverage/adequacy. Exact2026netdistributioneffectnotmeasured.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Progressivetax/meanstestedcash justify someinequality-reducingtaxation. Qualified disagreement; generalrevenuesalsoservicesnotallredistributiveearmarks.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualcash/birthbenefitincreasesandfiscalconsolidation coexist. Mixedminimum-income/taxtradeoff; childcare/healthservicesnotcashminimumfloor.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Manylimitedneed-basedcashprogrammes favourbasic-safety-netdelivery morethanclosingalllivingstandardgaps. Qualified agreement; newbirthcashbroaderandallcombinedhouseholdbenefitadequacyunmeasured.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual15–40%progressivePITmakeshigherincomeaverageburdenlarger, qualifiedbysalaryminimumexemptionanddifferentincome categories. Exactallactualeffectiveratesunmeasured.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fiscalconsolidation/prudentwagepolicyandprogressivecashcommitments coexist. Mixedearningsretention/transferpriority ratherthan inferfrominequalityalone.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualinheritance/gifttaxraisesgeneralrevenuealongsidecashsupport. Qualified agreement; noearmarkinginheritancerevenueto poorcashfund and2026special1%casesqualify.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Time-limitedemploymentstart/jobsearchcashcoexistswithcontinuingneed-basedfamily/disability/oldagepayments. Mixedworkingagetime-limit; noallrecipientcutoffinvented.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Inheritance/property/asset-returntaxation notgeneralaccumulatednetwealthlevy. Qualified disagreement; exactallluxurypropertychargesnotinventoriedandnotautomaticredistributivewealthbase.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Modestmeanscashandfiscalconsolidationfavorlimitedbenefits/fundingburden. Qualified agreement; targetedbenefits/birthcashexpandedandpurpose notonlytaxcut.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independentinflation/food/renthardshipandlimitedcashlevels suggestinsufficientordinarysocialparticipationsupport. Qualified disagreement; exactallhouseholdcombinedcashadequacyunmeasured.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fiscaltightening/revenuecompliance andactualnewbirthcash expansioncoexist. Mixedtax/benefitpriority ratherthanuniversalcut-tax-firstrule.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actualministryemployment-startcashandworkinghouseholdeligiblechild/carepayments provide selectedlow-incomeincomesupplements; notuniversalalllow-wageadulttopup.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Current2026PITsalarymarginalbandsincreasewithtaxableincome, rejectingflatadditional-income rates.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Currenthomeowner/housingdevelopmentandpropertyprotectioncontext lacks verifiedlargelandholdingredistributionprogrammecomparabletoquestion. Qualified disagreement; constitutionalsoil/agriculturaldutiesnotcurrentactualalllandreformandexactinventoryunread.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actualnewbirthcashforcitizenresidentchildren isnotrestrictedtohouseholdsunabletomeetbasicneeds, alongsideothermeans-testedcash; notallcashuniversal.",
+          "sources": [
+            "cash",
+            "birth-cash",
+            "birth-actual",
+            "pit",
+            "inheritance",
+            "imf",
+            "rights"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "FormalsecularcivilstatecoexistswithpublicDiyanetfaithcultivation, Sunni-centerededucationandreligiouspublicinfluence.",
+      "counterEvidence": "Religiousinfluencenotautomaticstatelegalsource/clericalveto; optionalQurancoursesnotallmandatory, publicfaithfundingnotexacttaxexemptionstatute andpersonalbeliefnotofficialceremonialproof.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Formalconstitutionalcivil/secularlaw justificationpersistswhileactualSunniDiyanet/valuesinfluencegrows. Qualified agreement; religioninfluenceisnotautomaticallynationallegaldoctrinesource.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitution24rejectsstateorderfoundedonreligious tenets, whileactualreligiouspublicinfluenceisstrong. Qualified disagreementretainspracticequalificationratherthanpretendnoreligiousrole.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilpresidential/legislativepolicyneednocomprehensiveclericalapproval, thoughDiyanetadvisesandpromotesfaith. Qualified agreement; everypolicyconsultationruleunread.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitution2definessecularrepublicnotIslamasofficialstatefoundation; compulsoryreligiousculturedoesnotamendthatclause.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: CompulsoryreligiouscultureformallycomparativecoexistswithSunni-centeredpublicinstruction/Diyanetandvaluesfaithcultivation. Qualified disagreement; noteverypublicclassaimsexclusivelyconversionandallcurriculumcontentunread.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActualSunni-centered publicreligiousculture/valuesinstruction and ImamHatip/Quran-faitheducationcontext favor publicfaithcultivation, despiteformalnoofficialstatefaith. Qualifiedagreementlikeliest; Diyanetcoursesalonearenotallpublic-schoolmandatorylessons andpreciseeverycurriculumfaithintentionunread.",
+          "sources": [
+            "constitution",
+            "education",
+            "religious-courses",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilstatecourtsandconstitutionallegislationremainbindingratherthanprivateclericalrulings. Qualified agreement; religiousnormsinfluencepoliticsbutnoallfaithcourtjurisdictionclaimed.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diyanetofficialadvisoryvoice/publicreligiousauthoritycoexistswithcivilenactmentwithoutverifiedmandatoryclericalbillreview. Mixed officialconsultation/reviewrole; exactallstatutoryremitnotconsolidated.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: PublicDiyanet/govfaithactivitiesandorganizedstateprayersfavornotexcludingworshipfromallofficialceremonies. Qualified disagreement; exactevery2026ceremonyscriptnotretrievedandpoliticianpersonalfaithnotaloneproof. Actualofficialfisheriesseasonopeningincludesgovernor/protocolandmuftiprayer, notmerelypresidentialpersonalbelief.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash",
+            "official-prayer"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "ActualpublicDiyanetQuran/Islamfaitheducationfundsbeliefcultivation beyondheritageorcharity alone.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secularconstitutionalpublicidentityandactualpublicreligiousinstitutions/symbols coexist. Mixedendorsement/display; allgovernmentbuildinginventoryunmeasured andmosquesnotautomaticallyeveryoffice.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ramadan/Eidreligiousholidaysremainofficialcalendarmarkers alongsidecivilnationaldays. Qualified agreement; exactofficialrecognitionpurpose/fulllatestholidayActunread.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalgovernment/Assemblyofficesfollowcivilselectionratherthanautomaticclericalpoliticalseats. Qualified agreement; Diyanetstateofficeexistsbutnotallreligiousleaderexofficiogovernmentseats.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Statefaithinstitutionfundingandrecognizedreligiousfoundationcontextfavorreligiousactivitytaxsupportbeyondordinarycharity. Qualified agreement; exactcurrentreligion-onlytaxexemptionclausesunretrieved andDiyanetbudgetnotdirecttaxstatute.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilmarriagerouteoperateswithoutreligiousapprovalorceremony. Qualified agreement; religiousmarriageregistrationoptionsdonotmakefaithapprovaluniversalandallcurrentregistrationexceptionsunread.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilfamilylaw/courtsandexclusivecivilconstitutionallegalsystemmakebindingprivatefaithcourtfamilydecisionslesslikely. Qualified disagreement; exactallreligiousarbitration/privateagreementrecognitionnotconsolidated.",
+          "sources": [
+            "constitution",
+            "religious-courses",
+            "religious-early",
+            "education",
+            "rights",
+            "cash"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Actualfamily-strengtheningandspiritualvaluespolicycoexistswithcivilrights and targetedfamilycash, whileLGBTspeech/associationfacesrestriction.",
+      "counterEvidence": "Leaked2025criminalbillnotautomaticallyenacted; same-sexcriminalizationnotinferredfrommarriageban, legalabortionpermissionnotuniversalsocialacceptance andpublicmoralitysanctionsnotmandatoryalladultdresscode.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Currentfamily/heritagepriorities andactualsexuality/genderrestrictions favourtraditionalcustomretention. Qualified disagreement; manycivilmodernrights/privatepracticespersist.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualfamily/gendercircularandvaluescurriculum favoursomeestablishedtraditionpriority. Qualified agreement; culturalpolicynoteverypersonalcustomimmutable.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Familyinstitution/emphasisandmarital-statusbenefitdistinctions favournontraditionalhouseholdslessequalrecognition. Qualified disagreement; somewidow/singlechildcashprotectionsremainandallbenefitsunmeasured.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family/genderpolicyandsuppressionofgenderidentitylanguage favoursome traditionalsex-roleexpectations. Qualified agreement; women employment/educationalsupportcontinuesandnotalllegalrolessex-fixed.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilmarriageframeworkdoesnotrecognizesame-sexmarriage, withactualanti-LGBTstatepractice. Qualified disagreement; consensualsame-sexactivitynotautomaticallycriminalizedbyunpassed2025draft.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualfamilystrengthening/birthpolicies favourmarriedfamilyinstitution. Qualified agreement; supportforsingle/widowedparentsnotexcludedandeveryfamilyprogrammepriorityunmeasured.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family/reproductivepolicyandreportedaccessbarriersmakestateacceptanceofearlyabortionlesslikelydespiteformallegalpermission. Qualified disagreement; nofictionalcompleteabortionban/exactunreadgestationlimitclaim.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalvaluescurriculumandoptionaladditionalreligiousinstructionparentrequestcoexist. Mixedparentchoice/statecurricularauthority; religious optinnotgeneralsexual-valuesmandatorysubjectveto.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: No same-sexmarriageandactualLGBTfamilyrepressionmakeequaladoptiveparentrecognitionunlikely. Qualified disagreement; exactsingle-parentadoptionrulesnotinventedandsexualityalonecriminalstatusnotassumed.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualpublicmoralityobscenityprosecutions overperformerdressfavourtraditionalmodestynorms. Qualified agreement; notalladultsmandatoryIslamicdresscodeorheadcovering.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actualministrycircularavoidsgender/sexualorientation/identityterms, opposing broadidentity-adaptivelanguageconventions; noteveryagencyidentical.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "ActualMaarifvirtues/nationalspiritualfamilyvaluecurriculum favourspassingestablishedmoralcustoms, notmeasuredcitizenpreferences.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualgenderidentityexpression/associationrestrictionsmakeequalcross-traditionalrolesrecognitionlesslikely. Qualified disagreement; noexacteveryoccupationruleorunpassedcriminalbilltreatedaslaw.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Familytradition/societalcontinuitypriorityfavorsgradualinstitutionalchange. Qualified agreement; concentratedexecutivecanmakefastchangesandallchange-pacepositionunmeasured.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualavoidanceofgenderidentity/sexualorientationlanguage andfamilyculturalcurriculum makesaffirmingpluralgenderlessonslesslikely. Qualified disagreement; exactallgradecurriculumcontentunread.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalspiritualheritage/virtueseducationfavorspreservingvoluntaryancestralcustoms evenwithoutclearcurrentutility. Qualified agreement; notallharmfultraditionslegallyrequired.",
+          "sources": [
+            "rights",
+            "rights-current",
+            "education",
+            "cash",
+            "constitution"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "ActualAI/industryroadmapandinfrastructureexpansioncoexistswithclinicalethicsandbiosafetycontrols.",
+      "counterEvidence": "Targetsnotcompleteddeployment; civilianAI/droneinvestmentnotmedical/lethalautonomyproof, GMfeednotdomesticcrop/embryopermission andclinicaltherapyframeworknotexacthealthybrainenhancementlaw.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualindustry/AIadoptionroadmapanddevelopmentprojects favoursomebenefit-leddeploymentdespiteuncertainty. Qualified agreement; roadmaptargetsnotallcompletedandmedicalriskreviewretained.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActiveAI/industrialdeployment goesbeyondkeepingalltechnologyinsmalltrialsuntillongtermcertainty. Qualified disagreement; highriskclinicalstagingdifferentordinaryinnovation.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualcoal/largeinfrastructuredevelopmentdespitehabitat/communityconcerns favoursubstantialbenefitprojects. Qualified agreement; notallhabitatlossautomaticallypermitted andexactallimpactcasesunmeasured.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualclinical/deviceethicalreviewframework favoursubstantialsafetyreview. Qualified agreement; exactlongtermallmedicalapprovalthresholdsnotconsolidated.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: CurrentAIproductivityroadmapfavorsadoption/retrainingwithjobtransitionrisk. Qualified agreement; exacte verylargejob-displacementtradeoffunretrieved andtargetsnotactualreplacement.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Implementedenergy/housingprojects favourconditionaldevelopmentoverabsolutepreservation. Qualified disagreement; environmentalreviews/communitychallengesremainandallprojectbalanceunmeasured.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Biosafety/clinicalprecautioncontextmakes replacingmeatbeforeenvironmentalclaritylesslikely. Qualified disagreement; approvedGMfeednotcultivatedmeatpermissionorbanandexactpolicygapqualified.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical/deviceoversightmakeshealthy-brainimplantslikelyrestricteduntilstrongsafety. Qualified agreement; therapeutictrialframeworknotexactenhancementstatuteandnoinventednationalbrainimplantban.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Energy/industrialtechnologystrategyandgrowthpriorityfavorssomeclimatetechnologyoverdemandreduction. Qualified agreement; exactunproven-scalepriorityunreadandfossilcontinuitynotproofeverytechsolution.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Formalrisk/impactreviewandactualmajorcoal/developmentapprovaldespiteconcerns coexist. Mixeddelay/publicbenefittradeoff notallprojectuncertaintyignored.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medicaloversightmakesbasic-safety-onlyhealthybrain enhancementaccesslesslikelyunderlongtermuncertainty. Qualified disagreement; exactenhancementcategorylegalrulenotfound.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medicalethics/deviceclinicalframeworkfavorreliabilityreviewandsupervisedmedicalAIbeforebroaddeployment. Qualified agreement; exacteverypatientgrouptrial-onlyrequirementunread, civilianAIroadmapnotproofmedicalpermission.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ethicalclinical/biosafetycontext makesenhancementembryogeneeditingtrialslesslikelythanmedicaldiseaseapplications. Qualified disagreement; noexactnationalembryoenhancementstatutefoundandGMfeednotembryoresearch.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Biosafety5977controls/approvedfeedlistandrestrictivecultivationcontext favourecologicalcaution. Qualified agreement; exactuniversallongtermproofdurationnotretrieved andfeedimportsnotcropcultivationauthorization.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ActualTOKIlargehomeconstruction/networkdevelopmentprioritiesfavourexpansionoverallundevelopedlandretention. Qualified agreement; drawbeneficiariesnotcompleted500khomesandallhabitatconflictsunmeasured.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Biosafety/medicalethicalrestrictionsandactualbenefit-ledinfrastructure/AIexpansioncoexist. Mixedirreversible-riskdelaypriority, notallriskuncertaintyenables/forbidsdeployment.",
+          "sources": [
+            "technology",
+            "ai-actual",
+            "clinical",
+            "biosafety",
+            "imf",
+            "rights",
+            "housing"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Unitarynationalgovernmentoversees electedlocaladministrationswithconstitutionaladministrativetutelage, nationalcurriculum andcommonpolice/worklaw.",
+      "counterEvidence": "Localservicepowersandrevenuepersist; judiciarystatusreviewnotunlimitedexecutiveveto, minorityidentitynotIndigenoussovereignty andnationalprogrammeauthoritynotabsenceallmunicipalchoice.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Electedmunicipallocalpowers existbutcentraladministrativetutelage/actualtrusteeinterventions limit protectedpolicyautonomy. Qualified disagreement; notalllocalserviceauthorityabsent.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unitarycentrallegalframework/tutelage favoursnationalprimacy incompetence, qualifiedbyjudicialreviewofstatus/powers. Moderateagreement; noallunlimitedexecutiveconflictveto.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Indivisibleunitarynationalconstitutionalstate doesnotgrantregionsunilateralmajorityreferendumsecession.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitution127nationaltutelageforuniformpublicserviceandactualcentralmayoralinterventionallowsoverridinglocalgovernment, withinformallegalgrounds.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Localadministrationgovernedbynationallawhasno protectedregionalconstitutionrightcomparablefederatedstates.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalpolice/gendarmeriestructureandcentralInteriorauthority favorcommoncentralcommand. Qualified agreement; municipalenforcementofficersnotindependentregionalpolicegovernmentsandexactalllocalpowersunread.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Centraltax/revenueallocationstructurefavoursnotretainingmostgeographictaxlocally. Qualified disagreement; municipalfees/localrevenuesexistandactualnetsharesunmeasured.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitution42/stateeducationsupervisionandactualcommonMaarifcurriculum establishnationalcompulsorysubjectauthority, withlocaldeliveryvariation.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationaltaxlaw/municipalstatutorycharges limitindependentregionalratecompetition. Qualified disagreement; someboundedfees/municipalchoicespossibleandallcurrentratepowersunread.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalminimumwage/labourlawframework favorscommonworkrules. Qualified agreement; bargainingandsectorarrangementsvaryandallhour/dismissalprovisionsnotconsolidated.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationallawdefineslocalstructuresandcentralpermissions,notunilateral localvoter boundary/powerchange. Qualified disagreement; everydemarcationprocessnotinventoried.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalhealth/insuranceprogrammeauthorityfavorscommoncoveredtreatments. Qualified agreement; localfacilitydelivery/privatecare varyandexactallcoveragecompetencesunread.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unitarynational/minority-policyframework makesterritorialIndigenousautonomousgovernanceunlikely. Qualified disagreement; minority/ethniccommunitynotautomaticallyIndigenouslegalcategoryandeverytraditionallocalarrangementunmeasured.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationaltaxframework/tutelage favourslimitsonregionalfiscalcompetition. Qualified agreement; exactlocalfees/rateboundsnotconsolidatedratherthaninventunlimitedbans.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nationalstate/ministryforestry/environment/developmentauthority limitsunqualifiedregionalland/wildlifeauthority. Qualified disagreement; localplanningdutiespersistandexactwhollyinternalcompetencesunread.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Centralnationaldisastercoordination/administrativetutelagefavorscross-regioncommand. Qualified agreement; exactallAFAD/localoverrideprovisionsnotretrieved andordinarylocaldeliverynotsovereigndisasterauthority.",
+          "sources": [
+            "constitution",
+            "rights",
+            "education",
+            "cash",
+            "housing",
+            "conscription"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Actualvirtues,skills,socialemotionalandfamilyeducationgivelearning/upbringingcausalweight; individualtraitextrapolationsremaineducated.",
+      "counterEvidence": "All16CNanswersinferred; religious/nationalvaluesnotgeneticcausation, genderrolesnotinnatepayvalue, ethnicrepressionnotracialbiologicalviolenceclaim andclinicalindividualvariationnotracialselfcontrolhierarchy.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Maariflearning/social-emotionaldevelopmentandfamilyeducationcontext favoursupbringingbehaviorcauses. Qualified agreement; exactnormalbehaviorheritabilitysharesunmeasuredandindividualbiologypossible.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Learning/education/skillsinterventionsfavoropportunityovernationalinheritedIQhierarchies. Qualified disagreement; nationalidentity/valuesnotgeneticIQtheoryandexactcountryIQpositionunretrieved.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actualnationalfamily/virtueslearning and implementedchildcare/opportunitybarrierprogrammes give socialexpectations/experience substantialweight in genderbehavior. Qualifiedagreementlikeliest; traditionalrolesare notdirectbiologicalcausationclaim, and exactsexbehaviorcausalshareunmeasured.",
+          "sources": [
+            "education",
+            "care-barriers",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family/socialemotionallearningandpsychosocialsupportcontextfavorsimportantexperienceinstress. Qualified disagreementwithmainlybiology; medicalvulnerabilitypossibleandexactheritabilitypositionunread.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Skill/learning/explorationcurriculum favors experience-shapedinterests. Qualified agreement; noquantifiedinterestcausalshareandpredispositionspossible.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selfdiscipline/addictionprevention/lifeskills education favourlearnedriskbehavioroverchieflyinheritance. Qualified disagreement; exactriskheritabilityshareunmeasured.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Curriculumsocialemotional/familycommunitylearningfavorcooperativehabits shapedbysurroundings. Qualified agreement; temperamentpossibleandexactcooperationpositionunread.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Mercy/compassion/socialskillseducation favourlearnedempatheticcapacityovermainlyinheritance. Qualified disagreement; notanexactnationalempathydecompositionstudy.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Academic/skillslearninganddisciplineeducationfavorlearnedattentioncapacity. Qualified agreement; clinicalattentiondisordersmayhavebiologyandnormaltraitcausalshareunmeasured.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious/moralvirtueseducationpromoteslearnedimmediatejudgmentsratherthanmainlybiologicalpredisposition. Qualified disagreement; faithbeliefnotitselfmoralgenetic theoryandcausalshareunmeasured.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family/psychosocialexperienceandsecurity-learningcontext makeslearnedthreatperceptionlikeliest. Qualified agreement; exactfearbiology/contextshareunretrievedandvulnerabilitypossible.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Holisticindividualdevelopmentandfamilyeducationcoexistwithrecognitionofindividualtraits. Mixedtemperamentinteraction; noautomaticbiologypredominancefromreligiousmoralityorall-learningfromcurriculum.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Modesty/nationalcultural/artseducationcontext favorslearnedbeautyconventions. Qualified agreement; exactattractivenessheritabilitypositionunreadandbiologypossible.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security/socialcontextandeducationinterventions makessurroundingsexplanationmorelikelythanracialgeneticviolence. Qualified disagreement; Kurdish/migrantrepressionnotitselfdocumentedracialbiologicalcausalpositionandexactcausalshareunmeasured.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Explicitselfdiscipline/virtueslearningcurriculumfavors learnedcontrol overinheritedracialtendencies. Qualified agreement; individualclinicalbiologydistinctracialhierarchyandnormalcausalshareunmeasured.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Womenemployment/childcare/familyopportunitycontextsupportsbarrier/expectationpayexplanationmorethaninnateeconomicsexvalue. Qualified disagreement; traditionalrolesnotbiologicaleconomiccausationproofandexactpaygapdecompositionnotfound.",
+          "sources": [
+            "education",
+            "religious-early",
+            "cash",
+            "rights",
+            "care-barriers"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex: distinct same-agent focused evidence review (not independent human or external peer review)",
+    "reviewedAt": "2026-10-06",
+    "notes": "Reviewed the literal revised mechanisms, directions, period-specific retained research, supplemental references, inferred intensity, conditional Neutral decisions, institutional mismatches and unchanged-answer preservation. New educated-assumption IDs: democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13. A personally elected presidency issues emergency decrees subject to formal parliamentary procedures amid weak checks. Constitutional provisions allow specified wartime electoral delay; a governing party cannot freely substitute a president as it could a parliamentary prime minister. All earlier evidence limitations remain. No new empirical calibration, fresh full-profile research, human review or external peer certification is claimed. Similarity is reviewed after scoring the complete batch, without tuning any answer.",
+    "similarity": []
+  }
+}

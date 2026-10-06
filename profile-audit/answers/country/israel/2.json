@@ -1,0 +1,3595 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "israel",
+  "revision": 2,
+  "questionBankVersion": "2.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "ff5cd074c33d338b62aafc9c7e9cb7ff3afdbac91cafe5905f16de43f2e585f7",
+  "researchedAt": "2026-10-06",
+  "author": "Codex: focused Democracy–Autocracy reassessment",
+  "changeNote": "Owner-authorised focused migration to bank 2.0.0 and axes 2.0.0. Independently reassessed democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13 using retained period-specific sourced research and the explicitly recorded supplemental references. All other 234 question-level answer objects are preserved verbatim from revision 1. No other axis was reassessed, no target score or population remapping was applied, and earlier archives remain unchanged. Six new educated assumptions are provisional; retained evidence limitations still apply.",
+  "metadata": {
+    "name": "Israel",
+    "description": "Israel’s national institutions and implemented policies through 4 October 2026, with national and occupied-territory jurisdiction distinguished.",
+    "category": "Unitary parliamentary republic",
+    "period": "Contemporary institutions and implemented policy; intended cut-off 2026-10-04",
+    "scope": "National institutions and implemented policy through2026-10-04, not citizens’ attitudes. National democratic institutions distinguished from occupied-territory military policy; current cabinet and scheduled October27 election, deferred judicial appointment rules, temporary worker routes and announced reforms assessed separately.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/israel-r1.png",
+      "alt": "Flag of Israel: white field with two blue horizontal stripes and central blue Star of David",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg",
+      "creator": "Israel Belkind and Fanny Abramovitch (original design); Provisional Council of State specification; Commons SVG contributors",
+      "license": "Public domain (Commons PD-Israel and common-property flag)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Israel.svg#Summary"
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-context",
+      "title": "Israel: Freedom House country overview (2026)",
+      "url": "https://freedomhouse.org/country/israel/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "government-law",
+      "title": "Basic Law Government English consolidation throughAugust2023: parliamentary confidence, constructive removal, emergency limits; later amendments qualified",
+      "url": "https://main.knesset.gov.il/EN/activity/Documents/BasicLawsPDF/BasicLawTheGovernment.pdf",
+      "publisher": "State of Israel / Knesset",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "knesset-law",
+      "title": "Basic Law Knesset English consolidation throughJanuary2023: ordinary adult suffrage, independent electoral rules and institutional election postponement",
+      "url": "https://main.knesset.gov.il/EN/activity/documents/BasicLawsPDF/BasicLawTheKnesset.pdf",
+      "publisher": "State of Israel / Knesset",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "basic-laws",
+      "title": "Current official Basic Laws overview; civil courts, national army authority and Nation-State foundation distinguished from draft constitution proposals",
+      "url": "https://m.knesset.gov.il/en/activity/pages/basiclaws.aspx",
+      "publisher": "State of Israel / Knesset",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "nation-state-law",
+      "title": "Actual2018 Nation-State enactment: Hebrew/calendar, Jewish national identity, minority heritage; minister political defense not independent proof of equal implementation",
+      "url": "https://m.knesset.gov.il/en/news/pressreleases/pages/pr13979_pg.aspx",
+      "publisher": "State of Israel / Knesset",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "election-current",
+      "title": "July17 2026 dissolution with October27 election scheduled; current ultra-Orthodox conscription exception laws, not completed future election",
+      "url": "https://apnews.com/article/644a8927076eb4089257a38909a0f0f6",
+      "publisher": "Associated Press",
+      "date": "2026-07-17",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "oecd-economy",
+      "title": "OECD2025 full142-page economic survey, downloaded/read: public enterprises, rail/grid ownership, banking, markets, tariffs, religion-linked certification and national monetary framework",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/04/oecd-economic-surveys-israel-2025_18e45b04/d6dd02bc-en.pdf",
+      "publisher": "OECD",
+      "date": "2025-04-02",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "income-support",
+      "title": "Actual January2026 earned-income deductions and continuing income-support cash entitlement; cash differs from services",
+      "url": "https://www.btl.gov.il/English%20Homepage/Benefits/Income%20Support%20Benefit/Pages/accordingincomefromwork.aspx",
+      "publisher": "State of Israel / National Insurance",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "unemployment",
+      "title": "Actual2026 wage-linked unemployment cash calculation and staged maximum; specific benefit not all household support",
+      "url": "https://www.btl.gov.il/English%20Homepage/Benefits/Unemployment%20Insurance/Pages/BenefitAmount.aspx",
+      "publisher": "State of Israel / National Insurance",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "work-grant",
+      "title": "Current tax-authority work-grant page and July2026 first2025eligibility-year payment announcement; planned disbursement not independently audited all payments",
+      "url": "https://www.gov.il/en/departments/topics/work_grant",
+      "publisher": "State of Israel / Tax Authority",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "tax-context",
+      "title": "OECD Taxing Wages2026 Israel section describes2025graduated rates; exact2026bracket amendments not assumed from historical thresholds",
+      "url": "https://www.oecd.org/en/publications/taxing-wages-2026_3a5169ef-en/full-report/israel_a4edda9d.html",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "inheritance",
+      "title": "Actual Library of Congress legal account of1981estate-tax abolition; current later reintroduction unverified and qualified",
+      "url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2021700253/2021700253.pdf",
+      "publisher": "US Library of Congress",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "spouse-residence",
+      "title": "Current graduated legal-status procedure for spouses of Israeli citizens or permanent residents, family eligibility not allforeignworkers settlement",
+      "url": "https://www.gov.il/en/service/requesting-status-for-foreign-life-partner",
+      "publisher": "State of Israel / Population and Immigration Authority",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "family-restrictions",
+      "title": "March9 2026 Knesset annual extension of Citizenship/Entry law; official indexed enacted extension, fullpage returned empty",
+      "url": "https://main.knesset.gov.il/News/PressReleases/Pages/PRESS09.03.26OK.aspx",
+      "publisher": "State of Israel / Knesset",
+      "date": "2026-03-09",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "asylum",
+      "title": "UNHCR actual Israel application/protection procedure; refugee protection distinct from employment or study settlement",
+      "url": "https://help.unhcr.org/israel/asylum-in-israel/",
+      "publisher": "UNHCR",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "refugee-context",
+      "title": "UNHCR recognition framework with historical July2020rate explicitly dated, not current2026census",
+      "url": "https://www.unhcr.org/il/en/refugee-status-determination-rsd-unhcr-israel",
+      "publisher": "UNHCR",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "un-detention",
+      "title": "UN CAT/C/ISR/CO/6 actual December22 2025 conclusions: recognized security threats, fundamental safeguards, military versus domestic detention and ineffective review concerns",
+      "url": "https://docstore.ohchr.org/SelfServices/FilesHandler.ashx?enc=xhwMYnm0erR85h7C3nsLwRBNpou7UBnDwN%2F5yq4dsydazXgyfHOSuRojGaa0vPBGyIIauZB0Jna7L%2BJ8NKhjEQ%3D%3D",
+      "publisher": "United Nations Committee against Torture",
+      "date": "2025-12-22",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "guns",
+      "title": "Current personal firearm licence includes eligibility category, health/police checks and mandatory training, not violent-history check alone",
+      "url": "https://www.gov.il/en/service/issue_firearms_license_to_a_private_individual",
+      "publisher": "State of Israel / Firearm Licensing Department",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cannabis",
+      "title": "March2022 actual administrative cannabis offences approval; decriminalization differs from unrestricted lawful adult drug use",
+      "url": "https://main.knesset.gov.il/News/PressReleases/pages/press23.03.22.aspx",
+      "publisher": "State of Israel / Knesset",
+      "date": "2022-03-23",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "marriage-context",
+      "title": "US2023religious freedom report actual March2023court recognition of onlineUtahmarriages including LGBTQcouples and continuing religious domestic jurisdiction",
+      "url": "https://2021-2025.state.gov/wp-content/uploads/2024/06/547499-ISRAEL-2023-INTERNATIONAL-RELIGIOUS-FREEDOM-REPORT.pdf",
+      "publisher": "US Department of State",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "lgbt-benefits",
+      "title": "Actual national insurance same-sex common-law/registered partners entitled to birth/adoption/surrogacy rights; benefit eligibility distinct from universal social acceptance",
+      "url": "https://www.btl.gov.il/English%20Homepage/%D7%9E%D7%99%D7%93%D7%A2%20%D7%9C%D7%A7%D7%94%D7%9C%20%D7%99%D7%A2%D7%93/lahatav/Pages/leda.aspx",
+      "publisher": "State of Israel / National Insurance",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "adoption-service",
+      "title": "Current national adoption/parental-rights administration includes same-sex couples, indexed service record not all attitudes measured",
+      "url": "https://www.gov.il/en/departments/units/molsa-units-personal-and-social-services-unit",
+      "publisher": "State of Israel / Welfare Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ai-strategy",
+      "title": "Actual Innovation Authority AI2026 strategy full downloaded report: implemented earlier work versus recommended sandboxes/compute/capability, not all future national programme delivered",
+      "url": "https://innovationisrael.org.il/en/wp-content/uploads/sites/3/2026/05/AI-Strategy-2026-ENG.pdf",
+      "publisher": "State of Israel / Innovation Authority",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cultivated-meat",
+      "title": "January17 2024 health-ministry actual cultivated beef approval indexed official record; full webpage empty, not all manufacturers approved",
+      "url": "https://www.gov.il/ar/pages/17012024-02",
+      "publisher": "State of Israel / Health Ministry",
+      "date": "2024-01-17",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gm-trials",
+      "title": "Official permission application for genetically engineered plant/organism experiments, not automatic unrestricted ecosystem cultivation",
+      "url": "https://www.gov.il/he/service/committee-gmos",
+      "publisher": "State of Israel / Agriculture Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "embryo-policy",
+      "title": "Actual Weizmann IRB primary research policy quotes reproductive germline creation prohibition, permitting specified stem-cell research; disease versus enhancement distinction",
+      "url": "https://www.weizmann.ac.il/IRB/human-embryonic-stem-cell-research",
+      "publisher": "Weizmann Institute of Science",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "parenting",
+      "title": "Actual Ministry Health parenting/parents guidance and monitoring, not a measured national genetic predominance statement",
+      "url": "https://me.health.gov.il/en/parenting/?source=7014",
+      "publisher": "State of Israel / Health Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "play-learning",
+      "title": "Actual ministry play guidance: cooperation, discovery and parent-child interaction as developmental mechanisms",
+      "url": "https://me.health.gov.il/en/parenting/raising-children/safe-environment/home-safety/safe-play/",
+      "publisher": "State of Israel / Health Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "adhd-causes",
+      "title": "September30 2025 official child psychiatrist page: neurodevelopmental ADHD with genetics and congenital/acquired environment, inherited evidence distinct from all ordinary attention variation",
+      "url": "https://me.health.gov.il/mental-health/information-and-updates/adhd/children/about/",
+      "publisher": "State of Israel / Health Ministry",
+      "date": "2025-09-30",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "trade-current",
+      "title": "Actual July17 2026 US-standard import reform enactment announcement; expected lower prices not all effects delivered or all importtariffs zero",
+      "url": "https://www.gov.il/he/pages/usa-reform-approved-170726",
+      "publisher": "State of Israel / Economy Ministry",
+      "date": "2026-07-17",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "trade-fta",
+      "title": "US Commerce March2026 treaty status distinguishes existingFTA from announcedalltariffremoval still pending asofAugust2025; no current allzero assertion",
+      "url": "https://www.trade.gov/knowledge-product/israel-trade-agreements",
+      "publisher": "US Department of Commerce",
+      "date": "2026-03-30",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "public-housing",
+      "title": "Current March2026 public housing eligibility guide; real public stock distinct from apartment-purchase subsidies",
+      "url": "https://www.gov.il/he/pages/public_housing_guide_step_by_step?chapterIndex=3",
+      "publisher": "State of Israel / Housing Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "local-tax",
+      "title": "Actual2026ministerial exceptional municipal Arnona approvals; local taxes constrained by national approval, not independent regional constitutions",
+      "url": "https://www.gov.il/he/Departments/DynamicCollectors/arnona-confirmations?skip=0",
+      "publisher": "State of Israel / Interior Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "health-ownership",
+      "title": "Actual WHO/European Observatory Israel health-system overview: ministry owns/operates roughly half acute beds, health funds/other owners coexist; older counts qualified",
+      "url": "https://eurohealthobservatory.who.int/monitors/health-systems-monitor/countries-hspm/hspm/israel-2015/organization-and-governance/overview-of-the-health-system",
+      "publisher": "WHO / European Observatory",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "broadcast-current",
+      "title": "Current official Communications legal office lists Israeli Public Broadcasting Corporation as statutory body; fullpage retrieval internal error, official indexed text qualified",
+      "url": "https://www.gov.il/en/departments/units/laws",
+      "publisher": "State of Israel / Communications Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "adhd-english",
+      "title": "Actual October15 2025 English official ADHD guidance: genetics and environmental contribution, clinical condition not all attention/temperament",
+      "url": "https://me.health.gov.il/en/mental-health/information-and-updates/adhd/adhd-children/about/",
+      "publisher": "State of Israel / Health Ministry",
+      "date": "2025-10-15",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "democracy-v2-knesset",
+      "title": "Basic Law: The Knesset, section 9a",
+      "url": "https://www.gov.il/apps/elections/elections-knesset-19/eng/law/BasicLawKnesset_eng.html",
+      "publisher": "Government of Israel",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure.\nFocused six-question reassessment: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules.",
+      "counterEvidence": "October2026 election and post-election appointments changes are future at cutoff; opposition restrictions, unequal treatment and occupied-territory military administration qualify domestic institutional protections.\nThe owner-defined broader axis includes lawful delegation and direct public control; a lower numerical placement is not a regime classification. Six exact responses and response strengths remain inferred. Retained source access dates are not refreshed unless a source was actually revisited. Unchanged answers and other axes were not re-audited. Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Competitive parliamentary elections determine coalition leadership; October27 election remains scheduled, not completed at cutoff.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “Important national policy decisions should be delegated to independent experts who do not need approval from elected representatives for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. This is delegation of policy decisions to independent specialists, not replacement of the electorate or a claim that all expertise is political sovereignty. A legislative mandate, appointment process and later review can coexist with not voting on every operational decision.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Basic Law Knesset ordinary18plus citizen suffrage has no education/intelligence test; citizenship differs from residence in occupied territories.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “During a serious emergency, the head of government should be able to put temporary laws into effect before parliament votes, with those laws expiring if parliament rejects them.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. This permits temporary lawmaking before a vote but expressly retains parliamentary rejection and expiry. It is not the previous permission to override an actual parliamentary rejection; primary legislation and delegated emergency instruments can differ.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competitive opposition participates and can replace coalition, qualified by candidate/party restrictions and discrimination. Same conditions are not fully guaranteed in all circumstances; current individual disqualification outcomes were not exhaustively traced.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “Citizens should be able to put proposed national laws to a binding public vote by collecting enough signatures.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. The revised claim gives citizens an independent signature-triggered route to a binding national law vote. A petition, advisory consultation, parliamentary bill proposal or government-called referendum does not by itself establish that mechanism. Constitutional initiatives can provide qualified, narrower support.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Courts have actually suspended/nullified government attorney-general removal; judicial independence pressure qualifies agreement, while appointments change awaits after-election commencement.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “The governing party or coalition should be able to choose a new head of government between elections without holding a new public vote.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. This concerns replacing the head of government between elections. Parliamentary confidence or governing-party selection differs from choosing an entirely new legislature. A personally elected presidency has different succession rules, and a prime minister must not be confused with a separate ceremonial or executive head of state.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Candidate disqualification mechanisms and political participation restrictions coexist with judicial/electoral supervision. Governing leadership cannot generally exclude any party simply on its own position judgment; exact2026cases were not exhaustively traced.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Specific territorial referendum machinery does not establish a general citizen law-repeal referendum. Moderate disagreement is likeliest; every statutory referendum route was not individually retrieved.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “An elected head of government should be able to make major policy decisions within existing law without obtaining parliament’s approval for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. The revised claim permits executive policy implementation within existing law without a separate parliamentary vote on each decision. It does not permit overriding legislation, spending authority, courts, or an explicit parliamentary rejection; collegial executives require additional qualification.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constructive parliamentary no-confidence and defined conviction/removal provisions enable elected representatives to remove the government/prime minister.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “Parliament should be able to postpone a scheduled national election during a serious emergency, for a limited period specified in law.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive parliamentary elections, coalition confidence and court scrutiny remain operative under political pressure. Focused interpretation: Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. This concerns a legally limited emergency postponement authorised by Parliament, not a leader cancelling elections for political convenience. Constitutional term limits, emergency exceptions and actual independent parliamentary control must be considered separately. Section 9a requires eighty members, circumstances preventing timely elections, a statutory election date and no extension beyond what those circumstances require. The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current",
+            "democracy-v2-knesset"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fixed elected terms and parliamentary removal mechanisms do not provide an individual voter recall vote. Exact current municipal exceptions were not exhaustively retrieved.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Government holds parliamentary confidence and collective responsibility; actual court scrutiny continues despite pressure.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Army is subordinate to civilian state/government authority; former officers winning elections are not military unilateral replacement.",
+          "sources": [
+            "government-law",
+            "knesset-law",
+            "basic-laws",
+            "freedom-context",
+            "election-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Domestic civil freedoms coexist with extensive security powers and sharply different occupied-territory administration.",
+      "counterEvidence": "Formal judicial review is not proof of effective safeguards, but renewable detention is not automatically a law permitting no court review; protest, moral content, identity and warrant questions retain their exact thresholds.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Personal cannabis offences moved toward administrative fines, while drug prohibitions remain. Unrestricted risky adult drug choice is unlikely; current full list of substances/exceptions was not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic judicial/security interception systems suggest serious-crime court-authorized monitoring is permitted. Exact2026wiretap warrant clauses were not retrieved; foreign/military monitoring is not the same domestic threshold.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Large anti-government demonstrations coexist with arrests, road restrictions and unequal Palestinian protest treatment. Mixed response weighs real assembly and obstruction/security enforcement, not a universal emergency-access-only entitlement.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Robust government criticism and electoral opposition coexist with incitement prosecutions and military censorship. Offence alone is generally insufficient but implementation is uneven; complete current speech jurisprudence was not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Seatbelt/health regulation and clinical public protection context make some primarily self-protective adult mandates likely. Exact current self-benefit-only powers were not traced; infection protection of others is not sole evidence.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security surveillance and movement monitoring indicate broad data collection, qualified by domestic privacy and judicial safeguards. Exact several-year suspicion-free police retention period was not independently verified.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National traffic/intoxication enforcement suggests random impairment testing likely allowed under regulated checks. Exact current no-suspicion statutory threshold was not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preventive security administration and court review suggest serious-risk movement restrictions are possible before conviction, qualified by civil safeguards and discrimination concerns. Exact prospective-harm court test was not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Adults generally access diverse cultural and critical material, qualified by security censorship, faith pressure and wartime media restrictions. No general moral-objection ban was established; exact all-media exceptions remain unverified.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary foreign/platform communication is accessible alongside surveillance and account checks. Mandatory verified government identity for every communication service was not established; precise current platform rules were not exhaustively traced.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security-area policing suggests credible-threat searches without individualized suspicion can occur. Military checkpoint rules differ from domestic policing; exact current domestic area-search authorization was not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public-order and emergency security administration permit threatened-disorder gathering restrictions, qualified by judicial and proportionality review. Exact threshold and2026implementation across communities were not fully traced.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic privacy/warrant protections coexist with emergency exceptions and security home searches in occupied territory. Mixed response reflects jurisdictional divergence; no assertion all searches obey the sole immediate-safety exception is made.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Military censorship, security secrecy and punishment of confidential disclosure constrain an unconditional misconduct-publication right. Investigative media and litigation qualify disagreement; precise current public-interest exceptions were not retrieved.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Current civilian licensing requires approved eligibility category, documentation, health/police checks and training, rather than violent-history checks alone; expanded eligibility is counterevidence to a total ban.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Administrative detention has renewals and formal judicial review but UN findings document delayed access, ineffective safeguards and incommunicado detention. Mixed response distinguishes indefinitely renewable detention from unlimited detention without any independent court mechanism; exact2026amendments were not completely consolidated.",
+          "sources": [
+            "freedom-context",
+            "un-detention",
+            "basic-laws",
+            "guns",
+            "cannabis",
+            "marriage-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Jewish national identity, Hebrew and the Hebrew calendar coexist with recognized minority languages and religious institutions.",
+      "counterEvidence": "Minority rights and culturally separate education qualify assimilation; historic resident communities are not interchangeable with migrant language services or Indigenous ceremony categories.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Jewish national identity and Hebrew priority suggest national-cultural precedence, qualified by recognized minority religious/community practice. Precise migrant-conflict rule was not retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Arabic access, distinct religious institutions and public minority schooling involve some accommodation spending. Unequal access qualifies agreement; migrant-specific additional-spending obligations were not exhaustively checked.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Hebrew-language absorption and national identity support shared custom expectations, qualified by retained diaspora and minority traditions. Exact permanent-migrant cultural obligation was not retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Minority heritage protections and varied immigrant communities support retained identity, qualified by national assimilation pressure and unequal recognition. Full foreign-identity condition was not legally inventoried.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Hebrew is the official national language and Arabic has special status; common public administration prioritizes Hebrew while minority access qualifies exclusivity.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National Jewish historical identity is formally recognized while minority/Bedouin recognition is uneven. A general Indigenous ceremonial acknowledgment duty is unlikely; contested identity categories and exact ceremonies remain unverified.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National Jewish heritage and state-linked religious institutions suggest predominant-tradition funding priority. Minority services are counterevidence; exact current comparative allocations were not measured.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nation-State identity/Hebrew priority suggest shared national culture generally prevails in conflict, qualified by religious personal-law and minority heritage rights. Exact cultural-conflict case inventory was not retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "The Hebrew calendar and Jewish rest/festivals have official national status, while minority days of rest qualify a single exclusive calendar.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Minority heritage, languages and religious institutions form recognized domestic traditions, qualified by unequal national-self-determination provisions. Extent of equal cultural national recognition remains inferred.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Absorption and common language institutions suggest wider-community participation rather than isolated migrant communities. Separate religious/ethnic schooling and housing qualify agreement; exact current integration programmes were not fully retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Arabic/minority language access and multilingual service practice coexist with Hebrew priority. Mixed estimate distinguishes historically resident languages from foreign-migrant signage; exact migrant-community signage rules were not retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National identity transmission coexists with strong publicly recognized community/religious family identity. Mixed response weighs both rather than assuming a private-family hierarchy from the Nation-State law.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recognized minority religious clothing and general personal appearance freedom suggest continued religious full covering, qualified by security identification. Exact exception when all other full coverings are banned was not found.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Multiple minority/diaspora traditions are institutionalized within a Jewish national framework. Moderate inclusion is likeliest, qualified by unequal recognition; no assumption all ways of life receive equal national status.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Hebrew/national absorption priority favors shared customs, qualified by supported distinct religious/diaspora identity. Precise current programme maintenance-versus-adoption weighting was not retrieved.",
+          "sources": [
+            "nation-state-law",
+            "basic-laws",
+            "freedom-context",
+            "marriage-context",
+            "spouse-residence",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "National-return and family pathways coexist with selective temporary work and restricted asylum settlement.",
+      "counterEvidence": "Spouse access is qualified by the current Citizenship/Entry restriction extension; temporary worker quotas and historical refugee statistics are not permanent numerical limits or current population measurements.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Jewish-return and family/status criteria differ from a strict annual permanent quota based on housing/workforce deficits. Temporary worker quotas are not permanent caps; exact current permanent numerical regulations were not fully retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Law-of-Return and specific family/status channels are selective rather than a general better-living settlement entitlement. Humanitarian exceptions qualify disagreement; complete current residence routes were not inventoried.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Jewish-return and spouse/family residence pathways do not require nationally important occupational skills as the sole permanent criterion.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Current graduated spouse status for citizens/permanent residents coexists with nationality/security restrictions extendedMarch2026; family reunion exists but is not generally equal across relevant groups.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Asylum procedure and nonrefoulement coexist with highly restrictive durable recognition and temporary status. Unconditional permanent settlement regardless of skills/cultural compatibility is unlikely; historical recognition rates are not claimed current.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Irregular admission restrictions and return policy favor removal, qualified by nonrefoulement and tolerated unresolved protection claims. Exact current blanket removal practice was not exhaustively retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Temporary expert/worker channels do not remove selective permanent settlement limits despite employer demand. Exact current shortage-to-permanence exceptions were not retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective national-status admission and restricted ordinary settlement suggest capacity/cultural limits can prevail despite growth benefits. A specific universal housing-versus-growth directive was not found, qualifying the estimate.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family graduated residence criteria are documented but a common annual permanent numerical cap is not established. Moderate disagreement is likeliest; complete quota rules were not retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employer permits and national worker categories constrain entry beyond a job offer; licensed temporary expert routes are counterevidence. Complete2026occupation/permit exceptions were not traced.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Jewish-return admission does not invariably require an employer or family sponsor. Spouse routes require family linkage and other permits qualification; exact sponsorship inventory remains incomplete.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Student/temporary expert permissions do not establish automatic permanent residence on graduation alone. Other family/return routes are separate exceptions; precise current graduate pathway was not retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nonrefoulement/asylum access coexist with restrictive admission, status and family controls. Mixed response weighs protection and enforcement; a universal cap-reached asylum-entry guarantee was not found.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Jewish national return and diaspora integration explicitly prioritize cultural/national linkage; some non-Jewish family and humanitarian routes qualify exclusivity.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Permanent residents can use some national institutions while temporary/refugee eligibility is limited. Mixed estimate distinguishes statuses rather than general school access from welfare/housing; exact full noncitizen entitlements were not retrieved.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National return/absorption priorities do not seek higher admissions specifically for cultural difference. Existing diverse communities qualify disagreement; no current diversity-increase admission target was found.",
+          "sources": [
+            "spouse-residence",
+            "family-restrictions",
+            "asylum",
+            "refugee-context",
+            "nation-state-law",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Compulsory service, defence capability and sustained regional operations coexist with real negotiations and security threats.",
+      "counterEvidence": "Exemptions qualify conscription, actual attacks qualify offensive interpretations, and AI targeting assistance does not prove fully autonomous lethal authorization.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional operations and strike capability suggest force can secure interests beyond response to a completed attack. Actual attacks/security threats are counterevidence to attributing all actions to expansion; precise force-use doctrine was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Repeated military operations and coercive deterrence suggest diplomacy is not always preferred when slower. Ceasefires and negotiation qualify disagreement; exact all-dispute hierarchy remains contextual inference.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Substantial defence investment and technology capability favor military advantage despite costs. Fiscal limits and alliances qualify agreement; precise superiority-cost tradeoff was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preventive/preemptive security posture suggests action against strongly evidenced imminent threats is accepted. Exact national imminence evidentiary doctrine was not exhaustively retrieved.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional preventive/security operations exceed a response-to-direct-attack-only rule, qualified by actual attacks and defence claims. Complete legal defensive-only definitions were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "National compulsory-service institution remains, with major exemptions including current July2026ultra-Orthodox measures; compulsory service is not universal across every community or sex.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strong security red lines and coercive operations suggest reluctance to accept substantial weakening concessions solely for peace. Actual ceasefires and agreements qualify disagreement; no universal refusal is claimed.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defence AI and autonomous-system research coexist with safety/oversight policy. Mixed response distinguishes targeting assistance from actual approval of weapons selecting and attacking without human oversight; exact current lethal-autonomy rule was not found.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sustained beyond-border military activity and expeditionary capability go beyond chiefly territorial defence, qualified by serious homeland threats. Exact resource allocation was not measured.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Maintained combat forces and actual wartime operations reject avoiding military action at any cost.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sustained regional operations and deployed forces indicate readiness beyond national borders. Exact future prolonged combat commitment remains unverified, so agreement is moderate.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Military control and coercive territorial security measures make universal willingness to leave disputes unresolved unlikely. Diplomatic agreements qualify disagreement; exact every-dispute choice was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Military deterrence and strike warnings suggest threats can seek international concessions. Exact current complete dispute-threat inventory was not traced.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Repeated operational resolve suggests capability/determination can outweigh escalation-risk minimization. Actual negotiated restraint qualifies disagreement; precise hierarchy remains contextual inference.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security/intelligence institutions and regional operations suggest covert foreign military intelligence despite diplomatic risk. Exact current classified operations are not claimed documented.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual security agreements/ceasefires coexist with defence superiority and operational red lines. Mixed response weighs negotiated constraint and retained capability; no completed general reciprocal military-reduction settlement is asserted.",
+          "sources": [
+            "basic-laws",
+            "election-current",
+            "un-detention",
+            "freedom-context",
+            "ai-strategy",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "National legal, monetary and border institutions remain authoritative while accepting selected negotiated cooperation.",
+      "counterEvidence": "Binding trade commitments differ from political federation or general international criminal jurisdiction; treaty-body criticism is not automatically a recognized legal-change command.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National Basic Laws and sovereignty retain domestic legal authority, qualified by accepted trade/treaty commitments. Exact universal current international-law conflict doctrine was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Resistance to external mandates and sovereign security decisions make broadly opposed international commands unlikely accepted. Specific UN/treaty obligations qualify disagreement; complete binding-mechanism inventory remains unverified.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic judicial authority and resistance to external criminal scrutiny suggest national finality, qualified by accepted state-dispute litigation. Precise current all-court conflict hierarchy was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term US/regional cooperation accepts some coordinated constraints, qualified by retained security independence. No blanket surrender to allied foreign policy is inferred; exact collective-defence obligations remain unverified.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sovereign treaty ratification and policy suggest withdrawal does not require a universal external permission veto, subject to agreed notice. Every treaty clause was not traced.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State-dispute/legal participation coexists with rejection of international criminal jurisdiction over officials. Mixed response separates accepted cases from general compulsory individual jurisdiction; complete court-consent inventory was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National security priorities and resistance to external human-rights demands suggest national-interest primacy, qualified by cooperative trade commitments. Exact all-institution tradeoffs were not exhaustively inventoried.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International environmental cooperation coexists with domestic final decisions. Mixed estimate distinguishes shared standards from independent institutional decision power; exact cross-border delegated authority was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent national foreign policy and bilateral cooperation do not constitute membership in a compulsory common-foreign-policy bloc. Exact current alliance constraints were not fully inventoried.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "UN treaty-body findings and Israel’s jurisdictional resistance show international recommendations are not generally accepted as compulsory domestic law-change commands; actual treaty obligations qualify disagreement.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "National shekel and Bank of Israel monetary framework retain national currency policy rather than transfer it to shared authority.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International scientific, trade and security cooperation pool effort/funding, qualified by sovereignty. Exact joint-decision funding arrangements across shared problems were not fully retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "National immigration/return/asylum authority controls admissions; UNHCR assistance is not shared border permission.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Existing FTAs and implemented import harmonization accept negotiated/common trade rules rather than wholly independent rules, qualified by exclusions.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Israel retains its own parliamentary state and national institutions rather than joins an international political federation.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective collective enforcement/cooperation coexists with independent interests and neutrality decisions. Mixed response weighs both; willingness when neutrality serves immediate interests was not directly documented.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "un-detention",
+            "oecd-economy",
+            "trade-fta",
+            "asylum"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private commercial production coexists with public rail/networks, national media and limited public housing.",
+      "counterEvidence": "Private electricity suppliers do not own the public grid; public healthcare financing and housing purchase aid are not proof of public facility or rental ownership.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Private commercial firms and market production predominate despite retained strategic government companies; ownership is separate from regulation.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public grid/network infrastructure persists despite private electricity generation/retail, supporting public essential networks. Exact2026water/grid asset-title inventory was not fully traced.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private enterprise and competition reforms favor private comparable provision, qualified by public rail/utilities and state involvement. Exact universal ownership presumption was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public strategic/commercial enterprises coexist with private competitive industries and privatization. Mixed response weighs retained participation and market-oriented reform rather than a blanket all-private/all-public rule.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retained ministry hospitals and health-fund/nongovernment facilities coexist under national financing. Mixed response reflects real varied title, not a default to privately owned facilities or an equivalence of publicly insured funding and state title. Older acute-bed ownership proportions are contextual rather than exact2026counts.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws",
+            "health-ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "State-owned rail monopoly and noncompetitive passenger services retain public passenger infrastructure, with private transport elsewhere.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competitive procurement/private participation suggest contracting at comparable quality/lower cost can be preferred. Retained public provision qualifies agreement; exact all-service presumption was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privatized commercial banking and market competition make routine state-bank coexistence preference unlikely. Central bank ownership is not commercial-bank ownership; precise current state commercial stakes were not fully audited.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privatization/competition direction favors commercial divestment, qualified by retained strategic companies. Exact2026completed asset-sale inventory was not fully retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual public rental housing remains while private rentals dominate and purchase subsidies promote private ownership. Mixed response weighs a real limited public stock, not equating subsidy spending with public rental title; exact current substantial-share threshold remains uncertain.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public defence enterprises and private regulated defence suppliers coexist. Mixed response weighs both, separately from broader firm counts; no universal security-adequate regulation/title directive was found.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private resource extraction/development alongside state royalties suggests company ownership need not follow public resource title. Exact current all-resource company ownership census was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Municipal/private service contracting and competitive procurement make private routine provision likely favored, qualified by direct municipal services. Exact current national waste-provider ownership mix was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retained public rail/network/security assets favor strategic control despite possible revenue, qualified by privatization. Precise revenue-for-control directives were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Privatization/market discipline suggests recurrent commercial losses can favor sale, qualified by strategic bailout/retention. Exact loss-triggered current divestment rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current official Communications legal-office information identifies the statutory Israeli Public Broadcasting Corporation alongside private media. Moderate retained national public ownership is likeliest; full current asset-title statute retrieval was unavailable and political pressure does not itself abolish ownership.",
+          "sources": [
+            "oecd-economy",
+            "public-housing",
+            "basic-laws",
+            "broadcast-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Broad trade liberalization and FTAs coexist with agricultural protection and strategic controls.",
+      "counterEvidence": "July2026US-standard enactment is not all tariff removal or proved price savings; OECD recommendations are not completed reforms and foreign tariffs are not national retaliation.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Protective agricultural tariffs coexist with broad tariff reductions and free-trade agreements; implemented policy is mixed rather than universally protective.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Import harmonization/competition reforms favor broad barrier removal, qualified by agricultural/strategic protections. Exact current majority of all barriers and accepted firm losses were not measured.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National procurement preferences and strategic domestic supply suggest some higher-price local preference, qualified by competitive/foreign sourcing. Exact current preference margins were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Broad trade/FTAs allow sourcing on commercial terms, qualified by security/origin/licensing restrictions. Exact2026all-country permission inventory was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Actual essential agricultural protection coexists with shortage-driven tariff easing; both domestic capacity and cheaper imports are implemented.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Long-term unilateral tariff cuts alongside reciprocal FTAs support some own barrier reduction without matching partner action; retained agriculture qualifies generality.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Startup/industrial support and selected protection coexist with import liberalization. Mixed response separates grants from temporary infant-industry import restrictions; exact duration/price tradeoff was not verified.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign investment/private enterprise generally participate, qualified by security and regulated-sector controls. Exact identical entry terms across all sectors were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Agricultural tariffs and the cancellation of planned produce tariff cuts preserve domestic farming capacity despite some duty-free imports.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Broad competition/import reform favors firm adaptation, qualified by protected agriculture/strategic sectors. Exact general accepted-loss policy was not directly retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: US tariff pressure met import liberalization/talks rather than an established general retaliatory tariff policy. Exact current retaliatory schedule was not retrieved; US duties are not Israeli import retaliation.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary VAT/purchase-tax framework suggests generally similar product taxation of imports/domestic goods, qualified by sector distinctions. Border tariffs are separate; all current excise treatment was not inventoried.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trade remedy framework makes restrictions against injurious subsidized foreign supply plausible, qualified by agreements/price undertakings. Exact current large-subsidy cases and thresholds were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "FTAs actually reduce covered tariffs and harmonization lowers barriers, qualified by agricultural exceptions; announced all-US-tariff removal not treated as independently verified current universal zero.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security-critical enterprises and foreign screening favor preventing some strategic control, qualified by ordinary foreign investment. Exact current screening/additional-investment tradeoff was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary foreign online services operate, qualified by security restrictions and taxation. Exact current digital-service trade exclusions were not exhaustively traced; censorship is not automatically special trade restriction.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "trade-fta"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market production, independent monetary policy and private bargaining coexist with planned dairy, essential price controls and innovation subsidies.",
+      "counterEvidence": "National investment does not imply compulsory output targets everywhere; licensing, minimum wages and wartime mobilisation remain separate from ordinary production-need and wage-schedule questions.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private firms generally choose output alongside regulated strategic/agricultural sectors. Moderate market direction is likeliest; exact2026economy-wide production-autonomy share was not measured.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary market production rejects compulsory targets generally, qualified by dairy quotas/strategic enterprises. Exact current compulsory industry schedules were not fully retrieved.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary prices generally reflect markets despite controlled essentials/regulated networks. Exact all-price proportion was not measured, qualifying agreement.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Public strategic infrastructure and national innovation investment direct resources to chosen priorities alongside decentralized private investment.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private firms expand/close with demand, qualified by licensing and planned dairy/strategic production. Exact2026entry/exit plan exceptions were not exhaustively traced.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Implemented essential milk/utility price regulation controls some supplier prices, qualified by market-priced products and retail liberalization.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competition/private entry generally do not require proving more output needed, qualified by dairy quotas and professional barriers. Licensing alone is not a proof-of-need test; exact current sector tests were not fully retrieved.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Market commercial banking and supervision suggest compulsory national-priority credit allocation is not general policy. Targeted guarantees/public schemes qualify disagreement; precise lending directive inventory was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Open commercial investment and currency markets suggest ordinary outward movement allowed, qualified by tax/reporting/security rules. Complete current transfer approvals were not audited.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "National innovation/selected industry grants steer development beyond unassisted private preferences, qualified by private commercial allocation.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National shekel and regulated monetary/payment framework make general private-currency competition unlikely. Crypto holdings are not independent legal tender; exact current cryptocurrency payment rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National wage-floor institution supports a statutory minimum, qualified by collective/individual bargaining. Exact2026amount and all exemptions were not independently verified.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Above-floor private bargaining and collective agreements generally set wages, alongside national minimums/public schedules. Coverage and employer negotiation restrictions were not comprehensively measured.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Bank of Israel statutory monetary independence prioritizes inflation/stability rather than government commands on lending/rates for an economic plan; coordination does not remove independence.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private rental markets generally price housing, qualified by public stock/contract protections. Exact2026rent-control coverage was not independently retrieved.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary market allocation predominates despite national investment, dairy planning and emergencies. Emergency mobilisation is not permanent economy-wide coordination; exact current ordinary strategic coverage was not measured.",
+          "sources": [
+            "oecd-economy",
+            "ai-strategy",
+            "basic-laws"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive earnings taxes and targeted cash support coexist with limited working-age adequacy and fiscal restraint.",
+      "counterEvidence": "Cash is separated from health/education/housing services; historical estate abolition and2025tax schedules are qualified rather than asserted as freshly consolidated2026thresholds.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduated taxes and cash benefits reduce differences but relatively limited working-age support and persistent poverty constrain substantial equalization. Mixed response weighs real redistributive mechanisms and limited adequacy; current full distribution effects were not measured.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduated taxes and means-tested cash support accept some redistribution, qualified by fiscal restraint/tax concessions. Inequality-alone justification was not explicitly retrieved.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Continuing targeted support/earned-income grants coexist with spending restraint and tax relief. Mixed response addresses the higher-tax stronger-minimum tradeoff, not uncertainty-default neutrality.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Modest means-tested working-age cash and limited adequacy suggest basic safety rather than broad equal living standards. Wage-linked unemployment/pensions qualify agreement; current all-benefit impact was not measured.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduated earnings taxation supports larger high-earner tax shares, qualified by credits/preferences. OECD2026table describes2025rates, so exact enacted2026brackets are not invented.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fiscal restraint and tax-relief direction favor retaining earnings, qualified by progressive taxes and continued benefits. Exact accepted-inequality tradeoff remains contextual inference.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Historical estate-tax abolition and absence of verified reinstatement make large-inheritance income-support tax unlikely. Property appreciation on later sale is separate; current full legislative consolidation was not retrieved.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unemployment entitlement is duration-bounded while other household income support can continue. Moderate agreement distinguishes working-capable conditional programmes from universal ending of every benefit; exact current duration tables were not retrieved.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Property/transaction levies coexist with no established broad accumulated-net-wealth transfer levy. Precise2026wealth-tax inventory was not exhaustively retrieved; capital-income tax is not a wealth-stock tax.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fiscal/spending restraint and modest support suggest funding-burden limits, qualified by continued earned-income grants. Exact modest-benefit-for-lower-tax policy statement was not found.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Persistent poverty and modest working-age support make guaranteed ordinary social participation unlikely. Earnings replacement/social insurance are counterevidence; current adequacy across all eligible groups was not measured.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tax-relief and deficit restraint coexist with income support/work grants and benefit protection. Mixed response weighs both rather than invents a single current tax-cut-versus-cash hierarchy.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual2026income support tapers against earned income and the work-grant programme supplements eligible workers’ disposable cash, unlike in-kind service aid.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduated marginal earnings rates reject equal additional-income rates across ranks, qualified by preferences. Exact2026annual thresholds were not independently consolidated.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public land administration and housing support do not establish current compensated redistribution of large private landholdings to land-poor people. Exact current land-transfer programmes were not fully retrieved.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Contributory unemployment/pensions and earned-income supplements extend beyond households unable to meet basic needs. Targeted assistance qualifies disagreement; precise current all-benefit eligibility was not inventoried.",
+          "sources": [
+            "income-support",
+            "unemployment",
+            "work-grant",
+            "tax-context",
+            "inheritance",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil parliamentary government coexists with Jewish national heritage, funded religious institutions and binding religious family jurisdiction.",
+      "counterEvidence": "Jewish nationhood is not identical to personal belief; religious coalition influence is not universal clerical policy approval or automatic political seats, and foreign civil registration differs from domestic religious marriage rules.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Civil parliamentary law and secular courts coexist with religious personal-status jurisdiction and Jewish heritage foundations; religious justification is neither absent nor required for every ordinary law.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Religious family law and official Jewish heritage make religious teaching an official source in defined areas, alongside civil legislation.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary cabinet policy does not require universal religious-leader approval, qualified by rabbinate marriage/kosher jurisdiction and coalition influence. Exact current all-policy religious vetoes were not inventoried.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Nation-State Basic Law recognizes Jewish historical/cultural/religious national identity; Jewish nationhood is not simply mandatory personal religious belief.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular, state-religious, Arab and Haredi school sectors differ. Mixed response reflects actual educational plurality rather than one national wholly comparative or proselytizing model; all2026curricula were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public state-religious/Haredi schooling cultivates faith while secular/minority schools differ. Exact current funding/instruction obligations by sector were not fully audited.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Civil courts apply enacted law alongside binding religious personal-status tribunals and heritage-based legal principles; not all courts follow religious rulings or only civil rules.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Rabbinate/council religious functions exist but no general clerical review veto of all proposed national legislation was established. Exact current review roles were not exhaustively inventoried.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State Jewish remembrance/heritage and religious elements coexist with civil ceremonies/minority participation. Mixed estimate distinguishes symbols/identity from organized worship; complete ceremony practices were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Public religious councils and state-funded religious educational institutions support faith activities beyond purely private funding, qualified by civil/minority spending.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official Jewish symbols/heritage and religious institutions indicate some government endorsement displays, qualified by secular administration/minority rights. Exact national building display inventory was not retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Jewish festivals/rest and Hebrew calendar have official national recognition, with other residents’ festival/rest rights qualifying exclusivity.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious political influence and appointed religious-service offices do not establish automatic Knesset/cabinet seats solely from clerical office. Exact ex-officio state-office exceptions were not fully retrieved.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious nonprofit/public institutions likely receive qualified exemptions supporting faith activity, alongside charitable exemptions. Exact current specifically religious-versus-charitable tax clauses were not retrieved, so agreement remains moderate educated inference.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Domestic marriage retains religious personal-status conditions while foreign/online civil marriage registration is recognized; exceptions qualify disagreement without eliminating religious approval requirements.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Rabbinical and other recognized religious personal-status decisions have binding family-law roles; civil appellate/registration safeguards qualify scope.",
+          "sources": [
+            "basic-laws",
+            "nation-state-law",
+            "marriage-context",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Civil recognition of diverse families and roles coexists with religious marriage, school-sector variation and national heritage.",
+      "counterEvidence": "Benefit rights do not measure all citizens’ social acceptance; overseas marriage registration is distinct from domestic ceremony access, and school choice differs from a final parental classroom veto.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Modern civil rights/social adaptation coexist with retained religious family/heritage institutions. Mixed response weighs actual reform and inherited norms, not a claim of uniform citizen opinions.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious national traditions coexist with modern legal inclusion and technological/social adaptation. Neither universal established-morality priority nor complete replacement is documented.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Same-sex/alternative family benefit recognition supports qualified equal institutional recognition, while religious marriage and unequal practice limit it. Exact current all-household social-recognition measures were not retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Equal civil opportunity and women’s public employment coexist with religious gender-role institutions and sectoral disparities. Mixed response separates actual legal inclusion from universal abandonment of traditional roles.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Foreign/online same-sex civil marriage registration coexists with no general domestic civil marriage ceremony; recognized status and retained religious entry rules create a genuine mixed institutional position.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marriage/family institutions favor stable recognized parenting, qualified by single/same-sex household benefits. Exact current married-two-parent preference in social programmes was not retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical abortion committee access and reproductive services indicate qualified early-choice acceptance, limited by authorization conditions. Exact2026grounds and implementation across communities were not fully retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parents can select religious/community school sectors while national curricula and standards remain. Mixed response distinguishes school choice from final parental veto over every classroom value.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current national adoption/benefit institutions include same-sex parents, qualified by religious/traditional opposition. Benefits alone do not prove universal social acceptance; exact current full adoption eligibility consolidation was not retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: General personal appearance freedom and secular public institutions reject universal traditional modesty duties, qualified by religious-community rules. Exact current all-public-place dress restrictions were not inventoried.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State gender-neutral sexual-offence reform and diverse civil service recognition support adapted terminology, qualified by religious resistance. Exact self-identification naming requirements were not exhaustively retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State heritage/religious schooling and modern civic/rights education coexist. Mixed response reflects multiple actual school sectors rather than a universal established-norm-only curriculum.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Legal equality and women’s participation support nontraditional roles, qualified by employment/faith-sector discrimination. Exact institutional acceptance across every traditional division was not measured.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Courts/legal reforms bring some rapid inclusion while religious coalition and heritage institutions favor continuity. Mixed response weighs both; no universal pace rule is claimed.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil equality/recognized LGBTQfamilies make some inclusive educational guidance likely, qualified by religious school divergence. Exact compulsory national curriculum/opt-out rules were not retrieved.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official national heritage, festivals and community religious continuity favor preserving ancestral customs, qualified by modern social adaptation. Exact practical-purpose-disappeared policy was not explicitly documented.",
+          "sources": [
+            "marriage-context",
+            "lgbt-benefits",
+            "adoption-service",
+            "freedom-context",
+            "nation-state-law",
+            "parenting",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "High-tech development and product-specific cultivated meat authorization coexist with clinical, biosafety and ethical controls.",
+      "counterEvidence": "2026AI strategy recommendations differ from completed delivery; GMtrials are not broad cultivation, therapeutic implants are not healthy enhancement, and embryo research is not reproductive germline permission.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National high-tech/AI development and enabling regulation favor benefits-led adoption, qualified by medical/sector safeguards. Strategy recommendations are not all delivered rollout; exact blanket long-risk permission was not found.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Commercial high-tech and actual cultivated-beef authorization show innovation beyond permanent small trials, qualified by risk controls. No uniform technology-wide long-term trial-only rule was retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National housing/transport expansion and land pressures suggest substantial development can outweigh habitat loss, qualified by environmental review. Exact current irreversible-habitat approvals were not audited.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical ethical/clinical safeguards suggest evidence before broad treatment availability, qualified by innovation programmes. Exact long-term study threshold across technologies was not retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: AI adoption/productivity and reskilling policy accept employment disruption, qualified by worker protection and uncertain job effects. Future compute/sandbox targets not delivered outcomes; precise many-job replacement acceptance remains inferred.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Infrastructure/land development priorities suggest undisturbed habitat is not always paramount, qualified by ecological protection/adaptation. Complete current project tradeoffs were not measured.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual January2024cultivated-beef health authorization supports alternative-protein adoption, qualified by product-specific safety and scale limits. Approval is not all conventional production replaced or exact long-term environmental tradeoff documented.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical research/ethics safeguards favor research limits for invasive healthy enhancement. Exact current brain-enhancement authorization law was not retrieved; therapeutic implants are not healthy enhancement.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Climate-tech/energy innovation and national technological orientation suggest emphasis on technology solutions, qualified by efficiency/conservation measures. Exact unproven-large-scale-versus-consumption hierarchy was not retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Environmental assessment/adaptation policy coexist with urgent housing/transport development. Mixed response weighs review and acceleration, not a blanket delay rule when every effect is unknown.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical risk/ethical authorization makes basic-safety-only healthy brain enhancement unlikely. Exact current long-term requirements were not retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical oversight and recommended sectoral sandboxes suggest supervised diagnostic AI reliability checks, qualified by commercial adoption. Precise patient-group trial threshold was not found.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reproductive germline creation is prohibited under primary institutional research policy while specified stem-cell research is permitted. Nonimplantation enhancement trials are distinct; exact current trial-specific exemption was not retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: GMexperiment permits and biosafety controls suggest ecosystem evidence before broad cultivation, qualified by scientific development. Exact required evidence duration and current widespread crop approvals were not retrieved.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Housing/transport priorities and land-use pressure favor expanding infrastructure in some preservation conflicts, qualified by environmental review. Exact complete current public/private land tradeoffs were not measured.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Enabling innovation with sector safeguards coexists with medical/germline prohibitions and research review. Mixed response weighs selective risk tolerance and irreversible-harm restraint rather than a uniform strong-evidence delay rule.",
+          "sources": [
+            "ai-strategy",
+            "cultivated-meat",
+            "gm-trials",
+            "embryo-policy",
+            "oecd-economy"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "National unitary law and supervision coexist with elected municipalities, local property-tax variation and local service delivery.",
+      "counterEvidence": "Ministerial Arnona approvals show bounded local tax powers; local community institutions and delivery do not imply separate constitutions, unilateral secession or fully independent health/employment rules.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unitary national law and ministerial supervision constrain protected regional autonomy, qualified by elected municipal functions. Exact current all-local autonomy guarantees were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National law and ministry supervision imply national final competence authority, qualified by courts/elected councils. Exact current dispute procedure was not separately traced.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Unitary national institutions do not authorize unilateral regional-majority secession; self-determination claims in occupied territory are a distinct issue, not an internal regional constitutional power.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National administrative/planning primacy suggests override of conflicting local programmes, qualified by council/legal review. Exact voter-supported policy override clauses were not fully retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Local governments operate under national Basic Laws/statutes, not separate regional constitutions.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National police command predominates despite municipal enforcement functions. Exact current command/all-special-unit statute was not individually retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Local Arnona revenue is retained for municipal services while national taxes/transfers dominate other funding. Mixed response distinguishes local-tax retention from most total locally collected taxes; exact2026aggregate share was not measured.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National education standards/frameworks coexist with religious/community school variation. National determination is likely, qualified by sectoral curricula; exact compulsory-subject approvals were not exhaustively retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Actual local property-tax rates/categories coexist with ministerial approval for exceptional changes; local variation exists but is not independent unrestricted regional taxation.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National labor law/minimum institutions set hours/dismissal framework rather than sovereign regional employment statutes. Exact current all-sector national rights consolidation was not independently retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ministerial municipal supervision suggests local voters cannot alone change boundaries/powers. Exact current boundary-commission approval rules were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National health insurance/benefit framework determines public coverage while local providers deliver care. Exact regional optional treatment differences were not fully retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recognized community institutions coexist with centralized municipal/land authority and Bedouin disputes. Mixed estimate avoids treating religious minority councils as autonomous Indigenous territorial government; exact current Indigenous-category powers were not found.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual national approval constrains exceptional Arnona rate changes, limiting unrestricted local tax competition while preserving municipal variation.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Local planning/service functions coexist with national land, environmental and infrastructure authority. Mixed response weighs divided administration; exact sole-local-effects land/wildlife powers were not retrieved.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National security/emergency command likely directs multi-region disaster response, qualified by municipal delivery. Exact current override of conflicting local plans was not independently traced.",
+          "sources": [
+            "basic-laws",
+            "local-tax",
+            "oecd-economy",
+            "nation-state-law",
+            "public-housing"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Official parenting/social learning and ADHD genetic/environment guidance recognize both developmental context and biological variation.",
+      "counterEvidence": "Clinical ADHD does not determine all attention or temperament; legal gender roles, Jewish identity and security distinctions are not evidence of genetic causal positions. All16trait extrapolations remain educated.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual parenting guidance and educational opportunity recognize learning/social environment as broad behavioral causes. Moderate environmental predominance is likeliest, qualified by biological development; national all-trait decomposition was not measured.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Educational inequality/remediation and skills policy favor opportunity explanations over inherited national IQ hierarchy. No adopted national genetic-IQ decomposition was found; country identity is not genetic causation evidence.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Social-role constraints and equal-opportunity policy coexist with sex-linked developmental differences. Mixed interaction is likeliest without using religious roles as proof of biological behavior predominance.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trauma/context support and individual neurodevelopment acknowledge both experience and susceptibility. Mixed interaction is likeliest; exact stress heredity-versus-experience predominance was not quantified.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Play, discovery and skills opportunity guidance suggest experience shapes interests. Exact relative inherited contribution is unquantified, so environmental preference is moderate.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Guided safe play/parenting and learned boundaries suggest experience shapes risk behavior, qualified by developmental individuality. No inherited-risk predominance theory was retrieved.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official play guidance explicitly teaches cooperation and strengthens relationships. Environmental predominance is likeliest for cooperative habits, qualified by individual variation; total hereditary contribution was not measured.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parent-child relationships/social learning support learned empathy, qualified by developmental variation. No exact empathy genetic predominance statement was retrieved.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official ADHD guidance describes strong genetic/neural contribution alongside congenital/acquired environment and early intervention. Mixed interaction is likeliest for ordinary attention overall; clinical ADHD is not all population attention variation.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civic/religious moral transmission and parenting give learned norms causal weight. Immediate intuition differs from deliberate instruction; precise biological predominance was not measured.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trauma/war context and learned coping support experiential threat differences. Actual security rhetoric is not genetic theory; exact comparative predominant cause remains unquantified.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Neurodevelopmental individuality and responsive parenting coexist. Mixed temperament interaction is likeliest; ADHD heredity is not direct proof of general temperament inheritance predominance.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diverse community appearance norms and learned traditions suggest cultural effects on attraction. Exact national attractiveness biology-versus-culture comparison was not retrieved.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Educational/contextual explanations and legal equality make racial-biological violence hierarchy unlikely. Discrimination/security policy is counterevidence to equal treatment, not documented genetic causation; precise adopted position was not found.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parenting/play habits and self-regulation teaching support learned self-control over inherited racial tendencies. No measured race-genetic comparative effect was retrieved.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Documented workforce/education barriers and unequal opportunity favor social expectations over inherently lower female economic value. Exact current pay-gap causal decomposition was not quantified.",
+          "sources": [
+            "parenting",
+            "play-learning",
+            "adhd-causes",
+            "oecd-economy",
+            "freedom-context",
+            "adhd-english"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex: distinct same-agent focused evidence review (not independent human or external peer review)",
+    "reviewedAt": "2026-10-06",
+    "notes": "Reviewed the literal revised mechanisms, directions, period-specific retained research, supplemental references, inferred intensity, conditional Neutral decisions, institutional mismatches and unchanged-answer preservation. New educated-assumption IDs: democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13. Coalition confidence can change the prime minister without a public vote, alongside independent technical administration. Basic Law provisions permit a supermajority emergency election extension; general ordinary-law citizen initiatives are distinct from specified territorial referendum rules. All earlier evidence limitations remain. No new empirical calibration, fresh full-profile research, human review or external peer certification is claimed. Similarity is reviewed after scoring the complete batch, without tuning any answer.",
+    "similarity": []
+  }
+}

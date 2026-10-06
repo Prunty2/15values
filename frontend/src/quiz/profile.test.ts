@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { scoreAnswers, selectQuestions } from './model';
 import type { Answers } from './model';
-import { tendency, wholePercent } from './profile';
+import { isCentristResult, tendency, wholePercent } from './profile';
 
 const neutral = scoreAnswers('short', Object.fromEntries(selectQuestions('short').map(q => [q.id, 0])) as Answers);
 describe('descriptive result profile', () => {
@@ -20,4 +20,12 @@ describe('descriptive result profile', () => {
       }
     }
   });
+});
+
+it.each(['short', 'medium', 'long', 'comprehensive'] as const)('recognises all-neutral %s results as Centrism', length => {
+  const scores = scoreAnswers(length, Object.fromEntries(selectQuestions(length).map(q => [q.id, 0])) as Answers);
+  expect(scores.every(score => score.leftPercent === 50 && score.rightPercent === 50)).toBe(true);
+  expect(isCentristResult({ scores })).toBe(true);
+  expect(isCentristResult({ scores: scores.map((score, index) => index ? score : { ...score, leftPercent: 51, rightPercent: 49 }) })).toBe(false);
+  expect(isCentristResult({ scores: [] })).toBe(false);
 });

@@ -53,20 +53,30 @@ test('all three catalogues browse, search and open full sourced assessments', as
     await expect(page).toHaveTitle(`Test ${kind} — 15 Values`);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(`Test ${kind}`);
     if (kind === 'ideology') {
-      const placeholders = page.getByRole('complementary', { name: 'Reference placeholders' });
-      await expect(placeholders.getByRole('heading', { name: 'Key figure', exact: true })).toBeVisible();
-      await expect(placeholders.getByRole('heading', { name: 'Reference country', exact: true })).toBeVisible();
-      await expect(placeholders.getByText('To be added', { exact: true })).toHaveCount(2);
-      await expect(placeholders.getByRole('img')).toHaveCount(0);
-      await expect(placeholders.getByRole('link')).toHaveCount(0);
-      await expect(page.locator('main blockquote')).toHaveText(profiles[0].metadata.phrase!);
+      const comparisons = page.getByRole('region', { name: 'Most similar profiles' });
+      await expect(comparisons.getByText('Similar person', { exact: true })).toHaveCount(0);
+      await expect(comparisons.getByText('Similar country', { exact: true })).toHaveCount(0);
+      await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', '#/personalities/' + id);
+      await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', '#/countries/' + id);
+      await expect(comparisons.getByText(/% similarity/)).toHaveCount(0);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+      await expect(page.locator('main blockquote')).toHaveCount(0);
     }
     if (kind === 'personality') {
       const header = page.locator('dl[aria-label="Profile comparisons"]');
       await expect(header.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', `#/ideologies/${id}`);
       await expect(page.locator('main header').first()).toHaveCSS('border-top-color', 'rgb(137, 96, 59)');
     }
-    await expect(page.getByRole('region', { name: 'Closest ideology', exact: true })).toHaveCount(0);
+    const countryComparison = page.getByRole('region', { name: 'Closest ideology', exact: true });
+    await expect(countryComparison).toHaveCount(kind === 'country' ? 1 : 0);
+    if (kind === 'country') {
+      await expect(countryComparison.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', `#/ideologies/${id}`);
+      await expect(countryComparison.locator('svg')).toBeVisible();
+      await expect(countryComparison.getByRole('heading', { name: 'Similar', exact: true })).toBeVisible();
+      await expect(page.locator('main header img')).toBeVisible();
+      await expect(page.locator('main header')).toContainText(profiles[1].metadata.description);
+      expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+    }
     await expect(page.locator('main article')).toHaveCount(15);
     await page.locator('summary').filter({ hasText: 'Sources and assessment' }).click();
     await expect(page.getByRole('link', { name: 'Test source 1', exact: true })).toHaveAttribute('href', 'https://example.org/source-1');
@@ -197,4 +207,31 @@ test('personality card has exactly ideology, position and origin tags', async ({
   await expect(tags.nth(0)).toHaveText('Calculated ideology');
   await expect(tags.nth(1)).toHaveText('Head of government');
   await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
+});
+
+test('ideology pages show linked portraits and flags without labels or percentages', async ({ page }) => {
+  await page.route('**/profiles/images/*', route => route.fulfill({ path: fileURLToPath(new URL('../public/social-preview.png', import.meta.url)), contentType: 'image/png' }));
+  const profiles = (['ideology', 'personality', 'country'] as const).map(kind => profileFixture(kind, 'match-' + kind));
+  await page.route('**/profiles/catalogue.v1.json', route => route.fulfill({ json: { schemaVersion: 1, profiles } }));
+  await page.goto('./#/ideologies/match-ideology');
+  const comparisons = page.getByRole('region', { name: 'Most similar profiles' });
+  await expect(comparisons.locator('img')).toHaveCount(2);
+  await expect(page.locator('header figure')).toHaveCount(0);
+  for (const image of await comparisons.locator('img').all()) await expect(image).toHaveJSProperty('naturalWidth', 1200);
+  await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', '#/personalities/match-personality');
+  await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', '#/countries/match-country');
+  await expect(comparisons.getByText(/% similarity/)).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await comparisons.getByRole('link', { name: 'Test country' }).click();
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Test country');
+});
+
+test('Hindu nationalism shows Right, Modi and sourced Hindu eligibility', async ({ page }) => {
+  await page.goto('./#/ideologies/hindu-nationalism');
+  await expect(page.getByRole('heading', { level: 1 })).toHaveText('Hindu nationalism');
+  await expect(page.locator('header').getByText('Right', { exact: true })).toBeVisible();
+  await expect(page.getByRole('link', { name: /Narendra Modi.*Selected representative/ })).toHaveAttribute('href', '#/personalities/narendra-modi');
+  await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Hinduism');
+  await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Educated assumption:');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
 });

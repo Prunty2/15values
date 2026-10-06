@@ -1,9 +1,11 @@
+import { religionOptions } from '../quiz/religion';
 import { useEffect, useState } from 'react';
 import { ResultAxes } from '../quiz/ResultProfile';
 import { parseCatalogue } from './catalogueData';
 import Ideologies from './Ideologies';
 import IdeologyHeader from './IdeologyHeader';
 import PersonalityHeader from './PersonalityHeader';
+import CountryHeader from './CountryHeader';
 import ProfileCard from './ProfileCard';
 import { profileTagsForKind, type ProfileTagKind } from './profileTags';
 import { personalityImageCredits } from './personalityImageCredits';
@@ -53,18 +55,11 @@ export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: s
   if (state.error) return <div className={`${a.container} ${a.pageContent}`}><h1>{heading}</h1><p role="alert">{state.error}</p><button className={a.primaryButton} onClick={() => setAttempt(value => value + 1)}>Try again</button></div>;
   if (!profiles) return <div className={`${a.container} ${a.pageContent}`}><h1>{heading}</h1><p role="status">Loading profiles…</p></div>;
   if (id && !profile) return <div className={`${a.container} ${a.pageContent}`}><h1>Profile not found</h1><p>This profile is not in the published catalogue.</p><a href={`#/${route}`}>Back to {heading.toLowerCase()}</a></div>;
-  if (profile) return <div className={`${a.container} ${a.pageContent} ${profile.catalogue === 'ideology' ? s.ideologyDetail : profile.catalogue === 'personality' ? s.personalityDetail : ''}`}>
-    {profile.catalogue === 'ideology' ? <IdeologyHeader profile={profile} /> : profile.catalogue === 'personality' ? <PersonalityHeader profile={profile} profiles={state.profiles!} /> : <>
-    <a href={`#/${route}`}>← All {heading.toLowerCase()}</a>
-    <header className={s.detailHeader}>
-      {profile.metadata.image ? <img src={asset(profile.metadata.image.path)} alt={profile.metadata.image.alt} className={s.portrait} /> : null}
-      <div><p>{profile.metadata.category} · {profile.metadata.period}</p><h1 style={{ fontSize: `min(40px, ${140 / profile.metadata.name.length}cqi)` }}>{profile.metadata.name}</h1><p>{profile.metadata.description}</p>
-        {profile.metadata.role ? <p>{profile.metadata.role} · {profile.metadata.lifespan}</p> : null}
-      </div>
-    </header>
-    </>}
+  if (profile) return <div className={`${a.container} ${a.pageContent} ${profile.catalogue === 'ideology' ? s.ideologyDetail : profile.catalogue === 'personality' ? s.personalityDetail : s.countryDetail}`}>
+    {profile.catalogue === 'ideology' ? <IdeologyHeader profile={profile} profiles={state.profiles!} /> : profile.catalogue === 'personality' ? <PersonalityHeader profile={profile} profiles={state.profiles!} /> : <CountryHeader profile={profile} profiles={state.profiles!} />}
     {profile.metadata.phrase && profile.catalogue !== 'ideology' ? <blockquote className={s.phrase}>{profile.metadata.phrase}</blockquote> : null}
     {profile.withdrawal ? <section className={s.scope} aria-label="Assessment withdrawn"><h2>Placements withdrawn</h2><p>{profile.withdrawal.reason}</p><p>The earlier percentages are not reliable. A new assessment must pass the evidence review before placements return.</p></section> : <ResultAxes result={{ scores: profile.scores }} compact={profile.catalogue === 'ideology'} />}
+    {profile.catalogue === 'ideology' && profile.religion ? <section className={s.scope} aria-label="Religion assessment"><h2>{profile.catalogue === 'ideology' ? 'Religious eligibility' : 'Religious identity'}</h2><p>{profile.catalogue === 'ideology' && profile.religion.value === 'none' ? 'No religious prerequisite — available to every religious identity.' : profile.religion.value === 'undisclosed' ? 'Not publicly established or disputed' : religionOptions.find(option => option.value === profile.religion!.value)?.label}</p><p>{profile.religion.rationale}</p><ul>{profile.religion.sources.map(source => <li key={source.url}><a href={source.url} target="_blank" rel="noreferrer">{source.title}</a></li>)}</ul><a href={asset(`profiles/religion-assessments/${profile.religionRevision ?? 1}.json`)} download>Download religion answers · Revision {profile.religionRevision ?? 1}</a></section> : null}
     <details className={s.evidence}><summary className={s.evidenceToggle}>Sources and assessment</summary>
       <p>{profile.withdrawal ? 'The download preserves the withdrawn assessment for transparency. It is not a validated current placement.' : 'Review the evidence and the reasoning behind all 240 answers.'}</p>
       <a href={asset(profile.auditPath)} download={`${profile.id}-audit-r${profile.revision}.json`}>{profile.withdrawal ? 'Download the withdrawn assessment' : 'Download the full assessment'}</a>

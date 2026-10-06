@@ -34,6 +34,16 @@ function MatchName({ children }: { children: string }) {
   return <span ref={ref} className={s.matchName}>{children}</span>;
 }
 
+export function IdeologyMatchCard({ profile }: { profile: Profile }) {
+  return <div className={s.matchCard}>
+              <dt className={s.srOnly}>Ideology</dt>
+              <dd>{profile.closestIdeology ? profile.closestIdeology.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={`#/ideologies/${ideology.id}`}>
+                <span className={s.matchIcon} aria-hidden="true">{ideology.id === 'christian-accelerationism' ? <svg data-ideology-icon="cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"><path d="M10 3h4v5h5v4h-5v9h-4v-9H5V8h5Z" /></svg> : <ValueIcon value="Democracy" />}</span>
+                <MatchName>{ideology.name}</MatchName>
+              </a>) : profile.withdrawal ? 'Unavailable' : 'No match available'}</dd>
+            </div>;
+}
+
 export default function PersonalityHeader({ profile, profiles }: { profile: Profile; profiles: Profile[] }) {
   const { metadata } = profile;
   const titleRef = useFittedName<HTMLHeadingElement>(metadata.name);
@@ -58,13 +68,7 @@ export default function PersonalityHeader({ profile, profiles }: { profile: Prof
         <div className={s.comparisons}>
           <h2 className={s.comparisonHeading}>Similar</h2>
           <dl aria-label="Profile comparisons">
-            <div className={s.matchCard}>
-              <dt className={s.srOnly}>Ideology</dt>
-              <dd>{profile.closestIdeology ? profile.closestIdeology.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={`#/ideologies/${ideology.id}`}>
-                <span className={s.matchIcon} aria-hidden="true">{ideology.id === 'christian-accelerationism' ? <svg data-ideology-icon="cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"><path d="M10 3h4v5h5v4h-5v9h-4v-9H5V8h5Z" /></svg> : <ValueIcon value="Democracy" />}</span>
-                <MatchName>{ideology.name}</MatchName>
-              </a>) : profile.withdrawal ? 'Unavailable' : 'No match available'}</dd>
-            </div>
+            <IdeologyMatchCard profile={profile} />
             <div className={s.matchCard}>
               <dt className={s.srOnly}>Personality</dt>
               <dd>{people.length ? people.map(({ profile: person }) => <a className={s.matchLink} key={person.id} href={`#/personalities/${person.id}`}>

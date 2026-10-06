@@ -1,0 +1,32 @@
+{
+  "verifiedAt": "2026-10-06",
+  "questionBankVersion": "4.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "questions": { "status": "passed", "count": 240, "axes": 15, "sourceSynchronisation": true, "changedRecords": 6, "directionsAndPrioritiesPreserved": true, "firearmQuestionInEveryLength": true },
+  "assessments": { "status": "passed", "subjects": 209, "countries": 47, "ideologies": 57, "personalities": 105, "newImmutableRevisions": 209, "answeredPerProfile": 240, "unchangedAnswerObjectsPerProfile": 234, "unrelatedAxisScoresPreservedPerProfile": 14, "pendingDrafts": 0 },
+  "catalogue": { "status": "passed", "visible": 203, "excluded": 6, "deterministicGenerationCheck": true, "allPublishedAssessmentDownloadsChecked": 203 },
+  "preservation": { "status": "passed", "sha256BaselineFiles": 1836, "gitHistoryBase": "HEAD", "archiveAndImageHistoryCheck": true, "bank1Bank2Bank3HistoryImportReloadExportUnchanged": true },
+  "unitTests": { "status": "passed", "tests": 538, "files": 11, "log": "unit-tests.log", "note": "Includes recalculation of every current profile, exact 234-answer preservation and fourteen-axis comparison for all 209 subjects, including excluded profiles. Historical migration checks use pinned bank-3 snapshots." },
+  "productionBuild": { "status": "passed", "typeCheck": true, "catalogueCheck": true, "log": "build.log" },
+  "browserChecks": {
+    "status": "103 distinct relevant checks passed across initial and focused follow-up runs",
+    "initial": { "passed": 102, "failed": 1, "skipped": 2, "log": "browser-tests.log" },
+    "followup": { "passed": 9, "failed": 0, "log": "browser-followup.log" },
+    "correction": "One Safari historical-result test reloaded before the selected-result URL committed. Import/reload/export tests now await the selected URL before reload; all nine bank-1/2/3 checks pass on follow-up.",
+    "intentionalSkips": "Two duplicate static-download checks; every published profile downloaded and checked on desktop.",
+    "projects": [ "desktop Chromium", "mobile Chromium", "Safari WebKit" ],
+    "allFourQuizLengthsCompletedOnEveryProject": true,
+    "all240QuestionLayoutsCheckedAcrossSixViewports": true,
+    "currentCatalogueAndFaithEligibilityChecked": true,
+    "interactiveReviewSubjects": 209,
+    "broaderSuite": "The full unrelated browser suite was not rerun or claimed green. Earlier recorded homepage and obsolete individual-export expectations remain outside this focused pass; see the prior authority-liberty-2026-10-06 verification report."
+  },
+  "evidence": {
+    "newAssumptionIdsForEveryProfile": [ "authority-liberty-03", "authority-liberty-07", "authority-liberty-08", "authority-liberty-11", "authority-liberty-12", "authority-liberty-15" ],
+    "sourceRetrievalReferences": 547,
+    "sourceAccessLimitations": 91,
+    "review": "Distinct same-agent evidence review; no external peer or human review claimed",
+    "limitations": "Precise responses, intensity, historical analogies and jurisdictional application remain educated assumptions. Retained subject-specific dossiers and selected supplementary research do not freshly verify every earlier citation and do not establish empirical population calibration. No preferred placement targets were applied."
+  }
+}

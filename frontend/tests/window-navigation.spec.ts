@@ -31,6 +31,9 @@ test('default auto advance completes a quiz and leaves the final submission expl
     await expect(page.locator('#question-title')).toHaveText(question.text);
     await page.getByRole('radio', { name: 'Agree', exact: true }).click();
   }
+  await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
+  await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeDisabled();
+  await page.getByRole('radio', { name: 'No religion', exact: true }).check();
   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeEnabled();
   await page.getByRole('button', { name: 'See my results', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();

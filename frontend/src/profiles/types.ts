@@ -1,3 +1,4 @@
+import type { ReligionAssessment, CountryReligionAssessment } from '../quiz/religion';
 import type { Answer, AxisScore } from '../quiz/model';
 
 export const catalogues = ['ideology', 'country', 'personality'] as const;
@@ -23,6 +24,10 @@ export type IdeologyMatch = {
   ideologies: { id: string; revision: number; name: string }[];
 };
 export type Profile = {
+  countryReligion?: CountryReligionAssessment;
+  religion?: ReligionAssessment;
+  religionRevision?: number;
+  representativePersonalityId?: string;
   catalogue: Catalogue; id: string; revision: number; metadata: Metadata;
   researchedAt: string; questionBankVersion: string; axesVersion: string; scoringVersion: string;
   scores: AxisScore[]; sources: Source[]; auditPath: string;

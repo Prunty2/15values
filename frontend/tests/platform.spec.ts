@@ -115,7 +115,7 @@ test('landing axis cards cover all 15 agreed axes and replace the old sections',
   const axes = page.getByRole('region', { name: 'What does each axis mean?' });
   await expect(axes.locator('article')).toHaveCount(15);
   await expect(axes.locator('[data-value-icon]')).toHaveCount(30);
-  const data = JSON.parse(readFileSync(new URL('../src/data/axes.v1.json', import.meta.url), 'utf8'));
+  const data = JSON.parse(readFileSync(new URL('../src/data/axes.v2.json', import.meta.url), 'utf8'));
   for (const axis of data.axes) {
     await expect(axes.getByLabel(axis.name, { exact: true })).toBeVisible();
     await expect(axes.getByText(axis.description.trim(), { exact: true })).toBeVisible();

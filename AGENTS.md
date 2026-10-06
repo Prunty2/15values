@@ -27,7 +27,7 @@ scoring assessment and results interface. All four lengths are implemented
 using the existing 240-question bank, preserving its wording and recorded
 agreement directions. Some source question files remain drafts. The current
 direction-balanced scoring and known measurement concerns are in docs/SCORING.md.
-Results show the 15 axes, the closest compatible ideology’s supplied perspective statement, and automatically saved local history. The sentence will be a broad statement supplied by the matched ideology profile, not generated from axis scores. The results comparison card calculates closest ideology comparisons across 15 equally weighted axes, retaining ties and displaying percentage similarity; automatic personality and country matches remain placeholders. Scoring version 2 gives each agreement-direction group half the axis weight and equal question weights within groups; version 1 saved results retain their original scores.
+Results show the 15 axes, the closest compatible ideology’s supplied perspective statement, and automatically saved local history. The sentence will be a broad statement supplied by the matched ideology profile, not generated from axis scores. The results comparison card calculates closest ideology comparisons across 15 equally weighted axes, retaining ties and displaying percentage similarity; automatic personality and country matches use the same equal-axis distance, compatible-version filtering and tie retention. Scoring version 2 gives each agreement-direction group half the axis weight and equal question weights within groups; version 1 saved results retain their original scores.
 
 Frontend development and services needed to verify it are authorised.
 Do not introduce dependencies outside the selected stack or populate
@@ -51,7 +51,7 @@ countries, ideologies and personalities; preserve historical archives and review
 The catalogue contents still require a request for the named subjects.
 The owner has authorised closest-ideology comparisons for personality and country
 profiles using equally weighted scores across all 15 axes; see docs/SCORING.md.
-The owner has authorised quiz-result ideology comparisons using the same equal-axis distance and compatible-version rules. User-to-personality/country matching and compass presentation remain deferred.
+The owner has authorised quiz-result ideology comparisons using the same equal-axis distance and compatible-version rules. Quiz-result personality and country matching are authorised; compass presentation remains deferred.
 
 Later explicit requests can authorise implementation work.
 
@@ -116,7 +116,7 @@ a request; merging and deployment remain outside this local authorisation.
   and question-bank and scoring versions. Raw-answer retention is undecided.
 - Handle unavailable storage and invalid saved/imported data gracefully.
 - Keep results descriptive and preserve the documented axis definitions.
-  User-to-personality/country matching and the political compass presentation are deferred.
+  Quiz-result personality and country matching are authorised; the political compass presentation remains deferred.
 
 Do not rename, remove, merge, or add axes without the owner's
 agreement.
@@ -176,8 +176,32 @@ technology stack and present them as agreed requirements.
 The owner has authorised manual quiz-result comparisons with ideology and personality
 profiles through a searchable, scrollable picker. Compare the unchanged scores on all
 15 axes using equal weights and compatible versions; retain the documented evidence
-limitations. Automatic personality matching and country comparison remain deferred.
+limitations. Automatic personality and country matches are available in the results comparison card; manual country comparison remains deferred.
 
 Manual comparisons add numbered profile dots to the existing axis graphics with a
 removable legend, rather than a separate results section. Results use their closest
 ideology’s catalogue colour and show similarity as 100 minus equal-axis average gap.
+
+The owner clarified Democracy vs Autocracy on 5 October 2026: representative
+democracy is an interpretive reference around 65% Democracy, with stronger direct
+public control and participation further towards Democracy. The broader axis
+description and six revised questions are versioned in axes/bank 2.0.0; this is
+not a fixed score for a regime or empirical population calibration. Voter ID alone
+is not evidence of autocracy. Keep scoring 2.0.0 unchanged, preserve older saved
+results and immutable archives, and assess changed questions from subject-specific
+evidence rather than tuning scores. The owner authorised focused reassessment of
+all existing profiles, preserving answers to unchanged questions.
+
+The owner has authorised one additional, required, unscored religious-identity question at the end of every quiz, including no religion and prefer not to say. Faith-specific ideology eligibility requires the corresponding identity; general ideologies remain available to everyone. Apply this eligibility rule to personality-to-ideology and religious-ideology-to-personality comparisons using sourced, period-specific answers for every personality and ideology. Countries always remain eligible for general ideologies; faith-specific comparisons require a sourced country population share of at least 20% for that faith, in both directions. Multiple faiths may qualify; missing evidence excludes faith-specific matches. Preserve the existing 240 scored answers and immutable profile revisions, storing the additional answers in a separate versioned evidence supplement. Hindu nationalism has the Right tag and Modi as an explicitly selected representative.
+
+The owner authorised the first Authority–Liberty revision on 6 October 2026: historical question bank 3.0.0 revises nine records (01–04, 07–08, 11–13), including four literal statement relocations and five broader-control mechanisms. Keep axes/scoring 2.0.0, historical banks and results unchanged, and assess the changed statements from subject-specific evidence without preferred placement targets. See docs/SCORING.md and the focused reassessment report.
+
+The owner authorised a second Authority–Liberty revision on 6 October 2026:
+current bank 4.0.0 revises records 03, 07, 08, 11, 12 and 15. Firearms and
+home-warrant statements exchange places, and four new statements measure
+bounded health, preventive-security, policing and nonviolent incitement
+restrictions. Ordinary free-society restrictions must be distinguished from
+broader personal freedom without equating Authority with Autocracy. Keep axes
+and scoring 2.0.0, all historical banks/results and immutable archives unchanged.
+Reassess all existing subjects from their own evidence, preserving the other
+234 answers and fourteen axes; do not set preferred politician scores.

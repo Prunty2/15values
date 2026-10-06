@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import type { Page } from '@playwright/test';
 import { readFileSync } from 'node:fs';
-import { answerOptions, getFormat, scoreAnswers, selectQuestions } from '../src/quiz/model';
+import { answerOptions, formats, getFormat, scoreAnswers, selectQuestions } from '../src/quiz/model';
 import type { Answers, QuizLength } from '../src/quiz/model';
 import { HISTORY_KEY } from '../src/quiz/history';
 
@@ -25,18 +25,21 @@ async function finish(page: Page, length: QuizLength = 'short', varying = false,
       await radio.press('Space');
       await expect(radio).toBeChecked();
     } else await radio.check();
-    if (index === getFormat(length).questions - 1) await expect(page.getByText('100% complete', { exact: true })).toBeVisible();
+    if (index === getFormat(length).questions - 1) await expect(page.getByText('100% complete', { exact: true })).toHaveCount(0);
     answers[question.id] = option.value;
-    const next = page.getByRole('button', { name: index === getFormat(length).questions - 1 ? 'See my results' : 'Next', exact: true });
+    const next = page.getByRole('button', { name: 'Next', exact: true });
     if (keyboard) await next.press('Enter');
     else await next.click();
   }
+  await expect(page.locator('#question-title')).toHaveText('What religion do you identify with?');
+  await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeDisabled();
+  await page.getByRole('radio', { name: 'No religion', exact: true }).check();
+  await page.getByRole('button', { name: 'See my results', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
   return answers;
 }
-// All lengths share this flow; model.test.ts covers their selection and scoring.
-{
-  const format = getFormat('short');
+// Verify the required final identity step in every quiz length.
+for (const format of formats) {
   test(`${format.name}: complete every question and export the expected independent scores`, async ({ page }) => {
     test.setTimeout(120_000);
     // Exercise all five responses and keyboard completion with reduced motion.
@@ -48,8 +51,8 @@ async function finish(page: Page, length: QuizLength = 'short', varying = false,
     await start(page, format.id);
     const answers = await finish(page, format.id, true, true);
     await expect(page.locator('article')).toHaveCount(15);
-    await expect(page.getByRole('region', { name: 'Result comparisons' })).toBeVisible();
-    await expect(page.getByText('Personality placeholder', { exact: true })).toBeVisible();
+    await expect(page.getByRole('region', { name: 'Result comparisons' }).first()).toBeVisible();
+    await expect(page.getByText('Most compatible personality', { exact: true }).first()).toBeVisible();
     await expect(page.getByText(`Analysis based on your responses to ${format.questions} questions based on 15 dimensions of political ideology.`, { exact: true })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
     expect(JSON.parse((await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY))!).results).toHaveLength(1);
@@ -60,6 +63,7 @@ async function finish(page: Page, length: QuizLength = 'short', varying = false,
     expect(file.results).toHaveLength(1);
     expect(file.results[0].scores).toEqual(scoreAnswers(format.id, answers));
     expect(file.results[0].length).toBe(format.id);
+    expect(file.results[0].religiousIdentity).toBe('none');
     expect(file.results[0]).not.toHaveProperty('answers');
     expect(errors).toEqual([]);
   });
@@ -100,9 +104,11 @@ test('history saves automatically, survives reload and supports import, deduplic
   await start(page);
   await finish(page);
   await expect(page.getByText('All responses neutral', { exact: true })).toHaveCount(15);
-  await expect(page.getByRole('button', { name: 'Saved in this browser', exact: true })).toBeDisabled();
+  await expect(page.getByRole('heading', { name: 'Centrism', exact: true }).first()).toBeVisible();
+  await page.reload();
+  await expect(page.getByRole('heading', { name: 'Centrism', exact: true }).first()).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Saved in this browser', exact: true })).toHaveCount(0);
   const downloadPromise = page.waitForEvent('download');
-  await page.getByText('Manage history', { exact: true }).click();
   await page.getByRole('button', { name: 'Export history', exact: true }).click();
   const path = (await (await downloadPromise).path())!;
   await page.reload();
@@ -110,9 +116,12 @@ test('history saves automatically, survives reload and supports import, deduplic
   await page.getByRole('button', { name: 'All saved results' }).click();
   await expect(page.getByRole('heading', { name: 'Saved results.', exact: true })).toBeVisible();
   await expect(page.getByRole('button', { name: 'View result', exact: true })).toHaveCount(1);
+  await expect(page.getByRole('heading', { name: 'Quiz type: Short', exact: true })).toBeVisible();
+  await expect(page.getByLabel('Most compatible personality')).toBeVisible();
+  await expect(page.getByLabel('Most compatible country')).toBeVisible();
+  await expect(page.getByRole('img', { name: /15-axis preview/ })).toHaveCount(0);
   await page.getByRole('button', { name: 'View result', exact: true }).click();
   await expect(page.locator('article')).toHaveCount(15);
-  await page.getByText('Manage history', { exact: true }).click();
   await page.getByLabel('Import result history', { exact: true }).setInputFiles(path);
   await expect(page.getByRole('status')).toHaveText('Imported 0 new results.');
   await page.getByRole('button', { name: /^Delete short result/ }).click();
@@ -126,27 +135,12 @@ test('history saves automatically, survives reload and supports import, deduplic
   await page.getByRole('button', { name: 'Clear history', exact: true }).click();
   expect(await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY)).toBeNull();
 });
-test('blocked browser storage and corrupt imports never prevent completion or export', async ({ page }) => {
+test('blocked browser storage never prevents completion', async ({ page }) => {
   await page.addInitScript(() => { Object.defineProperty(window, 'localStorage', { get: () => { throw new Error('Storage blocked'); } }); });
   await start(page);
   await finish(page);
   await expect(page.getByRole('alert')).toContainText('storage may be unavailable');
-  await expect(page.getByRole('button', { name: 'Save in this browser', exact: true })).toBeDisabled();
-  const downloadPromise = page.waitForEvent('download');
-  await page.getByRole('button', { name: 'Export result', exact: true }).click();
-  expect((await downloadPromise).suggestedFilename()).toBe('15-values-result.json');
-});
-test('reviewing answers recalculates the result and final submission is always explicit', async ({ page }) => {
-  await start(page);
-  await finish(page);
-  await page.getByRole('button', { name: 'Review answers', exact: true }).click();
-  await expect(page.locator('#question-title')).toHaveText(selectQuestions('short')[44].text);
-  await page.getByRole('checkbox', { name: 'Advance on answer' }).check();
-  await page.getByRole('radio', { name: 'Strongly agree', exact: true }).check();
-  await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeVisible();
-  await page.getByRole('button', { name: 'See my results', exact: true }).click();
-  const culture = page.getByRole('article', { name: 'Culture vs Nature', exact: true });
-  await expect(culture.getByRole('img')).toHaveAttribute('aria-label', 'Culture: 62.5%; Nature: 37.5%');
+  await expect(page.getByRole('button', { name: 'Export result', exact: true })).toHaveCount(0);
 });
 test('browser Back preserves the open session and leaving asks for confirmation', async ({ page }) => {
   await page.goto('./#/quiz?length=long');
@@ -169,7 +163,6 @@ test('narrow results and invalid stored history stay usable without overwriting 
   await page.reload();
   await expect(page.getByRole('alert')).toContainText('Saved history could not be read');
   expect(await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY)).toBe('{broken}');
-  await page.getByText('Manage history', { exact: true }).click();
   await page.getByRole('button', { name: 'Clear saved history', exact: true }).click();
   await page.getByRole('button', { name: 'Clear history', exact: true }).click();
   await page.getByRole('link', { name: 'Take your first quiz' }).click();
@@ -180,7 +173,7 @@ test('narrow results and invalid stored history stay usable without overwriting 
   await full.scrollIntoViewIfNeeded();
 });
 
-test('a failed automatic save preserves the result and can be retried without duplicates', async ({ page }) => {
+test('a failed automatic save preserves the displayed result', async ({ page }) => {
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await start(page);
   await page.evaluate(() => {
@@ -196,11 +189,5 @@ test('a failed automatic save preserves the result and can be retried without du
   await expect(page.getByRole('status')).toContainText('could not save');
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
   expect(await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY)).toBeNull();
-  await page.getByRole('button', { name: 'Save in this browser', exact: true }).click();
-  await expect(page.getByRole('button', { name: 'Save in this browser', exact: true })).toBeEnabled();
-  await page.getByRole('button', { name: 'Save in this browser', exact: true }).click();
-  await expect(page.getByRole('button', { name: 'Saved in this browser', exact: true })).toBeDisabled();
-  await page.reload();
-  await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
-  expect(JSON.parse((await page.evaluate(key => localStorage.getItem(key), HISTORY_KEY))!).results).toHaveLength(1);
+  await expect(page.getByRole('button', { name: 'Save in this browser', exact: true })).toHaveCount(0);
 });

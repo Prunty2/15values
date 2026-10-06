@@ -1,0 +1,241 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test authority-migration.spec.ts democracy-migration.spec.ts catalogue.spec.ts religion.spec.ts navigation.spec.ts
+
+[WebServer] (node:45550) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 99 tests using 4 workers
+
+(node:45554) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45553) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45555) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45556) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 [desktop] › tests/authority-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (793ms)
+  ✓   2 [desktop] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (956ms)
+  ✓   3 [desktop] › tests/authority-migration.spec.ts:47:1 › every published profile serves its matching complete bank-3 assessment (1.8s)
+  ✓   4 [desktop] › tests/authority-migration.spec.ts:62:3 › Short: current bank completes and exports the independently calculated scores (5.0s)
+  ✓   8 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (216ms)
+  ✓   9 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (229ms)
+  ✓  10 [desktop] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (1.5s)
+  ✓  11 [desktop] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (270ms)
+  ✓  12 [desktop] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (152ms)
+  ✓  13 [desktop] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (304ms)
+  ✓  14 [desktop] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (294ms)
+  ✓  15 [desktop] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (358ms)
+  ✓  16 [desktop] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (172ms)
+  ✓   5 [desktop] › tests/authority-migration.spec.ts:62:3 › Medium: current bank completes and exports the independently calculated scores (7.9s)
+  ✓  17 [desktop] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (327ms)
+  ✓  18 [desktop] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (378ms)
+  ✓  19 [desktop] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (736ms)
+  ✓  21 [desktop] › tests/democracy-migration.spec.ts:57:1 › focused answer review shows the six changed questions and their sourced reasoning (352ms)
+  ✓  20 [desktop] › tests/democracy-migration.spec.ts:29:1 › real revised profiles render and download their complete new immutable assessments (1.1s)
+  ✓  22 [desktop] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (548ms)
+  ✓  23 [desktop] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (702ms)
+  ✓  24 [desktop] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (708ms)
+  ✓  25 [desktop] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (698ms)
+  ✓  26 [desktop] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (674ms)
+  ✓  27 [desktop] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (606ms)
+  ✓  28 [desktop] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (275ms)
+  ✓  30 [desktop] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (374ms)
+  ✓  29 [desktop] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (791ms)
+  ✓  31 [desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.1s)
+  ✓  33 [desktop] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (273ms)
+(node:45623) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   6 [desktop] › tests/authority-migration.spec.ts:62:3 › Long: current bank completes and exports the independently calculated scores (13.7s)
+(node:45628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  34 [mobile] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (920ms)
+  -  36 [mobile] › tests/authority-migration.spec.ts:47:1 › every published profile serves its matching complete bank-3 assessment
+  ✓  35 [mobile] › tests/authority-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (739ms)
+  ✓  37 [mobile] › tests/authority-migration.spec.ts:62:3 › Short: current bank completes and exports the independently calculated scores (5.0s)
+  ✓  38 [mobile] › tests/authority-migration.spec.ts:62:3 › Medium: current bank completes and exports the independently calculated scores (7.8s)
+  ✓   7 [desktop] › tests/authority-migration.spec.ts:62:3 › Comprehensive: current bank completes and exports the independently calculated scores (22.6s)
+(node:45668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  41 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (254ms)
+  ✓  42 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (209ms)
+  ✓  43 [mobile] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (1.4s)
+  ✓  44 [mobile] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (296ms)
+  ✓  45 [mobile] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (149ms)
+  ✓  46 [mobile] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (294ms)
+  ✓  47 [mobile] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (270ms)
+  ✓  48 [mobile] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (346ms)
+  ✓  49 [mobile] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (167ms)
+  ✓  50 [mobile] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (354ms)
+  ✓  51 [mobile] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (364ms)
+  ✓  52 [mobile] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (734ms)
+  ✓  53 [mobile] › tests/democracy-migration.spec.ts:29:1 › real revised profiles render and download their complete new immutable assessments (1.0s)
+  ✓  54 [mobile] › tests/democracy-migration.spec.ts:57:1 › focused answer review shows the six changed questions and their sourced reasoning (390ms)
+  ✓  55 [mobile] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (509ms)
+  ✓  56 [mobile] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (674ms)
+  ✓  57 [mobile] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (679ms)
+  ✓  58 [mobile] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (693ms)
+  ✓  39 [mobile] › tests/authority-migration.spec.ts:62:3 › Long: current bank completes and exports the independently calculated scores (13.6s)
+  ✓  59 [mobile] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (692ms)
+  ✓  60 [mobile] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (576ms)
+  ✓  61 [mobile] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (260ms)
+  ✓  63 [mobile] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (418ms)
+  ✓  62 [mobile] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (760ms)
+  ✓  64 [mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.0s)
+  ✓  66 [mobile] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (262ms)
+(node:45723) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  67 [safari] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (1.3s)
+  ✓  68 [safari] › tests/authority-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (835ms)
+  -  69 [safari] › tests/authority-migration.spec.ts:47:1 › every published profile serves its matching complete bank-3 assessment
+  ✓  70 [safari] › tests/authority-migration.spec.ts:62:3 › Short: current bank completes and exports the independently calculated scores (6.9s)
+  ✓  40 [mobile] › tests/authority-migration.spec.ts:62:3 › Comprehensive: current bank completes and exports the independently calculated scores (23.6s)
+(node:45761) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  32 [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (42.4s)
+(node:45795) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  71 [safari] › tests/authority-migration.spec.ts:62:3 › Medium: current bank completes and exports the independently calculated scores (10.9s)
+  ✓  74 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (540ms)
+  ✓  75 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (451ms)
+  ✓  76 [safari] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.0s)
+  ✓  77 [safari] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (448ms)
+  ✓  78 [safari] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (338ms)
+  ✓  79 [safari] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (517ms)
+  ✓  80 [safari] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (550ms)
+  ✓  81 [safari] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (557ms)
+  ✓  82 [safari] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (419ms)
+  ✓  83 [safari] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (528ms)
+  ✓  84 [safari] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (545ms)
+  ✓  85 [safari] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (950ms)
+  ✓  86 [safari] › tests/democracy-migration.spec.ts:29:1 › real revised profiles render and download their complete new immutable assessments (1.2s)
+  ✓  87 [safari] › tests/democracy-migration.spec.ts:57:1 › focused answer review shows the six changed questions and their sourced reasoning (465ms)
+  ✓  72 [safari] › tests/authority-migration.spec.ts:62:3 › Long: current bank completes and exports the independently calculated scores (19.1s)
+  ✓  88 [safari] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (956ms)
+  ✓  89 [safari] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (951ms)
+  ✓  90 [safari] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (998ms)
+  ✓  91 [safari] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (936ms)
+  ✓  92 [safari] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (958ms)
+  ✓  93 [safari] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (987ms)
+  ✓  94 [safari] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (518ms)
+  ✓  96 [safari] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (631ms)
+  ✓  95 [safari] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (1.7s)
+  ✓  97 [safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.0s)
+  ✓  99 [safari] › tests/window-navigation.spec.ts:39:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (664ms)
+  ✘  65 [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (42.7s)
+  ✓  73 [safari] › tests/authority-migration.spec.ts:62:3 › Comprehensive: current bank completes and exports the independently calculated scores (33.1s)
+  ✘  98 [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (43.6s)
+
+
+  1) [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: 'See my results', exact: true })
+    Expected: enabled
+    Received: disabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: 'See my results', exact: true }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'See my results', exact: true })
+        9 × locator resolved to <button disabled class="_primary_7d852_6">…</button>
+          - unexpected value "disabled"
+
+
+      32 |     await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+      33 |   }
+    > 34 |   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeEnabled();
+         |                                                                                   ^
+      35 |   await page.getByRole('button', { name: 'See my results', exact: true }).click();
+      36 |   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
+      37 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:34:83
+
+    Error Context: test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: 'See my results', exact: true })
+    Expected: enabled
+    Received: disabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: 'See my results', exact: true }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'See my results', exact: true })
+        9 × locator resolved to <button disabled class="_primary_7d852_6">…</button>
+          - unexpected value "disabled"
+
+
+      32 |     await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+      33 |   }
+    > 34 |   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeEnabled();
+         |                                                                                   ^
+      35 |   await page.getByRole('button', { name: 'See my results', exact: true }).click();
+      36 |   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
+      37 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:34:83
+
+    Error Context: test-results/window-navigation-default--d5c9c-e-final-submission-explicit-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-default--d5c9c-e-final-submission-explicit-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-default--d5c9c-e-final-submission-explicit-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+
+    Error: expect(locator).toBeEnabled() failed
+
+    Locator:  getByRole('button', { name: 'See my results', exact: true })
+    Expected: enabled
+    Received: disabled
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeEnabled" getByRole('button', { name: 'See my results', exact: true }) with timeout 5000ms
+      - waiting for getByRole('button', { name: 'See my results', exact: true })
+        9 × locator resolved to <button disabled class="_primary_7d852_6">…</button>
+          - unexpected value "disabled"
+
+
+      32 |     await page.getByRole('radio', { name: 'Agree', exact: true }).click();
+      33 |   }
+    > 34 |   await expect(page.getByRole('button', { name: 'See my results', exact: true })).toBeEnabled();
+         |                                                                                   ^
+      35 |   await page.getByRole('button', { name: 'See my results', exact: true }).click();
+      36 |   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
+      37 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/window-navigation.spec.ts:34:83
+
+    Error Context: test-results/window-navigation-default--d5c9c-e-final-submission-explicit-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-default--d5c9c-e-final-submission-explicit-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-default--d5c9c-e-final-submission-explicit-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+    [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+    [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+  2 skipped
+  94 passed (1.9m)

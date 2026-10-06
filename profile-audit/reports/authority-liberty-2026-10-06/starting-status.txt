@@ -1,0 +1,701 @@
+ M AGENTS.md
+ M CONTRIBUTING.md
+ M README.md
+ M docs/AXES.md
+ M docs/SCORING.md
+ M docs/questions/democracy-autocracy.md
+ M frontend/index.html
+ M frontend/public/profiles/catalogue.v1.json
+ M frontend/scripts/profiles.ts
+ M frontend/scripts/sync-questions.mjs
+ M frontend/src/App.module.css
+ M frontend/src/App.tsx
+ M frontend/src/profiles/Catalogue.module.css
+ M frontend/src/profiles/Catalogue.tsx
+ M frontend/src/profiles/Ideologies.module.css
+ M frontend/src/profiles/Ideologies.tsx
+ M frontend/src/profiles/IdeologyComparison.tsx
+ M frontend/src/profiles/IdeologyHeader.module.css
+ M frontend/src/profiles/IdeologyHeader.tsx
+ M frontend/src/profiles/PersonalityHeader.module.css
+ M frontend/src/profiles/PersonalityHeader.tsx
+ M frontend/src/profiles/catalogueData.ts
+ M frontend/src/profiles/ideologyGroups.ts
+ M frontend/src/profiles/ideologyMatching.test.ts
+ M frontend/src/profiles/ideologyMatching.ts
+ M frontend/src/profiles/types.ts
+ M frontend/src/quiz/QuizFlow.module.css
+ M frontend/src/quiz/QuizFlow.tsx
+ M frontend/src/quiz/ResultHistory.module.css
+ M frontend/src/quiz/ResultHistory.tsx
+ M frontend/src/quiz/ResultProfile.module.css
+ M frontend/src/quiz/ResultProfile.tsx
+ M frontend/src/quiz/history.test.ts
+ M frontend/src/quiz/history.ts
+ M frontend/src/quiz/model.ts
+ M frontend/src/quiz/profile.test.ts
+ M frontend/src/quiz/profile.ts
+ M frontend/src/styles/global.css
+ M frontend/tests/catalogue.spec.ts
+ M frontend/tests/platform.spec.ts
+ M frontend/tests/quiz.spec.ts
+ M frontend/tests/results.spec.ts
+ M profile-audit/drafts/country/argentina.json
+ M profile-audit/drafts/country/australia.json
+ M profile-audit/drafts/country/bangladesh.json
+ M profile-audit/drafts/country/bhutan.json
+ M profile-audit/drafts/country/brazil.json
+ M profile-audit/drafts/country/canada.json
+ M profile-audit/drafts/country/china.json
+ M profile-audit/drafts/country/costa-rica.json
+ M profile-audit/drafts/country/cuba.json
+ M profile-audit/drafts/country/denmark.json
+ M profile-audit/drafts/country/egypt.json
+ M profile-audit/drafts/country/ethiopia.json
+ M profile-audit/drafts/country/france.json
+ M profile-audit/drafts/country/germany.json
+ M profile-audit/drafts/country/hungary.json
+ M profile-audit/drafts/country/india.json
+ M profile-audit/drafts/country/indonesia.json
+ M profile-audit/drafts/country/iran.json
+ M profile-audit/drafts/country/israel.json
+ M profile-audit/drafts/country/italy.json
+ M profile-audit/drafts/country/japan.json
+ M profile-audit/drafts/country/malaysia.json
+ M profile-audit/drafts/country/mexico.json
+ M profile-audit/drafts/country/netherlands.json
+ M profile-audit/drafts/country/new-zealand.json
+ M profile-audit/drafts/country/nigeria.json
+ M profile-audit/drafts/country/north-korea.json
+ M profile-audit/drafts/country/norway.json
+ M profile-audit/drafts/country/pakistan.json
+ M profile-audit/drafts/country/philippines.json
+ M profile-audit/drafts/country/poland.json
+ M profile-audit/drafts/country/russia.json
+ M profile-audit/drafts/country/saudi-arabia.json
+ M profile-audit/drafts/country/singapore.json
+ M profile-audit/drafts/country/south-africa.json
+ M profile-audit/drafts/country/south-korea.json
+ M profile-audit/drafts/country/spain.json
+ M profile-audit/drafts/country/sweden.json
+ M profile-audit/drafts/country/switzerland.json
+ M profile-audit/drafts/country/taiwan.json
+ M profile-audit/drafts/country/thailand.json
+ M profile-audit/drafts/country/turkey.json
+ M profile-audit/drafts/country/ukraine.json
+ M profile-audit/drafts/country/united-arab-emirates.json
+ M profile-audit/drafts/country/united-kingdom.json
+ M profile-audit/drafts/country/united-states.json
+ M profile-audit/drafts/country/vietnam.json
+ M profile-audit/drafts/ideology/alt-lite.json
+ M profile-audit/drafts/ideology/american-conservatism.json
+ M profile-audit/drafts/ideology/anarcho-capitalism.json
+ M profile-audit/drafts/ideology/authoritarian-capitalism.json
+ M profile-audit/drafts/ideology/christian-accelerationism.json
+ M profile-audit/drafts/ideology/christian-conservatism.json
+ M profile-audit/drafts/ideology/christian-democracy.json
+ M profile-audit/drafts/ideology/christian-social-democracy.json
+ M profile-audit/drafts/ideology/christian-socialism.json
+ M profile-audit/drafts/ideology/civic-nationalism.json
+ M profile-audit/drafts/ideology/classical-liberalism.json
+ M profile-audit/drafts/ideology/communism.json
+ M profile-audit/drafts/ideology/communitarianism.json
+ M profile-audit/drafts/ideology/conservative-centrism.json
+ M profile-audit/drafts/ideology/constitutional-monarchism.json
+ M profile-audit/drafts/ideology/cuban-socialism.json
+ M profile-audit/drafts/ideology/cultural-nationalism.json
+ M profile-audit/drafts/ideology/democratic-socialism.json
+ M profile-audit/drafts/ideology/ecosocialism.json
+ M profile-audit/drafts/ideology/environmentalism.json
+ M profile-audit/drafts/ideology/fascism.json
+ M profile-audit/drafts/ideology/green-politics.json
+ M profile-audit/drafts/ideology/islamic-fundamentalism.json
+ M profile-audit/drafts/ideology/islamic-socialism.json
+ M profile-audit/drafts/ideology/islamism.json
+ M profile-audit/drafts/ideology/kantian-republicanism.json
+ M profile-audit/drafts/ideology/left-wing-populism.json
+ M profile-audit/drafts/ideology/liberal-conservatism.json
+ M profile-audit/drafts/ideology/liberal-feminism.json
+ M profile-audit/drafts/ideology/liberalism.json
+ M profile-audit/drafts/ideology/libertarianism.json
+ M profile-audit/drafts/ideology/luxemburgism.json
+ M profile-audit/drafts/ideology/maoism.json
+ M profile-audit/drafts/ideology/marxism.json
+ M profile-audit/drafts/ideology/meritocracy.json
+ M profile-audit/drafts/ideology/militarism.json
+ M profile-audit/drafts/ideology/minarchism.json
+ M profile-audit/drafts/ideology/nationalist-conservatism.json
+ M profile-audit/drafts/ideology/nazism.json
+ M profile-audit/drafts/ideology/neoconservatism.json
+ M profile-audit/drafts/ideology/neoliberalism.json
+ M profile-audit/drafts/ideology/nordic-social-democracy.json
+ M profile-audit/drafts/ideology/objectivism.json
+ M profile-audit/drafts/ideology/postmodernism.json
+ M profile-audit/drafts/ideology/progressive-liberalism.json
+ M profile-audit/drafts/ideology/republicanism.json
+ M profile-audit/drafts/ideology/right-wing-populism.json
+ M profile-audit/drafts/ideology/social-anarchism.json
+ M profile-audit/drafts/ideology/social-democracy.json
+ M profile-audit/drafts/ideology/social-liberalism.json
+ M profile-audit/drafts/ideology/socialism.json
+ M profile-audit/drafts/ideology/thatcherism.json
+ M profile-audit/drafts/ideology/third-way.json
+ M profile-audit/drafts/ideology/traditional-conservatism.json
+ M profile-audit/drafts/ideology/trotskyism.json
+ M profile-audit/drafts/ideology/zionism.json
+ M profile-audit/drafts/personality/abraham-lincoln.json
+ M profile-audit/drafts/personality/adam-smith.json
+ M profile-audit/drafts/personality/adolf-hitler.json
+ M profile-audit/drafts/personality/alexandria-ocasio-cortez.json
+ M profile-audit/drafts/personality/andy-burnham.json
+ M profile-audit/drafts/personality/angela-merkel.json
+ M profile-audit/drafts/personality/angus-taylor.json
+ M profile-audit/drafts/personality/anthony-albanese.json
+ M profile-audit/drafts/personality/augusto-pinochet.json
+ M profile-audit/drafts/personality/ayn-rand.json
+ M profile-audit/drafts/personality/barack-obama.json
+ M profile-audit/drafts/personality/benito-mussolini.json
+ M profile-audit/drafts/personality/benjamin-netanyahu.json
+ M profile-audit/drafts/personality/bernie-sanders.json
+ M profile-audit/drafts/personality/bill-gates.json
+ M profile-audit/drafts/personality/bob-hawke.json
+ M profile-audit/drafts/personality/boris-johnson.json
+ M profile-audit/drafts/personality/charles-de-gaulle.json
+ M profile-audit/drafts/personality/clement-attlee.json
+ M profile-audit/drafts/personality/deng-xiaoping.json
+ M profile-audit/drafts/personality/donald-trump.json
+ M profile-audit/drafts/personality/dwight-d-eisenhower.json
+ M profile-audit/drafts/personality/edmund-burke.json
+ M profile-audit/drafts/personality/elon-musk.json
+ M profile-audit/drafts/personality/emmanuel-macron.json
+ M profile-audit/drafts/personality/fidel-castro.json
+ M profile-audit/drafts/personality/franklin-d-roosevelt.json
+ M profile-audit/drafts/personality/frederick-douglass.json
+ M profile-audit/drafts/personality/friedrich-hayek.json
+ M profile-audit/drafts/personality/george-w-bush.json
+ M profile-audit/drafts/personality/george-washington.json
+ M profile-audit/drafts/personality/gough-whitlam.json
+ M profile-audit/drafts/personality/harry-s-truman.json
+ M profile-audit/drafts/personality/hillary-clinton.json
+ M profile-audit/drafts/personality/ho-chi-minh.json
+ M profile-audit/drafts/personality/hugo-chavez.json
+ M profile-audit/drafts/personality/indira-gandhi.json
+ M profile-audit/drafts/personality/jacinda-ardern.json
+ M profile-audit/drafts/personality/javier-milei.json
+ M profile-audit/drafts/personality/jawaharlal-nehru.json
+ M profile-audit/drafts/personality/jd-vance.json
+ M profile-audit/drafts/personality/jean-jacques-rousseau.json
+ M profile-audit/drafts/personality/jeff-bezos.json
+ M profile-audit/drafts/personality/jeremy-corbyn.json
+ M profile-audit/drafts/personality/jimmy-carter.json
+ M profile-audit/drafts/personality/joe-biden.json
+ M profile-audit/drafts/personality/joh-bjelke-petersen.json
+ M profile-audit/drafts/personality/john-f-kennedy.json
+ M profile-audit/drafts/personality/john-howard.json
+ M profile-audit/drafts/personality/john-locke.json
+ M profile-audit/drafts/personality/john-maynard-keynes.json
+ M profile-audit/drafts/personality/john-rawls.json
+ M profile-audit/drafts/personality/john-stuart-mill.json
+ M profile-audit/drafts/personality/joseph-stalin.json
+ M profile-audit/drafts/personality/julia-gillard.json
+ M profile-audit/drafts/personality/justin-trudeau.json
+ M profile-audit/drafts/personality/kamala-harris.json
+ M profile-audit/drafts/personality/karl-marx.json
+ M profile-audit/drafts/personality/keir-starmer.json
+ M profile-audit/drafts/personality/kim-jong-un.json
+ M profile-audit/drafts/personality/lee-kuan-yew.json
+ M profile-audit/drafts/personality/liz-truss.json
+ M profile-audit/drafts/personality/lula-da-silva.json
+ M profile-audit/drafts/personality/lyndon-b-johnson.json
+ M profile-audit/drafts/personality/mahatma-gandhi.json
+ M profile-audit/drafts/personality/mao-zedong.json
+ M profile-audit/drafts/personality/marco-rubio.json
+ M profile-audit/drafts/personality/margaret-thatcher.json
+ M profile-audit/drafts/personality/mark-zuckerberg.json
+ M profile-audit/drafts/personality/martin-luther-king-jr.json
+ M profile-audit/drafts/personality/mary-wollstonecraft.json
+ M profile-audit/drafts/personality/matt-canavan.json
+ M profile-audit/drafts/personality/mikhail-bakunin.json
+ M profile-audit/drafts/personality/mikhail-gorbachev.json
+ M profile-audit/drafts/personality/milton-friedman.json
+ M profile-audit/drafts/personality/nancy-pelosi.json
+ M profile-audit/drafts/personality/narendra-modi.json
+ M profile-audit/drafts/personality/nelson-mandela.json
+ M profile-audit/drafts/personality/nigel-farage.json
+ M profile-audit/drafts/personality/paul-keating.json
+ M profile-audit/drafts/personality/pauline-hanson.json
+ M profile-audit/drafts/personality/peter-thiel.json
+ M profile-audit/drafts/personality/recep-tayyip-erdogan.json
+ M profile-audit/drafts/personality/richard-nixon.json
+ M profile-audit/drafts/personality/rishi-sunak.json
+ M profile-audit/drafts/personality/robert-f-kennedy.json
+ M profile-audit/drafts/personality/robert-menzies.json
+ M profile-audit/drafts/personality/ronald-reagan.json
+ M profile-audit/drafts/personality/rosa-luxemburg.json
+ M profile-audit/drafts/personality/ruhollah-khomeini.json
+ M profile-audit/drafts/personality/rupert-lowe.json
+ M profile-audit/drafts/personality/salvador-allende.json
+ M profile-audit/drafts/personality/scott-morrison.json
+ M profile-audit/drafts/personality/theodore-roosevelt.json
+ M profile-audit/drafts/personality/theresa-may.json
+ M profile-audit/drafts/personality/thomas-hobbes.json
+ M profile-audit/drafts/personality/thomas-jefferson.json
+ M profile-audit/drafts/personality/tony-abbott.json
+ M profile-audit/drafts/personality/tony-blair.json
+ M profile-audit/drafts/personality/vladimir-lenin.json
+ M profile-audit/drafts/personality/vladimir-putin.json
+ M profile-audit/drafts/personality/volodymyr-zelenskyy.json
+ M profile-audit/drafts/personality/winston-churchill.json
+ M profile-audit/drafts/personality/xi-jinping.json
+ M profile-audit/drafts/personality/zohran-mamdani.json
+?? .playwright-cli/hindu-nationalism-audit-r1.json
+?? .playwright-cli/page-2026-10-05T12-39-20-855Z.yml
+?? .playwright-cli/page-2026-10-05T12-40-01-208Z.yml
+?? .playwright-cli/page-2026-10-05T12-40-16-360Z.yml
+?? .playwright-cli/page-2026-10-05T12-40-38-121Z.yml
+?? .playwright-cli/page-2026-10-05T13-44-43-310Z.yml
+?? .playwright-cli/page-2026-10-05T13-45-32-986Z.yml
+?? frontend/public/profiles/audits/country/argentina/3.json
+?? frontend/public/profiles/audits/country/australia/3.json
+?? frontend/public/profiles/audits/country/bangladesh/3.json
+?? frontend/public/profiles/audits/country/bhutan/3.json
+?? frontend/public/profiles/audits/country/brazil/3.json
+?? frontend/public/profiles/audits/country/canada/3.json
+?? frontend/public/profiles/audits/country/china/3.json
+?? frontend/public/profiles/audits/country/costa-rica/3.json
+?? frontend/public/profiles/audits/country/cuba/3.json
+?? frontend/public/profiles/audits/country/denmark/3.json
+?? frontend/public/profiles/audits/country/egypt/3.json
+?? frontend/public/profiles/audits/country/ethiopia/3.json
+?? frontend/public/profiles/audits/country/france/3.json
+?? frontend/public/profiles/audits/country/germany/3.json
+?? frontend/public/profiles/audits/country/hungary/2.json
+?? frontend/public/profiles/audits/country/india/2.json
+?? frontend/public/profiles/audits/country/indonesia/2.json
+?? frontend/public/profiles/audits/country/iran/3.json
+?? frontend/public/profiles/audits/country/israel/2.json
+?? frontend/public/profiles/audits/country/italy/2.json
+?? frontend/public/profiles/audits/country/japan/3.json
+?? frontend/public/profiles/audits/country/malaysia/2.json
+?? frontend/public/profiles/audits/country/mexico/2.json
+?? frontend/public/profiles/audits/country/netherlands/3.json
+?? frontend/public/profiles/audits/country/new-zealand/3.json
+?? frontend/public/profiles/audits/country/nigeria/2.json
+?? frontend/public/profiles/audits/country/north-korea/3.json
+?? frontend/public/profiles/audits/country/norway/3.json
+?? frontend/public/profiles/audits/country/pakistan/2.json
+?? frontend/public/profiles/audits/country/philippines/2.json
+?? frontend/public/profiles/audits/country/poland/2.json
+?? frontend/public/profiles/audits/country/russia/3.json
+?? frontend/public/profiles/audits/country/saudi-arabia/2.json
+?? frontend/public/profiles/audits/country/singapore/4.json
+?? frontend/public/profiles/audits/country/south-africa/2.json
+?? frontend/public/profiles/audits/country/south-korea/3.json
+?? frontend/public/profiles/audits/country/spain/2.json
+?? frontend/public/profiles/audits/country/sweden/3.json
+?? frontend/public/profiles/audits/country/switzerland/3.json
+?? frontend/public/profiles/audits/country/taiwan/3.json
+?? frontend/public/profiles/audits/country/thailand/3.json
+?? frontend/public/profiles/audits/country/turkey/3.json
+?? frontend/public/profiles/audits/country/ukraine/2.json
+?? frontend/public/profiles/audits/country/united-arab-emirates/2.json
+?? frontend/public/profiles/audits/country/united-kingdom/3.json
+?? frontend/public/profiles/audits/country/united-states/3.json
+?? frontend/public/profiles/audits/country/vietnam/2.json
+?? frontend/public/profiles/audits/ideology/alt-lite/3.json
+?? frontend/public/profiles/audits/ideology/american-conservatism/4.json
+?? frontend/public/profiles/audits/ideology/anarcho-capitalism/4.json
+?? frontend/public/profiles/audits/ideology/authoritarian-capitalism/3.json
+?? frontend/public/profiles/audits/ideology/christian-accelerationism/3.json
+?? frontend/public/profiles/audits/ideology/christian-conservatism/3.json
+?? frontend/public/profiles/audits/ideology/christian-democracy/4.json
+?? frontend/public/profiles/audits/ideology/christian-social-democracy/3.json
+?? frontend/public/profiles/audits/ideology/christian-socialism/3.json
+?? frontend/public/profiles/audits/ideology/civic-nationalism/3.json
+?? frontend/public/profiles/audits/ideology/classical-liberalism/3.json
+?? frontend/public/profiles/audits/ideology/communism/4.json
+?? frontend/public/profiles/audits/ideology/communitarianism/3.json
+?? frontend/public/profiles/audits/ideology/conservative-centrism/4.json
+?? frontend/public/profiles/audits/ideology/constitutional-monarchism/3.json
+?? frontend/public/profiles/audits/ideology/cuban-socialism/3.json
+?? frontend/public/profiles/audits/ideology/cultural-nationalism/3.json
+?? frontend/public/profiles/audits/ideology/democratic-socialism/4.json
+?? frontend/public/profiles/audits/ideology/ecosocialism/3.json
+?? frontend/public/profiles/audits/ideology/environmentalism/3.json
+?? frontend/public/profiles/audits/ideology/fascism/4.json
+?? frontend/public/profiles/audits/ideology/green-politics/3.json
+?? frontend/public/profiles/audits/ideology/hindu-nationalism/
+?? frontend/public/profiles/audits/ideology/islamic-fundamentalism/3.json
+?? frontend/public/profiles/audits/ideology/islamic-socialism/3.json
+?? frontend/public/profiles/audits/ideology/islamism/4.json
+?? frontend/public/profiles/audits/ideology/kantian-republicanism/3.json
+?? frontend/public/profiles/audits/ideology/left-wing-populism/3.json
+?? frontend/public/profiles/audits/ideology/liberal-conservatism/4.json
+?? frontend/public/profiles/audits/ideology/liberal-feminism/4.json
+?? frontend/public/profiles/audits/ideology/liberalism/4.json
+?? frontend/public/profiles/audits/ideology/libertarianism/4.json
+?? frontend/public/profiles/audits/ideology/luxemburgism/4.json
+?? frontend/public/profiles/audits/ideology/maoism/3.json
+?? frontend/public/profiles/audits/ideology/marxism/4.json
+?? frontend/public/profiles/audits/ideology/meritocracy/3.json
+?? frontend/public/profiles/audits/ideology/militarism/3.json
+?? frontend/public/profiles/audits/ideology/minarchism/4.json
+?? frontend/public/profiles/audits/ideology/nationalist-conservatism/4.json
+?? frontend/public/profiles/audits/ideology/nazism/4.json
+?? frontend/public/profiles/audits/ideology/neoconservatism/4.json
+?? frontend/public/profiles/audits/ideology/neoliberalism/3.json
+?? frontend/public/profiles/audits/ideology/nordic-social-democracy/3.json
+?? frontend/public/profiles/audits/ideology/objectivism/4.json
+?? frontend/public/profiles/audits/ideology/postmodernism/3.json
+?? frontend/public/profiles/audits/ideology/progressive-liberalism/3.json
+?? frontend/public/profiles/audits/ideology/republicanism/3.json
+?? frontend/public/profiles/audits/ideology/right-wing-populism/3.json
+?? frontend/public/profiles/audits/ideology/social-anarchism/4.json
+?? frontend/public/profiles/audits/ideology/social-democracy/3.json
+?? frontend/public/profiles/audits/ideology/social-liberalism/4.json
+?? frontend/public/profiles/audits/ideology/socialism/3.json
+?? frontend/public/profiles/audits/ideology/thatcherism/4.json
+?? frontend/public/profiles/audits/ideology/third-way/3.json
+?? frontend/public/profiles/audits/ideology/traditional-conservatism/3.json
+?? frontend/public/profiles/audits/ideology/trotskyism/3.json
+?? frontend/public/profiles/audits/ideology/zionism/3.json
+?? frontend/public/profiles/audits/personality/abraham-lincoln/3.json
+?? frontend/public/profiles/audits/personality/adam-smith/2.json
+?? frontend/public/profiles/audits/personality/adolf-hitler/4.json
+?? frontend/public/profiles/audits/personality/alexandria-ocasio-cortez/2.json
+?? frontend/public/profiles/audits/personality/andy-burnham/4.json
+?? frontend/public/profiles/audits/personality/angela-merkel/4.json
+?? frontend/public/profiles/audits/personality/angus-taylor/2.json
+?? frontend/public/profiles/audits/personality/anthony-albanese/5.json
+?? frontend/public/profiles/audits/personality/augusto-pinochet/2.json
+?? frontend/public/profiles/audits/personality/ayn-rand/3.json
+?? frontend/public/profiles/audits/personality/barack-obama/3.json
+?? frontend/public/profiles/audits/personality/benito-mussolini/4.json
+?? frontend/public/profiles/audits/personality/benjamin-netanyahu/2.json
+?? frontend/public/profiles/audits/personality/bernie-sanders/4.json
+?? frontend/public/profiles/audits/personality/bill-gates/2.json
+?? frontend/public/profiles/audits/personality/bob-hawke/2.json
+?? frontend/public/profiles/audits/personality/boris-johnson/4.json
+?? frontend/public/profiles/audits/personality/charles-de-gaulle/2.json
+?? frontend/public/profiles/audits/personality/clement-attlee/2.json
+?? frontend/public/profiles/audits/personality/deng-xiaoping/3.json
+?? frontend/public/profiles/audits/personality/donald-trump/6.json
+?? frontend/public/profiles/audits/personality/dwight-d-eisenhower/2.json
+?? frontend/public/profiles/audits/personality/edmund-burke/4.json
+?? frontend/public/profiles/audits/personality/elon-musk/2.json
+?? frontend/public/profiles/audits/personality/emmanuel-macron/2.json
+?? frontend/public/profiles/audits/personality/fidel-castro/3.json
+?? frontend/public/profiles/audits/personality/franklin-d-roosevelt/4.json
+?? frontend/public/profiles/audits/personality/frederick-douglass/2.json
+?? frontend/public/profiles/audits/personality/friedrich-hayek/3.json
+?? frontend/public/profiles/audits/personality/george-w-bush/2.json
+?? frontend/public/profiles/audits/personality/george-washington/2.json
+?? frontend/public/profiles/audits/personality/gough-whitlam/2.json
+?? frontend/public/profiles/audits/personality/harry-s-truman/2.json
+?? frontend/public/profiles/audits/personality/hillary-clinton/2.json
+?? frontend/public/profiles/audits/personality/ho-chi-minh/5.json
+?? frontend/public/profiles/audits/personality/hugo-chavez/2.json
+?? frontend/public/profiles/audits/personality/indira-gandhi/4.json
+?? frontend/public/profiles/audits/personality/jacinda-ardern/2.json
+?? frontend/public/profiles/audits/personality/javier-milei/2.json
+?? frontend/public/profiles/audits/personality/jawaharlal-nehru/2.json
+?? frontend/public/profiles/audits/personality/jd-vance/4.json
+?? frontend/public/profiles/audits/personality/jean-jacques-rousseau/2.json
+?? frontend/public/profiles/audits/personality/jeff-bezos/2.json
+?? frontend/public/profiles/audits/personality/jeremy-corbyn/3.json
+?? frontend/public/profiles/audits/personality/jimmy-carter/2.json
+?? frontend/public/profiles/audits/personality/joe-biden/2.json
+?? frontend/public/profiles/audits/personality/joh-bjelke-petersen/3.json
+?? frontend/public/profiles/audits/personality/john-f-kennedy/2.json
+?? frontend/public/profiles/audits/personality/john-howard/3.json
+?? frontend/public/profiles/audits/personality/john-locke/4.json
+?? frontend/public/profiles/audits/personality/john-maynard-keynes/4.json
+?? frontend/public/profiles/audits/personality/john-rawls/3.json
+?? frontend/public/profiles/audits/personality/john-stuart-mill/4.json
+?? frontend/public/profiles/audits/personality/joseph-stalin/4.json
+?? frontend/public/profiles/audits/personality/julia-gillard/3.json
+?? frontend/public/profiles/audits/personality/justin-trudeau/2.json
+?? frontend/public/profiles/audits/personality/kamala-harris/3.json
+?? frontend/public/profiles/audits/personality/karl-marx/4.json
+?? frontend/public/profiles/audits/personality/keir-starmer/2.json
+?? frontend/public/profiles/audits/personality/kim-jong-un/2.json
+?? frontend/public/profiles/audits/personality/lee-kuan-yew/2.json
+?? frontend/public/profiles/audits/personality/liz-truss/2.json
+?? frontend/public/profiles/audits/personality/lula-da-silva/2.json
+?? frontend/public/profiles/audits/personality/lyndon-b-johnson/2.json
+?? frontend/public/profiles/audits/personality/mahatma-gandhi/4.json
+?? frontend/public/profiles/audits/personality/mao-zedong/3.json
+?? frontend/public/profiles/audits/personality/marco-rubio/4.json
+?? frontend/public/profiles/audits/personality/margaret-thatcher/4.json
+?? frontend/public/profiles/audits/personality/mark-zuckerberg/2.json
+?? frontend/public/profiles/audits/personality/martin-luther-king-jr/2.json
+?? frontend/public/profiles/audits/personality/mary-wollstonecraft/2.json
+?? frontend/public/profiles/audits/personality/matt-canavan/2.json
+?? frontend/public/profiles/audits/personality/mikhail-bakunin/2.json
+?? frontend/public/profiles/audits/personality/mikhail-gorbachev/3.json
+?? frontend/public/profiles/audits/personality/milton-friedman/4.json
+?? frontend/public/profiles/audits/personality/nancy-pelosi/2.json
+?? frontend/public/profiles/audits/personality/narendra-modi/3.json
+?? frontend/public/profiles/audits/personality/nelson-mandela/3.json
+?? frontend/public/profiles/audits/personality/nigel-farage/4.json
+?? frontend/public/profiles/audits/personality/paul-keating/2.json
+?? frontend/public/profiles/audits/personality/pauline-hanson/4.json
+?? frontend/public/profiles/audits/personality/peter-thiel/2.json
+?? frontend/public/profiles/audits/personality/recep-tayyip-erdogan/3.json
+?? frontend/public/profiles/audits/personality/richard-nixon/3.json
+?? frontend/public/profiles/audits/personality/rishi-sunak/2.json
+?? frontend/public/profiles/audits/personality/robert-f-kennedy/2.json
+?? frontend/public/profiles/audits/personality/robert-menzies/2.json
+?? frontend/public/profiles/audits/personality/ronald-reagan/4.json
+?? frontend/public/profiles/audits/personality/rosa-luxemburg/4.json
+?? frontend/public/profiles/audits/personality/ruhollah-khomeini/2.json
+?? frontend/public/profiles/audits/personality/rupert-lowe/4.json
+?? frontend/public/profiles/audits/personality/salvador-allende/4.json
+?? frontend/public/profiles/audits/personality/scott-morrison/2.json
+?? frontend/public/profiles/audits/personality/theodore-roosevelt/2.json
+?? frontend/public/profiles/audits/personality/theresa-may/2.json
+?? frontend/public/profiles/audits/personality/thomas-hobbes/4.json
+?? frontend/public/profiles/audits/personality/thomas-jefferson/2.json
+?? frontend/public/profiles/audits/personality/tony-abbott/2.json
+?? frontend/public/profiles/audits/personality/tony-blair/3.json
+?? frontend/public/profiles/audits/personality/vladimir-lenin/3.json
+?? frontend/public/profiles/audits/personality/vladimir-putin/4.json
+?? frontend/public/profiles/audits/personality/volodymyr-zelenskyy/2.json
+?? frontend/public/profiles/audits/personality/winston-churchill/4.json
+?? frontend/public/profiles/audits/personality/xi-jinping/4.json
+?? frontend/public/profiles/audits/personality/zohran-mamdani/2.json
+?? frontend/public/profiles/country-religion-assessments/
+?? frontend/public/profiles/democracy-review.html
+?? frontend/public/profiles/religion-assessments/
+?? frontend/src/components/Arrow.tsx
+?? frontend/src/data/axes.v2.json
+?? frontend/src/data/questions.v2.json
+?? frontend/src/profiles/CountryHeader.module.css
+?? frontend/src/profiles/CountryHeader.tsx
+?? frontend/src/profiles/catalogueData.test.ts
+?? frontend/src/profiles/religionMatching.test.ts
+?? frontend/src/quiz/bankMigration.test.ts
+?? frontend/src/quiz/religion.ts
+?? frontend/tests/democracy-migration.spec.ts
+?? frontend/tests/religion.spec.ts
+?? frontend/tests/result-images.spec.ts
+?? output/playwright/democracy-review-desktop.png
+?? output/playwright/democracy-review-mobile.png
+?? output/playwright/hindu-nationalism-desktop.png
+?? output/playwright/hindu-nationalism-mobile.png
+?? profile-audit/answers/country/argentina/3.json
+?? profile-audit/answers/country/australia/3.json
+?? profile-audit/answers/country/bangladesh/3.json
+?? profile-audit/answers/country/bhutan/3.json
+?? profile-audit/answers/country/brazil/3.json
+?? profile-audit/answers/country/canada/3.json
+?? profile-audit/answers/country/china/3.json
+?? profile-audit/answers/country/costa-rica/3.json
+?? profile-audit/answers/country/cuba/3.json
+?? profile-audit/answers/country/denmark/3.json
+?? profile-audit/answers/country/egypt/3.json
+?? profile-audit/answers/country/ethiopia/3.json
+?? profile-audit/answers/country/france/3.json
+?? profile-audit/answers/country/germany/3.json
+?? profile-audit/answers/country/hungary/2.json
+?? profile-audit/answers/country/india/2.json
+?? profile-audit/answers/country/indonesia/2.json
+?? profile-audit/answers/country/iran/3.json
+?? profile-audit/answers/country/israel/2.json
+?? profile-audit/answers/country/italy/2.json
+?? profile-audit/answers/country/japan/3.json
+?? profile-audit/answers/country/malaysia/2.json
+?? profile-audit/answers/country/mexico/2.json
+?? profile-audit/answers/country/netherlands/3.json
+?? profile-audit/answers/country/new-zealand/3.json
+?? profile-audit/answers/country/nigeria/2.json
+?? profile-audit/answers/country/north-korea/3.json
+?? profile-audit/answers/country/norway/3.json
+?? profile-audit/answers/country/pakistan/2.json
+?? profile-audit/answers/country/philippines/2.json
+?? profile-audit/answers/country/poland/2.json
+?? profile-audit/answers/country/russia/3.json
+?? profile-audit/answers/country/saudi-arabia/2.json
+?? profile-audit/answers/country/singapore/4.json
+?? profile-audit/answers/country/south-africa/2.json
+?? profile-audit/answers/country/south-korea/3.json
+?? profile-audit/answers/country/spain/2.json
+?? profile-audit/answers/country/sweden/3.json
+?? profile-audit/answers/country/switzerland/3.json
+?? profile-audit/answers/country/taiwan/3.json
+?? profile-audit/answers/country/thailand/3.json
+?? profile-audit/answers/country/turkey/3.json
+?? profile-audit/answers/country/ukraine/2.json
+?? profile-audit/answers/country/united-arab-emirates/2.json
+?? profile-audit/answers/country/united-kingdom/3.json
+?? profile-audit/answers/country/united-states/3.json
+?? profile-audit/answers/country/vietnam/2.json
+?? profile-audit/answers/ideology/alt-lite/3.json
+?? profile-audit/answers/ideology/american-conservatism/4.json
+?? profile-audit/answers/ideology/anarcho-capitalism/4.json
+?? profile-audit/answers/ideology/authoritarian-capitalism/3.json
+?? profile-audit/answers/ideology/christian-accelerationism/3.json
+?? profile-audit/answers/ideology/christian-conservatism/3.json
+?? profile-audit/answers/ideology/christian-democracy/4.json
+?? profile-audit/answers/ideology/christian-social-democracy/3.json
+?? profile-audit/answers/ideology/christian-socialism/3.json
+?? profile-audit/answers/ideology/civic-nationalism/3.json
+?? profile-audit/answers/ideology/classical-liberalism/3.json
+?? profile-audit/answers/ideology/communism/4.json
+?? profile-audit/answers/ideology/communitarianism/3.json
+?? profile-audit/answers/ideology/conservative-centrism/4.json
+?? profile-audit/answers/ideology/constitutional-monarchism/3.json
+?? profile-audit/answers/ideology/cuban-socialism/3.json
+?? profile-audit/answers/ideology/cultural-nationalism/3.json
+?? profile-audit/answers/ideology/democratic-socialism/4.json
+?? profile-audit/answers/ideology/ecosocialism/3.json
+?? profile-audit/answers/ideology/environmentalism/3.json
+?? profile-audit/answers/ideology/fascism/4.json
+?? profile-audit/answers/ideology/green-politics/3.json
+?? profile-audit/answers/ideology/hindu-nationalism/
+?? profile-audit/answers/ideology/islamic-fundamentalism/3.json
+?? profile-audit/answers/ideology/islamic-socialism/3.json
+?? profile-audit/answers/ideology/islamism/4.json
+?? profile-audit/answers/ideology/kantian-republicanism/3.json
+?? profile-audit/answers/ideology/left-wing-populism/3.json
+?? profile-audit/answers/ideology/liberal-conservatism/4.json
+?? profile-audit/answers/ideology/liberal-feminism/4.json
+?? profile-audit/answers/ideology/liberalism/4.json
+?? profile-audit/answers/ideology/libertarianism/4.json
+?? profile-audit/answers/ideology/luxemburgism/4.json
+?? profile-audit/answers/ideology/maoism/3.json
+?? profile-audit/answers/ideology/marxism/4.json
+?? profile-audit/answers/ideology/meritocracy/3.json
+?? profile-audit/answers/ideology/militarism/3.json
+?? profile-audit/answers/ideology/minarchism/4.json
+?? profile-audit/answers/ideology/nationalist-conservatism/4.json
+?? profile-audit/answers/ideology/nazism/4.json
+?? profile-audit/answers/ideology/neoconservatism/4.json
+?? profile-audit/answers/ideology/neoliberalism/3.json
+?? profile-audit/answers/ideology/nordic-social-democracy/3.json
+?? profile-audit/answers/ideology/objectivism/4.json
+?? profile-audit/answers/ideology/postmodernism/3.json
+?? profile-audit/answers/ideology/progressive-liberalism/3.json
+?? profile-audit/answers/ideology/republicanism/3.json
+?? profile-audit/answers/ideology/right-wing-populism/3.json
+?? profile-audit/answers/ideology/social-anarchism/4.json
+?? profile-audit/answers/ideology/social-democracy/3.json
+?? profile-audit/answers/ideology/social-liberalism/4.json
+?? profile-audit/answers/ideology/socialism/3.json
+?? profile-audit/answers/ideology/thatcherism/4.json
+?? profile-audit/answers/ideology/third-way/3.json
+?? profile-audit/answers/ideology/traditional-conservatism/3.json
+?? profile-audit/answers/ideology/trotskyism/3.json
+?? profile-audit/answers/ideology/zionism/3.json
+?? profile-audit/answers/personality/abraham-lincoln/3.json
+?? profile-audit/answers/personality/adam-smith/2.json
+?? profile-audit/answers/personality/adolf-hitler/4.json
+?? profile-audit/answers/personality/alexandria-ocasio-cortez/2.json
+?? profile-audit/answers/personality/andy-burnham/4.json
+?? profile-audit/answers/personality/angela-merkel/4.json
+?? profile-audit/answers/personality/angus-taylor/2.json
+?? profile-audit/answers/personality/anthony-albanese/5.json
+?? profile-audit/answers/personality/augusto-pinochet/2.json
+?? profile-audit/answers/personality/ayn-rand/3.json
+?? profile-audit/answers/personality/barack-obama/3.json
+?? profile-audit/answers/personality/benito-mussolini/4.json
+?? profile-audit/answers/personality/benjamin-netanyahu/2.json
+?? profile-audit/answers/personality/bernie-sanders/4.json
+?? profile-audit/answers/personality/bill-gates/2.json
+?? profile-audit/answers/personality/bob-hawke/2.json
+?? profile-audit/answers/personality/boris-johnson/4.json
+?? profile-audit/answers/personality/charles-de-gaulle/2.json
+?? profile-audit/answers/personality/clement-attlee/2.json
+?? profile-audit/answers/personality/deng-xiaoping/3.json
+?? profile-audit/answers/personality/donald-trump/6.json
+?? profile-audit/answers/personality/dwight-d-eisenhower/2.json
+?? profile-audit/answers/personality/edmund-burke/4.json
+?? profile-audit/answers/personality/elon-musk/2.json
+?? profile-audit/answers/personality/emmanuel-macron/2.json
+?? profile-audit/answers/personality/fidel-castro/3.json
+?? profile-audit/answers/personality/franklin-d-roosevelt/4.json
+?? profile-audit/answers/personality/frederick-douglass/2.json
+?? profile-audit/answers/personality/friedrich-hayek/3.json
+?? profile-audit/answers/personality/george-w-bush/2.json
+?? profile-audit/answers/personality/george-washington/2.json
+?? profile-audit/answers/personality/gough-whitlam/2.json
+?? profile-audit/answers/personality/harry-s-truman/2.json
+?? profile-audit/answers/personality/hillary-clinton/2.json
+?? profile-audit/answers/personality/ho-chi-minh/5.json
+?? profile-audit/answers/personality/hugo-chavez/2.json
+?? profile-audit/answers/personality/indira-gandhi/4.json
+?? profile-audit/answers/personality/jacinda-ardern/2.json
+?? profile-audit/answers/personality/javier-milei/2.json
+?? profile-audit/answers/personality/jawaharlal-nehru/2.json
+?? profile-audit/answers/personality/jd-vance/4.json
+?? profile-audit/answers/personality/jean-jacques-rousseau/2.json
+?? profile-audit/answers/personality/jeff-bezos/2.json
+?? profile-audit/answers/personality/jeremy-corbyn/3.json
+?? profile-audit/answers/personality/jimmy-carter/2.json
+?? profile-audit/answers/personality/joe-biden/2.json
+?? profile-audit/answers/personality/joh-bjelke-petersen/3.json
+?? profile-audit/answers/personality/john-f-kennedy/2.json
+?? profile-audit/answers/personality/john-howard/3.json
+?? profile-audit/answers/personality/john-locke/4.json
+?? profile-audit/answers/personality/john-maynard-keynes/4.json
+?? profile-audit/answers/personality/john-rawls/3.json
+?? profile-audit/answers/personality/john-stuart-mill/4.json
+?? profile-audit/answers/personality/joseph-stalin/4.json
+?? profile-audit/answers/personality/julia-gillard/3.json
+?? profile-audit/answers/personality/justin-trudeau/2.json
+?? profile-audit/answers/personality/kamala-harris/3.json
+?? profile-audit/answers/personality/karl-marx/4.json
+?? profile-audit/answers/personality/keir-starmer/2.json
+?? profile-audit/answers/personality/kim-jong-un/2.json
+?? profile-audit/answers/personality/lee-kuan-yew/2.json
+?? profile-audit/answers/personality/liz-truss/2.json
+?? profile-audit/answers/personality/lula-da-silva/2.json
+?? profile-audit/answers/personality/lyndon-b-johnson/2.json
+?? profile-audit/answers/personality/mahatma-gandhi/4.json
+?? profile-audit/answers/personality/mao-zedong/3.json
+?? profile-audit/answers/personality/marco-rubio/4.json
+?? profile-audit/answers/personality/margaret-thatcher/4.json
+?? profile-audit/answers/personality/mark-zuckerberg/2.json
+?? profile-audit/answers/personality/martin-luther-king-jr/2.json
+?? profile-audit/answers/personality/mary-wollstonecraft/2.json
+?? profile-audit/answers/personality/matt-canavan/2.json
+?? profile-audit/answers/personality/mikhail-bakunin/2.json
+?? profile-audit/answers/personality/mikhail-gorbachev/3.json
+?? profile-audit/answers/personality/milton-friedman/4.json
+?? profile-audit/answers/personality/nancy-pelosi/2.json
+?? profile-audit/answers/personality/narendra-modi/3.json
+?? profile-audit/answers/personality/nelson-mandela/3.json
+?? profile-audit/answers/personality/nigel-farage/4.json
+?? profile-audit/answers/personality/paul-keating/2.json
+?? profile-audit/answers/personality/pauline-hanson/4.json
+?? profile-audit/answers/personality/peter-thiel/2.json
+?? profile-audit/answers/personality/recep-tayyip-erdogan/3.json
+?? profile-audit/answers/personality/richard-nixon/3.json
+?? profile-audit/answers/personality/rishi-sunak/2.json
+?? profile-audit/answers/personality/robert-f-kennedy/2.json
+?? profile-audit/answers/personality/robert-menzies/2.json
+?? profile-audit/answers/personality/ronald-reagan/4.json
+?? profile-audit/answers/personality/rosa-luxemburg/4.json
+?? profile-audit/answers/personality/ruhollah-khomeini/2.json
+?? profile-audit/answers/personality/rupert-lowe/4.json
+?? profile-audit/answers/personality/salvador-allende/4.json
+?? profile-audit/answers/personality/scott-morrison/2.json
+?? profile-audit/answers/personality/theodore-roosevelt/2.json
+?? profile-audit/answers/personality/theresa-may/2.json
+?? profile-audit/answers/personality/thomas-hobbes/4.json
+?? profile-audit/answers/personality/thomas-jefferson/2.json
+?? profile-audit/answers/personality/tony-abbott/2.json
+?? profile-audit/answers/personality/tony-blair/3.json
+?? profile-audit/answers/personality/vladimir-lenin/3.json
+?? profile-audit/answers/personality/vladimir-putin/4.json
+?? profile-audit/answers/personality/volodymyr-zelenskyy/2.json
+?? profile-audit/answers/personality/winston-churchill/4.json
+?? profile-audit/answers/personality/xi-jinping/4.json
+?? profile-audit/answers/personality/zohran-mamdani/2.json
+?? profile-audit/country-religion-assessments/
+?? profile-audit/drafts/ideology/hindu-nationalism.json
+?? profile-audit/religion-assessments/
+?? profile-audit/reports/authority-liberty-2026-10-06/
+?? profile-audit/reports/democracy-questions-2026-10-05/
+?? profile-audit/reports/hindu-nationalism-2026-10-05/
+?? profile-audit/reports/religion-identity-2026-10-06/

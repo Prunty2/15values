@@ -28,7 +28,7 @@ for (const [length, count] of [['short', 45], ['medium', 75], ['long', 135], ['c
     page.on('pageerror', error => errors.push(error.message));
     await page.goto(`./#/quiz/run?length=${length}`);
     await expect(page.getByRole('radio')).toHaveCount(5);
-    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(count));
+    await expect(page.getByRole('progressbar')).toHaveAttribute('aria-valuemax', String(count + 1));
     await expect(page.getByRole('checkbox', { name: 'Advance on answer' })).toBeChecked();
     await page.getByRole('checkbox', { name: 'Advance on answer' }).uncheck();
     await page.getByRole('radio', { name: 'Agree', exact: true }).check();

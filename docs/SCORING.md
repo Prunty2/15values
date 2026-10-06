@@ -46,13 +46,13 @@ Short scores now have 17 possible placements (6.25-point unrounded steps) instea
 
 A percentage is a placement between poles, not a probability, a proportion of the population, or a confidence rating. Exact ties do not pick a dominant pole. A midpoint may represent all Neutral responses, offsetting opposing responses, or a combination. Each axis has an expandable information control with its definition, question count, neutral count and stored percentages. Entirely neutral axes are also labelled directly on the chart. These counts are descriptive, not a validated uncertainty model.
 
-The result display uses the requested centred heading and question-count subheading, a homepage-style comparison card with calculated ideology comparisons and personality/country placeholders, and a sentence panel reserved for a broad statement about the society the matched ideology envisions. The sentence must come from the ideology profile, not be assembled from axis preferences. Ideology matching now supplies the closest compatible profile’s statement, with separate statements for tied profiles. The line above the results heading is removed, and the subheading fits on one line at desktop widths while wrapping on smaller screens. Reference-style rows show the agreed endpoint names and icons, a midpoint tick, a position marker, and a tendency badge. Both poles use the same thresholds based on the displayed whole-percent deviation from 50: Balanced at 0–5 percentage points, “Leaning [pole]” at 6–15, “[pole]” at 16–25, and “Strongly [pole]” at 26–50. These labels describe placement, not confidence. The axis topic headings are navigation labels and do not replace the agreed names or definitions.
+The result display uses the requested centred heading and question-count subheading, a homepage-style comparison card with calculated ideology, personality and country comparisons, and a sentence panel reserved for a broad statement about the society the matched ideology envisions. The sentence must come from the ideology profile, not be assembled from axis preferences. Ideology matching now supplies the closest compatible profile’s statement, with separate statements for tied profiles. The line above the results heading is removed, and the subheading fits on one line at desktop widths while wrapping on smaller screens. Reference-style rows show the agreed endpoint names and icons, a midpoint tick, a position marker, and a tendency badge. Both poles use the same thresholds based on the displayed whole-percent deviation from 50: Balanced at 0–5 percentage points, “Leaning [pole]” at 6–15, “[pole]” at 16–25, and “Strongly [pole]” at 26–50. These labels describe placement, not confidence. The axis topic headings are navigation labels and do not replace the agreed names or definitions.
 
 Longer formats offer broader question coverage; they do not guarantee greater accuracy. No population calibration, reliability study or construct-validation study has been carried out for this bank. The result page discloses that the development bank includes draft wording.
 
 ## Question provenance and review concerns
 
-`frontend/src/data/questions.v1.json` preserves the existing 240 statements, inclusion priorities and recorded agreement directions from `docs/questions/`. The source documents were not rewritten for this implementation. Four axes are explicitly locked, one has agreed ordering without a status line, and ten remain marked Draft. The JSON retains a per-question `status` and the overall bank is a development version.
+`frontend/src/data/questions.v4.json` contains 240 statements synchronised with `docs/questions/`. Bank 4.0.0 revises six Authority–Liberty records under the second coverage reassessment described below. Bank 3.0.0 previously revised nine Authority–Liberty records with owner authorisation on 6 October 2026. Bank 2.0.0 previously revised six Democracy–Autocracy statements under the owner’s 5 October clarification. Historical `questions.v1.json`, `questions.v2.json`, `questions.v3.json` and `axes.v1.json` remain unchanged. Four axes are explicitly locked, one has agreed ordering without a status line, and ten remain marked Draft. The JSON retains a per-question `status` and the overall bank is a development version.
 
 `npm run questions:check` verifies exact synchronisation. `npm run questions:sync` regenerates the JSON after an authorised wording change; review and update the bank version whenever published content changes.
 
@@ -126,7 +126,7 @@ Profile pages link to their closest ideology or tied ideologies and show the
 average gap in percentage points. This is resemblance among assessed profiles,
 not an identity claim or confidence estimate. It inherits evidence uncertainty
 and question-bank limitations. Even a distant nearest candidate is shown with
-its gap; no arbitrary acceptance threshold is imposed. User-to-ideology comparison is now authorised; automatic quiz-result personality comparisons and compass presentation remain deferred.
+its gap; no arbitrary acceptance threshold is imposed. User-to-ideology comparison is now authorised; automatic quiz-result personality and country comparisons are authorised; compass presentation remains deferred.
 
 The accuracy corrections of 5 October make the reference period and scope visible,
 show all 15 individual gaps on profile pages, and show the next distinct candidate's
@@ -165,10 +165,117 @@ with a removable legend and equal-axis percentage similarity. The closest ideolo
 sets the results colour theme using its catalogue group colour; cross-group ties
 use the neutral catalogue colour. The top comparison card and quote have equal width. Selection is temporary
 and is not added to local history or exports. Escape closes the picker and restores
-focus. Automatic personality matching and country comparison remain deferred.
+focus. Automatic personality and country matches are available in the results comparison card; manual country comparison remains deferred.
 
 ## Profile personality similarity
 
-Authorised 5 October 2026. Personality profiles show “Similar Personality” as links to the nearest other compatible, non-withdrawn personality profiles using equally weighted mean absolute distance across all 15 axes. Self-matches are excluded; all ties within 1e-9 are retained. Matches are calculated from the current catalogue at display time. Similarity is 100 minus the mean gap. These comparisons inherit assessment uncertainty and do not imply affiliation or endorsement. Automatic quiz-result personality matching remains deferred.
+Authorised 5 October 2026. Personality profiles show “Similar Personality” as links to the nearest other compatible, non-withdrawn personality profiles using equally weighted mean absolute distance across all 15 axes. Self-matches are excluded; all ties within 1e-9 are retained. Matches are calculated from the current catalogue at display time. Similarity is 100 minus the mean gap. These comparisons inherit assessment uncertainty and do not imply affiliation or endorsement. Automatic quiz-result personality and country matching are authorised.
 
 Political leaning labels are removed from profile detail pages and catalogue cards at the owner’s request on 5 October 2026. Catalogue browsing groups, immutable assessments and recorded metadata remain unchanged.
+
+## Quiz result personality and country comparisons
+
+Authorised 5 October 2026. Results show the closest compatible, non-withdrawn personality and country assessments, retaining all ties within 1e-9. Each of the 15 axes has equal weight; similarity is 100 minus mean absolute score distance, displayed to one decimal place. Matches link to catalogue profiles and are recomputed when viewed. Loading failures, empty catalogues and incompatible versions show unavailable explanations. These estimates inherit assessment and question-bank limitations and do not imply identity, affiliation or endorsement. Saved scores, exports, ideology colours and perspective statements are unchanged.
+
+## Ideology profile person and country comparisons
+
+Authorised 5 October 2026. Each ideology profile shows the most similar compatible, non-withdrawn person and country from the current catalogue, linking to their profiles. Comparisons use equal-weight mean absolute distance across all 15 axes, retain all ties within 1e-9, and show linked names with portraits and flags without visible category labels or similarity percentages. Withdrawn ideologies and missing compatible candidates show unavailable explanations. Matches are calculated when viewed and inherit assessment uncertainty; they do not imply affiliation or endorsement.
+
+### Religious identity eligibility (6 October 2026)
+
+Every quiz ends with one required, unscored question: “What religion do you identify with?” Options include Hinduism, Islam, Christianity, Judaism, Buddhism, Sikhism, another religion, no religion, and prefer not to say. The formats still contain 45/75/135/240 political statements, plus this final question. Its answer is stored locally and exported with the result; political statement answers remain unsaved. Existing saved results without an identity retain their original scores and exclude faith-specific ideology matches.
+
+Explicitly Hindu, Islamic and Christian ideologies require the corresponding identity for automatic ideology matching. Identifying with a religion does not force a religious ideology: all general ideologies remain eligible and ranking still uses equal weights on the unchanged 15 axes. An ideology’s “no religion” response means no prerequisite, not atheist-only eligibility. Personality-to-ideology and religious-ideology-to-personality matches apply the same eligibility rule, using sourced, period-specific identity assessments. Country comparisons always permit general ideologies. Faith-specific ideologies require that faith to represent at least 20% of the country’s population in the sourced supplement. Multiple faiths may qualify; missing country evidence excludes faith-specific matches. This eligibility filter applies in both comparison directions and does not alter political scores. Manual score comparisons remain available across identities; they do not assign an ideology.
+
+The separate, unscored responses are preserved in `profile-audit/religion-assessments/1.json` with evidence and uncertainty for every published ideology/personality. Country eligibility is stored separately in `profile-audit/country-religion-assessments/1.json`, using Pew’s 2020 population estimates (published 2025). The 20% threshold is a matching policy, not a scientific boundary or an official-state-religion classification. The aggregate “other religions” category does not qualify a specific faith. Previous 240-answer archives remain unchanged; incompatible bank versions never match. Hindu nationalism has the Right tag and Narendra Modi as its selected representative (a manual reference, distinct from a numerical closest match).
+
+## Democracy–Autocracy wording revision (5–6 October 2026)
+
+The owner requested a representative-democracy reference around 65% Democracy,
+with stronger direct participation and public control further towards that pole.
+Axes 2.0.0 therefore describes this axis as “Public participation and accountable
+government versus concentrated decision-making power.” This is a broader,
+owner-defined construct, not a validated regime index or a claim that lawful
+representative delegation makes a country autocratic. No population remapping,
+new weights, nonlinear formula or numerical target is applied to any profile.
+Voter ID alone does not determine democratic placement: access, equal eligibility
+and practical opportunities to vote remain relevant.
+
+Bank 2.0.0 changes Democracy–Autocracy items 02, 04, 06, 08, 11 and 13. The new
+items cover independent specialist decisions, temporary emergency lawmaking
+subject to parliamentary rejection, citizen-triggered binding national law votes,
+leadership replacement between elections, policy implementation within existing
+law, and legally limited parliamentary emergency election postponement. Universal
+suffrage, competitive opposition, judicial review, removal for abuse, recall and
+unchecked rule remain covered. The original direction splits and inclusion
+priorities are preserved for all four lengths. Short and medium sets now include
+bounded delegation; the direct-initiative item first appears in long, with repeal
+and recall still comprehensive-only. Coverage differences between lengths remain
+a limitation. Scoring stays 2.0.0 because its implementation is unchanged.
+
+Every stored profile receives a focused immutable successor: only the six changed
+question records are reassessed, with the other 234 preserved verbatim. The six
+new responses are conservatively disclosed as educated assumptions using retained
+period-specific source dossiers and recorded supplemental primary references.
+This is not a fresh verification of every earlier citation or other axis. The
+separate review is a distinct same-agent pass; external peer review and empirical
+calibration are not claimed. Catalogue exclusions remain in force. See the
+[completion report](../profile-audit/reports/democracy-questions-2026-10-05/completion.md)
+for revisions, assumption IDs, source limits and actual checks.
+
+Saved bank 1.0.0/axes 1.0.0 results remain supported with their original scores
+and versions. They are not recalculated because raw answers were not retained,
+and compatible-version matching prevents comparison with the revised profiles.
+At that revision, current results used bank 2.0.0/axes 2.0.0. Axis names, the fourteen other definitions
+and scores, and the equal-axis comparison method remain unchanged.
+
+
+## Authority–Liberty revision, 6 October 2026
+
+Owner-authorised bank 3.0.0 revises Authority–Liberty records 01, 02, 03, 04, 07, 08, 11, 12 and 13. Four identical statements move within the axis: criticism of institutions and home-search warrants enter the short set, while personal drug choices and disruptive peaceful assembly remain in longer sets. Their responses follow the identical statement, rather than the old question ID. Five new statements cover bulk communications records from nonsuspects, compulsory identity carrying, movement restrictions without prompt independent challenge, personal searches without individual grounds outside emergencies, and permission to form peaceful civic associations. Metadata is not assumed to be communications content.
+
+The previous wording often measured acceptance of safeguarded crime prevention, threat-specific restrictions and road-safety enforcement. Those choices can coexist with civil liberties. This revision distinguishes broader control, with fair opposing claims and preserved varied coverage. It is not calibrated to preferred placements for American conservatives or any other political group. Support for warrants, policing or national identity-document possession does not by itself answer the revised broader permissions.
+
+The 8–8 comprehensive directions and nested 2–1, 3–2 and 5–4 splits are unchanged. Axes stay 2.0.0 and scoring stays 2.0.0; there are no new weights, cross-axis assumptions or remapping. All 209 existing subjects were recalculated: 105 personalities, 47 countries and 57 ideologies. The 208 focused successor assessments preserve the other 231 answer objects and fourteen scores. A concurrently completed full UK re-audit using this exact bank is retained unchanged, including its separately authorised wider reassessment. Exclusions remain in force.
+
+New exact responses and strengths in the focused assessments are educated assumptions, including retained-wording relocations. Retained subject dossiers, logged retrieval passages and selected supplementary sources provide context; this is not a fresh certification of every earlier citation. Failed or sparse retrievals, historical analogies and jurisdiction differences remain disclosed. Neutral is used for substantive competing commitments, not automatically for uncertainty, and Strongly agree/disagree describe response intensity rather than source confidence. No empirical reliability or population-calibration study has been performed.
+
+Saved bank 1.0.0/axes 1.0.0 , bank 2.0.0/axes 2.0.0 and bank 3.0.0/axes 2.0.0 results retain their original scores through loading, import and export. Current bank 4.0.0 profiles only match compatible results; old scores cannot be recalculated without raw answers. Immutable archives, images and religious evidence supplements are preserved.
+
+The complete profile links, revisions, question counts, assumption IDs, source-access limitations and verification results are in [the reassessment report](../profile-audit/reports/authority-liberty-2026-10-06/completion.md). The standalone [answer review](../frontend/public/profiles/authority-liberty-review.html) exposes the nine revised answers and their citations for every subject.
+
+## Second Authority–Liberty coverage revision
+
+On 6 October 2026 the owner authorised another focused reassessment after the
+previous revision made several ordinary democratic politicians appear too
+Liberty-focused. Bank 4.0.0 changes records 03, 07, 08, 11, 12 and 15. The previous
+bank overrepresented opposition to exceptional or unchecked powers. Opposition
+to those powers alone did not adequately distinguish broader personal freedom
+from acceptance of routine, legally limited restrictions.
+
+Four new statements concern vaccination conditions for shared spaces during a
+serious infectious outbreak, preventive movement restrictions with meaningful
+regular court review, temporary searches in a designated serious-threat area,
+and restrictions on nonviolent racial or religious hatred incitement. The
+existing firearms and home-warrant statements exchange places. Firearm rights
+therefore enter every length without acquiring extra comprehensive-quiz weight.
+All 16 comprehensive questions retain equal weight within their direction
+groups. Direction balance, nested selection, axes 2.0.0 and scoring 2.0.0 remain
+unchanged. Support for bounded safety restrictions moves towards Authority; it
+does not by itself indicate Autocracy, which is measured separately.
+
+All 209 existing profiles, including excluded records, receive complete focused
+revisions. The other 234 answer objects and fourteen other axis scores are
+preserved for each subject. The four new exact responses and both relocated
+responses are disclosed educated assumptions; retained subject-specific evidence,
+periods, counter-evidence and selected supplementary primary sources provide
+context. No profile receives a target score, party adjustment or gun-rights
+bonus. A pro-firearms position can coexist with support for other state powers.
+The review is a distinct same-agent review, not external peer certification or
+an empirical calibration study. Source-access and historical-analogy limitations
+remain explicit in the answer files and separate review.
+
+The complete batch and per-subject answer links are recorded in
+`profile-audit/reports/authority-liberty-policy-2026-10-06/`. Saved versions 1,
+2 and 3 retain their recorded scores. Current profile matching requires exact
+compatible versions; old results are not silently recalculated.
