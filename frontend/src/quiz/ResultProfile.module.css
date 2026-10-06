@@ -4,6 +4,7 @@
 .flagImage { object-fit: contain; object-position: center; }
 .savedOverview .matchImage { border-radius: 9px; }
 .comparison { width: 100%; margin-inline: auto; }
+.overview .comparison { --result-ink: var(--result-color, var(--catalogue-accent)); }
 .placeholderIcon { width: 76px; height: 76px; border: 1px dashed var(--border-strong); border-radius: 13px; background: var(--surface); display: grid; place-items: center; color: var(--accent); }
 .placeholderIcon svg { width: 32px; height: 32px; }
 .quote { margin-top: 40px; padding: 38px 42px; border-radius: 28px; display: grid; grid-template-columns: 58px minmax(0, 1fr); gap: 24px; background: var(--sage); color: var(--forest); }

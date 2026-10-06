@@ -1,0 +1,11 @@
+### Result
+{
+  "axes": 15,
+  "overflow": false,
+  "width": 390,
+  "portrait": 768
+}
+### Ran Playwright code
+```js
+await page.evaluate('() => ({axes:document.querySelectorAll("main article").length,overflow:document.documentElement.scrollWidth>innerWidth,width:innerWidth,portrait:[...document.querySelectorAll("main img")].find(i=>i.alt.includes("Shoebridge")).naturalWidth})');
+```

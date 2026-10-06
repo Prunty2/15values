@@ -1,0 +1,20 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test tests/catalogue.spec.ts --grep personality card has exactly
+
+[WebServer] (node:8206) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 3 tests using 3 workers
+
+(node:8209) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8208) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8207) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 [mobile] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags (220ms)
+  ✓  2 [desktop] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags (218ms)
+  ✓  1 [safari] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags (380ms)
+
+  3 passed (1.2s)

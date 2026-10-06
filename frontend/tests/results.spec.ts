@@ -256,3 +256,23 @@ test('long ideology names fit one line and short names stay larger', async ({ pa
     await expect.poll(() => card.locator('h2').evaluateAll(headings => { const sizes = Object.fromEntries(headings.map(heading => [heading.textContent, parseFloat(getComputedStyle(heading).fontSize)])); return sizes.Liberalism > sizes['Christian Accelerationism']; })).toBe(true);
   }
 });
+
+for (const theme of ['light', 'dark'] as const) {
+  test(`Alt-Lite comparison accents use Right blue in ${theme} mode`, async ({ page }) => {
+    await page.emulateMedia({ colorScheme: theme });
+    const profiles = parseCatalogue(JSON.parse(readFileSync('public/profiles/catalogue.v1.json', 'utf8')));
+    const profile = profiles.find(profile => profile.catalogue === 'ideology' && profile.id === 'alt-lite')!;
+    const rightResult: QuizResult = { ...result, length: 'comprehensive', scores: profile.scores };
+    await page.goto('./#/results');
+    await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'right.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([rightResult])) });
+    await page.getByRole('button', { name: 'View result', exact: true }).click();
+    const card = page.getByRole('region', { name: 'Result comparisons' }).first();
+    await expect(card.getByRole('link', { name: 'Alt-Lite', exact: true })).toBeVisible();
+    await expect.poll(() => card.evaluate(element => getComputedStyle(element).getPropertyValue('--result-ink').trim())).toBe('#385d85');
+    for (const badge of ['Closest ideology', 'Most compatible personality', 'Most compatible country']) {
+      await expect(card.getByText(badge, { exact: true })).toHaveCSS('background-color', 'rgb(56, 93, 133)');
+    }
+    for (const circle of await card.locator('circle[pathLength]').all()) await expect(circle).toHaveCSS('stroke', 'rgb(56, 93, 133)');
+    await expect(card.locator(':scope > div').first()).toHaveCSS('border-bottom-color', 'rgb(56, 93, 133)');
+  });
+}

@@ -1,0 +1,255 @@
+  ✓  208 [safari] › tests/quiz.spec.ts:159:1 › narrow results and invalid stored history stay usable without overwriting data (28.8s)
+  ✓  221 [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (38.7s)
+
+
+  1) [desktop] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+    Expected: "Head of government"
+    Received: "Dictator"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1) with timeout 5000ms
+      - waiting for getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+        14 × locator resolved to <li aria-label="Position: Dictator">Dictator</li>
+           - unexpected value "Dictator"
+
+
+      269 |   await expect(tags).toHaveCount(3);
+      270 |   await expect(tags.nth(0)).toHaveText('Calculated ideology');
+    > 271 |   await expect(tags.nth(1)).toHaveText('Head of government');
+          |                             ^
+      272 |   await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
+      273 | });
+      274 |
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/catalogue.spec.ts:271:29
+
+    Error Context: test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-2/traces/5b90a0c01c9c46f25e39-a744f9e82c9a3147e4c5-recording17.trace'
+
+    Error Context: test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-5/traces/a132eabdb3b06ca1336e-fddcb864f9bbef99998b-recording5.trace'
+
+    Error Context: test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+    Expected: "Head of government"
+    Received: "Dictator"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1) with timeout 5000ms
+      - waiting for getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+        14 × locator resolved to <li aria-label="Position: Dictator">Dictator</li>
+           - unexpected value "Dictator"
+
+
+      269 |   await expect(tags).toHaveCount(3);
+      270 |   await expect(tags.nth(0)).toHaveText('Calculated ideology');
+    > 271 |   await expect(tags.nth(1)).toHaveText('Head of government');
+          |                             ^
+      272 |   await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
+      273 | });
+      274 |
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/catalogue.spec.ts:271:29
+
+    Error Context: test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('#subject option')
+    Expected: 230
+    Received: 229
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('#subject option') with timeout 5000ms
+      - waiting for locator('#subject option')
+        3 × locator resolved to 0 elements
+          - unexpected value "0"
+        11 × locator resolved to 229 elements
+           - unexpected value "229"
+
+
+      59 |   await page.goto('./profiles/democracy-review.html');
+      60 |   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Review the revised Democracy–Autocracy answers');
+    > 61 |   await expect(page.locator('#subject option')).toHaveCount(catalogue.length);
+         |                                                 ^
+      62 |   await page.locator('#subject').selectOption('country/australia');
+      63 |   await expect(page.locator('#answers article')).toHaveCount(6);
+      64 |   await expect(page.locator('#status')).toContainText('240/240');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/democracy-migration.spec.ts:61:49
+
+    Error Context: test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  6) [mobile] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+    Expected: 183
+    Received: 182
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link') with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+        3 × locator resolved to 0 elements
+          - unexpected value "0"
+        10 × locator resolved to 182 elements
+           - unexpected value "182"
+
+
+      11 |   const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
+      12 |   const links = strip.getByRole('link');
+    > 13 |   await expect(links).toHaveCount(profiles.length);
+         |                       ^
+      14 |   await expect(strip.getByText('Placeholder', { exact: true })).toHaveCount(0);
+      15 |   // Read the whole strip once; hundreds of protocol round trips exceeded CI's timeout.
+      16 |   const cards = await links.evaluateAll(elements => elements.map(element => ({
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/home-strip.spec.ts:13:23
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/traces/54b763052b8b99b0d229-14a50a1d780c0156440e-recording3.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/traces/54b763052b8b99b0d229-14a50a1d780c0156440e-recording3-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/traces/54b763052b8b99b0d229-14a50a1d780c0156440e-recording2.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/traces/54b763052b8b99b0d229-14a50a1d780c0156440e-recording2-pwnetcopy-1.network'
+
+    attachment #1: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/home-strip-home-strip-uses-de6fb-o-both-types-of-detail-page-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/home-strip-home-strip-uses-de6fb-o-both-types-of-detail-page-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  7) [mobile] › tests/home-strip.spec.ts:57:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+    Expected: 183
+    Received: 2
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link') with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Explore ideologies and personalities' }).getByRole('link')
+        14 × locator resolved to 2 elements
+           - unexpected value "2"
+
+
+      60 |   const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
+      61 |   const track = strip.locator('[data-paused]');
+    > 62 |   await expect(strip.getByRole('link')).toHaveCount(profiles.length);
+         |                                         ^
+      63 |   const widths = await track.locator('ul').evaluateAll(groups => groups.map(group => group.getBoundingClientRect().width));
+      64 |   expect(widths[0]).toBeCloseTo(widths[1], 1);
+      65 |   expect(await track.evaluate(element => element.getBoundingClientRect().width)).toBeCloseTo(widths[0] * 2, 0);
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/home-strip.spec.ts:62:41
+
+    Error: apiRequestContext._wrapApiCall: ENOENT: no such file or directory, copyfile '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-9/traces/54b763052b8b99b0d229-d49d6a6998c168356bee-recording3.network' -> '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-9/traces/54b763052b8b99b0d229-d49d6a6998c168356bee-recording3-pwnetcopy-1.network'
+
+    Error: browserContext._wrapApiCall: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-9/traces/54b763052b8b99b0d229-d49d6a6998c168356bee-recording2.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-9/f559ff1ad8e3b4653088b441255d460a.zip'
+
+  8) [safari] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+
+    Error: expect(locator).toHaveText(expected) failed
+
+    Locator:  getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+    Expected: "Head of government"
+    Received: "Dictator"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveText" getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1) with timeout 5000ms
+      - waiting for getByRole('list', { name: 'Profile tags' }).getByRole('listitem').nth(1)
+        14 × locator resolved to <li aria-label="Position: Dictator">Dictator</li>
+           - unexpected value "Dictator"
+
+
+      269 |   await expect(tags).toHaveCount(3);
+      270 |   await expect(tags.nth(0)).toHaveText('Calculated ideology');
+    > 271 |   await expect(tags.nth(1)).toHaveText('Head of government');
+          |                             ^
+      272 |   await expect(tags.nth(2)).toHaveAttribute('aria-label', 'Best-known country: Russia');
+      273 | });
+      274 |
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/catalogue.spec.ts:271:29
+
+    Error Context: test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/catalogue-personality-card-eaa72-gy-position-and-origin-tags-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8 failed
+    [desktop] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+    [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+    [mobile] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores 
+    [mobile] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+    [mobile] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning 
+    [mobile] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page 
+    [mobile] › tests/home-strip.spec.ts:57:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction 
+    [safari] › tests/catalogue.spec.ts:260:1 › personality card has exactly ideology, position and origin tags 
+  2 skipped
+  212 passed (4.5m)

@@ -1,0 +1,28 @@
+
+> 15-values-quiz@0.0.0 build
+> npm run profiles:check && tsc --noEmit && vite build
+
+
+> 15-values-quiz@0.0.0 profiles:check
+> npm run profiles -- check
+
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts check
+
+286 profiles with placements; 0 withdrawn; check passed.
+vite v8.3.2 building client environment for production...
+transforming...
+✓ 59 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.90 kB │ gzip:   0.66 kB
+dist/assets/index-CWbdD2Zs.css  100.33 kB │ gzip:  19.16 kB
+dist/assets/index-C_Bn0wtE.js   518.50 kB │ gzip: 135.71 kB
+
+✓ built in 618ms
+[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.

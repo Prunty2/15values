@@ -1,0 +1,12 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test --project=safari --grep=landing section navigation moves focus --workers=1
+
+
+Running 1 test using 1 worker
+
+(node:79698) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [safari] › tests/platform.spec.ts:144:1 › landing section navigation moves focus and returns to the top on the same route (894ms)
+
+  1 passed (1.6s)

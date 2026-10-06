@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="Deutsche Biographie"/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="stylesheet" href="/css/reset.css"/>
+    <link rel="stylesheet" href="/webjars/bootstrap/5.3.8/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/leaflet.draw.css"/>
+    <link rel="stylesheet" href="/webjars/jquery-ui/1.14.2/jquery-ui.min.css"/>
+    <link rel="stylesheet" href="/css/idangerous.swiper.css"/>
+    <link rel="stylesheet" href="/css/leaflet.css"/>
+    <link rel="stylesheet" href="/css/magnific.css"/>
+    <link rel="stylesheet" href="/css/font-awesome-4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="/css/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="/css/wtree.css"/>
+    <link rel="stylesheet" href="/css/timeline.css"/>
+    <link rel="stylesheet" href="/css/print.css" media="print"/>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="/css/font-work-sans-200.css"/>
+    <link rel='shortcut icon' href="/favicon.ico"/>
+    <link rel="search" type="application/opensearchdescription+xml" title="NDB: Search" href="/opensearch.xml" />
+
+    
+    <link rel="canonical" href="https://www.deutsche-biographie.de/gnd118745700.html"/>
+    
+    
+
+    <title>Deutsche Biographie - Röhm, Ernst</title>
+    <meta name="dc.title" content="Röhm, Ernst - Deutsche Biographie"/>
+    
+    <meta name="dc.subject"
+          content="Röhm, Ernst , Metadaten, Linkverzeichnis, NDB, Neue Deutsche Biographie"/>
+    
+    
+    <meta name="dc.identifier" content="https://www.deutsche-biographie.de/gnd118745700.html"/>
+    
+    <meta name="dc.bibliographicCitation"
+          content="Menges, Franz, &quot;Röhm, Ernst Julius Günther&quot; in: Neue Deutsche Biographie 21 (2003), S. 713-715 [online version]; URL: https://www.deutsche-biographie.de/gnd118745700.html#ndbcontent"/>
+    
+    <meta name="dc.language" content="de"/>
+    <meta name="dc.creator" content="Deutsche Biographie"/>
+    <meta name="dc.publisher" content="Bayerische Staatsbibliothek"/>
+    <meta name="dc.description"
+          content="Biografische Information zu Röhm, Ernst, Biografienachweise, Quellen, Quellennachweise, Literatur, Literaturnachweise Portrait, Porträtnachweise, Objekte, Objektnachweise,    Verbindungen,    Orte , Röhm, Ernst; Röhm, Ernst Julius"/>
+    <meta name="dc.contributor"
+          content="Menges, Franz"/>
+    <meta name="dc.rights" content="https://www.deutsche-biographie.de/impressum"/>
+    <meta name="dc.created" content="06.10.2026"/>
+
+    <script src="/webjars/jquery/3.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="/webjars/jquery-ui/1.14.2/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/webjars/popper.js/2.11.7/umd/popper.min.js" type="text/javascript"></script>
+    <script src="/webjars/bootstrap/5.3.8/js/bootstrap.min.js"></script>
+    <script src="/js/vendor/leaflet.js"></script>
+    <script src="/js/vendor/leaflet.draw-src.js"></script>
+    <script src="/js/vendor/oms.min.js"></script>
+    <script src="/js/vendor/leaflet.awesome-markers.js"></script>
+    <script src="/js/vendor/leaflet.markercluster.js"></script>
+
+    <script src="/js/main.js"></script>
+    <script src="/js/map_commons.js"></script>
+    <script src="/js/facets.js"></script>
+    <script src="/js/geo.js"></script>
+    <script src="/js/group.js"></script>
+    <script src="/js/ndbDetailsInit.js"></script>
+</head>
+
+<body data-personid="sfz74641" data-orte="München@48.1372719,11.5754815@geburt;München@48.1372719,11.5754815@wirk;Rudolstadt@50.7205087,11.3399462@wirk;Langenzenn (Mittelfranken)@49.4929897427994,10.7937812462687@wirk;Neuendettelsau@49.2833095,10.7849543@wirk;Ingolstadt@48.7659636,11.4317222@wirk;Reichenau@47.69667455,9.0624419692787@wirk;Erlangen@49.598038,11.0037436@wirk;München@48.1372719,11.5754815@tod">
+
+
+    <div id="header-canvas" class="border-bottom">
+    <div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <div id="logo" class="navbar-brand">
+                <a
+                        href="/home">
+                    <span class="darkerBlue">Deutsche</span>
+                    <span class="lighterblue">Biographie</span>
+                </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="d-flex ms-auto" id="header-menu">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Search</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/" >Simple Search</a></li>
+                            <li><a class="dropdown-item" href="/extendedsearch">Advanced Search</a></li>
+                            <li><a class="dropdown-item" href="/searchByPlace">Mapsearch</a></li>
+                            <li><a class="dropdown-item" href="/searchBySpread">Geographical Distribution</a></li>
+                            <li><a class="dropdown-item" href="/alpha">Browse</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Project</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/ueber">About the Project</a></li>
+                            <li><a class="dropdown-item" href="/partner" >Partner</a></li>
+                            <li><a class="dropdown-item" href="/vernetzte_angebote">Linked Services</a></li>
+                            <li><a class="dropdown-item" href="/aktuelles">Notifications</a></li>
+                        </ul>
+                    </li>
+                    <li class="mx-2"><a class="nav-link active" href="hilfe">Help</a></li>
+                    <li class="mx-2"><a class="nav-link active no-tooltip" href="/sfz74641.html?language=de">Deutsch</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+    </div>
+
+
+<main>
+  <button onclick="topFunction()" id="backToTopBtn" title="Go to top">
+    <span class="fa fa-arrow-up"></span>
+  </button>
+  <div id="content" class="container">
+    
+    <ul class="nav nav-tabs justify-content-center mx-0" id="detailTab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="index-tab"
+                    data-bs-toggle="tab" data-bs-target="#index-tab-pane" dt="#indexcontent"
+                    type="button" role="tab">Overview</button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="ndb-tab"
+                    data-bs-toggle="tab" data-bs-target="#ndb-tab-pane" dt="#ndbcontent"
+                    type="button" role="tab" >
+                <abbr class="abbr" title="Neue Deutsche Biographie">NDB</abbr>&nbsp;
+                <span>21 (2003)</span>
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="contact-tab"
+                    data-bs-toggle="tab" data-bs-target="#adb-tab-pane" dt="#adbcontent"
+                    type="button" role="tab" disabled="disabled">
+                <abbr class="abbr" title="Allgemeine Deutsche Biographie">ADB</abbr>&nbsp;
+                
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link" id="disabled-tab"
+                    data-bs-toggle="tab" data-bs-target="#dbo-tab-pane" dt="#dbocontent"
+                    type="button" role="tab" disabled="disabled">
+              <abbr class="abbr" title="Neue Deutsche Biographie">NDB</abbr>-online
+            </button>
+        </li>
+    </ul>
+
+    
+    <div class="col-xs-12">
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="index-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+          
+
+<div class="row" id="indexcontent">
+    <!-- Navigation -->
+    <div class="navigationSidebar col-xs-12 col-md-2 mt-3">
+        
+    <ul class="nav flex-md-column justify-content-center nav-underline navigationSidebar mt-3">
+
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#indexcontent_Bio">Biographies</a>
+        </li>
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#indexcontent_Arc">Sources</a>
+        </li>
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#indexcontent_Lit">Literature</a>
+        </li>
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#indexcontent_Obj">Objects</a>
+        </li>
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#indexcontent_Por">Portraits</a>
+        </li>
+        
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#outbound-persons">Outbound Links</a>
+        </li>
+        <li>
+            <a class="nav-link openAccordion" href="#" data-bs-target="#inbound-link">Inbound Links</a>
+        </li>
+        <li><a class="nav-link" href="#indexcontent_orte">Places</a></li>
+        <li><a class="nav-link" href="#indexcontent_zitier">Citation</a></li>
+
+        <hr>
+        <li>
+            <a class="nav-link" href="/graph?id=sfz74641">
+                Network
+                <span class="fa fa-group"></span>
+            </a>
+        </li>
+    </ul>
+
+    </div>
+    <!-- Content -->
+    <div class="col-xs-12 col-md-10">
+        <h1>Röhm, Ernst</h1>
+
+        
+
+    
+    <dl class="row mt-5" id="personen-dl">
+
+        
+            <dt class="col-sm-3">Dates of Life</dt>
+            <dd class="col-sm-9">1887  –  1934</dd>
+        
+
+        
+            <dt class="col-sm-3">Place of birth</dt>
+            <dd class="col-sm-9">
+                <a href="/search?ortArt=geb&amp;ort=M%C3%BCnchen&amp;st=erw"
+                   title="Andere Personen mit Geburtsort München suchen">München</a>
+            </dd>
+        
+
+        
+            <dt class="col-sm-3">Place of death</dt>
+            <dd class="col-sm-9">
+                <a href="/search?ortArt=ste&amp;ort=M%C3%BCnchen&amp;st=erw"
+                   title="Andere Personen mit Sterbeort München suchen">München</a>
+            </dd>
+        
+
+        
+            <dt class="col-sm-3">Occupation</dt>
+            <dd class="col-sm-9">
+                
+                    
+                    <a href="/search?beruf=SA-F%C3%BChrer&amp;st=erw" title="Andere Personen mit Beruf SA-Führer suchen">SA-Führer</a>
+                
+                    <span>;</span>
+                    <a href="/search?beruf=Stabschef&amp;st=erw" title="Andere Personen mit Beruf Stabschef suchen">Stabschef</a>
+                
+                    <span>;</span>
+                    <a href="/search?beruf=Offizier&amp;st=erw" title="Andere Personen mit Beruf Offizier suchen">Offizier</a>
+                
+                    <span>;</span>
+                    <a href="/search?beruf=Politiker&amp;st=erw" title="Andere Personen mit Beruf Politiker suchen">Politiker</a>
+                
+                    <span>;</span>
+                    <a href="/search?beruf=Minister&amp;st=erw" title="Andere Personen mit Beruf Minister suchen">Minister</a>
+                
+            </dd>
+        
+
+        
+            <dt class="col-sm-3">Religious Denomination</dt>
+            <dd class="col-sm-9">keine Angabe</dd>
+        
+
+        
+
+            <dt class="col-sm-3">Authority Data</dt>
+            <dd class="col-sm-9">
+                
+                    <a href="https://d-nb.info/gnd/118745700"
+                       title="Normdatei"
+                       target="_blank">GND: 118745700</a>
+                    <span>|</span>
+                    <a href="https://explore.gnd.network/search?term=118745700"
+                       title="GND-Explorer"
+                       target="_blank">GND-Explorer</a>
+                    <span>|</span>
+                    <a href="http://swb.bsz-bw.de/DB=2.104/SET=1/TTL=1/CMD?ACT=SRCHA&amp;IKT=2999&amp;TRM=118745700"
+                       title="Die GND aus der Katalogisierungsdatenbank des Südwestdeutschen Bibliotheksverbundes"
+                       target="_blank">OGND</a>
+                    <span>|</span>
+                        <a href="http://viaf.org/viaf/36926323"
+                           title="Virtual International Authority File"
+                           target="_blank">VIAF</a>
+                    
+                    
+                
+            </dd>
+        
+
+        
+            <dt class="col-sm-3">Alternate Names</dt>
+            <dd class="col-sm-9">
+                
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button"  data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">Röhm, Ernst</button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                <ul>
+                    <li>Röhm, Ernst</li>
+                    <li>Röhm, Ernst Julius</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+            </dd>
+        
+
+
+    </dl>
+
+
+
+        
+
+    <h2 class="subHeading">Linked Services</h2>
+    <div class="accordion accordion-flush" id="index-accordion">
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#indexcontent_Bio">Biographical Dictionaries</button>
+            </h3>
+            <div id="indexcontent_Bio" class="accordion-collapse collapse show"
+                 data-bs-parent="#index-accordion">
+                <ul>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/nsdok_muc.php?pnd=118745700">
+                            Biografien im NS-Dokumentationszentrum München [2024-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.dhm.de/fileadmin/lemo/suche/search/?q=|Ernst Röhm&amp;f[]=seitentyp:Biografie">
+                            LeMO - Lebendiges Museum Online [1998] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.bavariathek.bayern/medien-themen/portale/geschichte-des-bayerischen-parlaments/person/118745700.html">
+                            Abgeordnete des Bayerischen Parlaments seit 1819 - Biogramme [2005-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://verbrannte-und-verbannte.de/person/gnd/118745700">
+                            Verbannte und Verbrannte. Die Liste der im Nationalsozialismus verbotenen Publikationen und Autoren.  [2013] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/filmportal.php?pnd=118745700">
+                            * Filmportal [2010-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/blo-lilla.php?pnd=118745700">
+                            * Personen im Bayerischen Verwaltungshandbuch (BLO) [2009-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.bundesarchiv.de/aktenreichskanzlei/1919-1933/0000/adr/getPPN/118745700/">
+                            * Akten der Reichskanzlei. Weimarer Republik online [2006-2007] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="#ndbcontent">
+                            * Neue Deutsche Biographie (NDB) [2003]  Autor/in: Menges, Franz (2003) 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.reichstag-abgeordnetendatenbank.de/select.html?pnd=118745700">
+                            * Datenbank der deutschen Parlamentsabgeordneten Basis: Parlamentsalmanache/Reichstagshandbücher 1867 - 1938 [1867-1938] 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#indexcontent_Arc">Archival Sources</button>
+            </h3>
+            <div id="indexcontent_Arc" class="accordion-collapse collapse show"
+                 data-bs-parent="#index-accordion">
+                <ul>
+                    <li  >
+                        <a target="_blank" href="http://kalliope-verbund.info/de/eac?eac.id=118745700">
+                            * Kalliope-Verbund
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.archivportal-d.de/person/gnd/118745700">
+                            Archivportal-D
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/kallias.php?pnd=118745700">
+                            * Deutsches Literaturarchiv Marbach - Kallías
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.fraktionsprotokolle.de/gnd/118745700">
+                            * Personen im Personenverzeichnis der Fraktionsprotokolle KGParl [1949-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://purl.org/pressemappe20/folder/pe/118745700">
+                            Pressemappe 20. Jahrhundert
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.faulhaber-edition.de/kurzbiografie.html?gnd=118745700">
+                            Kritische Online-Edition der Tagebücher Michael Kardinal von Faulhabers (1911–1952)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/iegego.php?pnd=118745700">
+                            EGO European History Online
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.reichstag-abgeordnetendatenbank.de/select.html?pnd=118745700">
+                            * Datenbank der deutschen Parlamentsabgeordneten Basis: Parlamentsalmanache/Reichstagshandbücher 1867 - 1938 [1867-1938] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/histlexbay.php?pnd=118745700">
+                            * Historisches Lexikon Bayerns
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.bayerischer-ministerrat.de/api/gnd/118745700">
+                            * Protokolle des Bayerischen Ministerrats 1945-1954
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/simplicis.php?pnd=118745700">
+                            Personenliste &quot;Simplicissimus&quot; 1896 bis 1944 (Online-Edition)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#indexcontent_Lit">Literature</button>
+            </h3>
+            <div id="indexcontent_Lit" class="accordion-collapse collapse show"
+                 data-bs-parent="#index-accordion">
+                <ul>
+                    <li  >
+                        <a target="_blank" href="http://www.gateway-bayern.de/opensearch?rfr_id=LinkedOpenData%3ABeacon&amp;rft.au=%28DE-588%29118745700">
+                            Katalog des Bibliotheksverbundes Bayern (BVB)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://opacplus.bsb-muenchen.de/discovery/search?vid=49BVB_BSB:VU1&amp;query=any,contains,118745700">
+                            * Katalog der Bayerischen Staatsbibliothek München (BSB)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.deutsche-digitale-bibliothek.de/person/gnd/118745700">
+                            Deutsche Digitale Bibliothek
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.archivportal-d.de/person/gnd/118745700">
+                            Archivportal - D
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://swb.bsz-bw.de/DB=2.114/CMD?ACT=SRCHA&amp;IKT=2011&amp;TRM=gnd:118745700&amp;REC=2">
+                            Normdateneintrag des Südwestdeutschen Bibliotheksverbundes (SWB)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/kallias.php?pnd=118745700">
+                            * Deutsches Literaturarchiv Marbach - Kallías
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://search.obvsg.at/primo-explore/search?query=any,contains,118745700&amp;tab=default_tab&amp;search_scope=OBV_Gesamt&amp;vid=OBV&amp;offset=0">
+                            Österreichischer Bibliothekenverbund (OBV)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://resolver.hebis.de/wikimedia/pndresolver/118745700">
+                             Gemeinsamer Verbundkatalog (GBV)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/bavarikon.php?pnd=118745700">
+                            * Personen in Bavarikon [2013-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="#ndbcontent_literatur">
+                            * Literaturnachweis in der Neuen Deutschen Biographie (NDB)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="#ndbcontent_werke">
+                            * Werknachweis in der Neuen Deutschen Biographie (NDB)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://opac.ifz-muenchen.de/webOPACClient.ifzsis/start.do?Login=woifz&amp;Query=100=%22*118745700%22%20OR%20902=%22*118745700%22">
+                            * Bibliothek des Instituts für Zeitgeschichte München - Berlin
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://ixtheo.de/Search/Results?lookfor=118745700&amp;Type=GND">
+                            Index Theologicus (IxTheo)
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.jdg-online.de/api/beacon/118745700">
+                            * Jahresberichte für deutsche Geschichte - Online
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/blo-lilla.php?pnd=118745700">
+                            * Personen im Bayerischen Verwaltungshandbuch (BLO) [2009-] 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#indexcontent_Obj">Objects/Works</button>
+            </h3>
+            <div id="indexcontent_Obj" class="accordion-collapse collapse show"
+                 data-bs-parent="#index-accordion">
+                <ul>
+                    <li  >
+                        <a target="_blank" href="https://www.archivportal-d.de/person/gnd/118745700">
+                            Archivportal-D
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://purl.org/pressemappe20/folder/pe/118745700">
+                            Pressemappe 20. Jahrhundert
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#indexcontent_Por">Portraits</button>
+            </h3>
+            <div id="indexcontent_Por" class="accordion-collapse collapse show"
+                 data-bs-parent="#index-accordion">
+                <ul>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/filmportal.php?pnd=118745700">
+                            * Filmportal [2010-] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://stadtmuseum.bayerische-landesbibliothek-online.de/pnd/118745700">
+                            Porträtsammlung des Münchner Stadtmuseums
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="https://www.dhm.de/fileadmin/lemo/suche/search/?q=|Ernst Röhm&amp;f[]=seitentyp:Biografie">
+                            LeMO - Lebendiges Museum Online [1998] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.reichstag-abgeordnetendatenbank.de/select.html?pnd=118745700">
+                            * Datenbank der deutschen Parlamentsabgeordneten Basis: Parlamentsalmanache/Reichstagshandbücher 1867 - 1938 [1867-1938] 
+                        </a>
+                    </li>
+                    <li  >
+                        <a target="_blank" href="http://www.historische-kommission-muenchen-editionen.de/beacond/barch-bild.php?pnd=118745700">
+                            * Bildarchiv im Bundesarchiv
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        
+    <h2 class="subHeading">Relations</h2>
+
+    <div class="accordion accordion-flush" id="verknuepfungen-accordion">
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#outbound-persons" >Outbound Links from this Person</button>
+            </h3>
+            <div id="outbound-persons" class="accordion-collapse collapse" data-bs-parent="#verknuepfungen-accordion">
+                <div>
+                    <h5 >Genealogical Section (NDB)</h5>
+                    <ul>
+                        <li>
+                            <a href="sfz106307.html">Röhm, Friedrich Wilhelm Bernhard</a>
+                        </li>
+                        <li>
+                            <a href="sfz106308.html">Röhm, Guido Julius Josef</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h5 >Life description (NDB)</h5>
+                    <ul>
+                        <li>
+                            <a href="dbo068748.html">Adolf Hitler</a>
+                        </li>
+                        <li>
+                            <a href="sfz20670.html">Gerlich, Fritz</a>
+                        </li>
+                        <li>
+                            <a href="sfz21422.html">Göring, Hermann</a>
+                        </li>
+                        <li>
+                            <a href="sfz32095.html">Heydrich, Reinhard</a>
+                        </li>
+                        <li>
+                            <a href="sfz32421.html">Himmler, Heinrich</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                
+                
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#inbound-link" >Inbound Links to this Person</button>
+            </h3>
+            <div id="inbound-link" class="accordion-collapse collapse" data-bs-parent="#verknuepfungen-accordion">
+                <ul>
+                    <li>
+                        <a href="./sfz32421.html#ndbcontent_sfz74641">
+                            NDB 9 (1972), S. 172 (Himmler, Heinrich)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sfz32645.html#ndbcontent_sfz74641">
+                            NDB 9 (1972), S. 257 (Hitler, Adolf)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sfz59614.html#ndbcontent_sfz74641">
+                            NDB 16 (1990), S. 564 (Mayr, Karl)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sfz74394.html#ndbcontent_sfz74641">
+                            NDB 19 (1999), S. 741 in Artikel Pabst (Pabst, Ernst Julius Waldemar)
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="./sfz109847.html#ndbcontent_sfz74641">
+                            NDB 22 (2005), S. 392 in Artikel Salomon (Salomon, Ernst Friedrich Karl von)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./sfz115562.html#ndbcontent_sfz74641">
+                            NDB 23 (2007), S. 433 (Schoeps, Hans-Joachim)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://mdz-nbn-resolving.de/bsb00085894?page=506">
+                            NDB 25 (2013), S. 479 in Artikel Straßer
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="accordion-item">
+            <h3 class="accordion-header">
+                <button class="accordion-button collapsed sub-heading-accordion" type="button" data-bs-toggle="collapse" data-bs-target="#weitere">Additional Occurrences (NDB-online/NDB/ADB)</button>
+            </h3>
+            <div id="weitere" class="accordion-collapse collapse" data-bs-parent="#verknuepfungen-accordion">
+                <ul>
+                    <li>
+                        <a href="dbo009035.html">Beck, Fritz (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dbo009764.html">Bell, Georg (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dbo036122.html">Eicke, Theodor (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dbo054145-5.html">Giesler, Paul (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dbo064477.html">Heines, Edmund (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dbo068748.html">Hitler, Adolf (NDB-online)</a>
+                    </li>
+                    <li>
+                        <a href="dboR6680.html">Roßbach, Gerhard (NDB-online)</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+        
+    <div class="artikel row">
+
+        <h2 id="indexcontent_orte" class="anchor subHeading">Places</h2>
+
+        <div id="map" class="detail-map"></div>
+        <div class="mapLegend">
+            <h5>Map Icons</h5>
+
+            <div class="legendItem">
+                <img src="/img/marker-geburtsort.png" alt="Marker Geburtsort"/>
+                <span>Place of birth</span>
+            </div>
+            <div class="legendItem">
+                <img src="/img/marker-wirkungsort.png" alt="Marker Wirkungsort"/>
+                <span>Place of activity</span>
+            </div>
+            <div class="legendItem">
+                <img src="/img/marker-sterbeort.png" alt="Marker Sterbeort"/>
+                <span>Place of death</span>
+            </div>
+            <div class="legendItem">
+                <img src="/img/marker-grabort.png" alt="Marker Begräbnisort"/>
+                <span>Place of interment</span>
+            </div>
+        </div>
+
+        <div class="col-xs-12">
+            <p class="smaller">Localized places could be overlay each other depending on the zoo m level. In this case the shadow of the symbol is darker and the individual place symbols will fold up by clicking upon. A click on an individual place symbol opens a popup providing a link to search for other references to this place in the database.</p>
+        </div>
+    </div>
+
+
+        
+    <div class="artikel row">
+        <h4 id="indexcontent_zitier" class="anchor subHeading">
+            Citation
+        </h4>
+
+        <p>
+            Röhm, Ernst, Index entry in: Deutsche Biographie, https://www.deutsche-biographie.de/gnd118745700.html#indexcontent [06.10.2026].
+        </p>
+        <p>
+            <a class="rights" href="https://creativecommons.org/publicdomain/zero/1.0/" target="_blank"
+               title="Metadaten und Linkverzeichnis unter CC0">
+                <img alt="CC0" src="/img/cc-zero.png">
+            </a>
+        </p>
+    </div>
+
+    </div>
+</div>
+
+
+        </div>
+        <div class="tab-pane fade" id="ndb-tab-pane" role="tabpanel" aria-labelledby="index-tab" tabindex="0">
+          
+    <div class="row" id="ndbcontent">
+        <!-- Navigation -->
+        <div class="navigationSidebar col-xs-12 col-md-2">
+            
+    <ul class="nav flex-md-column justify-content-center nav-underline navigationSidebar mt-3">
+        <li class="nav-item active" role="presentation">
+            <a class="nav-link"href="#ndbcontent_genealogie">Genealogy</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link"href="#ndbcontent_leben">Biography</a>
+        </li>
+        
+        <li class="nav-item" role="presentation">
+            <a class="nav-link"href="#ndbcontent_werke">Works</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link"href="#ndbcontent_literatur">Literature</a>
+        </li>
+        
+        <li class="nav-item" role="presentation">
+            <a class="nav-link"href="#ndbcontent_autor">Author</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link"href="#ndbcontent_zitierweise">Citation</a>
+        </li>
+
+        <hr>
+        <!-- Netwerk -->
+        <li class="nav-item">
+            <a class="nav-link"href="/graph?id=sfz74641">
+                Network
+                <span class="fa fa-group"></span>
+            </a>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link"href="/downloadRDF?url=sfz74641.rdf">
+                <i class="fa fa-share-alt"></i> RDF</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="/downloadPDF?url=sfz74641.pdf">
+                <i class="fa fa-file-pdf-o"></i>
+                &nbsp;Print version
+            </a>
+        </li><hr/>
+        <li>
+            Source in print
+        </li>
+        <li class="nav-item" title="NDB 21 (2003), S. 713-715">
+            <a class="nav-link" href="https://mdz-nbn-resolving.de/bsb00016339?page=727">
+                <i class="fa fa-file-text-o"></i>
+                Digital Image
+            </a>
+        </li>
+        
+    <!--div class="col-xs-12 detailPagination">-->
+        <li class="nav-item">
+        <a class="nav-link" href="sfz97699.html#ndbcontent">
+            <i class="fa fa-arrow-left"></i>
+            <!--th:block th:text="${prev.name}"/-->
+            Previous article
+        </a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="sfz106312.html#ndbcontent">
+            <!--th:block th:text="${next.name}"/-->
+            <i class="fa fa-arrow-right"></i>
+            Next article     
+        </a>
+    </li>
+    <!-- </div>-->
+
+
+    </ul>
+
+        </div>
+        <!-- Content -->
+        <div class="col-xs-12 col-md-10">
+
+            <ul class="bioartikel">
+                <li>
+                    <h1><p></p><h1 class='persName'><span class='bold'>Röhm</span>, <span class='italics'>Ernst</span> Julius Günther</h1><p>
+ <abbr title='Nationalsozialismus'>NS</abbr>-Politiker, Stabschef der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>, <abbr title='geboren'>*</abbr> 28.11.1887 München, <abbr title='gestorben'>†</abbr> (ermordet) 1.7.1934  München. (evangelisch)</p></h1>
+                </li>
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_genealogie">
+                        Genealogy
+                    </h4>
+                    <p class='small'><span class='abbr' title='Vater'><span class='italics'>V</span></span> <a id="ndbcontent_sfz106308" href="sfz106308.html">Guido Julius Josef (1847–1926)</a>, Eisenbahnoberinsp. in <span class='abbr' title='München'>M.</span>, <span class='abbr' title='Sohn'><span class='italics'>S</span></span> d. <a id="ndbcontent_sfz106307" href="sfz106307.html">Friedrich Wilhelm Bernhard (1824–97)</a>, aus Rudolstadt <span class='abbr' title='(Thüringen)'>(Thür.)</span>, Gutsförster in Langenzenn (Mittelfranken), dann in Neuendettelsau, u. d.
+Meta Johanna Weigel (1827–1900);
+<br/> <span class='abbr' title='Mutter'><span class='italics'>M</span></span>
+Sofia Emilie Baltheiser (<abbr title='geboren'>*</abbr> 1857);
+<br/><span class='abbr' title='Urgroßvater väterlicherseits'><span class='italics'>Ur-Gvv</span></span> Christian Erdmann, Reg.advokat in Rudolstadt;
+<br/> <span class='abbr' title='Onkel väterlicherseits'><span class='italics'>Ov</span></span> Siegmund, <span class='abbr' title='bayerisch'>bayer.</span> <span class='abbr' title='Offizier'>Offz.</span>;
+<br/><span class='abbr' title='Schwester(n)'><span class='italics'>Schw</span></span>
+Meta Eleonore Sofie (<abbr title='verheiratet'>⚭</abbr> Adolf Lippert, Hofrat, Forstrat); – ledig.</p>
+                </li>
+
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_leben">
+                        Biography
+                    </h4>
+                    
+                    <p>Nach dem Besuch des Max-Gymnasiums in München trat <span class='abbr' title='Röhm'>R.</span>, der die Offizierslaufbahn anstrebte, 1906 als Fahnenjunker in
+Ingolstadt in das 10. <span class='abbr' title='Bayerisch'>Bayer.</span> Infanterie-<span class='abbr' title='Regiment'>Rgt.</span> ein (1908 <span class='abbr' title='Leutnant'>Lt.</span>). Im 1. Weltkrieg an der Westfront (1917 <span class='abbr' title='Hauptmann'>Hptm.</span>, seit Frühjahr 1918 im Gen.stab d. 12. <span class='abbr' title='Bayerisch'>Bayer.</span> Infantrie-<span class='abbr' title='Regiment'>Rgt.</span>), wurde er mehrmals (<span class='abbr' title='unter anderem, und andere'>u. a.</span> im Gesicht) schwer verwundet. Nach dem Krieg kämpfte der überzeugte Monarchist im Freikorps Epp gegen die Münchner Räterepublik, im Juli 1919 wurde er in die Reichswehr übernommen. Damals lernte er Adolf Hitler kennen, dem er sich anschloß und den er seither förderte, indem er ihm Zugang zu Militärs und Politikern verschaffte, 1921 für ihn die Sturmabteilung (<abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>) als parteieigenen Ordnungsdienst aufbaute und als Verbindungsmann zwischen Reichswehr und NSDAP fungierte. <span class='abbr' title='Röhm'>R.</span> war als Stabsoffizier in der 7. (<span class='abbr' title='bayerisch'>bayer.</span>) Reichswehrdivision für die Erfassung von Waffen der demobilisierten Truppenteile verantwortlich. Entgegen den Bestimmungen des Versailler Vertrags legte er geheime Waffendepots an, aus denen die <span class='abbr' title='bayerisch'>bayer.</span> Einwohnerwehren und andere paramilitärische Organisationen versorgt wurden. 1923 förderte <span class='abbr' title='Röhm'>R.</span>, der im September seinen Dienst bei der Reichswehr quittierte, den Zusammenschluß der wichtigsten <span class='abbr' title='bayerisch'>bayer.</span> Wehrverbände einschließlich der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> zur „Arbeitsgemeinschaft vaterländischer Verbände“ <span class='abbr' title='beziehungsweise'>bzw.</span> zum „<span class='abbr' title='Deutsch'>Dt.</span> Kampfbund“. Wegen seiner Beteiligung am Hitlerputsch im <span class='abbr' title='November'>Nov.</span> 1923 (Besetzung d. Wehrkreiskommandos mit seinem Wehrverband „Reichskriegsflagge“) wurde er zu 15 Monaten Festungshaft verurteilt. Nach fünf Monaten Untersuchungshaft am 1.4.1924 auf Bewährung entlassen, widmete sich <span class='abbr' title='Röhm'>R.</span> wieder dem Aufbau der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>, aber auch der NSDAP, die er (als Nat.<span class='abbr' title='sozial'>soz.</span> Freiheitspartei) 1924 und 1933/34 im Reichstag vertrat. Als Dachorganisation der völkischen Wehrverbände gründete er den „Frontbann“, den er formell
+Hitler unterstellen, aber doch selbst führen wollte. Als
+Hitler dem nicht zustimmte, trat <span class='abbr' title='Röhm'>R.</span> am 1.5.1925 zurück. Ohne geregelte Beschäftigung und in eine Reihe von homosexuellen Affären verstrickt, nahm er 1928 das Angebot an, die bolivian. Armee zu reorganisieren. Die <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> entwickelte sich inzwischen zu einem Sammelbecken ehemaliger Frontkämpfer und sozial Gestrandeter, die mit
+Hitlers Legalitätskurs unzufrieden waren.
+Hitler beauftragte daher <span class='abbr' title='Röhm'>R.</span>, in der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> Ruhe und Disziplin herzustellen, und ernannte ihn am 5.1.1931 zum „Obersten Stabschef“ der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>. <span class='abbr' title='Röhm'>R.</span> erwies sich als hervorragender Organisator, der die <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> nach seinem Ideal eines politischen Soldatentums zu einer Partei-Armee von fast 500 000 Mann und einem Hort einer „permanenten Revolution“ aufbaute. Sie spielte bei
+Hitlers Aufstieg zur Macht 1930-33 eine bedeutende Rolle, indem sie die Straße eroberte und die politischen Gegner einschüchterte. Nach der „Machtergreifung“ erwartete die <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> als Lohn hierfür einen größeren politischen Einfluß; die Ernennung <span class='abbr' title='Röhm'>R.</span>s, der von einem Duumvirat mit
+Hitler träumte, im März 1933 zum <span class='abbr' title='bayerisch'>bayer.</span> Staatskommissar und Staatssekretär und im Dezember zum Reichsminister ohne Geschäftsbereich wurde als nicht ausreichend betrachtet. Die Disziplinierung der enttäuschten <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> drohte endgültig zu scheitern, zumal <span class='abbr' title='Röhm'>R.</span> offen zur Fortsetzung der nationalsozialistischen <span class='abbr' title='beziehungsweise'>bzw.</span> zu einer „Zweiten“ Revolution und zur Schaffung einer Volksmiliz aufrief. Am 30.6.1934 wurde <span class='abbr' title='Röhm'>R.</span> während eines Erholungsaufenthalts in Bad Wiessee auf Befehl
+Hitlers wegen angeblichen Hochverrats und sittlicher Verfehlungen verhaftet, in das Gefängnis Stadelheim nach
+München gebracht und mit anderen <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>-Führern unter dem Vorwand des Reichsnotstands erschossen, nachdem er sich geweigert hatte, Selbstmord zu begehen. Ca. 2000 <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>-Führer wurden disziplinarisch bestraft, insgesamt wurden 87 Personen ermordet (<span class='abbr' title='unter anderem, und andere'>u. a.</span>
+Gregor Straßer,
+Kurt <span class='abbr' title='von'>v.</span> Schleicher u. seine Frau,
+Edgar Jung,
+Herbert <span class='abbr' title='von'>v.</span> Bose,
+Erich Klausner,
+Ferdinand <span class='abbr' title='von'>v.</span> Bredow,
+Gustav <span class='abbr' title='von'>v.</span> Kahr,
+<a id="ndbcontent_sfz20670" href="sfz20670.html">Fritz Gerlich</a>). Der Reichstag sanktionierte die Morde durch das Rechtfertigungsgesetz vom 3.7.1934. Hinter dem Gerücht eines bevorstehenden Putsches stand <span class='abbr' title='vor allem, vor allen'>v. a.</span> die <abbr title='Schutzstaffel der NSDAP'>SS</abbr> (<a id="ndbcontent_sfz32095" href="sfz32095.html">Reinhard Heydrich</a> u.
+<a id="ndbcontent_sfz32421" href="sfz32421.html">Heinrich Himmler</a>), die die Gelegenheit ergriff, die <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> aus ihrer führenden Rolle zu verdrängen, außerdem innerparteiliche Gegner <span class='abbr' title='Röhm'>R.</span>s (<span class='abbr' title='vor allem, vor allen'>v. a.</span> <a id="ndbcontent_sfz21422" href="sfz21422.html">Hermann Göring</a>), die dessen Machtstreben und Lebenswandel kritisierten. Auch die Reichswehr (Werner <span class='abbr' title='von'>v.</span> Blomberg,
+Walther <span class='abbr' title='von'>v.</span> Reichenau), die nach <span class='abbr' title='Röhm'>R.</span>s Vorstellungen mit der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> zu einer Volksmiliz verschmolzen werden sollte, und das durch die Ausschreitungen der <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> verschreckte Bürgertum förderten <span class='abbr' title='beziehungsweise'>bzw.</span> billigten die „Vereitelung“ des „Röhm-Putsches“. Außerdem war dies für
+Hitler eine Gelegenheit, sich eines innerparteilichen Rivalen und einer zu mächtig gewordenen <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> sowie anderer unliebsamer Gegner zu entledigen und sein Ideal des „Führer-Staates“ zu verwirklichen.</p>
+                </li>
+
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_werke">
+                        <span>Works</span>
+                    </h4>
+                    <p class='small'>
+Die <span class='abbr' title='Geschichte'>Gesch.</span> e. Hochverräters, 1928, ³1933 (<span class='abbr' title='Nachdruck'>Nachdr.</span> 1983).</p>
+                </li>
+
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_literatur">
+                        <span>Literature</span>
+                    </h4>
+                    <p class='small'>
+O. Strasser, Die <span class='abbr' title='deutsch'>dt.</span> Bartholomäusnacht, 1935, ⁷1938;
+<br/>H. Mau, Die „zweite <span class='abbr' title='Revolution'>Rev.</span>“, der 30. Juni 1934, in: <a  href="http://www.ndb.badw.de/ndb_kurztitel.htm#VfZ">VfZ</a> 2, 1953;
+<br/>H. Bennecke, Hitler u. d. <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>, 1962;
+<br/>A. Werner, <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> u. NSDAP, <span class='abbr' title='Dissertation'>Diss.</span> Erlangen 1964;
+<br/>C. Bloch, Die <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> u. d. Krise d. <abbr title='Nationalsozialismus'>NS</abbr>-Regimes
+<span title='Seite im Original 715' class='pb'>|</span>1934, 1970;
+<br/>M. Gallo, La nuit des longs couteaux, 30. juin 1934, 1970;
+<br/>G. Hirschfeld u. L. Kettenacker, Der Führerstaat, 1981;
+<br/>J. Mabire, <span class='abbr' title='Röhm'>R.</span>, L'homme qui inventa Hitler, 1983 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>, <span class='abbr' title='populärwissenschaftlich'>populärwiss.</span>)</span>;
+<br/>H. Höhne, Mordsache Röhm, Hitlers Durchbruch zur Alleinherrschaft 1933-1934, 1984 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>)</span>;
+<br/>N. Frei, Ein Putsch, der keiner war, 30. Juni 1934 – die Wende zum Führerstaat, in: <a  href="http://www.ndb.badw.de/ndb_kurztitel.htm#SZ">SZ</a> <span class='abbr' title='von'>v.</span> 30.6.1984 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>)</span>;
+<br/>P. Longerich, Die braunen Bataillone, <span class='abbr' title='Geschichte'>Gesch.</span> d. <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>, 1989 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>)</span>;
+<br/>Conan Fischer, in: Die braune Elite, <span class='abbr' title='herausgegeben'>hg.</span> <span class='abbr' title='von'>v.</span> <span class='abbr' title='Röhm'>R.</span> Smelser u. <span class='abbr' title='Röhm'>R.</span> Zitelraann, 1989, S. 212-22 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>)</span>;
+<br/>J. Philippon, La nuit des longs couteaux, Histoire d'une intox, 1992;
+<br/>O. Gritschneder, „Der Führer hat Sie zum Tode verurteilt …“, Hitlers „Röhm-Putsch“-Morde vor Gericht, 1993;
+<br/>I. <span class='abbr' title='von'>v.</span> Fallois, Kalkül u. Illusion, Der Machtkampf <span class='abbr' title='zwischen'>zw.</span> Reichswehr u. <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr> während d. Röhm-Krise 1934, 1994;
+<br/>A. Dornheim, <span class='abbr' title='Röhm'>R.</span>s Mann fürs Ausland, <span class='abbr' title='Politik, Politiker(in)'>Pol.</span> u. Ermordung d. <abbr title='Sturmabteilung (der NSDAP)'>SA</abbr>-Agenten Georg Bell, 1998;
+<br/>R. Wistrich, Wer war wer im Dritten Reich, 1983 <span class='italics'>(<span class='abbr' title='Porträt'>P</span>)</span>;
+<br/>H. Weiß, <span class='abbr' title='Biographisches Lexikon'>Biogr. Lex.</span> <span class='abbr' title='zu, zum, zur'>z.</span> Weimarer <span class='abbr' title='Republik'>Rep.</span>, <span class='abbr' title='herausgegeben'>hg.</span> <span class='abbr' title='von'>v.</span> W. Benz u. H. Graml, 1988;
+<br/><span class='abbr' title='Enzyklopädie'>Enz.</span> d. <abbr title='Nationalsozialismus'>NS</abbr>, <span class='abbr' title='herausgegeben'>hg.</span> <span class='abbr' title='von'>v.</span> W. Benz <span class='abbr' title='unter anderem, und andere'>u. a.</span>, 1997.</p>
+                </li>
+
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_autor">
+                        Author
+                    </h4>
+                    <a href="search?st=erw&amp;autor=Franz Menges">
+                        Franz Menges
+                    </a>
+                    
+                </li>
+
+                
+
+                <li class="artikel">
+                    <h4 class="anchor subHeading" id="ndbcontent_zitierweise">
+                        Citation
+                    </h4>
+                    <p>
+                        Menges, Franz, &quot;Röhm, Ernst Julius Günther&quot; in: Neue Deutsche Biographie 21 (2003), S. 713-715 [online version]; URL: https://www.deutsche-biographie.de/gnd118745700.html#ndbcontent
+                    </p>
+                    <p>
+                        <a class="rights" href="https://creativecommons.org/licenses/by-nc-nd/4.0" target="_blank"
+                           title="Artikel der Neuen Deutschen Biographie unter CC-BY-NC-ND">
+                            <img alt="CC-BY-NC-SA" src="/img/by-nc-nd.eu.png">
+                        </a>
+                        <span class="Z3988" title="ctx_ver=Z39.88-2004&amp;amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;amp;rft.au=Menges, Franz&amp;amp;rft.btitle=Neue Deutsche Biographie, Band 21&amp;amp;rft.date=2003&amp;amp;rft.genre=article&amp;amp;rft.pages=713-715&amp;amp;rft.atitle=Röhm, Ernst Julius Günther&amp;amp;rft_id=https://www.deutsche-biographie.de/gnd118745700.html#ndbcontent"></span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+        </div>
+        
+        
+      </div>
+    </div>
+
+  </div>
+</main>
+
+<div class="container footer">
+    <footer>
+      <p class="text-center">Deutsche Biographie ·
+        <a href="/impressum">Legal Notice</a> ·
+        <a href="/privacy">Privacy</a> ·
+        <a href="/accessibility">Accessibility</a></p>
+    </footer>
+  </div>
+
+
+
+<script>
+    /*<![CDATA[*/
+
+    glMsgs = {
+        aktivierungErforderlich : "Activate Mapsearch",
+        aktivierungWeiterInfos : "<a href=\"privacy\">more<\/a>",
+        aktivieren : "Mapsearch",
+                aktiv : "active",
+            zoomInTitle : "Zoom in",
+            zoomOutTitle : "Zoom out",
+            allsuchTitle : "Map Search: All Places",
+            gebsuchTitle : "Map Search: Places of birth",
+            wirksuchTitle : "Map Search: Places of activity",
+            sterbsuchTitle : "Map Search: Places of death",
+            grabsuchTitle : "Map Search: Places of interment",
+            sterbeort : "Place of death",
+            geburtsort : "Place of birth",
+            grabort : "Place of interment",
+            ortImText : "Place of activity",
+        startsuchTitle : "Start Map Search",
+        cookiemessage : "<b>Cookies:<\/b> We use cookies to ensure that we give you the best experience on our website.",
+        cookiepolicy : "Find out more",
+        mapInfoStart : "On the map displayed on the homepage, one or more rectangular areas can be chosen as desired (e.g. by using the rectangular symbol on the top left or by double clicking), which contain(s) all persons with a location entry in this area. A polygon selection is abandoned by clicking on the starting point.<br \/>By selecting an event symbol, persons with a matching location in a rectangular area can be chosen. Multiple selection is possible, resulting in an AND relation. Following an initial search, the search can be further limited on the result page by selecting a rectangular area on the map next to the hit list. The places of birth, death and interment from the headers of the NDB articles have been localized. The places of activity have been ascertained by means of computer-linguistic analysis of the NDB article texts, the geographic coordinates merely having been adopted from the headers. Among the location indications for all other entries, those with geographic coordinates come from the GND. Due to the different reference bases, it may occur that the hits for one location cannot be consolidated reliably without fail.",
+        mapInfoResult : "On the map displayed on the homepage, one or more rectangular areas can be chosen as desired (e.g. by using the rectangular symbol on the top left or by double clicking), which contain(s) all persons with a location entry in this area. A polygon selection is abandoned by clicking on the starting point.<br \/>By selecting an event symbol, persons with a matching location in a rectangular area can be chosen. Multiple selection is possible, resulting in an AND relation. Following an initial search, the search can be further limited on the result page by selecting a rectangular area on the map next to the hit list. The places of birth, death and interment from the headers of the NDB articles have been localized. The places of activity have been ascertained by means of computer-linguistic analysis of the NDB article texts, the geographic coordinates merely having been adopted from the headers. Among the location indications for all other entries, those with geographic coordinates come from the GND. Due to the different reference bases, it may occur that the hits for one location cannot be consolidated reliably without fail.",
+        mapInfoDetail : "Localized places could be overlay each other depending on the zoo m level. In this case the shadow of the symbol is darker and the individual place symbols will fold up by clicking upon. A click on an individual place symbol opens a popup providing a link to search for other references to this place in the database.",
+        loeschsuchTitle : "Clear Map Search",
+        mapInfoTitle : "Map search",
+        zumDatensatz : "Go to this person's dataset",
+        zurErwaehnung : "Show occurrence in article",
+        beziehungen : "Relations",
+        filterauswahl : "Criteria for clustering place-types"
+    };
+
+    /*]]>*/
+</script>
+
+<script>ndbDetailsInit();</script>
+<script src="/js/last.js"></script>
+
+</body>
+</html>

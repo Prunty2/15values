@@ -1,0 +1,355 @@
+<html><head><title>Austrofaschismus</title><base href="https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm"><script>
+<!--
+// Dummy function for use with Javascript 1.0 compatible browsers
+function openLinkWizard() {
+alert("Sorry, the Hyperwave links-wizard requires JavaScript 1.1 or later.");
+}
+function openAnnWizard() {
+alert("Sorry, the Hyperwave Annotation-wizard requires JavaScript 1.1 or later.");
+}
+function initializeLinkcreate(){}
+// -->
+</script><script language="JavaScript1.1">
+<!--
+
+sel_mode = false;
+ie40 = true;
+divoffset=0;
+loaded=false;
+
+bName = navigator.appName;
+bVer = parseInt(navigator.appVersion);
+
+function reportmove()
+{
+  if (loaded && typeof document.linkswiz !="undefined")
+  {
+    var seltext;
+    if ((bName == "Netscape" && bVer >= 3))
+    {
+      document.linkswiz.SELTEXT.value=document.getSelection();
+    }
+    else
+    {
+      if (sel_mode)
+      {
+        rang=document.selection.createRange();
+       
+        document.linkswiz.SELTEXT.value=rang.text;
+       
+        var el = rang.parentElement();
+       
+        duprang=rang.duplicate();
+        var i = 0;
+        i=-duprang.moveStart("character",-9999999);
+        document.all("SIDX").value=i-divoffset;
+
+        i=-duprang.moveEnd("character",-9999999);
+        document.all("EIDX").value=i-divoffset;
+      }
+    }
+  }
+  else
+  {
+  }
+}
+
+function initializeLinkcreate()
+{
+  loaded=true;
+
+  if ((bName == "Netscape" || bVer < 4.0))
+  {
+    ie40=false;
+    if (typeof document.linkswiz != "undefined")
+      document.linkswiz.INBODY.value="contained";
+    if (bName == "Netscape" && bVer >= 4.0)
+    {
+      document.captureEvents(Event.MOUSEUP|Event.MOUSEDOWN);
+      document.onmousedown=mousedown;
+      document.onmouseup=onmouseupreport;
+    }
+  }
+  else
+  {
+    var divel = document.all("thedocument");
+    if(divel==null)
+      return;
+
+    el=divel;
+    if (!divel.isTextEdit)
+      el = divel.parentTextEdit;
+    var rang;
+
+    if (el != null) {
+      rang = el.createTextRange();
+      rang.moveToElementText(divel);
+      duprang=rang;
+    }
+
+    var i = 0;
+    i=-duprang.moveStart("character",-9999999);
+    divoffset=i;
+  }
+}
+
+function mousedown(e)
+{
+  if (bName == "Netscape")
+  {
+    document.captureEvents(Event.MOUSEMOVE);
+    document.onmousemove=selectionstart;
+    oldX=e.pageX;
+    oldY=e.pageY;
+  }
+}
+
+function selectionstart()
+{
+  sel_mode=true;
+  if (bName == "Netscape")
+  {
+    document.releaseEvents(Event.MOUSEMOVE);
+  }
+}
+
+function onmouseupreport(e)
+{
+  if (ie40 && typeof document.linkswiz != "undefined")
+  {
+    if (sel_mode)
+    {
+      reportmove();
+      var rang = document.selection.createRange();
+      var el = rang.parentElement();
+      var divelement = document.all("thedocument");
+
+      if(divelement== null || (divelement!= null && divelement.contains(el)))
+      {
+        document.linkswiz.INBODY.value="contained";
+      }
+      else
+      {
+        document.linkswiz.INBODY.value="not contained";
+      }
+      sel_mode=false;
+    }
+  }
+  else
+  {
+    if ((bName == "Netscape" && bVer >= 3))
+    {
+      document.releaseEvents(Event.MOUSEMOVE);
+      if (oldY != e.pageY || oldX !=e.pageX)
+      {
+        if (sel_mode)
+        {
+          document.linkswiz.SELTEXT.value=document.getSelection();
+        }
+      }
+      sel_mode=false;
+    }
+  }
+}
+
+function openLinkWizard()
+{
+  if (!loaded) return;
+  window.open('https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&action=createlink.action','lwizard','toolbar=no,scrollbars=yes,resizable=yes,width=510,height=600');
+}
+
+function openAnnWizard()
+{
+  if (!loaded) return;
+  window.open('https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&action=createannotation.action','awizard','toolbar=no,scrollbars=yes,resizable=yes,width=530,height=600');
+}
+// -->
+
+</script><style type="text/css">
+BODY { background: #ffffff; color: #333333; font-family: arial, helvetica, verdana,sans-serif; }
+P { background: #ffffff; font-family: arial, helvetica, verdana,sans-serif; }
+TD { font-family: arial, helvetica, verdana,sans-serif; }
+h1,h2,h3,h4,h5,h6 { color: #333333; font-family: arial, helvetica, verdana,sans-serif; }
+A { color: #ff0000; }
+A:active { color: #999999; }
+A:visited { color: #cc0000; }
+    
+	</style></head><body alink="#999999" bgcolor="#ffffff" link="#ff0000" text="#202020" vlink="#af0000" id="THEBODY" onload="if (typeof initializeLinkcreate == 'function')initializeLinkcreate();" onselectstart="if (typeof selectionstart == 'function')selectionstart();" onmouseup="if (typeof onmouseupreport == 'function')onmouseupreport()" onmousemove="if (typeof reportmove == 'function')reportmove()">
+    <img src="https://www.aeiou.at/cgi-bin/ivw/CP/aeiou.encyclop.a/a962962_en.htm" width="1" height="1"> 
+	<center>
+    <table border="0" cellpadding="1" width="580">
+    <tr><td><div style="max-width: 572px; text-align: left; background-color: rgb(233, 233, 233); padding-top: 1em; margin-bottom: 1em;">
+	<a href="https://www.tugraz.at" title="TU Graz"><img src="/image/tugleiste.gif" alt="TU Graz" width="572" height="27"></a>
+	<div style="padding: 1em;">
+		<p style="background-color: rgb(233, 233, 233); font-weight: bold;">Hinweis:</p>
+		<p style="background-color: rgb(233, 233, 233);">Das ist ein alter
+			- nicht mehr gewarteter - Artikel des AEIOU.</p>
+		<p style="background-color: rgb(233, 233, 233);">
+			Im <a href="https://austria-forum.org">Austria-Forum</a> finden Sie
+			eine <a href="https://austria-forum.org/toAEIOU.jsp?article=Austrofaschismus&amp;object=0x811bc83c_0x00baaf78">aktuelle
+				Version dieses Artikels</a> im neuen <a href="https://austria-forum.org/af/AEIOU">AEIOU</a>.
+		</p>
+		<p style="background-color: rgb(233, 233, 233); font-size: 80%;">
+			<a href="https://austria-forum.org">https://austria-forum.org</a> <a style="float: right;" href="https://austria-forum.org/af/AEIOU_Impressum">Impressum</a>
+		</p>
+	</div>
+</div>
+<center>
+<table border="0" cellpadding="0" cellspacing="0" width="580">
+  <tr>
+   <td><img src="/image/space.gif" width="203" height="1" border="0"></td>
+   <td><img src="/image/space.gif" width="134" height="1" border="0"></td>
+   <td><img src="/image/space.gif" width="149" height="1" border="0"></td>
+   <td><img src="/image/space.gif" width="94" height="1" border="0"></td>
+  </tr>
+  <tr>
+    <td rowspan="1" colspan="4"><img usemap="#header_link" src="/image/b1-1.gif" width="580" height="25" border="0"><map name="header_link"><area coords="505,1,580,17" href="http://www.bmbwk.gv.at/" alt="bm:bwk"></map></td>
+   <td><img src="/image/space.gif" width="1" height="25" border="0"></td>
+  </tr>
+  <tr>
+    <td rowspan="2" colspan="1"><img src="/image/b1-21.gif" width="203" height="69" border="0"></td>
+    <td rowspan="1" colspan="2"><img src="/image/b1-22.gif" width="283" height="31" border="0"></td>
+    <td rowspan="3" colspan="1" valign="top"><a href="/aeiou.encyclop"><img src="/image/b14-bild.gif" width="94" height="90" border="0" alt="Österreich Lexikon"></a></td>
+  </tr>
+  <tr>
+    <td rowspan="1" colspan="2">
+      <a href="/aeiou.encyclop"><img src="/image/b14-name.gif" width="283" height="38" border="0" alt="Österreich Lexikon"></a></td>
+   <td>
+     <a href=""><img src="/image/space.gif" width="1" height="38" border="0"></a></td>
+  </tr>
+  <tr>
+    <td rowspan="1" colspan="3">
+      <img usemap="#header_de" src="/image/menud.gif" width="486" height="21" border="0">
+      <map name="header_de">
+        <area coords="8,1,58,21" href="https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&amp;action=_home.action" alt="home">
+        <area coords="59,1,185,21" href="https://www.aeiou.at/aeiou" alt="österreich-alben">
+        <area coords="186,1,247,21" href="https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&amp;action=search.action" alt="suchen">
+        <area coords="248,1,334,21" href="#" onclick="javascript:alert('Leider können Sie zu diesem Beitrag keinen Kommentar verfassen.');return false;" alt="annotieren">
+        <area coords="347,1,410,21" href="https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&amp;action=_setlanguage.action?LANGUAGE=en" alt="english">
+      </map>
+   </td>
+   <td><img src="/image/space.gif" width="1" height="21" border="0"></td>
+  </tr>
+</table>
+</center>
+  
+<table border="0" cellpadding="1" width="580">
+<tr>
+<td align="CENTER">
+<b>
+ <a href="/aeiou.encyclop.a">A</a>
+ <a href="/aeiou.encyclop.b">B</a>
+ <a href="/aeiou.encyclop.c">C</a>
+ <a href="/aeiou.encyclop.d">D</a>
+ <a href="/aeiou.encyclop.e">E</a>
+ <a href="/aeiou.encyclop.f">F</a>
+ <a href="/aeiou.encyclop.g">G</a>
+ <a href="/aeiou.encyclop.h">H</a>
+ <a href="/aeiou.encyclop.i">I</a>
+ <a href="/aeiou.encyclop.j">J</a>
+ <a href="/aeiou.encyclop.k">K</a>
+ <a href="/aeiou.encyclop.l">L</a>
+ <a href="/aeiou.encyclop.m">M</a>
+ <a href="/aeiou.encyclop.n">N</a>
+ <a href="/aeiou.encyclop.o">O</a>
+ <a href="/aeiou.encyclop.p">P</a>
+ <a href="/aeiou.encyclop.q">Q</a>
+ <a href="/aeiou.encyclop.r">R</a>
+ <a href="/aeiou.encyclop.s">S</a>
+ <a href="/aeiou.encyclop.t">T</a>
+ <a href="/aeiou.encyclop.u">U</a>
+ <a href="/aeiou.encyclop.v">V</a>
+ <a href="/aeiou.encyclop.w">W</a>
+ <a href="/aeiou.encyclop.x">X</a>
+ <a href="/aeiou.encyclop.y">Y</a>
+ <a href="/aeiou.encyclop.z">Z</a>
+ </b>
+  <p>
+</p></td>
+</tr>
+</table>
+
+
+<center>
+<h1><font size="4">Austrofaschismus</font></h1>
+</center>
+<center>
+<a href="/aeiou.encyclop.data.image.a/a962962a.jpg"><img src="/aeiou.encyclop.data.image.a/a962962a.jps" border="3"></a>
+<font size="2">
+<br>
+<a href="/aeiou.encyclop.cp_right.image.a/a962962a.htm">© Copyright</a>
+<p>Austrofascism: Demonstration of the Vaterländische Jugend (Österreichisches Jungvolk) in Tulln 1934. Left: K. Schuschnigg in the uniform of the Ostmärkische Sturmscharen. Right: Federal Chancellor E. Dollfuß.
+</p></font><br></center><br>
+<hr size="3">
+<font size="3">
+<p>Austro-Fascism, term for the system of government established in Austria in 1933/1934, developed and supported by the circles around the Heimwehr para-military force and young Christian Socialist politicians. Influenced by the Mussolini's fascism in Italy and backed by political Catholicism and the theories of O. Spann, Austro-Fascism replaced the democratic constitution and parlamentarianism with an authoritarian system. The Korneuburger Programm of June 18, 1930 was the first document to describe Austro-Fascism, and from March 1933 until February 1934 Federal Chancellor E. Dollfuß pursued this authoritarian course against Social Democrats, completing it with the constitution of May 1, 1934. Until 1938 the <a href="/aeiou.encyclop.s/s772608.htm">Corporate State</a> was largely characterised by Austro-Fascism. The term was originally coined by its opponents, mainly Social Democrats, but it also found its way into academic discourse.</p>
+
+</font>
+<hr size="3">
+<font size="2">
+<p>Further reading: E. Tálos and W. Neugebauer (eds.), Austrofaschismus, Beiträge über Politik, Ökonomie und Kultur 1934-38, <sup>4</sup>1988; L. O. Meysels, Der Austrofaschismus, 1992.</p>
+</font>
+<hr size="3">
+<p>        
+</p><center>
+<table border="0" width="580" cellpadding="0" cellspacing="0">
+
+ 
+<form name="linkswiz">
+<input type="HIDDEN" name="SELTEXT" value="">
+<input type="HIDDEN" name="SIDX">
+<input type="HIDDEN" name="EIDX">
+<input type="HIDDEN" name="INBODY" value="not contained">
+<input type="HIDDEN" name="GOID" value="">
+<input type="HIDDEN" name="THETITLE" value="Austrofaschismus">
+<input type="HIDDEN" name="THENAME" value="aeiou.encyclop.a/a962962_en.htm">
+
+<input type="HIDDEN" name="THETYPE" value="selnotedit">
+</form>
+		<tr>
+		<td align="CENTER">
+		<a href="/aeiou.encyclop/usage.htm">Hinweise zum Lexikon</a> <img src="/ball.gif" width="17" height="9"> <a href="/aeiou.encyclop/abbrev.htm">Abkürzungen im Lexikon</a>
+		</td>
+		</tr>
+
+<tr>
+  <td> </td>
+</tr>
+
+
+<tr>
+  <td align="center">
+<a href="/aeiou.encyclop.cp_right">© Copyright Österreich-Lexikon</a>
+<p> 
+</p></td>
+  </tr>
+
+  
+
+
+
+				<tr><td><a href="https://www.aeiou.at/aeiou.encyclop.a/a962962_en.htm;internal&amp;action=show_incoming_links.action">Suche nach hierher verweisenden Seiten</a><br> </td></tr>
+
+<tr>
+  <td align="center">
+      <img usemap="#footer_de" src="/image/menu-u.gif" width="494" height="24" border="0">
+      <map name="footer_de">
+        <area coords="7,1,54,24" href="/aeiou.help/" alt="hilfe">
+        <area coords="55,1,240,24" href="https://www.aeiou.at/aeiou/project.htm" alt="projekt aeiou des bm:bwk">
+        <area coords="241,1,326,24" href="https://www.aeiou.at/aeiou.cp_right" alt="copyrights">
+        <area coords="327,1,485,24" href="#" alt="mail an die redaktion">
+      </map>
+</td>
+</tr>
+<tr>
+<td>
+<center>
+
+<!-- <A HREF="/aeiou.new">Aktualisierungen bis [2001-07-31]</A> --></center>
+</td>
+</tr>
+</table>
+</center></td></tr>
+    </table>
+    </center>
+    </body></html>

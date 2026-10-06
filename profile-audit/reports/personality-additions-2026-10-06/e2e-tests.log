@@ -1,0 +1,428 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:65379) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 210 tests using 4 workers
+
+(node:65386) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65384) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65387) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:65385) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓    1 [desktop] › tests/authority-migration.spec.ts:28:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (923ms)
+  ✓    3 [desktop] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (1.2s)
+  ✓    2 [desktop] › tests/authority-migration.spec.ts:48:1 › every published profile serves its matching complete current-bank assessment (2.4s)
+  ✓    4 [desktop] › tests/authority-migration.spec.ts:63:3 › Short: current bank completes and exports the independently calculated scores (5.4s)
+  ✓    8 [desktop] › tests/authority-policy-migration.spec.ts:9:1 › bank 3 results preserve scores through import, reload and export without new-bank matches (1.2s)
+  ✓    9 [desktop] › tests/authority-policy-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual six old and new statements (1.3s)
+  ✓   10 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (558ms)
+  ✓   11 [desktop] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (407ms)
+  ✓    5 [desktop] › tests/authority-migration.spec.ts:63:3 › Medium: current bank completes and exports the independently calculated scores (9.0s)
+  ✓   13 [desktop] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (372ms)
+  ✓   14 [desktop] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (279ms)
+  ✓   15 [desktop] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (525ms)
+  ✓   12 [desktop] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.1s)
+  ✓   16 [desktop] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (436ms)
+  ✓   17 [desktop] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (450ms)
+  ✓   18 [desktop] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (242ms)
+  ✓   19 [desktop] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (444ms)
+  ✓   20 [desktop] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (624ms)
+  ✓   21 [desktop] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (1.2s)
+  ✓   23 [desktop] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning (571ms)
+  ✓   22 [desktop] › tests/democracy-migration.spec.ts:30:1 › real revised profiles render and download their complete new immutable assessments (1.5s)
+  ✓   24 [desktop] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (1.2s)
+  ✓   26 [desktop] › tests/home-strip.spec.ts:44:1 › home strip uses explicit personality leaning metadata and falls back when absent (220ms)
+  ✓   25 [desktop] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (2.3s)
+  ✓    6 [desktop] › tests/authority-migration.spec.ts:63:3 › Long: current bank completes and exports the independently calculated scores (15.5s)
+  ✓   27 [desktop] › tests/home-strip.spec.ts:57:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.4s)
+  ✓   29 [desktop] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is empty (281ms)
+  ✓   30 [desktop] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is unavailable (258ms)
+  ✓   28 [desktop] › tests/home-strip.spec.ts:85:1 › reduced motion allows manual scrolling without duplicate links or page overflow (740ms)
+  ✓   31 [desktop] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is invalid (228ms)
+  ✓   32 [desktop] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (506ms)
+  ✓   33 [desktop] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (785ms)
+  ✓   34 [desktop] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (755ms)
+  ✓   35 [desktop] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (748ms)
+  ✓   38 [desktop] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (293ms)
+  ✓   36 [desktop] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (770ms)
+  ✓   37 [desktop] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (803ms)
+  ✓   40 [desktop] › tests/platform.spec.ts:21:1 › catalogue pages are intentionally empty and link to the values (273ms)
+  ✓   41 [desktop] › tests/platform.spec.ts:32:1 › navigation supports back, reload, current page, and keyboard focus (1.0s)
+  ✓   42 [desktop] › tests/platform.spec.ts:57:1 › pages do not overflow at narrow widths or with reduced motion (1.0s)
+  ✓   43 [desktop] › tests/platform.spec.ts:67:1 › removed and unrecognised routes offer a working return to home (819ms)
+  ✓   44 [desktop] › tests/platform.spec.ts:77:1 › skip link appears on keyboard focus and moves focus to the content (791ms)
+  ✓   39 [desktop] › tests/platform.spec.ts:4:1 › Values navigation opens the home axes section from another page and on repeated clicks (2.3s)
+  ✓   46 [desktop] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (444ms)
+  ✓   48 [desktop] › tests/platform.spec.ts:133:1 › social preview assets resolve under the GitHub Pages subpath (442ms)
+  ✓   45 [desktop] › tests/platform.spec.ts:92:1 › all four home format cards start their corresponding quiz (1.0s)
+  ✓   49 [desktop] › tests/platform.spec.ts:144:1 › landing section navigation moves focus and returns to the top on the same route (1.2s)
+  ✓   47 [desktop] › tests/platform.spec.ts:113:1 › landing axis cards cover all 15 agreed axes and replace the old sections (3.0s)
+  ✓   50 [desktop] › tests/quiz.spec.ts:43:3 › Short: complete every question and export the expected independent scores (5.7s)
+  ✓   51 [desktop] › tests/quiz.spec.ts:43:3 › Medium: complete every question and export the expected independent scores (7.6s)
+  ✓    7 [desktop] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores (29.2s)
+  ✓   54 [desktop] › tests/quiz.spec.ts:71:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (1.5s)
+  ✓   52 [desktop] › tests/quiz.spec.ts:43:3 › Long: complete every question and export the expected independent scores (10.7s)
+  ✓   57 [desktop] › tests/quiz.spec.ts:145:1 › browser Back preserves the open session and leaving asks for confirmation (871ms)
+  ✓   56 [desktop] › tests/quiz.spec.ts:138:1 › blocked browser storage never prevents completion (5.4s)
+  ✓   55 [desktop] › tests/quiz.spec.ts:103:1 › history saves automatically, survives reload and supports import, deduplication and deletion (6.5s)
+  ✓   60 [desktop] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (857ms)
+  ✓   61 [desktop] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (400ms)
+  ✓   62 [desktop] › tests/result-images.spec.ts:7:1 › matched portraits and flags load in saved cards and full results, including ties (491ms)
+  ✓   63 [desktop] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (1.9s)
+  ✓   53 [desktop] › tests/quiz.spec.ts:43:3 › Comprehensive: complete every question and export the expected independent scores (14.7s)
+  ✓   64 [desktop] › tests/results.spec.ts:87:1 › legacy results display and export their original method without recalculation (627ms)
+  ✓   59 [desktop] › tests/quiz.spec.ts:176:1 › a failed automatic save preserves the displayed result (5.1s)
+  ✓   66 [desktop] › tests/results.spec.ts:138:1 › comparison fetch failure can be retried without losing the result (667ms)
+  ✓   65 [desktop] › tests/results.spec.ts:101:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (1.7s)
+  ✓   68 [desktop] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.2s)
+  ✓   67 [desktop] › tests/results.spec.ts:150:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (1.8s)
+  ✓   70 [desktop] › tests/window-navigation.spec.ts:42:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (313ms)
+(node:66396) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:66397) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   72 [mobile] › tests/authority-migration.spec.ts:28:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (781ms)
+  -   73 [mobile] › tests/authority-migration.spec.ts:48:1 › every published profile serves its matching complete current-bank assessment
+  ✓   71 [mobile] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (1.0s)
+  ✓   74 [mobile] › tests/authority-migration.spec.ts:63:3 › Short: current bank completes and exports the independently calculated scores (5.1s)
+  ✓   75 [mobile] › tests/authority-migration.spec.ts:63:3 › Medium: current bank completes and exports the independently calculated scores (8.1s)
+  ✓   58 [desktop] › tests/quiz.spec.ts:159:1 › narrow results and invalid stored history stay usable without overwriting data (22.9s)
+(node:66636) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   78 [mobile] › tests/authority-policy-migration.spec.ts:9:1 › bank 3 results preserve scores through import, reload and export without new-bank matches (2.2s)
+  ✓   79 [mobile] › tests/authority-policy-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual six old and new statements (1.9s)
+  ✓   80 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (533ms)
+  ✓   81 [mobile] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (416ms)
+  ✓   82 [mobile] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (3.9s)
+  ✓   83 [mobile] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (386ms)
+  ✓   84 [mobile] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (275ms)
+  ✓   76 [mobile] › tests/authority-migration.spec.ts:63:3 › Long: current bank completes and exports the independently calculated scores (19.5s)
+  ✓   85 [mobile] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (489ms)
+  ✓   86 [mobile] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (415ms)
+  ✓   88 [mobile] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (252ms)
+  ✓   87 [mobile] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (429ms)
+  ✓   89 [mobile] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (539ms)
+  ✓   90 [mobile] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (599ms)
+  ✓   91 [mobile] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (1.4s)
+  ✘   92 [mobile] › tests/democracy-migration.spec.ts:30:1 › real revised profiles render and download their complete new immutable assessments (2.5s)
+(node:67225) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   94 [mobile] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (1.1s)
+  ✓   95 [mobile] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (1.7s)
+  ✓   96 [mobile] › tests/home-strip.spec.ts:44:1 › home strip uses explicit personality leaning metadata and falls back when absent (187ms)
+  ✘   93 [mobile] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning (5.5s)
+(node:67293) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   97 [mobile] › tests/home-strip.spec.ts:57:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.1s)
+  ✓   99 [mobile] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is empty (204ms)
+  ✓  100 [mobile] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is unavailable (192ms)
+  ✓  101 [mobile] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is invalid (235ms)
+  ✘   98 [mobile] › tests/home-strip.spec.ts:85:1 › reduced motion allows manual scrolling without duplicate links or page overflow (792ms)
+(node:67328) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  102 [mobile] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (946ms)
+(node:67330) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  103 [mobile] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (816ms)
+  ✘   69 [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (38.1s)
+  ✓  104 [mobile] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (789ms)
+(node:67340) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  105 [mobile] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (761ms)
+  ✓  108 [mobile] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (297ms)
+  ✓  106 [mobile] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (733ms)
+  ✓  110 [mobile] › tests/platform.spec.ts:21:1 › catalogue pages are intentionally empty and link to the values (220ms)
+  ✓  107 [mobile] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (764ms)
+  ✓  112 [mobile] › tests/platform.spec.ts:57:1 › pages do not overflow at narrow widths or with reduced motion (1.3s)
+  ✓  113 [mobile] › tests/platform.spec.ts:67:1 › removed and unrecognised routes offer a working return to home (599ms)
+  ✘   77 [mobile] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores (31.7s)
+  ✓  114 [mobile] › tests/platform.spec.ts:77:1 › skip link appears on keyboard focus and moves focus to the content (681ms)
+  ✓  109 [mobile] › tests/platform.spec.ts:4:1 › Values navigation opens the home axes section from another page and on repeated clicks (3.0s)
+  ✓  111 [mobile] › tests/platform.spec.ts:32:1 › navigation supports back, reload, current page, and keyboard focus (2.8s)
+  ✓  117 [mobile] › tests/platform.spec.ts:133:1 › social preview assets resolve under the GitHub Pages subpath (263ms)
+(node:67363) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  115 [mobile] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (637ms)
+  ✓  118 [mobile] › tests/platform.spec.ts:144:1 › landing section navigation moves focus and returns to the top on the same route (805ms)
+  ✓  116 [mobile] › tests/platform.spec.ts:113:1 › landing axis cards cover all 15 agreed axes and replace the old sections (1.9s)
+  ✓  119 [mobile] › tests/platform.spec.ts:92:1 › all four home format cards start their corresponding quiz (2.3s)
+  ✓  120 [mobile] › tests/quiz.spec.ts:43:3 › Short: complete every question and export the expected independent scores (4.4s)
+  ✓  124 [mobile] › tests/quiz.spec.ts:71:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (1.3s)
+  ✘  121 [mobile] › tests/quiz.spec.ts:43:3 › Medium: complete every question and export the expected independent scores (5.7s)
+(node:67511) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  122 [mobile] › tests/quiz.spec.ts:43:3 › Long: complete every question and export the expected independent scores (8.3s)
+(node:67525) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  127 [mobile] › tests/quiz.spec.ts:145:1 › browser Back preserves the open session and leaving asks for confirmation (695ms)
+  ✓  126 [mobile] › tests/quiz.spec.ts:138:1 › blocked browser storage never prevents completion (5.2s)
+  ✘  125 [mobile] › tests/quiz.spec.ts:103:1 › history saves automatically, survives reload and supports import, deduplication and deletion (6.5s)
+(node:67542) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  130 [mobile] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (861ms)
+  ✓  131 [mobile] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (405ms)
+  ✓  132 [mobile] › tests/result-images.spec.ts:7:1 › matched portraits and flags load in saved cards and full results, including ties (521ms)
+  ✘  123 [mobile] › tests/quiz.spec.ts:43:3 › Comprehensive: complete every question and export the expected independent scores (12.3s)
+(node:67590) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  134 [mobile] › tests/results.spec.ts:87:1 › legacy results display and export their original method without recalculation (649ms)
+  ✓  133 [mobile] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (1.6s)
+  ✓  136 [mobile] › tests/results.spec.ts:138:1 › comparison fetch failure can be retried without losing the result (653ms)
+  ✓  129 [mobile] › tests/quiz.spec.ts:176:1 › a failed automatic save preserves the displayed result (5.0s)
+  ✓  135 [mobile] › tests/results.spec.ts:101:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (1.7s)
+  ✓  138 [mobile] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.2s)
+  ✓  137 [mobile] › tests/results.spec.ts:150:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (1.6s)
+  ✓  140 [mobile] › tests/window-navigation.spec.ts:42:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (283ms)
+(node:67614) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:67617) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  142 [safari] › tests/authority-migration.spec.ts:28:1 › review artifact exposes all 209 assessments and the actual nine old and new statements (1.4s)
+  -  143 [safari] › tests/authority-migration.spec.ts:48:1 › every published profile serves its matching complete current-bank assessment
+  ✓  141 [safari] › tests/authority-migration.spec.ts:10:1 › bank 2 results preserve scores through import, reload and export without new-bank matches (1.6s)
+  ✓  144 [safari] › tests/authority-migration.spec.ts:63:3 › Short: current bank completes and exports the independently calculated scores (7.1s)
+  ✓  145 [safari] › tests/authority-migration.spec.ts:63:3 › Medium: current bank completes and exports the independently calculated scores (11.1s)
+  ✓  128 [mobile] › tests/quiz.spec.ts:159:1 › narrow results and invalid stored history stay usable without overwriting data (22.1s)
+(node:67680) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  148 [safari] › tests/authority-policy-migration.spec.ts:9:1 › bank 3 results preserve scores through import, reload and export without new-bank matches (1.1s)
+  ✓  149 [safari] › tests/authority-policy-migration.spec.ts:27:1 › review artifact exposes all 209 assessments and the actual six old and new statements (818ms)
+  ✓  150 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn ideology has no placements but preserves the historical assessment link (505ms)
+  ✓  151 [safari] › tests/catalogue.spec.ts:9:1 › withdrawn personality has no placements but preserves the historical assessment link (501ms)
+  ✓  152 [safari] › tests/catalogue.spec.ts:24:1 › all three catalogues browse, search and open full sourced assessments (2.3s)
+  ✓  153 [safari] › tests/catalogue.spec.ts:100:1 › catalogue failures can be retried and missing profiles have a way back (451ms)
+  ✓  154 [safari] › tests/catalogue.spec.ts:113:1 › malformed catalogue data is not rendered as a profile (354ms)
+  ✓  155 [safari] › tests/catalogue.spec.ts:121:1 › ideology groups combine with search and show only pronounced placements (523ms)
+  ✓  156 [safari] › tests/catalogue.spec.ts:149:1 › personality filters combine with search and clear together (556ms)
+  ✓  157 [safari] › tests/catalogue.spec.ts:177:1 › profile comparisons omit political leaning and link similar people (596ms)
+  ✓  158 [safari] › tests/catalogue.spec.ts:197:1 › personality card has exactly ideology, position and origin tags (406ms)
+  ✓  159 [safari] › tests/catalogue.spec.ts:212:1 › ideology pages show linked portraits and flags without labels or percentages (557ms)
+  ✓  160 [safari] › tests/catalogue.spec.ts:229:1 › Hindu nationalism shows Right, Modi and sourced Hindu eligibility (525ms)
+  ✓  161 [safari] › tests/democracy-migration.spec.ts:11:1 › the original bank survives import, reload and export without being matched to the new bank (1.1s)
+  ✓  162 [safari] › tests/democracy-migration.spec.ts:30:1 › real revised profiles render and download their complete new immutable assessments (1.4s)
+  ✓  163 [safari] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning (490ms)
+  ✓  164 [safari] › tests/home-example.spec.ts:3:1 › refresh draws another assessed personality with a calculated ideology match (1.1s)
+  ✓  146 [safari] › tests/authority-migration.spec.ts:63:3 › Long: current bank completes and exports the independently calculated scores (19.1s)
+  ✓  166 [safari] › tests/home-strip.spec.ts:44:1 › home strip uses explicit personality leaning metadata and falls back when absent (409ms)
+  ✓  165 [safari] › tests/home-strip.spec.ts:8:1 › home strip uses published profiles and links to both types of detail page (1.7s)
+  ✓  167 [safari] › tests/home-strip.spec.ts:57:1 › strip loops evenly, pauses, resumes and stops for keyboard interaction (1.5s)
+  ✓  168 [safari] › tests/home-strip.spec.ts:85:1 › reduced motion allows manual scrolling without duplicate links or page overflow (675ms)
+  ✓  169 [safari] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is empty (410ms)
+  ✓  170 [safari] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is unavailable (400ms)
+  ✓  171 [safari] › tests/home-strip.spec.ts:101:3 › home offers catalogue links when profile data is invalid (396ms)
+  ✓  172 [safari] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen (979ms)
+  ✓  173 [safari] › tests/navigation.spec.ts:26:3 › short: a direct quiz link and reload open a working first question (998ms)
+  ✓  174 [safari] › tests/navigation.spec.ts:26:3 › medium: a direct quiz link and reload open a working first question (956ms)
+  ✓  175 [safari] › tests/navigation.spec.ts:26:3 › long: a direct quiz link and reload open a working first question (958ms)
+  ✓  176 [safari] › tests/navigation.spec.ts:26:3 › comprehensive: a direct quiz link and reload open a working first question (970ms)
+  ✓  177 [safari] › tests/navigation.spec.ts:46:1 › returning from the home page to an old quiz link starts normally (1.0s)
+  ✓  178 [safari] › tests/navigation.spec.ts:58:1 › invalid quiz links show the usable format selector (522ms)
+  ✓  180 [safari] › tests/platform.spec.ts:21:1 › catalogue pages are intentionally empty and link to the values (397ms)
+  ✓  179 [safari] › tests/platform.spec.ts:4:1 › Values navigation opens the home axes section from another page and on repeated clicks (1.3s)
+  ✓  181 [safari] › tests/platform.spec.ts:32:1 › navigation supports back, reload, current page, and keyboard focus (889ms)
+  ✓  139 [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (37.2s)
+  ✓  182 [safari] › tests/platform.spec.ts:57:1 › pages do not overflow at narrow widths or with reduced motion (570ms)
+  ✓  183 [safari] › tests/platform.spec.ts:67:1 › removed and unrecognised routes offer a working return to home (461ms)
+(node:67763) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  185 [safari] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (682ms)
+  ✓  186 [safari] › tests/platform.spec.ts:77:1 › skip link appears on keyboard focus and moves focus to the content (1.1s)
+  ✓  184 [safari] › tests/platform.spec.ts:92:1 › all four home format cards start their corresponding quiz (1.8s)
+  ✓  188 [safari] › tests/platform.spec.ts:133:1 › social preview assets resolve under the GitHub Pages subpath (657ms)
+  ✓  189 [safari] › tests/platform.spec.ts:144:1 › landing section navigation moves focus and returns to the top on the same route (828ms)
+  ✓  187 [safari] › tests/platform.spec.ts:113:1 › landing axis cards cover all 15 agreed axes and replace the old sections (2.0s)
+  ✓  190 [safari] › tests/quiz.spec.ts:43:3 › Short: complete every question and export the expected independent scores (3.1s)
+  ✓  191 [safari] › tests/quiz.spec.ts:43:3 › Medium: complete every question and export the expected independent scores (5.0s)
+  ✓  194 [safari] › tests/quiz.spec.ts:71:1 › back, edits, keyboard, auto-advance and restart keep answers consistent (2.2s)
+  ✓  147 [safari] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores (35.7s)
+  ✓  192 [safari] › tests/quiz.spec.ts:43:3 › Long: complete every question and export the expected independent scores (10.4s)
+  ✓  197 [safari] › tests/quiz.spec.ts:145:1 › browser Back preserves the open session and leaving asks for confirmation (1.5s)
+  ✓  195 [safari] › tests/quiz.spec.ts:103:1 › history saves automatically, survives reload and supports import, deduplication and deletion (10.9s)
+  ✓  196 [safari] › tests/quiz.spec.ts:138:1 › blocked browser storage never prevents completion (8.6s)
+  ✓  193 [safari] › tests/quiz.spec.ts:43:3 › Comprehensive: complete every question and export the expected independent scores (18.3s)
+  ✓  200 [safari] › tests/religion.spec.ts:9:1 › religious identity gates automatic quiz matches while general ideologies stay eligible (2.0s)
+  ✓  201 [safari] › tests/religion.spec.ts:23:1 › published US country comparison excludes Hindu nationalism (658ms)
+  ✓  202 [safari] › tests/result-images.spec.ts:7:1 › matched portraits and flags load in saved cards and full results, including ties (789ms)
+  ✓  204 [safari] › tests/results.spec.ts:87:1 › legacy results display and export their original method without recalculation (783ms)
+  ✓  203 [safari] › tests/results.spec.ts:22:1 › profile layout, all endpoints, help controls and complementary percentages work at every width (2.0s)
+  ✓  205 [safari] › tests/results.spec.ts:101:1 › empty history and saved cards are responsive, and saved profiles reopen after reload (1.4s)
+  ✓  206 [safari] › tests/results.spec.ts:138:1 › comparison fetch failure can be retried without losing the result (850ms)
+  ✓  199 [safari] › tests/quiz.spec.ts:176:1 › a failed automatic save preserves the displayed result (7.0s)
+  ✓  208 [safari] › tests/window-navigation.spec.ts:4:1 › current-page links do not add history and Back/Forward restores each route without reloads (1.2s)
+  ✓  207 [safari] › tests/results.spec.ts:150:1 › searchable comparison picker scrolls, supports keyboard selection and compares ideologies and personalities (2.3s)
+  ✓  210 [safari] › tests/window-navigation.spec.ts:42:1 › all question wordings fit laptop, phone and landscape windows without scrolling or clipping (723ms)
+  ✓  198 [safari] › tests/quiz.spec.ts:159:1 › narrow results and invalid stored history stay usable without overwriting data (28.6s)
+  ✓  209 [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (38.8s)
+
+
+  1) [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-0/traces/5b90a0c01c9c46f25e39-a744f9e82c9a3147e4c5-recording24.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-0/91f1ba725af70f25a4f9c7bc5bc39fff.zip'
+
+    Error Context: test-results/window-navigation-default--d5c9c-e-final-submission-explicit-desktop/error-context.md
+
+  2) [mobile] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-4/traces/a132eabdb3b06ca1336e-fddcb864f9bbef99998b-recording4.trace'
+
+    Error Context: test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/authority-migration-Compre-f9ce2-pendently-calculated-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [mobile] › tests/democracy-migration.spec.ts:30:1 › real revised profiles render and download their complete new immutable assessments 
+
+    Error: download.path: canceled
+
+      40 |     const waiting = page.waitForEvent('download');
+      41 |     await page.getByRole('link', { name: 'Download the full assessment' }).click();
+    > 42 |     const audit = JSON.parse(readFileSync((await (await waiting).path())!, 'utf8')) as Audit;
+         |                                                                  ^
+      43 |     expect(audit.revision).toBe(profile.revision);
+      44 |     expect(audit.questionBankVersion).toBe(QUESTION_BANK_VERSION);
+      45 |     expect(audit.axesVersion).toBe('2.0.0');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/democracy-migration.spec.ts:42:66
+
+    Error Context: test-results/democracy-migration-real-r-ab5db-e-new-immutable-assessments-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/democracy-migration-real-r-ab5db-e-new-immutable-assessments-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/democracy-migration-real-r-ab5db-e-new-immutable-assessments-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  4) [mobile] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning 
+
+    Error: expect(locator).toHaveCount(expected) failed
+
+    Locator:  locator('#subject option')
+    Expected: 228
+    Received: 0
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveCount" locator('#subject option') with timeout 5000ms
+      - waiting for locator('#subject option')
+        14 × locator resolved to 0 elements
+           - unexpected value "0"
+
+
+      59 |   await page.goto('./profiles/democracy-review.html');
+      60 |   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Review the revised Democracy–Autocracy answers');
+    > 61 |   await expect(page.locator('#subject option')).toHaveCount(catalogue.length);
+         |                                                 ^
+      62 |   await page.locator('#subject').selectOption('country/australia');
+      63 |   await expect(page.locator('#answers article')).toHaveCount(6);
+      64 |   await expect(page.locator('#status')).toContainText('240/240');
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/democracy-migration.spec.ts:61:49
+
+    Error Context: test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/democracy-migration-focuse-af3c3-and-their-sourced-reasoning-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  5) [mobile] › tests/home-strip.spec.ts:85:1 › reduced motion allows manual scrolling without duplicate links or page overflow 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/traces/54b763052b8b99b0d229-b2fa0c4edeb28d39768d.network'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-8/f6c252e430705a6c483c531217f581e3.zip'
+
+    Error Context: test-results/home-strip-reduced-motion--972e3-cate-links-or-page-overflow-mobile/error-context.md
+
+  6) [mobile] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-7/traces/5d2868f7d23420c27cca-dcd7b30c8a46d6a6a457-recording14.trace'
+
+    Error: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-7/6bd49142d59774d6f2a03b2cd37c522c.zip'
+
+    Error Context: test-results/navigation-quiz-navigation-e33f5--page-with-a-loading-screen-mobile/error-context.md
+
+  7) [mobile] › tests/quiz.spec.ts:43:3 › Medium: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-10/traces/b28a81d7079595d0160f-5deebb23cdb5075e58d1-recording13.trace'
+
+    Error Context: test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-Medium-complete-every-4a31f-expected-independent-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  8) [mobile] › tests/quiz.spec.ts:43:3 › Long: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-9/traces/b28a81d7079595d0160f-19625d7c59a2650e3cb4-recording10.trace'
+
+    Error Context: test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-Long-complete-every-q-73d68-expected-independent-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  9) [mobile] › tests/quiz.spec.ts:43:3 › Comprehensive: complete every question and export the expected independent scores 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-12/traces/b28a81d7079595d0160f-a45fb073b82565a46e94-recording2.trace'
+
+    Error Context: test-results/quiz-Comprehensive-complet-82d15-expected-independent-scores-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-Comprehensive-complet-82d15-expected-independent-scores-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-Comprehensive-complet-82d15-expected-independent-scores-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10) [mobile] › tests/quiz.spec.ts:103:1 › history saves automatically, survives reload and supports import, deduplication and deletion 
+
+    Error: browserContext.close: ENOENT: no such file or directory, open '/Users/liam/Documents/GitHub/15values/frontend/test-results/.playwright-artifacts-11/traces/b28a81d7079595d0160f-9c67e104a3b12bc2d8f6-recording14.trace'
+
+    Error Context: test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/quiz-history-saves-automat-f6252--deduplication-and-deletion-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  10 failed
+    [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit 
+    [mobile] › tests/authority-migration.spec.ts:63:3 › Comprehensive: current bank completes and exports the independently calculated scores 
+    [mobile] › tests/democracy-migration.spec.ts:30:1 › real revised profiles render and download their complete new immutable assessments 
+    [mobile] › tests/democracy-migration.spec.ts:58:1 › focused answer review shows the six changed questions and their sourced reasoning 
+    [mobile] › tests/home-strip.spec.ts:85:1 › reduced motion allows manual scrolling without duplicate links or page overflow 
+    [mobile] › tests/navigation.spec.ts:3:1 › quiz navigation never replaces the page with a loading screen 
+    [mobile] › tests/quiz.spec.ts:43:3 › Medium: complete every question and export the expected independent scores 
+    [mobile] › tests/quiz.spec.ts:43:3 › Long: complete every question and export the expected independent scores 
+    [mobile] › tests/quiz.spec.ts:43:3 › Comprehensive: complete every question and export the expected independent scores 
+    [mobile] › tests/quiz.spec.ts:103:1 › history saves automatically, survives reload and supports import, deduplication and deletion 
+  2 skipped
+  198 passed (3.5m)
