@@ -20,3 +20,14 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+
+# Local profile-audit execution output; retain assessments, reviews and sources.
+profile-audit/reports/**/*.log
+profile-audit/reports/**/*-prompt.txt
+profile-audit/reports/**/prompts/
+profile-audit/reports/**/starting-status.txt
+profile-audit/reports/**/final-status.txt
+profile-audit/reports/**/*.png
+profile-audit/reports/**/*contact-sheet.jpg
+profile-audit/reports/**/portrait-review.jpg
+profile-audit/reports/**/portraits.jpg
