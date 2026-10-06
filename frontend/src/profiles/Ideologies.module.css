@@ -36,8 +36,8 @@
 .groupHeader { display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--tradition-color); padding-bottom: 17px; margin-bottom: 20px; }
 .groupHeader > div { display: flex; align-items: center; gap: 14px; }
 .groupMarker { width: 9px; height: 34px; background: var(--tradition-color); border-radius: 5px; flex-shrink: 0; }
-.groupHeader h2 { font-size: clamp(24px, 2.5vw, 33px); line-height: 1.15; letter-spacing: -.8px; color: var(--tradition-color); }
-.badge { flex-shrink: 0; background: color-mix(in srgb, var(--tradition-color) 10%, var(--canvas)); color: var(--tradition-color); border-radius: 20px; padding: 7px 12px; font-size: 11px; font-weight: 600; }
+.groupHeader h2 { font-size: clamp(24px, 2.5vw, 33px); line-height: 1.15; letter-spacing: -.8px; color: color-mix(in srgb, var(--tradition-color) var(--profile-color-weight), var(--ink)); }
+.badge { flex-shrink: 0; background: color-mix(in srgb, var(--tradition-color) 10%, var(--canvas)); color: color-mix(in srgb, var(--tradition-color) var(--profile-color-weight), var(--ink)); border-radius: 20px; padding: 7px 12px; font-size: 11px; font-weight: 600; }
 .grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .card { position: relative; display: flex; flex-direction: column; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 20px 19px 16px 22px; transition: border-color var(--motion-fast), box-shadow var(--motion-fast); }
 .card::before { content: ''; position: absolute; inset: 15px auto 15px -1px; width: 3px; border-radius: 3px; background: var(--tradition-color); }
@@ -48,7 +48,7 @@
 .tradition { color: var(--ink); font-size: 10px; margin-top: 5px; line-height: 1.5; }
 .cardDescription { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; overflow: hidden; font-size: 13px; color: var(--ink); line-height: 1.65; margin-top: 11px; }
 .cardFooter { border-top: 1px solid var(--line); margin-top: 18px; padding-top: 12px; display: flex; flex-direction: column; gap: 11px; }
-.axisStrip { min-height: 22px; display: flex; flex-wrap: wrap; gap: 3px; color: var(--tradition-color); }
+.axisStrip { min-height: 22px; display: flex; flex-wrap: wrap; gap: 3px; color: color-mix(in srgb, var(--tradition-color) var(--profile-color-weight), var(--ink)); }
 .axisPlacement { position: relative; display: inline-flex; cursor: help; border-radius: 3px; padding: 2px; }
 .axisSymbol { display: inline-flex; }
 .axisSymbol svg { width: 14px; height: 14px; stroke-width: 2; }

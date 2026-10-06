@@ -7,7 +7,17 @@ what the quiz is intended to measure.
 
 ## 1. Democracy vs Autocracy
 
-Elected, accountable government versus concentrated rule.
+Public participation and accountable government versus concentrated decision-making power.
+
+The owner clarified this axis on 5 October 2026: representative democracy is
+intended to sit roughly around 65% Democracy, with stronger direct public
+control and accountability further towards Democracy. This is an interpretive
+reference, not an empirically calibrated threshold or a fixed score for every
+representative system. Lawful delegation, leader selection between elections
+and emergency powers can coexist with electoral accountability. A lower
+placement does not by itself classify a country as an autocracy. Voter
+identification requirements alone do not determine placement; actual access
+to voting and political equality matter.
 
 ## 2. Authority vs Liberty
 

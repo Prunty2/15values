@@ -1,0 +1,118 @@
+
+> 15-values-quiz@0.0.0 test:e2e
+> playwright test window-navigation.spec.ts platform.spec.ts --grep default auto advance|mobile primary action
+
+[WebServer] (node:46148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 6 tests using 4 workers
+
+(node:46149) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46150) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46151) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46152) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✘  4 [desktop] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (30.2s)
+  ✘  3 [mobile] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (30.2s)
+(node:46563) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:46564) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 [desktop] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (37.0s)
+  ✓  2 [mobile] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (37.0s)
+  ✘  5 [safari] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling (30.2s)
+  ✓  6 [safari] › tests/window-navigation.spec.ts:25:1 › default auto advance completes a quiz and leaves the final submission explicit (39.0s)
+
+
+  1) [desktop] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example profile comparison', exact: true })
+
+
+      106 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      107 |   const button = await action.boundingBox();
+    > 108 |   const example = await page.getByRole('region', { name: 'Example profile comparison', exact: true }).boundingBox();
+          |                                                                                                       ^
+      109 |   expect(button!.y + button!.height).toBeLessThan(740);
+      110 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      111 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:108:103
+
+    Error Context: test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-desktop/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [mobile] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example profile comparison', exact: true })
+
+
+      106 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      107 |   const button = await action.boundingBox();
+    > 108 |   const example = await page.getByRole('region', { name: 'Example profile comparison', exact: true }).boundingBox();
+          |                                                                                                       ^
+      109 |   expect(button!.y + button!.height).toBeLessThan(740);
+      110 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      111 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:108:103
+
+    Error Context: test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-mobile/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-mobile/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-mobile/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3) [safari] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.boundingBox: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Example profile comparison', exact: true })
+
+
+      106 |   const action = page.locator('main').getByRole('link', { name: 'Explore the quiz', exact: true });
+      107 |   const button = await action.boundingBox();
+    > 108 |   const example = await page.getByRole('region', { name: 'Example profile comparison', exact: true }).boundingBox();
+          |                                                                                                       ^
+      109 |   expect(button!.y + button!.height).toBeLessThan(740);
+      110 |   expect(button!.y + button!.height).toBeLessThan(example!.y);
+      111 | });
+        at /Users/liam/Documents/GitHub/15values/frontend/tests/platform.spec.ts:108:103
+
+    Error Context: test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-safari/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-safari/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/platform-mobile-primary-ac-d00cc-s-visible-without-scrolling-safari/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  3 failed
+    [desktop] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+    [mobile] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+    [safari] › tests/platform.spec.ts:102:1 › mobile primary action precedes the example and is visible without scrolling 
+  3 passed (1.2m)

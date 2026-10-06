@@ -9,6 +9,12 @@ const result: QuizResult = {
 };
 afterEach(() => vi.unstubAllGlobals());
 describe('history validation', () => {
+  it('retains the unscored religion answer and rejects invalid identities', () => {
+    const religious = { ...result, religiousIdentity: 'hindu' as const };
+    expect(parseHistory(serializeHistory([religious]))).toEqual([religious]);
+    expect(() => parseHistory(JSON.stringify({ schemaVersion: 1, results: [{ ...result, religiousIdentity: 'invented' }] }))).toThrow();
+    expect(parseHistory(serializeHistory([result]))[0].religiousIdentity).toBeUndefined();
+  });
   it('round-trips supported scores without keeping raw answers or extra fields', () => {
     const withExtras = { ...result, answers: { private: 2 }, unwanted: 'data' };
     expect(parseHistory(serializeHistory([withExtras]))).toEqual([result]);
@@ -16,6 +22,11 @@ describe('history validation', () => {
   it('preserves legacy scores and version alongside current results', () => {
     const legacy = { ...result, id: 'legacy-result', scoringVersion: '1.0.0', scores: result.scores.map(score => ({ ...score, leftPercent: 66.7, rightPercent: 33.3 })) };
     expect(parseHistory(serializeHistory([legacy, result]))).toEqual([legacy, result]);
+  });
+  it('preserves version 1 bank and axis records after the version 2 upgrade', () => {
+    const legacy = { ...result, questionBankVersion: '1.0.0', axesVersion: '1.0.0' };
+    expect(parseHistory(serializeHistory([legacy]))).toEqual([legacy]);
+    expect(() => parseHistory(serializeHistory([{ ...legacy, axesVersion: '2.0.0' }]))).toThrow();
   });
   it('rejects malformed, incompatible, oversized and duplicate results', () => {
     for (const input of ['invalid', 'null', '[]', '{"schemaVersion":2,"results":[]}', ' '.repeat(1_000_001)]) expect(() => parseHistory(input)).toThrow();
@@ -60,4 +71,14 @@ describe('unavailable or invalid storage', () => {
     vi.spyOn(localStorage, 'setItem').mockImplementation(() => { throw new Error('Quota'); });
     expect(writeHistory([result])).toMatch(/could not save/);
   });
+});
+
+it('preserves bank 2 history after the Authority–Liberty revision, without recalculating scores', () => {
+  const previous = { ...result, questionBankVersion: '2.0.0', axesVersion: '2.0.0' };
+  expect(parseHistory(serializeHistory([previous]))).toEqual([previous]);
+});
+
+it('preserves bank 3 scores after the bounded-policy revision', () => {
+  const previous = { ...result, questionBankVersion: '3.0.0', axesVersion: '2.0.0', scores: result.scores.map(s => ({ ...s, leftPercent: 46.9, rightPercent: 53.1 })) };
+  expect(parseHistory(serializeHistory([previous]))).toEqual([previous]);
 });

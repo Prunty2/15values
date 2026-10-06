@@ -1,0 +1,18 @@
+.graphic { margin-bottom: 36px; }
+.breadcrumb { display: flex; flex-wrap: wrap; gap: 6px; font-size: 13px; line-height: 1.7; color: var(--muted); margin-bottom: 18px; }
+.breadcrumb a:hover { text-decoration: underline; text-underline-offset: 4px; }
+.hero { display: grid; grid-template-columns: minmax(0, 2.1fr) minmax(250px, 1fr); background: var(--paper); border: 1px solid var(--line); border-top: 5px solid var(--profile-color); border-radius: 28px; overflow: hidden; }
+.intro { min-width: 0; padding: 36px; }
+.category { color: var(--muted); font-size: 13px; line-height: 1.5; margin-bottom: 14px; }
+.intro h1 { font-size: clamp(40px, 5.6vw, 68px); line-height: 1.08; letter-spacing: -2px; overflow-wrap: anywhere; }
+.description { color: var(--muted); font-size: 17px; line-height: 1.6; margin-top: 18px; }
+.flag { margin: 0; padding: 36px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; background: color-mix(in srgb, var(--profile-color) 8%, var(--paper)); }
+.flag img { display: block; width: 100%; max-height: 240px; object-fit: contain; filter: drop-shadow(0 8px 12px #0001); }
+@media (max-width: 700px) {
+  .hero { grid-template-columns: minmax(0, 1fr); border-radius: 22px; }
+  .intro { padding: 27px 23px; }
+  .intro h1 { font-size: 42px; letter-spacing: -1.4px; }
+  .description { font-size: 15px; }
+  .flag { grid-row: 1; padding: 28px; }
+  .flag img { max-width: 240px; max-height: 150px; }
+}

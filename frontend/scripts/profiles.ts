@@ -1,3 +1,5 @@
+import { isReligiousIdentity, isCountryReligionAssessment } from '../src/quiz/religion.ts';
+import type { ReligionAssessment, CountryReligionAssessment } from '../src/quiz/religion.ts';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { existsSync, mkdirSync, readFileSync, readdirSync, renameSync, statSync, writeFileSync } from 'node:fs';
@@ -174,13 +176,46 @@ export function buildCatalogue(base: string, check: boolean) {
       phrases.add(phrase);
     }
   }
+  const religionPaths = files(join(base, 'profile-audit/religion-assessments')).sort((a, b) => Number(a.split('/').pop()!.replace('.json', '')) - Number(b.split('/').pop()!.replace('.json', '')));
+  const religionPath = religionPaths.at(-1);
+  const religionFile = religionPath ? read(religionPath) as { schemaVersion: number; revision: number; answers: { catalogue: string; id: string; answer: ReligionAssessment; representativePersonalityId?: string }[] } : null;
+  if (!religionFile && resolve(base) === root) fail('A sourced religion supplement is required for this catalogue.');
+  if (religionFile && (religionFile.schemaVersion !== 1 || !Number.isSafeInteger(religionFile.revision) || religionFile.revision < 1 || religionFile.revision !== religionPaths.length || religionPaths.some((path, index) => !path.endsWith('/' + (index + 1) + '.json')) || !Array.isArray(religionFile.answers))) fail('Invalid religion assessment file.');
+  const religions = new Map<string, { answer: ReligionAssessment; representativePersonalityId?: string }>();
+  for (const entry of religionFile?.answers ?? []) {
+    const key = entry.catalogue + '/' + entry.id;
+    const answer = entry.answer;
+    if (!['ideology', 'personality'].includes(entry.catalogue) || religions.has(key) || !profiles.some(profile => profile.catalogue === entry.catalogue && profile.id === entry.id) || !answer || !isReligiousIdentity(answer.value) || !['direct', 'inferred', 'undisclosed'].includes(answer.basis) || !answer.rationale?.trim() || !Array.isArray(answer.sources) || !answer.sources.length || answer.sources.some(source => !source.title?.trim() || !/^https?:\/\//.test(source.url)) || (answer.basis === 'inferred' && !answer.rationale.startsWith('Educated assumption:'))) fail('Invalid religion answer: ' + key);
+    if (entry.representativePersonalityId && !profiles.some(profile => profile.catalogue === 'personality' && profile.id === entry.representativePersonalityId && profile.id !== entry.id)) fail('Invalid representative: ' + key);
+    religions.set(key, entry);
+  }
+  const countryReligionPaths = files(join(base, 'profile-audit/country-religion-assessments')).sort((a, b) => Number(a.split('/').pop()!.replace('.json', '')) - Number(b.split('/').pop()!.replace('.json', '')));
+  const countryReligionPath = countryReligionPaths.at(-1);
+  const countryReligionFile = countryReligionPath ? read(countryReligionPath) as { schemaVersion: number; revision: number; answers: { id: string; assessment: CountryReligionAssessment }[] } : null;
+  if (!countryReligionFile && resolve(base) === root) fail('A sourced country religion supplement is required.');
+  if (countryReligionFile && (countryReligionFile.schemaVersion !== 1 || countryReligionFile.revision !== countryReligionPaths.length || countryReligionPaths.some((path, index) => !path.endsWith('/' + (index + 1) + '.json')) || !Array.isArray(countryReligionFile.answers))) fail('Invalid country religion supplement.');
+  const countryReligions = new Map<string, CountryReligionAssessment>();
+  for (const entry of countryReligionFile?.answers ?? []) {
+    if (countryReligions.has(entry.id) || !profiles.some(profile => profile.catalogue === 'country' && profile.id === entry.id) || !isCountryReligionAssessment(entry.assessment)) fail('Invalid country religion assessment: ' + entry.id);
+    countryReligions.set(entry.id, entry.assessment);
+  }
   const visibleProfiles = withIdeologyMatches(profiles.filter(profile => !exclusions.has(`${profile.catalogue}/${profile.id}`)).map(profile => {
+    if (profile.catalogue === 'country') {
+      const countryReligion = countryReligions.get(profile.id);
+      if (countryReligionFile && !countryReligion) fail('Missing country religion assessment: ' + profile.id);
+      if (countryReligion) profile = { ...profile, countryReligion };
+    }
+    const religion = religions.get(profile.catalogue + '/' + profile.id);
+    if (religionFile && profile.catalogue !== 'country' && !religion) fail('Missing religion answer: ' + profile.catalogue + '/' + profile.id);
+    if (religion) profile = { ...profile, religion: religion.answer, religionRevision: religionFile!.revision, ...(religion.representativePersonalityId ? { representativePersonalityId: religion.representativePersonalityId } : {}) };
     const name = names.get(`${profile.catalogue}/${profile.id}`);
     if (name) profile = { ...profile, metadata: { ...profile.metadata, name } };
     const withdrawal = withdrawals.get(`${profile.catalogue}/${profile.id}/${profile.revision}`);
     return withdrawal ? { ...profile, scores: [], withdrawal } : profile;
   }));
   const outputs = new Map<string, string>([[join(base, 'frontend/public/profiles/catalogue.v1.json'), json({ schemaVersion: 1, profiles: visibleProfiles })]]);
+  for (const path of countryReligionPaths) outputs.set(join(base, 'frontend/public/profiles/country-religion-assessments', path.split('/').pop()!), json(read(path)));
+  for (const path of religionPaths) outputs.set(join(base, 'frontend/public/profiles/religion-assessments', path.split('/').pop()!), json(read(path)));
   for (const { audit } of all) outputs.set(join(base, 'frontend/public/profiles/audits', audit.catalogue, audit.id, `${audit.revision}.json`), json(audit));
   for (const path of files(join(base, 'frontend/public/profiles/audits'))) {
     if (!outputs.has(path)) fail(`Orphan generated audit: ${relative(base, path)}. Investigate missing source archives.`);
@@ -212,7 +247,7 @@ export function run(args: string[], base = root) {
   if (command === 'history') {
     if (args.length !== 2 || !catalogue || catalogue.startsWith('-')) fail('Usage: npm run profiles -- history <base-ref>');
     const reference = execFileSync('git', ['rev-parse', '--verify', `${catalogue}^{commit}`], { cwd: base, encoding: 'utf8' }).trim();
-    const changed = execFileSync('git', ['diff', '--name-status', '--no-renames', reference, '--', 'profile-audit/answers', 'frontend/public/profiles/images'], { cwd: base, encoding: 'utf8' });
+    const changed = execFileSync('git', ['diff', '--name-status', '--no-renames', reference, '--', 'profile-audit/answers', 'profile-audit/religion-assessments', 'profile-audit/country-religion-assessments', 'frontend/public/profiles/images'], { cwd: base, encoding: 'utf8' });
     const edits = changed.split('\n').filter(line => line && !line.startsWith('A\t'));
     if (edits.length) fail(`Archived assessments and existing profile images are immutable. Add a new revision instead:\n${edits.join('\n')}`);
     console.log('Archive and image history preserved.');

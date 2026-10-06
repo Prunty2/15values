@@ -3,7 +3,7 @@ import { readFileSync } from 'node:fs';
 import { axes, AXES_VERSION, QUESTION_BANK_VERSION, SCORING_VERSION, scoreAnswers, selectQuestions } from '../src/quiz/model';
 import type { Answer, Answers, QuizResult } from '../src/quiz/model';
 import { ideologyGroup } from '../src/profiles/ideologyGroups';
-import { matchResultIdeology } from '../src/profiles/ideologyMatching';
+import { matchResultIdeology, matchResultProfiles } from '../src/profiles/ideologyMatching';
 import { parseCatalogue } from '../src/profiles/catalogueData';
 import { serializeHistory } from '../src/quiz/history';
 
@@ -30,15 +30,23 @@ test('profile layout, all endpoints, help controls and complementary percentages
   const match = matchResultIdeology(result, profiles)!;
   const groupColours = match.ideologies.map(item => ideologyGroup(profiles.find(profile => profile.catalogue === 'ideology' && profile.id === item.id)!).color);
   const expectedColour = groupColours.every(colour => colour === groupColours[0]) ? groupColours[0] : '#59676d';
-  const comparisons = page.getByRole('region', { name: 'Result comparisons' });
+  const comparisons = page.getByRole('region', { name: 'Result comparisons' }).first();
   await expect(comparisons).toBeVisible();
   await expect.poll(() => comparisons.evaluate(element => getComputedStyle(element).getPropertyValue('--result-color').trim())).toBe(expectedColour);
-  const quote = page.getByRole('region', { name: 'The closest ideology’s perspective' });
+  const quote = page.getByRole('region', { name: 'Ideology perspective' });
   expect(Math.abs((await comparisons.boundingBox())!.width - (await quote.boundingBox())!.width)).toBeLessThan(1);
   for (const ideology of match.ideologies) {
     await expect(comparisons.getByRole('link', { name: ideology.name, exact: true })).toHaveAttribute('href', '#/ideologies/' + ideology.id);
   }
   await expect(comparisons.getByText((100 - match.meanAbsoluteDistance).toFixed(1) + '%', { exact: true })).toBeVisible();
+  for (const kind of ['personality', 'country'] as const) {
+    const match = matchResultProfiles(result, profiles, kind)!;
+    const row = comparisons.locator('[aria-label="Most compatible ' + kind + '"]');
+    for (const profile of match.profiles) {
+      await expect(row.getByRole('link', { name: profile.metadata.name, exact: true })).toHaveAttribute('href', '#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id);
+    }
+    await expect(row.getByText((100 - match.meanAbsoluteDistance).toFixed(1) + '% similarity', { exact: true })).toBeVisible();
+  }
   await expect(page.locator('blockquote')).toHaveText(match.ideologies.map(ideology => profiles.find(profile => profile.catalogue === 'ideology' && profile.id === ideology.id)!.metadata.phrase!));
   await expect(page.getByText('Your results · 15 independent axes', { exact: true })).toHaveCount(0);
   for (const [index, axis] of axes.entries()) {
@@ -82,10 +90,8 @@ test('legacy results display and export their original method without recalculat
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'legacy.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([legacy])) });
   await expect(page.getByText('Original scoring', { exact: true })).toBeVisible();
   await page.getByRole('button', { name: 'View result', exact: true }).click();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).getByRole('status')).toContainText('No compatible ideology assessments');
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('status')).toContainText('No compatible ideology assessments');
   await expect(page.locator('blockquote')).toHaveCount(0);
-  await page.getByText('How these scores are calculated', { exact: false }).click();
-  await expect(page.getByText(/This saved result uses the original scoring method/)).toBeVisible();
   const download = page.waitForEvent('download');
   await page.getByRole('button', { name: 'Export result', exact: true }).click();
   const file = JSON.parse(readFileSync((await (await download).path())!, 'utf8'));
@@ -97,18 +103,17 @@ test('empty history and saved cards are responsive, and saved profiles reopen af
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('./#/results');
   await expect(page.getByRole('heading', { name: 'Your first perspective starts here.' })).toBeVisible();
-  await expect(page.getByRole('button', { name: 'Import JSON', exact: true })).toBeHidden();
+  await expect(page.getByRole('button', { name: 'Import JSON', exact: true })).toBeVisible();
   await expect(page.getByText('Your browser · Your history')).toHaveCount(0);
   for (const width of [1440, 390, 320]) {
     await page.setViewportSize({ width, height: 950 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
   const older = { ...result, id: 'older-result', completedAt: '2026-10-03T01:00:00.000Z' };
-  await page.getByText('Manage history', { exact: true }).click();
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'history.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([older, result])) });
   await expect(page.getByRole('button', { name: 'View result', exact: true })).toHaveCount(2);
-  await expect(page.getByRole('img', { name: /^15-axis preview/ })).toHaveCount(2);
-  await page.getByText('Manage history', { exact: true }).click();
+  await expect(page.getByRole('img', { name: /^15-axis preview/ })).toHaveCount(0);
+  await expect(page.getByLabel('Most compatible personality')).toHaveCount(2);
   for (const width of [1440, 768, 390, 320]) {
     await page.setViewportSize({ width, height: 950 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
@@ -135,10 +140,10 @@ test('comparison fetch failure can be retried without losing the result', async 
   await page.goto('./#/results');
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'profile.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([result])) });
   await page.getByRole('button', { name: 'View result', exact: true }).click();
-  await expect(page.getByRole('alert')).toHaveText('Ideology comparisons could not be loaded.');
+  await expect(page.getByRole('alert').first()).toHaveText('Profile comparisons could not be loaded.');
   await page.unroute('**/profiles/catalogue.v1.json');
-  await page.getByRole('button', { name: 'Try again', exact: true }).click();
-  await expect(page.getByRole('region', { name: 'Result comparisons' }).getByRole('link')).not.toHaveCount(0);
+  await page.getByRole('button', { name: 'Try again', exact: true }).first().click();
+  await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link')).not.toHaveCount(0);
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Your perspective profile.');
 });
 

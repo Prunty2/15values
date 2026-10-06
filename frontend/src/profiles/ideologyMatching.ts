@@ -1,15 +1,19 @@
+import { religionEligible, countryReligionEligible } from '../quiz/religion.ts';
+import type { ReligiousIdentity, ReligionAssessment, CountryReligionAssessment } from '../quiz/religion.ts';
 import { similarity } from './audit.ts';
 import type { QuizResult } from '../quiz/model.ts';
 import type { Profile, IdeologyMatch } from './types.ts';
 
-/** Labels and identity never affect distance; every independent axis has equal weight. */
+type MatchSubject = Pick<QuizResult, 'scores' | 'axesVersion' | 'questionBankVersion' | 'scoringVersion'> & { religiousIdentity?: ReligiousIdentity; religion?: ReligionAssessment; countryReligion?: CountryReligionAssessment; catalogue?: Profile['catalogue'] };
+const eligibleIdeology = (subject: MatchSubject, candidate: Profile) => subject.catalogue === 'country' ? countryReligionEligible(candidate.religion?.value, subject.countryReligion) : religionEligible(candidate.religion?.value, subject.religiousIdentity ?? subject.religion?.value);
+/** Identity filters eligibility; every independent axis still has equal weight. */
 export function closestIdeology(subject: Profile, profiles: Profile[]): IdeologyMatch | null {
   if (subject.catalogue === 'ideology' || subject.withdrawal) return null;
   return matchResultIdeology(subject, profiles);
 }
 
-export function matchResultIdeology(subject: Pick<QuizResult, 'scores' | 'axesVersion' | 'questionBankVersion' | 'scoringVersion'>, profiles: Profile[]): IdeologyMatch | null {
-  const candidates = profiles.filter(profile => profile.catalogue === 'ideology' && !profile.withdrawal &&
+export function matchResultIdeology(subject: MatchSubject, profiles: Profile[]): IdeologyMatch | null {
+  const candidates = profiles.filter(profile => profile.catalogue === 'ideology' && !profile.withdrawal && eligibleIdeology(subject, profile) &&
     profile.axesVersion === subject.axesVersion && profile.questionBankVersion === subject.questionBankVersion &&
     profile.scoringVersion === subject.scoringVersion);
   let minimum = Infinity;
@@ -28,11 +32,11 @@ export function withIdeologyMatches(profiles: Profile[]): Profile[] {
 }
 
 /** Explain the numerical neighbour without turning it into a classification. */
-export function ideologyComparisonDetails(subject: Pick<QuizResult, 'scores' | 'axesVersion' | 'questionBankVersion' | 'scoringVersion'>, profiles: Profile[]) {
+export function ideologyComparisonDetails(subject: MatchSubject, profiles: Profile[]) {
   const match = matchResultIdeology(subject, profiles);
   if (!match) return null;
   const scores = new Map(subject.scores.map(score => [score.axisId, score.leftPercent]));
-  const compatible = profiles.filter(profile => profile.catalogue === 'ideology' && !profile.withdrawal &&
+  const compatible = profiles.filter(profile => profile.catalogue === 'ideology' && !profile.withdrawal && eligibleIdeology(subject, profile) &&
     profile.axesVersion === subject.axesVersion && profile.questionBankVersion === subject.questionBankVersion && profile.scoringVersion === subject.scoringVersion);
   const ranked = compatible.map(profile => ({ profile, distance: 100 - similarity(subject.scores, profile.scores) }))
     .sort((a, b) => a.distance - b.distance || a.profile.id.localeCompare(b.profile.id));
@@ -47,4 +51,15 @@ export function ideologyComparisonDetails(subject: Pick<QuizResult, 'scores' | '
       return { profile, gaps };
     }),
   };
+}
+
+/** Equal-axis comparison against active assessments of the requested catalogue. */
+export function matchResultProfiles(subject: MatchSubject, profiles: Profile[], catalogue: Profile['catalogue']) {
+  const candidates = profiles.filter(profile => profile.catalogue === catalogue && !profile.withdrawal &&
+    (catalogue !== 'country' || subject.catalogue !== 'ideology' || countryReligionEligible(subject.religion?.value, profile.countryReligion)) &&
+    (catalogue !== 'personality' || subject.catalogue !== 'ideology' || religionEligible(subject.religion?.value, profile.religion?.value)) &&
+    profile.axesVersion === subject.axesVersion && profile.questionBankVersion === subject.questionBankVersion && profile.scoringVersion === subject.scoringVersion);
+  const ranked = candidates.map(profile => ({ profile, distance: 100 - similarity(subject.scores, profile.scores) })).sort((a, b) => a.distance - b.distance || a.profile.id.localeCompare(b.profile.id));
+  if (!ranked.length) return null;
+  return { meanAbsoluteDistance: ranked[0].distance, profiles: ranked.filter(item => Math.abs(item.distance - ranked[0].distance) <= 1e-9).map(item => item.profile).sort((a, b) => a.id.localeCompare(b.id)) };
 }

@@ -1,3 +1,4 @@
+import { isReligiousIdentity } from './religion';
 import { axes, AXES_VERSION, QUESTION_BANK_VERSION, SCORING_VERSION, getFormat, isQuizLength } from './model';
 import type { QuizResult } from './model';
 
@@ -18,8 +19,9 @@ export function parseHistory(text: string): QuizResult[] {
     if (!record(result) || typeof result.id !== 'string' || !/^[a-zA-Z0-9-]{1,80}$/.test(result.id) || ids.has(result.id)
       || typeof result.completedAt !== 'string' || !Number.isFinite(Date.parse(result.completedAt))
       || new Date(result.completedAt).toISOString() !== result.completedAt || !isQuizLength(result.length)
-      || result.questionBankVersion !== QUESTION_BANK_VERSION || (result.scoringVersion !== SCORING_VERSION && result.scoringVersion !== '1.0.0') || result.axesVersion !== AXES_VERSION
+      || !(((result.questionBankVersion === QUESTION_BANK_VERSION || result.questionBankVersion === '2.0.0' || result.questionBankVersion === '3.0.0') && result.axesVersion === AXES_VERSION) || (result.questionBankVersion === '1.0.0' && result.axesVersion === '1.0.0')) || (result.scoringVersion !== SCORING_VERSION && result.scoringVersion !== '1.0.0')
       || !Array.isArray(result.scores) || result.scores.length !== axes.length) throw invalid();
+    if (result.religiousIdentity !== undefined && !isReligiousIdentity(result.religiousIdentity)) throw invalid();
     ids.add(result.id);
     const perAxis = getFormat(result.length).perAxis;
     const rawScores = result.scores;
@@ -33,7 +35,7 @@ export function parseHistory(text: string): QuizResult[] {
         || typeof score.neutral !== 'number' || !Number.isInteger(score.neutral) || score.neutral < 0 || score.neutral > perAxis) throw invalid();
       return { axisId: axis.id, leftPercent: score.leftPercent, rightPercent: score.rightPercent, answered: perAxis, neutral: score.neutral };
     });
-    return { id: result.id, completedAt: result.completedAt, length: result.length, questionBankVersion: QUESTION_BANK_VERSION, scoringVersion: result.scoringVersion as string, axesVersion: AXES_VERSION, scores };
+    return { ...(result.religiousIdentity !== undefined ? { religiousIdentity: result.religiousIdentity } : {}), id: result.id, completedAt: result.completedAt, length: result.length, questionBankVersion: result.questionBankVersion as string, scoringVersion: result.scoringVersion as string, axesVersion: result.axesVersion as string, scores };
   });
 }
 export function serializeHistory(results: QuizResult[]): string {

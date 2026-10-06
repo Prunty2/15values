@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-06",
+  "supplementRevision": 1,
+  "answered": 156,
+  "personalities": 105,
+  "ideologies": 51,
+  "politicalAnswersPreserved": "240/240 for each of the existing profiles; religion is a separate unscored response.",
+  "generatedCatalogue": {
+    "result": "passed",
+    "profiles": 203,
+    "withdrawn": 0
+  },
+  "archiveHistory": "passed: npm run profiles -- history HEAD",
+  "unitTests": {
+    "passed": 106,
+    "files": 9
+  },
+  "browserTests": {
+    "quizAndCatalogue": 66,
+    "religionAndResults": 18,
+    "totalPassed": 84,
+    "browsers": [
+      "desktop Chromium",
+      "mobile Chromium",
+      "WebKit Safari"
+    ],
+    "coverage": [
+      "All four quiz lengths require a final identity answer and explicitly submit results",
+      "Scores exported equal the pure scoring output",
+      "Hindu/Islamic/Christian hard eligibility gates, unrestricted general ideologies, none, undisclosed, missing legacy identity",
+      "All 105 personalities checked for eligible calculated ideology matches",
+      "All countries unchanged by the identity filter",
+      "Hindu nationalism Right tag and linked Modi representative",
+      "Review, editing, history, export/import, storage failure, keyboard and small screens"
+    ]
+  },
+  "build": "passed: catalogue check, TypeScript and production Vite build",
+  "disclosure": "17 inferred personality identities and 51 inferred ideology eligibility interpretations; exact IDs in review.json; 8 private/disputed identities use undisclosed",
+  "notes": [
+    "Earlier browser failures exposed and corrected the final-step layout, then all targeted suites passed.",
+    "Existing results selectors were scoped to the active comparison because saved cards now also contain comparisons."
+  ]
+}

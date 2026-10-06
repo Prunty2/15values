@@ -25,6 +25,7 @@
   font-display: swap;
 }
 :root {
+  color-scheme: light;
   font-family: 'Clarity City', sans-serif;
   color: var(--ink);
   background: var(--canvas);
@@ -47,11 +48,99 @@
   --on-accent: #fffaf0;
   --brand-light: #b5c6a7;
   --brand-medium: #829978;
+  --profile-color-weight: 100%;
+  --accent-hover-target: black;
+  --catalogue-accent: #4f6b55;
+  --on-profile: #faf7ef;
+  --inverse-surface: #193b2d;
+  --inverse-ink: #fffaf0;
+  --inverse-muted: #d2dfce;
+  --inverse-line: #53715d;
+  --card-paper: #fcfaf4;
+  --card-line: #e1e4d7;
+  --card-muted: #63725e;
+  --pole-ink: #2c4333;
+  --pole-left-surface: #e5ecdf;
+  --pole-left-ink: #36523e;
+  --pole-right-surface: #ede8dc;
+  --pole-right-ink: #514d3c;
+  --card-description: #4e594d;
+  --profile-ink: #111;
+  --profile-muted: #605e58;
+  --profile-line: #e3dfd3;
+  --profile-badge: #ece8dd;
+  --track: #dedcce;
+  --midpoint: #6e7267;
+  --answer-ink: #66685d;
+  --answer-surface: #efeee7;
+  --answer-line: #c8c9bd;
+  --agree-ink: #246346;
+  --agree-surface: #e8f2e9;
+  --agree-line: #aecbb6;
+  --disagree-ink: #a33e43;
+  --disagree-surface: #f8e9e9;
+  --disagree-line: #dfb4b7;
+  --question-number-palette: --quiz-number;
   --display: 'Clarity City', sans-serif;
   --motion-fast: 160ms;
   --motion-medium: 280ms;
   --motion-ease: cubic-bezier(.22, 1, .36, 1);
   --header-height: 100px;
+}
+/* Follow system theme changes without storing a separate preference. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --accent: #aec7a4;
+    --accent-hover: #c4dabd;
+    --ink: #e5eadf;
+    --muted: #b3bfae;
+    --forest: #c4dabd;
+    --canvas: #151c17;
+    --paper: #1c261f;
+    --surface: #263129;
+    --sage: #2a382b;
+    --surface-hover: #364735;
+    --surface-selected: #2b3b2d;
+    --line: #3c493d;
+    --border-strong: #74866d;
+    --on-accent: #17231a;
+    --brand-light: #8ba77d;
+    --brand-medium: #6b8960;
+    --profile-color-weight: 50%;
+    --accent-hover-target: var(--ink);
+    --inverse-surface: #1d3528;
+    --card-paper: var(--paper);
+    --card-line: var(--line);
+    --card-muted: var(--muted);
+    --pole-ink: var(--ink);
+    --pole-left-surface: #2c3d2d;
+    --pole-left-ink: #c0d5b7;
+    --pole-right-surface: #3b372b;
+    --pole-right-ink: #d8cfb3;
+    --card-description: var(--muted);
+    --profile-ink: var(--ink);
+    --profile-muted: var(--muted);
+    --profile-line: var(--line);
+    --profile-badge: var(--surface);
+    --track: #414c40;
+    --midpoint: #a0ad99;
+    --answer-ink: #c7ccbd;
+    --answer-surface: #30372d;
+    --answer-line: #79816f;
+    --agree-ink: #b0dbbd;
+    --agree-surface: #233d2d;
+    --agree-line: #6e9c7a;
+    --disagree-ink: #efb6ba;
+    --disagree-surface: #442c30;
+    --disagree-line: #b27b81;
+    --question-number-palette: --quiz-number-dark;
+  }
+}
+@font-palette-values --quiz-number-dark {
+  font-family: 'Bitcount Ink';
+  base-palette: 0;
+  override-colors: 0 #aec7a4, 1 #aec7a4, 2 #aec7a4, 3 #aec7a4, 4 #aec7a4, 5 #aec7a4, 6 #aec7a4, 7 #aec7a4, 8 #aec7a4, 9 #aec7a4, 10 #aec7a4, 11 #aec7a4, 12 #aec7a4, 13 #aec7a4, 14 #aec7a4, 15 #aec7a4, 16 #aec7a4, 17 #aec7a4, 18 #aec7a4, 19 #aec7a4, 20 #aec7a4, 21 #aec7a4, 22 #aec7a4, 23 #aec7a4, 24 #aec7a4, 25 #aec7a4, 26 #aec7a4, 27 #aec7a4, 28 #aec7a4;
 }
 * { box-sizing: border-box; }
 html { scrollbar-gutter: stable; }

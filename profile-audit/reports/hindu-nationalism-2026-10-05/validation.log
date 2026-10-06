@@ -1,0 +1,149 @@
+
+> 15-values-quiz@0.0.0 profiles
+> node --experimental-strip-types scripts/profiles.ts validate ideology hindu-nationalism
+
+{
+  "errors": [],
+  "warnings": [
+    "restricted-immigration-open-immigration: 5/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "militarist-pacifist: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "public-private: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "high-redistribution-low-redistribution: 6/16 neutral answers; check that these express a supported position, not missing evidence.",
+    "culture-nature: 6/16 neutral answers; check that these express a supported position, not missing evidence."
+  ],
+  "neighbours": [
+    {
+      "id": "nationalist-conservatism",
+      "revision": 3,
+      "similarity": 92.39333333333333
+    },
+    {
+      "id": "militarism",
+      "revision": 2,
+      "similarity": 90.10666666666667
+    },
+    {
+      "id": "alt-lite",
+      "revision": 2,
+      "similarity": 89.18
+    },
+    {
+      "id": "neoconservatism",
+      "revision": 3,
+      "similarity": 88.33333333333333
+    },
+    {
+      "id": "christian-accelerationism",
+      "revision": 2,
+      "similarity": 88.12
+    }
+  ],
+  "scores": [
+    {
+      "axisId": "democracy-autocracy",
+      "leftPercent": 79.7,
+      "rightPercent": 20.3,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "authority-liberty",
+      "leftPercent": 62.5,
+      "rightPercent": 37.5,
+      "answered": 16,
+      "neutral": 4
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "leftPercent": 73.4,
+      "rightPercent": 26.6,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "leftPercent": 67.2,
+      "rightPercent": 32.8,
+      "answered": 16,
+      "neutral": 5
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "leftPercent": 68.8,
+      "rightPercent": 31.2,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "leftPercent": 76.6,
+      "rightPercent": 23.4,
+      "answered": 16,
+      "neutral": 3
+    },
+    {
+      "axisId": "public-private",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "leftPercent": 70.3,
+      "rightPercent": 29.7,
+      "answered": 16,
+      "neutral": 4
+    },
+    {
+      "axisId": "planning-free-market",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 6
+    },
+    {
+      "axisId": "secular-religious",
+      "leftPercent": 53.1,
+      "rightPercent": 46.9,
+      "answered": 16,
+      "neutral": 1
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "leftPercent": 23.4,
+      "rightPercent": 76.6,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "innovation-caution",
+      "leftPercent": 50,
+      "rightPercent": 50,
+      "answered": 16,
+      "neutral": 2
+    },
+    {
+      "axisId": "central-local",
+      "leftPercent": 59.4,
+      "rightPercent": 40.6,
+      "answered": 16,
+      "neutral": 4
+    },
+    {
+      "axisId": "culture-nature",
+      "leftPercent": 67.2,
+      "rightPercent": 32.8,
+      "answered": 16,
+      "neutral": 6
+    }
+  ]
+}
+

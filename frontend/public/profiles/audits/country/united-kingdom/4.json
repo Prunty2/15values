@@ -1,0 +1,3091 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "united-kingdom",
+  "revision": 4,
+  "questionBankVersion": "3.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "3a0628f8d67aa9ad9d217d71c419fd3dceab6dffedadc694e36d0a904acc29c4",
+  "researchedAt": "2026-10-06",
+  "author": "Codex: UK full question-level reassessment",
+  "changeNote": "Full owner-requested UK re-audit: all 240 current-bank questions reassessed individually from a fresh source review, with implemented policy, enforcement, territorial variation and proposals distinguished. No target ideology or axis percentage was selected. Previous revisions preserved. Uses the current bank 3.0.0 already present in the workspace; does not modify questions or scoring. During assessment the shared bank wording of authority-liberty-02 changed from content to records; that question was reassessed using the bulk communications-data code. All other 239 current question texts were compared with the saved prompt and were unchanged.",
+  "metadata": {
+    "name": "United Kingdom",
+    "description": "UK institutions and implemented policies as at 6 October 2026: parliamentary government, a mixed economy, selective migration routes and cultural accommodation alongside civic integration. This is an institutional assessment, not the opinions of UK residents.",
+    "category": "Parliamentary constitutional monarchy",
+    "period": "Institutions and implemented policy at 6 October 2026; Labour administration since July 2024",
+    "scope": "United Kingdom national institutions and implemented policy, identifying England-only rules and devolved differences. Announced reforms are not treated as completed. Legal recognition is distinguished from public attitudes. Educated assumptions disclose where country-level practice does not settle an exact normative or causal statement.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/united-kingdom-r1.png",
+      "alt": "Union Flag of the United Kingdom in the 3:5 land-use proportions",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
+      "creator": "Original design: Acts of Union 1800; vector: Yaddah",
+      "license": "Public domain (expired Crown copyright; Public Domain Mark 1.0)",
+      "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+    }
+  },
+  "sources": [
+    {
+      "id": "pm",
+      "title": "Prime Minister: current role holder",
+      "url": "https://www.gov.uk/government/ministers/prime-minister",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "freedom",
+      "title": "United Kingdom: Freedom in the World 2026",
+      "url": "https://freedomhouse.org/country/united-kingdom/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "hrw",
+      "title": "World Report 2026: United Kingdom",
+      "url": "https://www.hrw.org/world-report/2026/country-chapters/united-kingdom",
+      "publisher": "Human Rights Watch",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "recall",
+      "title": "Recall elections",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/sn05089/",
+      "publisher": "House of Commons Library",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "equality",
+      "title": "Public Sector Equality Duty: guidance for public authorities",
+      "url": "https://www.gov.uk/government/publications/public-sector-equality-duty-guidance-for-public-authorities/public-sector-equality-duty-guidance-for-public-authorities",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "cohesion",
+      "title": "Protecting What Matters",
+      "url": "https://www.gov.uk/government/publications/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom/protecting-what-matters-towards-a-more-confident-cohesive-and-resilient-united-kingdom",
+      "publisher": "UK Government",
+      "date": "2026-04-28",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "skilled",
+      "title": "Immigration Rules Appendix Skilled Worker",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-skilled-worker",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "migration-rules",
+      "title": "Immigration Rules",
+      "url": "https://www.gov.uk/guidance/immigration-rules",
+      "publisher": "UK Government",
+      "date": "2026-08-03",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "defence",
+      "title": "Strategic Defence Review 2025",
+      "url": "https://www.gov.uk/government/publications/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad/the-strategic-defence-review-2025-making-britain-safer-secure-at-home-strong-abroad",
+      "publisher": "UK Government",
+      "date": "2025-06-02",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "trade",
+      "title": "The UK’s Trade Strategy",
+      "url": "https://www.gov.uk/government/publications/uk-trade-strategy/the-uks-trade-strategy",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "steel",
+      "title": "The UK steel strategy",
+      "url": "https://www.gov.uk/government/publications/steel-strategy/the-uk-steel-strategy-web-version",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rail",
+      "title": "Great British Railways and public ownership programme",
+      "url": "https://www.gov.uk/guidance/great-british-railways",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "gbe",
+      "title": "GBE annual report and accounts 2025 to 2026",
+      "url": "https://www.gov.uk/government/publications/great-british-energy-annual-report-and-accounts-2025-to-2026/gbe-annual-report-and-accounts-2025-to-2026-html",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "nwf",
+      "title": "National Wealth Fund annual report to 31 March 2026",
+      "url": "https://www.gov.uk/government/publications/national-wealth-fund-limited-annual-report-and-accounts-year-to-31-march-2026",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "industrial",
+      "title": "UK Modern Industrial Strategy",
+      "url": "https://www.business.gov.uk/campaign/industrial-strategy/?lang=en-gb",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "budget",
+      "title": "Budget 2025",
+      "url": "https://www.gov.uk/government/publications/budget-2025-document/budget-2025-html",
+      "publisher": "HM Treasury",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "uc",
+      "title": "Universal Credit payments for more than two children",
+      "url": "https://www.gov.uk/guidance/universal-credit-and-families-with-more-than-2-children-information-for-claimants",
+      "publisher": "UK Government",
+      "date": "2026-04-22",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rent",
+      "title": "Renters’ Rights Act overview for tenants",
+      "url": "https://www.gov.uk/guidance/renters-rights-act-overview-for-tenants",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "church",
+      "title": "Relationship between church and state in the UK",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-8886/",
+      "publisher": "House of Commons Library",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "prayers",
+      "title": "Prayers",
+      "url": "https://www.parliament.uk/about/how/business/prayers/",
+      "publisher": "UK Parliament",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rse-statement",
+      "title": "Updated RSHE statutory guidance",
+      "url": "https://questions-statements.parliament.uk/written-statements/detail/2025-07-16/hcws825",
+      "publisher": "UK Parliament",
+      "date": "2025-07-16",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ai",
+      "title": "AI Opportunities Action Plan: government response",
+      "url": "https://www.gov.uk/government/publications/ai-opportunities-action-plan-government-response",
+      "publisher": "UK Government",
+      "date": "2025-01-13",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "nature-fund",
+      "title": "Implementing the Nature Restoration Fund",
+      "url": "https://www.gov.uk/government/publications/nature-restoration-fund-implementation-plan/implementing-the-nature-restoration-fund",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "precision",
+      "title": "Precision bred plants: releasing and marketing",
+      "url": "https://www.gov.uk/government/publications/precision-bred-plants-releasing-and-marketing",
+      "publisher": "UK Government",
+      "date": "2025-11-13",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "implant",
+      "title": "Clinical investigations in Great Britain",
+      "url": "https://www.gov.uk/guidance/clinical-investigations-in-great-britain",
+      "publisher": "MHRA",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "embryo",
+      "title": "Applying for a research licence",
+      "url": "https://www.hfea.gov.uk/about-us/applying-for-a-research-licence/",
+      "publisher": "HFEA",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "early-years",
+      "title": "Best start in life part 2: the three prime areas of learning",
+      "url": "https://www.gov.uk/government/publications/best-start-in-life-a-research-review-for-early-years/best-start-in-life-part-2-the-3-prime-areas-of-learning",
+      "publisher": "Ofsted",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "paygap",
+      "title": "Understanding the gender pay gap: drivers and barriers",
+      "url": "https://www.gov.uk/government/publications/understanding-the-gender-pay-gap-in-the-uk/understanding-the-gender-pay-gap-in-the-uk-drivers-and-barriers-evidence-from-uklhs-2009-to-2023",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "adhd",
+      "title": "ADHD in children and young people",
+      "url": "https://www.nhs.uk/conditions/adhd-children-teenagers/",
+      "publisher": "NHS",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "stress",
+      "title": "Stress: Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/mental-health-issues/stress/",
+      "publisher": "NHS",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "phobia",
+      "title": "Phobias",
+      "url": "https://www.nhs.uk/mental-health/conditions/phobias/",
+      "publisher": "NHS",
+      "date": "2026-03-11",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "search",
+      "title": "Police powers to stop and search",
+      "url": "https://www.gov.uk/police-powers-to-stop-and-search-your-rights/police-powers-stop-search",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "pace",
+      "title": "PACE Code B 2023",
+      "url": "https://www.gov.uk/government/publications/pace-code-b-2023/pace-code-b-2023-accessible",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "anpr",
+      "title": "National ANPR standards for policing and law enforcement",
+      "url": "https://www.gov.uk/government/publications/national-anpr-standards/national-anpr-standards-for-policing-and-law-enforcement-accessible-version",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "guns",
+      "title": "Guide on firearms licensing law",
+      "url": "https://www.gov.uk/government/publications/firearms-law-guidance-to-the-police-2012/guide-on-firearms-licensing-law-accessible-version",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "terror",
+      "title": "PACE Code H",
+      "url": "https://www.gov.uk/government/publications/revised-pace-code-h-2022/police-and-criminal-evidence-act-1984-pace-code-h-accessible",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "family",
+      "title": "Family visas: financial requirements",
+      "url": "https://www.gov.uk/uk-family-visa/proof-income-partner",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "asylum",
+      "title": "Claim asylum: get a decision",
+      "url": "https://www.gov.uk/claim-asylum/decision",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "funds",
+      "title": "Public funds: accessible guidance",
+      "url": "https://www.gov.uk/government/publications/public-funds/public-funds-accessible",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "weapons-ai",
+      "title": "Ambitious safe responsible: AI-enabled capability in Defence",
+      "url": "https://www.gov.uk/government/publications/ambitious-safe-responsible-our-approach-to-the-delivery-of-ai-enabled-capability-in-defence/ambitious-safe-responsible-our-approach-to-the-delivery-of-ai-enabled-capability-in-defence",
+      "publisher": "Ministry of Defence",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "echr",
+      "title": "UK international human rights obligations",
+      "url": "https://www.gov.uk/government/collections/human-rights-the-uks-international-human-rights-obligations",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "boe",
+      "title": "Bank of England independence",
+      "url": "https://www.bankofengland.co.uk/explainers/how-is-the-bank-of-england-independent-of-the-government",
+      "publisher": "Bank of England",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "tax",
+      "title": "Income tax rates and allowances",
+      "url": "https://www.gov.uk/income-tax-rates",
+      "publisher": "HMRC",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "inheritance",
+      "title": "Inheritance tax",
+      "url": "https://www.gov.uk/inheritance-tax",
+      "publisher": "HMRC",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "uc-eligibility",
+      "title": "Universal Credit eligibility",
+      "url": "https://www.gov.uk/universal-credit/eligibility",
+      "publisher": "Department for Work and Pensions",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "uc-sanction",
+      "title": "Universal Credit sanctions",
+      "url": "https://www.gov.uk/guidance/universal-credit-sanctions",
+      "publisher": "Department for Work and Pensions",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "wage",
+      "title": "National Living Wage increases to £12.71",
+      "url": "https://www.gov.uk/government/news/national-living-wage-increases-to-1271-per-hour",
+      "publisher": "UK Government",
+      "date": "2026-04-01",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bbc",
+      "title": "BBC Royal Charter",
+      "url": "https://www.gov.uk/government/publications/bbc-charter-and-framework-agreement/bbc-charter",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "tariff",
+      "title": "UK Integrated Tariff Schedule",
+      "url": "https://www.gov.uk/government/publications/the-uks-integrated-tariff-schedule/the-uks-integrated-tariff-schedule",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "procure",
+      "title": "Social value in central government contracts",
+      "url": "https://www.gov.uk/government/publications/ppn-002-taking-account-of-social-value-in-the-award-of-contracts/ppn-002-taking-account-of-social-value-in-the-award-of-central-government-contracts-html",
+      "publisher": "Cabinet Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "nhs-private",
+      "title": "Faster care through NHS use of independent sector",
+      "url": "https://www.gov.uk/government/news/faster-care-for-thousands-thanks-to-nhs-use-of-independent-sector",
+      "publisher": "UK Government",
+      "date": "2025-10-26",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "oil",
+      "title": "North Sea Future Plan government response",
+      "url": "https://www.gov.uk/government/consultations/building-the-north-seas-energy-future/outcome/north-sea-future-plan-government-response-accessible-webpage",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "religious-school",
+      "title": "Religious education and collective worship in academies",
+      "url": "https://www.gov.uk/government/publications/re-and-collective-worship-in-academies-and-free-schools/religious-education-re-and-collective-worship-in-academies-and-free-schools",
+      "publisher": "Department for Education",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "charity",
+      "title": "Charitable purposes",
+      "url": "https://www.gov.uk/government/publications/charitable-purposes/charitable-purposes",
+      "publisher": "Charity Commission",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "charity-tax",
+      "title": "Charities and tax: reliefs",
+      "url": "https://www.gov.uk/charities-and-tax/tax-reliefs",
+      "publisher": "HMRC",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "adoption",
+      "title": "Child adoption",
+      "url": "https://www.gov.uk/child-adoption",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "marriage",
+      "title": "Marriage and civil partnership in England and Wales",
+      "url": "https://www.gov.uk/government/publications/marriage-and-civil-partnership-in-england-and-wales/marriage-and-civil-partnership-in-england-and-wales-accessible-version",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "grc",
+      "title": "Apply for a Gender Recognition Certificate",
+      "url": "https://www.gov.uk/apply-gender-recognition-certificate",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "abortion",
+      "title": "Crime and Policing Act: abortion equality impact assessment",
+      "url": "https://www.gov.uk/government/publications/crime-and-policing-act-2026-equality-impact-assessments/equalities-impact-assessment-abortion-and-pardons",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "devolution-guide",
+      "title": "Devolution guidance for civil servants",
+      "url": "https://www.gov.uk/government/publications/devolution-guidance-for-civil-servants/devolution-guidance-for-civil-servants",
+      "publisher": "Cabinet Office",
+      "date": "2025-11-28",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "rewire",
+      "title": "Rewiring the State: Cabinet Statement",
+      "url": "https://www.gov.uk/government/publications/rewiring-the-state-cabinet-statement/rewiring-the-state-cabinet-statement-html",
+      "publisher": "Cabinet Office",
+      "date": "2026-07-31",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "genomics",
+      "title": "Genomics Beyond Health",
+      "url": "https://www.gov.uk/government/publications/genomics-beyond-health/genomics-beyond-health-full-report-accessible-webpage",
+      "publisher": "Government Office for Science",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "violence",
+      "title": "Analysis of indicators of serious violence",
+      "url": "https://www.gov.uk/government/publications/an-analysis-of-indicators-of-serious-violence-findings-from-the-millennium-cohort-study-and-the-environmental-risk-e-risk-longitudinal-twin-study",
+      "publisher": "Home Office",
+      "date": "2019-07-23",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "drugs",
+      "title": "Drugs penalties",
+      "url": "https://www.gov.uk/penalties-drug-possession-dealing",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "seatbelt",
+      "title": "Seat belts: the law",
+      "url": "https://www.gov.uk/seat-belts-law/overview",
+      "publisher": "UK Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "nsi",
+      "title": "National Security and Investment Act: acquisitions guidance",
+      "url": "https://www.gov.uk/guidance/national-security-and-investment-act-guidance-on-acquisitions",
+      "publisher": "Cabinet Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "stablecoins",
+      "title": "Sterling-denominated systemic stablecoins",
+      "url": "https://www.bankofengland.co.uk/paper/2026/ps/sterling-denominated-systemic-stablecoin",
+      "publisher": "Bank of England",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "tax-devolution",
+      "title": "Tax and devolution",
+      "url": "https://www.instituteforgovernment.org.uk/explainer/tax-and-devolution",
+      "publisher": "Institute for Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "interception",
+      "title": "Interception of communications code of practice",
+      "url": "https://www.gov.uk/government/publications/interception-of-communications-code-of-practice-2022/interception-of-communications-code-of-practice-accessible",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "coronation",
+      "title": "Digital record of the Coronation unveiled",
+      "url": "https://www.gov.uk/government/news/digital-record-of-the-coronation-unveiled-for-the-first-time-in-history",
+      "publisher": "UK Government",
+      "date": "2024-05-03",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "face",
+      "title": "Revised PACE Code A",
+      "url": "https://www.gov.uk/government/consultations/national-security-act-and-public-order-act-codes-of-practice/outcome/revised-pace-code-a-accessible",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "emergency",
+      "title": "Emergency response and recovery",
+      "url": "https://www.gov.uk/guidance/emergency-response-and-recovery",
+      "publisher": "Cabinet Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "temperament",
+      "title": "Emotional regulation",
+      "url": "https://mft.nhs.uk/camhs/advice/emotional-regulation/",
+      "publisher": "Manchester University NHS Foundation Trust",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "sovereignty",
+      "title": "Parliament’s authority",
+      "url": "https://www.parliament.uk/about/how/role/sovereignty/",
+      "publisher": "UK Parliament",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "petitions",
+      "title": "How petitions work",
+      "url": "https://petition.parliament.uk/help",
+      "publisher": "UK Parliament",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "ons-migration",
+      "title": "Long-term international migration, provisional: year ending December 2025",
+      "url": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2025",
+      "publisher": "Office for National Statistics",
+      "date": "2026-05-21",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "channel",
+      "title": "How many people come to the UK via illegal entry routes?",
+      "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/how-many-people-come-to-the-uk-via-illegal-entry-routes",
+      "publisher": "Home Office",
+      "date": "2026-08-27",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "returns",
+      "title": "How many people are returned from the UK?",
+      "url": "https://www.gov.uk/government/statistics/immigration-system-statistics-year-ending-june-2026/how-many-people-are-returned-from-the-uk",
+      "publisher": "Home Office",
+      "date": "2026-08-27",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "whitepaper",
+      "title": "Restoring control over the immigration system: white paper",
+      "url": "https://www.gov.uk/government/publications/restoring-control-over-the-immigration-system-white-paper",
+      "publisher": "Home Office",
+      "date": "2025-05-12",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "journalism",
+      "title": "Journalistic freedoms: National Security Bill factsheet",
+      "url": "https://www.gov.uk/government/publications/national-security-bill-factsheets/journalistic-freedoms-national-security-bill-factsheet",
+      "publisher": "Home Office",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "cultivated",
+      "title": "Cell-cultivated products: regulatory authorisation",
+      "url": "https://www.gov.uk/government/publications/cell-cultivated-products-regulatory-authorisation/cell-cultivated-products-regulatory-authorisation",
+      "publisher": "Food Standards Agency",
+      "date": "2026-09-30",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "body-image",
+      "title": "Body Image: CAMHS advice",
+      "url": "https://mft.nhs.uk/camhs/advice/body-image/",
+      "publisher": "Manchester University NHS Foundation Trust",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "bulk-records",
+      "title": "Bulk acquisition of communications data code of practice (accessible)",
+      "url": "https://www.gov.uk/government/publications/bulk-acquisition-of-communications-data-code-of-practice/bulk-acquisition-of-communications-data-code-of-practice-accessible--2",
+      "publisher": "Home Office",
+      "date": "2025-06-06",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "scottish-water",
+      "title": "Water: Scottish public water services",
+      "url": "https://www.gov.scot/policies/water/",
+      "publisher": "Scottish Government",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "water-ownership",
+      "title": "Ownership of the water sector",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-12194/",
+      "publisher": "House of Commons Library",
+      "date": "2026-10-01",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "nwf-about",
+      "title": "About us: National Wealth Fund",
+      "url": "https://www.gov.uk/government/organisations/national-wealth-fund/about",
+      "publisher": "HM Treasury",
+      "date": "undated",
+      "accessed": "2026-10-06"
+    },
+    {
+      "id": "border-poll",
+      "title": "Northern Ireland: border polls",
+      "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10101/",
+      "publisher": "House of Commons Library",
+      "date": "2025-06-24",
+      "accessed": "2026-10-06"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive elections, opposition and judicial review coexist with Commons confidence, delegated decisions and parliamentary sovereignty. Petition thresholds lead to responses or debate, not citizen-triggered binding law.",
+      "counterEvidence": "Freedom House reports strong electoral rights but restrictions on protest. Judicial review of executive action is distinct from striking down sovereign primary legislation. Recall has statutory triggers; the UK is not a system of unrestricted public initiation.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competitive Commons elections determine the governing majority; office depends on parliamentary confidence, rather than a separately elected prime minister. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent monetary-policy decisions operate within a statutory mandate without a parliamentary vote on each rate decision. Other major policy remains elected-government business. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "boe"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Electoral participation is not conditioned on education or intelligence; ordinary age, citizenship and statutory exclusions qualify literal universality. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Emergency regulations can operate urgently subject to parliamentary scrutiny and expiry; the mechanism is bounded delegation rather than unchecked personal lawmaking. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "emergency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Opposition can organise, campaign and win office under competitive elections. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Signature thresholds yield a response or consideration for debate, not a right to force a binding vote on proposed legislation. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "petitions"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent courts review unlawful executive decisions, but ordinarily cannot overturn primary parliamentary legislation. This supports qualified agreement, not an unrestricted constitutional veto. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The documented July 2026 leadership succession took place between general elections; the parliamentary system permits this mechanism. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "pm"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competitive opposition rights conflict with leadership exclusion of parties simply for political disagreement. Criminal proscription is a separate, reviewable legal matter. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Citizens cannot themselves compel a binding repeal referendum; Parliament controls legislation and authorises national referendums. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "petitions",
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ministers exercise existing lawful powers without approval for every policy decision, while Parliament controls new legislation and scrutiny. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "pm",
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Commons accountability permits loss of confidence and replacement; the exact serious-abuse procedure is broader than a presidential impeachment mechanism. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "pm"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parliament can legislate an exceptional, specified postponement; this is inferred legal capacity, not evidence of a current desire to postpone elections. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "emergency"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Statutory recall can trigger a by-election after specified misconduct, rather than unrestricted voter dissatisfaction. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "recall"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Electoral and Commons accountability contradict unrestricted unaccountable leadership. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilian parliamentary government, not military judgment, determines office. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Expression and association are protected, with material restrictions concerning protest, weapons, drugs, surveillance and search. PACE safeguards and warrant exceptions must be read literally.",
+      "counterEvidence": "Rights reports identify restrictive implementation, not just legal protections. ANPR routine retention is 90 days locally and 12 months nationally; reviewed evidential retention is an exception, not blanket multi-year retention of everyone. Bulk interception requires national-security necessity and oversight.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Institutional criticism is generally protected; offence alone is not a blanket prohibition, though public-order and terrorism enforcement limit practice. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The current question asks about communication records, not message contents. Bulk communications-data acquisition can cover unsuspected people and assist serious-crime investigation, with national-security necessity, proportionality and independent approval. These constraints support Agree rather than unrestricted Strongly agree; the precise hypothetical breadth remains interpretive.",
+          "sources": [
+            "bulk-records"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Warrantless entry and search also cover arrest and post-arrest powers, beyond an immediate safety threat. The statement overstates the warrant rule. Most likely Disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "pace"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Controlled-drug possession attracts criminal penalties even when the user asserts no direct harm to others. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "drugs"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Mandatory adult seat belts demonstrate acceptance of some protective requirements; this does not imply permission for every proposed health intervention. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "seatbelt"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Routine ANPR reads expire within months or one year. Continued retention requires a continuing policing or evidential purpose, so general multi-year records of unsuspected people are a poorer fit. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "anpr"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Stop-and-search guidance says people need not give their name or address in an ordinary search; no general carry-and-show identity duty follows. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "search"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Judicial scrutiny and due process conflict with denying a prompt independent challenge, even where security powers constrain movement. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "terror"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Adults have broad expressive and media access, qualified by laws on prohibited content and online safety rather than a general morality veto. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary lawful communication does not require registration of identity with government. Platform age checks and investigatory access are distinct from the exact requirement. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Authorised suspicionless searches can operate in specified areas without individual grounds. Legal boundaries prevent treating this as universal police discretion. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "search"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Peaceful civic groups generally form without advance government permission; registration for particular legal or charitable status is distinct. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Road obstruction and disruption can lead to restrictions or prosecution even for nonviolent protests. Keeping emergency access open is not the only operative test. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The secrets framework does not provide an unrestricted right to publish every confidential disclosure of wrongdoing; protected reporting and ordinary journalism remain counterevidence. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "journalism"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Personal protection is generally not accepted as a good reason for firearm possession in Great Britain; Northern Ireland has limited exceptions. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "guns"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Terrorism detention beyond initial limits requires independent judicial extension, not detention until authorities alone regard the threat as resolved. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "terror"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Equality protections, a plural national identity, recognised constituent cultures and religious dress accommodation coexist with English proficiency, shared civic obligations and participation. Private customs are not generally required to be replaced.",
+      "counterEvidence": "The cohesion document advocates both common identity and pluralism; future programmes are not proof of delivery. Equality duties require consideration of needs, not unlimited spending or a predetermined outcome. Multinational symbolism is only an analogy for the question about Indigenous peoples.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common civic rules and minority protections coexist; neither cultural tradition has unconditional priority in every conflict. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Considering different cultural and religious needs supports proportionate accommodation, including some expenditure, but does not mandate every requested adjustment. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Language and civic participation expectations do not generally require permanent residents to adopt all national cultural customs. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Plural national belonging and freedom of belief support retaining lawful foreign cultural identity; civic obligations remain binding. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: English proficiency is a stated integration priority; accessibility and the UK’s recognised indigenous languages prevent interpreting this as universal English-only service. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recognition of constituent nations in national ceremonial symbolism supports a cautious analogy. The UK does not supply a directly comparable universal Indigenous-recognition policy. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "coronation"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public cultural institutions recognise diverse nations and communities rather than only predominant traditions. The exact funding allocation is not established. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "bbc",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Plural identity is supported within common legal and civic obligations, not unconditional community priority over a shared culture. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A inherited public calendar coexists with accommodation of religious needs; neither universal schedule uniformity nor unlimited holiday accommodation describes practice. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "equality",
+            "church"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official cultural institutions recognise several traditions as part of national identity; neither recognition nor diversity erases shared citizenship. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "bbc",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Integration policy favours participation and connections across communities over isolated parallel lives. This is a clear stated direction, with programme delivery varying. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Accessible communication can support multilingual signs locally, while English participation is encouraged. No general mandate for foreign-language community signage was established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "equality",
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Policy encourages national belonging alongside community ties, without generally directing families to rank one above the other. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: PACE distinguishes religious coverings from identity-disguising conduct. Exceptions remain possible; the statement is not read as immunity from every identification requirement. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "face"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National identity expressly accommodates multiple communities and ways of life within shared civic rules. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "bbc"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Shared language, rights and participation are central, but these are not a general programme to replace lawful community customs. Agreement would conflate civic integration with cultural conformity. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "equality"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The UK admits substantial lawful migration through work, family and protection routes, but requires permission and selective eligibility. New protection claims receive renewable temporary leave. Actual returns and border enforcement coexist with continuing irregular arrivals.",
+      "counterEvidence": "ONS migration totals do not measure permanent settlement or an open-border entitlement. Channel arrivals are not equivalent to permission or asylum refusal; protection claims can succeed following irregular entry. No comprehensive annual settlement quota was identified; proposals are distinguished from commenced rules.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current rules impose route eligibility rather than a single strict housing-and-workforce-based annual permanent-immigration cap. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "migration-rules",
+            "skilled"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Substantial lawful admission permits improved lives through qualifying routes, but desire for better conditions alone does not establish a general right to settle. Moderate disagreement avoids treating selective admission as near-total closure. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "migration-rules",
+            "ons-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family and protection routes are genuine alternatives to selected occupational skills. The word only excludes too much of implemented admission policy. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled",
+            "family",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Settled people can sponsor partners and dependent children, with financial and other requirements. The conditions prevent an unconditional response. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "family"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Skills are not required for protection, but new adult claims yield renewable temporary leave rather than assured permanent settlement. Older claimants have different rules, supporting a mixed response. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Irregular entry does not prevent every protection claim from succeeding, but those without a lawful basis face removal and actual enforced returns. Blanket permission to remain is unsupported; blanket deportation is also inaccurate. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "asylum",
+            "returns",
+            "channel"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employer demand is insufficient without skills, salary and sponsorship eligibility. Limits can bind despite recruitment preferences. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Policy seeks lower migration partly for capacity and domestic-workforce reasons. Continuing substantial legal admission qualifies an absolute reduction preference. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "whitepaper",
+            "ons-migration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family admission is conditional but not allocated within a comprehensive common annual numerical cap. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "migration-rules",
+            "family"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A sponsored eligible job provides a work route, but any confirmed job is insufficient. Large actual work flows and substantial eligibility restrictions support a conditional response. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sponsorship is central to work and family admission, while humanitarian and other qualifying routes are not universally employer-or-family sponsored. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled",
+            "family",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduation alone does not confer permanent residence; qualifying work and residence requirements still matter. Graduate opportunities can nevertheless help form an eventual pathway. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled",
+            "migration-rules"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Protection depends on persecution and other legal criteria, not ordinary worker numerical limits; safe-country rules and temporary leave qualify broad access. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary skilled eligibility centres on job criteria rather than cultural similarity. Nationality-specific routes do not establish a general cultural-ranking rule. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "skilled",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Refugees and eligible settled non-citizens can receive public funds, while many temporary migrants face restrictions. Citizenship alone does not determine the outcome. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "funds"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government values plural contributions but prioritises control and integration; diversity itself is not the basis for increasing admissions. Positive recognition and numerical restraint support a mixed response. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cohesion",
+            "whitepaper"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "The UK maintains deterrence, expeditionary forces and alliances while asserting legal constraints and diplomacy. Strategic capability is not evidence of unlimited willingness to use force.",
+      "counterEvidence": "The defence review sets future capacity aims as well as current commitments. Human involvement in AI weapons need not mean approval of each attack; deployment details remain uncertain. Treaty commitments and diplomacy temper military capability.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expeditionary capability and deterrence support some use beyond homeland response, subject to legality and alliance purposes rather than any asserted interest. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diplomacy and deterrence are paired; slower diplomacy remains plausible as an initial preference, but the exact trade-off is not an unconditional rule. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nuclear deterrence and increased defence investment demonstrate willingness to incur major costs for military advantage, without claiming every future spending target is achieved. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Collective defence readiness supports qualified pre-emption against genuinely imminent attack. The precise hypothetical legal threshold is inferred. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expeditionary and preventive capabilities extend beyond a strict response-only posture, though international law constrains operations. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Professional voluntary forces and recruitment programmes are inconsistent with a general compulsory male-service requirement. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diplomacy is important but deterrence and alliance commitments reject concessions at any price. The degree of concession determines the answer. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Human involvement may be exercised through operational parameters rather than approval of every attack. Qualified agreement fits that distinction; autonomous efficiency alone is not sufficient justification. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "weapons-ai"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Overseas forces and alliance operations make a purely territorial-defence emphasis incomplete. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Alliance defence commitments reject avoiding military action at all costs when an ally is attacked. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The maintained and planned integrated force includes sustained operations beyond national territory. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Rules-based settlement and diplomacy support leaving a dispute unresolved rather than initiating war solely to settle it. This is a policy inference, not an examined specific dispute. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence",
+            "echr"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Credible military deterrence includes conditional threats in serious disputes, with legal limits. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Avoiding escalation and maintaining credible deterrence are both central; the exact conflict between resolve and risk is conditional. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Intelligence and cyber capability are integral to defence despite diplomatic risks; the permissible operations remain constrained. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Arms restraint can coexist with deterrence renewal; support depends on reciprocal security conditions rather than unilateral reductions. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Parliament retains domestic legislative authority and the UK controls currency and admission, while participating in binding treaties, alliances and common trade rules.",
+      "counterEvidence": "Domestic enforceability and international obligation are different. ECHR membership is not a transfer of all legislative sovereignty; NATO cooperation is not a common foreign-policy federation. Brexit does not answer every international-cooperation item.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parliament remains the final ordinary domestic legislative authority, qualified by voluntarily undertaken international obligations. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Binding treaty obligations can constrain government preferences; this does not endorse every international institution or unrestricted external rule. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic statutes remain operative while international judgments can create obligations to change practice; legal enforceability and treaty compliance point in different directions. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: NATO and long-term alliance commitments constrain independent action and are central to defence policy. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Withdrawal normally depends on domestic decisions and treaty procedures, not an external institution’s discretionary veto. The exact treaty-specific notice remains relevant. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International human-rights obligations include adjudication against government; criminal liability for individual officials is a different mechanism. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic priorities and accepted treaty obligations coexist, rather than a general permission to disregard obligations whenever interests conflict. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International regulatory cooperation and climate-related trade coordination support shared decision-making for cross-border problems; the exact environmental authority is inferred. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The UK cooperates through alliances while retaining independent foreign-policy institutions rather than joining a bloc with a universally compulsory common policy. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence",
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Accepted human-rights obligations can require legal changes, while domestic parliamentary mechanisms implement them. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "echr"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The UK retains sterling and a national monetary-policy institution rather than transferring policy to a shared currency authority. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "boe"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Alliances and negotiated trade cooperation entail shared funding or decisions for common problems. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Admission is primarily controlled through UK rules, qualified by treaties and particular shared arrangements. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "migration-rules"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiated trade agreements commit the UK to common rules rather than entirely unilateral trade policy. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The UK retains national political institutions and has not joined an international political federation. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Collective defence and international rights commitments support rule enforcement beyond immediate unilateral advantage; not every hypothetical enforcement choice is documented. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "defence",
+            "echr"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Private ownership dominates ordinary business, alongside public health provision, rail infrastructure, the BBC and strategic public investment. Regional utility ownership differs.",
+      "counterEvidence": "Public funding does not necessarily imply public ownership, and use of private contractors does not imply general privatisation. Planned water reform is not completed nationalisation; strategic public firms do not constitute general industrial ownership.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private property and business establishment remain broad ordinary arrangements, alongside selected public enterprises. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public Scottish water services coexist with privately owned English and Welsh water services. The October 2026 Commons briefing confirms no English or Welsh water companies have transferred to public ownership. Proposed greater public control is not implemented ownership. Neutral is most likely for a nationwide general utility-ownership rule because the existing arrangements are substantively mixed, not because evidence is absent.",
+          "sources": [
+            "scottish-water",
+            "water-ownership"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government uses private provision in some services but expands public rail operation. No general preference conditional on identical performance was established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nhs-private",
+            "rail"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Great British Energy demonstrates a public enterprise in a competitive sector without displacing all private activity. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: NHS facilities are not generally privately owned merely because private providers also undertake funded treatment. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nhs-private"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The rail programme retains public infrastructure and brings passenger services into public ownership; future consolidation is not treated as complete. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rail"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Publicly funded independent-sector treatment demonstrates acceptance of contracting where capacity and service conditions support it. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nhs-private"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public financial institutions coexist with private banks; investment banking is distinguished from a public retail-banking mandate. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "boe",
+            "nwf-about"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current public rail transfers and energy enterprise run against a blanket programme of selling public commercial businesses. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rail",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public housing investment and provision support a substantial public rental role; the exact desired ownership share is not specified. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security regulation scrutinises private acquisitions rather than requiring all strategic businesses to be publicly owned. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nsi"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Resource extraction remains substantially private and regulated, with public clean-energy investment distinct from general public extraction ownership. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "oil"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Contracting is an available model, not a universal instruction that local routine services must use private providers. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "procure"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retention and expansion of strategic public enterprises imply willingness to forgo some sale revenue. The exact hypothetical valuation is not documented. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rail",
+            "gbe"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Support and ownership decisions depend on strategic and service purposes; no universal sale rule for recurrent losses was established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rail",
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The BBC is a public corporation with protected editorial independence, rather than an entirely private broadcasting system. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "bbc"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "An open trade orientation and negotiated barrier reduction coexist with tariffs, remedies, strategic industrial support and investment screening.",
+      "counterEvidence": "Free trade does not mean every product is tariff-free or all security restrictions disappear. Domestic subsidies and procurement social value are not automatically import barriers. Signed agreements are distinct from entry into force.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tariffs and trade remedies coexist with a broad open-trade programme; protection is selective rather than the general organising principle. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tariff",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Barrier reduction is a central aim, qualified by sensitive sectors and safeguards. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Social value can justify considerations beyond price, but it is not an unconditional domestic-supplier preference. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "procure"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Businesses can generally source internationally, subject to sanctions, safety and customs restrictions. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strategic resilience is supported, but strengthening supply chains is not a general prohibition on lower-cost essential imports. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "steel",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unilateral tariff simplification and lower barriers are compatible with the schedule, without requiring equivalent reductions from every partner. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tariff"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Support for new sectors uses investment and skills measures; a general infant-industry import restriction was not established. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign investment is welcomed with security screening and other restrictions, making equal terms a qualified tendency. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nsi",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sensitive agricultural tariffs coexist with negotiated trade opening. Neither blanket restriction nor complete liberalisation describes the sector. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tariff",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competition remains normal, but trade remedies and selective support qualify a universal refusal of protection. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade",
+            "steel"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiation and remedies are available; automatic tit-for-tat tariffs are not the general rule. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary product taxes are generally distinct from customs duties, supporting equal tax treatment while preserving import tariffs. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tariff"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Countervailing remedies address harmful subsidised imports after legal assessment, not every foreign subsidy. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trade deals reduce tariffs despite dependence risks, qualified by sensitive sectors and security policy. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign control can be screened and blocked for concrete security risks, rather than categorically prevented whenever a business is strategic. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nsi"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Digital services trade is broadly supported subject to ordinary regulation and targeted security restrictions. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "trade"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market production, prices and private investment coexist with an industrial strategy, selective state investment, minimum wages and regulated essential services.",
+      "counterEvidence": "An industrial strategy is not compulsory economy-wide production planning. Central-bank operational independence remains relevant. England’s rent reforms retain market-rent comparisons; devolved housing rules differ.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Most production decisions remain with firms; the strategy seeks private-sector growth rather than setting every output. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sector priorities and investment support do not impose general compulsory production quantities. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Market prices remain ordinary, with regulated-service exceptions preventing an absolute response. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selected investment is directed towards strategic sectors through public programmes, while private allocation remains extensive. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial",
+            "nwf"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expansion and closure broadly respond to market demand, with strategic intervention as counterevidence. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Some essential prices are regulated or frozen, while most goods remain market-priced. The exact all-essential-goods prescription is broader than implementation. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Business establishment is broadly permitted without a general test proving more production is needed; sector licensing is distinct. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public finance targets priorities while private banks are not generally commanded to lend according to industrial targets. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nwf",
+            "boe"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International financial activity is broadly open, subject to sanctions and regulatory checks. No general capital-transfer approval system was established. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "trade"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selected public support steers sector development beyond private allocation alone. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regulated private stablecoin issuance is accommodated; legal tender and monetary sovereignty remain distinct from unrestricted private-currency competition. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "stablecoins"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The statutory minimum wage sets a floor rather than leaving all low wages to negotiation. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private-sector wages are ordinarily negotiated above statutory floors, while public-sector pay and regulation qualify universality. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "wage"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Operational rate-setting independence conflicts with government direction of each monetary-policy decision to serve its plan. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "boe"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: England’s rent-increase appeals use market rent rather than general centrally fixed rent schedules; other UK jurisdictions qualify a whole-country assertion. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rent",
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Coordination and public investment supplement ordinary business allocation rather than replace production and distribution decisions economy-wide. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive taxes, income-tested benefits and in-work support redistribute resources, with caps, conditionality and fiscal limits.",
+      "counterEvidence": "Redistributive institutions do not establish equal disposable incomes or benefit adequacy. Anti-poverty evidence identifies persistent hardship. Wealth-related taxes are distinct from a comprehensive annual net-wealth tax; no broad land redistribution was established.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Progressive taxation and means-tested transfers reduce income differences; the intended magnitude is inferred rather than a single statutory equality target. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tax",
+            "uc-eligibility"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Budget redistribution and wealth-related revenue measures support inequality reduction as a legitimate aim, alongside other fiscal purposes. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Benefit expansion and removal of the two-child limit support a stronger minimum, though fiscal and other eligibility restrictions remain. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget",
+            "uc"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Benefits provide a safety net and narrow some gaps, while reported inadequacy prevents reading them as an unqualified substantial-equalisation programme. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "uc-eligibility",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Higher income bands impose higher rates and a larger ordinary tax share, subject to allowances and differing income types. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Revenue and targeted transfers constrain earnings retention to fund public purposes; this is not evidence of indifference to incentives. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Large estates are taxed, supporting redistribution through general public finance; inheritance revenue is not exclusively earmarked to income support. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "inheritance",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Universal Credit has work conditions and sanctions, but not a general lifetime time limit on eligible working-age support. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "uc-eligibility",
+            "uc-sanction"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Property, estates and gains are taxed, while no comprehensive tax on all accumulated net wealth was established. The statement admits a broader interpretation than any one implemented tax. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "inheritance",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fiscal restraint and benefit caps coexist with benefit increases; adequacy and taxpayer cost receive competing weight. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Support aims beyond immediate subsistence but independent evidence shows hardship. The claimed sufficiency for ordinary social participation is not established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "uc-eligibility",
+            "hrw"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recent fiscal choices include benefit expansion funded by revenue measures, rather than a general priority for tax cuts over cash support. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Low-paid employed people can receive publicly funded Universal Credit, subject to means and other conditions. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "uc-eligibility"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Progressive marginal income-tax bands contradict identical marginal rates for all earners. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "tax"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private land ownership and ordinary fiscal redistribution are better supported than a broad compensatory land-transfer programme. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: In-work support extends beyond people with no means of basic survival, although means-testing restricts eligibility. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "uc-eligibility"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Civil policy and law operate without a general religious veto, alongside established churches, Lords Spiritual, worship and faith-school arrangements.",
+      "counterEvidence": "Religion’s constitutional and ceremonial role differs across constituent nations. Civil recognition of religious marriages does not make religious tribunals sovereign family courts. Charity relief is generally a public-benefit framework rather than an extra religion-only exemption.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary policy operates through civil institutions, with established-religion exceptions preventing complete separation. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church",
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious doctrine is not a general source controlling national law; ecclesiastical measures and establishment remain exceptions. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ministers do not require general religious-leader approval to govern; bishops’ legislative seats do not supply a veto. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Established church relationships and the Crown’s religious role provide explicit constitutional recognition. Most likely Strongly agree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious education includes study of traditions, while designated faith schools and collective worship qualify universal non-confessional instruction. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "religious-school"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Faith-school and worship arrangements cultivate belief in some contexts, while the publicly funded system is not uniformly confessional. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "religious-school"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil courts and parliamentary legislation govern ordinary legal disputes; ecclesiastical structures have a limited separate remit. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Lords Spiritual officially scrutinise legislation as legislators, though religious approval is not a required general precondition. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parliamentary prayers and religious state ceremonies contradict a general exclusion of organised worship. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "prayers",
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Publicly funded faith-school and worship arrangements support some religious cultivation; not every community grant has that purpose. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "religious-school"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Established religious symbolism remains within state institutions, with substantial secular and territorial variation. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The public calendar retains major Christian festivals and institutional continuity; the precise interpretation as religious endorsement rather than heritage is inferred. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Anglican bishops hold Lords seats by religious office. Most likely Strongly disagree. The response describes the cited implemented arrangement.",
+          "sources": [
+            "church"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious activities can qualify as charitable advancement of religion, but relief sits within the charitable framework rather than a demonstrated extra religion-only exemption. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "charity",
+            "charity-tax"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil marriage does not need religious approval, even though religious ceremonies have separate conditions. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil family-law recognition and religious ceremonies do not generally make religious tribunal rulings independently binding national family law. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage",
+            "church"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Same-sex marriage, diverse adoption eligibility and sex-equality protections coexist with inherited institutions and qualified school guidance.",
+      "counterEvidence": "Country-level social acceptance is inferred from institutional treatment, not population unanimity. The 2026 abortion assessment distinguishes existing clinical access, enacted provisions and commencement. Equality guidance differentiates sex and gender reassignment; neither blanket affirmation nor blanket exclusion is assumed.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Institutions have adapted to new family forms while retaining traditional structures. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage",
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marriage equality demonstrates that preservation does not automatically outrank changed values. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Singles and unmarried couples can adopt; institutional acceptance supports plural families but does not prove identical social recognition in all communities. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Guidance rejects repeating or enforcing gender stereotypes, rather than promoting prescribed traditional sex roles. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Same-sex civil marriage is legally available; religious-marriage exceptions remain distinct. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marriage is institutionally recognised alongside other accepted household forms, without proof of a uniform preferred social model. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "marriage",
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Existing NHS access to regulated abortion supports acceptance; government neutrality on criminal-law changes and territorial differences qualify the exact social claim. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "abortion"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parent consultation matters but does not constitute a final parental veto over all compulsory relationships teaching. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Same-sex adoptive eligibility supports equal institutional acceptance; the statement about social acceptance is broader than a legal eligibility rule. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "adoption"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Personal appearance is broadly protected rather than governed by a national traditional modesty code, with situational exceptions. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "freedom"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recognition of gender reassignment coexists with sex-specific legal concepts. No uniform rule changing all language conventions was established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "grc",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Education emphasises respectful relationships and avoiding stereotypes, not a general rule giving inherited moral customs precedence. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sex equality and rejection of stereotypes support acceptance of nontraditional roles; social attitudes vary. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "equality"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Institutions combine inherited continuity and proposed substantial reform. Popularity alone does not determine the pace, and proposals are not implementation. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rewire",
+            "church"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: England’s guidance covers LGBT content while distinguishing rights and avoiding stereotypes. Exact treatment and devolved curricula remain qualified. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ceremonial continuity supports preserving some inherited customs even when modern functions are limited; it is not a universal preservation mandate. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "church",
+            "prayers"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "UK policy promotes AI, infrastructure and precision breeding while retaining medical, embryo and food safety controls.",
+      "counterEvidence": "Development priorities do not abolish environmental duties. The Nature Restoration Fund’s legal framework and delivery plans are distinguished. Precision-bred plants are not synonymous with all genetically modified crops, and regulated trials are not unrestricted consumer availability.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: AI adoption and growth programmes support deployment with unresolved longer-term effects, subject to sector safeguards. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "ai",
+            "industrial"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Policy seeks broader adoption rather than requiring every technology to await substantial long-term trial evidence. High-risk medical uses differ. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The planning framework permits development with environmental compensation rather than requiring no permanent habitat loss at each site. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nature-fund"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical-device evidence and clinical investigation requirements support caution, but not a fixed requirement for exhaustive long-term study of every innovation. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "implant"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Productivity-oriented AI adoption and skills programmes support change and retraining; accepting every specific displacement scenario is inferred. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "ai"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Mitigation and restoration mechanisms permit development rather than an absolute priority for undisturbed habitat. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nature-fund"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The sandbox supports development while authorisation requires risk assessment including environmental factors. Replacement before adequate evidence is therefore conditional. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "cultivated"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Implantable devices require clinical evidence; caution for healthy-person enhancement is inferred, not an identified special categorical rule. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "implant"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clean-energy technology and infrastructure are prominent, alongside efficiency measures. The exact preference for unproven scale is inferred. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "industrial",
+            "oil"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Delivery plans require scientific evidence and environmental obligations. Acceleration does not justify proceeding with poorly understood impacts without assessment. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nature-fund"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Basic safety alone is a weak fit for implant evidence requirements, especially healthy-person enhancement; the exact hypothetical is not separately legislated in the source. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "implant"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Risk-based medical validation and deployment coexist. A universal supervised-trials-only rule until strong evidence across every group is not established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "ai",
+            "implant"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Licensed research may study embryo development and edited embryos cannot be transferred for pregnancy. The source does not settle every enhancement research aim; research permission and reproductive use differ. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "embryo"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Precision breeding permits some controlled release with regulatory requirements; it does not establish a universal long-term ecosystem test for all GM crops. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "precision"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Housing and transport growth can proceed on undeveloped land subject to environmental conditions, rather than blanket preservation. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "nature-fund",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Controls on high-risk medical and embryo technologies support delaying potentially irreversible harm, without applying the strongest rule to all technology. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "implant",
+            "embryo"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "The UK is a devolved parliamentary state: regional policy and some tax powers coexist with Westminster legislative sovereignty and national fiscal coordination.",
+      "counterEvidence": "Devolution is territorially asymmetric, and protected conventions do not equal an entrenched federal constitution. Northern Ireland’s consent principle differs from Scottish independence procedures. English administrative reorganisation proposals do not establish universal local self-determination.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Devolved competences support regional policy autonomy, while Westminster retains legal authority. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Westminster retains ultimate legislative authority; conventions and political constraints qualify how it exercises that power. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty",
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Northern Ireland and Scotland have different constitutional arrangements; a simple majority anywhere does not create a uniform right of unilateral secession. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide",
+            "border-poll"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parliament can legislate across devolved competence, though consent conventions and political legitimacy constrain routine intervention. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "sovereignty"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional institutions work within UK statutes rather than freely adopting their own constitutions. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Policing is territorially differentiated, not directed everywhere by one UK police authority; England-specific national reforms are not whole-UK implementation. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Central collection and allocation remain important rather than local retention of most revenue, with devolved tax exceptions. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tax-devolution",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Education curricula are devolved; England’s school guidance does not set every UK pupil’s subjects. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide",
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Scotland has distinct income-tax rates and devolved tax powers; differing rates are an implemented arrangement. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tax",
+            "tax-devolution"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employment regulation is predominantly reserved in Great Britain, with Northern Ireland’s distinct settlement qualifying an absolute national rule. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Councils derive powers through statutory arrangements rather than unilateral voter changes without national approval. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health is devolved, permitting different service and treatment policies rather than one mandatory whole-UK coverage decision. Most likely Strongly disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constituent-national devolution supplies an imperfect analogy; no uniform separate Indigenous territorial government arrangement matching the wording was established. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Devolved rates operate within nationally allocated competences and fiscal rules, rather than unrestricted tax competition. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "tax-devolution"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Land and environmental responsibilities are substantially devolved, with reserved and cross-border exceptions. Most likely Strongly agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "devolution-guide"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National coordination is available for multi-region emergencies, while local response structures persist; automatic override of all regional preferences is not established. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "emergency"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Official education and health practice recognises learned development and biological influences; government genomics research expressly treats gene–environment interaction and context.",
+      "counterEvidence": "These questions are especially interpretive for a state: policy intervention does not prove beliefs about majority causal shares. ADHD is not all normal attention, emotional regulation is not all temperament, and within-population heritability does not explain national or racial group gaps.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Education shapes behaviour and genomic research recognises inherited influence. Neither source establishes a general majority causal share across all behaviour; a mixed interpretation is substantive, not a missing-answer default. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "genomics",
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Within-population heritability cannot establish inherited causes of between-country IQ gaps; contextual and educational mechanisms make the proposed general explanation less likely. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "genomics",
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Anti-stereotype education and care-related economic explanations support substantial social influences, without determining every sex difference. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "rse-statement",
+            "paygap"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health guidance acknowledges experiences and biological reactivity. It does not identify a generally dominant contribution to stress sensitivity. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "stress",
+            "temperament"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Educational opportunities shape developing interests and participation; the precise comparison with inherited inclinations remains an inference. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Risk-related genetic associations and contextual effects coexist. Heritability is not an adopted national view that inheritance generally exceeds learning. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "genomics"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Learning and relationships develop cooperation; the majority-cause comparison remains interpretive. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Relationship-based emotional development supports learned empathy, but the exact inherited-versus-social comparison is not directly measured in these policies. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "early-years",
+            "genomics"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Genetic links to ADHD and attention-supporting learning both matter. General normal attention cannot be equated with ADHD or assigned a universal majority cause. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "adhd",
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ethical learning is promoted, while broader behavioural research recognises inherited tendencies. Deliberate moral education does not settle the biology of immediate reactions. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "genomics",
+            "rse-statement"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Experience-oriented treatment and coping support a learning contribution to threat responses. Treatment efficacy is contextual evidence, not proof of a majority causal share. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "phobia"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Inborn reactivity and learned emotional regulation coexist; temperament is not identical to regulation, preventing an unwarranted dominant-cause claim. Most likely Neutral. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "temperament",
+            "genomics"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health guidance addresses social-media and appearance pressures, supporting cultural influence without establishing every attractiveness preference’s origin. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "body-image"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Serious-violence research examines developmental and social indicators. Genomic group variation does not establish biological explanations for racial violence rates; exact comparative causal shares remain unproven. Most likely Disagree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "violence",
+            "genomics"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Self-regulation is developed through learning and relationships. No evidence in the reviewed sources establishes inherited racial tendencies as the main explanation. Most likely Agree. This translates the cited UK evidence into the exact normative statement; response strength is interpretive, not an explicit national questionnaire answer.",
+          "sources": [
+            "early-years"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The reviewed government pay-gap research identifies occupation and industry, work histories and a substantial unexplained component. Care histories and occupational allocation can themselves reflect social expectations. This does not establish that every unexplained difference is discrimination, nor that productive economic contributions never differ. Disagree is most likely with replacing social expectations by economic value as the explanation; the relative causal shares remain uncertain.",
+          "sources": [
+            "paygap"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex: separate same-agent evidence review; no independent human review claimed",
+    "reviewedAt": "2026-10-06",
+    "notes": "Separate same-agent review after the full assessment: checked question wording and recorded agreement directions across all 15 axes, period and territorial scope, implemented arrangements versus proposals, counter-evidence, every inferred response and the source mapping. Corrected utility-ownership citations using current Commons and Scottish Government evidence; supplemented public finance and territorial consent evidence; removed an unsupported inherent-value interpretation of culture-nature-16. Reassessed authority-liberty-02 against the concurrently updated records wording before refreshing the actual bank hash. Immigration outcomes and Channel arrivals were not treated as legal permission or unrestricted settlement. Equality and plural identity were not assumed to imply open borders. Neutral answers on immigration, trade and causal traits describe mixed/conditional positions; causal claims not established by policy remain explicitly inferred. The constituent-nation analogy in assimilation-multiculturalism-06 and central-local-11 is limited, not proof of an Indigenous-specific policy. All 223 inferred answers are disclosed in the separate review JSON; 17 answers directly describe implemented arrangements. No independent reviewer or public-opinion calibration is claimed. Validation has no errors; neutral-count warnings reviewed and retained for substantive reasons. No compatible same-country-catalogue neighbour requires a similarity decision at this bank hash.",
+    "similarity": []
+  }
+}

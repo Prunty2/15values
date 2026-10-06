@@ -1,0 +1,3763 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "indonesia",
+  "revision": 2,
+  "questionBankVersion": "2.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "ff5cd074c33d338b62aafc9c7e9cb7ff3afdbac91cafe5905f16de43f2e585f7",
+  "researchedAt": "2026-10-06",
+  "author": "Codex: focused Democracy–Autocracy reassessment",
+  "changeNote": "Owner-authorised focused migration to bank 2.0.0 and axes 2.0.0. Independently reassessed democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13 using retained period-specific sourced research and the explicitly recorded supplemental references. All other 234 question-level answer objects are preserved verbatim from revision 1. No other axis was reassessed, no target score or population remapping was applied, and earlier archives remain unchanged. Six new educated assumptions are provisional; retained evidence limitations still apply.",
+  "metadata": {
+    "name": "Indonesia",
+    "description": "Indonesia’s national institutions and implemented policies through 4 October 2026, with constitutional regional variation and current criminal-code, immigration and state-enterprise changes.",
+    "category": "Unitary presidential republic",
+    "period": "Contemporary institutions and implemented policy; intended cut-off 2026-10-04",
+    "scope": "National institutions and implemented policy through 2026-10-04, with Aceh, customary and regional variation qualified; not citizens’ attitudes. Proposals, signature, registration and construction starts are distinguished from enacted or delivered outcomes.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/indonesia-r1.png",
+      "alt": "Flag of Indonesia: equal horizontal red and white bands",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg",
+      "creator": "Jayakatwang (Commons SVG)",
+      "license": "Public domain (simple geometry and common-property flag)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Indonesia.svg#Summary"
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-context",
+      "title": "Indonesia: Freedom House country overview (2026)",
+      "url": "https://freedomhouse.org/country/indonesia/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution",
+      "title": "1945 Constitution amended2002 English text: elections/impeachment, regional autonomy, religion, economic control",
+      "url": "https://www.constituteproject.org/constitution/Indonesia_2002?lang=en",
+      "publisher": "Republic of Indonesia / Constitute",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bti-2026",
+      "title": "BTI2026 full Indonesia report; observation throughJanuary2025 and later editorial economic context distinguished",
+      "url": "https://bti-project.org/fileadmin/api/content/en/downloads/reports/country_report_2026_IDN.pdf",
+      "publisher": "Bertelsmann Stiftung",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "criminal-code",
+      "title": "Actual Criminal Code Law1/2023 official BPK record verifies January2 2026 commencement, later court annulments separately assessed",
+      "url": "https://peraturan.bpk.go.id/Details/234935/uu-no-1-tahun-2023",
+      "publisher": "Republic of Indonesia / Audit Board legislation database",
+      "date": "2023-01-02",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "criminal-adjustment",
+      "title": "Actual Law1/2026 adjusts new Criminal Code and other offences; not solely original2023text",
+      "url": "https://jdih.bpkp.go.id/dokumen/data_dokumen/Salinan%20UU%20Nomor%201%20Tahun%202026%20%281%29_compressed.pdf",
+      "publisher": "Republic of Indonesia / Legislation database",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "court-insults",
+      "title": "Actual Constitutional Court official decisions listing282/PUU-XXIII/2025 August28 2026 voids Articles240/241; not all presidential or religious offences annulled",
+      "url": "https://www.mkri.id/perkara/persidangan/putusan?jenis=PUU&page=1&perPage=50&search=82%2FPUU-XXIII%2F2025",
+      "publisher": "Republic of Indonesia / Constitutional Court",
+      "date": "2026-08-28",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gci-current",
+      "title": "January26 2026 actual launch GCI indefinite permanent residence for diaspora, legal spouses and children with family reunion",
+      "url": "https://jakartaselatan.imigrasi.go.id/en/berita/imigrasi-resmikan-global-citizen-of-indonesia-di-hari-bakti-imigrasi-ke-76",
+      "publisher": "Republic of Indonesia / Immigration Directorate",
+      "date": "2026-01-26",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "family-visa",
+      "title": "Official family visa six qualifying categories2023, historical general framework checked against2026GCI; not all site-menu visa snippets reliable category content",
+      "url": "https://imigrasi.go.id/berita/2023/01/17/perhatikan-hanya-enam-subjek-ini-yang-bisa-peroleh-visa-penyatuan-keluarga-ri?lang=id-ID",
+      "publisher": "Republic of Indonesia / Immigration Directorate",
+      "date": "2023-01-17",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "work-visa",
+      "title": "Official limited-stay expert/professional/employer work and nonwork categories; full current status scope qualified",
+      "url": "https://depok.imigrasi.go.id/visa-tinggal-terbatas/",
+      "publisher": "Republic of Indonesia / Immigration Directorate",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "refugees",
+      "title": "UNHCR current Indonesia mandate: no1951Convention membership or national refugee-status determination system",
+      "url": "https://www.unhcr.org/id/en/tentang-unhcr/unhcr-indonesia",
+      "publisher": "UNHCR",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "refugee-integration",
+      "title": "UNHCR2023–25 country strategy: no pathway to local integration, resettlement not guaranteed; historical observation boundary",
+      "url": "https://reporting.unhcr.org/sites/default/files/2024-09/Indonesia-strategy-2024.pdf",
+      "publisher": "UNHCR",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "tax-law",
+      "title": "Tax Harmonization Act official revenue text: personal rates5–35percent, inheritance exclusion and religious institutions; enactment2021 not all later changes presumed absent",
+      "url": "https://pajak.go.id/id/peraturan/harmonisasi-peraturan-perpajakan",
+      "publisher": "Republic of Indonesia / Revenue Directorate",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "inheritance",
+      "title": "Official revenue explanation: distributed inheritance not income-tax object, ordinary later property income/transfers distinct",
+      "url": "https://www.pajak.go.id/index.php/id/artikel/harta-warisan-dikenai-pajak-atau-tidak",
+      "publisher": "Republic of Indonesia / Revenue Directorate",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cash-current",
+      "title": "May12 2026 government account continuing PKH/cash social protection and UMKM support;508.2trillionaggregate includes insurance/in-kind not all cash",
+      "url": "https://www.setneg.go.id/baca/index/presiden_prabowo_perkuat_dukungan_bagi_umkm_dan_percepatan_pengentasan_kemiskinan",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-05-12",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "benefit-delivery",
+      "title": "Current August government account actual PKH registration153districts, health and housing delivery; registration not every payment completed",
+      "url": "https://www.setneg.go.id/baca/index/presiden_prabowo_tegaskan_pembangunan_manusia_dan_ekonomi_kerakyatan_jadi_kekuatan_indonesia",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "jobloss-law",
+      "title": "Government Regulation6/2025 job-loss insurance amendment; finance-host PDF inaccessible in this pass, cash duration independently checked against actual BPJS current eligibility page",
+      "url": "https://jdih.kemenkeu.go.id/api/download/909A0028-C6D2-476B-8692-97A800FAFE56/2025PP006.pdf",
+      "publisher": "Republic of Indonesia / Finance Ministry legislation database",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "wage-tax-support",
+      "title": "Actual2026PMK6: state-paid intern income tax passed through in cash,October2025–December2026; allowance example not national wage floor",
+      "url": "https://jdih.kemenkeu.go.id/dok/pmk-6-tahun-2026/summary",
+      "publisher": "Republic of Indonesia / Finance Ministry legislation database",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "danantara-current",
+      "title": "August14 2026 actual state-enterprise restructuring report;26groundbreakings not all production complete",
+      "url": "https://www.setneg.go.id/baca/index/presiden_prabowo_tegaskan_bumn_milik_rakyat_restrukturisasi_dorong_efisiensi_dan_kinerja",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-08-14",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "danantara-transition",
+      "title": "September4 2026 ongoing consolidation: future closure target not completed privatization",
+      "url": "https://www.setneg.go.id/baca/index/gelar_pertemuan_di_hambalang_presiden_prabowo_dorong_percepatan_hilirisasi_dan_penataan_bumn",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-09-04",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "central-bank",
+      "title": "Bank Indonesia current governance under2023law distinguishes independence, coordination and government target setting",
+      "url": "https://www.bi.go.id/en/tentang-bi/profil/governance/Prinsip-Tata-Kelola.aspx",
+      "publisher": "Bank Indonesia",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "monetary-current",
+      "title": "Actual2026 fiscal/monetary coordination release; consultation not government sole interest-rate command",
+      "url": "https://www.bi.go.id/en/publikasi/ruang-media/news-release/Pages/sp_284626.aspx",
+      "publisher": "Bank Indonesia",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "voluntary-reserve",
+      "title": "Defence official FAQ: Komcad voluntary; mobilization President with DPR approval, not routine male conscription",
+      "url": "https://ppid.kemhan.go.id/web/faq",
+      "publisher": "Republic of Indonesia / Defence Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "brics-current",
+      "title": "September12 2026 BRICS summit actual participation and sovereignty/self-reliance alongside multilateralism",
+      "url": "https://www.setneg.go.id/baca/index/di_ktt_brics_2026_presiden_prabowo_tekankan_pentingnya_ketahanan_dan_kemandirian_negara",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-09-12",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "peace-board",
+      "title": "January22 2026 actual Board of Peace Charter signature for Gaza transition/reconstruction, not proof troops deployed or international federation",
+      "url": "https://setneg.go.id/baca/index/presiden_prabowo_subianto_tandatangani_piagam_board_of_peace_tegaskan_peran_aktif_indonesia_jaga_implementasi_solusi_dua_negara",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-01-22",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "trade-october",
+      "title": "October2 2026 trade ministry report G20 collective trade cooperation, food not geopolitical coercion; commitments not automatic all-import liberalization",
+      "url": "https://www.kemendag.go.id/berita/siaran-pers/menteri-perdagangan-g20-tolak-penggunaan-pangan-sebagai-instrumen-tekanan-geopolitik",
+      "publisher": "Republic of Indonesia / Trade Ministry",
+      "date": "2026-10-02",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "art-not-automatic",
+      "title": "March3 2026 official statement US reciprocal agreement requires domestic ratification/commencement; signature not all zero tariffs implemented",
+      "url": "https://www.ekon.go.id/unduh/publikasi/6836/pemerintah-pastikan-art-indonesiaas-perkuat-posisi-ekspor-nasional-dan-tetap-dalam-koridor-kedaulatan-negara",
+      "publisher": "Republic of Indonesia / Coordinating Economic Ministry",
+      "date": "2026-03-03",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ev-current",
+      "title": "April9 2026 actual private commercial-EV assembly launch40percentlocalcontent;2028sedanmassproductionfuture",
+      "url": "https://www.setneg.go.id/baca/index/presiden_prabowo_bangga_lompatan_industri_kendaraan_listrik_nasional_targetkan_sedan_massal_2028",
+      "publisher": "Republic of Indonesia / State Secretariat",
+      "date": "2026-04-09",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ai-current",
+      "title": "July15 2026 capability-building policy in actual AI adoption; roadmap completion not presumed",
+      "url": "https://portal.komdigi.go.id/kanal-publik/berita-kini/10395",
+      "publisher": "Republic of Indonesia / Communications and Digital Ministry",
+      "date": "2026-07-15",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ai-human",
+      "title": "April8 2026 actual governance statement AI empowerment not replacement of human role; workshops not ban all productivity substitution",
+      "url": "https://www.komdigi.go.id/berita/siaran-pers/detail/penguatan-tata-kelola-ai-jadi-kunci-mitigasi-risiko-dan-keamanan-data",
+      "publisher": "Republic of Indonesia / Communications and Digital Ministry",
+      "date": "2026-04-08",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmo-review",
+      "title": "Actual2025corn food-safety assessment and public consultation; food approval not automatically ecosystem cultivation approval",
+      "url": "https://indonesiabch.kemenlh.go.id/partisipasi-publik/laporan-tim-teknis-keamanan-hayati-produk-rekayasa-genetik-bidang-keamanan-pangan-tentang-hasil-pengkajian-keamanan-pangan-jagung-produk-rekayasa-genetik-event-mon-87427-x-mon-89034-x-tc1507-x-mon-874/",
+      "publisher": "Republic of Indonesia / Biosafety Clearing House",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gmo-environment",
+      "title": "Actual environmental assessment framework on nontarget organisms,biodiversity,gene transfer and weed potential; historical specific review not current automatic wholecropban",
+      "url": "https://indonesiabch.kemenlh.go.id/partisipasi-publik/ringkasan-pengkajian-keamanan-lingkungan-jagung-prg-event-nk603/",
+      "publisher": "Republic of Indonesia / Biosafety Clearing House",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "health-law",
+      "title": "Actual Government Regulation28/2024 implementing health law; regulated abortion exceptions and healthcare safety, later changes qualified",
+      "url": "https://pusatkrisis.kemkes.go.id/__pub/files51506Salinan_PP_Nomor_28_Tahun_2024-compressed_compressed.pdf",
+      "publisher": "Republic of Indonesia / Health Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "marriage-current",
+      "title": "April21 2026 religious ministry implements Marriage Act1974/2019 and MuslimKUA registration/counselling; regional example not proof all IndonesiaIslamic",
+      "url": "https://riau.kemenag.go.id/berita/601828/Bimbingan-Perkawinan-Najamudin-Terangkan-Regulasi-Perkawinan-yang-Berlaku-di-Indonesia-dihadapan-18-Calon-Pengantin",
+      "publisher": "Republic of Indonesia / Religion Ministry",
+      "date": "2026-04-21",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "family-courts",
+      "title": "April27 2026 actual religious-court integrated marriage validation, not mere private nonbinding religious opinion",
+      "url": "https://sulteng.kemenag.go.id/berita/7wej/27-04-2026-wujudkan-kepastian-hukum-kemenag-dan-pengadilan-agama-donggala-perkuat-sinergi-isbat-nikah-terpadu",
+      "publisher": "Republic of Indonesia / Religion Ministry",
+      "date": "2026-04-27",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "ecd-evaluation",
+      "title": "October2024 UNICEF actual six-district2022–23 holistic early-childhood intervention evaluation; month-onlypublication undatedschema",
+      "url": "https://www.unicef.org/indonesia/reports/early-childhood-development-programme-research-brief",
+      "publisher": "UNICEF",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "parenting-current",
+      "title": "Current Indonesia parenting support for developmental milestones, learning and emotional wellbeing; not a quantified national causal theory",
+      "url": "https://www.unicef.org/indonesia/parenting-village",
+      "publisher": "UNICEF",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "president-complaint",
+      "title": "Constitutional Court August12 2026: Articles218/219 prosecution only on President or Vice-President personal complaint",
+      "url": "https://www.mkri.id/berita/delik-penghinaan-presiden-hanya-dapat-dituntut-berdasarkan-aduan-presiden-wapres-25579",
+      "publisher": "Republic of Indonesia / Constitutional Court",
+      "date": "2026-08-12",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "jobloss-current",
+      "title": "Actual BPJS current cash unemployment insurance:60percent qualifying wage for at most six months;2026 pension amounts separately listed",
+      "url": "https://www.bpjsketenagakerjaan.go.id/penerima-upah.html",
+      "publisher": "BPJS Ketenagakerjaan",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "advanced-therapy",
+      "title": "BPOM actual2026 account of2025advanced cell/gene therapy assessment regulation and certified facilities; March14 workshop date not fabricated publication day",
+      "url": "https://www.pom.go.id/berita/bpom-perkuat-regulasi-produk-terapi-advanced-jamin-keamanan-dan-mutu-terapi-regeneratif",
+      "publisher": "Republic of Indonesia / BPOM",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "clinical-trials",
+      "title": "Current BPOM approved clinical-trial register, including August2026 entries; actual supervised research distinct from permission for healthy-person enhancement",
+      "url": "https://registrasiobat.pom.go.id/en/daftar-produk/uji-klinik",
+      "publisher": "Republic of Indonesia / BPOM",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "search-current",
+      "title": "Actual new KUHAP Article113 urgent search exceptions; May25 2026 challenge dismissed for standing, not substantive invalidation",
+      "url": "https://www.mkri.id/berita/pemohon-tidak-memiliki-kedudukan-hukum-uji-norma-penggeledahan-kuhap-25112",
+      "publisher": "Republic of Indonesia / Official institutions",
+      "date": "2026-05-25",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "search-interpretation",
+      "title": "August31 2026 official hearing account: government defends bounded urgent search/seizure discretion, not final judicial approval of every exception",
+      "url": "https://www.mkri.id/berita/pemerintah-sebut-koordinasi-penyidik-bukan-bentuk-subordinasi-25663",
+      "publisher": "Republic of Indonesia / Official institutions",
+      "date": "2026-08-31",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "religious-tax-current",
+      "title": "Actual December31 2025 regulation Articles8–10 and15: compulsory religious contributions deductible and qualified recipient receipts excluded from income; donor/recipient distinction",
+      "url": "https://www.pajak.go.id/index.php/id/peraturan/perlakuan-atas-bantuan-atau-sumbangan-termasuk-zakat-atau-sumbangan-keagamaan-yang",
+      "publisher": "Republic of Indonesia / Official institutions",
+      "date": "2025-12-31",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "religious-tax-explanation",
+      "title": "March2 2026 current official explanation with approved institutions for all six recognized religions, not Islam alone",
+      "url": "https://pajak.go.id/id/artikel/zakat-atau-sumbangan-keagamaan-dalam-spt-tahunan",
+      "publisher": "Republic of Indonesia / Official institutions",
+      "date": "2026-03-02",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "broadcast-current",
+      "title": "TVRI current public-information list refers to Public Broadcasting Institution and Government Regulation4/2024; full page retrieval failed, indexed official record used",
+      "url": "https://ppid.tvri.go.id/page/daftar-informasi-publik",
+      "publisher": "Republic of Indonesia / Official institutions",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence.\nFocused six-question reassessment: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route.",
+      "counterEvidence": "Actual August2026 constitutional review invalidated government-insult provisions; neither broad coalitions nor military influence establish lawful unilateral executive or military replacement.\nThe owner-defined broader axis includes lawful delegation and direct public control; a lower numerical placement is not a regime classification. Six exact responses and response strengths remain inferred. Retained source access dates are not refreshed unless a source was actually revisited. Unchanged answers and other axes were not re-audited. Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "The Constitution provides direct competitive presidential elections and a five-year term renewable once;2024 election selected the current president.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “Important national policy decisions should be delegated to independent experts who do not need approval from elected representatives for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. This is delegation of policy decisions to independent specialists, not replacement of the electorate or a claim that all expertise is political sovereignty. A legislative mandate, appointment process and later review can coexist with not voting on every operational decision.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Adult voting is not qualified by education or intelligence. Registration and implementation obstacles qualify universality; every current disenfranchisement exception was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strongly agree is the most likely response to the revised claim “During a serious emergency, the head of government should be able to put temporary laws into effect before parliament votes, with those laws expiring if parliament rejects them.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. This permits temporary lawmaking before a vote but expressly retains parliamentary rejection and expiry. It is not the previous permission to override an actual parliamentary rejection; primary legislation and delegated emergency instruments can differ.  The contextual institutional mechanism or explicit participatory commitment is sufficiently central to favour a strong response to the defined claim. This is an estimate of response strength, not a claim the subject answered this questionnaire. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition parties contest elections, but broad incumbent coalitions and resource/media inequalities weaken equal conditions. Moderate agreement best fits competition with unequal practical access; current equality is not comprehensively measured.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “Citizens should be able to put proposed national laws to a binding public vote by collecting enough signatures.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. The revised claim gives citizens an independent signature-triggered route to a binding national law vote. A petition, advisory consultation, parliamentary bill proposal or government-called referendum does not by itself establish that mechanism. Constitutional initiatives can provide qualified, narrower support.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "The Constitutional Court actually voided government-insult Articles240/241 in August2026; constitutional judicial review exists despite documented appointment and independence concerns.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “The governing party or coalition should be able to choose a new head of government between elections without holding a new public vote.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. This concerns replacing the head of government between elections. Parliamentary confidence or governing-party selection differs from choosing an entirely new legislature. A personally elected presidency has different succession rules, and a prime minister must not be confused with a separate ceremonial or executive head of state.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Legal restrictions on communist organizations and party registration coexist with constitutional competition and review. These are not general discretionary presidential power to exclude any political position; complete current dissolution procedure remains qualified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National lawmaking and constitutional amendment use representative institutions rather than a general voter repeal referendum. No current binding popular-repeal mechanism was located; special regional arrangements do not prove national repeal.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “An elected head of government should be able to make major policy decisions within existing law without obtaining parliament’s approval for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. The revised claim permits executive policy implementation within existing law without a separate parliamentary vote on each decision. It does not permit overriding legislation, spending authority, courts, or an explicit parliamentary rejection; collegial executives require additional qualification.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Articles7A/7B allow defined DPR-initiated, Constitutional-Court-tested MPR removal for serious misconduct; this is presidential impeachment, not ordinary parliamentary no-confidence.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “Parliament should be able to postpone a scheduled national election during a serious emergency, for a limited period specified in law.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive direct elections and defined impeachment coexist with elite coalitions, unequal political resources and military administrative influence. Focused interpretation: Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. This concerns a legally limited emergency postponement authorised by Parliament, not a leader cancelling elections for political convenience. Constitutional term limits, emergency exceptions and actual independent parliamentary control must be considered separately.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Party replacement and representative removal are not voter-initiated individual recall. Moderate disagreement is likeliest because no general national recall vote was found; complete subnational exceptions remain unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Direct elections, legislative scrutiny and defined impeachment provide constitutional accountability, although implementation weaknesses remain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Civilian constitutional institutions authorize government; military influence or expanded administrative postings do not grant the armed forces an independent right to replace it.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "court-insults"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional rights and current court corrections operate alongside drug, content and security restrictions.",
+      "counterEvidence": "The January2026 code and later rulings must be read together: government-insult provisions were annulled, while personally complained presidential offences remain. Exact new criminal-procedure details are explicit estimates.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "National criminal drug prohibitions reject unrestricted adult drug use even when harm is characterized as personal.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Serious-crime investigative powers alongside privacy safeguards make court-authorized interception likely permissible. The new2026 criminal procedure was not fully retrieved, so exact current authorization clauses are not asserted.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional assembly and actual demonstrations coexist with policing, notification and public-order restrictions. Mixed response fits temporary obstruction subject to emergency access; precise2026 obstruction threshold remains unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: August2026 annulment protects criticism of public institutions, while personally complained presidential-insult and religious restrictions remain. Moderate agreement weighs that actual correction without assuming all offence-based prosecution disappeared.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health and criminal paternalism suggest some mandatory self-protective measures. Measures protecting others are not proof of this exact primarily-self-benefit power; current specific health mandates were not exhaustively traced.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security data collection and digital policing coexist with privacy rules. Mixed estimate weighs both, without inventing years-long suspicion-free movement retention not verified in current procedure.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Traffic enforcement and national police road checks make random impairment testing likely. The precise suspicion-free legal trigger and implementation were not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preventive criminal/security restrictions and court powers suggest movement restraints for a demonstrated serious risk. Exact pre-offence judicial threshold under the new procedure remains unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Pornography and morally/religiously objectionable online content restrictions qualify adult access; constitutional expression is not an unrestricted adult-content entitlement.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary online communications do not appear to require government identity verification for each user. SIM registration and provider registration are narrower; every2026 platform-specific exception was not traced.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security and public-order policing suggest area searches during credible violence threats. No exact current suspicion-free provision was retrieved, so agreement is moderate contextual inference.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public-order controls on assembly suggest credible-disorder prohibitions, qualified by constitutional rights. Exact evidential and review thresholds under2026 law remain uncertain.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Current KUHAP Article113 permits urgent searches without prior district-court permission, including difficult geographic access and investigators’ assessment, extending beyond immediate danger to someone’s safety. May2026 standing dismissal did not invalidate these clauses; August government testimony calls discretion bounded, which qualifies disagreement without narrowing it to the question’s sole exception.",
+          "sources": [
+            "constitution",
+            "search-current",
+            "search-interpretation"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secrecy offences and documented constraints make unrestricted publication of confidential misconduct evidence unlikely, qualified by press freedom and investigative reporting. Exact current whistleblower/public-interest immunity was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Restrictive civilian firearms administration makes routine self-defence ownership under violence-history checks alone unlikely. Some licenses exist; exact current licensing purposes and exceptions remain unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Judicial detention machinery and constitutional rights make indefinite terrorism detention at sole executive discretion unlikely, although abusive enforcement is counterevidence. Exact updated2026 detention limits were not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "criminal-code",
+            "criminal-adjustment",
+            "court-insults",
+            "president-complaint"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Bahasa and Pancasila unity coexist with constitutionally protected local languages, customary peoples and multiple religions.",
+      "counterEvidence": "Domestic plural identity is not unconditional migrant-practice priority; customary recognition has legal conditions and documented implementation weaknesses.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pancasila unity and national cultural duties suggest national priority in conflicts, qualified by protected diverse traditions. No blanket hierarchy for every migrant practice was retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public provision for several religions and local cultural recognition indicate funded accommodation, qualified by dominant common administrative norms. Exact migrant-specific expenditure entitlement remains unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Bahasa and civic unity favor some customs integration, while diaspora/family residence and cultural protections oppose total cultural surrender. Exact permanent-migrant programme requirements were not exhaustively traced.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional cultural diversity and diaspora residence support maintaining identity while joining the community. Foreign identity differs from historic domestic ethnicity; exact entitlement remains qualified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Article36 establishes Bahasa Indonesia as the national language; common public administration is prioritized alongside protected local languages.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Article18B recognizes customary communities, and national identity includes their traditions. Ceremonial acknowledgment is likely but not an unconditional verified duty at every ceremony; actual land-rights weaknesses qualify this.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government national heritage and regional cultural support coexist in a country without one uniform predominant tradition. Mixed response reflects multi-tradition national funding; complete current allocation shares were not measured.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pancasila and common constitutional law limit cultural exceptions, while Article32 preserves cultural freedom. Shared national priority is likeliest in actual legal conflicts; comprehensive adjudication remains unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official recognition of festivals across several religions implies accommodation rather than one exclusive cultural calendar. Exact institution-by-institution schedules were not audited.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Article32 protects cultural values and local languages as national cultural treasures; national identity constitutionally embraces distinct traditions.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common language and civic unity suggest wider participation, qualified by preserved diaspora/community traditions. Actual migrant-integration programme coverage was not fully retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National Bahasa priority coexists with local-language and tourist/commercial multilingual usage. Neither creates a verified general migrant foreign-language signage right; mixed response reflects those different scopes.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pancasila national cohesion suggests shared identity emphasis, qualified by recognized community identities. No nationwide requirement governing private families’ identity ranking was found.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious clothing freedom and plural worship make legal full religious covering likely, qualified by security identification. Exact exception when all other full coverings are prohibited was not found.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutional cultural preservation includes distinct local languages and ways of life within Indonesia’s national identity.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National civic and language integration likely receives emphasis, but cultural-preservation duties and diaspora routes are counterevidence. Exact customs-versus-maintenance weighting in programmes is unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "gci-current",
+            "marriage-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Selective work and investment permits coexist with the January2026 GCI expansion of indefinite diaspora and family residence.",
+      "counterEvidence": "Temporary work, confirmed employment and humanitarian hosting are not automatic permanent settlement; UNHCR reports no general refugee local-integration pathway.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current documented routes use status, investment, kinship and work criteria rather than a verified strict annual permanent cap based on housing/workforce deficits. Moderate disagreement is likeliest; all current quantitative admission rules were not retrieved.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Selective residence categories do not give foreigners a general settlement entitlement solely to improve living conditions; diaspora and family routes are substantial exceptions.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "GCI indefinite residence covers former citizens, descendants and qualifying family members, so nationally useful skills are not the sole ordinary permanent criterion.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "GCI family reunion includes lawful spouses and children and exempts reunion from the financial guarantee; ordinary family visa categories provide additional qualified routes.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "UNHCR describes no local-integration pathway; temporary protection and third-country resettlement do not constitute general permanent settlement in Indonesia.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Permit/deportation controls make general retention of irregular entrants unlikely. Temporary humanitarian protection is counterevidence; the full current removal/nonrefoulement inventory was not traced.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employer-backed limited-stay expertise permits do not automatically become permanent immigration. Moderate agreement fits selective settlement despite demand, while family/diaspora GCI is counterevidence; exact broader labor-to-permanence rules remain qualified.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective admissions and infrastructure pressure coexist with investment/diaspora facilitation. Mixed estimate weighs restriction and economic openness, without claiming a documented housing-driven numerical reduction not located.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family reunion is a distinct documented route, and no common annual permanent cap was verified. Moderate disagreement is likeliest; every cap/accounting rule was not retrieved, and guarantee exemption alone does not prove numerical exclusion.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Work visas allow qualifying employer-backed experts/professionals with conditions; a job offer is not by itself unconditional entry, so agreement is moderate.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "GCI diaspora and independent investment/financial-guarantee pathways do not invariably require an employer or family-member sponsor; family reunion does.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A degree alone is not among the documented indefinite GCI criteria. Moderate agreement is likeliest, qualified by possible later work/other transitions whose complete current rules were not retrieved.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: UNHCR protection and temporary humanitarian hosting suggest exceptions outside ordinary employment categories. Actual restrictive landing/access episodes qualify agreement; no precise cap-reached admission guarantee was found.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preference for former Indonesian citizens and descendants indicates national/cultural connection, qualified by foreign spouses and other investor/professional routes. Kinship preference is not proof of a blanket nationality similarity ranking.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National cash assistance and social housing principally target citizen beneficiaries, while humanitarian and contributory services can reach foreigners. General migrant access to welfare/social housing is unlikely; precise eligibility for every permanent category remains unverified.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Admission favors kinship, work and investment rather than increasing numbers specifically because cultures differ. Diversity within admitted families is counterevidence, not a documented diversity-volume objective.",
+          "sources": [
+            "gci-current",
+            "family-visa",
+            "work-visa",
+            "refugees",
+            "refugee-integration",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "Territorial defence and modernization coexist with voluntary reserves, peacekeeping and active independent diplomacy.",
+      "counterEvidence": "Board of Peace signature does not prove Gaza troop deployment; domestic security operations and overseas peacekeeping do not establish prolonged foreign combat capacity.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Territorial/security operations and military modernization coexist with independent diplomacy and peacekeeping. Mixed estimate distinguishes domestic security from using force abroad for unattacked national interests; complete current force-use doctrine was not found.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Active BRICS and Gaza diplomacy suggest diplomatic priority, qualified by maintained armed capability. Exact willingness to accept slower outcomes remains inferred.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Armed-force modernization and defence institutions support substantial deterrence spending. Moderate agreement is qualified because costs and superiority over every potential opponent were not independently established.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional defence and national security powers make action against a strongly evidenced imminent attack plausible. Specific current preemption doctrine was not retrieved.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Territorial defence predominates while peacekeeping and domestic armed security need not follow an external attack. Mixed estimate addresses the literal only condition without classifying all peacekeeping as war.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Defence Ministry states Komcad recruitment is voluntary; constitutional citizen defence duties do not establish routine male conscription.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent diplomacy and conflict mediation suggest meaningful compromise to avoid war, qualified by sovereignty and territorial commitments. No exact substantial-concession policy was found.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civilian command, regulated military authority and cautious AI governance make unrestricted autonomous lethal targeting unlikely. Civilian AI policy is not a weapons rule; exact current targeting doctrine remains unverified.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Archipelagic territorial defence and reserve design favor repelling attacks, qualified by overseas peacekeeping. Exact force-planning allocations were not measured.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Maintained armed forces and constitutional defence reject avoiding every military action regardless of allied attack. Nonalignment does not mean absolute pacifism; precise ally contingencies were not found.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Territorial modernization and peacekeeping do not establish prolonged expeditionary combat capability. Moderate disagreement is likeliest; deployment endurance and foreign-combat doctrine were not fully documented.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diplomatic dispute management and sovereign multilateral engagement suggest leaving disputes unresolved over initiating war. Exact territorial-war threshold remains unverified.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current mediation and independent cooperation suggest restraint about coercive war threats, qualified by deterrence. No complete inventory of recent international military threats was retrieved.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current conflict diplomacy suggests risk reduction, qualified by territorial readiness. Exact national resolve-versus-de-escalation hierarchy remains inferred.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National defence/intelligence structures make military intelligence collection likely. Covert foreign espionage policy and accepted diplomatic risks are not publicly established in the retrieved sources.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Multilateral peace cooperation coexists with modernization. Mixed estimate weighs reciprocal negotiated arms restraint and capability goals; actual willingness to accept specific reductions was not found.",
+          "sources": [
+            "constitution",
+            "voluntary-reserve",
+            "peace-board",
+            "brics-current",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Sovereignty, independent foreign policy and national currency coexist with ASEAN, RCEP, BRICS and new peace cooperation.",
+      "counterEvidence": "Multilateral membership is not an international federation or universal foreign-court supremacy; signed trade commitments do not automatically establish completed domestic commencement.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional sovereignty and national implementation preserve final domestic legal authority, qualified by accepted trade/treaty obligations. Complete treaty-versus-statute conflict jurisprudence was not retrieved.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: UN/trade participation entails some binding obligations while ASEAN/BRICS retain strong sovereignty and consent. Mixed response distinguishes accepted specific jurisdiction from a general institutional power despite opposition; exact current compulsory jurisdiction inventory remains unverified.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National constitutional institutions and sovereign foreign policy suggest domestic court finality in unaccepted jurisdiction conflicts. Accepted treaty arbitration is counterevidence; precise current international-court conflict doctrine was not retrieved.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term ASEAN/RCEP and peace commitments accept some constraints, qualified by nonalignment and absence of a supranational common government. Exact alliance-wide freedom limits remain inferred.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Sovereign treaty choice and domestic ratification support withdrawal without an external approval veto, subject to treaty notice/procedure. Every current withdrawal clause was not traced.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Accepted specific international dispute mechanisms coexist with sovereign reservations and national courts. Mixed estimate avoids inventing universal official-crime jurisdiction or denying all binding trade arbitration; exact accepted court jurisdictions remain unverified.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Current BRICS statement explicitly emphasizes sovereignty, resilience and national self-reliance within multilateral cooperation; agreement is qualified by actual shared commitments.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Cross-border environmental cooperation exists but ASEAN sovereign consensus limits independent international decision power. Mixed estimate reflects cooperation without verified supranational environmental rulemaking authority.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent nonaligned foreign policy avoids mandatory uniform bloc positions while participating in ASEAN/BRICS consultations. These forums are not automatically a common foreign-policy bloc; precise obligations remain qualified.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic constitutional law and sovereign treaty implementation make unilateral international human-rights institutions’ power to require legal changes unlikely. Accepted reporting/commitments are counterevidence; exact binding adjudicatory channels were not fully checked.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Indonesia retains the rupiah and Bank Indonesia rather than transfers monetary policy to a common international central bank.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: ASEAN and peace/reconstruction cooperation support pooled efforts, qualified by national decision-making. Exact current pooled funding and independently delegated decisions were not exhaustively traced.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "National immigration administration and UNHCR’s non-state protection role preserve national entry authority; cooperation does not share sovereign admissions control.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "RCEP/ASEAN and current trade cooperation accept common negotiated rules, qualified by retained tariffs, import administration and agreements requiring domestic commencement.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Indonesia remains a sovereign unitary republic and participates in intergovernmental forums, not an international political federation.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Peace and collective trade-rule cooperation coexist with independent neutrality and national-interest emphasis. Mixed response weighs actual participation without claiming willingness in every immediate-interest conflict.",
+          "sources": [
+            "constitution",
+            "brics-current",
+            "peace-board",
+            "trade-october",
+            "art-not-automatic",
+            "central-bank",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Public strategic enterprises and Danantara holdings coexist with extensive private small firms and commercial manufacturing.",
+      "counterEvidence": "SOE consolidation or closure is not automatically privatization; constitutional control of natural resources does not prove every extracting company is publicly owned.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Extensive private small/commercial enterprise suggests most firms are privately owned by count, qualified by dominant strategic SOEs. Exact2026 firm ownership census was not retrieved; output shares are not firm counts.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State utility enterprises and Article33 vital-sector control support public network ownership, qualified by concessions/private operators. Complete water-network asset ownership was not audited.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Competitive private manufacturing coexists with retained state strategic enterprises despite efficiency rhetoric. Mixed response reflects both ownership approaches; no universal comparable-provider presumption was established.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual state commercial holdings under Danantara coexist with private manufacturers; restructuring continues public participation rather than leaving competitive sectors entirely private.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public hospitals and district health provision coexist with private providers and public insurance contracting. Moderate disagreement is likeliest; ownership-weighted current facility shares were not measured.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State rail enterprise and strategic transport holdings suggest public infrastructure preference. Exact title to every passenger track and concession was not separately retrieved, so agreement is moderate.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public insurance purchasing and private provision suggest comparable lower-cost contracting is acceptable. Public facilities remain; exact national procurement presumption across services was not located.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State bank holdings coexist with commercial private lenders, supporting a mixed banking system. Exact current ownership percentages after Danantara transfers were not individually verified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual SOE consolidation and closures retain state strategic holdings; they are not a general commercial privatization programme. Some disposal/reorganization qualifies disagreement.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State housing support and public rental schemes coexist with predominantly household/private housing. Mixed estimate distinguishes subsidized ownership/mortgage provision from public rental stock; exact share was not verified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private strategic manufacturing under regulation coexists with Article33 and retained state critical holdings. Mixed response reflects distinct security industries rather than assuming either universal public ownership or universal regulation suffices.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State energy/mineral enterprises and constitutional resource control favor public extraction participation, qualified by private and foreign concessions. Public ownership of natural resources does not alone prove public ownership of every extracting firm.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private contracting and local public providers coexist. Mixed estimate addresses routine services separately from strategic enterprise ownership; full current waste-provider procurement preference was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual Danantara restructuring retains strategic public assets and public ownership despite monetization/efficiency alternatives; not all businesses are retained.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State support and restructuring of commercial enterprises suggest sale is not the automatic response to repeated losses. Actual closures are counterevidence but are not private sales; complete repeated-support disposal rules remain unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current official TVRI information identifies a national Public Broadcasting Institution under Government Regulation4/2024, alongside private media. Public broadcaster retention is likeliest; the full current ownership statute was not retrieved, so the official indexed classification is not presented as an audited asset-title register.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "ev-current",
+            "broadcast-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Tariffs, import licensing and local content protect domestic capacity alongside regional negotiated liberalization.",
+      "counterEvidence": "US export tariffs are not Indonesia’s import response; the US agreement requires domestic commencement, and sector subsidies are not by themselves temporary import bans.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Existing tariffs and industrial protection indicate domestic protective use, qualified by negotiated regional reductions. Exact2026 tariff schedule was not exhaustively retrieved.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: RCEP and regional liberalization coexist with import licensing, food self-sufficiency and local-content policy. Mixed response reflects those actual opposing mechanisms; US agreement signature is not completed removal of most barriers.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic-content promotion and national industrial procurement suggest local preference, qualified by trade obligations and cost requirements. Exact permissible price premium was not retrieved.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Import administration and strategic restrictions limit buying solely on best foreign terms, though ordinary international sourcing remains widespread. Complete current permitted-origin inventory was not traced.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Food/energy self-sufficiency and administered imports favor preserving domestic essential capacity. The exact lower-cost import tradeoff is inferred rather than every essential good being restricted.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reciprocal regional agreements and negotiated US arrangements suggest liberalization is not generally unconditional on partners. Some autonomous reforms are counterevidence; exact current unilateral schedule was not found.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Local EV/downstream industrial promotion and protective import mechanisms suggest temporary infant-industry protection is acceptable. Subsidies/local content alone are not import limits; exact duration and consumer-price concessions remain unverified.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign investment access coexists with reserved activities, strategic controls and domestic-content conditions, so wholly identical terms are unlikely. Current sector-specific equality was not exhaustively checked.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Food self-sufficiency and documented agricultural import administration support domestic farming protection. Exact current crop-specific restrictions were not all retrieved.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retained industrial/import protection makes adjustment without government trade protection unlikely as a general rule. Regional exposure to competition qualifies disagreement.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Negotiated responses to US tariffs suggest seeking agreement over automatic retaliatory tariff imposition. Export-country tariffs are not Indonesian import retaliation; a complete current retaliatory schedule was not located.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary consumption taxation appears broadly applicable to domestic/imported goods, qualified by border duties and sector exemptions. Tariffs differ from product taxes; exact2026 parity across every product was not verified.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current G20 support for addressing excess capacity within lawful trade rules suggests qualified countervailing restrictions. Large subsidies alone are not proof of automatic bans; exact current Indonesian countervailing cases were not retrieved.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional agreements reduce tariffs and current government pursues negotiated access, qualified by strategic self-sufficiency. Exact willingness to accept foreign dependence beyond each agreement remains inferred.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strategic state holdings and investment-sector restrictions suggest limiting foreign control, qualified by substantial accepted foreign investment. Exact additional-investment tradeoff and current negative-list limits were not fully audited.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign online services remain used, while digital licensing/content and tax obligations apply. Mixed response distinguishes trade restrictions from ordinary content regulation; complete cross-border digital-trade rules were not retrieved.",
+          "sources": [
+            "bti-2026",
+            "trade-october",
+            "art-not-automatic",
+            "ev-current",
+            "danantara-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "National investment and strategic-enterprise direction coexist with ordinary private production and market prices.",
+      "counterEvidence": "Essential controls are not uniform output planning; independent Bank Indonesia coordination is not sole government command over interest rates.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Most ordinary private firms choose products within licensing rules, qualified by strategic SOE and industrial direction. Exact economy-wide autonomy was not measured.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National food/energy objectives and strategic-enterprise instructions suggest compulsory targets in some important sectors. Announced aspirations are not every private firm’s binding quota; precise target enforcement was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary commercial goods use market prices while essential fuel/food and regulated services have controls. General market pricing is likeliest; exact2026 price-control coverage remains unquantified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Government directs Danantara strategic investment and downstream projects toward selected national industries; actual groundbreakings do not mean all production targets already achieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private commercial expansion/closure generally responds to demand, qualified by state restructuring and licenses. SOE closure plans do not establish economy-wide centrally commanded output.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Administered essential fuel/food pricing supports control, qualified by market-price components and subsidies. Subsidy spending is not itself proof of a fixed price; exact current control schedule was not exhaustively retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary business entry is licensed but not evidently subject to a universal proof that additional production is needed. Strategic-sector exceptions and exact current licensing criteria remain unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public banks and targeted small-business/industrial finance suggest priority-directed lending, qualified by commercial credit decisions and monetary independence. Exact binding bank directives were not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International capital movement coexists with reporting, currency and financial-sector controls. Mixed response distinguishes reporting from prior approval; the exact complete current authorization inventory was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Downstream industrial support and domestic EV facilitation steer investment beyond purely private allocation. Exact counterfactual private preferences and subsidy terms remain unverified, qualifying agreement.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Rupiah legal-tender policy and regulated crypto rather than general private payment currency make free monetary competition unlikely. Exact2026 payment rules were not fully retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National/regional statutory minimum-wage institutions reject leaving the lowest wage entirely to bargaining. Exact current numerical wage levels and exemptions were not independently checked.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Above-floor commercial wages generally use employment bargaining, qualified by minimums, public pay scales and regulation. No universal state wage schedule was found; complete current coverage remains qualified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Bank Indonesia has independent monetary authority and coordinates with government; shared inflation/development objectives do not establish sole government interest-rate command, nor completely disconnected policy.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary private rentals appear market-set while public/subsidized housing is administered. Exact nationwide rent-control inventory was not retrieved, so general-market preference is moderate.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National strategic food/energy distribution and investment coordination coexist with private market production. Mixed answer reflects actual divided scope rather than an economy-wide command plan.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "danantara-current",
+            "danantara-transition",
+            "central-bank",
+            "monetary-current",
+            "ev-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Progressive earnings taxation and targeted cash programmes coexist with limited fiscal capacity, coverage and modest working-age protection.",
+      "counterEvidence": "Public meals, healthcare and housing services are not cash income; inheritance exclusion is distinct from later property duties, and current JKP cash lasts at most six months.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Progressive personal tax and targeted transfers reduce some disparities, while low collection, modest benefits and incomplete coverage limit substantial compression. Mixed response reflects implemented redistribution and its limits; disposable-income effects were not fully quantified.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Progressive tax and poverty-focused transfers accept some redistributive taxation, qualified by investment relief and limited revenue. Exact inequality-alone justification is not explicitly documented.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expanded targeted cash and job-loss support coexist with tax concessions and limited fiscal collection. Mixed estimate weighs actual strengthening against absence of a verified stronger minimum financed by higher taxes.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: PKH targeting and capped temporary job-loss support suggest basic protection rather than broad income equalization. Pension/wage replacement provides counterevidence; exact distribution effect remains unmeasured.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Ordinary personal income tax rises through5,15,25,30and35percent marginal bands under the harmonization law, so higher earnings face substantially greater ordinary tax shares.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tax concessions and inherited untaxed transfers coexist with progressive rates and continuing cash expansion. Mixed estimate weighs real retention and redistribution, without claiming an explicit preference for larger inequality.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Distributed inheritance is excluded from ordinary income tax; property-transfer charges are distinct from a large-inheritance income-support levy.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "BPJS currently caps qualifying unemployed workers’ cash replacement at six months, even without proof every recipient’s income recovers. Other long-term cash benefits qualify rather than erase that working-age limit.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Income/property taxes exist but a broad recurring accumulated-net-wealth levy for low-income transfers was not located. Moderate disagreement is likeliest; every asset-specific current levy was not audited.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Limited targeted cash and low tax collection suggest restrained funding burden, qualified by increased JKP replacement and PKH continuation. Exact causal modesty-for-tax-relief justification remains inferred.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Modest targeted cash and incomplete coverage make guaranteed ordinary social participation unlikely. Some contributory wage replacement/pensions are stronger; complete adequacy across eligible categories was not measured.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual intern income-tax relief and continuing targeted cash support show both priorities. Mixed response reflects simultaneous implemented measures; total tax-cut versus cash-growth budget weighting was not comprehensively verified.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State-paid intern tax passed through in cash and targeted household support can supplement low earnings. Internship-specific relief is not universal low-paid supplementation; complete coverage remains unverified.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Higher personal earnings enter higher marginal tax bands; ordinary additional earnings of high earners do not generally face the same marginal rate as low earners.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agrarian redistribution and land certification context coexist with private property and customary/state land disputes. Mixed estimate distinguishes certification/state-land allocation from compensated large-private-estate redistribution; exact current compensatory programme scale was not retrieved.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Targeted poverty cash coexists with contributory job-loss/pension benefits not confined to basic-needs destitution; neither one universal narrow restriction nor one universal broad benefit applies.",
+          "sources": [
+            "tax-law",
+            "inheritance",
+            "cash-current",
+            "benefit-delivery",
+            "jobloss-current",
+            "wage-tax-support",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "Constitutional belief in one God, religious education, marriage validity and binding religious family courts coexist with civil government and recognized plural faiths.",
+      "counterEvidence": "Indonesia’s national framework is not a single-faith Islamic constitution; Aceh-specific criminal provisions must not be projected onto all national law.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pancasila and civil enactment coexist with religious marriage and moral legislation. Religious justification is an actual official strand, but not all law is scriptural; its precise relative weight remains inferred.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Religious validity governs marriage and legally recognized religious family adjudication, alongside civil statutory enactment and multiple recognized faiths.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Elected civil government does not generally need clerical approval, despite substantial consultation and religion-linked family rules. Exact current approval requirements across all laws were not exhaustively traced.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Article29 affirms the one God rather than one particular religion. Moderate disagreement fits the literal single-faith foundation, qualified by official theistic foundation and dominant Muslim institutions.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Faith-oriented instruction and constitutional education for devoutness make purely nonpersuasive comparative religion unlikely. Multiple faith provision is counterevidence; exact current curriculum and exemptions were not fully retrieved.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional education promotes spiritual belief/devoutness and public religious instruction, qualified by plural recognized religions rather than one compulsory Islamic conversion. Exact current implementation across schools remains qualified.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Civil institutions enact statutes, while state religious courts apply legally recognized religious family law; religious authority is incorporated in defined areas rather than replacing all national civil law.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious consultation and influential councils coexist with civil legislative authority. Mixed response reflects advisory and statutory religious involvement without inventing a universal official clerical review duty.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government faith ceremonies and official religious observance suggest worship inclusion, qualified by secular administrative ceremonies and several faiths. Complete current ceremonial practice was not audited.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious ministry and faith-oriented public educational/marriage services indicate public support for belief, qualified by welfare/administrative functions. Exact budget share specifically strengthening faith was not measured.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Plural religious public institutions coexist with Pancasila and civil government symbolism. Mixed estimate distinguishes religious departmental displays from universal endorsement by ordinary buildings; complete current display rules were not retrieved.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Major Muslim and other recognized religions’ festivals are officially observed, supporting qualified recognition. Exact2026 holiday decree was not retrieved; plural calendar prevents treating Islam as the only recognized religion.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Electoral/appointment institutions do not ordinarily reserve seats solely for clerical office. Political clerics are counterevidence but not automatic religious seats; exact regional exceptions were not fully traced.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Current regulation separately recognizes compulsory religious contributions to approved faith bodies and excludes qualified receipts from recipients’ taxable income. This covers religious obligations beyond merely charitable work, subject to relationship/registration conditions. Donor deductions alone are not organizational exemptions; the recipient provision is the relevant evidence.",
+          "sources": [
+            "religious-tax-current",
+            "religious-tax-explanation"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Current ministry implementation requires religiously valid marriage and registration; civil administration has not removed religious validity from marriage law.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current integrated isbat nikah uses Religious Court decisions to confer legally recognized marriage status; Muslim family jurisdiction is binding within its statutory scope.",
+          "sources": [
+            "constitution",
+            "marriage-current",
+            "family-courts",
+            "bti-2026",
+            "tax-law"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Religion-linked marriage and family administration favor established norms alongside civil opportunity and protection outside traditional households.",
+      "counterEvidence": "Complaint-based nonmarital-sex offences are not automatic policing of every private relationship; abortion exceptions are not general early choice, and legal rules are not citizen-attitude surveys.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religion-linked family validity and new complaint-based sexual offences favor established customs, qualified by reform and civil rights. No national citizen-values survey is used; implemented institutional openness remains a moderate estimate.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marriage/moral institutions and cultural preservation duties favor tradition, qualified by constitutional rights and actual reforms. Exact priority in every customs conflict remains unverified.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religion-valid marriage and cohabitation rules privilege recognized married families, qualified by child protection and assistance to vulnerable households. Exact current equal institutional recognition was not measured.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Established family/religious structures suggest traditional role encouragement, qualified by equal legal rights and women’s public employment. Exact official role-versus-choice guidance remains inferred.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Current national marriage framework recognizes husband/wife religiously valid marriage, not marriage irrespective of the couple’s sex.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Marriage validation and family administration favor a two-parent married model, qualified by protection/support outside it. Current institutional preference rather than citizen acceptance is estimated.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regulated abortion for specified health/sexual-violence exceptions does not establish ordinary early-choice acceptance. Moderate disagreement fits restricted institutional recognition; national attitudes are not inferred from legality alone.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religion/family participation in education suggests parental sexual-value influence, qualified by national compulsory standards. Exact current final parental opt-out power was not fully traced.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Lack of same-sex marriage recognition and traditional religious family institutions make equal adoption recognition unlikely. Exact current adoption eligibility and citizen attitudes were not retrieved, so this is an institutional estimate.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious moral institutions and regionally enforced modesty suggest traditional public-dress expectations, qualified by plural national practices and no verified universal hijab mandate. Exact national guidance remains inferred.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official marriage/family terms and established sex classifications suggest traditional language, qualified by personal expression and regional diversity. Exact2026 gender-identity language directives were not retrieved.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional moral/devout education and cultural transmission favor established norms, qualified by learning innovation and rights. Precise established-versus-new priority remains inferred.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Equal civil opportunity and varied employment coexist with traditional family expectations and discrimination. Mixed estimate addresses institutional role acceptance separately from marriage definitions; full current practices were not measured.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Gradual family/education reforms and retained religious validity suggest cautious institutional change, qualified by major new criminal-code implementation. Exact response when faster social change is popular was not documented.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Faith-oriented schooling and sexual-morality institutions make fully inclusive compulsory orientation/identity instruction unlikely. Exact national curriculum content and exceptions were not retrieved.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional cultural preservation and official heritage practice favor ancestral connection, qualified by practical development and civil rights. Exact preservation when practical purpose disappears remains contextual inference.",
+          "sources": [
+            "constitution",
+            "criminal-code",
+            "criminal-adjustment",
+            "marriage-current",
+            "family-courts",
+            "health-law",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Actual digital capability, commercial EV and infrastructure development coexist with clinical safety and ecosystem assessment.",
+      "counterEvidence": "AI human empowerment qualifies replacement claims; food-safety GMO review is not automatic cultivation approval, and medical gene therapy is not embryo enhancement permission.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual AI capability and EV deployment favor adoption with early benefits, qualified by medical/biosafety controls. No uniform all-technology long-term risk permission was found.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Commercial EV and digital deployment exceed small trials while medical/biological technologies have controlled pathways. Moderate disagreement rejects a blanket all-technology trial restriction, not every safety test.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual infrastructure/downstream construction and documented land/ecosystem pressure suggest substantial benefits can justify habitat loss. Exact current irreversible-loss approval decisions were not exhaustively retrieved.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual BPOM clinical evaluation, risk management and advanced-therapy facility controls favor medical caution. Long-term study duration before every product’s availability was not verified, qualifying agreement.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual AI adoption/capability work favors productivity, while April2026 policy explicitly stresses empowering rather than replacing human roles. Mixed estimate weighs both; neither statement proves willingness to accept many job losses.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual infrastructure and industrial expansion show development can override preservation, qualified by environmental assessment duties. Exact nationwide priority over all undisturbed habitats remains unverified.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Food safety/biosafety and religion-linked authorization suggest caution about premature cultivated-meat replacement. GMO review is not a cultivated-meat prohibition; exact current cultivated-meat policy was not found.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical clinical/risk framework makes healthy-person invasive enhancement research restriction likely. No specific brain-implant enhancement law was retrieved, so agreement is qualified inference.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Industrial technology and energy development coexist with efficiency/conservation aims. Mixed answer reflects both, without claiming verified priority for unproven climate technology over reduced consumption.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Environmental assessment and biosafety review coexist with accelerated construction and documented ecological pressure. Mixed estimate weighs actual review and development rather than an unverified automatic delay for every poorly understood effect.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: BPOM clinical/risk safeguards make basic-safety-only enhancement implants unlikely. Existing cell therapy is not permission for healthy brain enhancement; exact implant rules remain unverified.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical evaluation and human oversight emphasis suggest supervised medical AI testing until reliability is credible. No exact different-patient-group diagnostic AI threshold was retrieved.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regulated advanced therapy focuses on safety and treatment, not human enhancement embryo trials. No actual enhancement authorization was found; medical gene products do not establish germline permission.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual environmental GMO assessment examines nontarget organisms, biodiversity, gene escape and weed risks. This supports ecosystem caution; exact required long-term evidence before every cultivation approval was not fully verified.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual housing/transport/downstream investment favors expansion in some land conflicts, qualified by ecological and customary-rights protection. Full current project-choice inventory was not audited.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: BPOM risk management and environmental biosafety support caution for irreversible harm, qualified by accelerated industrial deployment. No uniform all-technology strong-evidence threshold was retrieved.",
+          "sources": [
+            "ai-current",
+            "ai-human",
+            "ev-current",
+            "danantara-current",
+            "advanced-therapy",
+            "clinical-trials",
+            "gmo-review",
+            "gmo-environment",
+            "bti-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Protected wide regional autonomy and customary institutions operate inside a unitary national constitution and statutory framework.",
+      "counterEvidence": "Local administration is not a separate constitution or secession right; national standards, local delivery and special regional arrangements are assessed separately.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Article18 provides wide regional autonomy and local regulations within the unitary national legal framework; nationally reserved affairs and practical fiscal dependence qualify protection.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National statutes define reserved powers and Article18 protects local authority subject to national law. National judicial/legal finality is likely, qualified by review rather than unlimited presidential discretion; exact dispute procedures remain unverified.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitutional unitary state and territorial integrity do not authorize unilateral regional referendum secession; special autonomy is not a right to leave.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National standards and reserved functions can override incompatible local policy, qualified by protected autonomy and court review. Exact programme-only override power was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Article18 authorizes regional regulations under the national constitution, not separate state constitutions.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Article30 establishes POLRI as the national police within nationally regulated defence/security institutions; regional offices are not separate sovereign regional police direction.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Central tax collection and intergovernmental transfers make keeping most locally collected revenue unlikely. Local tax/resource shares are counterevidence; exact2026 retained aggregate was not measured.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "National constitutional education framework and funded compulsory basic schooling apply, while local administration and culture permit variation rather than every subject being locally sovereign.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Local fiscal autonomy includes permitted local taxes/rates, qualified by national legal ceilings. Exact current2026 tax schedules across regions were not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National labor framework sets employment rules while regional wage variation exists. Wage floors differ from authority over dismissal/hours; exact regional exceptions were not fully audited.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National law defines regional institutions/boundaries and autonomy, making unilateral local-voter power changes unlikely. Exact current boundary approval procedure was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National health/social-insurance framework defines coverage while districts deliver services. Local variation is counterevidence; precise national benefit schedule and supplementation rules were not fully traced.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Article18B recognizes customary-law communities and traditional rights, conditional on continued existence and consistency with national development/unitary law; implementation and recognition weaknesses qualify autonomy.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National tax statutes and regional fiscal regulation constrain local competition, qualified by local permitted rate choices. Exact2026 competitive-rate ceilings were not exhaustively retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional autonomy/customary institutions support local land management, qualified by national resource, forestry and conservation rules. Exact wildlife competence for effects confined to one region was not fully traced.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National security, health and coordination powers suggest central direction of multiregion disaster response, qualified by regional administration. Exact national override where regions prefer different plans was not retrieved.",
+          "sources": [
+            "constitution",
+            "bti-2026",
+            "cash-current",
+            "benefit-delivery"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Actual early-learning and responsive-care interventions demonstrate environmental contribution alongside individual development.",
+      "counterEvidence": "The interventions do not quantify every trait, national IQ, racial violence or pay-gap causation; stress, attention, temperament and gender behavior retain explicit interaction estimates.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual holistic early-childhood interventions treat caregiving, learning and surroundings as behavior-shaping causes. Moderate experiential predominance is likeliest, but the six-district evaluation does not quantify all inherited influences.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Education and early-development intervention emphasize opportunities, making inherited national IQ predominance unlikely. No national IQ causal decomposition was found; education effectiveness is not proof genes contribute nothing.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Legal equal opportunity and learned gender expectations coexist with religion-linked sex/family roles and individual development. Mixed estimate separates institutional roles from an unverified national biological-versus-social predominance theory.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Responsive emotional care targets experiences while milestone support recognizes individual development. Interaction is likeliest for stress sensitivity; no measured biological predominance comparison was retrieved.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Learning materials, play and responsive opportunity expansion suggest experience shapes interests. Exact experiences-versus-inherited predominance was not quantified.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Early learning and guided behavior development favor experience in risk responses, qualified by individual predispositions. No risk-taking-specific hereditary estimate was found.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parenting and psychosocial development support learned cooperative habits through surroundings. Moderate predominance is likeliest; inherited contributions were not measured.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Responsive caregiving and emotional learning favor acquired empathy contributions. No empathy-specific national hereditary ranking was retrieved, so rejection of biological predominance is moderate.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual learning interventions address attentional surroundings while developmental milestone support recognizes individual needs. Mixed interaction is likeliest; no measured predominant cause of attention was found.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional moral education and cultural socialization treat right/wrong reactions as learned. Immediate intuition differs from taught instruction, so biological predominance is only moderately rejected.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Responsive care and psychosocial support suggest learned threat perception and experience matter strongly. Specific threat-versus-inherited predominance was not quantified.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parenting support recognizes developmental differences and responsive environment together. Temperament is likeliest interactive rather than wholly inherited or learned; no national quantified decomposition was retrieved.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutionally protected diverse traditions and learned social surroundings suggest cultural attractiveness preferences. Neither legislation nor the child evaluation directly measures attractiveness causation, so agreement is moderate contextual inference.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Contextual development/education and equal civic dignity make a racial-biological violence hierarchy unlikely. No national race-genetic violence causal claim was found; security policy is not such a causal theory.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Guided learning and responsive parenting treat self-regulation as developable through practice. Moderate learning predominance is likeliest over inherited racial tendencies, but no race-specific genetic comparison was measured.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Equal opportunity commitments and documented social/workforce barriers favor social expectations over inherently lower female economic value. Exact current pay-gap decomposition is not available; traditional roles are counterevidence, not a measured value hierarchy.",
+          "sources": [
+            "ecd-evaluation",
+            "parenting-current",
+            "constitution",
+            "bti-2026"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex: distinct same-agent focused evidence review (not independent human or external peer review)",
+    "reviewedAt": "2026-10-06",
+    "notes": "Reviewed the literal revised mechanisms, directions, period-specific retained research, supplemental references, inferred intensity, conditional Neutral decisions, institutional mismatches and unchanged-answer preservation. New educated-assumption IDs: democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13. Emergency regulations require legislative approval and the president has a personal electoral mandate. Constitutional succession differs from party-only replacement; there is no general signature-triggered national legislative referendum route. All earlier evidence limitations remain. No new empirical calibration, fresh full-profile research, human review or external peer certification is claimed. Similarity is reviewed after scoring the complete batch, without tuning any answer.",
+    "similarity": []
+  }
+}

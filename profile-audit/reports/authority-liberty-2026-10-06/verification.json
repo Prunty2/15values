@@ -1,0 +1,101 @@
+{
+  "verifiedAt": "2026-10-06",
+  "questions": {
+    "status": "passed",
+    "count": 240,
+    "axes": 15,
+    "exactSourceSynchronisation": true
+  },
+  "assessments": {
+    "status": "passed",
+    "subjects": 209,
+    "countries": 47,
+    "ideologies": 57,
+    "personalities": 105,
+    "answeredPerProfile": 240,
+    "newFocusedArchives": 208,
+    "concurrentFullUKAuditRetained": 1,
+    "unchangedObjectsPerFocusedProfile": 231,
+    "unrelatedScoresPreservedInFocusedProfiles": 14
+  },
+  "catalogue": {
+    "status": "passed",
+    "visible": 203,
+    "excluded": 6,
+    "deterministicGeneratedDataCheck": true
+  },
+  "preservation": {
+    "status": "passed",
+    "sha256BaselineFiles": 1416,
+    "gitHistoryBase": "HEAD",
+    "gitArchiveImageHistoryCheck": true
+  },
+  "unitTests": {
+    "status": "passed",
+    "tests": 320,
+    "files": 10,
+    "log": "unit-tests.log",
+    "environment": "Bundled Git used because system Git requires an unaccepted Xcode licence; first environment-only test failure resolved without changing test expectations."
+  },
+  "productionBuild": {
+    "status": "passed",
+    "typeCheck": true,
+    "catalogueCheck": true,
+    "log": "build.log"
+  },
+  "browserChecks": {
+    "status": "scope passed; full suite not green",
+    "distinctRelevantPassingCases": 97,
+    "focusedRunPassed": 94,
+    "focusedRunFailedBeforeCorrection": 3,
+    "followupAutoAdvancePassed": 3,
+    "intentionalStaticDownloadDuplicatesSkipped": 2,
+    "projects": [
+      "desktop Chromium",
+      "mobile Chromium",
+      "Safari WebKit"
+    ],
+    "allFourQuizLengthsCompletedOnEveryProject": true,
+    "allPublishedAssessmentDownloads": 203,
+    "bank1AndBank2ImportReloadExportPreserved": true,
+    "interactiveReviewSubjects": 209,
+    "currentBankMatchesAndFaithEligibilityChecked": true,
+    "all240QuestionLayoutsCheckedAcrossSixViewports": true,
+    "logs": [
+      "browser-tests.log",
+      "focused-browser-tests.log",
+      "browser-followup.log"
+    ],
+    "remainingConfirmedFailure": {
+      "test": "tests/platform.spec.ts:102 mobile primary action precedes the example and is visible without scrolling",
+      "cases": 3,
+      "reason": "The test waits for an Example profile comparison region absent from the current homepage. Homepage production code was outside this fix and was preserved."
+    },
+    "fullSuiteLimitation": "The first full browser run was interrupted after obsolete export/progress expectations and the homepage failure; it was not completed or reported as passed. Migration tests now use the existing Export history control, navigation accounts for the additional required identity question, and auto-advance checks explicitly answer it. Other legacy UI tests, including individual Export result expectations in quiz/results tests, remain outside this axis reassessment and need separate maintenance."
+  },
+  "evidence": {
+    "newFocusedAssumptionIds": [
+      "authority-liberty-01",
+      "authority-liberty-02",
+      "authority-liberty-03",
+      "authority-liberty-04",
+      "authority-liberty-07",
+      "authority-liberty-08",
+      "authority-liberty-11",
+      "authority-liberty-12",
+      "authority-liberty-13"
+    ],
+    "newUKAssumptionIds": [
+      "authority-liberty-01",
+      "authority-liberty-02",
+      "authority-liberty-08",
+      "authority-liberty-11",
+      "authority-liberty-12",
+      "authority-liberty-13"
+    ],
+    "sourceRetrievalReferences": 402,
+    "sourceAccessLimitations": 68,
+    "review": "Distinct same-agent review; no external peer or human review claimed",
+    "limitations": "Exact responses, intensities and historical/territorial applications are inferred; selected sources and retained dossiers are not empirical calibration or a fresh verification of every prior citation."
+  }
+}

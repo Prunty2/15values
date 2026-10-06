@@ -1,0 +1,4000 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "country",
+  "id": "mexico",
+  "revision": 2,
+  "questionBankVersion": "2.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "ff5cd074c33d338b62aafc9c7e9cb7ff3afdbac91cafe5905f16de43f2e585f7",
+  "researchedAt": "2026-10-06",
+  "author": "Codex: focused Democracy–Autocracy reassessment",
+  "changeNote": "Owner-authorised focused migration to bank 2.0.0 and axes 2.0.0. Independently reassessed democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13 using retained period-specific sourced research and the explicitly recorded supplemental references. All other 234 question-level answer objects are preserved verbatim from revision 1. No other axis was reassessed, no target score or population remapping was applied, and earlier archives remain unchanged. Six new educated assumptions are provisional; retained evidence limitations still apply.",
+  "metadata": {
+    "name": "Mexico",
+    "description": "Mexico’s national institutions and implemented policies through 4 October 2026, with federal, Indigenous and sector differences distinguished.",
+    "category": "Federal presidential republic",
+    "period": "Contemporary institutions and implemented policy; intended cut-off 2026-10-04",
+    "scope": "National institutions and implemented policy through2026-10-04, not citizens’ attitudes. Current presidency, completed judicial reforms and proposed election changes distinguished; national/federal and Indigenous autonomy, private enterprise/public strategic firms and cash programme eligibility assessed separately.",
+    "historical": false,
+    "image": {
+      "path": "profiles/images/mexico-r1.png",
+      "alt": "Flag of Mexico: green, white and red vertical bands with central eagle, snake and cactus coat of arms",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg",
+      "creator": "Omar Alejandro Covarrubias Neri (SVG), based on Francisco Eppens Helguera and Juan Manuel Gabino Villascán (1968 arms); Commons SVG contributors",
+      "license": "Public domain (Mexican federal copyright law Article14VII; Commons PD-Mexico)",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico.svg#Summary"
+    }
+  },
+  "sources": [
+    {
+      "id": "freedom-context",
+      "title": "Mexico: Freedom House country overview (2026)",
+      "url": "https://freedomhouse.org/country/mexico/freedom-world/2026",
+      "publisher": "Freedom House",
+      "date": "undated",
+      "accessed": "2026-10-04"
+    },
+    {
+      "id": "constitution-historical",
+      "title": "Constitution English2015 fulltext downloaded/read; later2024–2026judicial, transparency and energy amendments explicitly qualified",
+      "url": "https://www.constituteproject.org/constitution/Mexico_2015?lang=en",
+      "publisher": "Constitute Project / Mexico constitutional text",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "constitution-current",
+      "title": "Current official constitution consolidation April10 2026: opening rights and amended Indigenous/Afro-Mexican Article2 read; later pages timed out and not claimed fully retrieved",
+      "url": "https://www.asf.gob.mx/uploads/242_transp_fraccion01/CPEUM_26.pdf",
+      "publisher": "Mexico national government / ASF",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "oecd-economy",
+      "title": "Full OECD Economic Survey Mexico2026 downloaded/read: actual trade, private enterprise, public energy, monetary autonomy, fiscal and local tax framework; recommendations not implemented by assumption",
+      "url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2026/02/oecd-economic-surveys-mexico-2026_9701d51d/8a7c0ac4-en.pdf",
+      "publisher": "OECD",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "election-proposals",
+      "title": "May29 2026 Senate constitutional foreign-interference nullity bill passed and sent to state legislatures; not proof of completed promulgation or unilateral presidential cancellation",
+      "url": "https://www.canaldelcongreso.gob.mx/noticias/10130",
+      "publisher": "Mexico national government / Congressional Channel",
+      "date": "2026-05-29",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "judicial-proposal",
+      "title": "May18 2026 proposal to move next judicial election; proposed2028 date not treated as completed constitutional change",
+      "url": "https://www.gob.mx/presidencia/prensa/presidenta-claudia-sheinbaum-enviara-al-congreso-propuesta-para-cambiar-la-eleccion-del-poder-judicial-al-domingo-4-de-junio-de-2028?idiom=en",
+      "publisher": "Mexico national government / Presidency",
+      "date": "2026-05-18",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "recall-law",
+      "title": "Official2021 presidential recall law publication; defined recall distinct from universal recall of all elected legislators",
+      "url": "https://www.diputados.gob.mx/sedia/biblio/prog_leg/Prog_leg_LXV/001_DOF_14sep21.pdf",
+      "publisher": "Mexico national government / Congress",
+      "date": "2021-09-14",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "cannabis-current",
+      "title": "July7 2026 COFEPRIS indexed actual response to court order on personal cannabis authorization; fullpage403, not blanket legal permission for all drugs",
+      "url": "https://www.gob.mx/cofepris/es/articulos/cofepris-acata-declaratoria-de-inconstitucionalidad-emitida-por-la-scjn-en-materia-de-autoconsumo-ludico-de-cannabis-y-tetrahidrocannabinol",
+      "publisher": "Mexico national government / COFEPRIS",
+      "date": "2026-07-07",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "mobile-id",
+      "title": "September2026 actual indexed mobile line suspension/reactivation for identity linking; fullpage unavailable, SIM identity not mandatory identification on every online communication platform",
+      "url": "https://www.gob.mx/crt/prensa/las-lineas-con-terminacion-1-suspendidas-se-reactivaran-al-completar-su-vinculacion",
+      "publisher": "Mexico national government / Telecommunications Commission",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "gun-licence",
+      "title": "Current national firearm carry licensing/renewal administration; constitutional home possession distinguished from public carrying",
+      "url": "https://www.gob.mx/defensa/acciones-y-programas/sedena-02-027",
+      "publisher": "Mexico national government / Defence",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "religious-clothing",
+      "title": "SCJN July2026 headscarf photograph precedent indexed; religious headscarf is not a full-face/burqa exception rule",
+      "url": "https://sjfsemanal.scjn.gob.mx/detalle/ejecutoria/34124",
+      "publisher": "Mexico national government / SCJN",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "residence",
+      "title": "Actual consular permanent visa eligibility: financially independent retirees/pensioners and family, no job offer required",
+      "url": "https://www.miconsulado.sre.gob.mx/visasmexicanas/visa/visa-de-residencia-permanente/",
+      "publisher": "Mexico national government / Foreign Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "family-residence",
+      "title": "Current INM indexed family unity requirements for permanent-resident relatives; fullpage failed, spouse graduated status qualified",
+      "url": "https://www.gob.mx/inm/documentos/preguntas-frecuentes-para-solicitar-visa-por-unidad-familiar",
+      "publisher": "Mexico national government / Migration Institute",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "work-residence",
+      "title": "Current employment permit and foreign worker microsite; employer offer subject to authorization, temporary route not automatic permanence",
+      "url": "https://mexicoteemplea.gob.mx/Micrositio/PCM-VisitantesExtranjeros.aspx",
+      "publisher": "Mexico national government / Labour Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "asylum",
+      "title": "Actual UNHCR Mexico process: COMAR recognition leads INM permanent residence; applicant work permission and nonreturn safeguards, not all claims automatically approved",
+      "url": "https://help.unhcr.org/mexico/como-solicitar-la-condicion-de-refugiado-en-mexico/",
+      "publisher": "UNHCR",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "military-service",
+      "title": "Actual2026 service forms with two13Saturday training cycles; compulsory male registration/service qualified by lottery and voluntary women",
+      "url": "https://www.gob.mx/defensa/acciones-y-programas/formas-de-cumplir-con-el-s-m-n",
+      "publisher": "Mexico national government / Defence",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "foreign-current",
+      "title": "September25 2026 actual indexed UN General Assembly foreign-policy intervention: sovereignty, peaceful dispute settlement and international law; fullpage403 qualified",
+      "url": "https://www.gob.mx/sre/articulos/presenta-canciller-vision-de-mexico-sobre-los-desafios-globales-en-la-asamblea-general-de-naciones-unidas-436527?idiom=es",
+      "publisher": "Mexico national government / Foreign Ministry",
+      "date": "2026-09-25",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "peace-current",
+      "title": "March13 2026 actual joint Mexico/Brazil/Colombia ceasefire and negotiated-resolution call, not a completed disarmament accord",
+      "url": "https://www.gob.mx/sre/prensa/mexico-colombia-y-brasil-piden-cese-al-fuego-inmediato-en-medio-oriente-y-ofrecen-apoyo-para-una-salida-diplomatica?idiom=es-MX",
+      "publisher": "Mexico national government / Foreign Ministry",
+      "date": "2026-03-13",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "foreign-framework",
+      "title": "Adopted2025–2030 sectoral foreign-policy programme; constitutional principles versus future programme delivery distinguished",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5767163",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "international-court",
+      "title": "Actual2026 government notification of Inter-American Ascencio Rosario judgment; accepted responsibility/remedy administration, not proof all ordered changes delivered",
+      "url": "https://www.gob.mx/segob/prensa/notifica-coidh-sentencia-del-caso-ascencio-rosario-vs-mexico-415262?idiom=es-MX",
+      "publisher": "Mexico national government / Interior Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "public-bank",
+      "title": "July20 2026 Banobras actual20billion peso placement for infrastructure; public development bank distinct from national central bank",
+      "url": "https://www.gob.mx/banobras/prensa/banobras-coloco-exitosamente-20-mil-mdp-para-impulsar-el-desarrollo-de-infraestructura-que-genera-empleo-y-bienestar?idiom=es-MX",
+      "publisher": "Mexico national government / Banobras",
+      "date": "2026-07-20",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "bank-framework",
+      "title": "Adopted Banobras2025–2030 institutional programme; existing public institution versus future project outcomes",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5773499",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "broadcast",
+      "title": "Current actual SPR national public broadcaster channels and2026operations, not private broadcaster regulation alone",
+      "url": "https://spr.gob.mx/",
+      "publisher": "Mexico national government / Public Broadcasting System",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "housing-plan",
+      "title": "Infonavit2026 strategic plan includes social rental plans; future targets do not establish an already substantial public rental stock",
+      "url": "https://portalmx.infonavit.org.mx/wps/wcm/connect/029dbd83-b80b-4616-bf07-6d988f45269d/PEF%2B2026_VF.pdf?CVID=pIkj1tE&MOD=AJPERES",
+      "publisher": "Mexico national government / Infonavit",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rail-current",
+      "title": "Actual2026 rail infrastructure import quota decree, construction incentives distinguished from completed network or private concession title",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5783917",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "trade-current",
+      "title": "Actual2026 tariff amendment text, historical2024temporary duties and April2026expiry distinguished from new/current duties",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5785818",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "investment-plan",
+      "title": "Actual January2025 Plan Mexico tax incentives for investment/training/innovation; delivered incentive framework not all promised output",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5747410",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "tax-current",
+      "title": "2026 Anexo8 indexed income-tax schedule; fulltext retrieval timed out, no unverified exact thresholds claimed",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5777219",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "income-tax-law",
+      "title": "Official consolidated Income Tax Law throughApril2024: inheritance exemption and graduated structure; later2026specific schedules separately qualified",
+      "url": "https://www.diputados.gob.mx/LeyesBiblio/pdf/LISR.pdf",
+      "publisher": "Mexico national government / Congress",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "pension-current",
+      "title": "Actual2026 older-person cash pension rules read: resident Mexican65plus,3200monthly paid bimonthly, not means-tested destitution-only or universal noncitizen benefit",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5779939",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "women-pension",
+      "title": "Actual2026 women60–64 cash pension rules; particular group entitlement not all working-age minimum income",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5779940",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "training-income",
+      "title": "Actual2026 Jovenes Construyendo Futuro programme rules: time-limited youth training stipend, not ordinary low-wage employee top-up",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5777674",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rural-income",
+      "title": "Actual2026 Sembrando Vida rules and monthly6450 producer support; direct productive-household cash distinguished from universal wage supplement or services",
+      "url": "https://sidof.segob.gob.mx/notas/docFuente/5780984",
+      "publisher": "Mexico national government / Official Gazette",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rural-payment",
+      "title": "May7 2026 actual reported Sembrando Vida April payment to415499 farmers; planting2030targets not all achieved",
+      "url": "https://www.gob.mx/bienestar/prensa/realiza-sembrando-vida-el-pago-del-jornal-a-415-mil-499-sembradoras-y-sembradores-del-pais?idiom=es",
+      "publisher": "Mexico national government / Welfare Ministry",
+      "date": "2026-05-07",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "marriage",
+      "title": "Actual national population council account: same-sex marriage legal throughout country since final state2022change, not uniform citizen social attitudes",
+      "url": "https://www.gob.mx/conapo/articulos/aniversario-del-matrimonio-igualitario-en-la-cdmx-y-en-todo-el-pais?idiom=es",
+      "publisher": "Mexico national government / Population Council",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "abortion-current",
+      "title": "April20 2026 actual SCJN relief for abortion service implementation in already decriminalized states; current court action not blanket uniform national access",
+      "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8479",
+      "publisher": "Mexico national government / SCJN",
+      "date": "2026-04-20",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "family-rights",
+      "title": "Actual SCJN family precedent including nonmarried family forms; earliercaseprecedent not claimed new2026enactment",
+      "url": "https://sjf2.scjn.gob.mx/detalle/ejecutoria/34263",
+      "publisher": "Mexico national government / SCJN",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "artist-ai",
+      "title": "April15 2026 actual approved artist labour/copyright protection reform; not a comprehensive national AI law or all draft artist protections completed",
+      "url": "https://www.gob.mx/cultura/prensa/aprueban-reforma-en-materia-de-derechos-de-las-personas-trabajadoras-artistas-interpretes-o-ejecutantes?idiom=es-MX",
+      "publisher": "Mexico national government / Culture Ministry",
+      "date": "2026-04-15",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "maize-current",
+      "title": "April2026 official indexed noncultivation of GMmaize; fullpage retrieval unavailable, maize protection not a ban on all genetically modified species",
+      "url": "https://www.gob.mx/agricultura/es/articulos/en-mexico-no-se-cultiva-maiz-transgenico?idiom=es",
+      "publisher": "Mexico national government / Agriculture Ministry",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "early-childhood",
+      "title": "March2026 current CONAFE early-childhood caregiver/community support, rural/Indigenous context; intervention not measured genetics decomposition",
+      "url": "https://www.gob.mx/conafe/acciones-y-programas/atencion-a-la-primera-infancia-309731?state=published",
+      "publisher": "Mexico national government / CONAFE",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "parent-materials",
+      "title": "February2026 actual CONAFE early-education parent materials; contextual child learning not national all-trait inherited contribution measurement",
+      "url": "https://www.gob.mx/conafe/es/documentos/materiales-de-apoyo-de-educacion-inicial?state=published",
+      "publisher": "Mexico national government / CONAFE",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "child-strategy",
+      "title": "July24 2026 adopted ENAPI2026–2030 strategy; future service/coverage targets not assumed already delivered",
+      "url": "https://www.gob.mx/sipinna/articulos/gobierno-de-mexico-publica-la-estrategia-nacional-de-atencion-a-la-primera-infancia-2026-2030",
+      "publisher": "Mexico national government / Child Protection System",
+      "date": "2026-07-24",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "holiday-context",
+      "title": "Official legislative2024 proposal quotes existing labour mandatory holidays and distinguishes Easter school vacation from mandatory all-worker religious holiday; proposal not enacted by assumption",
+      "url": "https://sil.gobernacion.gob.mx/Archivos/Documentos/2024/10/asun_4788536_20241022_1728492074.pdf",
+      "publisher": "Mexico national government / Congress",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "court-limits-current",
+      "title": "January19 2026 actual indexed SCJN ruling: constitutional disputes cannot stop/review constitutional reforms; ordinary-law invalidation continues; fullpage unavailable",
+      "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8427",
+      "publisher": "Mexico national government / SCJN",
+      "date": "2026-01-19",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "rent-court-current",
+      "title": "February25 2026 actual SCJN decision validates CDMX annual rent-increase inflation cap with freely negotiated initial rent; indexed fulltext read, later open403",
+      "url": "https://www.internet2.scjn.gob.mx/red2/comunicados/comunicado.asp?id=8452",
+      "publisher": "Mexico national government / SCJN",
+      "date": "2026-02-25",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "attention-context",
+      "title": "Actual IMSS clinical guidance: neurodevelopmental ADHD with genetic, gestational and birth-injury risk factors; historical context not all ordinary attention or general temperament causation",
+      "url": "https://www.gob.mx/imss/prensa/brinda-imss-tratamiento-terapeutico-y-estrategias-educativas-a-pacientes-con-trastorno-por-deficit-de-atencion-e-hiperactividad",
+      "publisher": "Mexico national government / IMSS",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    },
+    {
+      "id": "court-historical-page",
+      "title": "SCJN Article103–107 page read but legacy8vote/oldFederalDistrict terms show stale consolidation; not treated as current2026judicial structure",
+      "url": "https://www.scjn.gob.mx/conoce-la-corte/cpeum-1",
+      "publisher": "Mexico national government / SCJN",
+      "date": "undated",
+      "accessed": "2026-10-05"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability.\nFocused six-question reassessment: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints.",
+      "counterEvidence": "2026court relief shows operative review despite independence concerns; judicial-election and foreign-interference proposals are not automatically enacted unilateral presidential powers.\nThe owner-defined broader axis includes lawful delegation and direct public control; a lower numerical placement is not a regime classification. Six exact responses and response strengths remain inferred. Retained source access dates are not refreshed unless a source was actually revisited. Unchanged answers and other axes were not re-audited. Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual competitive presidential/congressional elections remain operative; ruling-party dominance and violence qualify equal electoral implementation.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “Important national policy decisions should be delegated to independent experts who do not need approval from elected representatives for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. This is delegation of policy decisions to independent specialists, not replacement of the electorate or a claim that all expertise is political sovereignty. A legislative mandate, appointment process and later review can coexist with not voting on every operational decision.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Adult citizenship suffrage has no education or intelligence qualification; legal criminal/status disqualifications differ from such tests.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “During a serious emergency, the head of government should be able to put temporary laws into effect before parliament votes, with those laws expiring if parliament rejects them.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. This permits temporary lawmaking before a vote but expressly retains parliamentary rejection and expiry. It is not the previous permission to override an actual parliamentary rejection; primary legislation and delegated emergency instruments can differ.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition competition and party organization remain real, qualified by violence, unequal state resources and ruling-party dominance. Exact2026all-party equality is not established.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “Citizens should be able to put proposed national laws to a binding public vote by collecting enough signatures.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. The revised claim gives citizens an independent signature-triggered route to a binding national law vote. A petition, advisory consultation, parliamentary bill proposal or government-called referendum does not by itself establish that mechanism. Constitutional initiatives can provide qualified, narrower support.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Actual2026SCJN ordinary-law/abortion relief continues, while elected-judge interference, disciplinary powers and inability to halt constitutional amendments constrain review. Mixed response weighs meaningful constitutional-rights relief and weakened independence; it does not claim courts can invalidate constitutional reforms.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current",
+            "court-limits-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “The governing party or coalition should be able to choose a new head of government between elections without holding a new public vote.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. This concerns replacing the head of government between elections. Parliamentary confidence or governing-party selection differs from choosing an entirely new legislature. A personally elected presidency has different succession rules, and a prime minister must not be confused with a separate ceremonial or executive head of state.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Electoral rules and judicial supervision differ from unilateral governing-party exclusion for political positions. Religious-party restrictions and May2026foreign-interference bill qualify scope; the bill is not proved fully promulgated and exact all current exclusions were not consolidated.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Binding popular consultation machinery allows national policy questions with constitutional exclusions. Moderate agreement is likeliest for citizen reversal, but an unrestricted law-repeal entitlement is not established; old2015timing rules are not claimed current.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agree is the most likely response to the revised claim “An elected head of government should be able to make major policy decisions within existing law without obtaining parliament’s approval for each decision.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. The revised claim permits executive policy implementation within existing law without a separate parliamentary vote on each decision. It does not permit overriding legislation, spending authority, courts, or an explicit parliamentary rejection; collegial executives require additional qualification.  The described institutional delegation or bounded permission makes agreement more likely than disagreement. Legal safeguards, narrower implementation or an inferred historical application make ordinary agreement more appropriate than an unconditional strong response. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional accusation before Senate and legal accountability provide a serious-abuse route, qualified by political thresholds and historical consolidation. Exact2026presidential criminal-removal grounds were not fully retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disagree is the most likely response to the revised claim “Parliament should be able to postpone a scheduled national election during a serious emergency, for a limited period specified in law.” in the specified scope (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The retained sourced research records: Competitive elections, presidential recall and constitutional review coexist with ruling-party dominance, judicial pressure and weak accountability. Focused interpretation: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. This concerns a legally limited emergency postponement authorised by Parliament, not a leader cancelling elections for political convenience. Constitutional term limits, emergency exceptions and actual independent parliamentary control must be considered separately.  The representative, rights-based or participatory restriction described in the context weighs against this mechanism; its limited exceptions or imperfect institutional fit favour ordinary rather than strong disagreement. The citations supply contextual evidence, not a documented exact response to this new wording. The original source dossier is used as retained research; this pass does not claim a fresh retrieval or complete verification of every historical citation. Precise policy scope, hypothetical institutional translations and response intensity remain uncertain.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defined presidential recall provides actual voter removal machinery; its scope is narrower than all elected legislators. Full current legislative/local recall inventory was not retrieved, qualifying agreement.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Elections, recall and congressional accountability oppose unaccountable executive government, qualified by weak corruption scrutiny and judicial pressure. Exact2026enforcement across offices was not fully traced.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitutional civilian government selection does not authorize armed forces to replace it on their own judgment; expanded civilian security roles are distinct from a coup power.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "election-proposals",
+            "judicial-proposal",
+            "recall-law",
+            "abortion-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "Constitutional expression, privacy and personal autonomy coexist with coercive security practice, surveillance and uneven due process.",
+      "counterEvidence": "Cannabis authorization is selective rather than all drugs legal; SIM identity is not universal online identity, and judicially authorized detention differs from detention with no independent review.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual personal-cannabis authorization and constitutional autonomy coexist with other drug prohibitions and permit restrictions. Mixed response reflects selective lawful personal use rather than an unrestricted all-drug entitlement; full current substance rules were not consolidated.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional judicial communication-interception authorization supports serious-crime surveillance, qualified by exclusions and abusive surveillance concerns. Exact amended2026warrant procedure was not fully retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional peaceful assembly and actual public demonstrations support some temporary road obstruction, qualified by police restrictions and violence. Emergency-access-only protection for all obstructive protests was not established.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional expression and actual criticism remain, qualified by attacks on journalists and retribution concerns. Offence alone is generally insufficient; every current speech exception was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public health and traffic safety obligations suggest some primarily self-protective adult mandates. Exact current self-benefit-only statutory powers were not traced; protection of others is not the sole rationale.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expanded security information and weak surveillance safeguards make prolonged movement record retention likely, qualified by privacy rights. Exact suspicion-free multi-year police retention limits were not independently established.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National/local intoxication road-safety enforcement suggests random testing is allowed, qualified by procedural rights. Exact2026no-suspicion testing clause was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preventive judicial restrictions and serious security-risk administration suggest court-imposed movement limits before offending are possible. Precise current prospective-harm threshold was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Broad media access and secular expression protections make purely moral government censorship unlikely, qualified by criminal/content regulation and intimidation. All current book/film/website exceptions were not inventoried.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual mobile SIM linking requires identity, but no universal government identity verification for every online communication platform was established. General internet communication is likeliest accessible without that universal condition; exact all platform rules remain unverified.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Militarized public-security operations and area checks suggest credible-threat searches without individual suspicion are permitted in some settings. Constitutional safeguards qualify agreement; exact current police-area threshold was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public-order protection and court safeguards suggest credible serious-disorder gatherings can be restricted. Exact current national/local prohibition test was not separately retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional home-search warrants and limited urgent exceptions support protected domestic entry. Abuse and changing criminal procedures qualify agreement; full amended2026exception inventory was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public-interest disclosure and investigative journalism coexist with confidentiality offences and severe journalist threats. Mixed response weighs disclosure rights and security restrictions, not a blanket immunity; exact2026public-interest defence was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional home firearm possession and Defence licensing support qualified civilian personal defence, with registration, weapon-category and carrying restrictions beyond violent-history checks. Exact2026home permit consolidation was not fully retrieved.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Judicial criminal detention machinery and historically court-authorized bounded arraigo oppose indefinite executive-only detention. Actual due-process abuses qualify disagreement; precise2026time limits and terrorism exceptions were not consolidated.",
+          "sources": [
+            "constitution-historical",
+            "freedom-context",
+            "cannabis-current",
+            "mobile-id",
+            "gun-licence",
+            "abortion-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "Pluricultural national identity and Indigenous/Afro-Mexican recognition coexist with common civic institutions and Spanish administration.",
+      "counterEvidence": "Indigenous language/autonomy rights are not interchangeable with every foreign-migrant signage or custom request; exact conflict rules and family priorities remain educated estimates.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Shared Mexican national identity and constitutionally recognized Indigenous/Afro-Mexican autonomy coexist. Mixed estimate reflects a plural national framework; an exact migrant-culture conflict priority rule was not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional multilingual/community education and asylum interpretation support publicly funded accommodation, qualified by unequal access. Indigenous support is not automatically every migrant practice; precise migrant-specific spending obligations remain unverified.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Shared civic participation coexists with protected distinct cultural identity and community norms. Mixed response weighs both; a permanent migrant custom-adoption obligation was not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Multicultural constitutional nationality and refugee integration suggest foreign identity need not be abandoned, qualified by shared civic/legal duties. Exact current migrant-cultural retention clauses were not fully retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Spanish predominates in national administration while Indigenous languages have recognition and interpretation support. Foreign-migrant multilingual services differ from Indigenous language rights; current exact priority clauses were not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual constitutional Indigenous/Afro-Mexican recognition makes ceremonial acknowledgement likely, qualified by uneven representation. A mandatory acknowledgment at every national ceremony was not found.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National heritage funding and specific minority/Indigenous cultural protection coexist. Mixed response weighs real plural traditions and predominant national projects; exact2026allocation shares were not measured.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Indigenous/community autonomy and national constitutional rights both bind cultural conflicts. Neither unlimited identity priority nor uniform national custom supremacy fits the documented framework; migrant-specific case inventory remains incomplete.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common civic/work calendar and national education schedule predominate, with cultural/religious/local accommodations. A single inflexible celebration rule was not established, qualifying agreement.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Amended Article2 expressly recognizes pluricultural/multiethnic national identity, including Indigenous and Afro-Mexican communities.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Refugee employment/integration and shared civic participation favor participation beyond separate cultural communities, qualified by community identity protection. Exact current all-migrant integration programme directions were not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Spanish public administration coexists with language interpretation and plural language protections. Mixed response distinguishes actual Indigenous provision from foreign-migrant signage; precise migrant-neighborhood signage rules were not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National civic identity and legally protected distinct community/family cultural continuity coexist. Mixed estimate weighs both; no current universal private-family priority instruction was retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious freedom and headscarf-rights precedent favor lawful religious dress, qualified by identification and public-safety exceptions. Headscarf photography does not prove a special burqa exception when all other full coverings are banned; precise rule remains unverified.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current constitutional national identity explicitly incorporates multiple Indigenous/Afro-Mexican cultural ways of life within the republic.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Shared civic integration and community cultural preservation both receive institutional support. Mixed response avoids treating Indigenous autonomy as a complete migrant programme; precise current customs-versus-maintenance weighting was not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "religious-clothing",
+            "asylum",
+            "holiday-context",
+            "early-childhood"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "Family, independent retirement and recognized-refugee permanent routes coexist with controlled work entry and immigration enforcement.",
+      "counterEvidence": "Humanitarian public-service access does not imply every cash benefit: the current older-person pension requires Mexican nationality, and spouse/worker/student routes have distinct conditions.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual family, retirement and refugee permanent routes lack an identified strict housing/workforce annual cap. Moderate disagreement is likeliest; full numerical permanent quota inventory was not retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Permanent retirement/family and recognized-refugee pathways permit settlement improvement, qualified by eligibility and immigration enforcement. They do not give every applicant unconditional residence; exact full general route inventory remains incomplete.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual consular permanent residence includes retirees/pensioners and family independently of nationally important occupational skills.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family-unity pathways for permanent residents include dependent relatives; spouse status may initially be temporary before permanence. Full current graduated spouse rules were not retrieved, qualifying agreement.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual COMAR refugee recognition leads INM permanent residence without an occupational-skills or cultural-similarity test; recognition of protection need is required.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Immigration enforcement/removal coexist with asylum and humanitarian regularization. General irregular migration alone does not guarantee remaining; exact2026all removal exceptions were not retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employment entry authorization controls coexist with private recruitment and separate permanent family/financial routes. Mixed estimate distinguishes work permits from permanent caps; exact demand-versus-permanence policy was not found.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Documented permanent retirement/family/refugee channels and protection obligations do not show a housing-reduction admission rule. Moderate disagreement is likeliest; precise2026capacity directive was not found.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: No common numerical permanent cap was established across family and other documented routes. Moderate disagreement is likeliest; absence of a retrieved cap is qualified rather than proof of every regulation.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual employer-sponsored work authorization permits confirmed-job migration subject to INM approval. A job offer alone is not sufficient, qualifying agreement; complete current occupation exceptions were not retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual financially independent retiree/pensioner permanent visa route does not require an employer or family sponsor.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Student permission differs from documented permanent financial/family/refugee routes; graduation alone is unlikely to confer permanence. Exact2026graduate conversion exceptions were not fully retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual asylum access, nonreturn and humanitarian permission support protection independent of ordinary work/family admission limits. Exact numerical-cap-reached entry entitlement was not separately retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Permanent eligibility uses financial/family/protection criteria rather than an identified culturally similar origin ranking. Unequal enforcement and regional mobility are counterevidence; exact all nationality preferences remain unverified.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": 0,
+          "basis": "direct",
+          "rationale": "Actual asylum applicants obtain humanitarian work permission/public-service documents, while2026older-person cash pension explicitly excludes foreign nationals. Mixed eligibility reflects real status/programme differences, not universal welfare entitlement.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Pluricultural national recognition and refugee integration support diverse-origin inclusion, qualified by enforcement and no verified diversity-specific admission target. Exact increased-number-because-cultural-difference directive was not retrieved.",
+          "sources": [
+            "residence",
+            "family-residence",
+            "work-residence",
+            "asylum",
+            "pension-current",
+            "freedom-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "International peaceful settlement and nonintervention coexist with compulsory male service and extensive domestic military security roles.",
+      "counterEvidence": "Domestic anti-crime deployments are not automatically foreign military campaigns; maintained defensive force also prevents treating peace diplomacy as avoiding action at any cost.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current nonintervention and peaceful settlement policy oppose unprovoked foreign force for national advantage. Domestic military security roles qualify pacific posture but are distinct; exact all force-use exceptions were not retrieved.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current foreign-policy principles and actual joint ceasefire/diplomatic calls explicitly prioritize peaceful dispute resolution over international force.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defensive/security forces and modest international military posture do not prioritize costly superiority over foreign opponents. Exact2026superiority-cost allocation was not measured, qualifying disagreement.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defence/security preparation coexist with nonintervention and rejection of international force. Mixed estimate distinguishes actual self-defence from preventive foreign attack; exact imminence doctrine was not retrieved.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International nonintervention and defensive national role support armed-response limits, qualified by domestic anti-crime operations and authorized noncombat participation. Exact self-or-ally-only doctrine was not found.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual compulsory male military registration/service and2026training cycles remain, with lottery forms and voluntary female participation qualifying universal delivery.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current negotiation and peace calls favor accepting some diplomatic concessions, qualified by strong sovereignty red lines. A precise substantial weakening tradeoff was not found, so agreement is moderate.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Human-rights/peace framework and lack of documented autonomous lethal authorization make human oversight more likely than unrestricted target-and-attack automation. Exact current weapons AI rules remain unverified.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defensive territorial/security duties and nonintervention favor homeland defence over foreign campaigns, qualified by extensive domestic security activity. Exact force allocation was not measured.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Maintained armed defence, compulsory service and domestic force use reject avoiding all military action at any cost. Antiwar diplomacy is counterevidence; exact hypothetical ally-attack commitment was not found.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic security and nonintervention emphasize national deployment rather than prolonged expeditionary combat. Exact2026external sustained-combat readiness was not established.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Peaceful dispute settlement and nonintervention favor leaving territorial disagreements to negotiation rather than war. No current specific unresolved territorial-war tradeoff was documented, qualifying agreement.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Current constitutional foreign-policy principles proscribe threats/use of international force and actual diplomacy follows peaceful settlement, rather than threats for concessions.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual anti-escalation/diplomatic calls favor reducing war risk, qualified by sovereign defence responsibilities. Exact all-conflict hierarchy was not retrieved.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Security intelligence and sovereign defensive responsibilities coexist with peaceful diplomatic policy. Mixed estimate distinguishes routine intelligence from risky offensive military espionage; classified current practice is not claimed documented.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Disarmament/peace framework supports negotiated military restraint, qualified by retained domestic defence. No actual comprehensive reciprocal force reduction agreement was retrieved, so willingness remains moderate inference.",
+          "sources": [
+            "military-service",
+            "foreign-current",
+            "peace-current",
+            "foreign-framework",
+            "constitution-historical",
+            "freedom-context"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "Sovereign independent foreign policy coexists with trade treaties, multilateral cooperation and accepted international rights adjudication.",
+      "counterEvidence": "Treaty obligations do not automatically delegate all border or environmental decisions; state-rights judgments and personal international criminal liability are distinct.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional national authority and sovereignty remain while accepted treaties bind domestic institutions. Moderate national final authority is likeliest, qualified by rights/treaty integration; complete2026conflict jurisprudence was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Accepted treaty dispute and human-rights adjudication permit some binding external decisions despite disagreement. Sovereignty/nonintervention qualify general delegation; exact all institutional powers were not inventoried.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic constitutional supremacy and accepted Inter-American rights judgments coexist. Mixed estimate weighs constitutional restrictions and treaty interpretation, not a blanket domestic veto; current complete conflict precedent was not consolidated.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term USMCA and multilateral commitments constrain unilateral trade policy, while sovereign nonintervention limits military/political pooling. Exact every alliance independence tradeoff was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional treaty processes permit national withdrawal decisions subject to domestic and treaty procedures. Exact all notice/termination clauses were not retrieved; national ability is not instant consequence-free exit.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Accepted Inter-American state responsibility and international criminal treaty participation support qualified binding jurisdiction. State litigation differs from individual prosecution; exact2026all official immunities were not exhaustively traced.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current explicit sovereign independent foreign policy protects national interests within legal cooperation. No universal conflict hierarchy was adopted in retrieved text, qualifying agreement.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Multilateral climate/shared-problem cooperation coexists with retained sovereign decision authority. Mixed estimate distinguishes binding negotiated obligations from external control; complete current cross-border environmental delegation was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent nonintervention foreign policy and economic rather than unified political blocs suggest avoiding compulsory common foreign-policy authority. Treaty cooperation qualifies agreement; complete regional foreign-policy obligations were not inventoried.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual Inter-American judgment notification and remedy administration show accepted rights adjudication, qualified by incomplete compliance and constitutional restrictions. Every ordered legal change is not claimed delivered.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "National peso and autonomous national central bank retain monetary control rather than a shared international currency authority.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Multilateral institutional funding and negotiated regional cooperation support some shared funding/decisions, qualified by sovereignty. Exact2026all pooled programme allocations were not verified.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National consular/INM/COMAR decisions retain entry authority, qualified by refugee protection treaties. International protection obligations do not themselves delegate each border-admission decision. Exact all operational arrangements were not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual USMCA concessions and treaty trade rules coexist with independent tariffs for nonpartners; negotiated common trade rules are operative.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Federal Mexican national sovereignty remains rather than membership in an international political federation; federal domestic states are a different institutional level.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current multilateral law/peace cooperation and rights-court engagement support collective rules, qualified by independent nonintervention and selective sanctions policy. Exact neutrality-versus-immediate-interest tradeoffs were not traced.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "foreign-current",
+            "foreign-framework",
+            "international-court",
+            "oecd-economy",
+            "asylum"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "Ordinary private enterprise coexists with retained public energy, development banks, healthcare and national broadcasting.",
+      "counterEvidence": "Private generation/joint ventures do not eliminate public grid ownership; public housing targets are not existing rental stock, and national resource title is not title of every mining firm.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual broad ordinary commercial enterprise remains private despite significant strategic public firms; firm prevalence differs from strategic output share.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public electricity transmission and municipal water responsibilities favor public essential network title, qualified by private operation/concessions. Exact current all network ownership was not inventoried.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current deliberate retained CFE/Pemex/public development policy favors public strategic provision even with private alternatives. Private competitive sectors qualify disagreement; exact comparable-cost ownership preference was not explicitly documented.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current public-enterprise expansion and retained commercial public institutions favor some competitive state businesses, qualified by ordinary private enterprise. Exact all newly established competitive-firm titles were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: IMSS/ISSSTE and public hospital institutions imply substantial public healthcare ownership, with private facilities alongside. Public financing alone is not title; exact2026facility ownership distribution was not measured.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National rail revival and public infrastructure responsibilities favor public passenger infrastructure, qualified by private concessions/operators. New construction plans are not completed networks; exact all asset-title contracts were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private procurement/service participation coexists with deliberate public delivery expansion. Mixed response weighs both rather than a general cheapest-provider mandate; exact all comparable-quality contracting rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual Banobras public development banking and private commercial banking coexist; this is not inferred only from a national central bank.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Current CFE/Pemex public ownership mandate and support oppose broad strategic privatization, qualified by ordinary private commercial markets.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Infonavit social rental plans coexist with limited verified current public rental provision and predominantly private housing. Mixed estimate reflects policy support but unconfirmed substantial stock; promised rental targets are not treated delivered.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public energy, rail and security-linked enterprises favor retaining strategic public title, while some regulated security suppliers are private. Exact current all national-security supplier rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public Pemex and constitutionally national resources favor state extraction in strategic fields, qualified by private mining/contractors. National resource sovereignty alone is not title of every extractor; complete current firm inventory was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Municipal routine service responsibilities and private concession/procurement coexist. Mixed response weighs actual delivery variation; no general nationwide private-provider preference was established.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual public strategic energy mandates retain ownership despite financing and debt pressures; fiscal sale revenue does not reverse current ownership choice.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual continuing financial support and retained Pemex ownership reject automatic sale of repeatedly supported strategic firms; other commercial disposals remain possible.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual SPR operates national public broadcasting alongside private broadcasters, rather than leaving all broadcasting privately owned.",
+          "sources": [
+            "oecd-economy",
+            "public-bank",
+            "bank-framework",
+            "broadcast",
+            "housing-plan",
+            "rail-current",
+            "constitution-historical"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Implemented nonpartner tariff protection and domestic industrial priorities coexist with USMCA and other treaty trade access.",
+      "counterEvidence": "USexport duties are not Mexico’s own retaliation; GMmaize cultivation restrictions differ from import barriers, and product taxes differ from customs duties.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual2026higher duties on non-FTA partner imports protect domestic industry, while treaty partner preferences qualify universality.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: USMCA/treaty market access coexists with new nonpartner import protection. Mixed response weighs implemented openness and protection rather than all barriers removed regardless of domestic sales losses.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Plan Mexico domestic industrial priorities suggest domestic procurement preference, qualified by treaty procurement/competitive sourcing. Exact2026price-premium rule was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Broad international sourcing coexists with country/product tariff differences and strategic restrictions. Mixed response reflects real constrained choice; precise every prohibited source inventory remains incomplete.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current domestic strategic production/food security and import duties favor some essential-goods protection, qualified by import dependence and treaty access. Exact all cheaper-essential import restrictions were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current nonpartner tariff increases make broad unilateral reduction less likely, qualified by FTAs and selected exemptions. Exact2026each reciprocal-policy condition was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual tariff protection and domestic industrial incentives suggest some temporary infant-industry support, qualified by mature-industry protection. Precise new-industry versus existing-sector measures were not fully inventoried.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign investment and treaty protections coexist with reserved strategic fields and nationality-specific restrictions. Mixed response weighs real access and unequal strategic eligibility; exact all current sector rules were not consolidated.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Food sovereignty and maize safeguards favor some farming protection, qualified by substantial imported agricultural inputs and trade commitments. Maize cultivation prohibition is not automatically a blanket food import ban; exact2026all quotas were not traced.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "direct",
+          "rationale": "Actual new protective tariff policy retains trade support rather than requiring every protected firm to adjust without protection; export-oriented competition is counterevidence.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: USMCA cooperation and negotiated responses coexist with new nonpartner protection. Mexico’s own2026duties are not automatically retaliation against USexport tariffs; an all-current retaliatory tariff inventory was not found.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common domestic product taxation and trade-treaty nondiscrimination suggest comparable product taxes, qualified by customs charges and exemptions. Import tariffs are distinct; exact all2026VAT/excise differences were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trade-remedy administration and protective industry policy suggest restrictions against unfair subsidized imports, qualified by proof/procedure. Exact current all countervailing cases were not independently retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual duty-free qualifying USMCA trade accepts substantial cross-border supply dependence while nonpartner duties remain.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reserved/public strategic energy sectors constrain foreign controlling ownership, qualified by permitted private investment/joint ventures. Exact all current strategic investor exceptions were not inventoried.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Digital cross-border commerce and foreign platforms remain accessible, qualified by tax/identity/sector regulation. Exact current special foreign-online service restrictions were not fully retrieved.",
+          "sources": [
+            "oecd-economy",
+            "trade-current",
+            "investment-plan",
+            "maize-current",
+            "constitution-historical"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "Market production and monetary autonomy coexist with national investment incentives, strategic public-sector direction and minimum wages.",
+      "counterEvidence": "Public development-bank priorities are not compulsory direction of all private banks; sector planning and rent measures are not a complete ordinary-economy production or wage schedule.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual ordinary private firms decide production within regulations, qualified by public strategic energy and selected industrial programmes.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National strategic production/energy mandates coexist with no broad compulsory output targets for private ordinary firms. Mixed response weighs sector planning and market production; exact all2026target mandates were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary market prices predominate with regulated utilities and essential-price interventions. Exact nationwide price-control inventory was not retrieved, so general market determination is moderate.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual Plan Mexico investment/training incentives and public development bank priorities direct investment toward nationally selected activity; not every promised project is delivered.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary private entry/closure follows market demand while strategic state firms remain supported. Full current administrative closure/expansion rules were not consolidated, qualifying agreement.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public strategic energy and essential-affordability policy favor some regulated essential prices, qualified by most ordinary market pricing. Exact current all administered basic-goods schedules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary private market entry/licensing generally differs from a compulsory production-need test, qualified by strategic reservations and authorizations. Complete current licensing inventory was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual public development banks finance nationally selected infrastructure, with private commercial credit alongside. Moderate direction is likeliest in public banking; no blanket compulsory direction of all private banks was established.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: International investment/convertible peso framework suggests ordinary capital transfers without general prior approval, qualified by reporting, tax and financial-crime rules. Exact all2026outflow exemptions were not traced.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual selected investment tax incentives/public financial support steer industries and strategic firms beyond private investor choices.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National peso legal-money authority and regulated finance favor restricting private currency competition, qualified by digital payment/crypto activity. Exact current privately issued currency legal-tender rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Actual statutory national minimum wages coexist with employer-worker wage negotiation above the floor.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary private wages are negotiated subject to national floors, while public servants have salary schedules. Exact2026sectoral wage coverage was not measured.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual autonomous Banxico monetary institution supports price stability and independent rates rather than executive economic-plan command.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual February2026SCJN validates CDMX annual rent-increase inflation cap while initial rents remain contractually negotiated, alongside national private rental markets and future social rental plans. Mixed response reflects real market entry prices plus bounded renewal controls; exact all other regional rental laws were not consolidated.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income",
+            "rent-court-current"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary private production/distribution coexist with public strategic energy mandates and coordinated industrial investment. Mixed response weighs substantial targeted planning rather than universal government ordinary output coordination.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "public-bank",
+            "bank-framework",
+            "constitution-historical",
+            "housing-plan",
+            "rural-income"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "Expanded category cash transfers and progressive income taxes coexist with low tax revenue and gaps in general working-age support.",
+      "counterEvidence": "Cash benefits are separated from services, productive stipends from ordinary employee top-ups, inherited-income exemption from land/property taxes, and historical agrarian mechanisms from current redistribution delivery.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual cash pensions, rural transfers and progressive income tax narrow disposable-income differences, qualified by modest revenue and working-age gaps. Exact2026all-cash redistribution magnitude was not measured.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expanded cash support and progressive structure imply inequality reduction can justify some taxes, qualified by low overall collections. Exact general taxation-solely-for-equality position was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual expanded category cash benefits coexist with fiscal restraint and limited broad working-age minimum income. Mixed response weighs expansion and reluctance/limited capacity for higher taxes; no universal stronger minimum cash entitlement is claimed.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Cash schemes prioritize vulnerability/basic protection and productive support rather than comprehensive living-standard equalization. Broader older-person coverage is counterevidence; exact2026adequacy decomposition was not measured.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Graduated national income-tax schedule gives higher earners higher rates, qualified by deductions and modest tax reach. Full2026bracket table retrieval failed; no exact unverified thresholds or effective-rate comparison is claimed.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Low revenue collection and investment incentives coexist with progressive income tax and expanded transfers. Mixed response weighs earnings retention and distribution policy, not inferred preferred inequality.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official consolidated inheritance income exemption suggests no general large-inheritance levy funding transfers. Precise2026all estate/local taxes were not consolidated, so disagreement is moderate.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Youth training stipend is capped in duration while productive rural support and pensions continue under conditions. Mixed response avoids extending one youth-training cap to all work-capable adults; full current working-age cash schemes were not inventoried.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Current fiscal structure emphasizes income/consumption/local property taxes rather than a verified broad accumulated-wealth transfer tax. Property tax is counterevidence but not automatically a net-wealth levy; exact2026all wealth instruments were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Budget restraint and limited working-age support coexist with enlarged category cash pensions. Mixed response weighs fiscal modesty and benefit expansion; the exact lower-tax-for-smaller-benefit tradeoff was not documented.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual older-person pension rights frame dignified/autonomous participation beyond bare survival, qualified by limited measured cash adequacy and access. Exact2026all households’ ordinary-social-life sufficiency was not established.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual pension/rural cash expansion argues against tax cuts taking general priority over cash benefits, qualified by investment incentives and revenue restraint. Precise2026all cash-versus-tax comparison was not measured.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual Sembrando Vida supplements participating small producers’ household income while youth stipend is training support, not ordinary employee wage top-up. Moderate qualified cash supplement support is likeliest; broad low-paid employee top-up coverage was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual progressive income-tax structure contradicts equal marginal rates for all earnings, qualified by special regimes/deductions. Full2026table timed out; exact brackets are not claimed.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional agrarian redistribution/compensation framework coexists with current producer support rather than verified broad new land redistribution. Mixed response weighs retained mechanism and incomplete current implementation, not assuming historical reform is contemporary delivery.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Actual2026older-person cash pension covers resident Mexican65plus by age/nationality rather than only households unable to meet basic needs; category limits remain.",
+          "sources": [
+            "oecd-economy",
+            "tax-current",
+            "income-tax-law",
+            "pension-current",
+            "women-pension",
+            "training-income",
+            "rural-income",
+            "rural-payment",
+            "constitution-historical"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "An explicitly secular constitutional republic, public education and civil marriage coexist with religious freedom and inherited holiday practices.",
+      "counterEvidence": "Religious population beliefs, historic art and calendar traditions are not official clerical authority or a state-faith funding/education mandate.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutional secular republic and church-state separation justify ordinary national law through civil institutions rather than a state religious teaching.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Secular constitutional law does not designate religious teachings as an official national law source.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Civil national policymaking has no general clerical approval requirement; religious citizens’ political views are distinct from an official religious veto.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitutional republic is explicitly secular, not founded on a particular state religion.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular public education rejects faith persuasion while religion/cultural history may be taught. Exact2026all comparative religion curricula were not retrieved, qualifying agreement.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitutionally secular public education has no recognized state-faith instruction mandate.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Civil constitutional/statutory courts apply enacted law, not a nationwide binding religious ruling hierarchy.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Constitutional separation and restrictions on clerical political office do not give religious authorities a general official national bill-review role.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular national ceremonies generally follow civic constitutional institutions, qualified by heritage symbolism and private religious attendance. Exact2026all ceremony worship practices were not inventoried.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular public funding framework favors civic/cultural rather than faith-strengthening purposes, qualified by heritage building support. Cultural conservation is not proof of religious instruction funding; exact current all spending clauses were not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official secular administration opposes endorsement displays, qualified by historically religious art/buildings. Exact current all public building display inventory was not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official Christmas rest and Easter school breaks coexist with secular constitutional justification and no official religion. Mixed response separates inherited calendar accommodation from recognition of a religion; exact current all state holiday rationales were not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutional clergy political-office restrictions and absence of ex-officio religious seats reject holding government seats solely by clerical office.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular fiscal framework makes special faith-strengthening exemptions beyond nonprofit/charitable treatment less likely. Religious associations may have qualified nonprofit treatment; exact current religion-only tax clauses were not retrieved.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutional civil administration controls legal marital status, independently of religious marriage approval.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "direct",
+          "rationale": "Civil marital/family jurisdiction does not give religious courts general legally binding national family-law authority; private faith observance is distinct.",
+          "sources": [
+            "constitution-historical",
+            "constitution-current",
+            "freedom-context",
+            "holiday-context",
+            "religious-clothing"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Equal marriage and evolving family/reproductive rights coexist with inherited heritage and uneven implementation.",
+      "counterEvidence": "Legal rights do not measure universal citizen acceptance; abortion access and school/parent rules vary, while cultural continuity does not itself require fixed sex roles.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual marriage/family rights and reproductive court reforms permit substantial social change, qualified by uneven implementation and retained community traditions. Exact2026all customs policy was not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual equal-family and gender-rights developments favor adaptation rather than universal inherited-tradition priority. Community autonomy/heritage qualify disagreement; citizen attitudes are not claimed.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil rights precedent protects nonmarried/diverse family forms, qualified by unequal practice and benefit categories. Exact universal social recognition is not directly measured.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional gender equality and women’s economic/public participation favor moving beyond compulsory traditional roles, qualified by violence and labour disparity. Exact all social-policy role expectations were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Same-sex marriage is legally available throughout the country after final state changes; actual legal entitlement does not prove every citizen’s acceptance.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil protection of diverse family forms coexists with family-oriented childcare and parental support. Mixed estimate weighs retained household continuity and equal nontraditional forms; no current universal married-two-parent preference was retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual current abortion court relief and decriminalization support early reproductive choice in relevant states, qualified by regional access restrictions. Legal relief is not a measured universal citizen social acceptance or all-state identical service provision.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National secular curriculum/equality protections suggest parents do not hold an unrestricted final veto over traditional sexual-value conflicts. Family rights qualify disagreement; precise2026all opt-out rules were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Equal marriage and diverse-family constitutional reasoning support same-sex adoptive recognition, qualified by uneven administration. Exact2026every state adoption rule and public social acceptance were not inventoried.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular expression/religious dress freedom imply no general traditional modesty duty, qualified by local cultural/social pressure. Exact current all public dress restrictions were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Official gender equality/diversity recognition suggests inclusive self-identification terminology, qualified by ordinary linguistic conventions. Exact compulsory naming/pronoun rules were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Community heritage transmission and early learning coexist with evolving civil equality. Mixed response weighs continuity and adaptation; actual curriculum moral-innovation priority was not directly inventoried.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional equality and public participation favor acceptance of adults in nontraditional roles, qualified by entrenched discrimination. Complete2026institutional role acceptance was not measured.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recent rights reforms/court relief show substantial legal change rather than a universal slow-change preference. Regional variation and inherited institutions qualify disagreement; exact all reform timing directives were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Secular rights/equality education makes diverse orientation/gender teaching likely despite family disagreement, qualified by implementation variation. Exact compulsory2026curriculum coverage/opt-outs were not retrieved.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual Indigenous/Afro-Mexican recognition and heritage support favor preserving intergenerational customs, qualified by civil equality limits. Specific preservation after all practical purpose disappears was not explicitly documented.",
+          "sources": [
+            "marriage",
+            "abortion-current",
+            "family-rights",
+            "freedom-context",
+            "constitution-current",
+            "early-childhood",
+            "parent-materials"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Digital/industrial innovation and infrastructure development coexist with medical safeguards and strong native-maize biosafety protection.",
+      "counterEvidence": "AI artist protections are not a comprehensive AI law; maize cultivation rules are not all-crop bans or human embryo law, and future rail/housing targets are not completed habitat conversion.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual digital adoption/industrial innovation incentives support some early benefits-led use, qualified by sectoral health/environment safeguards. No technology-wide permission despite every long-term risk was found.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Implemented digital/industrial innovation extends beyond permanently small trials, qualified by biosafety/clinical restrictions. Exact technology-wide long-term evidence threshold was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National rail/housing/energy construction priorities can outweigh some habitat preservation, qualified by environmental approval and disputes. Future project targets are not all completed habitat loss; precise current irreversible-loss authorizations were not audited.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health authorization and precautionary biosafety context favor studied medical safety before broad use. Exact2026all long-term evidence durations were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Digital productivity investment and training incentives favor AI adoption with retraining, qualified by actual artist protection and no comprehensive2026AIlaw established. Exact willingness to replace many existing jobs was not explicitly documented.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual infrastructure development priority suggests undisturbed habitat is not always paramount, qualified by conservation/maize biodiversity protection. Precise current all project tradeoffs were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Precautionary food/biosafety protection and clinical authorization context make cultivated-meat replacement before environmental evidence less likely. No exact current product authorization or explicit replacement programme was found; maize policy is contextual, not identical technology evidence.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical/ethical safety oversight makes healthy brain enhancement research-first likely, qualified by innovation incentives. Exact current healthy-implant authorization law was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Digital/energy technology investment coexists with ecosystem protection, efficiency and community production programmes. Mixed response weighs technology and conservation rather than unproven technology universally taking priority; exact hierarchy was not found.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Environmental safeguards coexist with accelerated rail/housing development. Mixed response weighs formal assessment and urgent construction, not automatic delay of every unknown effect; exact current all approval practices were not inventoried.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Health authorization/precaution context makes basic-safety-only healthy brain enhancement permission unlikely. Exact2026long-term implant rules were not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clinical safety and uneven digital-health readiness favor supervised diagnostic AI reliability testing. Exact patient-group evidence threshold was not retrieved; artist copyright safeguards are not medical reliability rules.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ethical/clinical precaution context makes human-ability embryo enhancement trials less likely than disease-focused research. Exact current germline enhancement statute/exemption was not retrieved; crop GMO policy is not direct human embryo proof.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current constitutional/policy protection prevents GMmaize cultivation on biodiversity/native maize grounds, with other species exceptions qualifying a universal all-crop ban.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual rail/housing programme priorities favor development in some undeveloped-land conflicts, qualified by environmental safeguards. Future network/rental targets are not all completed construction; precise all land approvals were not measured.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual maize irreversible biodiversity protections and medical safeguards favor delaying serious irreversible-harm technologies, qualified by digital/industrial adoption. Exact broad strong-evidence harm criterion was not retrieved.",
+          "sources": [
+            "oecd-economy",
+            "investment-plan",
+            "artist-ai",
+            "maize-current",
+            "rail-current",
+            "housing-plan",
+            "constitution-historical"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "Constitutionally protected federal states, local fiscal variation and strengthened Indigenous community autonomy coexist with national frameworks and transfer dependence.",
+      "counterEvidence": "National Guard expansion is not abolition of every state/municipal police force; local tax retention is not most total taxes, and recommended national property-rate floors are not current law.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Constitutional federalism reserves state powers and protects regional government within national constitutional rights.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Federal supremacy and reserved state competence coexist with constitutional judicial dispute resolution. Mixed response distinguishes national constitutional limits from executive sole final discretion; complete amended2026competence jurisprudence was not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional federal union and national territorial integrity do not establish unilateral state-majority secession. Exact2026secession jurisprudence was not retrieved, qualifying disagreement.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Binding national constitutional/framework law can displace conflicting state policy, qualified by protected state competence and court review. Exact all nationwide-programme override provisions were not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "States adopt their own constitutions within national constitutional rights and the republican federal framework.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State/municipal police coexist with national Guard/federal security coordination. Mixed command existence argues against a single sole national police authority, qualified by military/federal expansion; exact2026all operational command arrangements were not consolidated.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Federal tax/transfer dependence and comparatively limited local fiscal collections make keeping most locally collected total revenue unlikely. Municipal property tax retention is counterevidence; exact2026aggregate shares were not claimed.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National educational framework/curriculum authority coexist with region/community adaptation and multilingual models. Exact2026all compulsory subject allocations were not retrieved, qualifying national determination.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "direct",
+          "rationale": "Actual local property-tax rate variation within state-approved bands provides bounded subnational tax choices; constitutional tax exclusions and federal revenues limit scope.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National constitutional/federal private employment framework sets wage/hours/dismissal rights, while state public-service employment differs. Exact2026all private/public sector exceptions were not consolidated.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State constitutional and legislative municipal powers coexist with local elected councils. Mixed estimate reflects subnational rather than national boundary oversight; local voters’ sole power without state approval was not established.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National public healthcare institutions/coverage standards coexist with state delivery and varying access. Exact2026regional optional treatment entitlements were not inventoried.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": 2,
+          "basis": "direct",
+          "rationale": "Current amended Article2 recognizes Indigenous/Afro-Mexican communities’ own institutions and local normative autonomy, subject to national constitutional rights and strategic-resource exceptions.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional limits on state taxation coexist with local property-rate variation. Mixed response distinguishes national prohibited tax bases from a general national tax-competition rate floor; OECDrecommended minimum property rates are not implemented by assumption.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reserved state/local land administration and wildlife responsibilities allow regional choice within national ecological/resource law. Exact2026sole-local-effect wildlife powers were not retrieved, qualifying agreement.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National civil-protection/security coordination likely directs multi-region disaster response, with state/municipal implementation. Exact2026override of conflicting local plans was not retrieved.",
+          "sources": [
+            "constitution-current",
+            "constitution-historical",
+            "oecd-economy",
+            "early-childhood",
+            "abortion-current"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Implemented caregiver/community early education and documented opportunity barriers give social development causal weight alongside individual biological variation.",
+      "counterEvidence": "All16trait-specific extrapolations are educated; July2026strategy coverage targets are not achieved services, and legal pluralism, inequality or security policy are not direct genetic positions.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual caregiver/early education intervention treats social surroundings and upbringing as behavioral causes. Moderate environmental predominance is likeliest, qualified by developmental individuality; no national all-behavior genetic decomposition was retrieved.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Educational access/skills inequality policy favors schooling/opportunity explanations over inherited national IQ hierarchy. Exact cross-country inherited contribution was not measured; national economic differences are not genetic proof.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Gender equality and documented care/work barriers support social expectation explanations for behavioral role differences, qualified by biological development. Exact sex-behavior causal shares were not quantified.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Supportive caregiving and developmental individuality suggest both experience and biological susceptibility shape stress. Mixed interaction is likeliest; precise comparative predominance was not measured.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Early learning materials and skills access treat experiences/opportunity as shaping interests. Inherited variation qualifies the moderate environmental estimate; exact trait decomposition was not retrieved.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Child learning/caregiver guidance support experience and modeled safety in risk behavior, qualified by individual differences. No national inherited-risk predominance theory was found.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Community early education and parent interaction shape cooperative habits. Moderate social predominance is likeliest, qualified by developmental variation; exact inherited contribution was not measured.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Caregiver/community relationships and early development support learned empathy, qualified by susceptibility differences. Precise national empathy genetics predominance was not retrieved.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Actual IMSS clinical ADHD guidance recognizes neurodevelopmental, genetic, gestational and birth-injury factors alongside educational strategies; early learning recognizes environmental contribution. Mixed interaction is likeliest for ordinary attention, qualified because clinical ADHD does not establish all population attention causes or precise genetic/environmental shares.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Community cultural transmission and caregiver learning give acquired norms causal weight. Immediate moral intuition differs from explicit lessons; precise biological-versus-cultural predominance remains unquantified.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Documented violence/social context and supportive learning make experience a likely major source of perceived threat. Security policy is not a genetic theory; exact comparative inherited contribution was not measured.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Responsive caregiving and developmental individuality suggest both inherited susceptibility and experience shape temperament. Mixed estimate reflects interaction rather than default uncertainty; no exact national temperament causal share was retrieved.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Plural culturally recognized traditions and social learning suggest cultural/personal experience shapes attraction norms. Constitutional pluralism is contextual, not a direct national attractiveness genetics statement; exact predominance remains inferred.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Documented social violence, inequality and institutional conditions favor social explanations over inherited racial violence hierarchy. Unequal treatment is counterevidence to equality practice, not proof of genetic causation; no adopted racial-biological theory was found.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parent materials/community learning emphasize acquired regulation and habits rather than inherited racial self-control. Exact comparative race-genetic effects were not measured.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: OECDdocuments care burdens, informality and opportunity barriers as female economic participation constraints. Moderate social-expectation explanation is likeliest rather than inherent lower female value; exact2026gender pay-gap causal decomposition was not measured.",
+          "sources": [
+            "early-childhood",
+            "parent-materials",
+            "child-strategy",
+            "oecd-economy",
+            "constitution-current",
+            "freedom-context",
+            "attention-context"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex: distinct same-agent focused evidence review (not independent human or external peer review)",
+    "reviewedAt": "2026-10-06",
+    "notes": "Reviewed the literal revised mechanisms, directions, period-specific retained research, supplemental references, inferred intensity, conditional Neutral decisions, institutional mismatches and unchanged-answer preservation. New educated-assumption IDs: democracy-autocracy-02, democracy-autocracy-04, democracy-autocracy-06, democracy-autocracy-08, democracy-autocracy-11, democracy-autocracy-13. Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. All earlier evidence limitations remain. No new empirical calibration, fresh full-profile research, human review or external peer certification is claimed. Similarity is reviewed after scoring the complete batch, without tuning any answer.",
+    "similarity": [
+      {
+        "id": "brazil",
+        "revision": 3,
+        "reason": "Focused same-agent evidence review retains these separately researched scopes: Mexico (Contemporary institutions and implemented policy; intended cut-off 2026-10-04) and Brazil (Contemporary institutions and implemented policy; intended cut-off 2026-10-04). The six-question contextual decisions for the first are: Popular consultation and presidential recall provide qualified direct participation, with subject exclusions and constitutional requirements. Defined presidential succession is not a free governing-party choice; emergency powers retain congressional constraints. For the second: Provisional presidential measures are subject to congressional conversion and lapse. Citizen legislative proposals go to Congress; impeachment and constitutional succession are not a party's free choice of a replacement president. The largest measured differences remain secular-religious: 17.2 points, public-private: 9.4 points, militarist-pacifist: 6.3 points. Similarity across 15 axes is a structural diagnostic, not identity or interchangeable evidence. Each retains its own citations and provisional educated assumptions. No answers were changed to reduce resemblance."
+      }
+    ]
+  }
+}

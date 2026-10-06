@@ -1,10 +1,15 @@
-import axisData from '../data/axes.v1.json' with { type: 'json' };
-import questionData from '../data/questions.v1.json' with { type: 'json' };
+import type { ReligiousIdentity } from './religion';
+import axisData from '../data/axes.v2.json' with { type: 'json' };
+import legacyAxisData from '../data/axes.v1.json' with { type: 'json' };
+import questionData from '../data/questions.v4.json' with { type: 'json' };
 
 export const axes = axisData.axes;
 export const QUESTION_BANK_VERSION = questionData.version;
 export const SCORING_VERSION = '2.0.0';
 export const AXES_VERSION = axisData.version;
+export function axesForVersion(version?: string) {
+  return version === legacyAxisData.version ? legacyAxisData.axes : axes;
+}
 export const formats = [
   { id: 'short', name: 'Short', perAxis: 3, questions: 45, description: 'A first look at your political values.' },
   { id: 'medium', name: 'Medium', perAxis: 5, questions: 75, description: 'More room to reflect on your views.' },
@@ -50,6 +55,7 @@ export function selectQuestions(length: QuizLength): Question[] {
 }
 export type AxisScore = { axisId: string; leftPercent: number; rightPercent: number; answered: number; neutral: number };
 export type QuizResult = {
+  religiousIdentity?: ReligiousIdentity;
   id: string; completedAt: string; length: QuizLength;
   questionBankVersion: string; scoringVersion: string; axesVersion: string; scores: AxisScore[];
 };

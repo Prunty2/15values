@@ -1,14 +1,14 @@
 import { useEffect, useState, type CSSProperties } from 'react';
 import { similarity } from '../profiles/audit';
 import { parseCatalogue } from '../profiles/catalogueData';
-import { ideologyComparisonDetails, matchResultIdeology } from '../profiles/ideologyMatching';
+import { matchResultIdeology, matchResultProfiles } from '../profiles/ideologyMatching';
 import { ideologyGroup } from '../profiles/ideologyGroups';
 import { personalityGroup } from '../profiles/personalityGroups';
 import type { Profile } from '../profiles/types';
 import ValueIcon from '../components/ValueIcon';
-import { axes, topics } from './model';
+import { axes, axesForVersion, topics } from './model';
 import type { QuizResult } from './model';
-import { tendency, wholePercent } from './profile';
+import { isCentristResult, tendency, wholePercent } from './profile';
 import a from '../App.module.css';
 import s from './ResultProfile.module.css';
 
@@ -29,62 +29,60 @@ export function useResultCatalogue(enabled: boolean) {
     fetch(import.meta.env.BASE_URL + 'profiles/catalogue.v1.json', { signal: controller.signal })
       .then(response => { if (!response.ok) throw new Error('Unavailable'); return response.json(); })
       .then(value => { if (!controller.signal.aborted) setState({ profiles: parseCatalogue(value) }); })
-      .catch(() => { if (!controller.signal.aborted) setState({ error: 'Ideology comparisons could not be loaded.' }); });
+      .catch(() => { if (!controller.signal.aborted) setState({ error: 'Profile comparisons could not be loaded.' }); });
     return () => controller.abort();
   }, [attempt, enabled]);
   return { ...state, retry: () => setAttempt(value => value + 1) };
 }
 
 export function resultColour(result: QuizResult, profiles?: Profile[]) {
+  if (isCentristResult(result)) return '#59676d';
   const match = profiles ? matchResultIdeology(result, profiles) : null;
   const groups = match?.ideologies.map(item => ideologyGroup(profiles!.find(profile => profile.catalogue === 'ideology' && profile.id === item.id)!));
   return groups?.length ? groups.every(group => group.color === groups[0].color) ? groups[0].color : '#59676d' : undefined;
 }
 
-export function ProfileOverview({ result, state }: { result: QuizResult; state: ReturnType<typeof useResultCatalogue> }) {
-  const match = state.profiles ? matchResultIdeology(result, state.profiles) : null;
-  const details = state.profiles ? ideologyComparisonDetails(result, state.profiles) : null;
+export function ProfileOverview({ result, state, compact = false }: { result: QuizResult; state: ReturnType<typeof useResultCatalogue>; compact?: boolean }) {
+  const centrist = isCentristResult(result);
+  const match = !centrist && state.profiles ? matchResultIdeology(result, state.profiles) : null;
   const matched = match?.ideologies.map(ideology => state.profiles!.find(profile => profile.catalogue === 'ideology' && profile.id === ideology.id)!) ?? [];
   const status = state.error ?? (state.profiles ? 'No compatible ideology assessments are available for this result’s question-bank, axes and scoring versions.' : 'Loading ideology comparisons…');
-  return <div className={s.overview}>
+  return <div className={`${s.overview} ${compact ? s.savedOverview : ''}`}>
     <section className={`${a.exampleResult} ${s.comparison}`} aria-label="Result comparisons">
       <div className={a.resultHeader}>
-        <div className={a.resultIdeology}><span className={a.positionBadge}>Closest {matched.length > 1 ? 'ideologies' : 'ideology'}</span>
-          {matched.length ? matched.map(profile => <h2 key={profile.id}><a href={'#/ideologies/' + profile.id}>{profile.metadata.name}</a></h2>) : <><h2>Comparison unavailable</h2><p role={state.error ? 'alert' : 'status'}>{status}</p>{state.error ? <button className={a.primaryButton} onClick={state.retry}>Try again</button> : null}</>}
+        <div className={a.resultIdeology}><span className={a.positionBadge}>{centrist ? 'Your result' : `Closest ${matched.length > 1 ? 'ideologies' : 'ideology'}`}</span>
+          {centrist ? <><h2>Centrism</h2><p>Your answers place every axis at its midpoint.</p></> : matched.length ? matched.map(profile => <h2 key={profile.id}><a href={'#/ideologies/' + profile.id}>{profile.metadata.name}</a></h2>) : <><h2>Comparison unavailable</h2><p role={state.error ? 'alert' : 'status'}>{status}</p>{state.error ? <button className={a.primaryButton} onClick={state.retry}>Try again</button> : null}</>}
         </div>
         {match ? <div className={s.gap}><strong>{(100 - match.meanAbsoluteDistance).toFixed(1)}%</strong><span>Similarity</span></div> : null}
       </div>
-      <div className={a.comparisonRow}>
-        <div className={s.placeholderIcon} aria-hidden="true"><svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="16" cy="11" r="5" /><path d="M6 28v-3a10 10 0 0 1 20 0v3" /></svg></div>
-        <div className={a.comparisonCopy}><span className={a.comparisonLabel}>Most compatible personality</span><h3>Coming soon</h3><span className={a.comparisonDescription}>Personality placeholder</span></div>
-      </div>
-      <div className={a.comparisonRow}>
-        <div className={s.placeholderIcon}><ValueIcon value="Internationalism" /></div>
-        <div className={a.comparisonCopy}><span className={a.comparisonLabel}>Most compatible country</span><h3>Coming soon</h3><span className={a.comparisonDescription}>Country placeholder</span></div>
-      </div>
+      {(['personality', 'country'] as const).map(kind => {
+        const match = state.profiles ? matchResultProfiles(result, state.profiles, kind) : null;
+        return <div className={a.comparisonRow} key={kind} aria-label={'Most compatible ' + kind}>
+          {match?.profiles.some(profile => profile.metadata.image) ? <div className={s.matchImages}>
+            {match.profiles.map(profile => profile.metadata.image ? <img key={profile.id} className={`${s.matchImage} ${kind === 'country' ? s.flagImage : ''}`} src={import.meta.env.BASE_URL + profile.metadata.image.path} alt={profile.metadata.image.alt} loading="lazy" /> : null)}
+          </div> : <div className={s.placeholderIcon} aria-hidden="true">{kind === 'personality' ? <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="16" cy="11" r="5" /><path d="M6 28v-3a10 10 0 0 1 20 0v3" /></svg> : <ValueIcon value="Internationalism" />}</div>}
+          <div className={a.comparisonCopy}><span className={a.comparisonLabel}>Most compatible {kind}</span>
+            {match ? <>{match.profiles.map(profile => <h3 key={profile.id}><a href={'#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id}>{profile.metadata.name}</a></h3>)}<span className={a.comparisonDescription}>{(100 - match.meanAbsoluteDistance).toFixed(1)}% similarity</span></> : <><h3>Comparison unavailable</h3><span>{state.error ? 'Profile comparisons could not be loaded.' : state.profiles ? 'No compatible ' + kind + ' assessments are available for this result’s question-bank, axes and scoring versions.' : 'Loading ' + kind + ' comparisons…'}</span></>}
+          </div>
+        </div>;
+      })}
     </section>
-    <section className={s.quote} aria-labelledby="profile-sentence-title">
+    {!compact ? <section className={s.quote} aria-label="Ideology perspective">
       <span className={s.quoteMark} aria-hidden="true">“</span>
-      <div><h2 id="profile-sentence-title">The closest ideology’s perspective</h2>
+      <div>
         {matched.map(profile => <div key={profile.id}>{matched.length > 1 ? <h3>{profile.metadata.name}</h3> : null}<blockquote>{profile.metadata.phrase}</blockquote></div>)}
-        {!matched.length ? <p>A profile’s supplied statement appears when a compatible comparison is available.</p> : null}
-        <p>Compared with assessed catalogue ideologies using 100 minus the average absolute score gap across all 15 axes, weighted equally. Higher percentages mean closer scores; all closest ties are shown. This describes resemblance, not identity or confidence. Profile assessments include educated assumptions, and the question bank has not been empirically validated.</p>
-        {details?.next ? <p>The next closest assessment is {details.next.profile.metadata.name}, {details.next.margin.toFixed(2)} points further away on average. This is a score margin, not statistical confidence.</p> : null}
-        {details?.neighbours.map(({ profile, gaps }) => <details key={profile.id}><summary>{profile.metadata.name}: largest axis gap {gaps[0].gap.toFixed(1)} points; scope and disagreements</summary>
-          <p>{profile.metadata.period}. {profile.metadata.scope}</p>
-          <p>Largest axis gap: {gaps[0].gap.toFixed(1)} percentage points. Average similarity can conceal a large disagreement on one axis.</p>
-          <ul>{gaps.slice(0, 3).map(gap => <li key={gap.axisId}>{axes.find(axis => axis.id === gap.axisId)!.name}: {gap.gap.toFixed(1)} points apart.</li>)}</ul>
-        </details>)}
+        {centrist ? <p>Each axis is balanced at 50% / 50%. Neutral answers do not establish support for a particular political tradition.</p> : !matched.length ? <p>A profile’s supplied statement appears when a compatible comparison is available.</p> : null}
+
       </div>
-    </section>
+    </section> : null}
   </div>;
 }
 
-export function ResultAxes({ result, compact = false, comparisons = [], picker, onRemove }: { result: Pick<QuizResult, 'scores'>; compact?: boolean; comparisons?: Profile[]; picker?: React.ReactNode; onRemove?: (profile: Profile) => void }) {
+export function ResultAxes({ result, compact = false, comparisons = [], picker, onRemove }: { result: Pick<QuizResult, 'scores'> & Partial<Pick<QuizResult, 'axesVersion'>>; compact?: boolean; comparisons?: Profile[]; picker?: React.ReactNode; onRemove?: (profile: Profile) => void }) {
   return <section className={`${s.axes} ${compact ? s.compact : ''}`} aria-labelledby="axes-results-title">
     <div className={s.sectionHeading}><span>— Political axes</span><h2 id="axes-results-title">Percentage result per axis</h2>{picker}</div>
     {comparisons.length ? <ul className={s.legend} aria-label="Compared profiles"><li><i className={s.yourDot} />You</li>{comparisons.map((profile, index) => <li key={profile.catalogue + '/' + profile.id}><i style={{ background: comparisonColour(profile) }}>{index + 1}</i><a href={'#/' + (profile.catalogue === 'ideology' ? 'ideologies' : 'personalities') + '/' + profile.id}>{profile.metadata.name}</a><span>{similarity(result.scores, profile.scores).toFixed(1)}% similarity</span><button aria-label={'Remove ' + profile.metadata.name + ' comparison'} onClick={() => onRemove?.(profile)}>×</button></li>)}</ul> : null}
-    <div>{axes.map((axis, index) => {
+    <div>{axesForVersion(result.axesVersion).map((axis, index) => {
       const score = result.scores.find(score => score.axisId === axis.id)!;
       const label = tendency(score);
       const balanced = label === 'Balanced';

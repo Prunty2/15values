@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { closestIdeology, ideologyComparisonDetails, matchResultIdeology, withIdeologyMatches } from './ideologyMatching';
+import { closestIdeology, ideologyComparisonDetails, matchResultIdeology, matchResultProfiles, withIdeologyMatches } from './ideologyMatching';
 import { parseCatalogue } from './catalogueData';
 import { profileFixture } from '../../tests/fixtures/profile';
 
@@ -66,4 +66,17 @@ it('matches quiz results with the same distance and retains compatible ties', ()
   const candidates = [profile('ideology', 'b', 60), profile('ideology', 'a', 40)];
   expect(matchResultIdeology(result, candidates)).toEqual(closestIdeology(subject, candidates));
   expect(matchResultIdeology({ ...result, scoringVersion: '1.0.0' }, candidates)).toBeNull();
+});
+
+it.each(['personality', 'country'] as const)('matches quiz results to %s with ties and compatible versions', kind => {
+  const subject = profile('ideology', 'subject', 50);
+  const a = profile(kind, 'a', 40), b = profile(kind, 'b', 60);
+  const wrongKind = profile('ideology', 'exact', 50);
+  const withdrawn = { ...profile(kind, 'withdrawn', 50), withdrawal: { date: '2026-10-05', reason: 'Withdrawn' } };
+  expect(matchResultProfiles(subject, [b, a, wrongKind, withdrawn, { ...a, id: 'old', scoringVersion: 'old' }], kind)?.profiles.map(item => item.id)).toEqual(['a', 'b']);
+  expect(matchResultProfiles(subject, [a, b], kind)?.meanAbsoluteDistance).toBe(10);
+  b.scores[0].leftPercent = 59.9; b.scores[0].rightPercent = 40.1;
+  expect(matchResultProfiles(subject, [a, b], kind)?.profiles.map(item => item.id)).toEqual(['b']);
+  expect(matchResultProfiles({ ...subject, scoringVersion: 'old' }, [a, b], kind)).toBeNull();
+  expect(matchResultProfiles(subject, [], kind)).toBeNull();
 });
