@@ -13,7 +13,7 @@ describe('historical descriptions and numerical comparisons', () => {
     const profiles = parseCatalogue(catalogue());
     const references = {
       'first-french-empire': 'bonapartism',
-      'japanese-empire': 'japanese-imperial-ultranationalism',
+      'japanese-empire': 'ultranationalism',
       'dutch-republic': 'dutch-commercial-republicanism',
       'east-germany': 'marxism-leninism',
       yugoslavia: 'titoism',

@@ -1,0 +1,61 @@
+{
+  "subject": "ultranationalism",
+  "revision": 1,
+  "answered": 240,
+  "permanentAnswerFile": "profile-audit/answers/ideology/ultranationalism/1.json",
+  "date": "2026-10-07",
+  "catalogueGeneration": {
+    "passed": true,
+    "profilesAtThisTaskBuild": 288,
+    "finalCheckProfiles": 290,
+    "concurrentAdditions": "Hansonism and Nativism were added by another task during verification; preserved without editing."
+  },
+  "checks": {
+    "questions": "Passed: 240 questions, 15 axes",
+    "profileValidation": "Passed: zero errors; four Neutral-count warnings reviewed in review.json",
+    "profilesCheck": "Passed, including final shared catalogue",
+    "history": "Passed against HEAD using available Git; initial system Git was blocked by the Xcode licence setup",
+    "unit": "576 passed, 16 files; initial Git-dependent failure passed with available Git",
+    "productionBuild": "Passed; existing bundle-size warning reported",
+    "browserSuite": {
+      "firstRun": {
+        "passed": 260,
+        "failed": 2,
+        "skipped": 2
+      },
+      "reruns": [
+        {
+          "test": "Safari results profile layout at every width",
+          "result": "Passed (1.9 seconds)"
+        },
+        {
+          "test": "Safari default auto advance completion",
+          "result": "Passed (41.0 seconds), isolated output folder"
+        }
+      ],
+      "notes": "First layout run remained on saved history, passed without changes on rerun. Auto-advance had missing output artifact errors in shared test-results; rerun using /tmp/15values-ultranationalism-isolated-test-results passed. A wholly clean full-suite run is not claimed."
+    },
+    "diffWhitespace": "Passed"
+  },
+  "browserInspection": {
+    "engine": "WebKit through Playwright CLI; existing browser used because local Chrome was unavailable",
+    "desktop": {
+      "width": 1440,
+      "height": 1000,
+      "axes": 15,
+      "overflow": false
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "axes": 15,
+      "overflow": false
+    },
+    "search": "Ultranationalism found and opened from ideology search; superseded Japanese-specific entry absent from current catalogue",
+    "download": "Native browser download parsed with 240 answers and matched permanent archive exactly",
+    "japaneseEmpire": "Historical ideology link points to Ultranationalism revision 1 with computed 85.5% similarity; period flag loaded",
+    "visual": "Desktop Ultranationalism, desktop Japanese Empire and mobile profile screenshots inspected"
+  },
+  "preservation": "Before concurrent additions, catalogue diff showed exactly one addition and one removal, no changed scores for any existing profile. Immutable archives and prior supplements remain unchanged.",
+  "assumptions": "All 240 current question IDs; exact IDs enumerated in review.json. Religion identity interpretation also inferred."
+}

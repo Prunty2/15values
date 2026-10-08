@@ -1,0 +1,3384 @@
+{
+  "schemaVersion": 1,
+  "catalogue": "ideology",
+  "id": "hansonism",
+  "revision": 1,
+  "questionBankVersion": "4.0.0",
+  "axesVersion": "2.0.0",
+  "scoringVersion": "2.0.0",
+  "bankHash": "e74febf43f37829ffabc5db89c79f078c1c78349116bb6adc99f044137ed8ce2",
+  "researchedAt": "2026-10-07",
+  "author": "Codex (GPT-6), researched assessment",
+  "changeNote": "Initial owner-requested 240-question assessment against bank 4.0.0; all choices explicitly inferred; separate same-agent evidence review.",
+  "metadata": {
+    "name": "Hansonism",
+    "category": "Australian national populism",
+    "period": "Contemporary One Nation doctrine, 2025–7 October 2026",
+    "scope": "The contemporary political doctrine expressed by Pauline Hanson’s One Nation programme, not Hanson’s entire personal record or an unchanged version of the 1998 platform.",
+    "description": "An Australian national-populist doctrine associated with One Nation, advocating lower immigration, a common national culture, sovereign decision-making and domestic economic priorities. This assessment covers its contemporary platform.",
+    "phrase": "Society should retain a common Australian culture and national control of its borders and decisions, with lower immigration, support for domestic jobs and industries, and more direct public influence over government."
+  },
+  "sources": [
+    {
+      "id": "programme",
+      "title": "One Nation current policy index",
+      "url": "https://www.onenation.org.au/issues",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "immigration",
+      "title": "Immigration policy",
+      "url": "https://www.onenation.org.au/immigration",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "referenda",
+      "title": "Citizen Initiated Referenda",
+      "url": "https://www.onenation.org.au/citizen-initiated-referenda",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "speech",
+      "title": "Free Speech Policy",
+      "url": "https://www.onenation.org.au/free-speech-policy",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "education",
+      "title": "Education policy",
+      "url": "https://www.onenation.org.au/education",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "multiculturalism",
+      "title": "One Nation Will End Government-Funded Multiculturalism",
+      "url": "https://www.onenation.org.au/end-multiculturalism",
+      "publisher": "One Nation",
+      "date": "2026-07-07",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "historical",
+      "title": "Pauline Hanson’s One Nation Party: Xenophobic Populism Compared (abstract only)",
+      "url": "https://academic.oup.com/policyandsociety/article/16/1/1/6427926",
+      "publisher": "Oxford University Press",
+      "date": "1998-12-01",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "economy",
+      "title": "What would Australia’s economy look like under One Nation?",
+      "url": "https://www.abc.net.au/news/2026-07-15/one-nation-economic-policies-reserve-bank-gina-rinehart/106909282",
+      "publisher": "Australian Broadcasting Corporation",
+      "date": "2026-07-15",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "policy-check",
+      "title": "More people say they’ll vote One Nation. What are they voting for?",
+      "url": "https://www.abc.net.au/news/2026-02-10/one-nation-policy-platforms-pauline-hanson/106296838",
+      "publisher": "Australian Broadcasting Corporation",
+      "date": "2026-02-10",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "parental-leave",
+      "title": "Hanson clarifies support for taxpayer-funded parental leave",
+      "url": "https://www.abc.net.au/news/2026-06-23/pauline-hanson-paid-parental-leave-support/106815018",
+      "publisher": "Australian Broadcasting Corporation",
+      "date": "2026-06-23",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "resources",
+      "title": "Oil and Gas Policy",
+      "url": "https://www.onenation.org.au/oil-and-gas",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "budget",
+      "title": "Slash Government Waste",
+      "url": "https://www.onenation.org.au/slash-waste",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "foreign-ownership",
+      "title": "Foreign Ownership",
+      "url": "https://www.onenation.org.au/foreign-ownership",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "firearms",
+      "title": "Firearms Ownership",
+      "url": "https://www.onenation.org.au/firearms",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "covid",
+      "title": "COVID-19 Policy",
+      "url": "https://www.onenation.org.au/covid",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "abortion",
+      "title": "Pro-Life policy",
+      "url": "https://www.onenation.org.au/pro-life",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "family-tax",
+      "title": "Family Tax Policy",
+      "url": "https://www.onenation.org.au/famly-tax-policy",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "farming",
+      "title": "Farming policy",
+      "url": "https://www.onenation.org.au/farming",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "religious-freedom",
+      "title": "Why We Must Protect Religious Freedom (earlier constitutional context)",
+      "url": "https://www.onenation.org.au/why-we-protect-religious-freedom",
+      "publisher": "One Nation",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "common-culture",
+      "title": "My Party is rightly called One Nation",
+      "url": "https://www.onenation.org.au/party-rightly-onenation",
+      "publisher": "One Nation",
+      "date": "2026-06-22",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "equality",
+      "title": "Queensland for all Queenslanders (current state doctrine; scope qualification)",
+      "url": "https://qld.onenation.org.au/queensland-policy",
+      "publisher": "One Nation Queensland",
+      "date": "undated",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "broadcaster",
+      "title": "Hanson outlines broadcaster changes: direct speech transcript",
+      "url": "https://www.sbs.com.au/news/podcast-episode/hanson-unveils-plans-at-the-national-press-club-evening-news-bulletin-17-june-2026/ljcnl6mc0",
+      "publisher": "Special Broadcasting Service",
+      "date": "2026-06-17",
+      "accessed": "2026-10-07"
+    },
+    {
+      "id": "biological-sex",
+      "title": "Sex Discrimination (Acknowledging Biological Reality) Bill: earlier doctrinal context",
+      "url": "https://www.onenation.org.au/press-release-biological-reality-bill",
+      "publisher": "One Nation",
+      "date": "2024-09-13",
+      "accessed": "2026-10-07"
+    }
+  ],
+  "axes": [
+    {
+      "axisId": "democracy-autocracy",
+      "brief": "Current One Nation promotes electoral participation and citizen initiatives. Its anti-establishment appeal is distinct from replacing elections with an unaccountable leader.",
+      "counterEvidence": "The 1998 abstract emphasises democratic appeals, but cannot prove current detailed constitutional positions. The current referendum policy is stronger evidence for public initiatives than for recall or emergency procedures.",
+      "answers": [
+        {
+          "questionId": "democracy-autocracy-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regular competitive elections are central to the party’s parliamentary route. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public initiatives and criticism of unelected control favour accountable decisions over expert autonomy. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The appeal to Australian voters does not support intelligence-restricted suffrage. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A temporary executive response and parliamentary veto pull in different directions; neither unlimited emergency rule nor its complete prohibition is warranted. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: An opposition party seeking election depends on equal campaigning rights. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The party explicitly proposes citizen-initiated legislation and referendum questions. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional speech protection supports enforceable limits on government. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parliamentary party leadership can change through elected members. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-09",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Banning parties for ordinary positions contradicts competitive parliamentary politics. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-10",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Citizen control of legislation makes repeal through a referendum likely. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary lawful executive discretion is compatible with parliamentary government. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Abuse-based parliamentary removal fits constitutional accountability. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Limited emergency postponement requires balancing public safety and electoral timing. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Recall extends the participation preference, but the published initiative does not establish a recall mechanism. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The parliamentary and referendum programme rejects unaccountable leadership. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        },
+        {
+          "questionId": "democracy-autocracy-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The parliamentary programme does not support independent military rule. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "referenda",
+            "historical",
+            "speech"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "authority-liberty",
+      "brief": "One Nation’s speech and vaccine-mandate opposition coexist with tougher crime and border enforcement. Licensed sporting and farm firearm access does not establish personal-defence access.",
+      "counterEvidence": "The current gun policy preserves existing licensing; it is not evidence for the differently worded personal-defence statement. A speech promise does not automatically settle protest obstruction or confidential disclosures.",
+      "answers": [
+        {
+          "questionId": "authority-liberty-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The constitutional speech proposal makes protection of offensive criticism likely. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The programme combines enforcement and resistance to overreach; bulk suspicionless records are not established. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The current firearms policy retains licensing for farmers, hunters and sporting users under existing strict systems. A separate personal-defence purpose is more likely rejected than introduced; lawful recreational ownership is not the claim asked here. Disagree is the most likely response; the exact response and intensity remain uncertain.",
+          "sources": [
+            "firearms",
+            "policy-check"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medicinal cannabis support is not general recreational drug legalisation. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Mandate opposition favours rejecting coercion chiefly for the adult’s own benefit. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Movement records require a security-versus-privacy balance; neither current speech policy nor border enforcement establishes blanket retention. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The party explicitly opposes vaccine mandates, including coercive access conditions. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tough enforcement is compatible with judicially reviewed preventive restrictions. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Anti-censorship policy favours adult access, without settling every obscenity rule. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to intrusive censorship favours communication without government identity checks. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tough public-safety enforcement makes narrowly bounded suspicionless search more likely. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to nonviolent hate-speech restrictions makes disagreement likely. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Constitutional speech rights and uninterrupted access pull in opposite directions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Anti-establishment scrutiny favours disclosures of misconduct, with possible security exceptions. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A warrant rule with immediate-danger exceptions fits lawful enforcement. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        },
+        {
+          "questionId": "authority-liberty-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tough enforcement does not establish rejection of all independent review. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "speech",
+            "programme",
+            "policy-check",
+            "immigration",
+            "firearms",
+            "covid"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "assimilation-multiculturalism",
+      "brief": "The current programme advocates a common Australian culture and English-language integration, including ending government multicultural and translation funding.",
+      "counterEvidence": "Opposition to government multicultural funding is not a ban on all private cultural practice. Indigenous recognition and burqa regulation require separate judgements.",
+      "answers": [
+        {
+          "questionId": "assimilation-multiculturalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common Australian cultural priority is explicit. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ending funded accommodation makes disagreement likely. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: English and common customs are expected for permanent settlement. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private ancestry may remain, but separate cultural identity should not override the common culture. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The policy specifically rejects publicly funded translation. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Criticism of differentiated Indigenous institutions makes obligatory ceremony recognition less likely; it does not deny Indigenous existence. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government funding should favour the common cultural inheritance. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The programme rejects separate cultures overriding a shared community. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-09",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A common public calendar fits the monocultural programme. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The programme rejects official multicultural identity. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Integration should bring residents into the wider community. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-12",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ending translation services strongly points against parallel foreign-language public signage. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A common Australian identity should take priority. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-14",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The assimilation and security approach is more likely to reject an exceptional burqa permission. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The programme’s common-culture objective opposes plural official ways of life. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "assimilation-multiculturalism-16",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The integration programme is oriented towards common customs. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "multiculturalism",
+            "education",
+            "policy-check",
+            "immigration",
+            "common-culture",
+            "equality"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "restricted-immigration-open-immigration",
+      "brief": "The current platform advocates a visa cap, deportation of unlawful residents, temporary rather than permanent refugee protection, and a prolonged welfare waiting period.",
+      "counterEvidence": "The platform still allows selected visas; temporary protection is not identical to excluding all people fleeing persecution. Economic objections cannot establish every sponsorship condition.",
+      "answers": [
+        {
+          "questionId": "restricted-immigration-open-immigration-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The visa cap is an explicit restriction. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: General settlement freedom contradicts numerical selection. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Needed skills may qualify but are not a complete entitlement. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Dependent reunification and a restrictive cap can both matter. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-05",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Temporary protection conflicts with unconditional permanent settlement. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The policy calls for deportation of unlawful residents. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Employer demand does not override domestic workforce protection. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Housing and infrastructure pressures are central stated reasons for cuts. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family visas are more likely included in a comprehensive cap. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: An offer alone does not establish national need or compliance with the cap. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The platform does not make either employer or family sponsorship universally mandatory; skilled selection and family selection support a conditional answer. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Closing student routes to automatic settlement is explicit. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Temporary protection can coexist with limits; an unrestricted entry exception is less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-14",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The compatibility exclusion favours cultural selection. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The eight-year welfare wait strongly opposes general immediate access. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        },
+        {
+          "questionId": "restricted-immigration-open-immigration-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diversity itself does not justify additional migration in the current programme. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "militarist-pacifist",
+      "brief": "The current platform’s proposed higher defence expenditure favours military capability; it remains compatible with diplomacy and does not establish conscription or autonomous killing.",
+      "counterEvidence": "An expenditure proposal is not evidence for every offensive operation. No current common doctrine for male conscription, autonomous targeting or unconditional concessions was established.",
+      "answers": [
+        {
+          "questionId": "militarist-pacifist-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A stronger defence posture makes selective national-interest force likely, without endorsing every intervention. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Diplomacy can achieve national aims without combat. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Higher defence spending supports substantial deterrence costs. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strong evidence of imminent attack makes bounded pre-emption likely. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-05",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defence expansion and alliance support leave both defensive restraint and broader operations plausible. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Professional capability is more likely than imposing male service. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Concessions require balancing security and diplomacy. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The platform does not establish autonomous killing; human control is the more likely cautious choice. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Defending Australia is more likely prioritised over routine overseas campaigns. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: An absolute refusal to defend an ally is inconsistent with credible defence. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expanded defence and allied cooperation favour some sustained external capability. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: An unresolved dispute is usually preferable to initiating war. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A credible defence posture makes selective deterrent threats likely. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Risk reduction and deterrent resolve require case-specific balancing. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Military intelligence fits a stronger security posture. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "militarist-pacifist-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Capability reductions are less likely than maintaining the proposed expansion. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "economy",
+            "programme"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "nationalism-internationalism",
+      "brief": "The programme rejects supranational control of borders and climate policy while supporting national economic and security interests.",
+      "counterEvidence": "Defence cooperation and ordinary trade remain possible; withdrawal from specific UN agreements cannot establish rejection of every alliance.",
+      "answers": [
+        {
+          "questionId": "nationalism-internationalism-01",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Final domestic lawmaking fits the sovereignty programme. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-02",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: External binding override is opposed. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic legal supremacy fits rejection of foreign control. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Alliances can strengthen defence but constrain independence, making a conditional choice most likely. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-05",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A national right to withdraw follows the proposed convention withdrawals. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-06",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Compulsory external court jurisdiction conflicts with retained sovereignty. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic interests take precedence. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Climate-agreement withdrawal points against external environmental authority. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Independent foreign policy is more likely than a mandatory common bloc policy. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-10",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: External institutions should not compel domestic legal change. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-11",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retaining Australia’s currency fits national control. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Voluntary joint projects remain possible while political control remains domestic. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The border-control demand is explicit. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Trade cooperation and national restrictions coexist, making conditional acceptance likely. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A political federation conflicts with sovereign Australian government. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        },
+        {
+          "questionId": "nationalism-internationalism-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: External enforcement at the expense of national interests is less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "immigration",
+            "economy",
+            "programme"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "public-private",
+      "brief": "The platform combines private enterprise with public services, targeted lending and a proposed public stake in resource projects. Blocking foreign ownership does not by itself mean nationalisation.",
+      "counterEvidence": "The 1998 welfare-state interpretation is historical context only. Current joint resource investment differs from general public resource ownership and current private-business policy differs from blanket privatisation. Review corrected utility-ownership extrapolation and recognised the hybrid June 2026 broadcaster proposal: domestic private ownership is not foreign ownership, and subscription funding is not necessarily privatisation.",
+      "answers": [
+        {
+          "questionId": "public-private-01",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Major industry can be privately owned with selective public investment. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Business support makes rejecting universal public ownership likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Restricting foreign ownership of utilities does not choose between domestic private and public ownership. The resource joint-venture model demonstrates selective public participation alongside private firms, making conditional rather than general public ownership most likely. Neutral is the most likely response; the exact response and intensity remain uncertain.",
+          "sources": [
+            "foreign-ownership",
+            "resources"
+          ]
+        },
+        {
+          "questionId": "public-private-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to foreign control and support for private domestic enterprise create different judgements depending on the purchaser and service. Neutral expresses that conditional position; a blanket rejection of any private operation is not established. Neutral is the most likely response; the exact response and intensity remain uncertain.",
+          "sources": [
+            "foreign-ownership",
+            "resources"
+          ]
+        },
+        {
+          "questionId": "public-private-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National infrastructure investment favours public transport ownership. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medicare support makes shifting core services wholesale to private operators unlikely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-07",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public schooling and private options coexist. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The proposed Australia Post lending route favours a public lender alongside private banks. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Ordinary commercial divestment and strategic retention pull in opposite directions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The mortgage scheme and housing supply programme do not make substantial public landlord ownership the primary solution. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private regulation can protect security, but foreign and strategic control restrictions support a conditional answer. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Public resource participation is proposed as a joint venture rather than generally exclusive ownership. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private routine contracting is compatible with reducing public bureaucracy. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Strategic domestic control favours retention despite sale proceeds. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-15",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Financial rescue and maintaining strategic capacity require a case-specific choice. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "parental-leave",
+            "resources",
+            "foreign-ownership",
+            "farming",
+            "broadcaster"
+          ]
+        },
+        {
+          "questionId": "public-private-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The June 2026 speech retains an ABC with some publicly funded regional operations but proposes subscriptions elsewhere and abolishing SBS. Mixed continuing national provision and withdrawal from universal public funding make Neutral more likely than either complete public provision or broadcasting entirely in private hands. This is a substantive hybrid position, not missing evidence. Neutral is the most likely response; the exact response and intensity remain uncertain.",
+          "sources": [
+            "broadcaster"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "protectionism-free-trade",
+      "brief": "Domestic procurement, farming capacity and restrictions on foreign strategic ownership support targeted protection rather than complete commercial isolation.",
+      "counterEvidence": "Historical broad protectionism differs from selective contemporary controls. Restrictions on foreign land do not establish every tariff or tax distinction.",
+      "answers": [
+        {
+          "questionId": "protectionism-free-trade-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective tariffs fit domestic industry protection. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Removing most barriers despite domestic losses conflicts with the priority. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Australian jobs and domestic procurement support a strong preference. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Cheaper inputs and domestic sourcing have competing economic claims. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Fuel and essential supply security favour preserving capacity. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Unilateral concessions are less likely than reciprocal arrangements. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic industrial development supports temporary protection. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-08",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The foreign-ownership programme rejects unrestricted equivalent access. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Farming support favours agricultural resilience. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic firms should not bear all adjustment costs without support. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reciprocal tariffs are likely where national interests require them. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A special discriminatory product tax is not identical to a tariff; national preference and simple tax rules support conditions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Subsidy-driven foreign competition warrants selective restriction. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Greater dependence makes unconditional tariff elimination unlikely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Preventing foreign strategic control is explicit. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "protectionism-free-trade-16",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Foreign online services can remain available with security exceptions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "historical",
+            "foreign-ownership",
+            "farming"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "planning-free-market",
+      "brief": "One Nation combines private business decisions and deregulation with directed infrastructure, farm finance and household cost measures.",
+      "counterEvidence": "Public lending and resource participation are selective mechanisms, not a comprehensive command economy. Political discussion of the RBA does not settle direct control of its monetary policy.",
+      "answers": [
+        {
+          "questionId": "planning-free-market-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Private business decisions fit the business-support programme. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Compulsory production schedules go beyond selective intervention. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-03",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Market prices remain ordinary mechanisms. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Chosen infrastructure and resource sectors attract directed investment. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Consumer demand remains important outside strategic projects. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Cost-of-living intervention favours some essential price control, though current measures are not comprehensive price schedules. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Reducing bureaucratic barriers favours market entry. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Government-backed rural and mortgage finance favours selected lending. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Capital movement and foreign ownership screening require different treatment. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Domestic jobs and infrastructure favour selected subsidy. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National monetary institutions make unrestricted rival private currencies less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Protecting workers from cheap imported labour supports a wage floor, without setting every wage. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Business flexibility favours negotiated wages. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: RBA advice and national development do not establish compulsory monetary planning; a conditional response is more likely. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Increasing housing supply rather than general rent freezes favours market rents. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        },
+        {
+          "questionId": "planning-free-market-16",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Selective public projects do not establish compulsory planning of ordinary national output. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "resources",
+            "budget",
+            "farming"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "high-redistribution-low-redistribution",
+      "brief": "The current programme favours tax relief and tighter benefit targeting while retaining Medicare and taxpayer-funded parental leave; it is not total welfare abolition.",
+      "counterEvidence": "The 1998 protectionist welfare-state account cannot override current tax-cut policy. The June 2026 parental-leave clarification counters an assumption that all cash support would be eliminated.",
+      "answers": [
+        {
+          "questionId": "high-redistribution-low-redistribution-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tax relief and restrained spending are more likely than substantial equalisation. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-02",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The low-tax programme resists taxing solely to narrow gaps. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retained targeted benefits coexist with opposition to higher tax burdens. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Means testing and cost control favour a safety net. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Progressive income tax can coexist with tax cuts. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-06",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Tax relief is a strong programme priority. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-07",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The party explicitly rejects death duties. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Work incentives and continuing low-income support require conditions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Broad wealth taxation is less likely than household tax relief. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Budget restraint favours modest targeted benefits. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Retained parental leave and national welfare favour participation above bare survival. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The tax-cut programme strongly favours this priority. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-13",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Targeted worker support can coexist with business flexibility. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Existing graduated rates and income splitting do not establish flat marginal taxation. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-15",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Land redistribution is less likely than protecting domestic property and farm ownership. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "high-redistribution-low-redistribution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Means testing favours targeting households in need. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "parental-leave",
+            "historical",
+            "economy",
+            "family-tax",
+            "budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "secular-religious",
+      "brief": "The contemporary Australian doctrine privileges inherited cultural traditions but operates through civil parliament and courts. Opposition to Islam is not itself support for Christian clerical government.",
+      "counterEvidence": "Civil legal institutions and traditional religious symbolism can coexist. A faith-specific membership prerequisite was not established for this general political doctrine. Review rejected equating Christian cultural inheritance with constitutional establishment.",
+      "answers": [
+        {
+          "questionId": "secular-religious-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil justification is more likely than requiring a creed for every law. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Traditional moral influence is distinct from official scriptural law. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Elected government should not need approval from religious leaders. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-04",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The doctrine appeals to Judeo-Christian cultural inheritance while defending the constitution’s religious liberty. Keeping inherited culture is not establishing a particular religion as the constitutional foundation of the state. Civil non-establishment is the more likely choice, with symbolic recognition still possible. Disagree is the most likely response; the exact response and intensity remain uncertain.",
+          "sources": [
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Teaching religion descriptively can coexist with cultural inheritance. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious traditions and plural schooling support a conditional response on active faith formation. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-07",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil courts have authority over religious rulings. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-08",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clerical law review is less likely than parliamentary sovereignty. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-09",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Inherited organised worship can remain in civic ceremony. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Cultural religious recognition and budget restraint compete over direct faith promotion. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-11",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Inherited symbols are more likely retained than categorically removed. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Christian festival recognition fits traditional national culture. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-13",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Clerical office alone does not establish a right to government seats. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Religious institutions are more likely granted traditional exemptions. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Civil marriage approval should remain independent. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        },
+        {
+          "questionId": "secular-religious-16",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parallel binding religious family law conflicts with a single national legal system. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "speech",
+            "multiculturalism",
+            "religious-freedom",
+            "common-culture"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "progressive-traditionalist",
+      "brief": "Family-oriented tax policy, abortion restrictions and opposition to identity-based classroom teaching favour traditional norms, with some individual choices remaining open.",
+      "counterEvidence": "Family tax relief supports households with children but does not prove unequal legal status for all other families. A woman leading the movement counters treating all cross-sex occupational roles as unacceptable.",
+      "answers": [
+        {
+          "questionId": "progressive-traditionalist-01",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Rapid substantial custom changes are less likely than preserving continuity. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-02",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Traditional culture is a strong stated priority. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Support for family households and civil equality support a conditional answer. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Family support does not require all women and men to follow distinct roles. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The traditional family orientation makes changing marriage definition less likely, with intensity uncertain. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-06",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The two-parent household is a likely preferred model. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The pro-life programme makes routine abortion acceptance less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-08",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Parental choice and traditional schooling strongly favour family discretion. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Traditional adoption preferences and child-specific welfare considerations support conditions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Restrictions on face coverings are not a general dress-modesty doctrine; public norms and choice require balancing. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-11",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to gender-focused teaching makes mandatory identity-driven usage unlikely. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-12",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The education and common-culture programme favour established customs. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Female leadership and individual employment coexist with traditional family values. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-14",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Gradual reform fits institutional continuity. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-15",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to gender-focused classroom programmes makes compulsory teaching despite family objections unlikely. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        },
+        {
+          "questionId": "progressive-traditionalist-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Inherited connection is a likely reason to preserve customs. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "parental-leave",
+            "abortion",
+            "family-tax",
+            "biological-sex"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "innovation-caution",
+      "brief": "Infrastructure, coal, nuclear power and domestic production favour development, while preserving jobs and caution about bodily interventions constrain other innovations.",
+      "counterEvidence": "Climate-policy rejection is not evidence for endorsing every novel technology. The current platform does not establish detailed positions on implants, cultured meat or embryo enhancement.",
+      "answers": [
+        {
+          "questionId": "innovation-caution-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: New beneficial productive technologies fit the development programme. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Development support and specific health caution conflict over a universal trial-only rule. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-03",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Dam and housing development strongly favour infrastructure despite some habitat loss. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-04",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Long-term medical safety remains a likely condition. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-05",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Replacing local jobs conflicts with the domestic employment priority. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The infrastructure programme is more likely prioritised over untouched habitats. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-07",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Agricultural continuity makes premature replacement by cultured meat less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Healthy-person implants are more likely restricted pending safety. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Nuclear and productive technology are more likely favoured over consumption cuts. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-10",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Development priorities make mandatory delay less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-11",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Personal choice and invasive enhancement risk justify a conditional answer. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medical diagnostic reliability favours supervised trials. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-13",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Enhancement editing is more likely rejected than disease treatment. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-14",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Farm productivity and precaution have competing claims over a universal long-term requirement. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-15",
+          "value": 2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Expanding homes, transport and dams is a strong programme commitment. Strongly agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        },
+        {
+          "questionId": "innovation-caution-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Avoiding irreversible technological harm is still likely despite development preferences. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "economy",
+            "education",
+            "resources",
+            "budget"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "central-local",
+      "brief": "One Nation operates within Australian federalism, promotes national policy standards and opposes separate Indigenous political institutions.",
+      "counterEvidence": "National funding guarantees do not imply exclusive national delivery. The common national curriculum preference differs from national control of every local land decision.",
+      "answers": [
+        {
+          "questionId": "central-local-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Federal territorial rights fit Australian institutional continuity. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-02",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A constitutional division of powers makes neither level universally supreme. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-03",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National unity makes unilateral separation less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National infrastructure and regional voter control require constitutional balancing. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State constitutional institutions fit the federal setting. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-06",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Separate state police are more likely retained than replaced by a single force. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Regional development favours retaining meaningful local revenue. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-08",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Common curriculum preferences support national school standards. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-09",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State tax powers fit federal institutions. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-10",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: National employment baselines fit a common labour market. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Local accountability favours voter control of councils. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-12",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Medicare coverage provides a national guarantee even if delivery is regional. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-13",
+          "value": -2,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Opposition to differentiated Indigenous bodies makes autonomous political institutions unlikely. Strongly disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: State competition and regional investment make blanket national tax limits less likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Locally contained land decisions favour regional responsibility. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "central-local-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: A disaster spanning several regions calls for national coordination. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "programme",
+            "education",
+            "policy-check",
+            "immigration",
+            "budget",
+            "equality"
+          ]
+        }
+      ]
+    },
+    {
+      "axisId": "culture-nature",
+      "brief": "Education, integration and personal responsibility supply contextual evidence for learned conduct. Biological sex beliefs do not establish biological explanations for every behavioural difference.",
+      "counterEvidence": "The movement’s identity and gender rhetoric does not establish scientific IQ or temperament positions. Leadership by a woman and emphasis on schooling counter a blanket biological hierarchy reading.",
+      "answers": [
+        {
+          "questionId": "culture-nature-01",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Integration and schooling imply learned influence on conduct. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-02",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The education programme does not assert inherited national intelligence hierarchies; environmental explanation is more likely. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-03",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Biological sex rhetoric and family socialisation support a mixed explanation. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-04",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Stress has physiological and experiential components; a conditional judgement is more likely. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-05",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Education and opportunity affect interests. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-06",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Risk behaviour can be learned and predisposed, supporting conditions. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-07",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Discipline and shared norms can teach cooperative conduct. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-08",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Empathy includes temperament and experience. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-09",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Schooling and physiology can both affect attention. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-10",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Moral teaching and immediate predispositions have competing claims. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-11",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: The cultural-threat narrative operates through learning and experience. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-12",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Temperament can reflect predisposition and upbringing. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-13",
+          "value": 0,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Attraction has social and physiological influences. Neutral is the most likely response in the stated scope. Neutral represents the competing commitments described here, not a default for uncertainty. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-14",
+          "value": -1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Responsibility and education rhetoric are more consistent with social causes than a claim of biologically racial violence. Disagree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-15",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Personal responsibility and discipline point towards learned self-control. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        },
+        {
+          "questionId": "culture-nature-16",
+          "value": 1,
+          "basis": "inferred",
+          "rationale": "Educated assumption: Business and individual-responsibility rhetoric makes some economic-value explanation likely, but this is not a claim of innate male worth. Agree is the most likely response in the stated scope. The cited material supplies context; this exact statement response and its intensity are not documented and remain uncertain.",
+          "sources": [
+            "education",
+            "multiculturalism",
+            "policy-check",
+            "parental-leave",
+            "biological-sex",
+            "equality"
+          ]
+        }
+      ]
+    }
+  ],
+  "review": {
+    "reviewer": "Codex (GPT-6), separate same-agent evidence and wording review",
+    "reviewedAt": "2026-10-07",
+    "notes": "Distinct review pass checks all 240 exact bank statements, all five response choices and all 15 independent axes. Every question is inferred, including intensity and Neutral interpretations; full IDs and item-level review are in profile-audit/reports/nativism-hansonism-2026-10-07-review.json. Not an independent human or second-agent review. Reviewed firearm personal defence versus farm/sport licensing, bounded restrictions versus autocracy, national sovereignty versus centralisation, religion as law versus cultural symbolism, and Culture–Nature wording limitations. Historical Hansonism evidence is contextual only, not a substitute for the current programme. Nativism is a specified electoral cultural variant with disclosed institutional and economic plurality. No answers copied from other subjects or tuned to scores. Review corrected five draft responses from closer evidence and literal interpretation; see the separate review. High Neutral counts retained only where item rationales describe substantive competing commitments. Specific platform assertions are party claims, not certified facts about abortion law, climate science or policy costs.",
+    "similarity": []
+  }
+}
