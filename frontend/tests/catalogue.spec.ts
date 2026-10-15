@@ -1,3 +1,4 @@
+const cleanHref = (value: string) => { if (!value.startsWith('#/')) return value; const [path, query] = value.slice(2).split('?'); return '/15values/' + path + (path ? '/' : '') + (query ? '?' + query : ''); };
 import { test, expect } from '@playwright/test';
 import { readFileSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
@@ -49,28 +50,28 @@ test('all three catalogues browse, search and open full sourced assessments', as
     await expect(page.getByText('No profiles match your search.')).toBeVisible();
     await page.getByRole('searchbox').fill('');
     await page.getByRole('link', { name: `Test ${kind}`, exact: true }).click();
-    await expect(page).toHaveURL(new RegExp(`#/${path}/${id}$`));
-    await expect(page).toHaveTitle(`Test ${kind} — 15 Values`);
+    await expect(page).toHaveURL(new RegExp(`/${path}/${id}/$`));
+    await expect(page).toHaveTitle(`Test ${kind} — Political Values | 15 Values`);
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(`Test ${kind}`);
     if (kind === 'ideology') {
       const comparisons = page.getByRole('region', { name: 'Most similar profiles' });
       await expect(comparisons.getByText('Similar person', { exact: true })).toHaveCount(0);
       await expect(comparisons.getByText('Similar country', { exact: true })).toHaveCount(0);
-      await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', '#/personalities/' + id);
-      await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', '#/countries/' + id);
+      await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', cleanHref('#/personalities/' + id));
+      await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', cleanHref('#/countries/' + id));
       await expect(comparisons.getByText(/% similarity/)).toHaveCount(0);
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
       await expect(page.locator('main blockquote')).toHaveCount(0);
     }
     if (kind === 'personality') {
       const header = page.locator('dl[aria-label="Profile comparisons"]');
-      await expect(header.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', `#/ideologies/${id}`);
+      await expect(header.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', cleanHref(`#/ideologies/${id}`));
       await expect(page.locator('main header').first()).toHaveCSS('border-top-color', 'rgb(137, 96, 59)');
     }
     const countryComparison = page.getByRole('region', { name: 'Closest ideology', exact: true });
     await expect(countryComparison).toHaveCount(kind === 'country' ? 1 : 0);
     if (kind === 'country') {
-      await expect(countryComparison.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', `#/ideologies/${id}`);
+      await expect(countryComparison.getByRole('link', { name: 'Test ideology', exact: true })).toHaveAttribute('href', cleanHref(`#/ideologies/${id}`));
       await expect(countryComparison.locator('svg')).toBeVisible();
       await expect(countryComparison.getByRole('heading', { name: 'Similar', exact: true })).toBeVisible();
       await expect(page.locator('main header img')).toBeVisible();
@@ -107,7 +108,7 @@ test('catalogue failures can be retried and missing profiles have a way back', a
   await expect(page.getByRole('heading', { name: 'No countries added yet.' })).toBeVisible();
   await page.goto('./#/countries/missing');
   await expect(page.getByRole('heading', { name: 'Profile not found' })).toBeVisible();
-  await expect(page.getByRole('link', { name: 'Back to countries' })).toHaveAttribute('href', '#/countries');
+  await expect(page.getByRole('link', { name: 'Back to countries' })).toHaveAttribute('href', cleanHref('#/countries'));
 });
 
 test('malformed catalogue data is not rendered as a profile', async ({ page }) => {
@@ -249,7 +250,7 @@ test('profile comparisons omit political leaning and link similar people', async
   await expect(page.locator('main')).not.toContainText('Political leaning');
   await expect(page.getByRole('heading', { name: 'Similar', exact: true })).toBeVisible();
   await expect(page.getByText('How these comparisons work')).toHaveCount(0);
-  await expect(comparisons.getByRole('link', { name: 'Similar person' })).toHaveAttribute('href', '#/personalities/neighbour');
+  await expect(comparisons.getByRole('link', { name: 'Similar person' })).toHaveAttribute('href', cleanHref('#/personalities/neighbour'));
   await expect(comparisons.getByRole('link', { name: subject.metadata.name })).toHaveCount(0);
   await comparisons.getByRole('link', { name: 'Similar person' }).click();
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Similar person');
@@ -285,8 +286,8 @@ test('ideology pages show linked portraits and flags without labels or percentag
   await expect(comparisons.locator('img')).toHaveCount(2);
   await expect(page.locator('header figure')).toHaveCount(0);
   for (const image of await comparisons.locator('img').all()) await expect(image).toHaveJSProperty('naturalWidth', 1200);
-  await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', '#/personalities/match-personality');
-  await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', '#/countries/match-country');
+  await expect(comparisons.getByRole('link', { name: 'Test personality' })).toHaveAttribute('href', cleanHref('#/personalities/match-personality'));
+  await expect(comparisons.getByRole('link', { name: 'Test country' })).toHaveAttribute('href', cleanHref('#/countries/match-country'));
   await expect(comparisons.getByText(/% similarity/)).toHaveCount(0);
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   await comparisons.getByRole('link', { name: 'Test country' }).click();
@@ -297,7 +298,7 @@ test('Hindu nationalism shows Right, Modi and sourced Hindu eligibility', async 
   await page.goto('./#/ideologies/hindu-nationalism');
   await expect(page.getByRole('heading', { level: 1 })).toHaveText('Hindu nationalism');
   await expect(page.locator('header').getByText('Right', { exact: true })).toBeVisible();
-  await expect(page.getByRole('link', { name: /Narendra Modi.*Selected representative/ })).toHaveAttribute('href', '#/personalities/narendra-modi');
+  await expect(page.getByRole('link', { name: /Narendra Modi.*Selected representative/ })).toHaveAttribute('href', cleanHref('#/personalities/narendra-modi'));
   await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Hinduism');
   await expect(page.getByRole('region', { name: 'Religion assessment' })).toContainText('Educated assumption:');
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

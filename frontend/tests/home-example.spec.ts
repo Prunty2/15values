@@ -10,11 +10,11 @@ test('refresh draws another assessed personality with a calculated ideology matc
   await page.evaluate(() => document.fonts.ready);
   expect(await page.evaluate(() => document.fonts.check('700 16px "Clarity City"'))).toBe(true);
   const example = page.getByRole('region', { name: 'Example comparison' });
-  const person = example.locator('a[href^="#/personalities/"]');
+  const person = example.locator('a[href*="/personalities/"]');
   await expect(person).toBeVisible();
   const first = await person.getAttribute('href');
   await expect(example.getByRole('img', { name: /% similarity across 15 axes/ })).toBeVisible();
-  await expect(example.locator('a[href^="#/ideologies/"]')).toBeVisible();
+  await expect(example.locator('a[href*="/ideologies/"]')).toBeVisible();
   await page.reload();
   await expect(person).toBeVisible();
   await expect(person).not.toHaveAttribute('href', first!);

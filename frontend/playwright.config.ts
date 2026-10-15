@@ -6,7 +6,7 @@ export default defineConfig({
   workers: 4,
   reporter: 'list',
   use: {
-    baseURL: process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:4174/political-quiz/',
+    baseURL: process.env.PLAYWRIGHT_BASE_URL ?? 'http://127.0.0.1:4174/15values/',
     trace: 'retain-on-failure',
   },
   projects: [
@@ -15,8 +15,8 @@ export default defineConfig({
     { name: 'safari', use: { ...devices['Desktop Safari'], viewport: { width: 1440, height: 900 } } },
   ],
   webServer: process.env.PLAYWRIGHT_BASE_URL ? undefined : {
-    command: 'npm run preview -- --host 127.0.0.1 --port 4174 --strictPort --base=/political-quiz/',
-    url: 'http://127.0.0.1:4174/political-quiz/',
+    command: 'npm run preview -- --host 127.0.0.1 --port 4174 --strictPort --base=/15values/',
+    url: 'http://127.0.0.1:4174/15values/',
     reuseExistingServer: false,
   },
 });

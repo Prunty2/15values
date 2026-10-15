@@ -1,3 +1,4 @@
+const cleanHref = (value: string) => { if (!value.startsWith('#/')) return value; const [path, query] = value.slice(2).split('?'); return '/15values/' + path + (path ? '/' : '') + (query ? '?' + query : ''); };
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
@@ -8,7 +9,7 @@ test('Values navigation opens the home axes section from another page and on rep
     await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Values', exact: true }).click();
   };
   await clickValues();
-  await expect(page).toHaveURL(/#\/\?section=values$/);
+  await expect(page).toHaveURL(/\/\?section=values$/);
   await expect(page.locator('#values article')).toHaveCount(15);
   await expect(page.locator('#landing-axes-title')).toBeInViewport();
   await page.evaluate(() => window.scrollTo(0, 0));
@@ -24,7 +25,7 @@ test('catalogue pages are intentionally empty and link to the values', async ({ 
     await page.goto(`./#/${name}`);
     await expect(page.getByRole('heading', { name: `No ${name} added yet.` })).toBeVisible();
     await expect(page.locator('article')).toHaveCount(0);
-    await expect(page.getByRole('link', { name: 'Explore the 15 values' })).toHaveAttribute('href', '#/?section=values');
+    await expect(page.getByRole('link', { name: 'Explore the 15 values' })).toHaveAttribute('href', cleanHref('#/?section=values'));
     await expect(page).toHaveTitle(new RegExp(`${name}`, 'i'));
   }
 });
@@ -41,7 +42,7 @@ test('navigation supports back, reload, current page, and keyboard focus', async
   await page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Values', exact: true }).click();
   await expect(page.locator('main')).toBeFocused();
   if (testInfo.project.name === 'mobile') await page.getByRole('button', { name: 'Open navigation' }).click();
-  await expect(page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Values', exact: true })).toHaveAttribute('href', '#/?section=values');
+  await expect(page.getByRole('navigation', { name: 'Main navigation' }).getByRole('link', { name: 'Values', exact: true })).toHaveAttribute('href', cleanHref('#/?section=values'));
   await page.reload();
   await expect(page.locator('#values article')).toHaveCount(15);
   await page.goBack();
@@ -134,7 +135,7 @@ test('social preview assets resolve under the GitHub Pages subpath', async ({ pa
   await page.goto('./');
   const image = await page.locator('meta[property="og:image"]').getAttribute('content');
   expect(image).not.toContain('__');
-  const response = await request.get(new URL(image!, page.url()).href);
+  const response = await request.get(new URL(image!).pathname);
   expect(response.ok()).toBe(true);
   expect(response.headers()['content-type']).toContain('image/png');
   await expect(page.locator('meta[name="twitter:card"]')).toHaveAttribute('content', 'summary_large_image');

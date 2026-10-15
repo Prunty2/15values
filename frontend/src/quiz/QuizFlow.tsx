@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import { selectionQuestions } from './selection';
 import type { SelectionAnswers } from './selection';
 import Arrow from '../components/Arrow';
@@ -37,7 +38,7 @@ function FormatSelection({ selected, session, onStart, onContinue }: { selected:
       <button className={a.choiceButton} onClick={() => onStart(format.id)}>Start {format.name.toLowerCase()} quiz <Arrow /></button>
     </article>)}</div>
     <div className={s.beforeStart}><p>Answers stay in this open tab. Completed results save automatically in this browser. Scored statement answers are not saved. Each format also asks five unscored Ideology Matching questions, including religious identity. These additional answers are saved with your result to check match eligibility.</p></div>
-    <div className={s.formatFooter}><a href="#/results">Saved results <Arrow /></a></div>
+    <div className={s.formatFooter}><a href={routeHref("#/results")}>Saved results <Arrow /></a></div>
   </div>;
 }
 function Questions({ session, setSession, onComplete }: { session: Session; setSession: (session: Session) => void; onComplete: (answers: Answers, religion: ReligiousIdentity, selection: SelectionAnswers) => void }) {
@@ -165,7 +166,7 @@ function Results({ currentResult, resultId, saveError, onView }: { currentResult
     } finally { if (importInput.current) importInput.current.value = ''; }
   };
   return <div className={s.resultsPage} style={colour ? { '--result-color': colour, '--accent': `color-mix(in srgb, ${colour} var(--profile-color-weight), var(--ink))`, '--accent-hover': 'color-mix(in srgb, var(--accent) 85%, var(--accent-hover-target))', '--forest': 'var(--accent)', '--sage': `color-mix(in srgb, ${colour} 15%, var(--paper))` } as CSSProperties : undefined}>
-    <div className={s.resultsIntro}><div><h1 ref={resultHeading} tabIndex={-1}>{result ? 'Your perspective profile.' : 'Saved results.'}</h1><p>{result ? `Analysis based on your responses to ${getFormat(result.length).questions} questions based on 15 dimensions of political ideology.` : 'Your political perspectives, ready to revisit.'}</p></div>{!result && history.results.length ? <a className={s.secondary} href="#/quiz">Take a new quiz <Arrow /></a> : null}</div>
+    <div className={s.resultsIntro}><div><h1 ref={resultHeading} tabIndex={-1}>{result ? 'Your perspective profile.' : 'Saved results.'}</h1><p>{result ? `Analysis based on your responses to ${getFormat(result.length).questions} questions based on 15 dimensions of political ideology.` : 'Your political perspectives, ready to revisit.'}</p></div>{!result && history.results.length ? <a className={s.secondary} href={routeHref("#/quiz")}>Take a new quiz <Arrow /></a> : null}</div>
     {result ? <>
       <ProfileOverview result={result} state={catalogue} />
     </> : null}
@@ -229,7 +230,7 @@ export default function QuizFlow({ location, brand }: { location: string; brand:
     setResult(next); navigate(`/results?id=${next.id}`);
   };
   return <>
-    {!showingResults ? <header className={`${a.choiceHeader} ${s.flowHeader} ${running ? s.runningHeader : ''}`}><div><span onClick={event => { if (inProgress) { event.preventDefault(); leave('/'); } }}>{brand}</span><div className={s.headerActions}>{running && session ? <><span className={s.headerFormat}>{getFormat(session.length).name} quiz</span><button className={s.textButton} onClick={() => setConfirmation({ title: 'Restart this quiz?', description: 'This clears your current answers and returns to the first question.', action: 'Restart quiz', run: () => { setSession({ length: session.length, index: 0, answers: {} }); } })}>Restart quiz <Arrow /></button></> : <a className={s.textButton} href="#/">Back to home <Arrow /></a>}</div></div></header> : null}
+    {!showingResults ? <header className={`${a.choiceHeader} ${s.flowHeader} ${running ? s.runningHeader : ''}`}><div><span onClick={event => { if (inProgress) { event.preventDefault(); leave('/'); } }}>{brand}</span><div className={s.headerActions}>{running && session ? <><span className={s.headerFormat}>{getFormat(session.length).name} quiz</span><button className={s.textButton} onClick={() => setConfirmation({ title: 'Restart this quiz?', description: 'This clears your current answers and returns to the first question.', action: 'Restart quiz', run: () => { setSession({ length: session.length, index: 0, answers: {} }); } })}>Restart quiz <Arrow /></button></> : <a className={s.textButton} href={routeHref("#/")}>Back to home <Arrow /></a>}</div></div></header> : null}
     {showingResults ? <Results currentResult={result} resultId={new URLSearchParams(location.split('?')[1]).get('id')} saveError={saveError} onView={item => { setResult(item); navigate(item ? `/results?id=${item.id}` : '/results'); }} /> : running && session ? <Questions key={session.length} session={session} setSession={setSession} onComplete={complete} /> : <FormatSelection selected={requested} session={session} onStart={begin} onContinue={() => { if (session) navigate(`/quiz/run?length=${session.length}`); }} />}
     {confirmation ? <ConfirmDialog title={confirmation.title} description={confirmation.description} action={confirmation.action} onCancel={() => setConfirmation(null)} onConfirm={() => { confirmation.run(); setConfirmation(null); }} /> : null}
   </>;

@@ -1,3 +1,5 @@
+import { updateMetadata } from './seo';
+import { routeHref } from './navigation';
 import SimilarityRing from './components/SimilarityRing';
 import Arrow from './components/Arrow';
 import { useEffect, useRef, useState } from 'react';
@@ -49,7 +51,7 @@ function scrollToValues() {
 }
 
 function Brand() {
-  return <a className={s.brand} href="#/" aria-label="15 Values home"><span className={s.brandMark} aria-hidden="true"><i /><i /><i /><i /></span><span>15<span className={s.brandLight}>Values</span></span></a>;
+  return <a className={s.brand} href={routeHref("#/")} aria-label="15 Values home"><span className={s.brandMark} aria-hidden="true"><i /><i /><i /><i /></span><span>15<span className={s.brandLight}>Values</span></span></a>;
 }
 
 function Header({ route }: { route: string }) {
@@ -63,12 +65,12 @@ function Header({ route }: { route: string }) {
       <Brand />
       <button ref={menuButton} className={s.menuButton} aria-label={open ? 'Close navigation' : 'Open navigation'} aria-expanded={open} aria-controls="main-navigation" onClick={() => setOpen(!open)}><Icon name={open ? 'close' : 'menu'} /></button>
       <nav id="main-navigation" aria-label="Main navigation" className={`${s.navigation} ${open ? s.navigationOpen : ''}`}>
-        <a href="#/" aria-current={route === '' ? 'page' : undefined} onClick={() => { setOpen(false); window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }}>Home</a>
-        {navigation.map(([path, label]) => <a key={path} href={path === 'values' ? '#/?section=values' : `#/${path}`} aria-current={route.split('/')[0] === path ? 'page' : undefined} onClick={() => { setOpen(false); if (path === 'values') scrollToValues(); }}>{label}</a>)}
-        <a href="#/results" aria-current={route === 'results' ? 'page' : undefined} onClick={() => setOpen(false)}>Results</a>
-        <a className={`${s.headerCta} ${s.mobileCta}`} href="#/quiz" aria-current={route === 'quiz' ? 'page' : undefined} onClick={() => setOpen(false)}>Explore the quiz <Icon name="arrow" /></a>
+        <a href={routeHref("#/")} aria-current={route === '' ? 'page' : undefined} onClick={() => { setOpen(false); window.scrollTo({ top: 0, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); }}>Home</a>
+        {navigation.map(([path, label]) => <a key={path} href={routeHref(path === 'values' ? '#/?section=values' : `#/${path}`)} aria-current={route.split('/')[0] === path ? 'page' : undefined} onClick={() => { setOpen(false); if (path === 'values') scrollToValues(); }}>{label}</a>)}
+        <a href={routeHref("#/results")} aria-current={route === 'results' ? 'page' : undefined} onClick={() => setOpen(false)}>Results</a>
+        <a className={`${s.headerCta} ${s.mobileCta}`} href={routeHref("#/quiz")} aria-current={route === 'quiz' ? 'page' : undefined} onClick={() => setOpen(false)}>Explore the quiz <Icon name="arrow" /></a>
       </nav>
-      <a className={`${s.headerCta} ${s.desktopCta}`} href="#/quiz" aria-current={route === 'quiz' ? 'page' : undefined}>Explore the quiz <Icon name="arrow" /></a>
+      <a className={`${s.headerCta} ${s.desktopCta}`} href={routeHref("#/quiz")} aria-current={route === 'quiz' ? 'page' : undefined}>Explore the quiz <Icon name="arrow" /></a>
     </div>
   </header>;
 }
@@ -84,10 +86,10 @@ function Footer() {
   </section><footer className={s.footer}>
     <div className={`${s.container} ${s.footerInner}`}>
       <div className={s.footerIntro}><Brand /><p>Your views deserve<br />more than a label.</p><span>A political quiz built around 15 independent axes. Designed to describe your views, not change them.</span></div>
-      <nav className={s.footerColumn} aria-label="Explore"><h2>Explore</h2><a href="#/quiz">Quiz formats</a><a href="#/?section=values">The 15 values</a></nav>
-      <nav className={s.footerColumn} aria-label="Catalogues"><h2>Catalogues</h2>{navigation.slice(1).map(([path, label]) => <a href={`#/${path}`} key={path}>{label}</a>)}</nav>
-      <nav className={s.footerColumn} aria-label="Project"><h2>The project</h2><a href={repositoryUrl + "/issues/new"} target="_blank" rel="noopener noreferrer">Submit feedback</a><a href={repositoryUrl} target="_blank" rel="noopener noreferrer">GitHub repository</a><a href="#/credits">Image credits</a></nav>
-      <div className={s.footerBottom}><span>15 Values · In development</span><p>No account needed. Quiz answers and saved results stay in your browser.</p><a href="#/" onClick={() => { window.scrollTo({ top: 0, behavior: 'instant' }); document.getElementById('main-content')?.focus({ preventScroll: true }); }}>Back to home <Icon name="arrow" /></a></div>
+      <nav className={s.footerColumn} aria-label="Explore"><h2>Explore</h2><a href={routeHref("#/quiz")}>Quiz formats</a><a href={routeHref("#/?section=values")}>The 15 values</a></nav>
+      <nav className={s.footerColumn} aria-label="Catalogues"><h2>Catalogues</h2>{navigation.slice(1).map(([path, label]) => <a href={routeHref(`#/${path}`)} key={path}>{label}</a>)}</nav>
+      <nav className={s.footerColumn} aria-label="Project"><h2>The project</h2><a href={repositoryUrl + "/issues/new"} target="_blank" rel="noopener noreferrer">Submit feedback</a><a href={repositoryUrl} target="_blank" rel="noopener noreferrer">GitHub repository</a><a href={routeHref("#/credits")}>Image credits</a></nav>
+      <div className={s.footerBottom}><span>15 Values · In development</span><p>No account needed. Quiz answers and saved results stay in your browser.</p><a href={routeHref("#/")} onClick={() => { window.scrollTo({ top: 0, behavior: 'instant' }); document.getElementById('main-content')?.focus({ preventScroll: true }); }}>Back to home <Icon name="arrow" /></a></div>
     </div>
   </footer></>;
 }
@@ -116,12 +118,12 @@ function ExampleResult() {
     <section className={s.exampleResult} aria-labelledby="example-result-title" style={example ? { '--result-ink': ideologyGroup(example.ideology).color, '--match-percentage': example.percentage + ' 100' } as CSSProperties : undefined}>
     {example ? <>
       <div className={s.resultHeader}>
-        <div className={s.resultIdeology}><span className={s.positionBadge}>{ideologyGroup(example.ideology).name}</span><h2><a href={'#/ideologies/' + example.ideology.id}>{stripName(example.ideology)}</a></h2></div>
+        <div className={s.resultIdeology}><span className={s.positionBadge}>{ideologyGroup(example.ideology).name}</span><h2><a href={routeHref('#/ideologies/' + example.ideology.id)}>{stripName(example.ideology)}</a></h2></div>
         <SimilarityRing percentage={example.percentage} decimals={0} />
       </div>
       <div className={s.comparisonRow}>
         {example.person.metadata.image ? <img className={s.personPortrait} src={import.meta.env.BASE_URL + example.person.metadata.image.path} alt={example.person.metadata.image.alt} width="76" height="76" decoding="async" /> : <Icon name="people" />}
-        <div className={s.comparisonCopy}><span className={s.comparisonLabel}>Personality</span><h3><a href={'#/personalities/' + example.person.id}>{stripName(example.person)}</a></h3></div>
+        <div className={s.comparisonCopy}><span className={s.comparisonLabel}>Personality</span><h3><a href={routeHref('#/personalities/' + example.person.id)}>{stripName(example.person)}</a></h3></div>
       </div>
     </> : <div className={s.comparisonRow}><p role="status">{loading ? 'Loading example…' : 'Profile example unavailable.'}</p></div>}
     </section>
@@ -175,14 +177,14 @@ function ComparisonStrip() {
       {profiles?.length ? <div className={s.stripTrack} data-paused={paused} style={{ animationDuration: `${profiles.length * 6}s` }}>
         {[0, 1].map(copy => <ul className={s.stripGroup} key={copy} aria-hidden={copy === 1 ? true : undefined}>
           {profiles.map(profile => <li key={`${profile.catalogue}/${profile.id}`} className={profile.catalogue === 'ideology' ? s.stripIdeology : s.stripPersonality} style={{ '--strip-group-color': stripPoliticalGroup(profile).color } as CSSProperties}>
-            <a href={`#/${profile.catalogue === 'ideology' ? 'ideologies' : 'personalities'}/${profile.id}`} tabIndex={copy === 1 ? -1 : undefined} aria-label={`${stripName(profile)}, ${stripTags(profile).join(', ')}`}>
+            <a href={routeHref(`#/${profile.catalogue === 'ideology' ? 'ideologies' : 'personalities'}/${profile.id}`)} tabIndex={copy === 1 ? -1 : undefined} aria-label={`${stripName(profile)}, ${stripTags(profile).join(', ')}`}>
               {profile.metadata.image ? <img src={`${import.meta.env.BASE_URL}${profile.metadata.image.path}`} alt="" width="40" height="40" loading="lazy" decoding="async" /> : <Icon name={profile.catalogue === 'ideology' ? 'layers' : 'people'} />}
               <span><span className={s.stripTags}>{stripTags(profile).map(tag => <small key={tag}>{tag}</small>)}</span><span className={s.stripName}>{stripName(profile)}</span></span>
             </a>
           </li>)}
         </ul>)}
       </div> : <div className={s.stripFallback}>
-        {profiles === null ? <span role="status">Loading profiles…</span> : <><a href="#/ideologies">Explore ideologies <Icon name="layers" /></a><a href="#/personalities">Explore personalities <Icon name="people" /></a></>}
+        {profiles === null ? <span role="status">Loading profiles…</span> : <><a href={routeHref("#/ideologies")}>Explore ideologies <Icon name="layers" /></a><a href={routeHref("#/personalities")}>Explore personalities <Icon name="people" /></a></>}
       </div>}
     </div>
     {profiles?.length ? <button className={s.stripControl} onClick={() => setPaused(value => !value)} aria-label={paused ? 'Resume scrolling' : 'Pause scrolling'}><Icon name={paused ? 'play' : 'pause'} /></button> : null}
@@ -198,7 +200,7 @@ function QuizFormats() {
       <div className={s.formatCount}><strong>{format.questions}</strong><span>questions</span></div><p>{format.description}</p>
       <div className={s.formatCoverage}><span><strong>15 axes</strong> in every format</span><span>{format.questions / 15} questions per axis</span></div>
       <div className={s.formatMeta}><span><Icon name="clock" /> Time to be confirmed</span><span>Depth <FormatSymbol bars={format.bars} /></span></div>
-      <a className={s.formatButton} href={`#/quiz/run?length=${format.id}`}>Choose {format.name.toLowerCase()} quiz <Icon name="arrow" /></a>
+      <a className={s.formatButton} href={routeHref(`#/quiz/run?length=${format.id}`)}>Choose {format.name.toLowerCase()} quiz <Icon name="arrow" /></a>
     </article>)}</div>
     <p className={s.formatFootnote}>Every format measures each axis on its own questions.</p>
   </section>;
@@ -250,13 +252,20 @@ function Home() {
   const scrollToFormats = () => { const section = document.getElementById('quiz-formats'); section?.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' }); document.getElementById('formats-title')?.focus({ preventScroll: true }); };
   return <>
     <section className={`${s.container} ${s.hero}`}>
-      <div className={s.heroCopy}><h1 aria-label="Your Politics Across the dimensions."><span>Your Politics</span><span>Across the dimensions.</span></h1><p>Discover where you stand on 15 separate political axes, with room for mixed and conditional views.</p></div>
-      <div className={s.heroActions}><div><a className={s.primaryButton} href="#/quiz">Explore the quiz <Icon name="arrow" /></a></div><p>No account needed and 100% free</p></div>
+      <div className={s.heroCopy}><h1 aria-label="Your Politics Across the dimensions."><span>Your Politics</span><span>Across the dimensions.</span></h1><p>Take the free 15 Values political quiz and ideology test to discover where you stand on 15 separate political axes, with room for mixed and conditional views.</p></div>
+      <div className={s.heroActions}><div><a className={s.primaryButton} href={routeHref("#/quiz")}>Explore the quiz <Icon name="arrow" /></a></div><p>No account needed and 100% free</p></div>
       <ExampleResult />
       <ComparisonStrip />
       <button className={s.scrollCue} onClick={scrollToFormats}>Find your format <Icon name="chevron" /></button>
     </section>
     <QuizFormats /><LandingAxes />
+    <section className={`${s.container} ${s.pageContent} ${s.infoPage}`} aria-labelledby="quiz-faq"><h2 id="quiz-faq">What is my political ideology?</h2>
+    <p>The 15 Values political test compares your answers with political ideology profiles and shows your views across 15 independent axes. You can also compare your results with political personalities and countries. Matches describe similarities in assessed positions; they are not endorsements.</p>
+    <h3>How is this different from a political compass test?</h3><p>A political compass typically presents politics on two axes. 15 Values shows fifteen separate dimensions, covering government, economics, social views, international relations and beliefs about human behaviour. Results are axis scores rather than a two-dimensional compass.</p>
+    <h3>How long is the political quiz?</h3><p>Choose 45, 75, 135 or 240 scored statements. Every format measures all 15 axes and includes five additional unscored ideology-matching questions.</p>
+    <h3>Is the ideology test free and private?</h3><p>Yes. No account is needed. Scoring happens in your browser and completed results are saved locally on your device. You can delete, export or import your saved results.</p>
+    <h3>How accurate are the results?</h3><p>The question bank and scoring have not been empirically validated, and some wording remains draft. Profile assessments include disclosed educated assumptions. Treat your matches as a starting point for exploring political ideas, with room for mixed and conditional views.</p>
+    <a href={routeHref("#/quiz")}>Take the political ideology test</a></section>
   </>;
 }
 
@@ -268,19 +277,19 @@ function Credits() {
   return <div className={`${s.container} ${s.pageContent} ${s.infoPage}`}><PageIntro title="Image credits." description="The people and resources behind the visuals on 15 Values." />
     {personalityImageCredits.map(credit => <section key={credit.sourceUrl}><h2>{credit.name} portrait</h2><p>{credit.creator}. {credit.license}. {credit.modifications}</p><div className={s.creditLinks}><a href={credit.sourceUrl}>Image source</a><a href={credit.licenseUrl}>Licence or public-domain status</a></div></section>)}
     {countryImageCredits.map(credit => <section key={credit.sourceUrl}><h2>{credit.name} flag</h2><p>{credit.creator}. {credit.license}. {credit.modifications}</p><div className={s.creditLinks}><a href={credit.sourceUrl}>Wikimedia Commons source</a><a href={credit.licenseUrl}>Licence or public-domain status</a></div></section>)}
-    <section><h2>Andy Burnham photograph</h2><p>“Andy Burnham on 13 August 2024 (cropped 2)” by the Scottish Government. Used under Creative Commons Attribution 2.0. The Wikimedia thumbnail is displayed smaller and cropped to a square. Its use in the example does not imply endorsement.</p><div className={s.creditLinks}><a href="https://commons.wikimedia.org/wiki/File:Andy_Burnham_on_13_August_2024_(cropped_2).jpg">Wikimedia Commons source</a><a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0 licence</a></div></section>
-    <section><h2>Swiss flag</h2><p>Public-domain Swiss flag artwork by Marc Mongenet, with credits to -xfi- and Zscout370. Displayed in a rectangular crop.</p><a className={s.textLink} href="https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg">Wikimedia Commons source <Icon name="arrow" /></a></section>
+    <section><h2>Andy Burnham photograph</h2><p>“Andy Burnham on 13 August 2024 (cropped 2)” by the Scottish Government. Used under Creative Commons Attribution 2.0. The Wikimedia thumbnail is displayed smaller and cropped to a square. Its use in the example does not imply endorsement.</p><div className={s.creditLinks}><a href={"https://commons.wikimedia.org/wiki/File:Andy_Burnham_on_13_August_2024_(cropped_2).jpg"}>Wikimedia Commons source</a><a href={"https://creativecommons.org/licenses/by/2.0/"}>CC BY 2.0 licence</a></div></section>
+    <section><h2>Swiss flag</h2><p>Public-domain Swiss flag artwork by Marc Mongenet, with credits to -xfi- and Zscout370. Displayed in a rectangular crop.</p><a className={s.textLink} href={"https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg"}>Wikimedia Commons source <Icon name="arrow" /></a></section>
     <section><h2>Bitcount Ink</h2><p>The question numbers use Bitcount Ink, hosted locally under the SIL Open Font License.</p><a className={s.textLink} href={`${import.meta.env.BASE_URL}fonts/Bitcount-Ink-LICENSE.txt`}>Read the Bitcount Ink licence <Icon name="arrow" /></a></section>
     <section><h2>Clarity City</h2><p>Our main typeface is hosted locally under the SIL Open Font License.</p><a className={s.textLink} href={`${import.meta.env.BASE_URL}fonts/Clarity-City-LICENSE.txt`}>Read the font licence <Icon name="arrow" /></a></section>
   </div>;
 }
 
 function NotFound() {
-  return <div className={`${s.container} ${s.pageContent}`}><PageIntro title="That page isn’t here." description="Head back to the home page, or use the navigation to explore the site." /><a className={s.primaryButton} href="#/">Back to home <Icon name="arrow" /></a></div>;
+  return <div className={`${s.container} ${s.pageContent}`}><PageIntro title="That page isn’t here." description="Head back to the home page, or use the navigation to explore the site." /><a className={s.primaryButton} href={routeHref("#/")}>Back to home <Icon name="arrow" /></a></div>;
 }
 
-export default function App() {
-  const [location, setLocation] = useState(currentLocation);
+export default function App({ initialLocation, initialProfiles }: { initialLocation?: string; initialProfiles?: Profile[] } = {}) {
+  const [location, setLocation] = useState(initialLocation ?? currentLocation);
   const mainRef = useRef<HTMLElement>(null);
   const previousLocation = useRef(location);
   const route = location.split('?')[0].replace(/^\/+|\/+$/g, '');
@@ -289,10 +298,12 @@ export default function App() {
     const updateLocation = () => setLocation(currentLocation());
     const followLink = (event: MouseEvent) => {
       if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-      const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href^="#/"]') : null;
+      const link = event.target instanceof Element ? event.target.closest<HTMLAnchorElement>('a[href]' ) : null;
       if (!link || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
+      const url = new URL(link.href);
+      if (url.origin !== window.location.origin || !url.pathname.startsWith(import.meta.env.BASE_URL) || (!url.hash.startsWith('#/') && url.hash) || /\.[a-z0-9]+$/i.test(url.pathname)) return;
       event.preventDefault();
-      navigate(link.hash.slice(1));
+      navigate(url.hash.startsWith('#/') ? url.hash.slice(1) : '/' + url.pathname.slice(import.meta.env.BASE_URL.length).replace(/\/$/, '') + url.search);
     };
     window.addEventListener('hashchange', updateLocation);
     window.addEventListener('popstate', updateLocation);
@@ -306,8 +317,7 @@ export default function App() {
     };
   }, []);
   useEffect(() => {
-    const label = navigation.find(([path]) => path === route.split('/')[0])?.[1] ?? ({ quiz: 'Choose your quiz', 'quiz/run': 'Your quiz', results: 'Your results', credits: 'Image credits' }[route] ?? (route ? 'Page not found' : 'Your politics across 15 dimensions'));
-    document.title = `${label} — 15 Values`;
+    updateMetadata(location);
     if (route === '' && new URLSearchParams(location.split('?')[1]).get('section') === 'values') scrollToValues();
     else window.scrollTo({ top: 0, behavior: 'instant' });
     if (previousLocation.current !== location) mainRef.current?.focus({ preventScroll: true });
@@ -317,7 +327,7 @@ export default function App() {
   if (route === '') page = <Home />;
   else if (quizRoute) page = <QuizFlow location={location} brand={<Brand />} />;
   else if (route === 'credits') page = <Credits />;
-  else if (Object.hasOwn(catalogueRoutes, route.split('/')[0]) && route.split('/').length <= 2) page = <Catalogue route={route.split('/')[0] as CatalogueRoute} id={route.split('/')[1]} />;
+  else if (Object.hasOwn(catalogueRoutes, route.split('/')[0]) && route.split('/').length <= 2) page = <Catalogue route={route.split('/')[0] as CatalogueRoute} id={route.split('/')[1]} initialProfiles={initialProfiles} />;
   else page = <NotFound />;
-  return <><a className={s.skipLink} href="#main-content" onClick={event => { event.preventDefault(); mainRef.current?.focus(); }}>Skip to content</a>{!quizRoute || route === 'results' ? <Header route={route} /> : null}<main id="main-content" ref={mainRef} tabIndex={-1} key={quizRoute ? 'quiz-flow' : location}>{page}</main>{!quizRoute ? <Footer /> : null}</>;
+  return <><a className={s.skipLink} href={"#main-content"} onClick={event => { event.preventDefault(); mainRef.current?.focus(); }}>Skip to content</a>{!quizRoute || route === 'results' ? <Header route={route} /> : null}<main id="main-content" ref={mainRef} tabIndex={-1} key={quizRoute ? 'quiz-flow' : location}>{page}</main>{!quizRoute ? <Footer /> : null}</>;
 }

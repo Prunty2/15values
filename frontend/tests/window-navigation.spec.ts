@@ -14,12 +14,12 @@ test('current-page links do not add history and Back/Forward restores each route
   await page.goBack();
   await expect(page.getByRole('button', { name: 'Start short quiz', exact: true })).toBeVisible();
   await page.goBack();
-  await expect(page).toHaveURL(/#\/credits$/);
+  await expect(page).toHaveURL(/\/credits\/$/);
   await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   await page.goBack();
   await expect(page.getByRole('heading', { level: 1 })).toContainText('Your Politics');
   await page.goForward();
-  await expect(page).toHaveURL(/#\/credits$/);
+  await expect(page).toHaveURL(/\/credits\/$/);
   expect(await page.evaluate(() => (window as unknown as { navigationDocument: string }).navigationDocument)).toBe('original');
 });
 

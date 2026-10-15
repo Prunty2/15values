@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import { selectionEligible } from '../quiz/selection';
 import type { CSSProperties } from 'react';
 import ValueIcon from '../components/ValueIcon';
@@ -15,7 +16,7 @@ export default function IdeologyHeader({ profile, profiles }: { profile: Profile
     : profile.metadata.description;
   const name = /^(.*?)\s*\((.*)\)$/.exec(profile.metadata.name);
   return <div className={s.graphic} style={{ '--profile-color': group.color } as CSSProperties}>
-    <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><a href="#/ideologies" aria-label="All ideologies">Ideologies</a><span aria-hidden="true">/</span><span aria-current="page">{name?.[1] ?? profile.metadata.name}</span></nav>
+    <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href={routeHref("#/")}>Home</a><span aria-hidden="true">/</span><a href={routeHref("#/ideologies")} aria-label="All ideologies">Ideologies</a><span aria-hidden="true">/</span><span aria-current="page">{name?.[1] ?? profile.metadata.name}</span></nav>
     <header className={s.hero + ' ' + s.withoutPortrait}>
       <div className={s.intro}>
         <div className={s.badges}><span className={s.role}>{group.name}</span>{leaning ? <span className={s.role} style={{ '--profile-color': leaning.color } as CSSProperties}>{leaning.name}</span> : null}<span>Ideology</span></div>
@@ -30,7 +31,7 @@ export default function IdeologyHeader({ profile, profiles }: { profile: Profile
               const match = profile.withdrawal ? null : representative ? { profiles: [representative] } : matchResultProfiles(profile, profiles, kind);
               return <div className={s.matchCard} key={kind}>
                 <dt className={s.srOnly}>{kind === 'personality' ? 'Person' : 'Country'}</dt>
-                <dd>{match ? match.profiles.map(candidate => <a className={s.matchLink} key={candidate.id} href={'#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + candidate.id}>
+                <dd>{match ? match.profiles.map(candidate => <a className={s.matchLink} key={candidate.id} href={routeHref('#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + candidate.id)}>
                   {candidate.metadata.image ? <img className={kind === 'personality' ? s.matchPortrait : i.matchFlag} src={import.meta.env.BASE_URL + candidate.metadata.image.path} alt="" loading="lazy" /> : <span className={s.matchIcon} aria-hidden="true">{kind === 'personality' ? candidate.metadata.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('') : <ValueIcon value="Internationalism" />}</span>}
                   <span className={i.matchName}>{candidate.metadata.name}{representative ? <small> · Selected representative</small> : null}</span>
                 </a>) : <span className={i.unavailable}>{profile.withdrawal ? 'Comparison unavailable' : 'No compatible assessment available'}</span>}</dd>

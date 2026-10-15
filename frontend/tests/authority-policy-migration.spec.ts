@@ -14,7 +14,7 @@ test('bank 3 results preserve scores through import, reload and export without n
   await page.goto('./#/results');
   await page.getByLabel('Import result history', { exact: true }).setInputFiles({ name: 'previous-bank.json', mimeType: 'application/json', buffer: Buffer.from(serializeHistory([previous])) });
   await page.getByRole('button', { name: 'View result', exact: true }).click();
-  await expect(page).toHaveURL(/#\/results\?id=/);
+  await expect(page).toHaveURL(/\/results\/\?id=/);
   await page.reload();
   await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
   await expect(page.getByRole('region', { name: 'Result comparisons' }).first().getByRole('link').first()).toBeVisible();

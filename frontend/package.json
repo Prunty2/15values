@@ -6,7 +6,7 @@
   "description": "A browser-based political quiz across 15 independent axes.",
   "scripts": {
     "dev": "vite",
-    "build": "npm run profiles:check && tsc --noEmit && vite build",
+    "build": "npm run profiles:check && tsc --noEmit && vite build && node scripts/prerender.mjs",
     "preview": "vite preview",
     "test:e2e": "playwright test",
     "test": "vitest run",

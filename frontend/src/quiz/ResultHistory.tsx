@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import Arrow from '../components/Arrow';
 import type { CSSProperties } from 'react';
 import { ProfileOverview, resultColour, useResultCatalogue } from './ResultProfile';
@@ -29,6 +30,6 @@ export function EmptyHistory({ unavailable }: { unavailable: boolean }) {
     <div className={s.illustration} aria-hidden="true"><div>{[35, 67, 44, 75, 56].map((position, index) => <span key={index}><i style={{ left: `${position}%` }} /></span>)}</div></div>
     <h3>{unavailable ? 'Your history is unavailable' : 'Your first perspective starts here.'}</h3>
     <p>{unavailable ? 'You can still take a quiz and view your results.' : 'Take a quiz to explore your views across 15 axes. Your completed results will be saved here.'}</p>
-    <a className={s.start} href="#/quiz">{unavailable ? 'Take a quiz' : 'Take your first quiz'} <Arrow /></a>
+    <a className={s.start} href={routeHref("#/quiz")}>{unavailable ? 'Take a quiz' : 'Take your first quiz'} <Arrow /></a>
   </div>;
 }

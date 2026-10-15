@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import Arrow from '../components/Arrow';
 import { useState, type CSSProperties } from 'react';
 import ValueIcon from '../components/ValueIcon';
@@ -37,7 +38,7 @@ export default function Ideologies({ profiles }: { profiles: Profile[] }) {
   const shown = groups.reduce((total, group) => total + group.profiles.length, 0);
 
   return <div className={s.page}>
-    <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href="#/">Home</a><span aria-hidden="true">/</span><span>Ideologies</span></nav>
+    <nav className={s.breadcrumb} aria-label="Breadcrumb"><a href={routeHref("#/")}>Home</a><span aria-hidden="true">/</span><span>Ideologies</span></nav>
     <header className={s.hero}>
       <h1>Political ideologies</h1>
       <p className={s.description}>Explore the ideas that shape politics. Profiles use the same 15 values; placements are withheld when their evidence needs correction.</p>
@@ -61,13 +62,13 @@ export default function Ideologies({ profiles }: { profiles: Profile[] }) {
         <div className={s.grid}>{group.profiles.map(profile => {
           const match = /^(.*?)\s*\((.*)\)$/.exec(profile.metadata.name);
           return <article key={profile.id} className={s.card}>
-            <div className={s.cardBody}><h3><a href={`#/ideologies/${profile.id}`} aria-label={profile.metadata.name}>{match?.[1] ?? profile.metadata.name}</a></h3>{match ? <p className={s.tradition}>{match[2]}</p> : null}<p className={s.cardDescription}>{profile.metadata.description}</p></div>
-            <div className={s.cardFooter}><AxisStrip profile={profile} /><a className={s.profileLink} href={`#/ideologies/${profile.id}`} aria-label={`View ${profile.metadata.name} profile`}>View profile <Arrow /></a></div>
+            <div className={s.cardBody}><h3><a href={routeHref(`#/ideologies/${profile.id}`)} aria-label={profile.metadata.name}>{match?.[1] ?? profile.metadata.name}</a></h3>{match ? <p className={s.tradition}>{match[2]}</p> : null}<p className={s.cardDescription}>{profile.metadata.description}</p></div>
+            <div className={s.cardFooter}><AxisStrip profile={profile} /><a className={s.profileLink} href={routeHref(`#/ideologies/${profile.id}`)} aria-label={`View ${profile.metadata.name} profile`}>View profile <Arrow /></a></div>
           </article>;
         })}</div>
       </section>)}</div>
       {!shown ? <div className={s.empty}><h2>No profiles match your search.</h2><p>Try another name or choose a different group.</p><button onClick={() => { setQuery(''); setSelected(null); }}>Show all ideologies <Arrow /></button></div> : null}
       <p className={s.researchNote}>These broad browsing groups can overlap: religious and libertarian traditions also hold positions across the political spectrum. Profiles describe specific traditions and periods. Open a profile to review its scope, sources and complete assessment.</p>
-    </> : <div className={s.empty}><h2>No ideologies added yet.</h2><p>Get to know the values that underpin the site.</p><a href="#/?section=values">Explore the 15 values</a></div>}
+    </> : <div className={s.empty}><h2>No ideologies added yet.</h2><p>Get to know the values that underpin the site.</p><a href={routeHref("#/?section=values")}>Explore the 15 values</a></div>}
   </div>;
 }

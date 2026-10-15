@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import type { CSSProperties } from 'react';
 import type { Profile } from './types';
 import s from './Catalogue.module.css';
@@ -20,7 +21,7 @@ export default function ProfileCard({ profile, route }: { profile: Profile; rout
   </>;
   const flag = country ? undefined : personalityFlag(profile.id);
   return <article style={!country ? { '--profile-color': personalityGroup(profile).color } as CSSProperties : undefined} className={`${s.profileCard} ${country ? s.countryCard : ''}`}>
-    <a className={s.profileLink} href={`#/${route}/${profile.id}`} aria-label={metadata.name}>
+    <a className={s.profileLink} href={routeHref(`#/${route}/${profile.id}`)} aria-label={metadata.name}>
       <div className={s.profileBody}>
         <div className={s.profileImage}>
           {metadata.image ? <img src={`${import.meta.env.BASE_URL}${metadata.image.path}`} alt={metadata.image.alt} style={profile.id === 'thomas-sewell' ? { objectPosition: '75% 25%' } : undefined} loading="lazy" width="240" height="300" /> : <span className={s.imageFallback} aria-hidden="true">{metadata.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('')}</span>}

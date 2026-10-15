@@ -17,7 +17,7 @@ test('matched portraits and flags load in saved cards and full results, includin
     for (const profile of profiles) {
       const image = comparisons.getByRole('img', { name: profile.metadata.image!.alt, exact: true });
       await expect(image).toBeVisible();
-      expect(await image.evaluate((element: HTMLImageElement) => element.src)).toBe(new URL(profile.metadata.image!.path, page.url()).href);
+      expect(await image.evaluate((element: HTMLImageElement) => element.src)).toBe(new URL('/15values/' + profile.metadata.image!.path, page.url()).href);
       await expect.poll(() => image.evaluate((element: HTMLImageElement) => element.complete && element.naturalWidth > 0)).toBe(true);
     }
   }

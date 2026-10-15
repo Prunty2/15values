@@ -1,3 +1,4 @@
+const cleanHref = (value: string) => { if (!value.startsWith('#/')) return value; const [path, query] = value.slice(2).split('?'); return '/15values/' + path + (path ? '/' : '') + (query ? '?' + query : ''); };
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { profileFixture } from './fixtures/profile';
@@ -20,7 +21,7 @@ test('home strip uses published profiles and links to both types of detail page'
   })));
   for (const profile of profiles) {
     const route = profile.catalogue === 'ideology' ? 'ideologies' : 'personalities';
-    const card = cards.find(card => card.href === '#/' + route + '/' + profile.id)!;
+    const card = cards.find(card => card.href === cleanHref('#/' + route + '/' + profile.id))!;
     expect(card.labels).toHaveLength(2);
     expect(card.labels[0]).toBe(profile.catalogue === 'ideology' ? 'Ideology' : profile.metadata.category);
     if (profile.catalogue === 'personality') {
@@ -31,11 +32,11 @@ test('home strip uses published profiles and links to both types of detail page'
     }
     expect(card.name).toBe(profile.metadata.name.replace(/\s*\(.*\)$/, '').trim());
   }
-  await expect(strip.locator('a[href="#/ideologies/american-conservatism"]').first().locator('small').last()).toHaveText('Right');
-  await expect(strip.locator('a[href="#/ideologies/communism"]').first().locator('small').last()).toHaveText('Far-Left');
+  await expect(strip.locator('a[href="/15values/ideologies/american-conservatism/"]').first().locator('small').last()).toHaveText('Right');
+  await expect(strip.locator('a[href="/15values/ideologies/communism/"]').first().locator('small').last()).toHaveText('Far-Left');
   for (const type of ['ideology', 'personality']) {
     const profile = profiles.filter((profile: { catalogue: string }) => profile.catalogue === type).sort((a: { metadata: { name: string } }, b: { metadata: { name: string } }) => a.metadata.name.localeCompare(b.metadata.name))[0];
-    await strip.locator(`a[href="#/${type === 'ideology' ? 'ideologies' : 'personalities'}/${profile.id}"]`).first().click();
+    await strip.locator(`a[href="/15values/${type === 'ideology' ? 'ideologies' : 'personalities'}/${profile.id}/"]`).first().click();
     await expect(page.getByRole('heading', { level: 1 })).toHaveText(profile.metadata.name);
     await page.goto('./');
   }
@@ -50,8 +51,8 @@ test('home strip uses explicit personality leaning metadata and falls back when 
   await page.emulateMedia({ reducedMotion: 'reduce' });
   await page.goto('./');
   const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
-  await expect(strip.locator('a[href="#/personalities/labelled"]').first().locator('small').last()).toHaveText('Far-Right');
-  await expect(strip.locator('a[href="#/personalities/unclassified"]').first().locator('small').last()).toHaveText('Unclassified');
+  await expect(strip.locator('a[href="/15values/personalities/labelled/"]').first().locator('small').last()).toHaveText('Far-Right');
+  await expect(strip.locator('a[href="/15values/personalities/unclassified/"]').first().locator('small').last()).toHaveText('Unclassified');
 });
 
 test('strip loops evenly, pauses, resumes and stops for keyboard interaction', async ({ page }) => {
@@ -102,8 +103,8 @@ for (const mode of ['empty', 'unavailable', 'invalid']) {
     await page.route('**/profiles/catalogue.v1.json', route => route.fulfill(mode === 'unavailable' ? { status: 503 } : { json: mode === 'empty' ? { schemaVersion: 1, profiles: [] } : { schemaVersion: 99, profiles: [] } }));
     await page.goto('./');
     const strip = page.getByRole('region', { name: 'Explore ideologies and personalities' });
-    await expect(strip.getByRole('link', { name: 'Explore ideologies' })).toHaveAttribute('href', '#/ideologies');
-    await expect(strip.getByRole('link', { name: 'Explore personalities' })).toHaveAttribute('href', '#/personalities');
+    await expect(strip.getByRole('link', { name: 'Explore ideologies' })).toHaveAttribute('href', cleanHref('#/ideologies'));
+    await expect(strip.getByRole('link', { name: 'Explore personalities' })).toHaveAttribute('href', cleanHref('#/personalities'));
     await expect(strip.getByRole('button')).toHaveCount(0);
   });
 }

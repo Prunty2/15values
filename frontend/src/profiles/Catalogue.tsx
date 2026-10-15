@@ -1,3 +1,5 @@
+import { updateMetadata } from '../seo';
+import { routeHref } from '../navigation';
 import { religionOptions } from '../quiz/religion';
 import { useEffect, useState } from 'react';
 import { ResultAxes } from '../quiz/ResultProfile';
@@ -31,8 +33,8 @@ const familyNames: Record<string, string> = { 'mao-zedong': 'Mao', 'xi-jinping':
 const lastName = (profile: Profile) => familyNames[profile.id] ?? profile.metadata.name.trim().split(/\s+/).at(-1) ?? profile.metadata.name;
 const asset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
 
-export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: string }) {
-  const [state, setState] = useState<{ profiles?: Profile[]; error?: string }>({});
+export default function Catalogue({ route, id, initialProfiles }: { route: CatalogueRoute; id?: string; initialProfiles?: Profile[] }) {
+  const [state, setState] = useState<{ profiles?: Profile[]; error?: string }>(initialProfiles ? { profiles: initialProfiles } : {});
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('');
   const [filters, setFilters] = useState<Record<ProfileTagKind, string>>({ leaning: '', ideology: '', position: '', country: '' });
@@ -51,11 +53,11 @@ export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: s
   const imageCredit = profile?.catalogue === 'personality'
     ? personalityImageCredits.find(credit => credit.sourceUrl === profile.metadata.image?.sourceUrl)
     : undefined;
-  useEffect(() => { if (profile) document.title = `${profile.metadata.name} — 15 Values`; }, [profile]);
+  useEffect(() => { if (profile) updateMetadata(`/${route}/${profile.id}`, profile); }, [profile]);
   const heading = route[0].toUpperCase() + route.slice(1);
   if (state.error) return <div className={`${a.container} ${a.pageContent}`}><h1>{heading}</h1><p role="alert">{state.error}</p><button className={a.primaryButton} onClick={() => setAttempt(value => value + 1)}>Try again</button></div>;
   if (!profiles) return <div className={`${a.container} ${a.pageContent}`}><h1>{heading}</h1><p role="status">Loading profiles…</p></div>;
-  if (id && !profile) return <div className={`${a.container} ${a.pageContent}`}><h1>Profile not found</h1><p>This profile is not in the published catalogue.</p><a href={`#/${route}`}>Back to {heading.toLowerCase()}</a></div>;
+  if (id && !profile) return <div className={`${a.container} ${a.pageContent}`}><h1>Profile not found</h1><p>This profile is not in the published catalogue.</p><a href={routeHref(`#/${route}`)}>Back to {heading.toLowerCase()}</a></div>;
   if (profile) return <div className={`${a.container} ${a.pageContent} ${profile.catalogue === 'ideology' ? s.ideologyDetail : profile.catalogue === 'personality' ? s.personalityDetail : s.countryDetail}`}>
     {profile.catalogue === 'ideology' ? <IdeologyHeader profile={profile} profiles={state.profiles!} /> : profile.catalogue === 'personality' ? <PersonalityHeader profile={profile} profiles={state.profiles!} /> : <CountryHeader profile={profile} profiles={state.profiles!} />}
     {profile.metadata.phrase && profile.catalogue !== 'ideology' ? <blockquote className={s.phrase}>{profile.metadata.phrase}</blockquote> : null}
@@ -86,7 +88,7 @@ export default function Catalogue({ route, id }: { route: CatalogueRoute; id?: s
   const filtered = profiles.filter(profile => matchesSearch(profile) && matchesFilters(profile) && (route !== 'countries' || !category || profile.metadata.category === category));
   return <div className={`${a.container} ${a.pageContent}`}>
     <div className={s.intro}><h1>{heading}</h1>{descriptions[catalogueRoutes[route]] ? <p>{descriptions[catalogueRoutes[route]]}</p> : null}</div>
-    {profiles.length === 0 ? <div className={a.catalogueEmpty}><h2>No {route} added yet.</h2><p>There are no {catalogueRoutes[route]} profiles to explore here yet. In the meantime, get to know the values that underpin the site.</p><a className={a.primaryButton} href="#/?section=values">Explore the 15 values</a></div> : <>
+    {profiles.length === 0 ? <div className={a.catalogueEmpty}><h2>No {route} added yet.</h2><p>There are no {catalogueRoutes[route]} profiles to explore here yet. In the meantime, get to know the values that underpin the site.</p><a className={a.primaryButton} href={routeHref("#/?section=values")}>Explore the 15 values</a></div> : <>
       <div className={s.browseToolbar}>
       <label className={s.search}><span className={s.visuallyHidden}>Search {heading.toLowerCase()}</span><input type="search" placeholder={`Search ${heading.toLowerCase()}`} value={query} onChange={event => setQuery(event.target.value)} /></label>
       <div className={s.filterToolbar}>

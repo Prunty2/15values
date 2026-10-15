@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import SimilarityRing from '../components/SimilarityRing';
 import FittedHeading from '../components/FittedHeading';
 import { useEffect, useState, type CSSProperties } from 'react';
@@ -76,7 +77,7 @@ export function ProfileOverview({ result, state, compact = false }: { result: Qu
     <section className={`${a.exampleResult} ${s.comparison}`} aria-label="Result comparisons">
       <div className={a.resultHeader}>
         <div className={`${a.resultIdeology} ${s.ideologyCopy}`}><span className={a.positionBadge}>{centrist ? 'Your result' : `Closest ${matched.length > 1 ? 'ideologies' : 'ideology'}`}</span>
-          {centrist ? <><h2>Centrism</h2><p>Your answers place every axis at its midpoint.</p></> : matched.length ? matched.map(profile => <FittedHeading key={profile.id} className={s.fittedHeading}><a href={'#/ideologies/' + profile.id}>{profile.metadata.name}</a></FittedHeading>) : <><h2>Comparison unavailable</h2><p role={state.error ? 'alert' : 'status'}>{status}</p>{state.error ? <button className={a.primaryButton} onClick={state.retry}>Try again</button> : null}</>}
+          {centrist ? <><h2>Centrism</h2><p>Your answers place every axis at its midpoint.</p></> : matched.length ? matched.map(profile => <FittedHeading key={profile.id} className={s.fittedHeading}><a href={routeHref('#/ideologies/' + profile.id)}>{profile.metadata.name}</a></FittedHeading>) : <><h2>Comparison unavailable</h2><p role={state.error ? 'alert' : 'status'}>{status}</p>{state.error ? <button className={a.primaryButton} onClick={state.retry}>Try again</button> : null}</>}
         </div>
         {match ? <SimilarityRing percentage={100 - match.meanAbsoluteDistance} /> : null}
       </div>
@@ -87,7 +88,7 @@ export function ProfileOverview({ result, state, compact = false }: { result: Qu
             {match.profiles.map(profile => profile.metadata.image ? <img key={profile.id} className={`${s.matchImage} ${kind === 'country' ? s.flagImage : ''}`} src={import.meta.env.BASE_URL + profile.metadata.image.path} alt={profile.metadata.image.alt} loading="lazy" /> : null)}
           </div> : <div className={s.placeholderIcon} aria-hidden="true">{kind === 'personality' ? <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="16" cy="11" r="5" /><path d="M6 28v-3a10 10 0 0 1 20 0v3" /></svg> : <ValueIcon value="Internationalism" />}</div>}
           <div className={a.comparisonCopy}><span className={a.comparisonLabel}>Most compatible {kind}</span>
-            {match ? <>{match.profiles.map(profile => <h3 key={profile.id}><a href={'#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id}>{profile.metadata.name}</a></h3>)}</> : <><h3>{centrist && state.profiles && !state.error ? 'No close match' : 'Comparison unavailable'}</h3><span>{state.error ? 'Profile comparisons could not be loaded.' : state.profiles && centrist ? 'No compatible ' + kind + ' assessment is within 15 percentage points of the midpoint on every axis.' : state.profiles ? 'No compatible ' + kind + ' assessments meet this result’s version' + (kind === 'country' ? ' and displayed ideology religion' : '') + ' requirements.' : 'Loading ' + kind + ' comparisons…'}</span></>}
+            {match ? <>{match.profiles.map(profile => <h3 key={profile.id}><a href={routeHref('#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id)}>{profile.metadata.name}</a></h3>)}</> : <><h3>{centrist && state.profiles && !state.error ? 'No close match' : 'Comparison unavailable'}</h3><span>{state.error ? 'Profile comparisons could not be loaded.' : state.profiles && centrist ? 'No compatible ' + kind + ' assessment is within 15 percentage points of the midpoint on every axis.' : state.profiles ? 'No compatible ' + kind + ' assessments meet this result’s version' + (kind === 'country' ? ' and displayed ideology religion' : '') + ' requirements.' : 'Loading ' + kind + ' comparisons…'}</span></>}
           </div>
           {match ? <SimilarityRing percentage={100 - match.meanAbsoluteDistance} className={s.profileRing} /> : null}
         </div>;
@@ -107,7 +108,7 @@ export function ProfileOverview({ result, state, compact = false }: { result: Qu
 export function ResultAxes({ result, compact = false, comparisons = [], picker, onRemove }: { result: Pick<QuizResult, 'scores'> & Partial<Pick<QuizResult, 'axesVersion'>>; compact?: boolean; comparisons?: Profile[]; picker?: React.ReactNode; onRemove?: (profile: Profile) => void }) {
   return <section className={`${s.axes} ${compact ? s.compact : ''}`} aria-labelledby="axes-results-title">
     <div className={s.sectionHeading}><span>— Political axes</span><h2 id="axes-results-title">Percentage result per axis</h2>{picker}</div>
-    {comparisons.length ? <ul className={s.legend} aria-label="Compared profiles"><li><i className={s.yourDot} />You</li>{comparisons.map((profile, index) => <li key={profile.catalogue + '/' + profile.id}><i style={{ background: comparisonColour(profile) }}>{index + 1}</i><a href={'#/' + (profile.catalogue === 'ideology' ? 'ideologies' : 'personalities') + '/' + profile.id}>{profile.metadata.name}</a><span>{similarity(result.scores, profile.scores).toFixed(1)}% similarity</span><button aria-label={'Remove ' + profile.metadata.name + ' comparison'} onClick={() => onRemove?.(profile)}>×</button></li>)}</ul> : null}
+    {comparisons.length ? <ul className={s.legend} aria-label="Compared profiles"><li><i className={s.yourDot} />You</li>{comparisons.map((profile, index) => <li key={profile.catalogue + '/' + profile.id}><i style={{ background: comparisonColour(profile) }}>{index + 1}</i><a href={routeHref('#/' + (profile.catalogue === 'ideology' ? 'ideologies' : 'personalities') + '/' + profile.id)}>{profile.metadata.name}</a><span>{similarity(result.scores, profile.scores).toFixed(1)}% similarity</span><button aria-label={'Remove ' + profile.metadata.name + ' comparison'} onClick={() => onRemove?.(profile)}>×</button></li>)}</ul> : null}
     <div>{axesForVersion(result.axesVersion).map((axis, index) => {
       const score = result.scores.find(score => score.axisId === axis.id)!;
       const label = tendency(score);

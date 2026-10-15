@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import type { CSSProperties } from 'react';
 import type { Profile } from './types';
 import { ideologyGroup } from './ideologyGroups';
@@ -12,8 +13,8 @@ export default function CountryHeader({ profile, profiles }: { profile: Profile;
   const ideology = historical?.ideology ?? profiles.find(candidate => candidate.catalogue === 'ideology' && candidate.id === profile.closestIdeology?.ideologies[0]?.id);
   return <div className={s.graphic} style={{ '--profile-color': ideology ? ideologyGroup(ideology).color : 'var(--accent)' } as CSSProperties}>
     <nav className={s.breadcrumb} aria-label="Breadcrumb">
-      <a href="#/">Home</a><span aria-hidden="true">/</span>
-      <a href="#/countries" aria-label="All countries">Countries</a><span aria-hidden="true">/</span>
+      <a href={routeHref("#/")}>Home</a><span aria-hidden="true">/</span>
+      <a href={routeHref("#/countries")} aria-label="All countries">Countries</a><span aria-hidden="true">/</span>
       <span aria-current="page">{metadata.name}</span>
     </nav>
     <header className={s.hero}>

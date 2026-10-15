@@ -1,3 +1,4 @@
+const cleanHref = (value: string) => { if (!value.startsWith('#/')) return value; const [path, query] = value.slice(2).split('?'); return '/15values/' + path + (path ? '/' : '') + (query ? '?' + query : ''); };
 import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 import { axes, AXES_VERSION, QUESTION_BANK_VERSION, SCORING_VERSION, scoreAnswers, selectQuestions } from '../src/quiz/model';
@@ -36,14 +37,14 @@ test('profile layout, all endpoints, help controls and complementary percentages
   const quote = page.getByRole('region', { name: 'Ideology perspective' });
   expect(Math.abs((await comparisons.boundingBox())!.width - (await quote.boundingBox())!.width)).toBeLessThan(1);
   for (const ideology of match.ideologies) {
-    await expect(comparisons.getByRole('link', { name: ideology.name, exact: true })).toHaveAttribute('href', '#/ideologies/' + ideology.id);
+    await expect(comparisons.getByRole('link', { name: ideology.name, exact: true })).toHaveAttribute('href', cleanHref('#/ideologies/' + ideology.id));
   }
   await expect(comparisons.getByText((100 - match.meanAbsoluteDistance).toFixed(1) + '%', { exact: true })).toBeVisible();
   for (const kind of ['personality', 'country'] as const) {
     const match = matchResultProfiles(result, profiles, kind)!;
     const row = comparisons.locator('[aria-label="Most compatible ' + kind + '"]');
     for (const profile of match.profiles) {
-      await expect(row.getByRole('link', { name: profile.metadata.name, exact: true })).toHaveAttribute('href', '#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id);
+      await expect(row.getByRole('link', { name: profile.metadata.name, exact: true })).toHaveAttribute('href', cleanHref('#/' + (kind === 'personality' ? 'personalities' : 'countries') + '/' + profile.id));
     }
     await expect(row.getByRole('img', { name: (100 - match.meanAbsoluteDistance).toFixed(1) + '% similarity across 15 axes', exact: true })).toBeVisible();
   }
@@ -222,7 +223,7 @@ test('searchable comparison picker scrolls, supports keyboard selection and comp
   await search.press('Enter');
   await expect(page.locator('article span[title]')).toHaveCount(30);
   await page.getByRole('article', { name: axes[0].name, exact: true }).scrollIntoViewIfNeeded();
-  await expect(legend.getByRole('link', { name: personality.metadata.name })).toHaveAttribute('href', '#/personalities/' + personality.id);
+  await expect(legend.getByRole('link', { name: personality.metadata.name })).toHaveAttribute('href', cleanHref('#/personalities/' + personality.id));
   for (const width of [1440, 390, 320]) {
     await page.setViewportSize({ width, height: 900 });
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);

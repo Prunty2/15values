@@ -15,8 +15,8 @@ test('identity preferences prevent Meritocracy even with identical axis scores',
     await page.reload();
     await expect(page.getByRole('heading', { name: 'Your perspective profile.' })).toBeVisible();
     const card = page.getByRole('region', { name: 'Result comparisons' });
-    await expect(card.locator('a[href^="#/ideologies/"]').first()).toBeVisible();
-    const link = card.locator('a[href="#/ideologies/meritocracy"]');
+    await expect(card.locator('a[href*="/ideologies/"]').first()).toBeVisible();
+    const link = card.locator('a[href="/15values/ideologies/meritocracy/"]');
     if (preference > 0) await expect(link).toHaveCount(0);
     else await expect(link.first()).toBeVisible();
   }
@@ -25,9 +25,9 @@ test('identity preferences prevent Meritocracy even with identical axis scores',
 test('Harris displays a compatible alternative and no Meritocracy similarity card', async ({ page }) => {
   await page.goto('./#/personalities/kamala-harris');
   await expect(page.getByRole('heading', { name: 'Kamala Harris', exact: true })).toBeVisible();
-  await expect(page.locator('a[href="#/ideologies/meritocracy"]')).toHaveCount(0);
+  await expect(page.locator('a[href="/15values/ideologies/meritocracy/"]')).toHaveCount(0);
   const harris = profiles.find(profile => profile.id === 'kamala-harris')!;
-  for (const match of harris.closestIdeology!.ideologies) await expect(page.locator(`a[href="#/ideologies/${match.id}"]`).first()).toBeVisible();
+  for (const match of harris.closestIdeology!.ideologies) await expect(page.locator(`a[href="/15values/ideologies/${match.id}/"]`).first()).toBeVisible();
 });
 
 test('one disagreement about the state blocks an otherwise identical anarchist match', async ({ page }) => {
@@ -39,8 +39,8 @@ test('one disagreement about the state blocks an otherwise identical anarchist m
     await page.goto('./#/results?id=fringe-browser');
     await page.reload();
     const card = page.getByRole('region', { name: 'Result comparisons' });
-    await expect(card.locator('a[href^="#/ideologies/"]').first()).toBeVisible();
-    const link = card.locator('a[href="#/ideologies/anarcho-capitalism"]');
+    await expect(card.locator('a[href*="/ideologies/"]').first()).toBeVisible();
+    const link = card.locator('a[href="/15values/ideologies/anarcho-capitalism/"]');
     if (state < 0) await expect(link).toHaveCount(0);
     else await expect(link.first()).toBeVisible();
   }

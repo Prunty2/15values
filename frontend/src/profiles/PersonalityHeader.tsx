@@ -1,3 +1,4 @@
+import { routeHref } from '../navigation';
 import { useLayoutEffect, useRef, type CSSProperties } from 'react';
 import type { Profile } from './types';
 import { personalityGroup } from './personalityGroups';
@@ -37,7 +38,7 @@ function MatchName({ children }: { children: string }) {
 export function IdeologyMatchCard({ profile, match = profile.closestIdeology }: { profile: Profile; match?: Profile['closestIdeology'] }) {
   return <div className={s.matchCard}>
               <dt className={s.srOnly}>Ideology</dt>
-              <dd>{match ? match.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={`#/ideologies/${ideology.id}`}>
+              <dd>{match ? match.ideologies.map(ideology => <a className={s.matchLink} key={ideology.id} href={routeHref(`#/ideologies/${ideology.id}`)}>
                 <span className={s.matchIcon} aria-hidden="true">{ideology.id === 'christian-accelerationism' ? <svg data-ideology-icon="cross" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinejoin="round"><path d="M10 3h4v5h5v4h-5v9h-4v-9H5V8h5Z" /></svg> : <ValueIcon value="Democracy" />}</span>
                 <MatchName>{ideology.name}</MatchName>
               </a>) : profile.withdrawal ? 'Unavailable' : 'No match available'}</dd>
@@ -52,8 +53,8 @@ export default function PersonalityHeader({ profile, profiles }: { profile: Prof
   const people = similarPersonalities(profile, profiles);
   return <div className={s.graphic} style={{ '--profile-color': group.color } as CSSProperties}>
     <nav className={s.breadcrumb} aria-label="Breadcrumb">
-      <a href="#/">Home</a><span aria-hidden="true">/</span>
-      <a href="#/personalities" aria-label="All personalities">Personalities</a><span aria-hidden="true">/</span>
+      <a href={routeHref("#/")}>Home</a><span aria-hidden="true">/</span>
+      <a href={routeHref("#/personalities")} aria-label="All personalities">Personalities</a><span aria-hidden="true">/</span>
       <span aria-current="page">{metadata.name}</span>
     </nav>
     <header className={`${s.hero} ${!image ? s.withoutPortrait : ''}`}>
@@ -71,7 +72,7 @@ export default function PersonalityHeader({ profile, profiles }: { profile: Prof
             <IdeologyMatchCard profile={profile} />
             <div className={s.matchCard}>
               <dt className={s.srOnly}>Personality</dt>
-              <dd>{people.length ? people.map(({ profile: person }) => <a className={s.matchLink} key={person.id} href={`#/personalities/${person.id}`}>
+              <dd>{people.length ? people.map(({ profile: person }) => <a className={s.matchLink} key={person.id} href={routeHref(`#/personalities/${person.id}`)}>
                 {person.metadata.image ? <img className={s.matchPortrait} src={`${import.meta.env.BASE_URL}${person.metadata.image.path}`} alt="" loading="lazy" /> : <span className={s.matchIcon} aria-hidden="true">{person.metadata.name.split(/\s+/).map(word => word[0]).slice(0, 2).join('')}</span>}
                 <MatchName>{person.metadata.name}</MatchName>
               </a>) : profile.withdrawal ? 'Unavailable' : 'No match available'}</dd>
